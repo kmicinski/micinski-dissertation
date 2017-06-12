@@ -1,0 +1,9 @@
+
+
+Medians <- read.csv(commandArgs()[1])
+locations <- levels(Medains$location)
+
+
+for i in 1:length(locations) {
+central_diff    
+}

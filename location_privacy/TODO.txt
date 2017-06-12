@@ -1,0 +1,113 @@
+Paper todo list
+---------------
+
+General roadmap of the paper:
+
+- Location privacy is important
+
+- Discuss apps and threat model
+
+- Use Dr. Android and Mr. Hide to secure user's location.
+
+- Explain algorithm to do this:
+
+ - naive / traditional algorithm uses a grid to obscure locations.
+ - We implemented this method in Mr. Hide
+ - 
+
+- Proof of our new skewing method.
+
+- Utility analysis
+  
+  - We used troyd on a set of apps and compared our implementation of
+    the algorithm to ensure the apps were not changed too much.
+  -
+
+- Experiments
+
+  - Different metrics:
+    - Edit distance, *with* taking a bounded piece of the list (only
+      one or two screens)
+    - How much farther do you have to go in the new version of the list.
+
+  - Comparison across different regions based on population density.
+  
+  - Comparison across different apps because of properties of the apps
+    (different density of gas stations, etc..)
+
+Proposed outline:
+  1. Introduction
+
+  2. Motivation, Dr. Android and Mr. Hide:
+    - List of things.
+    - ...
+    
+  3. Formalism
+  
+  4. Experiments
+  
+  5. Related work 
+  
+  6. Conclusion.
+
+
+Advice or learning best use:
+  
+  - Jeff, what do you think of this..?
+
+  - Present algorithm based on the following: Test at points in
+    - different cities using our technique Algorithm uses some
+    - learning strategy (/genetic programming):
+      - based on boolean combinations of context (population density of current area, app
+    parameters, acceptable error to user)
+      - to give implement within  Mr. Hide an automatically adjusting error metric which will
+    constantly be maximizing the user's privacy.
+    
+  - I think this would be a powerful argument, having a static value
+    you plug in for skew seems sort of dumb, adjusting skew and grid
+    in combo seems better, what do you think?
+
+Related work
+
+  - Modeling user privacy
+  - some other stuff...
+
+Conclusion:
+
+  - We can use Mr. Hide to secure user's location, using the
+    traditional mechanisms is fine, but our new method can provably
+    ensure the user is protected to some higher degree.
+
+
+Firm TODOs:
+
+- Adjust scripts to calculate statistics and generate plots for *all*
+  apps.
+
+- Implement other metrics in apps.
+
+- Write section in paper concerning different utility metrics, based
+  on lists and raw numbers (for weather, using integer difference).
+
+- Come up with amazing new idea and proof for paper based on thereat
+  model.
+
+What Kris is working on:
+
+- Saturday night: writing up argument for one dimensional case of user
+  privacy in the initial model based upon threat model.
+
+- Saturday night: checking whether Buzz is usable for larger sets of
+  tests.
+
+- Saturday night: Scripts need to work on the other apps too.
+  (Expecting that I will find stupid things about other apps too, may
+  have to do fixups.)
+
+- Sunday morning: Modifying scripts to implement new metrics (will
+  probably be pushed to Sunday morning)
+
+- Need to make figures explaining areas analysis: using Ipe to draw PS
+  based figures for paper.  (I can export to PDF so Jeff can view, the
+  pstrics metadata resides within PDF comments, but I can't use
+  omnigraffl on Linux, unfortunately.)

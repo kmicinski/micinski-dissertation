@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40595e88
+android.widget.LinearLayout@40596938
+android.widget.FrameLayout@40596be8
+android.widget.ImageView@40596e98
+android.widget.RelativeLayout@40597330
+android.widget.ImageButton@40597940
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059aff0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d400
+android.widget.LinearLayout@4059d7a8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059efa0
+android.widget.LinearLayout@4058e890
+android.widget.TextView: Locations
+android.widget.ScrollView@4052d5e8
+android.widget.TableLayout@40514240
+android.widget.TableRow@4061dcc8
+android.widget.ImageView@4061e958
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 0.71 mi
+android.widget.TableRow@4061feb8
+android.widget.ImageView@40622428
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 0.72 mi
+android.widget.TableRow@40623410
+android.widget.ImageView@406238b8
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 1.74 mi
+android.widget.TableRow@4054afa8
+android.widget.ImageView@4054b3f0
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 1.74 mi
+android.widget.TableRow@4054c3d8
+android.widget.ImageView@4054c880
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 1.86 mi
+android.widget.TableRow@4054d868
+android.widget.ImageView@4054dd38
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 1.88 mi
+android.widget.TableRow@4054ed38
+android.widget.ImageView@4054f1e0
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.17 mi
+android.widget.TableRow@405501c8
+android.widget.ImageView@40550670
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.17 mi
+android.widget.TableRow@40551658
+android.widget.ImageView@40551b00
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 2.93 mi
+android.widget.TableRow@405397e8
+android.widget.ImageView@40539c90
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 2.93 mi
+android.widget.TableRow@4053ac68
+android.widget.ImageView@4053b110
+android.widget.TextView: 1476 Broad Street (Broad Street Extension)
+android.widget.TextView: 3.18 mi
+android.widget.TableRow@4053c0f8
+android.widget.ImageView@4053c5a0
+android.widget.TextView: 1476 Broad Street
+android.widget.TextView: 3.19 mi
+android.widget.TableRow@4053d588
+android.widget.ImageView@4053da30
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 3.44 mi
+android.widget.TableRow@405895b8
+android.widget.ImageView@40589a60
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 3.44 mi
+android.widget.TableRow@4058aa48
+android.widget.ImageView@4058aef0
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 3.86 mi
+android.widget.TableRow@4058bed8
+android.widget.ImageView@4058c380
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 3.89 mi
+android.widget.TableRow@4058d368
+android.widget.ImageView@4058d810
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 4.68 mi
+android.widget.TableRow@4053e8c8
+android.widget.ImageView@4053ed70
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 4.70 mi
+android.widget.TableRow@4053fd58
+android.widget.ImageView@40540200
+android.widget.TextView: 185 S Livingston Avenue
+android.widget.TextView: 4.72 mi
+android.widget.TableRow@40541280
+android.widget.ImageView@40541728
+android.widget.TextView: 185 S Livingston Avenue
+android.widget.TextView: 4.75 mi
+android.widget.FrameLayout@405b7190
+android.widget.ImageView@40518e10
+android.widget.Button: Filter
+android.widget.LinearLayout@40558178
+android.widget.FrameLayout@40562090
+android.widget.ImageView@40563f08
+android.widget.Button: Filter
+android.widget.FrameLayout@40599b90
+android.widget.Button: Done
+android.widget.FrameLayout@406350e0
+android.widget.ImageView@4052e7a8
+android.widget.TextView: Stores
+android.widget.ImageView@40552e70
+android.widget.FrameLayout@405b54f0
+android.widget.ImageView@4055fbc0
+android.widget.TextView: ATMs
+android.widget.ImageView@405ba898
+android.widget.FrameLayout@40595e88
+android.widget.LinearLayout@40596938
+android.widget.FrameLayout@40596be8
+android.widget.ImageView@40596e98
+android.widget.RelativeLayout@40597330
+android.widget.ImageButton@40597940
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059aff0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d400
+android.widget.LinearLayout@4059d7a8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059efa0
+android.widget.LinearLayout@4058e890
+android.widget.TextView: Locations
+android.widget.ScrollView@4052d5e8
+android.widget.TableLayout@40514240
+android.widget.TableRow@4061dcc8
+android.widget.ImageView@4061e958
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 0.71 mi
+android.widget.TableRow@4061feb8
+android.widget.ImageView@40622428
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 0.72 mi
+android.widget.TableRow@40623410
+android.widget.ImageView@406238b8
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 1.74 mi
+android.widget.TableRow@4054afa8
+android.widget.ImageView@4054b3f0
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 1.74 mi
+android.widget.TableRow@4054c3d8
+android.widget.ImageView@4054c880
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 1.86 mi
+android.widget.TableRow@4054d868
+android.widget.ImageView@4054dd38
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 1.88 mi
+android.widget.TableRow@4054ed38
+android.widget.ImageView@4054f1e0
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.17 mi
+android.widget.TableRow@405501c8
+android.widget.ImageView@40550670
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.17 mi
+android.widget.TableRow@40551658
+android.widget.ImageView@40551b00
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 2.93 mi
+android.widget.TableRow@405397e8
+android.widget.ImageView@40539c90
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 2.93 mi
+android.widget.TableRow@4053ac68
+android.widget.ImageView@4053b110
+android.widget.TextView: 1476 Broad Street (Broad Street Extension)
+android.widget.TextView: 3.18 mi
+android.widget.TableRow@4053c0f8
+android.widget.ImageView@4053c5a0
+android.widget.TextView: 1476 Broad Street
+android.widget.TextView: 3.19 mi
+android.widget.TableRow@4053d588
+android.widget.ImageView@4053da30
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 3.44 mi
+android.widget.TableRow@405895b8
+android.widget.ImageView@40589a60
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 3.44 mi
+android.widget.TableRow@4058aa48
+android.widget.ImageView@4058aef0
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 3.86 mi
+android.widget.TableRow@4058bed8
+android.widget.ImageView@4058c380
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 3.89 mi
+android.widget.TableRow@4058d368
+android.widget.ImageView@4058d810
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 4.68 mi
+android.widget.TableRow@4053e8c8
+android.widget.ImageView@4053ed70
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 4.70 mi
+android.widget.TableRow@4053fd58
+android.widget.ImageView@40540200
+android.widget.TextView: 185 S Livingston Avenue
+android.widget.TextView: 4.72 mi
+android.widget.TableRow@40541280
+android.widget.ImageView@40541728
+android.widget.TextView: 185 S Livingston Avenue
+android.widget.TextView: 4.75 mi
+android.widget.FrameLayout@405b7190
+android.widget.ImageView@40518e10
+android.widget.Button: Filter
+android.widget.LinearLayout@40558178
+android.widget.FrameLayout@40562090
+android.widget.ImageView@40563f08
+android.widget.Button: Filter
+android.widget.FrameLayout@40599b90
+android.widget.Button: Done
+android.widget.FrameLayout@406350e0
+android.widget.ImageView@4052e7a8
+android.widget.TextView: Stores
+android.widget.ImageView@40552e70
+android.widget.FrameLayout@405b54f0
+android.widget.ImageView@4055fbc0
+android.widget.TextView: ATMs
+android.widget.ImageView@405ba898
+android.widget.FrameLayout@40595e88
+android.widget.LinearLayout@40596938
+android.widget.FrameLayout@40596be8
+android.widget.ImageView@40596e98
+android.widget.RelativeLayout@40597330
+android.widget.ImageButton@40597940
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059aff0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d400
+android.widget.LinearLayout@4059d7a8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059efa0
+android.widget.LinearLayout@4058e890
+android.widget.TextView: Locations
+android.widget.ScrollView@4052d5e8
+android.widget.TableLayout@40514240
+android.widget.TableRow@4061dcc8
+android.widget.ImageView@4061e958
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 0.71 mi
+android.widget.TableRow@4061feb8
+android.widget.ImageView@40622428
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 0.72 mi
+android.widget.TableRow@40623410
+android.widget.ImageView@406238b8
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 1.74 mi
+android.widget.TableRow@4054afa8
+android.widget.ImageView@4054b3f0
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 1.74 mi
+android.widget.TableRow@4054c3d8
+android.widget.ImageView@4054c880
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 1.86 mi
+android.widget.TableRow@4054d868
+android.widget.ImageView@4054dd38
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 1.88 mi
+android.widget.TableRow@4054ed38
+android.widget.ImageView@4054f1e0
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.17 mi
+android.widget.TableRow@405501c8
+android.widget.ImageView@40550670
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.17 mi
+android.widget.TableRow@40551658
+android.widget.ImageView@40551b00
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 2.93 mi
+android.widget.TableRow@405397e8
+android.widget.ImageView@40539c90
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 2.93 mi
+android.widget.TableRow@4053ac68
+android.widget.ImageView@4053b110
+android.widget.TextView: 1476 Broad Street (Broad Street Extension)
+android.widget.TextView: 3.18 mi
+android.widget.TableRow@4053c0f8
+android.widget.ImageView@4053c5a0
+android.widget.TextView: 1476 Broad Street
+android.widget.TextView: 3.19 mi
+android.widget.TableRow@4053d588
+android.widget.ImageView@4053da30
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 3.44 mi
+android.widget.TableRow@405895b8
+android.widget.ImageView@40589a60
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 3.44 mi
+android.widget.TableRow@4058aa48
+android.widget.ImageView@4058aef0
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 3.86 mi
+android.widget.TableRow@4058bed8
+android.widget.ImageView@4058c380
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 3.89 mi
+android.widget.TableRow@4058d368
+android.widget.ImageView@4058d810
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 4.68 mi
+android.widget.TableRow@4053e8c8
+android.widget.ImageView@4053ed70
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 4.70 mi
+android.widget.TableRow@4053fd58
+android.widget.ImageView@40540200
+android.widget.TextView: 185 S Livingston Avenue
+android.widget.TextView: 4.72 mi
+android.widget.TableRow@40541280
+android.widget.ImageView@40541728
+android.widget.TextView: 185 S Livingston Avenue
+android.widget.TextView: 4.75 mi
+android.widget.FrameLayout@405b7190
+android.widget.ImageView@40518e10
+android.widget.Button: Filter
+android.widget.LinearLayout@40558178
+android.widget.FrameLayout@40562090
+android.widget.ImageView@40563f08
+android.widget.Button: Filter
+android.widget.FrameLayout@40599b90
+android.widget.Button: Done
+android.widget.FrameLayout@406350e0
+android.widget.ImageView@4052e7a8
+android.widget.TextView: Stores
+android.widget.ImageView@40552e70
+android.widget.FrameLayout@405b54f0
+android.widget.ImageView@4055fbc0
+android.widget.TextView: ATMs
+android.widget.ImageView@405ba898

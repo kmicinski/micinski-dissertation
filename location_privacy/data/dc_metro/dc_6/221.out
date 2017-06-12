@@ -1,0 +1,42 @@
+android.widget.FrameLayout@40568f10
+android.widget.TabHost@40569b20
+android.widget.LinearLayout@40569e30
+android.widget.LinearLayout@4062fcf8
+android.widget.LinearLayout@40675e48
+android.widget.ImageView@406762d0
+android.widget.ImageButton@406764f8
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4067e318
+android.widget.ProgressBar@4067f0e0
+android.widget.ImageButton@4067f8b0
+android.widget.TabWidget@406301b8
+android.widget.LinearLayout@40678050
+android.widget.ImageView@40679e98
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4067beb0
+android.widget.ImageView@4067c4b0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40606748
+android.view.View@4067d820
+android.widget.ImageView@406069f8
+android.widget.TextView: Approx Address (within 0.0 meters)
+4310 Knox Rd
+College Park, Maryland 20740
+android.widget.ImageView@40594268
+com.jazzmoonstudio.android.common.view.CustomViewPager@405952c8
+android.support.v4.app.y@4055c888
+android.widget.LinearLayout@40685e88
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40686988
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4057b148
+android.widget.ImageView@40634d08
+android.widget.TextView: College Park-U of MD
+android.widget.TextView: Approx: 0.74 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405d6948
+android.support.v4.app.y@4057a130
+android.widget.LinearLayout@405bc020
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4050cdb8
+android.widget.FrameLayout@406744c0
+com.millennialmedia.android.MMAdView@40674780
+android.webkit.WebView@40680bf8

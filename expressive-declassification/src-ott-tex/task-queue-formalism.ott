@@ -1,0 +1,177 @@
+ %%
+%% Formalism of Android interaction using explicit messages and task
+%% queues.  We include reduction semantics and a type system (which
+%% shows that messages and handlers on the queue don't get stuck).
+%% 
+
+metavar x,y  ::= {{ com variable }} {{ lex alphanum }} 
+metavar s ::= {{ com symbolic variable }}
+metavar f ::= {{ com function }}
+metavar ch ::= {{ com channel name }}
+metavar addr ::= {{ com address }}
+metavar P,Q,R ::= {{ com process }}
+metavar H ::= {{ com Handler map }}
+metavar Ty ::= {{ com Type }}
+metavar A  ::= {{ com base type }}
+metavar nat ::= {{ com constant }} {{ lex numeral }}
+metavar dc  ::= {{ com declassification channel name  }}
+metavar n,j,l  ::= {{ com integer }} {{ lex numeral }}
+metavar op ::= {{ com operator }}
+metavar ty ::= {{ com type }} {{ tex \tau }}
+metavar v ::= {{ com value }}
+indexvar i ::= {{ hol num }} {{ coq nat }} 
+
+%% -------------------------------------------------------------------
+%% Programs
+%% -------------------------------------------------------------------
+
+grammar
+
+%% terminal symbols
+terminals :: 'terminals_' ::=
+  | \                   ::   :: lambda     {{ tex \lambda }}
+  | -->                 ::   :: red        {{ tex \longrightarrow }}
+  | ->                  ::   :: arrow      {{ tex \rightarrow }}
+  | <-                  ::   :: larrow      {{ tex \leftarrow }}
+  | |-                  ::   :: turnstile  {{ tex \vdash }}
+  | -o                  ::   :: lollipop   {{ tex \multimap }}
+  | |>                  ::   :: handle     {{ tex \triangleright }} 
+  | |->                 ::   :: mapsto     {{ tex \mapsto }}
+  | <                   ::   :: langle     {{ tex \langle }}
+  | >                   ::   :: rangle     {{ tex \rangle }}
+  | join                ::   :: join       {{ tex \sqcup }}
+  | meet                ::   :: meet       {{ tex \sqcap }}
+  | empty               ::   :: empty      {{ tex \emptyset }}
+  | emptylst            ::   :: epsilonlst {{ tex \epsilon }}
+  | emptyctx            ::   :: epsilon    {{ tex \epsilon }}
+  | tau                 ::   :: tau        {{ tex \tau }}
+  | =>                  ::   :: downarrow  {{ tex \Downarrow }}
+
+%% -------------------------------------------------------------------
+%% Terms
+%% -------------------------------------------------------------------
+
+prim :: 'prim_' ::= {{ com Primitives }}
+  | x                         ::  :: PSym {{ com Symbolic value }}
+  | n                         ::  :: PNum {{ com Number }}
+  | f ( prim1 , ... , primi ) ::  :: PCnstr {{ com Constructed value }}
+
+val :: 'value_' ::= {{ com Values }}
+  | p          ::  :: VPrim {{ com Primivite }}            
+  | l          ::  :: VLoc  {{ com Location }}  
+  | \ x . expr ::  :: VComp {{ com Computation }}
+  | ( val )    :: M:: VParen
+  
+cstr :: 'cstr_' ::= {{ com Constructors }}
+  | none :: :: None
+  | some :: :: Some
+  | unit :: :: Unit
+
+expr :: 'expr_' ::= {{ com Expressions }}
+  | val                  ::  :: EVal
+  | x                    ::  :: EVar
+  | expr1 expr2          ::  :: EApp
+  | ref expr             ::  :: ERef
+  | expr1 := expr2       ::  :: EAsn
+  | ! expr               ::  :: EDeref
+%%  | case e of { f1 ( x11, ..., x1n ) -> e1 , ... , fn ( xk1, ..., xkn ) -> en } :: :: ECase
+  | install ch expr      ::  :: EInstall
+  | send ch expr         ::  :: ESend
+  | { x |-> expr } expr' :: M:: Esub
+
+mqueue :: 'mqueue_' ::=
+  | empty                  :: :: MEmpty
+  | ( ch , prim ) , mqueue :: :: MCons
+
+heap :: 'heap_' ::=
+  | empty               :: :: HEmpty
+  | ( l , prim ) , heap :: :: HCons
+  | sigma . heap        :: :: HSigmaDeref
+  | heap [ l |-> prim ] :: :: HSet
+
+hmap :: 'hmap_' ::=
+  | empty                :: :: HMEmpty
+  | ( ch , expr ) , hmap :: :: HMCons
+
+msg :: 'msg_' ::=
+  | tau           :: :: MsgEmpty
+  | ch ? prim     :: :: MsgRead
+  | ch ! prim     :: :: MsgWrite
+
+sigma :: 'sigma_' ::= {{ com Machine state }}
+  | ( mqueue , heap , hmap )     :: :: Sigma
+  | sigma . heap [ l |-> v ]     :: :: Update
+  | sigma [ heap |-> heap' ]     :: :: HeapUpdate
+  | sigma [ mqueue |-> mqueue' ] :: :: MQUpdate
+  | sigma [ hmap |-> hmap' ]     :: :: HMUpdate
+
+formula :: formula_ ::=  
+  | judgement            :: :: judgement
+  | formula1 .. formulai :: :: dots  
+%  | ( formula )          ::M:: brackets
+  | formula = formula'   :: :: eq
+  | sigma                :: :: sigma
+  
+%%
+%% Evaluation relation
+%% 
+
+defns Evaluates :: '' ::= 
+
+defn
+expr , sigma1 => val , sigma2
+
+:: :: ereduces :: 'EEvalutes'
+{{ com Evalutes }}
+by
+
+-------------- :: RVal
+val , sigma => val , sigma
+
+expr1 , sigma1 => ( \ x . expr3 ) , sigma2
+expr2 , sigma2 => val1 , sigma3
+{ x |-> val1 } expr3 , sigma3 => val2 , sigma4
+--------------------------------------------- :: RApp
+expr1 expr2 , sigma1 => val2 , sigma4
+
+expr1 , sigma1 => val , sigma2
+sigma3 = sigma2 . sigma [ l |-> v ]
+---------------------------------------------- :: RRef
+ref e , sigma => l , sigma2 [ heap |-> heap' ]
+
+expr1 , sigma1 => val , sigma2 
+l in dom ( sigma2 . heap )
+e2 , sigma2 => v , sigma3
+sigma' = sigma2 . heap [ l |-> v ]
+-------------------------------------------------- :: RAssign
+e1 := e2 , sigma1 => v , sigma2 [ heap |-> heap' ]
+
+e , sigma1 => l , sigma2 
+sigma2 . heap ( l ) = v
+-------------------------- :: RDeref
+! e , sigma1 => v , sigma2
+
+%%e1 , sigma1 => f ( val1 , ... , vali ) , sigma2 
+
+e1 , sigma1 => 0 , sigma2 
+e2 , sigma2 => val , sigma3
+----------------------------------------------- :: RIfFalse
+if e1 then e2 else e3 , sigma1 => val , sigma 3
+
+e1 , sigma1 => n , sigma2 
+n <> 0
+e2 , sigma2 => val , sigma3
+----------------------------------------------- :: RIfTrue
+if e1 then e2 else e3 , sigma1 => val , sigma 3
+
+e1 , sigma1 => ( \ x . e2 ) , sigma2 
+H' = sigma2 . Hmap [ ch |-> ( \ x . e2 ) ]
+---------------------------------------------------- :: RInstall
+install ch e1 , sigma1 => unit , sigma2 [ H |-> H' ]
+
+e , sigma1 => p , sigma2
+M' = sigma2 . M , ( ch , p )
+------------------------------------------------ :: RSend
+send ch e , sigma1 => unit , sigma2 [ M |-> M' ]
+
+

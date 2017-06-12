@@ -1,0 +1,42 @@
+android.widget.FrameLayout@405aa550
+android.widget.TabHost@405ab160
+android.widget.LinearLayout@405ab470
+android.widget.LinearLayout@405ab848
+android.widget.LinearLayout@405b2c38
+android.widget.ImageView@405b30c0
+android.widget.ImageButton@405b32e8
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@405bb6f0
+android.widget.ProgressBar@405bc4b8
+android.widget.ImageButton@405bcc88
+android.widget.TabWidget@405abd08
+android.widget.LinearLayout@405b4e40
+android.widget.ImageView@405b6f88
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@405b8fa0
+android.widget.ImageView@405b95a0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@405ad748
+android.view.View@405ba910
+android.widget.ImageView@405ad9f8
+android.widget.TextView: Approx Address (within 0.0 meters)
+8169 E Beach Dr NW
+Washington, District of Columbia 20012
+android.widget.ImageView@405ae950
+com.jazzmoonstudio.android.common.view.CustomViewPager@405af9b0
+android.support.v4.app.y@406b6da8
+android.widget.LinearLayout@405c8328
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@405c8e28
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406f25d8
+android.widget.ImageView@406f27e8
+android.widget.TextView: Silver Spring
+android.widget.TextView: Approx: 0.61 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406f4158
+android.support.v4.app.y@406b8bb0
+android.widget.LinearLayout@406b79b8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@406b82d0
+android.widget.FrameLayout@405b12b0
+com.millennialmedia.android.MMAdView@405b1570
+android.webkit.WebView@405c2cf0

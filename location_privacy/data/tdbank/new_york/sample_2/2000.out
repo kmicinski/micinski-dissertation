@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40587950
+android.widget.LinearLayout@40588400
+android.widget.FrameLayout@405886b0
+android.widget.ImageView@40588960
+android.widget.RelativeLayout@40588df8
+android.widget.ImageButton@40589408
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058cab8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058eec8
+android.widget.LinearLayout@4058f270
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590a68
+android.widget.LinearLayout@4050da00
+android.widget.TextView: Locations
+android.widget.ScrollView@4050b2e0
+android.widget.TableLayout@406085d0
+android.widget.TableRow@4061e220
+android.widget.ImageView@4062a698
+android.widget.TextView: 150 55Th Street (Lutheran Medical Center)
+android.widget.TextView: 0.40 mi
+android.widget.TableRow@40635a20
+android.widget.ImageView@40574548
+android.widget.TextView: 6323 7Th Avenue (MJG-Corporate)
+android.widget.TextView: 0.92 mi
+android.widget.TableRow@40550b30
+android.widget.ImageView@4061b678
+android.widget.TextView: 987 Fourth Avenue (Sunset Park)
+android.widget.TextView: 1.28 mi
+android.widget.TableRow@4057bd28
+android.widget.ImageView@40525e50
+android.widget.TextView: 987 4Th Avenue
+android.widget.TextView: 1.30 mi
+android.widget.TableRow@4061c6e8
+android.widget.ImageView@40625570
+android.widget.TextView: 8206 Fifth Avenue (Bay Ridge)
+android.widget.TextView: 1.35 mi
+android.widget.TableRow@40614dc8
+android.widget.ImageView@40615270
+android.widget.TextView: 8206 Fifth Avenue
+android.widget.TextView: 1.35 mi
+android.widget.TableRow@4062e398
+android.widget.ImageView@4062e7d8
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 1.83 mi
+android.widget.TableRow@406306d0
+android.widget.ImageView@4061d360
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 1.83 mi
+android.widget.TableRow@40617cc0
+android.widget.ImageView@40618168
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.00 mi
+android.widget.TableRow@4061a4f8
+android.widget.ImageView@4061a9a0
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.00 mi
+android.widget.TableRow@4060c388
+android.widget.ImageView@4060f628
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 2.12 mi
+android.widget.TableRow@4062c578
+android.widget.ImageView@4062ca20
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 2.12 mi
+android.widget.TableRow@40654b20
+android.widget.ImageView@40654fc8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@406339f8
+android.widget.ImageView@40633ea0
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@4054f868
+android.widget.ImageView@4054fd10
+android.widget.TextView: 210-212 Prospect Park SW
+android.widget.TextView: 2.91 mi
+android.widget.TableRow@40629908
+android.widget.ImageView@40629db0
+android.widget.TextView: 210-212 Prospect Park SW
+android.widget.TextView: 2.91 mi
+android.widget.TableRow@406172e0
+android.widget.ImageView@40617788
+android.widget.TextView: 269 5Th Avenue
+android.widget.TextView: 3.16 mi
+android.widget.TableRow@40631c50
+android.widget.ImageView@406320f8
+android.widget.TextView: 269 5Th Avenue
+android.widget.TextView: 3.17 mi
+android.widget.TableRow@40623bc8
+android.widget.ImageView@40624070
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 3.34 mi
+android.widget.TableRow@406398d0
+android.widget.ImageView@40639d78
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 3.34 mi
+android.widget.FrameLayout@40574268
+android.widget.ImageView@40547108
+android.widget.Button: Filter
+android.widget.LinearLayout@4054ed68
+android.widget.FrameLayout@40582e40
+android.widget.ImageView@40557b20
+android.widget.Button: Filter
+android.widget.FrameLayout@4060b6b0
+android.widget.Button: Done
+android.widget.FrameLayout@40610da8
+android.widget.ImageView@4055c098
+android.widget.TextView: Stores
+android.widget.ImageView@40561170
+android.widget.FrameLayout@40614710
+android.widget.ImageView@405781c0
+android.widget.TextView: ATMs
+android.widget.ImageView@4057cb20
+android.widget.FrameLayout@40587950
+android.widget.LinearLayout@40588400
+android.widget.FrameLayout@405886b0
+android.widget.ImageView@40588960
+android.widget.RelativeLayout@40588df8
+android.widget.ImageButton@40589408
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058cab8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058eec8
+android.widget.LinearLayout@4058f270
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590a68
+android.widget.LinearLayout@4050da00
+android.widget.TextView: Locations
+android.widget.ScrollView@4050b2e0
+android.widget.TableLayout@406085d0
+android.widget.TableRow@4061e220
+android.widget.ImageView@4062a698
+android.widget.TextView: 150 55Th Street (Lutheran Medical Center)
+android.widget.TextView: 0.40 mi
+android.widget.TableRow@40635a20
+android.widget.ImageView@40574548
+android.widget.TextView: 6323 7Th Avenue (MJG-Corporate)
+android.widget.TextView: 0.92 mi
+android.widget.TableRow@40550b30
+android.widget.ImageView@4061b678
+android.widget.TextView: 987 Fourth Avenue (Sunset Park)
+android.widget.TextView: 1.28 mi
+android.widget.TableRow@4057bd28
+android.widget.ImageView@40525e50
+android.widget.TextView: 987 4Th Avenue
+android.widget.TextView: 1.30 mi
+android.widget.TableRow@4061c6e8
+android.widget.ImageView@40625570
+android.widget.TextView: 8206 Fifth Avenue (Bay Ridge)
+android.widget.TextView: 1.35 mi
+android.widget.TableRow@40614dc8
+android.widget.ImageView@40615270
+android.widget.TextView: 8206 Fifth Avenue
+android.widget.TextView: 1.35 mi
+android.widget.TableRow@4062e398
+android.widget.ImageView@4062e7d8
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 1.83 mi
+android.widget.TableRow@406306d0
+android.widget.ImageView@4061d360
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 1.83 mi
+android.widget.TableRow@40617cc0
+android.widget.ImageView@40618168
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.00 mi
+android.widget.TableRow@4061a4f8
+android.widget.ImageView@4061a9a0
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.00 mi
+android.widget.TableRow@4060c388
+android.widget.ImageView@4060f628
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 2.12 mi
+android.widget.TableRow@4062c578
+android.widget.ImageView@4062ca20
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 2.12 mi
+android.widget.TableRow@40654b20
+android.widget.ImageView@40654fc8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@406339f8
+android.widget.ImageView@40633ea0
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@4054f868
+android.widget.ImageView@4054fd10
+android.widget.TextView: 210-212 Prospect Park SW
+android.widget.TextView: 2.91 mi
+android.widget.TableRow@40629908
+android.widget.ImageView@40629db0
+android.widget.TextView: 210-212 Prospect Park SW
+android.widget.TextView: 2.91 mi
+android.widget.TableRow@406172e0
+android.widget.ImageView@40617788
+android.widget.TextView: 269 5Th Avenue
+android.widget.TextView: 3.16 mi
+android.widget.TableRow@40631c50
+android.widget.ImageView@406320f8
+android.widget.TextView: 269 5Th Avenue
+android.widget.TextView: 3.17 mi
+android.widget.TableRow@40623bc8
+android.widget.ImageView@40624070
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 3.34 mi
+android.widget.TableRow@406398d0
+android.widget.ImageView@40639d78
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 3.34 mi
+android.widget.FrameLayout@40574268
+android.widget.ImageView@40547108
+android.widget.Button: Filter
+android.widget.LinearLayout@4054ed68
+android.widget.FrameLayout@40582e40
+android.widget.ImageView@40557b20
+android.widget.Button: Filter
+android.widget.FrameLayout@4060b6b0
+android.widget.Button: Done
+android.widget.FrameLayout@40610da8
+android.widget.ImageView@4055c098
+android.widget.TextView: Stores
+android.widget.ImageView@40561170
+android.widget.FrameLayout@40614710
+android.widget.ImageView@405781c0
+android.widget.TextView: ATMs
+android.widget.ImageView@4057cb20
+android.widget.FrameLayout@40587950
+android.widget.LinearLayout@40588400
+android.widget.FrameLayout@405886b0
+android.widget.ImageView@40588960
+android.widget.RelativeLayout@40588df8
+android.widget.ImageButton@40589408
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058cab8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058eec8
+android.widget.LinearLayout@4058f270
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590a68
+android.widget.LinearLayout@4050da00
+android.widget.TextView: Locations
+android.widget.ScrollView@4050b2e0
+android.widget.TableLayout@406085d0
+android.widget.TableRow@4061e220
+android.widget.ImageView@4062a698
+android.widget.TextView: 150 55Th Street (Lutheran Medical Center)
+android.widget.TextView: 0.40 mi
+android.widget.TableRow@40635a20
+android.widget.ImageView@40574548
+android.widget.TextView: 6323 7Th Avenue (MJG-Corporate)
+android.widget.TextView: 0.92 mi
+android.widget.TableRow@40550b30
+android.widget.ImageView@4061b678
+android.widget.TextView: 987 Fourth Avenue (Sunset Park)
+android.widget.TextView: 1.28 mi
+android.widget.TableRow@4057bd28
+android.widget.ImageView@40525e50
+android.widget.TextView: 987 4Th Avenue
+android.widget.TextView: 1.30 mi
+android.widget.TableRow@4061c6e8
+android.widget.ImageView@40625570
+android.widget.TextView: 8206 Fifth Avenue (Bay Ridge)
+android.widget.TextView: 1.35 mi
+android.widget.TableRow@40614dc8
+android.widget.ImageView@40615270
+android.widget.TextView: 8206 Fifth Avenue
+android.widget.TextView: 1.35 mi
+android.widget.TableRow@4062e398
+android.widget.ImageView@4062e7d8
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 1.83 mi
+android.widget.TableRow@406306d0
+android.widget.ImageView@4061d360
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 1.83 mi
+android.widget.TableRow@40617cc0
+android.widget.ImageView@40618168
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.00 mi
+android.widget.TableRow@4061a4f8
+android.widget.ImageView@4061a9a0
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.00 mi
+android.widget.TableRow@4060c388
+android.widget.ImageView@4060f628
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 2.12 mi
+android.widget.TableRow@4062c578
+android.widget.ImageView@4062ca20
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 2.12 mi
+android.widget.TableRow@40654b20
+android.widget.ImageView@40654fc8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@406339f8
+android.widget.ImageView@40633ea0
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@4054f868
+android.widget.ImageView@4054fd10
+android.widget.TextView: 210-212 Prospect Park SW
+android.widget.TextView: 2.91 mi
+android.widget.TableRow@40629908
+android.widget.ImageView@40629db0
+android.widget.TextView: 210-212 Prospect Park SW
+android.widget.TextView: 2.91 mi
+android.widget.TableRow@406172e0
+android.widget.ImageView@40617788
+android.widget.TextView: 269 5Th Avenue
+android.widget.TextView: 3.16 mi
+android.widget.TableRow@40631c50
+android.widget.ImageView@406320f8
+android.widget.TextView: 269 5Th Avenue
+android.widget.TextView: 3.17 mi
+android.widget.TableRow@40623bc8
+android.widget.ImageView@40624070
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 3.34 mi
+android.widget.TableRow@406398d0
+android.widget.ImageView@40639d78
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 3.34 mi
+android.widget.FrameLayout@40574268
+android.widget.ImageView@40547108
+android.widget.Button: Filter
+android.widget.LinearLayout@4054ed68
+android.widget.FrameLayout@40582e40
+android.widget.ImageView@40557b20
+android.widget.Button: Filter
+android.widget.FrameLayout@4060b6b0
+android.widget.Button: Done
+android.widget.FrameLayout@40610da8
+android.widget.ImageView@4055c098
+android.widget.TextView: Stores
+android.widget.ImageView@40561170
+android.widget.FrameLayout@40614710
+android.widget.ImageView@405781c0
+android.widget.TextView: ATMs
+android.widget.ImageView@4057cb20

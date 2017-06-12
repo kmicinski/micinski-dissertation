@@ -1,0 +1,52 @@
+android.widget.FrameLayout@4062a7e0
+android.widget.TabHost@40584a20
+android.widget.LinearLayout@40584c18
+android.widget.LinearLayout@40584ff0
+android.widget.LinearLayout@4066c320
+android.widget.ImageView@4066c7a8
+android.widget.ImageButton@4066c9d0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@406747f0
+android.widget.ProgressBar@406755b8
+android.widget.ImageButton@40675d88
+android.widget.TabWidget@405854b0
+android.widget.LinearLayout@4066e528
+android.widget.ImageView@40670370
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40672388
+android.widget.ImageView@40672988
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4050dd88
+android.view.View@40673cf8
+android.widget.ImageView@4050e038
+android.widget.TextView: Approx Address (within 0.0 meters)
+350 Morse St NE
+Washington, District of Columbia 20002
+android.widget.ImageView@40668308
+com.jazzmoonstudio.android.common.view.CustomViewPager@40669368
+android.support.v4.app.y@405645e0
+android.widget.LinearLayout@4067c3f8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4067e2a0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4067baa0
+android.widget.ImageView@406826d0
+android.widget.TextView: New York Ave-Florida Ave-Gallaudet U
+android.widget.TextView: Approx: 0.20 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056d4f0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4057c858
+android.widget.ImageView@405a3a68
+android.widget.TextView: Rhode Island Ave-Brentwood
+android.widget.TextView: Approx: 0.84 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40554f60
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4068f800
+android.widget.ImageView@405813b8
+android.widget.TextView: Union Station
+android.widget.TextView: Approx: 0.85 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40554748
+android.support.v4.app.y@405738c0
+android.widget.LinearLayout@4056b6d8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054d2c8
+android.widget.FrameLayout@4066a998
+com.millennialmedia.android.MMAdView@4066ac58
+android.webkit.WebView@406770d0

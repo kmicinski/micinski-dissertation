@@ -1,0 +1,54 @@
+android.widget.FrameLayout@405d8f38
+android.widget.TabHost@40566bb0
+android.widget.LinearLayout@40566e20
+android.widget.LinearLayout@405671f8
+android.widget.LinearLayout@40624048
+android.widget.ImageView@406244d0
+android.widget.ImageButton@406246f8
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@406101d0
+android.widget.ProgressBar@40610f98
+android.widget.ImageButton@40611768
+android.widget.TabWidget@4063bfa8
+android.widget.LinearLayout@40595870
+android.widget.ImageView@40606e30
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4058bc60
+android.widget.ImageView@4058c260
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4058aa50
+android.view.View@4060f6d8
+android.widget.ImageView@4058ad00
+android.widget.TextView: Approx Address (within 0.0 meters)
+Washington Ave
+Chevy Chase, Maryland 20815
+android.widget.ImageView@4063ac88
+com.jazzmoonstudio.android.common.view.CustomViewPager@4056d538
+android.support.v4.app.y@40562a98
+android.widget.LinearLayout@40617d08
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40618808
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405a1f38
+android.widget.ImageView@40680548
+android.widget.TextView: Silver Spring
+android.widget.TextView: Approx: 0.89 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4063da08
+android.support.v4.app.y@40580560
+android.widget.LinearLayout@4050f2d0
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054b780
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405622b8
+android.widget.TextView: EAST-WEST HWY + GRUBB RD
+android.widget.TextView: Approx: 0.35 mi.
+android.widget.TextView: Stop ID: 2000168
+Lines: J1,J2,J2v2,J3,J3v2,J4
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40558980
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40630060
+android.widget.TextView: EAST-WEST HWY + GRUBB RD
+android.widget.TextView: Approx: 0.35 mi.
+android.widget.TextView: Stop ID: 2001226
+Lines: J1,J2,J2v1,J3,J4
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40597448
+android.widget.FrameLayout@40638368
+com.millennialmedia.android.MMAdView@40638628
+android.webkit.WebView@40612ab0

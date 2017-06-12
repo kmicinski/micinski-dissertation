@@ -1,0 +1,1391 @@
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.RelativeLayout@406e6cc8
+com.google.ads.AdView@406f7738
+android.gesture.GestureOverlayView@40682108
+android.widget.FrameLayout@406faee0
+com.google.ads.internal.AdWebView@406a5060
+android.widget.TableLayout@407079b0
+android.widget.TableRow@40707f80
+android.widget.RelativeLayout@4070a810
+android.widget.RelativeLayout@4070abe8
+android.widget.TextView: 3.87
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070e658
+android.widget.ImageView@4070ea30
+android.widget.TextView: Valero
+android.widget.TextView: 554 River Rd & Smith St
+android.widget.TextView: Fair Haven, NJ
+android.widget.TextView: 0.38 mi
+android.widget.TableLayout@406ef888
+android.widget.TableRow@406efe30
+android.widget.RelativeLayout@406f04e0
+android.widget.RelativeLayout@406f08b8
+android.widget.TextView: 3.78
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406f65e8
+android.widget.ImageView@406f6978
+android.widget.TextView: CITGO
+android.widget.TextView: 697 Branch Ave & Sycamore Ave
+android.widget.TextView: Little Silver, NJ
+android.widget.TextView: 1.9 mi
+android.widget.TableLayout@406d20a8
+android.widget.TableRow@406d4958
+android.widget.RelativeLayout@406d4fd8
+android.widget.RelativeLayout@406d53b0
+android.widget.TextView: 4.02
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d9058
+android.widget.ImageView@406db690
+android.widget.TextView: Exxon
+android.widget.TextView: 220 Newman Springs Rd & Shrewsbury Ave
+android.widget.TextView: Red Bank, NJ
+android.widget.TextView: 2 mi
+android.widget.TableLayout@40720d48
+android.widget.TableRow@40724408
+android.widget.RelativeLayout@40727d90
+android.widget.RelativeLayout@406a6850
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 21 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406be140
+android.widget.ImageView@406c0978
+android.widget.TextView: Shell
+android.widget.TextView: 390 Shrewsbury Ave & Newman Springs Rd
+android.widget.TextView: Red Bank, NJ
+android.widget.TextView: 2 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@40720d48
+android.widget.TableRow@40724408
+android.widget.RelativeLayout@40727d90
+android.widget.RelativeLayout@406a6850
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 21 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406be140
+android.widget.ImageView@406c0978
+android.widget.TextView: Shell
+android.widget.TextView: 390 Shrewsbury Ave & Newman Springs Rd
+android.widget.TextView: Red Bank, NJ
+android.widget.TextView: 2 mi
+android.widget.TableLayout@407b3068
+android.widget.TableRow@407b3638
+android.widget.RelativeLayout@407b3cf8
+android.widget.RelativeLayout@407b40d0
+android.widget.TextView: 3.78
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407b58e0
+android.widget.ImageView@407b5cb8
+android.widget.TextView: Lukoil
+android.widget.TextView: 219 Newman Springs Rd & Shrewsbury Ave
+android.widget.TextView: Shrewsbury, NJ
+android.widget.TextView: 2.01 mi
+android.widget.TableLayout@4057add8
+android.widget.TableRow@40613298
+android.widget.RelativeLayout@4054c570
+android.widget.RelativeLayout@40557778
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4057b130
+android.widget.ImageView@4054c2d8
+android.widget.TextView: Raceway
+android.widget.TextView: 237 NJ-35 N & Pine St
+android.widget.TextView: Middletown, NJ
+android.widget.TextView: 2.09 mi
+android.widget.TableLayout@4057af80
+android.widget.TableRow@406434c0
+android.widget.RelativeLayout@4057ddf8
+android.widget.RelativeLayout@405fd2f8
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40602ae8
+android.widget.ImageView@4055a6a0
+android.widget.TextView: Exxon
+android.widget.TextView: 27 W River Rd & Allen St
+android.widget.TextView: Rumson, NJ
+android.widget.TextView: 2.18 mi
+android.widget.TableLayout@4057be20
+android.widget.TableRow@4066cbf0
+android.widget.RelativeLayout@40614838
+android.widget.RelativeLayout@406156f8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406191e0
+android.widget.ImageView@405a20d0
+android.widget.TextView: Lukoil
+android.widget.TextView: 590 Shrewsbury Ave & Executive Dr
+android.widget.TextView: Tinton Falls, NJ
+android.widget.TextView: 2.33 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@4057be20
+android.widget.TableRow@4066cbf0
+android.widget.RelativeLayout@40614838
+android.widget.RelativeLayout@406156f8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406191e0
+android.widget.ImageView@405a20d0
+android.widget.TextView: Lukoil
+android.widget.TextView: 590 Shrewsbury Ave & Executive Dr
+android.widget.TextView: Tinton Falls, NJ
+android.widget.TextView: 2.33 mi
+android.widget.TableLayout@4057dc48
+android.widget.TableRow@406c1aa8
+android.widget.RelativeLayout@4061e7b8
+android.widget.RelativeLayout@4062c838
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4062f460
+android.widget.ImageView@405ee2a0
+android.widget.TextView: Sunoco
+android.widget.TextView: 417 NJ-35 N & Cooper Rd
+android.widget.TextView: Middletown, NJ
+android.widget.TextView: 2.5 mi
+android.widget.TableLayout@40580648
+android.widget.TableRow@406c50e8
+android.widget.RelativeLayout@40634c68
+android.widget.RelativeLayout@4063ae98
+android.widget.TextView: 3.57
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4063f278
+android.widget.ImageView@405f0f20
+android.widget.TextView: Hess
+android.widget.TextView: 431 NJ-35 N & Chapel Hill Rd
+android.widget.TextView: Middletown, NJ
+android.widget.TextView: 2.58 mi
+android.widget.TableLayout@405fcfa0
+android.widget.TableRow@406fad60
+android.widget.RelativeLayout@40643eb8
+android.widget.RelativeLayout@406475a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40648440
+android.widget.ImageView@40671f58
+android.widget.TextView: Sunoco
+android.widget.TextView: 162 NJ-36 N & East Ave
+android.widget.TextView: Atlantic Highlands, NJ
+android.widget.TextView: 3.45 mi
+android.widget.TableLayout@405fd148
+android.widget.TableRow@4070ed20
+android.widget.RelativeLayout@4064aff8
+android.widget.RelativeLayout@4064d668
+android.widget.TextView: 3.76
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:51 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064dbf8
+android.widget.ImageView@40681db8
+android.widget.TextView: Exxon
+android.widget.TextView: 130 Main St & Tinton Ave
+android.widget.TextView: Eatontown, NJ
+android.widget.TextView: 3.46 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@4057af80
+android.widget.TableRow@405bb130
+android.widget.RelativeLayout@40694df8
+android.widget.RelativeLayout@4054c570
+android.widget.TextView: 3.76
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:51 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40557778
+android.widget.ImageView@4054c2d8
+android.widget.TextView: Exxon
+android.widget.TextView: 130 Main St & Tinton Ave
+android.widget.TextView: Eatontown, NJ
+android.widget.TextView: 3.46 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@4064fd20
+android.widget.TableRow@4054ebc8
+android.widget.RelativeLayout@406980d0
+android.widget.RelativeLayout@40715c88
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: Mon 12:48 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406378d8
+android.widget.ImageView@40640138
+android.widget.TextView: Lukoil
+android.widget.TextView: 120 Main St & Tinton Ave
+android.widget.TextView: Eatontown, NJ
+android.widget.TextView: 3.48 mi
+android.widget.TableLayout@4063a8e8
+android.widget.TableRow@40640fe0
+android.widget.RelativeLayout@4064d160
+android.widget.RelativeLayout@40666d18
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4067ef88
+android.widget.ImageView@40684b60
+android.widget.TextView: Shell
+android.widget.TextView: 434 Branchport  Ave & Elliott Pl
+android.widget.TextView: Oceanport, NJ
+android.widget.TextView: 3.51 mi
+android.widget.TableLayout@40569bf8
+android.widget.TableRow@405e62f0
+android.widget.RelativeLayout@406ee428
+android.widget.RelativeLayout@406ca630
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406c8178
+android.widget.ImageView@406dfef0
+android.widget.TextView: CITGO
+android.widget.TextView: 24 NJ-35 S  & South St
+android.widget.TextView: Eatontown, NJ
+android.widget.TextView: 3.69 mi
+android.widget.TableLayout@40762200
+android.widget.TableRow@405eb110
+android.widget.RelativeLayout@406d7d28
+android.widget.RelativeLayout@406f7438
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4068ba68
+android.widget.ImageView@4071e698
+android.widget.TextView: Shell
+android.widget.TextView: 195 First Ave & NJ-36 N
+android.widget.TextView: Atlantic Highlands, NJ
+android.widget.TextView: 3.74 mi
+android.widget.TableLayout@405fd148
+android.widget.TableRow@4070ed20
+android.widget.RelativeLayout@4064aff8
+android.widget.RelativeLayout@4064d668
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:51 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4064dbf8
+android.widget.ImageView@40681db8
+android.widget.TextView: Sunoco
+android.widget.TextView: 1010 Ocean Ave & Rumson Rd
+android.widget.TextView: Sea Bright, NJ
+android.widget.TextView: 3.78 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@405fd148
+android.widget.TableRow@4070ed20
+android.widget.RelativeLayout@4064aff8
+android.widget.RelativeLayout@4064d668
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:51 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4064dbf8
+android.widget.ImageView@40681db8
+android.widget.TextView: Sunoco
+android.widget.TextView: 1010 Ocean Ave & Rumson Rd
+android.widget.TextView: Sea Bright, NJ
+android.widget.TextView: 3.78 mi
+android.widget.TableLayout@4057af80
+android.widget.TableRow@405bb130
+android.widget.RelativeLayout@40694df8
+android.widget.RelativeLayout@4054c570
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:51 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40557778
+android.widget.ImageView@4054c2d8
+android.widget.TextView: Gulf
+android.widget.TextView: 1006 Ocean Ave & Rumson Rd
+android.widget.TextView: Sea Bright, NJ
+android.widget.TextView: 3.79 mi
+android.widget.TableLayout@40613da0
+android.widget.TableRow@406a2b88
+android.widget.RelativeLayout@406ad478
+android.widget.RelativeLayout@40716078
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4069a5d8
+android.widget.ImageView@4069d100
+android.widget.TextView: Racestar
+android.widget.TextView: 133 First Ave & E Washington Ave
+android.widget.TextView: Atlantic Highlands, NJ
+android.widget.TextView: 3.9 mi
+android.widget.TableLayout@406f96c8
+android.widget.TableRow@407b81d0
+android.widget.RelativeLayout@4071e4f0
+android.widget.RelativeLayout@407177c8
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: Mon 7:50 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406c0f28
+android.widget.ImageView@406c12b0
+android.widget.TextView: BP
+android.widget.TextView: 863 NJ-35 & Tindall Rd & Kings Hwy
+android.widget.TextView: Middletown, NJ
+android.widget.TextView: 3.9 mi
+android.widget.TableLayout@4057be20
+android.widget.TableRow@40622410
+android.widget.RelativeLayout@4057ddf8
+android.widget.RelativeLayout@40583660
+android.widget.TextView: 3.58
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405fd2f8
+android.widget.ImageView@4055a6a0
+android.widget.TextView: Speedway
+android.widget.TextView: 71 NJ-36 W & Oceanport Ave
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 3.94 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@4057be20
+android.widget.TableRow@40622410
+android.widget.RelativeLayout@4057ddf8
+android.widget.RelativeLayout@40583660
+android.widget.TextView: 3.58
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405fd2f8
+android.widget.ImageView@4055a6a0
+android.widget.TextView: Speedway
+android.widget.TextView: 71 NJ-36 W & Oceanport Ave
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 3.94 mi
+android.widget.TableLayout@40762200
+android.widget.TableRow@405eb110
+android.widget.RelativeLayout@406d7d28
+android.widget.RelativeLayout@406f7438
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4068ba68
+android.widget.ImageView@4071e698
+android.widget.TextView: Getty
+android.widget.TextView: 947 NJ-36 N & Ave D
+android.widget.TextView: Atlantic Highlands, NJ
+android.widget.TextView: 3.94 mi
+android.widget.TableLayout@405fcfa0
+android.widget.TableRow@406982f8
+android.widget.RelativeLayout@405ffeb0
+android.widget.RelativeLayout@40602938
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40602ae8
+android.widget.ImageView@4056de98
+android.widget.TextView: Getty
+android.widget.TextView: 208 Branchport Ave & Joline Ave
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 4.03 mi
+android.widget.TableLayout@40629a60
+android.widget.TableRow@4069b968
+android.widget.RelativeLayout@406056e8
+android.widget.RelativeLayout@40614838
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40617418
+android.widget.ImageView@405ee2a0
+android.widget.TextView: BP
+android.widget.TextView: 133 NJ-36 W & Eatontown Blvd
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 4.04 mi
+android.widget.TableLayout@40631e80
+android.widget.TableRow@406b90a0
+android.widget.RelativeLayout@40619030
+android.widget.RelativeLayout@406191e0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4061aec0
+android.widget.ImageView@4062f2b0
+android.widget.TextView: Lukoil
+android.widget.TextView: 570 Joline Ave & Branchport Ave
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 4.05 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@40631e80
+android.widget.TableRow@406b90a0
+android.widget.RelativeLayout@40619030
+android.widget.RelativeLayout@406191e0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4061aec0
+android.widget.ImageView@4062f2b0
+android.widget.TextView: Lukoil
+android.widget.TextView: 570 Joline Ave & Branchport Ave
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 4.05 mi
+android.widget.TableLayout@406f96c8
+android.widget.TableRow@407b81d0
+android.widget.RelativeLayout@4071e4f0
+android.widget.RelativeLayout@407177c8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 7:50 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406c0f28
+android.widget.ImageView@406c12b0
+android.widget.TextView: Getty
+android.widget.TextView: 4 Ocean Ave & Riverdale Ave
+android.widget.TextView: Monmouth Beach, NJ
+android.widget.TextView: 4.23 mi
+android.widget.TableLayout@405103e0
+android.widget.TableRow@406873e8
+android.widget.RelativeLayout@405f1d40
+android.widget.RelativeLayout@4068d058
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40515550
+android.widget.ImageView@4068fc38
+android.widget.TextView: Exxon
+android.widget.TextView: 150 NJ-35 S & Wyckoff Rd
+android.widget.TextView: Eatontown, NJ
+android.widget.TextView: 4.28 mi
+android.widget.TableLayout@4054fce0
+android.widget.TableRow@4061b7a8
+android.widget.RelativeLayout@405566f0
+android.widget.RelativeLayout@40587030
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406bd088
+android.widget.ImageView@40602438
+android.widget.TextView: Wawa
+android.widget.TextView: 75 Appleton Ave & NJ-36 S
+android.widget.TextView: Leonardo, NJ
+android.widget.TextView: 4.3 mi
+android.widget.TableLayout@40603480
+android.widget.TableRow@40612338
+android.widget.RelativeLayout@40614fb0
+android.widget.RelativeLayout@40617b68
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 22 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064b6f8
+android.widget.ImageView@4064ba78
+android.widget.TextView: Exxon
+android.widget.TextView: 695 Newman Springs Rd & Swimming River Rd
+android.widget.TextView: Lincroft, NJ
+android.widget.TextView: 4.33 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@406d3680
+android.widget.TableRow@406d3c38
+android.widget.RelativeLayout@406bf558
+android.widget.RelativeLayout@406bf930
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 22 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d6c90
+android.widget.ImageView@406d7068
+android.widget.TextView: Exxon
+android.widget.TextView: 695 Newman Springs Rd & Swimming River Rd
+android.widget.TextView: Lincroft, NJ
+android.widget.TextView: 4.33 mi
+android.widget.TableLayout@406bf0a8
+android.widget.TableRow@406fb888
+android.widget.RelativeLayout@406864f0
+android.widget.RelativeLayout@406868c8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 17 minutes ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407021d0
+android.widget.ImageView@406b0a78
+android.widget.TextView: Gulf
+android.widget.TextView: 300 Bay Ave & Washington Ave
+android.widget.TextView: Highlands, NJ
+android.widget.TextView: 4.36 mi
+android.widget.TableLayout@406feb00
+android.widget.TableRow@406ff048
+android.widget.RelativeLayout@40723e80
+android.widget.RelativeLayout@40726ee8
+android.widget.TextView: 3.87
+android.widget.TextView: 9
+android.widget.TextView: Sun 11:58 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40696f60
+android.widget.ImageView@40705090
+android.widget.TextView: BP
+android.widget.TextView: 699 Newman Springs Rd & Swimming River Rd
+android.widget.TextView: Lincroft, NJ
+android.widget.TextView: 4.37 mi
+android.widget.TableLayout@40629a60
+android.widget.TableRow@4069b968
+android.widget.RelativeLayout@406056e8
+android.widget.RelativeLayout@40614838
+android.widget.TextView: 3.57
+android.widget.TextView: 9
+android.widget.TextView: 17 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40617418
+android.widget.ImageView@405ee2a0
+android.widget.TextView: Hess
+android.widget.TextView: 800 NJ-36 E & Monmouth Rd
+android.widget.TextView: Eatontown, NJ
+android.widget.TextView: 4.4 mi
+android.widget.TableLayout@40603480
+android.widget.TableRow@40612338
+android.widget.RelativeLayout@40614fb0
+android.widget.RelativeLayout@40617b68
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 22 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4064b6f8
+android.widget.ImageView@4064ba78
+android.widget.TextView: Gulf
+android.widget.TextView: 116 Bay Ave & Jackson St
+android.widget.TextView: Highlands, NJ
+android.widget.TextView: 4.44 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@40603480
+android.widget.TableRow@40612338
+android.widget.RelativeLayout@40614fb0
+android.widget.RelativeLayout@40617b68
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 22 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4064b6f8
+android.widget.ImageView@4064ba78
+android.widget.TextView: Gulf
+android.widget.TextView: 116 Bay Ave & Jackson St
+android.widget.TextView: Highlands, NJ
+android.widget.TextView: 4.44 mi
+android.widget.TableLayout@4054fce0
+android.widget.TableRow@4061b7a8
+android.widget.RelativeLayout@405566f0
+android.widget.RelativeLayout@40587030
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 12 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406bd088
+android.widget.ImageView@40602438
+android.widget.TextView: Emporium
+android.widget.TextView: 207 Monmouth Rd & NJ-36
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 4.47 mi
+android.widget.TableLayout@40635e78
+android.widget.TableRow@40636448
+android.widget.RelativeLayout@40636b08
+android.widget.RelativeLayout@4062aa90
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40785648
+android.widget.ImageView@40785a08
+android.widget.TextView: Eagle
+android.widget.TextView: 706 Tinton Ave & Water St
+android.widget.TextView: Tinton Falls, NJ
+android.widget.TextView: 4.59 mi
+android.widget.TableLayout@4057f640
+android.widget.TableRow@4057fbd8
+android.widget.RelativeLayout@4062d9a8
+android.widget.RelativeLayout@4062dd80
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4067e6b0
+android.widget.ImageView@4067ea70
+android.widget.TextView: Singin
+android.widget.TextView: 250 Broadway & 4th Ave
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 4.62 mi
+android.widget.TableLayout@407534d8
+android.widget.TableRow@40753aa8
+android.widget.RelativeLayout@4078f9e0
+android.widget.RelativeLayout@4078fdb8
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4050ac10
+android.widget.ImageView@4050afe8
+android.widget.TextView: Craig's Independent
+android.widget.TextView: 1201 NJ-35 N & New Monmouth Rd
+android.widget.TextView: Middletown, NJ
+android.widget.TextView: 4.66 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@407534d8
+android.widget.TableRow@40753aa8
+android.widget.RelativeLayout@4078f9e0
+android.widget.RelativeLayout@4078fdb8
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4050ac10
+android.widget.ImageView@4050afe8
+android.widget.TextView: Craig's Independent
+android.widget.TextView: 1201 NJ-35 N & New Monmouth Rd
+android.widget.TextView: Middletown, NJ
+android.widget.TextView: 4.66 mi
+android.widget.TableLayout@40629a60
+android.widget.TableRow@4069b968
+android.widget.RelativeLayout@406056e8
+android.widget.RelativeLayout@40614838
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 17 minutes ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40617418
+android.widget.ImageView@405ee2a0
+android.widget.TextView: Fuel One
+android.widget.TextView: 659 NJ-36 N  & East Rd
+android.widget.TextView: Belford, NJ
+android.widget.TextView: 4.88 mi
+android.widget.TableLayout@407e3478
+android.widget.TableRow@407e3a48
+android.widget.RelativeLayout@407e4108
+android.widget.RelativeLayout@407e44e0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407e5cf0
+android.widget.ImageView@407e60c8
+android.widget.TextView: Sunoco
+android.widget.TextView: 560 NJ-36 S & East Rd
+android.widget.TextView: Belford, NJ
+android.widget.TextView: 4.97 mi
+android.widget.TableLayout@407f2900
+android.widget.TableRow@407f2ed0
+android.widget.RelativeLayout@407f3590
+android.widget.RelativeLayout@407f3968
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: Sun 6:15 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407f5178
+android.widget.ImageView@407f5550
+android.widget.TextView: Exxon
+android.widget.TextView: 186 Wall St & Locust Ave
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 5.01 mi
+android.widget.TableLayout@4057af80
+android.widget.TableRow@405eb110
+android.widget.RelativeLayout@40515550
+android.widget.RelativeLayout@4054c570
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: 23 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40557778
+android.widget.ImageView@4054c2d8
+android.widget.TextView: BP
+android.widget.TextView: 373 Monmouth Rd & Locust Ave & Cedar Ave
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 5.14 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@4057af80
+android.widget.TableRow@405eb110
+android.widget.RelativeLayout@40515550
+android.widget.RelativeLayout@4054c570
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: 23 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40557778
+android.widget.ImageView@4054c2d8
+android.widget.TextView: BP
+android.widget.TextView: 373 Monmouth Rd & Locust Ave & Cedar Ave
+android.widget.TextView: West Long Branch, NJ
+android.widget.TextView: 5.14 mi
+android.widget.TableLayout@4057f640
+android.widget.TableRow@4057fbd8
+android.widget.RelativeLayout@4062d9a8
+android.widget.RelativeLayout@4062dd80
+android.widget.TextView: 3.47
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4067e6b0
+android.widget.ImageView@4067ea70
+android.widget.TextView: Hess
+android.widget.TextView: 2137 NJ-35 N & Industrial Way
+android.widget.TextView: Oakhurst, NJ
+android.widget.TextView: 5.7 mi
+android.widget.TableLayout@4057be20
+android.widget.TableRow@40622410
+android.widget.RelativeLayout@4057ddf8
+android.widget.RelativeLayout@40583660
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405fd2f8
+android.widget.ImageView@4055a6a0
+android.widget.TextView: Gulf
+android.widget.TextView: 412 NJ-36 S & Wilson Ave
+android.widget.TextView: Port Monmouth, NJ
+android.widget.TextView: 5.72 mi
+android.widget.TableLayout@4057dc48
+android.widget.TableRow@40672698
+android.widget.RelativeLayout@405ffeb0
+android.widget.RelativeLayout@40602ae8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406191e0
+android.widget.ImageView@405b00d8
+android.widget.TextView: Exxon
+android.widget.TextView: 632 Second Ave & West End Ct
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 5.82 mi
+android.widget.TableLayout@405b66d0
+android.widget.TableRow@406850a0
+android.widget.RelativeLayout@4061aec0
+android.widget.RelativeLayout@4062c4f0
+android.widget.TextView: 3.53
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064aff8
+android.widget.ImageView@40671c10
+android.widget.TextView: Sunoco
+android.widget.TextView: 2119 NJ-35 N & W Park Ave
+android.widget.TextView: Oakhurst, NJ
+android.widget.TextView: 6.08 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@405b66d0
+android.widget.TableRow@406850a0
+android.widget.RelativeLayout@4061aec0
+android.widget.RelativeLayout@4062c4f0
+android.widget.TextView: 3.53
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064aff8
+android.widget.ImageView@40671c10
+android.widget.TextView: Sunoco
+android.widget.TextView: 2119 NJ-35 N & W Park Ave
+android.widget.TextView: Oakhurst, NJ
+android.widget.TextView: 6.08 mi
+android.widget.TableLayout@407f2900
+android.widget.TableRow@407f2ed0
+android.widget.RelativeLayout@407f3590
+android.widget.RelativeLayout@407f3968
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:02 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407f5178
+android.widget.ImageView@407f5550
+android.widget.TextView: Exxon
+android.widget.TextView: 2055 NJ-35 N  & Palmer Ave
+android.widget.TextView: Holmdel, NJ
+android.widget.TextView: 6.2 mi
+android.widget.TableLayout@405fd148
+android.widget.TableRow@4070ed20
+android.widget.RelativeLayout@4064dbf8
+android.widget.RelativeLayout@4068d058
+android.widget.TextView: 3.72
+android.widget.TextView: 9
+android.widget.TextView: Sun 6:06 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406afe68
+android.widget.ImageView@40681db8
+android.widget.TextView: Exxon
+android.widget.TextView: 2122 NJ-35 S  & S Laurel Ave
+android.widget.TextView: Holmdel, NJ
+android.widget.TextView: 6.38 mi
+android.widget.TableLayout@406890a8
+android.widget.TableRow@4069d100
+android.widget.RelativeLayout@40728a00
+android.widget.RelativeLayout@407e2958
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4067f6c0
+android.widget.ImageView@4069be88
+android.widget.TextView: Oakhurst Servce Center
+android.widget.TextView: 203 Monmouth Rd & Roosevelt Ave
+android.widget.TextView: Oakhurst, NJ
+android.widget.TextView: 6.75 mi
+android.widget.TableLayout@4067cca8
+android.widget.TableRow@406b90a0
+android.widget.RelativeLayout@4057f460
+android.widget.RelativeLayout@4064aac8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40762200
+android.widget.ImageView@406be770
+android.widget.TextView: Sunoco
+android.widget.TextView: 1075 Norwood Ave & S Lincoln Ave
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 6.76 mi
+android.widget.RelativeLayout@406e0088
+android.widget.FrameLayout@40675d18
+android.widget.RelativeLayout@405f8d80
+android.widget.LinearLayout@405ab4c8
+android.view.View@4068b500
+android.widget.RelativeLayout@406bc6a0
+android.widget.TextView: Regular
+android.view.View@406e1900
+android.view.View@406aefc8
+android.widget.RelativeLayout@406e8418
+android.widget.TextView: Midgrade
+android.view.View@406fc670
+android.view.View@406af128
+android.widget.RelativeLayout@406fc838
+android.widget.TextView: Premium
+android.view.View@405bbd10
+android.view.View@406af258
+android.widget.RelativeLayout@405bbee8
+android.widget.TextView: Diesel
+android.view.View@40517520
+android.view.View@4068b620
+android.view.View@405b12d0
+android.widget.LinearLayout@405b4398
+android.widget.RelativeLayout@405f13f0
+android.widget.ImageView@405b2548
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405d9548
+android.widget.ImageView@405d2880
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@405e0228
+android.widget.ImageView@4055d090
+android.widget.TextView: Map View
+android.view.View@406b7ad0
+gbis.gbandroid.views.layouts.CustomListView@40681828
+android.widget.TableLayout@4057dc48
+android.widget.TableRow@40672698
+android.widget.RelativeLayout@405ffeb0
+android.widget.RelativeLayout@40602ae8
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:02 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406191e0
+android.widget.ImageView@405b00d8
+android.widget.TextView: Exxon
+android.widget.TextView: 2055 NJ-35 N  & Palmer Ave
+android.widget.TextView: Holmdel, NJ
+android.widget.TextView: 6.2 mi
+android.widget.TableLayout@4067cca8
+android.widget.TableRow@406b90a0
+android.widget.RelativeLayout@4057f460
+android.widget.RelativeLayout@4064aac8
+android.widget.TextView: 3.72
+android.widget.TextView: 9
+android.widget.TextView: Sun 6:06 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40762200
+android.widget.ImageView@406be770
+android.widget.TextView: Exxon
+android.widget.TextView: 2122 NJ-35 S  & S Laurel Ave
+android.widget.TextView: Holmdel, NJ
+android.widget.TextView: 6.38 mi
+android.widget.TableLayout@406890a8
+android.widget.TableRow@4069d100
+android.widget.RelativeLayout@40728a00
+android.widget.RelativeLayout@407e2958
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4067f6c0
+android.widget.ImageView@4069be88
+android.widget.TextView: Oakhurst Servce Center
+android.widget.TextView: 203 Monmouth Rd & Roosevelt Ave
+android.widget.TextView: Oakhurst, NJ
+android.widget.TextView: 6.75 mi
+android.widget.TableLayout@405fd148
+android.widget.TableRow@4070ed20
+android.widget.RelativeLayout@4064dbf8
+android.widget.RelativeLayout@4068d058
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Sun 6:06 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406afe68
+android.widget.ImageView@40681db8
+android.widget.TextView: Sunoco
+android.widget.TextView: 1075 Norwood Ave & S Lincoln Ave
+android.widget.TextView: Long Branch, NJ
+android.widget.TextView: 6.76 mi
+android.widget.TableLayout@407f2900
+android.widget.TableRow@407f2ed0
+android.widget.RelativeLayout@407f3590
+android.widget.RelativeLayout@407f3968
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:02 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407f5178
+android.widget.ImageView@407f5550
+android.widget.TextView: Getty
+android.widget.TextView: 207 Monmouth Rd & Roosevelt Ave
+android.widget.TextView: Oakhurst, NJ
+android.widget.TextView: 6.79 mi
+android.widget.RelativeLayout@406e0088

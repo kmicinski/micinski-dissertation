@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40582220
+android.widget.LinearLayout@40582cd0
+android.widget.FrameLayout@40582f80
+android.widget.ImageView@40583230
+android.widget.RelativeLayout@405836c8
+android.widget.ImageButton@40583cd8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40587388
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40589798
+android.widget.LinearLayout@40589b40
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058b338
+android.widget.LinearLayout@4052cb80
+android.widget.TextView: Locations
+android.widget.ScrollView@4057d2e8
+android.widget.TableLayout@40534ff0
+android.widget.TableRow@405353c0
+android.widget.ImageView@4060daf8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@406095b8
+android.widget.ImageView@40609928
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@40625428
+android.widget.ImageView@40625868
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4062d750
+android.widget.ImageView@4062db68
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4060e8f0
+android.widget.ImageView@406190e0
+android.widget.TextView: 580 Newark Turnpike (David Daniels Mail Center)
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@4050b810
+android.widget.ImageView@40524270
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@4054fec0
+android.widget.ImageView@4061cda0
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@4061dde0
+android.widget.ImageView@4061e288
+android.widget.TextView: 356 Springfield Avenue
+android.widget.TextView: 3.37 mi
+android.widget.TableRow@40627ca8
+android.widget.ImageView@40628150
+android.widget.TextView: 80 County Road (NJ International Bulk Mail Center)
+android.widget.TextView: 4.54 mi
+android.widget.TableRow@40610438
+android.widget.ImageView@406108e0
+android.widget.TextView: 135 Greene Street (TD Ameritrade)
+android.widget.TextView: 5.21 mi
+android.widget.TableRow@40577f38
+android.widget.ImageView@405783e0
+android.widget.TextView: 125 Eighteenth Street
+android.widget.TextView: 5.25 mi
+android.widget.TableRow@40622fc0
+android.widget.ImageView@40623468
+android.widget.TextView: 454 Ridge Road
+android.widget.TextView: 5.45 mi
+android.widget.TableRow@40620998
+android.widget.ImageView@4061a880
+android.widget.TextView: 454 Ridge Road
+android.widget.TextView: 5.47 mi
+android.widget.TableRow@4060ba18
+android.widget.ImageView@4060bec0
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 5.65 mi
+android.widget.TableRow@406360a0
+android.widget.ImageView@40636548
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 5.65 mi
+android.widget.TableRow@40574a48
+android.widget.ImageView@40574ef0
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 5.69 mi
+android.widget.TableRow@40571220
+android.widget.ImageView@405716c8
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 5.70 mi
+android.widget.TableRow@40617fb8
+android.widget.ImageView@40571938
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 5.72 mi
+android.widget.TableRow@40572880
+android.widget.ImageView@406320a0
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 5.72 mi
+android.widget.TableRow@406330d0
+android.widget.ImageView@406392b0
+android.widget.TextView: 1325 Hudson Street (Shipyards)
+android.widget.TextView: 6.28 mi
+android.widget.FrameLayout@4053ce10
+android.widget.ImageView@4054b4f8
+android.widget.Button: Filter
+android.widget.LinearLayout@4054df90
+android.widget.FrameLayout@4057d710
+android.widget.ImageView@4057be70
+android.widget.Button: Filter
+android.widget.FrameLayout@40612630
+android.widget.Button: Done
+android.widget.FrameLayout@40614fb8
+android.widget.ImageView@4057c658
+android.widget.TextView: Stores
+android.widget.ImageView@4057cec0
+android.widget.FrameLayout@40615df8
+android.widget.ImageView@40616488
+android.widget.TextView: ATMs
+android.widget.ImageView@40618c90
+android.widget.FrameLayout@40582220
+android.widget.LinearLayout@40582cd0
+android.widget.FrameLayout@40582f80
+android.widget.ImageView@40583230
+android.widget.RelativeLayout@405836c8
+android.widget.ImageButton@40583cd8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40587388
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40589798
+android.widget.LinearLayout@40589b40
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058b338
+android.widget.LinearLayout@4052cb80
+android.widget.TextView: Locations
+android.widget.ScrollView@4057d2e8
+android.widget.TableLayout@40534ff0
+android.widget.TableRow@405353c0
+android.widget.ImageView@4060daf8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@406095b8
+android.widget.ImageView@40609928
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@40625428
+android.widget.ImageView@40625868
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4062d750
+android.widget.ImageView@4062db68
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4060e8f0
+android.widget.ImageView@406190e0
+android.widget.TextView: 580 Newark Turnpike (David Daniels Mail Center)
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@4050b810
+android.widget.ImageView@40524270
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@4054fec0
+android.widget.ImageView@4061cda0
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@4061dde0
+android.widget.ImageView@4061e288
+android.widget.TextView: 356 Springfield Avenue
+android.widget.TextView: 3.37 mi
+android.widget.TableRow@40627ca8
+android.widget.ImageView@40628150
+android.widget.TextView: 80 County Road (NJ International Bulk Mail Center)
+android.widget.TextView: 4.54 mi
+android.widget.TableRow@40610438
+android.widget.ImageView@406108e0
+android.widget.TextView: 135 Greene Street (TD Ameritrade)
+android.widget.TextView: 5.21 mi
+android.widget.TableRow@40577f38
+android.widget.ImageView@405783e0
+android.widget.TextView: 125 Eighteenth Street
+android.widget.TextView: 5.25 mi
+android.widget.TableRow@40622fc0
+android.widget.ImageView@40623468
+android.widget.TextView: 454 Ridge Road
+android.widget.TextView: 5.45 mi
+android.widget.TableRow@40620998
+android.widget.ImageView@4061a880
+android.widget.TextView: 454 Ridge Road
+android.widget.TextView: 5.47 mi
+android.widget.TableRow@4060ba18
+android.widget.ImageView@4060bec0
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 5.65 mi
+android.widget.TableRow@406360a0
+android.widget.ImageView@40636548
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 5.65 mi
+android.widget.TableRow@40574a48
+android.widget.ImageView@40574ef0
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 5.69 mi
+android.widget.TableRow@40571220
+android.widget.ImageView@405716c8
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 5.70 mi
+android.widget.TableRow@40617fb8
+android.widget.ImageView@40571938
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 5.72 mi
+android.widget.TableRow@40572880
+android.widget.ImageView@406320a0
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 5.72 mi
+android.widget.TableRow@406330d0
+android.widget.ImageView@406392b0
+android.widget.TextView: 1325 Hudson Street (Shipyards)
+android.widget.TextView: 6.28 mi
+android.widget.FrameLayout@4053ce10
+android.widget.ImageView@4054b4f8
+android.widget.Button: Filter
+android.widget.LinearLayout@4054df90
+android.widget.FrameLayout@4057d710
+android.widget.ImageView@4057be70
+android.widget.Button: Filter
+android.widget.FrameLayout@40612630
+android.widget.Button: Done
+android.widget.FrameLayout@40614fb8
+android.widget.ImageView@4057c658
+android.widget.TextView: Stores
+android.widget.ImageView@4057cec0
+android.widget.FrameLayout@40615df8
+android.widget.ImageView@40616488
+android.widget.TextView: ATMs
+android.widget.ImageView@40618c90
+android.widget.FrameLayout@40582220
+android.widget.LinearLayout@40582cd0
+android.widget.FrameLayout@40582f80
+android.widget.ImageView@40583230
+android.widget.RelativeLayout@405836c8
+android.widget.ImageButton@40583cd8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40587388
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40589798
+android.widget.LinearLayout@40589b40
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058b338
+android.widget.LinearLayout@4052cb80
+android.widget.TextView: Locations
+android.widget.ScrollView@4057d2e8
+android.widget.TableLayout@40534ff0
+android.widget.TableRow@405353c0
+android.widget.ImageView@4060daf8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@406095b8
+android.widget.ImageView@40609928
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@40625428
+android.widget.ImageView@40625868
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4062d750
+android.widget.ImageView@4062db68
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4060e8f0
+android.widget.ImageView@406190e0
+android.widget.TextView: 580 Newark Turnpike (David Daniels Mail Center)
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@4050b810
+android.widget.ImageView@40524270
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@4054fec0
+android.widget.ImageView@4061cda0
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@4061dde0
+android.widget.ImageView@4061e288
+android.widget.TextView: 356 Springfield Avenue
+android.widget.TextView: 3.37 mi
+android.widget.TableRow@40627ca8
+android.widget.ImageView@40628150
+android.widget.TextView: 80 County Road (NJ International Bulk Mail Center)
+android.widget.TextView: 4.54 mi
+android.widget.TableRow@40610438
+android.widget.ImageView@406108e0
+android.widget.TextView: 135 Greene Street (TD Ameritrade)
+android.widget.TextView: 5.21 mi
+android.widget.TableRow@40577f38
+android.widget.ImageView@405783e0
+android.widget.TextView: 125 Eighteenth Street
+android.widget.TextView: 5.25 mi
+android.widget.TableRow@40622fc0
+android.widget.ImageView@40623468
+android.widget.TextView: 454 Ridge Road
+android.widget.TextView: 5.45 mi
+android.widget.TableRow@40620998
+android.widget.ImageView@4061a880
+android.widget.TextView: 454 Ridge Road
+android.widget.TextView: 5.47 mi
+android.widget.TableRow@4060ba18
+android.widget.ImageView@4060bec0
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 5.65 mi
+android.widget.TableRow@406360a0
+android.widget.ImageView@40636548
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 5.65 mi
+android.widget.TableRow@40574a48
+android.widget.ImageView@40574ef0
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 5.69 mi
+android.widget.TableRow@40571220
+android.widget.ImageView@405716c8
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 5.70 mi
+android.widget.TableRow@40617fb8
+android.widget.ImageView@40571938
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 5.72 mi
+android.widget.TableRow@40572880
+android.widget.ImageView@406320a0
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 5.72 mi
+android.widget.TableRow@406330d0
+android.widget.ImageView@406392b0
+android.widget.TextView: 1325 Hudson Street (Shipyards)
+android.widget.TextView: 6.28 mi
+android.widget.FrameLayout@4053ce10
+android.widget.ImageView@4054b4f8
+android.widget.Button: Filter
+android.widget.LinearLayout@4054df90
+android.widget.FrameLayout@4057d710
+android.widget.ImageView@4057be70
+android.widget.Button: Filter
+android.widget.FrameLayout@40612630
+android.widget.Button: Done
+android.widget.FrameLayout@40614fb8
+android.widget.ImageView@4057c658
+android.widget.TextView: Stores
+android.widget.ImageView@4057cec0
+android.widget.FrameLayout@40615df8
+android.widget.ImageView@40616488
+android.widget.TextView: ATMs
+android.widget.ImageView@40618c90

@@ -1,0 +1,61 @@
+android.widget.FrameLayout@40639018
+android.widget.TabHost@405973c0
+android.widget.LinearLayout@405989b0
+android.widget.LinearLayout@40598d88
+android.widget.LinearLayout@40517400
+android.widget.ImageView@40517888
+android.widget.ImageButton@40517ab0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4059b988
+android.widget.ProgressBar@4059c750
+android.widget.ImageButton@4059cf20
+android.widget.TabWidget@40599248
+android.widget.LinearLayout@4057b048
+android.widget.ImageView@40585db0
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4060a710
+android.widget.ImageView@4060ad10
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40620958
+android.view.View@4059ae90
+android.widget.ImageView@40620c08
+android.widget.TextView: Approx Address (within 0.0 meters)
+George Washington Memorial Pkwy George Washington Memorial Pkwy
+Arlington, Virginia 22202
+android.widget.ImageView@4063a6b0
+com.jazzmoonstudio.android.common.view.CustomViewPager@405109f8
+android.support.v4.app.y@40581ba8
+android.widget.LinearLayout@4066a060
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4066ab60
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40583ac0
+android.widget.ImageView@40583c30
+android.widget.ImageView@40583e28
+android.widget.TextView: Crystal City
+android.widget.TextView: Approx: 0.48 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40586818
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4058a5c8
+android.widget.ImageView@40575810
+android.widget.ImageView@405759c8
+android.widget.TextView: Pentagon
+android.widget.TextView: Approx: 0.60 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40570c00
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405720d0
+android.widget.ImageView@405722e0
+android.widget.ImageView@40572500
+android.widget.TextView: Ronald Reagan Washington National Airport
+android.widget.TextView: Approx: 0.74 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4063b0e8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4059f410
+android.widget.ImageView@4059f620
+android.widget.ImageView@4059f840
+android.widget.TextView: Pentagon City
+android.widget.TextView: Approx: 0.75 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40515bc0
+android.support.v4.app.y@4056caf8
+android.widget.LinearLayout@40556370
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4057e758
+android.widget.FrameLayout@4057f208
+com.millennialmedia.android.MMAdView@4057f4c8
+android.webkit.WebView@4059e268

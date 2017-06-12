@@ -1,0 +1,18 @@
+65536 final states
+...
+Num of instances to solve in analysis 398616
+====== symdroid performance statistics ======
+TOTAL                          1069.737 s
+  parse                           0.013 s
+  vm                             996.316 s
+    SMT                            511.018 s
+  analyze                        73.409 s
+    assemble_eqs                    0.031 s
+    SMT                             8.762 s
+    counter                         0.003 s
+    logging                         6.497 s
+      SMT                             1.704 s
+Timing used
+Memory statistics: total=93326.95MB, max=4915.77MB, minor=93326.92MB, major=10833.15MB, promoted=10833.13MB
+    minor collections=44504  major collections=40 compactions=0
+# of symbolic var: 1

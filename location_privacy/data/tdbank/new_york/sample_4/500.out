@@ -1,0 +1,348 @@
+android.widget.FrameLayout@4057f7d0
+android.widget.LinearLayout@40580280
+android.widget.FrameLayout@40580530
+android.widget.ImageView@405807e0
+android.widget.RelativeLayout@40580c78
+android.widget.ImageButton@40581288
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40584938
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40586d48
+android.widget.LinearLayout@405870f0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@405888e8
+android.widget.LinearLayout@40526c48
+android.widget.TextView: Locations
+android.widget.ScrollView@4053c7d0
+android.widget.TableLayout@4054b2b0
+android.widget.TableRow@40618fd0
+android.widget.ImageView@4060f3d0
+android.widget.TextView: 2  Park Avenue - Main Lobby (St. John's Riverside Hospital)
+android.widget.TextView: 2.02 mi
+android.widget.TableRow@40622a78
+android.widget.ImageView@40635dd8
+android.widget.TextView: 301 Fifth Avenue
+android.widget.TextView: 2.80 mi
+android.widget.TableRow@4061f1c0
+android.widget.ImageView@4050c528
+android.widget.TextView: 301 Fifth Avenue
+android.widget.TextView: 2.80 mi
+android.widget.TableRow@40573098
+android.widget.ImageView@405701c0
+android.widget.TextView: 967 North Broadway
+android.widget.TextView: 3.38 mi
+android.widget.TableRow@4054d248
+android.widget.ImageView@4054d6f0
+android.widget.TextView: 281 W 230Th Street
+android.widget.TextView: 3.94 mi
+android.widget.TableRow@40629bb0
+android.widget.ImageView@4062a058
+android.widget.TextView: 281 W 230Th Street
+android.widget.TextView: 3.94 mi
+android.widget.TableRow@40620f80
+android.widget.ImageView@40638450
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Mcginley Center)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@4060d398
+android.widget.ImageView@4060d840
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Faculty Memorial Hall)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@40635188
+android.widget.ImageView@40627e28
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Walsh Library)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@4061d978
+android.widget.ImageView@4061de20
+android.widget.TextView: 640 Pelham Parkway S
+android.widget.TextView: 4.60 mi
+android.widget.TableRow@406232a0
+android.widget.ImageView@40623748
+android.widget.TextView: 650 Pelham Parkway S
+android.widget.TextView: 4.60 mi
+android.widget.TableRow@4056e600
+android.widget.ImageView@4056eaa8
+android.widget.TextView: 640 E Fordham Road
+android.widget.TextView: 4.65 mi
+android.widget.TableRow@40614620
+android.widget.ImageView@40610db0
+android.widget.TextView: 640 E Fordham Road
+android.widget.TextView: 4.65 mi
+android.widget.TableRow@40611de8
+android.widget.ImageView@40571888
+android.widget.TextView: 1864 Williamsbridge Road
+android.widget.TextView: 4.95 mi
+android.widget.TableRow@4060fb68
+android.widget.ImageView@40610010
+android.widget.TextView: 1864 Williamsbridge Road (Morris Park)
+android.widget.TextView: 4.95 mi
+android.widget.TableRow@4061b630
+android.widget.ImageView@4061bad8
+android.widget.TextView: 115 Piermont Road
+android.widget.TextView: 5.37 mi
+android.widget.TableRow@40625bb8
+android.widget.ImageView@40626060
+android.widget.TextView: 107 Chatsworth Avenue (Larchmont Village)
+android.widget.TextView: 5.38 mi
+android.widget.TableRow@40627048
+android.widget.ImageView@40616c80
+android.widget.TextView: 107 Chatsworth Avenue
+android.widget.TextView: 5.38 mi
+android.widget.TableRow@40617c68
+android.widget.ImageView@40618110
+android.widget.TextView: 824 Central Park Avenue
+android.widget.TextView: 5.42 mi
+android.widget.TableRow@40632bb0
+android.widget.ImageView@40633058
+android.widget.TextView: 1200 Waters Place (Mercy College)
+android.widget.TextView: 5.65 mi
+android.widget.FrameLayout@40613548
+android.widget.ImageView@405349b0
+android.widget.Button: Filter
+android.widget.LinearLayout@40537cc8
+android.widget.FrameLayout@4061a478
+android.widget.ImageView@4054b510
+android.widget.Button: Filter
+android.widget.FrameLayout@4062a860
+android.widget.Button: Done
+android.widget.FrameLayout@40636578
+android.widget.ImageView@4054e1c8
+android.widget.TextView: Stores
+android.widget.ImageView@40550e20
+android.widget.FrameLayout@40637e40
+android.widget.ImageView@4056db48
+android.widget.TextView: ATMs
+android.widget.ImageView@40573630
+android.widget.FrameLayout@4057f7d0
+android.widget.LinearLayout@40580280
+android.widget.FrameLayout@40580530
+android.widget.ImageView@405807e0
+android.widget.RelativeLayout@40580c78
+android.widget.ImageButton@40581288
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40584938
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40586d48
+android.widget.LinearLayout@405870f0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@405888e8
+android.widget.LinearLayout@40526c48
+android.widget.TextView: Locations
+android.widget.ScrollView@4053c7d0
+android.widget.TableLayout@4054b2b0
+android.widget.TableRow@40618fd0
+android.widget.ImageView@4060f3d0
+android.widget.TextView: 2  Park Avenue - Main Lobby (St. John's Riverside Hospital)
+android.widget.TextView: 2.02 mi
+android.widget.TableRow@40622a78
+android.widget.ImageView@40635dd8
+android.widget.TextView: 301 Fifth Avenue
+android.widget.TextView: 2.80 mi
+android.widget.TableRow@4061f1c0
+android.widget.ImageView@4050c528
+android.widget.TextView: 301 Fifth Avenue
+android.widget.TextView: 2.80 mi
+android.widget.TableRow@40573098
+android.widget.ImageView@405701c0
+android.widget.TextView: 967 North Broadway
+android.widget.TextView: 3.38 mi
+android.widget.TableRow@4054d248
+android.widget.ImageView@4054d6f0
+android.widget.TextView: 281 W 230Th Street
+android.widget.TextView: 3.94 mi
+android.widget.TableRow@40629bb0
+android.widget.ImageView@4062a058
+android.widget.TextView: 281 W 230Th Street
+android.widget.TextView: 3.94 mi
+android.widget.TableRow@40620f80
+android.widget.ImageView@40638450
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Mcginley Center)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@4060d398
+android.widget.ImageView@4060d840
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Faculty Memorial Hall)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@40635188
+android.widget.ImageView@40627e28
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Walsh Library)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@4061d978
+android.widget.ImageView@4061de20
+android.widget.TextView: 640 Pelham Parkway S
+android.widget.TextView: 4.60 mi
+android.widget.TableRow@406232a0
+android.widget.ImageView@40623748
+android.widget.TextView: 650 Pelham Parkway S
+android.widget.TextView: 4.60 mi
+android.widget.TableRow@4056e600
+android.widget.ImageView@4056eaa8
+android.widget.TextView: 640 E Fordham Road
+android.widget.TextView: 4.65 mi
+android.widget.TableRow@40614620
+android.widget.ImageView@40610db0
+android.widget.TextView: 640 E Fordham Road
+android.widget.TextView: 4.65 mi
+android.widget.TableRow@40611de8
+android.widget.ImageView@40571888
+android.widget.TextView: 1864 Williamsbridge Road
+android.widget.TextView: 4.95 mi
+android.widget.TableRow@4060fb68
+android.widget.ImageView@40610010
+android.widget.TextView: 1864 Williamsbridge Road (Morris Park)
+android.widget.TextView: 4.95 mi
+android.widget.TableRow@4061b630
+android.widget.ImageView@4061bad8
+android.widget.TextView: 115 Piermont Road
+android.widget.TextView: 5.37 mi
+android.widget.TableRow@40625bb8
+android.widget.ImageView@40626060
+android.widget.TextView: 107 Chatsworth Avenue (Larchmont Village)
+android.widget.TextView: 5.38 mi
+android.widget.TableRow@40627048
+android.widget.ImageView@40616c80
+android.widget.TextView: 107 Chatsworth Avenue
+android.widget.TextView: 5.38 mi
+android.widget.TableRow@40617c68
+android.widget.ImageView@40618110
+android.widget.TextView: 824 Central Park Avenue
+android.widget.TextView: 5.42 mi
+android.widget.TableRow@40632bb0
+android.widget.ImageView@40633058
+android.widget.TextView: 1200 Waters Place (Mercy College)
+android.widget.TextView: 5.65 mi
+android.widget.FrameLayout@40613548
+android.widget.ImageView@405349b0
+android.widget.Button: Filter
+android.widget.LinearLayout@40537cc8
+android.widget.FrameLayout@4061a478
+android.widget.ImageView@4054b510
+android.widget.Button: Filter
+android.widget.FrameLayout@4062a860
+android.widget.Button: Done
+android.widget.FrameLayout@40636578
+android.widget.ImageView@4054e1c8
+android.widget.TextView: Stores
+android.widget.ImageView@40550e20
+android.widget.FrameLayout@40637e40
+android.widget.ImageView@4056db48
+android.widget.TextView: ATMs
+android.widget.ImageView@40573630
+android.widget.FrameLayout@4057f7d0
+android.widget.LinearLayout@40580280
+android.widget.FrameLayout@40580530
+android.widget.ImageView@405807e0
+android.widget.RelativeLayout@40580c78
+android.widget.ImageButton@40581288
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40584938
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40586d48
+android.widget.LinearLayout@405870f0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@405888e8
+android.widget.LinearLayout@40526c48
+android.widget.TextView: Locations
+android.widget.ScrollView@4053c7d0
+android.widget.TableLayout@4054b2b0
+android.widget.TableRow@40618fd0
+android.widget.ImageView@4060f3d0
+android.widget.TextView: 2  Park Avenue - Main Lobby (St. John's Riverside Hospital)
+android.widget.TextView: 2.02 mi
+android.widget.TableRow@40622a78
+android.widget.ImageView@40635dd8
+android.widget.TextView: 301 Fifth Avenue
+android.widget.TextView: 2.80 mi
+android.widget.TableRow@4061f1c0
+android.widget.ImageView@4050c528
+android.widget.TextView: 301 Fifth Avenue
+android.widget.TextView: 2.80 mi
+android.widget.TableRow@40573098
+android.widget.ImageView@405701c0
+android.widget.TextView: 967 North Broadway
+android.widget.TextView: 3.38 mi
+android.widget.TableRow@4054d248
+android.widget.ImageView@4054d6f0
+android.widget.TextView: 281 W 230Th Street
+android.widget.TextView: 3.94 mi
+android.widget.TableRow@40629bb0
+android.widget.ImageView@4062a058
+android.widget.TextView: 281 W 230Th Street
+android.widget.TextView: 3.94 mi
+android.widget.TableRow@40620f80
+android.widget.ImageView@40638450
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Mcginley Center)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@4060d398
+android.widget.ImageView@4060d840
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Faculty Memorial Hall)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@40635188
+android.widget.ImageView@40627e28
+android.widget.TextView: 441 E Fordham Road (Fordham U.-Walsh Library)
+android.widget.TextView: 4.55 mi
+android.widget.TableRow@4061d978
+android.widget.ImageView@4061de20
+android.widget.TextView: 640 Pelham Parkway S
+android.widget.TextView: 4.60 mi
+android.widget.TableRow@406232a0
+android.widget.ImageView@40623748
+android.widget.TextView: 650 Pelham Parkway S
+android.widget.TextView: 4.60 mi
+android.widget.TableRow@4056e600
+android.widget.ImageView@4056eaa8
+android.widget.TextView: 640 E Fordham Road
+android.widget.TextView: 4.65 mi
+android.widget.TableRow@40614620
+android.widget.ImageView@40610db0
+android.widget.TextView: 640 E Fordham Road
+android.widget.TextView: 4.65 mi
+android.widget.TableRow@40611de8
+android.widget.ImageView@40571888
+android.widget.TextView: 1864 Williamsbridge Road
+android.widget.TextView: 4.95 mi
+android.widget.TableRow@4060fb68
+android.widget.ImageView@40610010
+android.widget.TextView: 1864 Williamsbridge Road (Morris Park)
+android.widget.TextView: 4.95 mi
+android.widget.TableRow@4061b630
+android.widget.ImageView@4061bad8
+android.widget.TextView: 115 Piermont Road
+android.widget.TextView: 5.37 mi
+android.widget.TableRow@40625bb8
+android.widget.ImageView@40626060
+android.widget.TextView: 107 Chatsworth Avenue (Larchmont Village)
+android.widget.TextView: 5.38 mi
+android.widget.TableRow@40627048
+android.widget.ImageView@40616c80
+android.widget.TextView: 107 Chatsworth Avenue
+android.widget.TextView: 5.38 mi
+android.widget.TableRow@40617c68
+android.widget.ImageView@40618110
+android.widget.TextView: 824 Central Park Avenue
+android.widget.TextView: 5.42 mi
+android.widget.TableRow@40632bb0
+android.widget.ImageView@40633058
+android.widget.TextView: 1200 Waters Place (Mercy College)
+android.widget.TextView: 5.65 mi
+android.widget.FrameLayout@40613548
+android.widget.ImageView@405349b0
+android.widget.Button: Filter
+android.widget.LinearLayout@40537cc8
+android.widget.FrameLayout@4061a478
+android.widget.ImageView@4054b510
+android.widget.Button: Filter
+android.widget.FrameLayout@4062a860
+android.widget.Button: Done
+android.widget.FrameLayout@40636578
+android.widget.ImageView@4054e1c8
+android.widget.TextView: Stores
+android.widget.ImageView@40550e20
+android.widget.FrameLayout@40637e40
+android.widget.ImageView@4056db48
+android.widget.TextView: ATMs
+android.widget.ImageView@40573630

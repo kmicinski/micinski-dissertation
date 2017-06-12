@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40587b30
+android.widget.LinearLayout@405885e0
+android.widget.FrameLayout@40588890
+android.widget.ImageView@40588b40
+android.widget.RelativeLayout@40588fd8
+android.widget.ImageButton@405895e8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058cc98
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f0a8
+android.widget.LinearLayout@4058f450
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590c48
+android.widget.LinearLayout@40518e60
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c3a8
+android.widget.TableLayout@40609660
+android.widget.TableRow@40514a20
+android.widget.ImageView@4058ad60
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 4.92 mi
+android.widget.TableRow@40550f20
+android.widget.ImageView@406349d8
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 5.61 mi
+android.widget.TableRow@40627c88
+android.widget.ImageView@40612240
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 5.61 mi
+android.widget.TableRow@406200b0
+android.widget.ImageView@40633a78
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 6.14 mi
+android.widget.TableRow@40619fd8
+android.widget.ImageView@4061a480
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 6.15 mi
+android.widget.TableRow@4050b3d0
+android.widget.ImageView@4050b878
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@4057a880
+android.widget.ImageView@4060fe98
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@40551ad8
+android.widget.ImageView@40551f80
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 6.37 mi
+android.widget.TableRow@4055a318
+android.widget.ImageView@406356f8
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 6.42 mi
+android.widget.TableRow@40638388
+android.widget.ImageView@40638830
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 6.44 mi
+android.widget.TableRow@4061ee10
+android.widget.ImageView@4060ecb0
+android.widget.TextView: 465 Kings Highway
+android.widget.TextView: 6.62 mi
+android.widget.TableRow@4060a8c0
+android.widget.ImageView@4060ad68
+android.widget.TextView: 465 Kings Highway
+android.widget.TextView: 6.62 mi
+android.widget.TableRow@40624a68
+android.widget.ImageView@40624f10
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 6.76 mi
+android.widget.TableRow@406216a8
+android.widget.ImageView@406368d8
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 6.76 mi
+android.widget.TableRow@406264d8
+android.widget.ImageView@406268b0
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 6.78 mi
+android.widget.TableRow@4062dae8
+android.widget.ImageView@4062df90
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 6.78 mi
+android.widget.TableRow@4054f578
+android.widget.ImageView@4054fa20
+android.widget.TextView: 3201 Kings Highway (Beth Israel Hospital)
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@4062ae00
+android.widget.ImageView@4062b2a8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 7.76 mi
+android.widget.TableRow@405537f8
+android.widget.ImageView@40553ca0
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 7.76 mi
+android.widget.TableRow@40554d08
+android.widget.ImageView@406147b8
+android.widget.TextView: 1104 Avenue J
+android.widget.TextView: 7.96 mi
+android.widget.FrameLayout@4050e298
+android.widget.ImageView@40557d40
+android.widget.Button: Filter
+android.widget.LinearLayout@405b4ed8
+android.widget.FrameLayout@405b6da0
+android.widget.ImageView@40622d28
+android.widget.Button: Filter
+android.widget.FrameLayout@406120d0
+android.widget.Button: Done
+android.widget.FrameLayout@4061b0f0
+android.widget.ImageView@40626388
+android.widget.TextView: Stores
+android.widget.ImageView@40628120
+android.widget.FrameLayout@4061b4a8
+android.widget.ImageView@4062a600
+android.widget.TextView: ATMs
+android.widget.ImageView@4062d748
+android.widget.FrameLayout@40587b30
+android.widget.LinearLayout@405885e0
+android.widget.FrameLayout@40588890
+android.widget.ImageView@40588b40
+android.widget.RelativeLayout@40588fd8
+android.widget.ImageButton@405895e8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058cc98
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f0a8
+android.widget.LinearLayout@4058f450
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590c48
+android.widget.LinearLayout@40518e60
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c3a8
+android.widget.TableLayout@40609660
+android.widget.TableRow@40514a20
+android.widget.ImageView@4058ad60
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 4.92 mi
+android.widget.TableRow@40550f20
+android.widget.ImageView@406349d8
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 5.61 mi
+android.widget.TableRow@40627c88
+android.widget.ImageView@40612240
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 5.61 mi
+android.widget.TableRow@406200b0
+android.widget.ImageView@40633a78
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 6.14 mi
+android.widget.TableRow@40619fd8
+android.widget.ImageView@4061a480
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 6.15 mi
+android.widget.TableRow@4050b3d0
+android.widget.ImageView@4050b878
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@4057a880
+android.widget.ImageView@4060fe98
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@40551ad8
+android.widget.ImageView@40551f80
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 6.37 mi
+android.widget.TableRow@4055a318
+android.widget.ImageView@406356f8
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 6.42 mi
+android.widget.TableRow@40638388
+android.widget.ImageView@40638830
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 6.44 mi
+android.widget.TableRow@4061ee10
+android.widget.ImageView@4060ecb0
+android.widget.TextView: 465 Kings Highway
+android.widget.TextView: 6.62 mi
+android.widget.TableRow@4060a8c0
+android.widget.ImageView@4060ad68
+android.widget.TextView: 465 Kings Highway
+android.widget.TextView: 6.62 mi
+android.widget.TableRow@40624a68
+android.widget.ImageView@40624f10
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 6.76 mi
+android.widget.TableRow@406216a8
+android.widget.ImageView@406368d8
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 6.76 mi
+android.widget.TableRow@406264d8
+android.widget.ImageView@406268b0
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 6.78 mi
+android.widget.TableRow@4062dae8
+android.widget.ImageView@4062df90
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 6.78 mi
+android.widget.TableRow@4054f578
+android.widget.ImageView@4054fa20
+android.widget.TextView: 3201 Kings Highway (Beth Israel Hospital)
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@4062ae00
+android.widget.ImageView@4062b2a8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 7.76 mi
+android.widget.TableRow@405537f8
+android.widget.ImageView@40553ca0
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 7.76 mi
+android.widget.TableRow@40554d08
+android.widget.ImageView@406147b8
+android.widget.TextView: 1104 Avenue J
+android.widget.TextView: 7.96 mi
+android.widget.FrameLayout@4050e298
+android.widget.ImageView@40557d40
+android.widget.Button: Filter
+android.widget.LinearLayout@405b4ed8
+android.widget.FrameLayout@405b6da0
+android.widget.ImageView@40622d28
+android.widget.Button: Filter
+android.widget.FrameLayout@406120d0
+android.widget.Button: Done
+android.widget.FrameLayout@4061b0f0
+android.widget.ImageView@40626388
+android.widget.TextView: Stores
+android.widget.ImageView@40628120
+android.widget.FrameLayout@4061b4a8
+android.widget.ImageView@4062a600
+android.widget.TextView: ATMs
+android.widget.ImageView@4062d748
+android.widget.FrameLayout@40587b30
+android.widget.LinearLayout@405885e0
+android.widget.FrameLayout@40588890
+android.widget.ImageView@40588b40
+android.widget.RelativeLayout@40588fd8
+android.widget.ImageButton@405895e8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058cc98
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f0a8
+android.widget.LinearLayout@4058f450
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590c48
+android.widget.LinearLayout@40518e60
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c3a8
+android.widget.TableLayout@40609660
+android.widget.TableRow@40514a20
+android.widget.ImageView@4058ad60
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 4.92 mi
+android.widget.TableRow@40550f20
+android.widget.ImageView@406349d8
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 5.61 mi
+android.widget.TableRow@40627c88
+android.widget.ImageView@40612240
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 5.61 mi
+android.widget.TableRow@406200b0
+android.widget.ImageView@40633a78
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 6.14 mi
+android.widget.TableRow@40619fd8
+android.widget.ImageView@4061a480
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 6.15 mi
+android.widget.TableRow@4050b3d0
+android.widget.ImageView@4050b878
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@4057a880
+android.widget.ImageView@4060fe98
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@40551ad8
+android.widget.ImageView@40551f80
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 6.37 mi
+android.widget.TableRow@4055a318
+android.widget.ImageView@406356f8
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 6.42 mi
+android.widget.TableRow@40638388
+android.widget.ImageView@40638830
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 6.44 mi
+android.widget.TableRow@4061ee10
+android.widget.ImageView@4060ecb0
+android.widget.TextView: 465 Kings Highway
+android.widget.TextView: 6.62 mi
+android.widget.TableRow@4060a8c0
+android.widget.ImageView@4060ad68
+android.widget.TextView: 465 Kings Highway
+android.widget.TextView: 6.62 mi
+android.widget.TableRow@40624a68
+android.widget.ImageView@40624f10
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 6.76 mi
+android.widget.TableRow@406216a8
+android.widget.ImageView@406368d8
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 6.76 mi
+android.widget.TableRow@406264d8
+android.widget.ImageView@406268b0
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 6.78 mi
+android.widget.TableRow@4062dae8
+android.widget.ImageView@4062df90
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 6.78 mi
+android.widget.TableRow@4054f578
+android.widget.ImageView@4054fa20
+android.widget.TextView: 3201 Kings Highway (Beth Israel Hospital)
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@4062ae00
+android.widget.ImageView@4062b2a8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 7.76 mi
+android.widget.TableRow@405537f8
+android.widget.ImageView@40553ca0
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 7.76 mi
+android.widget.TableRow@40554d08
+android.widget.ImageView@406147b8
+android.widget.TextView: 1104 Avenue J
+android.widget.TextView: 7.96 mi
+android.widget.FrameLayout@4050e298
+android.widget.ImageView@40557d40
+android.widget.Button: Filter
+android.widget.LinearLayout@405b4ed8
+android.widget.FrameLayout@405b6da0
+android.widget.ImageView@40622d28
+android.widget.Button: Filter
+android.widget.FrameLayout@406120d0
+android.widget.Button: Done
+android.widget.FrameLayout@4061b0f0
+android.widget.ImageView@40626388
+android.widget.TextView: Stores
+android.widget.ImageView@40628120
+android.widget.FrameLayout@4061b4a8
+android.widget.ImageView@4062a600
+android.widget.TextView: ATMs
+android.widget.ImageView@4062d748

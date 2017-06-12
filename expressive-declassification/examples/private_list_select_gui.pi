@@ -1,0 +1,8 @@
+\begin{lstlisting}
+contacts(x).
+  let selection = ref x[0] in
+  let sc = spinner<x,0> in
+    (let bc = button<> in
+       (bc() . net<!selection>
+       | sc(y) . set selection := x[y]))
+\end{lstlisting}

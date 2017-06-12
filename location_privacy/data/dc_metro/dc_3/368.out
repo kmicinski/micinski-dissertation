@@ -1,0 +1,130 @@
+android.widget.FrameLayout@4057a6f0
+android.widget.TabHost@4056ae10
+android.widget.LinearLayout@4056b0c8
+android.widget.LinearLayout@4056b4a0
+android.widget.LinearLayout@4063bad8
+android.widget.ImageView@4063bf18
+android.widget.ImageButton@40639048
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4058ae38
+android.widget.ProgressBar@40577908
+android.widget.ImageButton@405780d8
+android.widget.TabWidget@40614cc8
+android.widget.LinearLayout@40581a70
+android.widget.ImageView@4057b890
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40620248
+android.widget.ImageView@406207e0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40566cf0
+android.view.View@405a0aa8
+android.widget.ImageView@40566fa0
+android.widget.TextView: Approx Address (within 0.0 meters)
+1265 Half St SW
+Washington, District of Columbia 20024
+android.widget.ImageView@40639d38
+com.jazzmoonstudio.android.common.view.CustomViewPager@405747c0
+android.support.v4.app.y@4055f258
+android.widget.LinearLayout@4062dc38
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062e838
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4060f3d0
+android.widget.ImageView@4060f588
+android.widget.ImageView@40554d90
+android.widget.ImageView@40554f80
+android.widget.ImageView@40610b00
+android.widget.TextView: Navy Yard
+android.widget.TextView: Approx: 0.34 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40580410
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4063f158
+android.widget.ImageView@40580cf8
+android.widget.ImageView@40580f08
+android.widget.TextView: Waterfront-SEU
+android.widget.TextView: Approx: 0.35 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40567670
+android.widget.ImageView@40572408
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40515228
+android.widget.ImageView@405561b0
+android.widget.ImageView@4067db18
+android.widget.TextView: Federal Center SW
+android.widget.TextView: Approx: 0.73 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4063ca38
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40546270
+android.widget.ImageView@40546428
+android.widget.TextView: Capitol South
+android.widget.TextView: Approx: 0.78 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4067c818
+android.widget.ImageView@4055ebc8
+android.widget.ImageView@4055ed98
+android.support.v4.app.y@4063faf8
+android.widget.LinearLayout@40515448
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054b768
+android.widget.FrameLayout@4063d480
+com.millennialmedia.android.MMAdView@4063d740
+android.webkit.WebView@40605ce0
+android.widget.FrameLayout@4057a6f0
+android.widget.TabHost@4056ae10
+android.widget.LinearLayout@4056b0c8
+android.widget.LinearLayout@4056b4a0
+android.widget.LinearLayout@4063bad8
+android.widget.ImageView@4063bf18
+android.widget.ImageButton@40639048
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4058ae38
+android.widget.ProgressBar@40577908
+android.widget.ImageButton@405780d8
+android.widget.TabWidget@40614cc8
+android.widget.LinearLayout@40581a70
+android.widget.ImageView@4057b890
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40620248
+android.widget.ImageView@406207e0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40566cf0
+android.view.View@405a0aa8
+android.widget.ImageView@40566fa0
+android.widget.TextView: Approx Address (within 0.0 meters)
+1265 Half St SW
+Washington, District of Columbia 20024
+android.widget.ImageView@40639d38
+com.jazzmoonstudio.android.common.view.CustomViewPager@405747c0
+android.support.v4.app.y@4055f258
+android.widget.LinearLayout@4062dc38
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062e838
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4063f158
+android.widget.ImageView@40580cf8
+android.widget.ImageView@40580f08
+android.widget.TextView: Waterfront-SEU
+android.widget.TextView: Approx: 0.35 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40567670
+android.widget.ImageView@40572408
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40515228
+android.widget.ImageView@405561b0
+android.widget.ImageView@4067db18
+android.widget.TextView: Federal Center SW
+android.widget.TextView: Approx: 0.73 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4063ca38
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40546270
+android.widget.ImageView@40546428
+android.widget.TextView: Capitol South
+android.widget.TextView: Approx: 0.78 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4067c818
+android.widget.ImageView@4055ebc8
+android.widget.ImageView@4055ed98
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4059c688
+android.widget.ImageView@4059c898
+android.widget.ImageView@4059caa8
+android.widget.ImageView@4059ccb8
+android.widget.ImageView@4059cec8
+android.widget.TextView: L'Enfant Plaza
+android.widget.TextView: Approx: 0.89 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4059dc28
+android.support.v4.app.y@4063faf8
+android.widget.LinearLayout@40515448
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054b768
+android.widget.FrameLayout@4063d480
+com.millennialmedia.android.MMAdView@4063d740
+android.webkit.WebView@40605ce0

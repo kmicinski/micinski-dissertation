@@ -1,0 +1,11 @@
+\[
+[[
+let in_private = \\
+  \ (name,label) . if label = 1 then ff else tt \\
+in \\ 0
+]]
+\]
+
+% (contacts(x). \\
+%   let bc = button<"Share contacts"> in \\
+%     bc(). net<filter in_private x>)

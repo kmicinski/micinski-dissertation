@@ -1,0 +1,1357 @@
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.RelativeLayout@40712530
+com.google.ads.AdView@4072d3d8
+android.gesture.GestureOverlayView@407233f0
+android.widget.FrameLayout@40733eb8
+com.google.ads.internal.AdWebView@40654708
+android.widget.TableLayout@40768b30
+android.widget.TableRow@40769100
+android.widget.RelativeLayout@407697c0
+android.widget.RelativeLayout@40769b98
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:36 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4076b3a8
+android.widget.ImageView@4076b780
+android.widget.TextView: Exxon
+android.widget.TextView: 101 W SH-199 & S Ash St
+android.widget.TextView: Springtown, TX
+android.widget.TextView: 6.53 mi
+android.widget.TableLayout@407593a0
+android.widget.TableRow@40759970
+android.widget.RelativeLayout@4075a030
+android.widget.RelativeLayout@4075a408
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4075bc18
+android.widget.ImageView@4075bff0
+android.widget.TextView: Shell
+android.widget.TextView: 100 W SH-199 & FM-51
+android.widget.TextView: Springtown, TX
+android.widget.TextView: 6.55 mi
+android.widget.TableLayout@40670640
+android.widget.TableRow@406d4390
+android.widget.RelativeLayout@40673118
+android.widget.RelativeLayout@406734f0
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40674d00
+android.widget.ImageView@406750d8
+android.widget.TextView: Valero
+android.widget.TextView: 320 E SH-199 & Old Springtown Rd
+android.widget.TextView: Springtown, TX
+android.widget.TextView: 6.59 mi
+android.widget.TableLayout@4072b5d0
+android.widget.TableRow@4072dfb0
+android.widget.RelativeLayout@4072e670
+android.widget.RelativeLayout@4072ea48
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407349d0
+android.widget.ImageView@40734d70
+android.widget.TextView: Texaco
+android.widget.TextView: 6225 FM-920 & FM-1885
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 7.64 mi
+android.widget.TableLayout@40710888
+android.widget.TableRow@40713718
+android.widget.RelativeLayout@40716ba0
+android.widget.RelativeLayout@40717050
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:36 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4071ace8
+android.widget.ImageView@4071d2e0
+android.widget.TextView: Exxon
+android.widget.TextView: 1215 N Main St & 3rd St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.15 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@40710888
+android.widget.TableRow@40713718
+android.widget.RelativeLayout@40716ba0
+android.widget.RelativeLayout@40717050
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:36 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4071ace8
+android.widget.ImageView@4071d2e0
+android.widget.TextView: Exxon
+android.widget.TextView: 1215 N Main St & 3rd St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.15 mi
+android.widget.TableLayout@4057f1d8
+android.widget.TableRow@405a1f10
+android.widget.RelativeLayout@405558b0
+android.widget.RelativeLayout@405df6b8
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:29 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@405f7848
+android.widget.ImageView@405b4ee0
+android.widget.TextView: Mobil
+android.widget.TextView: 1014 N Main St & 1st St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.31 mi
+android.widget.TableLayout@40581df0
+android.widget.TableRow@405bc930
+android.widget.RelativeLayout@405f98f0
+android.widget.RelativeLayout@406006f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40610e88
+android.widget.ImageView@4061c230
+android.widget.TextView: Chevron
+android.widget.TextView: 5094 E SH-199 & Newsom Mound Rd
+android.widget.TextView: Springtown, TX
+android.widget.TextView: 8.39 mi
+android.widget.TableLayout@405ebee8
+android.widget.TableRow@405c0138
+android.widget.RelativeLayout@40633710
+android.widget.RelativeLayout@406378b0
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 2 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40638078
+android.widget.ImageView@40624ca8
+android.widget.TextView: Murphy USA
+android.widget.TextView: 125 S Oak Ridge Dr & Fort Worth Hwy
+android.widget.TextView: Hudson Oaks, TX
+android.widget.TextView: 8.49 mi
+android.widget.TableLayout@40600ad0
+android.widget.TableRow@405f4bc0
+android.widget.RelativeLayout@4063be20
+android.widget.RelativeLayout@40641808
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 20 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406470d8
+android.widget.ImageView@40663bc8
+android.widget.TextView: Shell
+android.widget.TextView: 2800 Ft Worth Hwy & King St
+android.widget.TextView: Hudson Oaks, TX
+android.widget.TextView: 8.49 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@40600ad0
+android.widget.TableRow@405f4bc0
+android.widget.RelativeLayout@4063be20
+android.widget.RelativeLayout@40641808
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 20 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406470d8
+android.widget.ImageView@40663bc8
+android.widget.TextView: Shell
+android.widget.TextView: 2800 Ft Worth Hwy & King St
+android.widget.TextView: Hudson Oaks, TX
+android.widget.TextView: 8.49 mi
+android.widget.TableLayout@4069c5b0
+android.widget.TableRow@406ad2d8
+android.widget.RelativeLayout@40721990
+android.widget.RelativeLayout@4057e160
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:29 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40615cf0
+android.widget.ImageView@40628240
+android.widget.TextView: Chevron
+android.widget.TextView: 704 N Main St & Wheeler St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.51 mi
+android.widget.TableLayout@405bcbb0
+android.widget.TableRow@4060e928
+android.widget.RelativeLayout@406d9870
+android.widget.RelativeLayout@406e45e0
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405b3720
+android.widget.ImageView@405b6320
+android.widget.TextView: RaceTrac
+android.widget.TextView: 3105 Fort Worth Hwy & Lakeshore Dr
+android.widget.TextView: Hudson Oaks, TX
+android.widget.TextView: 8.65 mi
+android.widget.TableLayout@40668620
+android.widget.TableRow@4073ac28
+android.widget.RelativeLayout@406186d8
+android.widget.RelativeLayout@40690e20
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:10 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406e3000
+android.widget.ImageView@406e34a0
+android.widget.TextView: Mobil
+android.widget.TextView: 1111 US-180 & E Bankhead Dr
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.69 mi
+android.widget.TableLayout@406a8660
+android.widget.TableRow@406a3d68
+android.widget.RelativeLayout@40720260
+android.widget.RelativeLayout@40602dc8
+android.widget.TextView: 3.11
+android.widget.TextView: 9
+android.widget.TextView: 20 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406184e8
+android.widget.ImageView@40623438
+android.widget.TextView: Valero
+android.widget.TextView: 3196 E IH-20 & Lakeshore Dr
+android.widget.TextView: Hudson Oaks, TX
+android.widget.TextView: 8.84 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@406a8660
+android.widget.TableRow@406a3d68
+android.widget.RelativeLayout@40720260
+android.widget.RelativeLayout@40602dc8
+android.widget.TextView: 3.11
+android.widget.TextView: 9
+android.widget.TextView: 20 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406184e8
+android.widget.ImageView@40623438
+android.widget.TextView: Valero
+android.widget.TextView: 3196 E IH-20 & Lakeshore Dr
+android.widget.TextView: Hudson Oaks, TX
+android.widget.TextView: 8.84 mi
+android.widget.TableLayout@40620d28
+android.widget.TableRow@40680e80
+android.widget.RelativeLayout@40694d80
+android.widget.RelativeLayout@4069d218
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4069a358
+android.widget.ImageView@406986e8
+android.widget.TextView: Valero
+android.widget.TextView: 229 E Spring St & US-180
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.88 mi
+android.widget.TableLayout@406bc4e0
+android.widget.TableRow@406d7370
+android.widget.RelativeLayout@405f21d0
+android.widget.RelativeLayout@406d7f18
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40684bb8
+android.widget.ImageView@406f6178
+android.widget.TextView: Exxon
+android.widget.TextView: 102 Santa Fe Dr  & Ft Worth St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.95 mi
+android.widget.TableLayout@40664928
+android.widget.TableRow@405860c8
+android.widget.RelativeLayout@4065a1c0
+android.widget.RelativeLayout@40784a28
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057c1a0
+android.widget.ImageView@406f3cb0
+android.widget.TextView: Shell
+android.widget.TextView: 400 Santa Fe Dr & Baylor St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.07 mi
+android.widget.TableLayout@40643118
+android.widget.TableRow@406be470
+android.widget.RelativeLayout@405ecb60
+android.widget.RelativeLayout@405ece78
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4062e690
+android.widget.ImageView@40659dd8
+android.widget.TextView: Fina
+android.widget.TextView: 714 Palo Pinto St & N Merrimac St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.28 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@40664928
+android.widget.TableRow@405860c8
+android.widget.RelativeLayout@4065a1c0
+android.widget.RelativeLayout@40784a28
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057c1a0
+android.widget.ImageView@406f3cb0
+android.widget.TextView: Valero
+android.widget.TextView: 229 E Spring St & US-180
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.88 mi
+android.widget.TableLayout@406bc4e0
+android.widget.TableRow@406d7370
+android.widget.RelativeLayout@405f21d0
+android.widget.RelativeLayout@406d7f18
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40684bb8
+android.widget.ImageView@406f6178
+android.widget.TextView: Exxon
+android.widget.TextView: 102 Santa Fe Dr  & Ft Worth St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 8.95 mi
+android.widget.TableLayout@40620d28
+android.widget.TableRow@40680e80
+android.widget.RelativeLayout@40694d80
+android.widget.RelativeLayout@4069d218
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4069a358
+android.widget.ImageView@406986e8
+android.widget.TextView: Shell
+android.widget.TextView: 400 Santa Fe Dr & Baylor St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.07 mi
+android.widget.TableLayout@406a8660
+android.widget.TableRow@406a3d68
+android.widget.RelativeLayout@40720260
+android.widget.RelativeLayout@40602dc8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 20 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406184e8
+android.widget.ImageView@40623438
+android.widget.TextView: Fina
+android.widget.TextView: 714 Palo Pinto St & N Merrimac St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.28 mi
+android.widget.TableLayout@4057f1d8
+android.widget.TableRow@4054cc38
+android.widget.RelativeLayout@40510070
+android.widget.RelativeLayout@405558b0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4057c618
+android.widget.ImageView@4054ec50
+android.widget.TextView: Shamrock
+android.widget.TextView: 802 Palo Pinto St & N Merrimac St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.29 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@4057f1d8
+android.widget.TableRow@4054cc38
+android.widget.RelativeLayout@40510070
+android.widget.RelativeLayout@405558b0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4057c618
+android.widget.ImageView@4054ec50
+android.widget.TextView: Shamrock
+android.widget.TextView: 802 Palo Pinto St & N Merrimac St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.29 mi
+android.widget.TableLayout@40581df0
+android.widget.TableRow@40555dd0
+android.widget.RelativeLayout@40580358
+android.widget.RelativeLayout@405a1708
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405df6b8
+android.widget.ImageView@405a5be8
+android.widget.TextView: Chevron
+android.widget.TextView: 501 S Main St & E Josephine Ave
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.35 mi
+android.widget.TableLayout@405ebee8
+android.widget.TableRow@405a1f10
+android.widget.RelativeLayout@405f98f0
+android.widget.RelativeLayout@40601e50
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40610e88
+android.widget.ImageView@405b4ee0
+android.widget.TextView: Texaco
+android.widget.TextView: 9086 W SH-199 & Salt Creek Rd
+android.widget.TextView: Springtown, TX
+android.widget.TextView: 9.38 mi
+android.widget.TableLayout@40600ad0
+android.widget.TableRow@405c0138
+android.widget.RelativeLayout@40633710
+android.widget.RelativeLayout@40638078
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 6 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4063be20
+android.widget.ImageView@405cbf00
+android.widget.TextView: Love's
+android.widget.TextView: 2605 E Bankhead Dr & IH-20 exit 410
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.39 mi
+android.widget.TableLayout@406036b0
+android.widget.TableRow@405f4bc0
+android.widget.RelativeLayout@406470d8
+android.widget.RelativeLayout@40648a90
+android.widget.TextView: 3.21
+android.widget.TextView: 9
+android.widget.TextView: Mon 9:12 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064a0c0
+android.widget.ImageView@405ffab8
+android.widget.TextView: Valero
+android.widget.TextView: 1125 Palo Pinto St & S Bowie Dr
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.47 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@406036b0
+android.widget.TableRow@405f4bc0
+android.widget.RelativeLayout@406470d8
+android.widget.RelativeLayout@40648a90
+android.widget.TextView: 3.21
+android.widget.TextView: 9
+android.widget.TextView: Mon 9:12 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064a0c0
+android.widget.ImageView@405ffab8
+android.widget.TextView: Valero
+android.widget.TextView: 1125 Palo Pinto St & S Bowie Dr
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.47 mi
+android.widget.TableLayout@40616108
+android.widget.TableRow@4061a5e8
+android.widget.RelativeLayout@4064d018
+android.widget.RelativeLayout@40663ed0
+android.widget.TextView: 3.16
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40616d70
+android.widget.ImageView@4061c230
+android.widget.TextView: Phillips 66
+android.widget.TextView: 1600 Northwest  Pkwy   & Ashwood St
+android.widget.TextView: Azle, TX
+android.widget.TextView: 9.5 mi
+android.widget.TableLayout@40621108
+android.widget.TableRow@406378b0
+android.widget.RelativeLayout@406611b8
+android.widget.RelativeLayout@406e2240
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405c0b50
+android.widget.ImageView@40624ca8
+android.widget.TextView: Shell
+android.widget.TextView: 1502 Mineral Wells Hwy & Garner Rd
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.62 mi
+android.widget.TableLayout@40623d00
+android.widget.TableRow@40684df0
+android.widget.RelativeLayout@405ee118
+android.widget.RelativeLayout@4062ff30
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40663bb8
+android.widget.ImageView@406e8920
+android.widget.TextView: Chevron
+android.widget.TextView: 3910 E IH-20 & FM-5
+android.widget.TextView: Willow Park, TX
+android.widget.TextView: 9.63 mi
+android.widget.TableLayout@406287c0
+android.widget.TableRow@406e1f30
+android.widget.RelativeLayout@406700c8
+android.widget.RelativeLayout@407589f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407685b0
+android.widget.ImageView@40722fd8
+android.widget.TextView: Conoco
+android.widget.TextView: 101 Sparks St & W Seaberry Ave
+android.widget.TextView: Poolville, TX
+android.widget.TextView: 9.74 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@406287c0
+android.widget.TableRow@406e1f30
+android.widget.RelativeLayout@406700c8
+android.widget.RelativeLayout@407589f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407685b0
+android.widget.ImageView@40722fd8
+android.widget.TextView: Conoco
+android.widget.TextView: 101 Sparks St & W Seaberry Ave
+android.widget.TextView: Poolville, TX
+android.widget.TextView: 9.74 mi
+android.widget.TableLayout@4064afb0
+android.widget.TableRow@40675428
+android.widget.RelativeLayout@407a0760
+android.widget.RelativeLayout@407ab448
+android.widget.TextView: 3.17
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40658088
+android.widget.ImageView@406f1458
+android.widget.TextView: Valero
+android.widget.TextView: 2001 Santa Fe Dr & IH-20
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.84 mi
+android.widget.TableLayout@406949c0
+android.widget.TableRow@40706ac0
+android.widget.RelativeLayout@407b5950
+android.widget.RelativeLayout@406cb848
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406b6e00
+android.widget.ImageView@406f7968
+android.widget.TextView: Shell
+android.widget.TextView: 2101 Clearlake Rd & IH-20
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 9.88 mi
+android.widget.TableLayout@40658ca0
+android.widget.TableRow@4068d058
+android.widget.RelativeLayout@4072b418
+android.widget.RelativeLayout@406d6668
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40636240
+android.widget.ImageView@4071b8d0
+android.widget.TextView: PickUp Mart
+android.widget.TextView: W Park Ave & S Main St
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.07 mi
+android.widget.TableLayout@4069ddd0
+android.widget.TableRow@4071d060
+android.widget.RelativeLayout@4067d768
+android.widget.RelativeLayout@40644830
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 18 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407247c0
+android.widget.ImageView@406d9740
+android.widget.TextView: Exxon
+android.widget.TextView: 1835 S Main  St & Martin Dr
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.55 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@4069ddd0
+android.widget.TableRow@4071d060
+android.widget.RelativeLayout@4067d768
+android.widget.RelativeLayout@40644830
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 18 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407247c0
+android.widget.ImageView@406d9740
+android.widget.TextView: Exxon
+android.widget.TextView: 1835 S Main  St & Martin Dr
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.55 mi
+android.widget.TableLayout@40645968
+android.widget.TableRow@40668a70
+android.widget.RelativeLayout@406f4ef8
+android.widget.RelativeLayout@40701e70
+android.widget.TextView: 3.06
+android.widget.TextView: 9
+android.widget.TextView: 18 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4073b020
+android.widget.ImageView@406f05f8
+android.widget.TextView: Murphy USA
+android.widget.TextView: 1836 S Main St & Martin Dr
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.61 mi
+android.widget.TableLayout@40611940
+android.widget.TableRow@406f1e08
+android.widget.RelativeLayout@406f23d8
+android.widget.RelativeLayout@406026d0
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 17 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4069e388
+android.widget.ImageView@4069e728
+android.widget.TextView: Mobil
+android.widget.TextView: 2020 S Main St & IH-20
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.72 mi
+android.widget.TableLayout@4067ea18
+android.widget.TableRow@4068b1f0
+android.widget.RelativeLayout@4068b838
+android.widget.RelativeLayout@406ef890
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406fbee0
+android.widget.ImageView@4077b900
+android.widget.TextView: Exxon
+android.widget.TextView: 102 E IH-20 & SH-171
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.8 mi
+android.widget.TableLayout@40730368
+android.widget.TableRow@4067bf48
+android.widget.RelativeLayout@4067c4a0
+android.widget.RelativeLayout@4071e7a8
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406ec748
+android.widget.ImageView@406ecb20
+android.widget.TextView: Shell
+android.widget.TextView: 107 W IH-20 & SH-171 FM-51
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.82 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@406dbac0
+android.widget.TableRow@406dc090
+android.widget.RelativeLayout@406dc750
+android.widget.RelativeLayout@406dcb28
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40794068
+android.widget.ImageView@40794440
+android.widget.TextView: Shell
+android.widget.TextView: 107 W IH-20 & SH-171 FM-51
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 10.82 mi
+android.widget.TableLayout@40617048
+android.widget.TableRow@40617618
+android.widget.RelativeLayout@40617cd8
+android.widget.RelativeLayout@406180b0
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406e7af8
+android.widget.ImageView@4078c490
+android.widget.TextView: Murphy USA
+android.widget.TextView: 540 NW Pkwy & Boyd Rd
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.2 mi
+android.widget.TableLayout@406b5390
+android.widget.TableRow@40693260
+android.widget.RelativeLayout@40693858
+android.widget.RelativeLayout@40693c30
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40622e80
+android.widget.ImageView@406ed320
+android.widget.TextView: Albertsons
+android.widget.TextView: 480 NW Pkwy & FM-730
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.23 mi
+android.widget.TableLayout@40699488
+android.widget.TableRow@4063ccf8
+android.widget.RelativeLayout@4063d338
+android.widget.RelativeLayout@4063d710
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406cec08
+android.widget.ImageView@406cefe0
+android.widget.TextView: Shell
+android.widget.TextView: 455 Northwest Pkwy & Boyd Rd
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.23 mi
+android.widget.TableLayout@40730368
+android.widget.TableRow@4067bf48
+android.widget.RelativeLayout@4067c4a0
+android.widget.RelativeLayout@4071e7a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406ec748
+android.widget.ImageView@406ecb20
+android.widget.TextView: CITGO
+android.widget.TextView: 501 Boyd Rd & Northwest Pkwy
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.27 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@40730368
+android.widget.TableRow@4067bf48
+android.widget.RelativeLayout@4067c4a0
+android.widget.RelativeLayout@4071e7a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406ec748
+android.widget.ImageView@406ecb20
+android.widget.TextView: CITGO
+android.widget.TextView: 501 Boyd Rd & Northwest Pkwy
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.27 mi
+android.widget.TableLayout@4057c618
+android.widget.TableRow@4054cc38
+android.widget.RelativeLayout@40517d98
+android.widget.RelativeLayout@405558b0
+android.widget.TextView: 3.16
+android.widget.TextView: 9
+android.widget.TextView: Mon 3:40 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40580358
+android.widget.ImageView@4054ec50
+android.widget.TextView: Texaco
+android.widget.TextView: 100 E Main St & S Stewart St
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.28 mi
+android.widget.TableLayout@4057f1d8
+android.widget.TableRow@40555dd0
+android.widget.RelativeLayout@405df6b8
+android.widget.RelativeLayout@405f98f0
+android.widget.TextView: 3.21
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:44 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40610e88
+android.widget.ImageView@405b4ee0
+android.widget.TextView: Chevron
+android.widget.TextView: 201 N Stewart St & SE Pkwy
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.32 mi
+android.widget.TableLayout@40581df0
+android.widget.TableRow@405a1f10
+android.widget.RelativeLayout@40633710
+android.widget.RelativeLayout@40638078
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4063be20
+android.widget.ImageView@405cbf00
+android.widget.TextView: CITGO
+android.widget.TextView: 201 N Stewart St & Northwest Pkwy
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.33 mi
+android.widget.TableLayout@405a5be8
+android.widget.TableRow@405c0138
+android.widget.RelativeLayout@406470d8
+android.widget.RelativeLayout@40648a90
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064a0c0
+android.widget.ImageView@4061c230
+android.widget.TextView: RaceTrac
+android.widget.TextView: 901 Boyd Rd & Lake Crest Pkwy
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.36 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@405a5be8
+android.widget.TableRow@405c0138
+android.widget.RelativeLayout@406470d8
+android.widget.RelativeLayout@40648a90
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064a0c0
+android.widget.ImageView@4061c230
+android.widget.TextView: RaceTrac
+android.widget.TextView: 901 Boyd Rd & Lake Crest Pkwy
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.36 mi
+android.widget.TableLayout@405ab438
+android.widget.TableRow@405f4bc0
+android.widget.RelativeLayout@4064d018
+android.widget.RelativeLayout@40663ed0
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40664e50
+android.widget.ImageView@40624ca8
+android.widget.TextView: Exxon
+android.widget.TextView: 101 W SH-199 & FM-51
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.38 mi
+android.widget.TableLayout@405ebee8
+android.widget.TableRow@40613308
+android.widget.RelativeLayout@406e2240
+android.widget.RelativeLayout@405c0b50
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ee118
+android.widget.ImageView@4068baf0
+android.widget.TextView: JT Hornet's Nest
+android.widget.TextView: 1101 Boyd Rd & Walnut Creek Dr
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.43 mi
+android.widget.TableLayout@40600ad0
+android.widget.TableRow@4061a5e8
+android.widget.RelativeLayout@407685b0
+android.widget.RelativeLayout@406378b0
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064afb0
+android.widget.ImageView@40726368
+android.widget.TextView: Conoco
+android.widget.TextView: 1118 W Park Ave & IH-20 exit 406
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 11.45 mi
+android.widget.TableLayout@407197d0
+android.widget.TableRow@406c4dd0
+android.widget.RelativeLayout@40729ac0
+android.widget.RelativeLayout@40568f88
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40721990
+android.widget.ImageView@405a3b60
+android.widget.TextView: Exxon
+android.widget.TextView: 500 N Stewart St  & Park St
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.49 mi
+android.widget.RelativeLayout@4070b6e0
+android.widget.FrameLayout@406249d8
+android.widget.RelativeLayout@4064e228
+android.widget.LinearLayout@40651638
+android.view.View@4070a810
+android.widget.RelativeLayout@40559480
+android.widget.TextView: Regular
+android.view.View@40682d30
+android.view.View@4070a450
+android.widget.RelativeLayout@4060e258
+android.widget.TextView: Midgrade
+android.view.View@40644078
+android.view.View@4070a5b0
+android.widget.RelativeLayout@40721e48
+android.widget.TextView: Premium
+android.view.View@40739aa8
+android.view.View@4070a6e0
+android.widget.RelativeLayout@40739c98
+android.widget.TextView: Diesel
+android.view.View@40703c30
+android.view.View@4070a930
+android.view.View@40595988
+android.widget.LinearLayout@406539c0
+android.widget.RelativeLayout@406d8bd8
+android.widget.ImageView@40684538
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40529560
+android.widget.ImageView@40570780
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40675600
+android.widget.ImageView@4065da38
+android.widget.TextView: Map View
+android.view.View@405fb1f0
+gbis.gbandroid.views.layouts.CustomListView@406922b0
+android.widget.TableLayout@407197d0
+android.widget.TableRow@406c4dd0
+android.widget.RelativeLayout@40729ac0
+android.widget.RelativeLayout@40568f88
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40721990
+android.widget.ImageView@405a3b60
+android.widget.TextView: Exxon
+android.widget.TextView: 500 N Stewart St  & Park St
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.49 mi
+android.widget.TableLayout@406b05a0
+android.widget.TableRow@406b3360
+android.widget.RelativeLayout@40629610
+android.widget.RelativeLayout@40580018
+android.widget.TextView: 3.27
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4054fba0
+android.widget.ImageView@405f21d0
+android.widget.TextView: Exxon
+android.widget.TextView: 101 Ranch House Rd & IH-20 Service Rd N
+android.widget.TextView: Willow Park, TX
+android.widget.TextView: 11.55 mi
+android.widget.TableLayout@407336b8
+android.widget.TableRow@406d72b0
+android.widget.RelativeLayout@40594430
+android.widget.RelativeLayout@40725bc0
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4071a3e0
+android.widget.ImageView@4076e910
+android.widget.TextView: Shell
+android.widget.TextView: 101 Ranch House Rd  & IH-20 Service Rd N
+android.widget.TextView: Willow Park, TX
+android.widget.TextView: 11.61 mi
+android.widget.TableLayout@40580c40
+android.widget.TableRow@406a80d8
+android.widget.RelativeLayout@40699098
+android.widget.RelativeLayout@40700888
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4063eaf8
+android.widget.ImageView@40661f88
+android.widget.TextView: Pilot
+android.widget.TextView: 2210 Old Dennis Rd & IH-20 Exit 406
+android.widget.TextView: Weatherford, TX
+android.widget.TextView: 11.63 mi
+android.widget.TableLayout@4069a630
+android.widget.TableRow@4069d198
+android.widget.RelativeLayout@40628240
+android.widget.RelativeLayout@40628578
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406830d8
+android.widget.ImageView@407aac28
+android.widget.TextView: Chevron
+android.widget.TextView: 1704 FM-730 N  & Sandy Beach Rd
+android.widget.TextView: Azle, TX
+android.widget.TextView: 11.7 mi
+android.widget.RelativeLayout@4070b6e0

@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405856a8
+android.widget.LinearLayout@40586158
+android.widget.FrameLayout@40586408
+android.widget.ImageView@405866b8
+android.widget.RelativeLayout@40586b50
+android.widget.ImageButton@40587160
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058a810
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cc20
+android.widget.LinearLayout@4058cfc8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058e7c0
+android.widget.LinearLayout@40538610
+android.widget.TextView: Locations
+android.widget.ScrollView@40515c38
+android.widget.TableLayout@4057f0d0
+android.widget.TableRow@40620890
+android.widget.ImageView@40579050
+android.widget.TextView: 971 W Main Street
+android.widget.TextView: 3.82 mi
+android.widget.TableRow@40536068
+android.widget.ImageView@4061f3a8
+android.widget.TextView: 1003 W Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@406179b0
+android.widget.ImageView@4062fc68
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@40636d08
+android.widget.ImageView@406371b0
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4062b768
+android.widget.ImageView@4062bba8
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 4.89 mi
+android.widget.TableRow@406341e8
+android.widget.ImageView@40634690
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 4.89 mi
+android.widget.TableRow@40621ac8
+android.widget.ImageView@40621f70
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.52 mi
+android.widget.TableRow@4061e318
+android.widget.ImageView@4061e7c0
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.52 mi
+android.widget.TableRow@4060daf0
+android.widget.ImageView@40653a18
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 5.73 mi
+android.widget.TableRow@40623628
+android.widget.ImageView@40623ad0
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 5.74 mi
+android.widget.TableRow@405776b0
+android.widget.ImageView@40577b58
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 7.38 mi
+android.widget.TableRow@40573e20
+android.widget.ImageView@405742c8
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 7.40 mi
+android.widget.TableRow@4062edb8
+android.widget.ImageView@4062f260
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 8.12 mi
+android.widget.TableRow@40611dc8
+android.widget.ImageView@40612270
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 8.12 mi
+android.widget.TableRow@406194b0
+android.widget.ImageView@40619958
+android.widget.TextView: 1289 Foxon Road
+android.widget.TextView: 8.27 mi
+android.widget.TableRow@40579620
+android.widget.ImageView@40579ac8
+android.widget.TextView: 1289 Foxon Road
+android.widget.TextView: 8.27 mi
+android.widget.TableRow@4054d240
+android.widget.ImageView@4054d6e8
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 9.78 mi
+android.widget.TableRow@4054e6d0
+android.widget.ImageView@40626548
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 9.78 mi
+android.widget.TableRow@40627530
+android.widget.ImageView@406279d8
+android.widget.TextView: 90 Washington Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@4062d118
+android.widget.ImageView@4062d5c0
+android.widget.TextView: 90 Washington Avenue
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@4057b828
+android.widget.ImageView@4053b398
+android.widget.Button: Filter
+android.widget.LinearLayout@40581b48
+android.widget.FrameLayout@4060abb8
+android.widget.ImageView@40583220
+android.widget.Button: Filter
+android.widget.FrameLayout@406106a0
+android.widget.Button: Done
+android.widget.FrameLayout@40611228
+android.widget.ImageView@40583e00
+android.widget.TextView: Stores
+android.widget.ImageView@405aa480
+android.widget.FrameLayout@406151a0
+android.widget.ImageView@405b5dd0
+android.widget.TextView: ATMs
+android.widget.ImageView@40608fc8
+android.widget.FrameLayout@405856a8
+android.widget.LinearLayout@40586158
+android.widget.FrameLayout@40586408
+android.widget.ImageView@405866b8
+android.widget.RelativeLayout@40586b50
+android.widget.ImageButton@40587160
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058a810
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cc20
+android.widget.LinearLayout@4058cfc8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058e7c0
+android.widget.LinearLayout@40538610
+android.widget.TextView: Locations
+android.widget.ScrollView@40515c38
+android.widget.TableLayout@4057f0d0
+android.widget.TableRow@40620890
+android.widget.ImageView@40579050
+android.widget.TextView: 971 W Main Street
+android.widget.TextView: 3.82 mi
+android.widget.TableRow@40536068
+android.widget.ImageView@4061f3a8
+android.widget.TextView: 1003 W Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@406179b0
+android.widget.ImageView@4062fc68
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@40636d08
+android.widget.ImageView@406371b0
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4062b768
+android.widget.ImageView@4062bba8
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 4.89 mi
+android.widget.TableRow@406341e8
+android.widget.ImageView@40634690
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 4.89 mi
+android.widget.TableRow@40621ac8
+android.widget.ImageView@40621f70
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.52 mi
+android.widget.TableRow@4061e318
+android.widget.ImageView@4061e7c0
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.52 mi
+android.widget.TableRow@4060daf0
+android.widget.ImageView@40653a18
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 5.73 mi
+android.widget.TableRow@40623628
+android.widget.ImageView@40623ad0
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 5.74 mi
+android.widget.TableRow@405776b0
+android.widget.ImageView@40577b58
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 7.38 mi
+android.widget.TableRow@40573e20
+android.widget.ImageView@405742c8
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 7.40 mi
+android.widget.TableRow@4062edb8
+android.widget.ImageView@4062f260
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 8.12 mi
+android.widget.TableRow@40611dc8
+android.widget.ImageView@40612270
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 8.12 mi
+android.widget.TableRow@406194b0
+android.widget.ImageView@40619958
+android.widget.TextView: 1289 Foxon Road
+android.widget.TextView: 8.27 mi
+android.widget.TableRow@40579620
+android.widget.ImageView@40579ac8
+android.widget.TextView: 1289 Foxon Road
+android.widget.TextView: 8.27 mi
+android.widget.TableRow@4054d240
+android.widget.ImageView@4054d6e8
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 9.78 mi
+android.widget.TableRow@4054e6d0
+android.widget.ImageView@40626548
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 9.78 mi
+android.widget.TableRow@40627530
+android.widget.ImageView@406279d8
+android.widget.TextView: 90 Washington Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@4062d118
+android.widget.ImageView@4062d5c0
+android.widget.TextView: 90 Washington Avenue
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@4057b828
+android.widget.ImageView@4053b398
+android.widget.Button: Filter
+android.widget.LinearLayout@40581b48
+android.widget.FrameLayout@4060abb8
+android.widget.ImageView@40583220
+android.widget.Button: Filter
+android.widget.FrameLayout@406106a0
+android.widget.Button: Done
+android.widget.FrameLayout@40611228
+android.widget.ImageView@40583e00
+android.widget.TextView: Stores
+android.widget.ImageView@405aa480
+android.widget.FrameLayout@406151a0
+android.widget.ImageView@405b5dd0
+android.widget.TextView: ATMs
+android.widget.ImageView@40608fc8
+android.widget.FrameLayout@405856a8
+android.widget.LinearLayout@40586158
+android.widget.FrameLayout@40586408
+android.widget.ImageView@405866b8
+android.widget.RelativeLayout@40586b50
+android.widget.ImageButton@40587160
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058a810
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cc20
+android.widget.LinearLayout@4058cfc8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058e7c0
+android.widget.LinearLayout@40538610
+android.widget.TextView: Locations
+android.widget.ScrollView@40515c38
+android.widget.TableLayout@4057f0d0
+android.widget.TableRow@40620890
+android.widget.ImageView@40579050
+android.widget.TextView: 971 W Main Street
+android.widget.TextView: 3.82 mi
+android.widget.TableRow@40536068
+android.widget.ImageView@4061f3a8
+android.widget.TextView: 1003 W Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@406179b0
+android.widget.ImageView@4062fc68
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@40636d08
+android.widget.ImageView@406371b0
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4062b768
+android.widget.ImageView@4062bba8
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 4.89 mi
+android.widget.TableRow@406341e8
+android.widget.ImageView@40634690
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 4.89 mi
+android.widget.TableRow@40621ac8
+android.widget.ImageView@40621f70
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.52 mi
+android.widget.TableRow@4061e318
+android.widget.ImageView@4061e7c0
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.52 mi
+android.widget.TableRow@4060daf0
+android.widget.ImageView@40653a18
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 5.73 mi
+android.widget.TableRow@40623628
+android.widget.ImageView@40623ad0
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 5.74 mi
+android.widget.TableRow@405776b0
+android.widget.ImageView@40577b58
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 7.38 mi
+android.widget.TableRow@40573e20
+android.widget.ImageView@405742c8
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 7.40 mi
+android.widget.TableRow@4062edb8
+android.widget.ImageView@4062f260
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 8.12 mi
+android.widget.TableRow@40611dc8
+android.widget.ImageView@40612270
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 8.12 mi
+android.widget.TableRow@406194b0
+android.widget.ImageView@40619958
+android.widget.TextView: 1289 Foxon Road
+android.widget.TextView: 8.27 mi
+android.widget.TableRow@40579620
+android.widget.ImageView@40579ac8
+android.widget.TextView: 1289 Foxon Road
+android.widget.TextView: 8.27 mi
+android.widget.TableRow@4054d240
+android.widget.ImageView@4054d6e8
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 9.78 mi
+android.widget.TableRow@4054e6d0
+android.widget.ImageView@40626548
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 9.78 mi
+android.widget.TableRow@40627530
+android.widget.ImageView@406279d8
+android.widget.TextView: 90 Washington Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@4062d118
+android.widget.ImageView@4062d5c0
+android.widget.TextView: 90 Washington Avenue
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@4057b828
+android.widget.ImageView@4053b398
+android.widget.Button: Filter
+android.widget.LinearLayout@40581b48
+android.widget.FrameLayout@4060abb8
+android.widget.ImageView@40583220
+android.widget.Button: Filter
+android.widget.FrameLayout@406106a0
+android.widget.Button: Done
+android.widget.FrameLayout@40611228
+android.widget.ImageView@40583e00
+android.widget.TextView: Stores
+android.widget.ImageView@405aa480
+android.widget.FrameLayout@406151a0
+android.widget.ImageView@405b5dd0
+android.widget.TextView: ATMs
+android.widget.ImageView@40608fc8

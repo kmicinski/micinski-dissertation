@@ -1,0 +1,119 @@
+\renewcommand{\thechapter}{6}
+
+\chapter{Conclusion and Future Directions}
+
+In this dissertation, I defined interaction-based security as security
+which was informed by the user's interaction with an app's UI. I then
+presented several pieces of work showing how we could move the space
+of mobile apps closer towards accomodating interaction-based
+security. In this chapter, I will briefly review each piece of work
+and discuss how it fits in to the larger space of mobile apps and
+systems going forward, and detail some future directions of work.
+
+\section{Binary Rewriting for Android Apps}
+
+Much of the work in my dissertation relied on the ability to perform
+binary instrumentation of Android apps. Binary instrumentation is a
+powerful mechanism and allows us to perform a range of dynamic
+analyses, only some of which have been presented here. In Chapter 2
+detailed some of the key issues involved in transforming Android apps
+correctly. I describe Redexer---my binary rewriter for Android---and
+its implementation, along with a demonstration of how Redexer be used
+for studying location truncation in Android apps.
+
+Redexer currently works at scale on arbitrarily large Android
+apps. During my work for Chapter 4, we were using Redexer on most top
+apps from Google Play. The logging framework was pushed even further
+during my work on Chapter 5, wherein we logged every method invocation
+in several production-sized apps. Generally, Redexer offers a fairly
+flexible API for app rewriting and could be used for applications not
+described here. For example, we are currently working on using Redexer
+to understand which data apps back up. I also envision using Redexer
+to enforce the security policies that we understand via the work in
+Chapter 5. For example, this might happen by using Hogarth to figure
+out the policy for an app and then using a dynamic enforcement
+mechanism in Redexer to exit the app if the app goes down a path not
+observed in the set of analyzed runs.
+
+\section{Checking Interaction-Based Declassification Policies for Android Using Symbolic Execution}
+
+While Redexer allows rewriting apps to change their dynamic behavior,
+Chapter 3 explores the complications of understanding information-flow
+in apps. Information flow is a tricky property, because it relies on
+quantifying over sets of runs, rather than a single run. My work on
+interaction-based information flow policies was driven by an intuition
+that users reason about declassification decisions using the app's UI. 
+
+I did not mention information flow in subsequent chapters, and instead
+focused on permission uses. I would like to go back and study user
+preferences and security expectations in the presence of information
+flow. As we saw in Chapter 3, information-flow is still challenging to
+apply to production apps, compared to, e.g., permission systems. I
+plan to study what has to be done to support information flow for
+production apps and if it would even be beneficial to users (versus
+better permission systems).
+
+\section{User Interactions and Permission Use on Android}
+
+Chapter 4 details my work in understanding the relation between user
+interactions and permission in Android apps. We found that the Android
+system is largely heading in the right direction by urging apps to
+authorize permission use on first use. However, we found that users
+may not fully understand background permission uses, specifically when
+they occur in apps which also have foreground uses of those
+permissions.
+
+I plan to continue this work trying to understand how we could better
+design UIs to help users understand background permission uses. This
+was challenging in AppTracer, because AppTracer was driven by a
+temporal notion of influence: it was hard to reason about why a
+permission use happened when its cause was far removed from the UI
+event that caused it. This motivated me to build Hogarth, which allows
+understanding this dependence in a principled way by registrations of
+callbacks. However, I have not applied Hogarth to large apps of the
+variety in Chapter 4. I plan to continue work on tools like Hogarth,
+so that I can apply them to production apps and understand why apps
+use background resources. I hope this will help inform my knowledge of
+why these uses are necessary and what we can do to explain them to
+users.
+
+\section{Permission-Use Provenance in Android Using Sparse Dynamic Analysis}
+
+Finally, Chapter 5 introduces Hogarth, a system which uses app logs as
+the basis for program understanding. Understanding interaction-based
+security requires very precise knowledge about paths through an
+app. Traditional types of program analyses are challenging to apply
+here because they achieve scalability by sacrificing
+precision. Hogarth provides a very precise understanding of why a
+permission is used in an app, but sacrifices soundness to do so.
+
+There are many exciting directions to explore following up
+Hogarth. First, the initial implementation of Hogarth needs to be
+scaled up to work on realistically sized apps. I have a number of
+ideas for how to do so. For example, one limiting factor in Chapter 5
+was that Hogarth ran out of memory processing very large logs. This
+was because a symbolic state was created for each entry in the
+log. Instead, I will modify Hogarth so that it performs on-the-fly
+minimization, merging newly discovered symbolic states as it
+interpolates the log rather than generating all of the symbolic states
+before minimization.
+
+Next, I would like to understand how to make fundamental improvements
+to Hogarth. For example, Hogarth will frequently include in its path
+conditions the post conditions for each loop through which it
+passes. Although this is the correct behavior, I have frequently found
+that this information is not usually necessary. Also, Hogarth uses
+only positive examples as it performs its minimization. I speculate
+that Hogarth may be able to present a more minimal path condition if
+it were to consider the negative paths (which did not lead to a
+permission use) and prune information from the path condition which
+also occurred in those paths.
+
+More generally, I believe Hogarth is just a first piece of work
+towards using program analysis to aid reverse engineering. I am
+uncertain what real reverse engineers would think of Hogarth. I assume
+that we would discover many interesting problems if we were to give
+Hogarth to professional reverse engineers. I am very much interested
+in doing so, and using other techniques from program analysis to help
+inspire advances in program understanding.
+

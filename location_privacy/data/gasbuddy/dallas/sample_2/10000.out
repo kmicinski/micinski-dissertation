@@ -1,0 +1,1391 @@
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.RelativeLayout@4074a598
+com.google.ads.AdView@4074b3d0
+android.gesture.GestureOverlayView@40690a78
+android.widget.FrameLayout@4074b778
+com.google.ads.internal.AdWebView@40612dd8
+android.widget.TableLayout@407a6800
+android.widget.TableRow@407a6dd0
+android.widget.RelativeLayout@407a7490
+android.widget.RelativeLayout@407a7868
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407a9078
+android.widget.ImageView@407a9450
+android.widget.TextView: Chevron
+android.widget.TextView: 1402 N Beckley & W Pleasant Run Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 0.72 mi
+android.widget.TableLayout@407959a8
+android.widget.TableRow@40795f78
+android.widget.RelativeLayout@40796638
+android.widget.RelativeLayout@40796a10
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: Sun 8:08 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40798220
+android.widget.ImageView@407985f8
+android.widget.TextView: Chevron
+android.widget.TextView: 1463 W Pleasant Run Rd & IH-35E
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 0.81 mi
+android.widget.TableLayout@40781cd0
+android.widget.TableRow@407822a0
+android.widget.RelativeLayout@40782960
+android.widget.RelativeLayout@40782d38
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:49 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40784548
+android.widget.ImageView@40784920
+android.widget.TextView: Shell
+android.widget.TextView: 1360 N IH-35 E & Pleasant Run Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 0.83 mi
+android.widget.TableLayout@4064b490
+android.widget.TableRow@4064be40
+android.widget.RelativeLayout@4064cd78
+android.widget.RelativeLayout@4064d228
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40773b60
+android.widget.ImageView@40773f80
+android.widget.TextView: Conoco
+android.widget.TextView: 3160 W Pleasant Run Rd & Rolling Hills Pl
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 1.02 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@4064b490
+android.widget.TableRow@4064be40
+android.widget.RelativeLayout@4064cd78
+android.widget.RelativeLayout@4064d228
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40773b60
+android.widget.ImageView@40773f80
+android.widget.TextView: Conoco
+android.widget.TextView: 3160 W Pleasant Run Rd & Rolling Hills Pl
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 1.02 mi
+android.widget.TableLayout@405664a8
+android.widget.TableRow@40510070
+android.widget.RelativeLayout@40511d40
+android.widget.RelativeLayout@4054ef60
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405ee368
+android.widget.ImageView@405525d0
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 1501 Wintergreen Ct & Wintergreen Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.09 mi
+android.widget.TableLayout@4059c3f8
+android.widget.TableRow@4054bd38
+android.widget.RelativeLayout@406105b8
+android.widget.RelativeLayout@406b5da0
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406b96b8
+android.widget.ImageView@40569470
+android.widget.TextView: Tom Thumb
+android.widget.TextView: 214 E Pleasant Run Rd & Hampton Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.18 mi
+android.widget.TableLayout@405e9f88
+android.widget.TableRow@40586290
+android.widget.RelativeLayout@406cbe88
+android.widget.RelativeLayout@406d36c0
+android.widget.TextView: 3.11
+android.widget.TextView: 9
+android.widget.TextView: 20 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d4a90
+android.widget.ImageView@405be6b8
+android.widget.TextView: Texaco
+android.widget.TextView: 834 N Hampton & Pleasant Run Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.33 mi
+android.widget.TableLayout@405ee6d8
+android.widget.TableRow@4058c6f0
+android.widget.RelativeLayout@4075e160
+android.widget.RelativeLayout@405a59a8
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ed168
+android.widget.ImageView@406b0bd8
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 757 E Belt Line Rd & Polk St
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.33 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@405ee6d8
+android.widget.TableRow@4058c6f0
+android.widget.RelativeLayout@4075e160
+android.widget.RelativeLayout@405a59a8
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ed168
+android.widget.ImageView@406b0bd8
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 757 E Belt Line Rd & Polk St
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.33 mi
+android.widget.TableLayout@4062ad28
+android.widget.TableRow@40680be0
+android.widget.RelativeLayout@407003e0
+android.widget.RelativeLayout@40731ee8
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406216b0
+android.widget.ImageView@40659890
+android.widget.TextView: Murphy USA
+android.widget.TextView: 170 N Beckley St & Belt Line Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 1.33 mi
+android.widget.TableLayout@4060f3e0
+android.widget.TableRow@405f1378
+android.widget.RelativeLayout@405af1f0
+android.widget.RelativeLayout@405c8d18
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40776da0
+android.widget.ImageView@405c0fb8
+android.widget.TextView: Shell
+android.widget.TextView: 1221 East Belt Line Rd & Alpine Dr
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.38 mi
+android.widget.TableLayout@4067d998
+android.widget.TableRow@4061a1f0
+android.widget.RelativeLayout@4061c590
+android.widget.RelativeLayout@4068d090
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 37 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406bb9b8
+android.widget.ImageView@4060e848
+android.widget.TextView: QuikTrip
+android.widget.TextView: 1235 Belt Line Rd & IH-35
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.42 mi
+android.widget.TableLayout@406b34b8
+android.widget.TableRow@40708648
+android.widget.RelativeLayout@406be5d8
+android.widget.RelativeLayout@406d9f88
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 56 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40725810
+android.widget.ImageView@4068b8e8
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 1500 N Hampton Rd & Wintergreen Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.45 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@4059c3f8
+android.widget.TableRow@40511d40
+android.widget.RelativeLayout@4064b978
+android.widget.RelativeLayout@406d4a90
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 56 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406963b0
+android.widget.ImageView@405b5560
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 1500 N Hampton Rd & Wintergreen Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.45 mi
+android.widget.TableLayout@405664a8
+android.widget.TableRow@40510070
+android.widget.RelativeLayout@4054ef60
+android.widget.RelativeLayout@405ee368
+android.widget.TextView: 3.16
+android.widget.TextView: 9
+android.widget.TextView: 57 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406105b8
+android.widget.ImageView@40569470
+android.widget.TextView: Valero
+android.widget.TextView: 1501 N Hampton Rd & Wintergreen Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.48 mi
+android.widget.TableLayout@40719728
+android.widget.TableRow@4071c390
+android.widget.RelativeLayout@40555288
+android.widget.RelativeLayout@4067dc50
+android.widget.TextView: 3.21
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406b8f88
+android.widget.ImageView@406c6bc0
+android.widget.TextView: Shamrock
+android.widget.TextView: 240 Belt Line Rd & Terrace Dr
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.68 mi
+android.widget.TableLayout@406b8dd8
+android.widget.TableRow@406c6a10
+android.widget.RelativeLayout@406dcbc8
+android.widget.RelativeLayout@40700860
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 57 minutes ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407112d0
+android.widget.ImageView@40713f28
+android.widget.TextView: Prism
+android.widget.TextView: 2286 W Pleasant Run Rd & N Houston School Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 1.76 mi
+android.widget.TableLayout@406b34b8
+android.widget.TableRow@40708648
+android.widget.RelativeLayout@406be5d8
+android.widget.RelativeLayout@406d9f88
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40725810
+android.widget.ImageView@4068b8e8
+android.widget.TextView: Shell
+android.widget.TextView: 100 N Hampton Rd & E Belt Line Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.8 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@406b34b8
+android.widget.TableRow@40708648
+android.widget.RelativeLayout@406be5d8
+android.widget.RelativeLayout@406d9f88
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40725810
+android.widget.ImageView@4068b8e8
+android.widget.TextView: Shell
+android.widget.TextView: 100 N Hampton Rd & E Belt Line Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.8 mi
+android.widget.TableLayout@405d1628
+android.widget.TableRow@405e26e0
+android.widget.RelativeLayout@40621d00
+android.widget.RelativeLayout@406284f0
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4073d518
+android.widget.ImageView@40586270
+android.widget.TextView: Exxon
+android.widget.TextView: 102 E Belt Line Rd & Hampton Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 1.82 mi
+android.widget.TableLayout@40619f70
+android.widget.TableRow@406187b0
+android.widget.RelativeLayout@405be6b8
+android.widget.RelativeLayout@406b2bc8
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 26 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406ecbb0
+android.widget.ImageView@406f4fd8
+android.widget.TextView: Love's
+android.widget.TextView: 8800 S Polk St  & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.24 mi
+android.widget.TableLayout@405f4100
+android.widget.TableRow@4073bc70
+android.widget.RelativeLayout@405c7668
+android.widget.RelativeLayout@40596520
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405f43c8
+android.widget.ImageView@40698740
+android.widget.TextView: Exxon
+android.widget.TextView: 809 S Beckley  Ave & Parkerville Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 2.37 mi
+android.widget.TableLayout@406fdb58
+android.widget.TableRow@40621f70
+android.widget.RelativeLayout@406cba18
+android.widget.RelativeLayout@4064d3f8
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 28 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406a29e0
+android.widget.ImageView@40581180
+android.widget.TextView: Exxon
+android.widget.TextView: 8702 S Polk St & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.42 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@406fdb58
+android.widget.TableRow@40621f70
+android.widget.RelativeLayout@406cba18
+android.widget.RelativeLayout@4064d3f8
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 28 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406a29e0
+android.widget.ImageView@40581180
+android.widget.TextView: Exxon
+android.widget.TextView: 8702 S Polk St & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.42 mi
+android.widget.TableLayout@406f0ce0
+android.widget.TableRow@406fba10
+android.widget.RelativeLayout@40701408
+android.widget.RelativeLayout@40712138
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4072ab18
+android.widget.ImageView@40730298
+android.widget.TextView: RaceWay
+android.widget.TextView: 8661 S Hampton Rd & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.69 mi
+android.widget.TableLayout@407679d8
+android.widget.TableRow@405f3ce8
+android.widget.RelativeLayout@4071c0e0
+android.widget.RelativeLayout@406dbd80
+android.widget.TextView: 3.25
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:49 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407741f0
+android.widget.ImageView@406a56e0
+android.widget.TextView: Exxon
+android.widget.TextView: 1458 W Pleasant Run Rd & N Bluegrove Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 2.77 mi
+android.widget.TableLayout@4060eba0
+android.widget.TableRow@406c3738
+android.widget.RelativeLayout@406f9400
+android.widget.RelativeLayout@406196d0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4074cf10
+android.widget.ImageView@406a1278
+android.widget.TextView: Chevron
+android.widget.TextView: 1463 W Pleasant Run Rd & N Bluegrove Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 2.78 mi
+android.widget.TableLayout@4060e430
+android.widget.TableRow@4061aba0
+android.widget.RelativeLayout@406df308
+android.widget.RelativeLayout@406c6370
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 52 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40622920
+android.widget.ImageView@40622c98
+android.widget.TextView: QuikTrip
+android.widget.TextView: 8414 S  Hampton Rd &  IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.79 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@4060e430
+android.widget.TableRow@4061aba0
+android.widget.RelativeLayout@406df308
+android.widget.RelativeLayout@406c6370
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 52 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40622920
+android.widget.ImageView@40622c98
+android.widget.TextView: QuikTrip
+android.widget.TextView: 8414 S  Hampton Rd &  IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.79 mi
+android.widget.TableLayout@4078a9d0
+android.widget.TableRow@4062fd88
+android.widget.RelativeLayout@406303d0
+android.widget.RelativeLayout@40725ec0
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 52 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4075d720
+android.widget.ImageView@40759cf8
+android.widget.TextView: Chevron
+android.widget.TextView: 8435 S Hampton Rd & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.79 mi
+android.widget.TableLayout@406e4280
+android.widget.TableRow@40753a78
+android.widget.RelativeLayout@40754128
+android.widget.RelativeLayout@406b7b90
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062c400
+android.widget.ImageView@4062c7c0
+android.widget.TextView: Exxon
+android.widget.TextView: 3799 N Houston School Rd & LBJ Fwy
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 2.8 mi
+android.widget.TableLayout@4054ce48
+android.widget.TableRow@40510070
+android.widget.RelativeLayout@405af1f0
+android.widget.RelativeLayout@405c8d18
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 29 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405e5ea0
+android.widget.ImageView@40554af8
+android.widget.TextView: Texaco
+android.widget.TextView: 8008 S Polk St & Wheatland
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.83 mi
+android.widget.TableLayout@4059c3f8
+android.widget.TableRow@40511d40
+android.widget.RelativeLayout@405ee368
+android.widget.RelativeLayout@406105b8
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064be40
+android.widget.ImageView@405b5560
+android.widget.TextView: Murphy USA
+android.widget.TextView: 941 W Belt Line  Rd & Westmoreland Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 2.88 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@4059c3f8
+android.widget.TableRow@40511d40
+android.widget.RelativeLayout@405ee368
+android.widget.RelativeLayout@406105b8
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064be40
+android.widget.ImageView@405b5560
+android.widget.TextView: Murphy USA
+android.widget.TextView: 941 W Belt Line  Rd & Westmoreland Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 2.88 mi
+android.widget.TableLayout@405c0f98
+android.widget.TableRow@4054bd38
+android.widget.RelativeLayout@4069fb10
+android.widget.RelativeLayout@406b2bc8
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d4a90
+android.widget.ImageView@405cef10
+android.widget.TextView: Shell
+android.widget.TextView: 8207 S Hampton Rd & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 2.94 mi
+android.widget.TableLayout@405e9f88
+android.widget.TableRow@4058c6f0
+android.widget.RelativeLayout@406dcbc8
+android.widget.RelativeLayout@406f8dd8
+android.widget.TextView: 3.05
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40700860
+android.widget.ImageView@4060e848
+android.widget.TextView: Sam's Club
+android.widget.TextView: 2900 W Wheatland Rd & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.16 mi
+android.widget.TableLayout@405ee6d8
+android.widget.TableRow@405a27e0
+android.widget.RelativeLayout@40706ae8
+android.widget.RelativeLayout@4070d690
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407219c0
+android.widget.ImageView@40614438
+android.widget.TextView: Shell
+android.widget.TextView: 1701 S Beckley Ave & Bear Creek Rd
+android.widget.TextView: Glenn Heights, TX
+android.widget.TextView: 3.39 mi
+android.widget.TableLayout@4060f3e0
+android.widget.TableRow@405c11b0
+android.widget.RelativeLayout@40721d88
+android.widget.RelativeLayout@40773dc8
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40584a68
+android.widget.ImageView@40644e90
+android.widget.TextView: Murphy USA
+android.widget.TextView: 3102 W Wheatland Rd & Kirnwood Dr
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.43 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@4078a7f0
+android.widget.TableRow@4064e100
+android.widget.RelativeLayout@4076b118
+android.widget.RelativeLayout@4058ee00
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40747a90
+android.widget.ImageView@40642ed8
+android.widget.TextView: Murphy USA
+android.widget.TextView: 3102 W Wheatland Rd & Kirnwood Dr
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.43 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@405df880
+android.widget.TableRow@406091d0
+android.widget.RelativeLayout@40659410
+android.widget.RelativeLayout@4062a658
+android.widget.TextView: 3.20
+android.widget.TextView: 9
+android.widget.TextView: Mon 2:42 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070e1b0
+android.widget.ImageView@4072ca30
+android.widget.TextView: Shell
+android.widget.TextView: 1643 S Hampton Rd & Bear Creek Rd
+android.widget.TextView: Glenn Heights, TX
+android.widget.TextView: 3.53 mi
+android.widget.TableLayout@406d11b8
+android.widget.TableRow@406d6a88
+android.widget.RelativeLayout@406e1ac8
+android.widget.RelativeLayout@406e9ef8
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40598fb8
+android.widget.ImageView@4064d240
+android.widget.TextView: Valero
+android.widget.TextView: 1300 W Belt Line Rd & Cockrell Hill Rd
+android.widget.TextView: DeSoto, TX
+android.widget.TextView: 3.56 mi
+android.widget.TableLayout@406284f0
+android.widget.TableRow@406f4fd8
+android.widget.RelativeLayout@4073d2d8
+android.widget.RelativeLayout@407af6f8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 2:42 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a4fd8
+android.widget.ImageView@40750c88
+android.widget.TextView: Exxon
+android.widget.TextView: 7027 S R L Thornton Fwy & Camp Wisdom Rd
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.75 mi
+android.widget.TableLayout@4060f3e0
+android.widget.TableRow@405c11b0
+android.widget.RelativeLayout@40721d88
+android.widget.RelativeLayout@40773dc8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40584a68
+android.widget.ImageView@40644e90
+android.widget.TextView: Shell
+android.widget.TextView: 7027 S R L Thornton Fwy & W Camp Wisdom Rd
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.79 mi
+android.widget.TableLayout@406f0fe0
+android.widget.TableRow@406f15b0
+android.widget.RelativeLayout@40707130
+android.widget.RelativeLayout@40707508
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406cd270
+android.widget.ImageView@406cd728
+android.widget.TextView: Shell
+android.widget.TextView: 710 W Pleasant Run Rd & Dewberry St
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 3.88 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@406f0fe0
+android.widget.TableRow@406f15b0
+android.widget.RelativeLayout@40707130
+android.widget.RelativeLayout@40707508
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406cd270
+android.widget.ImageView@406cd728
+android.widget.TextView: Shell
+android.widget.TextView: 710 W Pleasant Run Rd & Dewberry St
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 3.88 mi
+android.widget.TableLayout@406eecc0
+android.widget.TableRow@406ef290
+android.widget.RelativeLayout@406feee0
+android.widget.RelativeLayout@406ff2b8
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406c8370
+android.widget.ImageView@406c8748
+android.widget.TextView: Shell
+android.widget.TextView: 3805 W Wheatland Rd & US-67
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.89 mi
+android.widget.TableLayout@407019c8
+android.widget.TableRow@40701f98
+android.widget.RelativeLayout@407025f8
+android.widget.RelativeLayout@407029d0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407179e0
+android.widget.ImageView@40717d98
+android.widget.TextView: Shell
+android.widget.TextView: 995 W Belt Line Rd & Main St
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 3.91 mi
+android.widget.TableLayout@406e9b10
+android.widget.TableRow@40733610
+android.widget.RelativeLayout@40733cd0
+android.widget.RelativeLayout@407340a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40737060
+android.widget.ImageView@4072db60
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 640 W Pleasant Run Rd & Westridge Ave
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 3.92 mi
+android.widget.TableLayout@4059c3f8
+android.widget.TableRow@40510070
+android.widget.RelativeLayout@406d3c68
+android.widget.RelativeLayout@4058d7d0
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405af1f0
+android.widget.ImageView@40554af8
+android.widget.TextView: Valero
+android.widget.TextView: 1102 S Cockrell Hill Rd & US-67
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 3.93 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@4059c3f8
+android.widget.TableRow@40510070
+android.widget.RelativeLayout@406d3c68
+android.widget.RelativeLayout@4058d7d0
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405af1f0
+android.widget.ImageView@40554af8
+android.widget.TextView: Valero
+android.widget.TextView: 1102 S Cockrell Hill Rd & US-67
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 3.93 mi
+android.widget.TableLayout@405be738
+android.widget.TableRow@40511d40
+android.widget.RelativeLayout@405c8d18
+android.widget.RelativeLayout@405ee368
+android.widget.TextView: 3.13
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406105b8
+android.widget.ImageView@405b5560
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 826 E US-67 & Cockrell Hill Rd
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 3.95 mi
+android.widget.TableLayout@405e9f88
+android.widget.TableRow@4054bd38
+android.widget.RelativeLayout@406b0bd8
+android.widget.RelativeLayout@406b8dd8
+android.widget.TextView: 3.08
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d4a90
+android.widget.ImageView@405d2478
+android.widget.TextView: Pilot
+android.widget.TextView: 8787 S Lancaster Rd & Motor City Blvd
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 3.97 mi
+android.widget.TableLayout@405ee6d8
+android.widget.TableRow@4058c6f0
+android.widget.RelativeLayout@406d6d38
+android.widget.RelativeLayout@406e7c00
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40706ae8
+android.widget.ImageView@405f27e0
+android.widget.TextView: Phillips 66
+android.widget.TextView: 2722 N Dallas Ave & W Wintergreen Rd
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 3.98 mi
+android.widget.TableLayout@40616800
+android.widget.TableRow@405a27e0
+android.widget.RelativeLayout@40708648
+android.widget.RelativeLayout@4070d690
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40719728
+android.widget.ImageView@4060e848
+android.widget.TextView: Fina
+android.widget.TextView: 2601 N Dallas Ave & Stanford Dr
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 4.01 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@40616800
+android.widget.TableRow@405a27e0
+android.widget.RelativeLayout@40708648
+android.widget.RelativeLayout@4070d690
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40719728
+android.widget.ImageView@4060e848
+android.widget.TextView: Fina
+android.widget.TextView: 2601 N Dallas Ave & Stanford Dr
+android.widget.TextView: Lancaster, TX
+android.widget.TextView: 4.01 mi
+android.widget.TableLayout@40627988
+android.widget.TableRow@405c5d38
+android.widget.RelativeLayout@4064be40
+android.widget.RelativeLayout@4070ddb8
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 1:00 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406be5d8
+android.widget.ImageView@406cee40
+android.widget.TextView: Shell
+android.widget.TextView: 8618 S Lancaster Rd & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 4.03 mi
+android.widget.TableLayout@405ab4c8
+android.widget.TableRow@405d7258
+android.widget.RelativeLayout@4073bee8
+android.widget.RelativeLayout@40584d00
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 31 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40587058
+android.widget.ImageView@405e2700
+android.widget.TextView: QuikTrip
+android.widget.TextView: 925 S Cockrell Hill Rd & US-67
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 4.05 mi
+android.widget.TableLayout@4069f310
+android.widget.TableRow@406e4da8
+android.widget.RelativeLayout@40563b68
+android.widget.RelativeLayout@405c0f40
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40661f08
+android.widget.ImageView@4072a2d0
+android.widget.TextView: Phillips 66
+android.widget.TextView: 454 E US-67 & Danieldale Rd
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 4.09 mi
+android.widget.TableLayout@406e4488
+android.widget.TableRow@4073d090
+android.widget.RelativeLayout@406f0c70
+android.widget.RelativeLayout@406bb0d0
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40714ad0
+android.widget.ImageView@4072f0a8
+android.widget.TextView: Texaco
+android.widget.TextView: 8181-A S Lancaster Rd & IH-20 Access Rd
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 4.13 mi
+android.widget.RelativeLayout@40749f40
+android.widget.FrameLayout@4063c230
+android.widget.RelativeLayout@4068d1f0
+android.widget.LinearLayout@4068d628
+android.view.View@406267f8
+android.widget.RelativeLayout@40695020
+android.widget.TextView: Regular
+android.view.View@4062cc00
+android.view.View@40625790
+android.widget.RelativeLayout@4062ce10
+android.widget.TextView: Midgrade
+android.view.View@4062d978
+android.view.View@40626598
+android.widget.RelativeLayout@4062db68
+android.widget.TextView: Premium
+android.view.View@4062e6d0
+android.view.View@406266c8
+android.widget.RelativeLayout@40622fe8
+android.widget.TextView: Diesel
+android.view.View@406253b8
+android.view.View@40626918
+android.view.View@4068f0f8
+android.widget.LinearLayout@4068f2c0
+android.widget.RelativeLayout@4068f588
+android.widget.ImageView@4067e5e0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4067f760
+android.widget.ImageView@40680058
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406893f0
+android.widget.ImageView@40689cd8
+android.widget.TextView: Map View
+android.view.View@4068a6c0
+gbis.gbandroid.views.layouts.CustomListView@4068aa98
+android.widget.TableLayout@40627988
+android.widget.TableRow@405c5d38
+android.widget.RelativeLayout@4064be40
+android.widget.RelativeLayout@4070ddb8
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: Mon 1:00 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406be5d8
+android.widget.ImageView@406cee40
+android.widget.TextView: Shell
+android.widget.TextView: 8618 S Lancaster Rd & IH-20
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 4.03 mi
+android.widget.TableLayout@405ab4c8
+android.widget.TableRow@405d7258
+android.widget.RelativeLayout@4073bee8
+android.widget.RelativeLayout@40584d00
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 31 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40587058
+android.widget.ImageView@405e2700
+android.widget.TextView: QuikTrip
+android.widget.TextView: 925 S Cockrell Hill Rd & US-67
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 4.05 mi
+android.widget.TableLayout@4069f310
+android.widget.TableRow@406e4da8
+android.widget.RelativeLayout@40563b68
+android.widget.RelativeLayout@405c0f40
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40661f08
+android.widget.ImageView@4072a2d0
+android.widget.TextView: Phillips 66
+android.widget.TextView: 454 E US-67 & Danieldale Rd
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 4.09 mi
+android.widget.TableLayout@406e4488
+android.widget.TableRow@4073d090
+android.widget.RelativeLayout@406f0c70
+android.widget.RelativeLayout@406bb0d0
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40714ad0
+android.widget.ImageView@4072f0a8
+android.widget.TextView: Texaco
+android.widget.TextView: 8181-A S Lancaster Rd & IH-20 Access Rd
+android.widget.TextView: Dallas, TX
+android.widget.TextView: 4.13 mi
+android.widget.TableLayout@40631a88
+android.widget.TableRow@406d70a8
+android.widget.RelativeLayout@4075c450
+android.widget.RelativeLayout@40626c20
+android.widget.TextView: 3.16
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40753940
+android.widget.ImageView@40657f30
+android.widget.TextView: Shell
+android.widget.TextView: 1422 Acton Ave & US-67
+android.widget.TextView: Duncanville, TX
+android.widget.TextView: 4.19 mi
+android.widget.RelativeLayout@40749f40

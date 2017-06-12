@@ -1,0 +1,340 @@
+Success
+	pkg: /data/local/tmp/troyd.apk
+Success
+apk: /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../apks/com.accuweather.android.apk
+Loaded suite /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android
+Started
+I/umd.troyd(30852): acp.clientlib.AcpAct
+D/umd.troyd(30852): got command clickImg
+D/umd.troyd(30852): click: 2th image
+D/umd.troyd(30852): got command clickImg
+D/umd.troyd(30852): click: 1th image
+D/umd.troyd(30852): got command getViews
+D/umd.troyd(30852): android.widget.FrameLayout@4061e2a0
+D/umd.troyd(30852): android.widget.RelativeLayout@4061ef20
+D/umd.troyd(30852): android.widget.RelativeLayout@4061f4b0
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.ActionBar@40620a80
+D/umd.troyd(30852): android.widget.ImageView@406213d0
+D/umd.troyd(30852): android.widget.ImageButton@40625370
+D/umd.troyd(30852): android.widget.ImageButton@40626078
+D/umd.troyd(30852): com.accuweather.android.view.CardLayout@406271b0
+D/umd.troyd(30852): com.accuweather.android.view.CurrentView@4063f850
+D/umd.troyd(30852): android.widget.RelativeLayout@40772b88
+D/umd.troyd(30852): android.widget.LinearLayout@40616dd0
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.SnapHorizontalScrollView@4065ab10
+D/umd.troyd(30852): android.widget.LinearLayout@4071dc18
+D/umd.troyd(30852): android.widget.LinearLayout@406d0710
+D/umd.troyd(30852): android.widget.RelativeLayout@406a6618
+D/umd.troyd(30852): android.widget.ImageView@4070fa28
+D/umd.troyd(30852): android.widget.ImageView@40767e58
+D/umd.troyd(30852): android.widget.LinearLayout@406b2a28
+D/umd.troyd(30852): android.widget.TextView: NOW
+D/umd.troyd(30852): android.widget.TextView: at 2:42 PM
+D/umd.troyd(30852): android.widget.LinearLayout@406b8050
+D/umd.troyd(30852): android.widget.TextView: 48°
+D/umd.troyd(30852): android.widget.TextView: F
+D/umd.troyd(30852): android.widget.LinearLayout@406d5b80
+D/umd.troyd(30852): android.widget.LinearLayout@4075c2c0
+D/umd.troyd(30852): android.widget.TextView: RealFeel®
+D/umd.troyd(30852): android.widget.LinearLayout@4077c498
+D/umd.troyd(30852): android.widget.TextView: 43°
+D/umd.troyd(30852): android.widget.TextView: F
+D/umd.troyd(30852): android.widget.LinearLayout@407a6870
+D/umd.troyd(30852): android.widget.LinearLayout@405f3088
+D/umd.troyd(30852): android.widget.TextView: 3 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@40628650
+D/umd.troyd(30852): android.widget.TextView: 47°
+D/umd.troyd(30852): android.widget.LinearLayout@4062a780
+D/umd.troyd(30852): android.widget.LinearLayout@4063bff0
+D/umd.troyd(30852): android.widget.TextView: 4 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@40667648
+D/umd.troyd(30852): android.widget.TextView: 46°
+D/umd.troyd(30852): android.widget.LinearLayout@40671f20
+D/umd.troyd(30852): android.widget.LinearLayout@4067d900
+D/umd.troyd(30852): android.widget.TextView: 5 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@40689ed0
+D/umd.troyd(30852): android.widget.TextView: 44°
+D/umd.troyd(30852): android.widget.LinearLayout@40693630
+D/umd.troyd(30852): android.widget.LinearLayout@406e37b8
+D/umd.troyd(30852): android.widget.TextView: 6 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@4075aeb8
+D/umd.troyd(30852): android.widget.TextView: 42°
+D/umd.troyd(30852): android.widget.LinearLayout@40767ac8
+D/umd.troyd(30852): android.widget.LinearLayout@4076a810
+D/umd.troyd(30852): android.widget.TextView: 7 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@40770350
+D/umd.troyd(30852): android.widget.TextView: 40°
+D/umd.troyd(30852): android.widget.LinearLayout@40852bb8
+D/umd.troyd(30852): android.widget.LinearLayout@407c51e8
+D/umd.troyd(30852): android.widget.TextView: 8 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@406a4de8
+D/umd.troyd(30852): android.widget.TextView: 38°
+D/umd.troyd(30852): android.widget.LinearLayout@406cceb8
+D/umd.troyd(30852): android.widget.LinearLayout@407122a0
+D/umd.troyd(30852): android.widget.TextView: 9 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@40745a10
+D/umd.troyd(30852): android.widget.TextView: 37°
+D/umd.troyd(30852): android.widget.LinearLayout@4075dac0
+D/umd.troyd(30852): android.widget.LinearLayout@407af7c8
+D/umd.troyd(30852): android.widget.TextView: 10 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@405ec980
+D/umd.troyd(30852): android.widget.TextView: 36°
+D/umd.troyd(30852): android.widget.LinearLayout@40626dd8
+D/umd.troyd(30852): android.widget.LinearLayout@4064daa0
+D/umd.troyd(30852): android.widget.TextView: 11 PM
+D/umd.troyd(30852): android.widget.TextView: 11/8
+D/umd.troyd(30852): android.widget.ImageView@4078dd08
+D/umd.troyd(30852): android.widget.TextView: 35°
+D/umd.troyd(30852): android.widget.LinearLayout@4064d3b8
+D/umd.troyd(30852): android.widget.LinearLayout@40652de8
+D/umd.troyd(30852): android.widget.TextView: 12 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4070fe28
+D/umd.troyd(30852): android.widget.TextView: 35°
+D/umd.troyd(30852): android.widget.LinearLayout@4075e6a0
+D/umd.troyd(30852): android.widget.LinearLayout@40579930
+D/umd.troyd(30852): android.widget.TextView: 1 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@40793260
+D/umd.troyd(30852): android.widget.TextView: 34°
+D/umd.troyd(30852): android.widget.LinearLayout@407176a0
+D/umd.troyd(30852): android.widget.LinearLayout@40658d60
+D/umd.troyd(30852): android.widget.TextView: 2 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4065b348
+D/umd.troyd(30852): android.widget.TextView: 33°
+D/umd.troyd(30852): android.widget.LinearLayout@406adba8
+D/umd.troyd(30852): android.widget.LinearLayout@406b8bb8
+D/umd.troyd(30852): android.widget.TextView: 3 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@406bf958
+D/umd.troyd(30852): android.widget.TextView: 33°
+D/umd.troyd(30852): android.widget.LinearLayout@4076cd10
+D/umd.troyd(30852): android.widget.LinearLayout@4076d540
+D/umd.troyd(30852): android.widget.TextView: 4 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4076d9c0
+D/umd.troyd(30852): android.widget.TextView: 32°
+D/umd.troyd(30852): android.widget.LinearLayout@4077c2c8
+D/umd.troyd(30852): android.widget.LinearLayout@407a9420
+D/umd.troyd(30852): android.widget.TextView: 5 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4064ac78
+D/umd.troyd(30852): android.widget.TextView: 32°
+D/umd.troyd(30852): android.widget.LinearLayout@4073f700
+D/umd.troyd(30852): android.widget.LinearLayout@40792a08
+D/umd.troyd(30852): android.widget.TextView: 6 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@40665ff8
+D/umd.troyd(30852): android.widget.TextView: 31°
+D/umd.troyd(30852): android.widget.LinearLayout@405e32c0
+D/umd.troyd(30852): android.widget.LinearLayout@405f2cf0
+D/umd.troyd(30852): android.widget.TextView: 7 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4061c268
+D/umd.troyd(30852): android.widget.TextView: 31°
+D/umd.troyd(30852): android.widget.LinearLayout@4062d0e0
+D/umd.troyd(30852): android.widget.LinearLayout@4064ddc0
+D/umd.troyd(30852): android.widget.TextView: 8 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@406644c8
+D/umd.troyd(30852): android.widget.TextView: 34°
+D/umd.troyd(30852): android.widget.LinearLayout@406691d0
+D/umd.troyd(30852): android.widget.LinearLayout@406dfd08
+D/umd.troyd(30852): android.widget.TextView: 9 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@40756690
+D/umd.troyd(30852): android.widget.TextView: 38°
+D/umd.troyd(30852): android.widget.LinearLayout@405fd4a0
+D/umd.troyd(30852): android.widget.LinearLayout@40600290
+D/umd.troyd(30852): android.widget.TextView: 10 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4066b2b8
+D/umd.troyd(30852): android.widget.TextView: 42°
+D/umd.troyd(30852): android.widget.LinearLayout@40676198
+D/umd.troyd(30852): android.widget.LinearLayout@4067d098
+D/umd.troyd(30852): android.widget.TextView: 11 AM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4067e4f8
+D/umd.troyd(30852): android.widget.TextView: 46°
+D/umd.troyd(30852): android.widget.LinearLayout@406d6b30
+D/umd.troyd(30852): android.widget.LinearLayout@406fcf18
+D/umd.troyd(30852): android.widget.TextView: 12 PM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4073b6b8
+D/umd.troyd(30852): android.widget.TextView: 48°
+D/umd.troyd(30852): android.widget.LinearLayout@40765478
+D/umd.troyd(30852): android.widget.LinearLayout@4076b8c8
+D/umd.troyd(30852): android.widget.TextView: 1 PM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4077a148
+D/umd.troyd(30852): android.widget.TextView: 51°
+D/umd.troyd(30852): android.widget.LinearLayout@407a3a68
+D/umd.troyd(30852): android.widget.LinearLayout@40853338
+D/umd.troyd(30852): android.widget.TextView: 2 PM
+D/umd.troyd(30852): android.widget.TextView: 11/9
+D/umd.troyd(30852): android.widget.ImageView@4063ecb0
+D/umd.troyd(30852): android.widget.TextView: 52°
+D/umd.troyd(30852): android.widget.LinearLayout@407330b0
+D/umd.troyd(30852): android.widget.LinearLayout@4076b008
+D/umd.troyd(30852): android.widget.TextView: 50
+D/umd.troyd(30852): android.widget.TextView: 40
+D/umd.troyd(30852): android.widget.TextView: 30
+D/umd.troyd(30852): android.widget.TextView: 20
+D/umd.troyd(30852): android.widget.HorizontalScrollView@4074ecc8
+D/umd.troyd(30852): android.widget.LinearLayout@40779bd8
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.GraphView@40769718
+D/umd.troyd(30852): android.widget.LinearLayout@407b8198
+D/umd.troyd(30852): android.widget.LinearLayout@4064cf38
+D/umd.troyd(30852): android.widget.TextView: Mostly Cloudy
+D/umd.troyd(30852): android.widget.LinearLayout@40720748
+D/umd.troyd(30852): android.widget.TableLayout@40750d68
+D/umd.troyd(30852): android.widget.TableRow@407ab328
+D/umd.troyd(30852): android.widget.TextView: Humidity
+D/umd.troyd(30852): android.widget.TextView: 30%
+D/umd.troyd(30852): android.widget.TableRow@40770610
+D/umd.troyd(30852): android.widget.TextView: Visibility
+D/umd.troyd(30852): android.widget.TextView: 10 mi
+D/umd.troyd(30852): android.widget.TableRow@4076f418
+D/umd.troyd(30852): android.widget.TextView: UV Index
+D/umd.troyd(30852): android.widget.TextView: Low
+D/umd.troyd(30852): android.widget.TableRow@40789d78
+D/umd.troyd(30852): android.widget.TextView: Sunrise
+D/umd.troyd(30852): android.widget.TextView: 6:37 AM
+D/umd.troyd(30852): android.widget.TableRow@40673a48
+D/umd.troyd(30852): android.widget.TextView: Sunset
+D/umd.troyd(30852): android.widget.TextView: 4:44 PM
+D/umd.troyd(30852): android.widget.LinearLayout@406a2628
+D/umd.troyd(30852): android.widget.RelativeLayout@406ac250
+D/umd.troyd(30852): android.widget.ImageView@406e0238
+D/umd.troyd(30852): android.widget.TextView: NNW
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.DialView@40641730
+D/umd.troyd(30852): android.widget.TextView: WIND
+D/umd.troyd(30852): android.widget.TableLayout@407afb70
+D/umd.troyd(30852): android.widget.TableRow@40855300
+D/umd.troyd(30852): android.widget.TextView: Speed
+D/umd.troyd(30852): android.widget.TextView: 10 mph
+D/umd.troyd(30852): android.widget.TableRow@406736f0
+D/umd.troyd(30852): android.widget.TextView: Gusts
+D/umd.troyd(30852): android.widget.TextView: 20 mph
+D/umd.troyd(30852): android.widget.LinearLayout@40671b50
+D/umd.troyd(30852): android.widget.LinearLayout@40671ca0
+D/umd.troyd(30852): android.widget.TextView: Partly sunny with chance of rain
+D/umd.troyd(30852): android.widget.LinearLayout@407a6b78
+D/umd.troyd(30852): android.widget.TableLayout@4060cac8
+D/umd.troyd(30852): android.widget.TableRow@40715708
+D/umd.troyd(30852): android.widget.TextView: RealFeel®
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.TableRow@405dee28
+D/umd.troyd(30852): android.widget.TextView: Humidity
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.TextView: Precipitation
+D/umd.troyd(30852): android.widget.TableLayout@405f6308
+D/umd.troyd(30852): android.widget.TableRow@406300d0
+D/umd.troyd(30852): android.widget.TextView: Rain
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.TableRow@4063c248
+D/umd.troyd(30852): android.widget.TextView: Snow
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.TableRow@406a4250
+D/umd.troyd(30852): android.widget.TextView: Ice
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.LinearLayout@405e5a98
+D/umd.troyd(30852): android.widget.RelativeLayout@4067ea68
+D/umd.troyd(30852): android.widget.ImageView@405ef750
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.DialView@40579428
+D/umd.troyd(30852): android.widget.TextView: Wind
+D/umd.troyd(30852): android.widget.TableLayout@4069dd30
+D/umd.troyd(30852): android.widget.TableRow@406d75c8
+D/umd.troyd(30852): android.widget.TextView: Speed
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.TableRow@4078c608
+D/umd.troyd(30852): android.widget.TextView: Gusts
+D/umd.troyd(30852): android.widget.TextView: 
+D/umd.troyd(30852): android.widget.LinearLayout@40633460
+D/umd.troyd(30852): android.widget.ImageView@40634d00
+D/umd.troyd(30852): android.widget.ImageView@406370b8
+D/umd.troyd(30852): android.widget.ImageView@4063bae8
+D/umd.troyd(30852): android.widget.ImageView@4064a368
+D/umd.troyd(30852): android.widget.ImageView@40678f20
+D/umd.troyd(30852): android.widget.ImageView@406a3ad0
+D/umd.troyd(30852): android.widget.ImageView@406c0bc8
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.SlidingIndicator@4060d0b8
+D/umd.troyd(30852): com.accuweather.android.tabs.TabBarHost@406072c0
+D/umd.troyd(30852): com.accuweather.android.tabs.TabBar@40576df0
+D/umd.troyd(30852): android.widget.LinearLayout@40605058
+D/umd.troyd(30852): com.accuweather.android.tabs.TabButton@405e9e60
+D/umd.troyd(30852): com.accuweather.android.tabs.TabButton@405fe6b0
+D/umd.troyd(30852): com.accuweather.android.tabs.TabButton@40600748
+D/umd.troyd(30852): com.accuweather.android.tabs.TabButton@405ed6f0
+D/umd.troyd(30852): android.widget.ImageButton@4060ae38
+D/umd.troyd(30852): com.accuweather.android.tabs.TabBarOverflowList@4061d360
+D/umd.troyd(30852): android.widget.LinearLayout@4060fd10
+D/umd.troyd(30852): android.widget.LinearLayout@4061a9d0
+D/umd.troyd(30852): android.widget.ListView@40576ae0
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.LocationOverlay@405f45b8
+D/umd.troyd(30852): android.widget.LinearLayout@405fa390
+D/umd.troyd(30852): android.widget.ImageView@4060ff28
+D/umd.troyd(30852): android.widget.TextView: Brookdale
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.ExceptionCheckedViewFlipper@405e1628
+D/umd.troyd(30852): android.widget.LinearLayout@40607e58
+D/umd.troyd(30852): android.widget.LinearLayout@4061a740
+D/umd.troyd(30852): android.widget.ListView@4058e018
+D/umd.troyd(30852): android.widget.LinearLayout@4058b410
+D/umd.troyd(30852): android.widget.Button: Add Location
+D/umd.troyd(30852): android.widget.Button: Favorites
+D/umd.troyd(30852): com.accuweather.android.view.AdView@40616150
+D/umd.troyd(30852): com.amobee.AmobeeAdPlaceholder@405f03b0
+D/umd.troyd(30852): org.ormma.view.OrmmaView@4070f400
+D/umd.troyd(30852): com.accuweather.android.view.uicomponents.ExceptionCheckedViewFlipper@406054e0
+D/umd.troyd(30852): android.widget.RelativeLayout@4050b158
+D/umd.troyd(30852): android.widget.RelativeLayout@4050b598
+D/umd.troyd(30852): android.widget.RelativeLayout@40600d28
+D/umd.troyd(30852): android.widget.ImageView@40587e40
+D/umd.troyd(30852): com.accuweather.android.view.CardLayout@405880d8
+D/umd.troyd(30852): android.widget.RelativeLayout@4050bca0
+D/umd.troyd(30852): com.accuweather.android.view.CardLayout@4050c030
+D/umd.troyd(30852): got command getActivities
+D/umd.troyd(30852): opened: acp.clientlib.AcpAct
+D/umd.troyd(30852): opened: com.accuweather.android.MainActivity
+E
+Finished in 84.28067 seconds.
+
+  1) Error:
+test_Test(TroydTest):
+Timeout::Error: execution expired
+    /usr/lib/ruby/1.8/timeout.rb:64:in `sync_logcat'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/adb.rb:124:in `cmd'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:132:in `no_arg'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:70:in `finish'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:59:in `teardown'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:57:in `teardown'
+
+1 tests, 0 assertions, 0 failures, 1 errors
+Finished in 84.28067 seconds.
+
+  1) Error:
+test_Test(TroydTest):
+Timeout::Error: execution expired
+    /usr/lib/ruby/1.8/timeout.rb:64:in `sync_logcat'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/adb.rb:124:in `cmd'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:132:in `no_arg'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:70:in `finish'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:59:in `teardown'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:57:in `teardown'
+
+1 tests, 0 assertions, 0 failures, 1 errors
+here!
+opened activities: 2
+acp.clientlib.AcpAct
+com.accuweather.android.MainActivity
+

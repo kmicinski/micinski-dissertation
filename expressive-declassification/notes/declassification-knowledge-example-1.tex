@@ -1,0 +1,73 @@
+\documentclass{article}
+
+\usepackage{charter}
+\usepackage{euler}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\let\checkmark\relax
+\usepackage{dingbat}
+
+%% for comments
+\newcommand{\comment}[3][\color{red}]{{#1{[{#2}: {#3}]}}}
+\newcommand{\kris}[1]{\comment[\color{orange}]{kris}{#1}}
+\newcommand{\jeff}[1]{\comment[\color{green}]{JSF}{#1}}
+\newcommand{\thickhline}{\noalign{\hrule height 1pt}}
+\newcommand{\low}{\text{L}\xspace}
+\newcommand{\high}{\text{L}\xspace}
+
+\begin{document}
+
+\title{Example one: revealing public contacts after button press}
+\maketitle
+
+\begin{verbatim}
+\contacts.
+  let bc = button<"Share contacts"> in
+  bc().
+    net<filter public contacts>
+\end{verbatim}
+
+What is the type of this program?  Computationally, it has this type:
+
+\[
+list(string) \to 1
+\]
+
+But it's knowledge type is much more complicated than that.  The
+reason is that the knowledge type should express what information can
+be learned about the input list to the program.
+
+\begin{align}
+P : \forall (x : & list(string) \text{\eye} \forall c : BC(contacts), y : con, \\
+                   & \lnot (K(c \in x) U bc = ()) \land \\
+                   & K(c \in x) \implies public(c)) \\ 
+                   & \to 1 \text{\eye} (\forall c \in x, public(c) \implies K(c))
+\end{align}
+
+This formula says:
+
+\begin{quote}
+  If you give me a variable x (a list of strings) --- whose policy
+  stipulates that it cannot be released until an appropriate release
+  event occurs (which is encoded in the $BC$ type shown below) --- I
+  will produce a unit value, along with giving the adversary knowledge
+  about all of the public contacts in the list x.
+\end{quote}
+
+Where $BC(contacts)$ is an abbreviation for:
+
+\begin{align}
+BC(contacts) = stream(1 \text{\eye} \{x \in contacts | public(x) \})
+\end{align}
+
+The way to think of $BC$ (which is the type we ascribe to the $bc$
+variable in the program, is that it is a stream which carries a
+\emph{license} to release the public contacts in $contacts$.  In other
+words, once the program reads a unit from the $bc$ stream, it is
+allowed to release the public contacts.
+
+Our job is to develop a calculus such that we can ascribe $bc$ this
+knowledge type, and write the appropriate elim forms so that we can
+ascribe the program $P$ the overall type shown above.
+
+\end{document}

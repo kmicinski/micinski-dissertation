@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405826f0
+android.widget.LinearLayout@405831a0
+android.widget.FrameLayout@40583450
+android.widget.ImageView@40583700
+android.widget.RelativeLayout@40583b98
+android.widget.ImageButton@405841a8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40587858
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40589c68
+android.widget.LinearLayout@4058a010
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058b808
+android.widget.LinearLayout@405516e0
+android.widget.TextView: Locations
+android.widget.ScrollView@4050ca00
+android.widget.TableLayout@40609840
+android.widget.TableRow@40572820
+android.widget.ImageView@406175d0
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.24 mi
+android.widget.TableRow@406253a8
+android.widget.ImageView@40625808
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.24 mi
+android.widget.TableRow@40635160
+android.widget.ImageView@40635538
+android.widget.TextView: 580 Newark Turnpike (David Daniels Mail Center)
+android.widget.TextView: 2.41 mi
+android.widget.TableRow@40618ec8
+android.widget.ImageView@4061a6e0
+android.widget.TextView: 135 Greene Street (TD Ameritrade)
+android.widget.TextView: 2.85 mi
+android.widget.TableRow@4060aa60
+android.widget.ImageView@4053b0e8
+android.widget.TextView: 80 County Road (NJ International Bulk Mail Center)
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@4061de10
+android.widget.ImageView@4061e2b8
+android.widget.TextView: 125 Eighteenth Street
+android.widget.TextView: 3.01 mi
+android.widget.TableRow@405730b8
+android.widget.ImageView@40573560
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 3.47 mi
+android.widget.TableRow@4060ec28
+android.widget.ImageView@40619690
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 3.47 mi
+android.widget.TableRow@406221a8
+android.widget.ImageView@40622650
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 3.85 mi
+android.widget.TableRow@40627b88
+android.widget.ImageView@40615f48
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 3.85 mi
+android.widget.TableRow@4062bd00
+android.widget.ImageView@4062c1a8
+android.widget.TextView: 2 Wall Street (Wall Street)
+android.widget.TextView: 4.15 mi
+android.widget.TableRow@4060b938
+android.widget.ImageView@4060bde0
+android.widget.TextView: 2 Wall Street (Wall Street)
+android.widget.TextView: 4.16 mi
+android.widget.TableRow@4062b728
+android.widget.ImageView@40574698
+android.widget.TextView: 1325 Hudson Street (Shipyards)
+android.widget.TextView: 4.23 mi
+android.widget.TableRow@40570d10
+android.widget.ImageView@405711b8
+android.widget.TextView: 1325 Hudson Street
+android.widget.TextView: 4.23 mi
+android.widget.TableRow@406122f0
+android.widget.ImageView@40612798
+android.widget.TextView: 25 Hudson Street (Tribeca)
+android.widget.TextView: 4.24 mi
+android.widget.TableRow@40623418
+android.widget.ImageView@406238c0
+android.widget.TextView: 25 Hudson Street (Tribeca)
+android.widget.TextView: 4.24 mi
+android.widget.TableRow@40613e38
+android.widget.ImageView@406142e0
+android.widget.TextView: 60-68 14Th Street
+android.widget.TextView: 4.26 mi
+android.widget.TableRow@406374f8
+android.widget.ImageView@406379a0
+android.widget.TextView: 60-68 14Th Street
+android.widget.TextView: 4.26 mi
+android.widget.TableRow@405780d8
+android.widget.ImageView@40578580
+android.widget.TextView: 258 Broadway (Broadway &
+android.widget.TextView: 4.34 mi
+android.widget.TableRow@40575838
+android.widget.ImageView@40575c30
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 4.34 mi
+android.widget.FrameLayout@40552e68
+android.widget.ImageView@40553098
+android.widget.Button: Filter
+android.widget.LinearLayout@40568c28
+android.widget.FrameLayout@40557d98
+android.widget.ImageView@40570ac0
+android.widget.Button: Filter
+android.widget.FrameLayout@40611dd8
+android.widget.Button: Done
+android.widget.FrameLayout@40613130
+android.widget.ImageView@405b4c98
+android.widget.TextView: Stores
+android.widget.ImageView@405bc678
+android.widget.FrameLayout@40615d70
+android.widget.ImageView@40618458
+android.widget.TextView: ATMs
+android.widget.ImageView@4061c030
+android.widget.FrameLayout@405826f0
+android.widget.LinearLayout@405831a0
+android.widget.FrameLayout@40583450
+android.widget.ImageView@40583700
+android.widget.RelativeLayout@40583b98
+android.widget.ImageButton@405841a8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40587858
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40589c68
+android.widget.LinearLayout@4058a010
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058b808
+android.widget.LinearLayout@405516e0
+android.widget.TextView: Locations
+android.widget.ScrollView@4050ca00
+android.widget.TableLayout@40609840
+android.widget.TableRow@40572820
+android.widget.ImageView@406175d0
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.24 mi
+android.widget.TableRow@406253a8
+android.widget.ImageView@40625808
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.24 mi
+android.widget.TableRow@40635160
+android.widget.ImageView@40635538
+android.widget.TextView: 580 Newark Turnpike (David Daniels Mail Center)
+android.widget.TextView: 2.41 mi
+android.widget.TableRow@40618ec8
+android.widget.ImageView@4061a6e0
+android.widget.TextView: 135 Greene Street (TD Ameritrade)
+android.widget.TextView: 2.85 mi
+android.widget.TableRow@4060aa60
+android.widget.ImageView@4053b0e8
+android.widget.TextView: 80 County Road (NJ International Bulk Mail Center)
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@4061de10
+android.widget.ImageView@4061e2b8
+android.widget.TextView: 125 Eighteenth Street
+android.widget.TextView: 3.01 mi
+android.widget.TableRow@405730b8
+android.widget.ImageView@40573560
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 3.47 mi
+android.widget.TableRow@4060ec28
+android.widget.ImageView@40619690
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 3.47 mi
+android.widget.TableRow@406221a8
+android.widget.ImageView@40622650
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 3.85 mi
+android.widget.TableRow@40627b88
+android.widget.ImageView@40615f48
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 3.85 mi
+android.widget.TableRow@4062bd00
+android.widget.ImageView@4062c1a8
+android.widget.TextView: 2 Wall Street (Wall Street)
+android.widget.TextView: 4.15 mi
+android.widget.TableRow@4060b938
+android.widget.ImageView@4060bde0
+android.widget.TextView: 2 Wall Street (Wall Street)
+android.widget.TextView: 4.16 mi
+android.widget.TableRow@4062b728
+android.widget.ImageView@40574698
+android.widget.TextView: 1325 Hudson Street (Shipyards)
+android.widget.TextView: 4.23 mi
+android.widget.TableRow@40570d10
+android.widget.ImageView@405711b8
+android.widget.TextView: 1325 Hudson Street
+android.widget.TextView: 4.23 mi
+android.widget.TableRow@406122f0
+android.widget.ImageView@40612798
+android.widget.TextView: 25 Hudson Street (Tribeca)
+android.widget.TextView: 4.24 mi
+android.widget.TableRow@40623418
+android.widget.ImageView@406238c0
+android.widget.TextView: 25 Hudson Street (Tribeca)
+android.widget.TextView: 4.24 mi
+android.widget.TableRow@40613e38
+android.widget.ImageView@406142e0
+android.widget.TextView: 60-68 14Th Street
+android.widget.TextView: 4.26 mi
+android.widget.TableRow@406374f8
+android.widget.ImageView@406379a0
+android.widget.TextView: 60-68 14Th Street
+android.widget.TextView: 4.26 mi
+android.widget.TableRow@405780d8
+android.widget.ImageView@40578580
+android.widget.TextView: 258 Broadway (Broadway &
+android.widget.TextView: 4.34 mi
+android.widget.TableRow@40575838
+android.widget.ImageView@40575c30
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 4.34 mi
+android.widget.FrameLayout@40552e68
+android.widget.ImageView@40553098
+android.widget.Button: Filter
+android.widget.LinearLayout@40568c28
+android.widget.FrameLayout@40557d98
+android.widget.ImageView@40570ac0
+android.widget.Button: Filter
+android.widget.FrameLayout@40611dd8
+android.widget.Button: Done
+android.widget.FrameLayout@40613130
+android.widget.ImageView@405b4c98
+android.widget.TextView: Stores
+android.widget.ImageView@405bc678
+android.widget.FrameLayout@40615d70
+android.widget.ImageView@40618458
+android.widget.TextView: ATMs
+android.widget.ImageView@4061c030
+android.widget.FrameLayout@405826f0
+android.widget.LinearLayout@405831a0
+android.widget.FrameLayout@40583450
+android.widget.ImageView@40583700
+android.widget.RelativeLayout@40583b98
+android.widget.ImageButton@405841a8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40587858
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40589c68
+android.widget.LinearLayout@4058a010
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058b808
+android.widget.LinearLayout@405516e0
+android.widget.TextView: Locations
+android.widget.ScrollView@4050ca00
+android.widget.TableLayout@40609840
+android.widget.TableRow@40572820
+android.widget.ImageView@406175d0
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.24 mi
+android.widget.TableRow@406253a8
+android.widget.ImageView@40625808
+android.widget.TextView: 1066 Broadway
+android.widget.TextView: 2.24 mi
+android.widget.TableRow@40635160
+android.widget.ImageView@40635538
+android.widget.TextView: 580 Newark Turnpike (David Daniels Mail Center)
+android.widget.TextView: 2.41 mi
+android.widget.TableRow@40618ec8
+android.widget.ImageView@4061a6e0
+android.widget.TextView: 135 Greene Street (TD Ameritrade)
+android.widget.TextView: 2.85 mi
+android.widget.TableRow@4060aa60
+android.widget.ImageView@4053b0e8
+android.widget.TextView: 80 County Road (NJ International Bulk Mail Center)
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@4061de10
+android.widget.ImageView@4061e2b8
+android.widget.TextView: 125 Eighteenth Street
+android.widget.TextView: 3.01 mi
+android.widget.TableRow@405730b8
+android.widget.ImageView@40573560
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 3.47 mi
+android.widget.TableRow@4060ec28
+android.widget.ImageView@40619690
+android.widget.TextView: 47 Newark Street
+android.widget.TextView: 3.47 mi
+android.widget.TableRow@406221a8
+android.widget.ImageView@40622650
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 3.85 mi
+android.widget.TableRow@40627b88
+android.widget.ImageView@40615f48
+android.widget.TextView: 800 Summit Avenue
+android.widget.TextView: 3.85 mi
+android.widget.TableRow@4062bd00
+android.widget.ImageView@4062c1a8
+android.widget.TextView: 2 Wall Street (Wall Street)
+android.widget.TextView: 4.15 mi
+android.widget.TableRow@4060b938
+android.widget.ImageView@4060bde0
+android.widget.TextView: 2 Wall Street (Wall Street)
+android.widget.TextView: 4.16 mi
+android.widget.TableRow@4062b728
+android.widget.ImageView@40574698
+android.widget.TextView: 1325 Hudson Street (Shipyards)
+android.widget.TextView: 4.23 mi
+android.widget.TableRow@40570d10
+android.widget.ImageView@405711b8
+android.widget.TextView: 1325 Hudson Street
+android.widget.TextView: 4.23 mi
+android.widget.TableRow@406122f0
+android.widget.ImageView@40612798
+android.widget.TextView: 25 Hudson Street (Tribeca)
+android.widget.TextView: 4.24 mi
+android.widget.TableRow@40623418
+android.widget.ImageView@406238c0
+android.widget.TextView: 25 Hudson Street (Tribeca)
+android.widget.TextView: 4.24 mi
+android.widget.TableRow@40613e38
+android.widget.ImageView@406142e0
+android.widget.TextView: 60-68 14Th Street
+android.widget.TextView: 4.26 mi
+android.widget.TableRow@406374f8
+android.widget.ImageView@406379a0
+android.widget.TextView: 60-68 14Th Street
+android.widget.TextView: 4.26 mi
+android.widget.TableRow@405780d8
+android.widget.ImageView@40578580
+android.widget.TextView: 258 Broadway (Broadway &
+android.widget.TextView: 4.34 mi
+android.widget.TableRow@40575838
+android.widget.ImageView@40575c30
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 4.34 mi
+android.widget.FrameLayout@40552e68
+android.widget.ImageView@40553098
+android.widget.Button: Filter
+android.widget.LinearLayout@40568c28
+android.widget.FrameLayout@40557d98
+android.widget.ImageView@40570ac0
+android.widget.Button: Filter
+android.widget.FrameLayout@40611dd8
+android.widget.Button: Done
+android.widget.FrameLayout@40613130
+android.widget.ImageView@405b4c98
+android.widget.TextView: Stores
+android.widget.ImageView@405bc678
+android.widget.FrameLayout@40615d70
+android.widget.ImageView@40618458
+android.widget.TextView: ATMs
+android.widget.ImageView@4061c030

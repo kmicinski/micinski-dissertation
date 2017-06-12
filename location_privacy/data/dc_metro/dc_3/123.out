@@ -1,0 +1,47 @@
+android.widget.FrameLayout@4060fe68
+android.widget.TabHost@40586108
+android.widget.LinearLayout@40586418
+android.widget.LinearLayout@4063a100
+android.widget.LinearLayout@406206a8
+android.widget.ImageView@40583388
+android.widget.ImageButton@405835b0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40629380
+android.widget.ProgressBar@4062a148
+android.widget.ImageButton@4062a918
+android.widget.TabWidget@4063a5c0
+android.widget.LinearLayout@40593e18
+android.widget.ImageView@405160d8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4056e0b0
+android.widget.ImageView@4056e670
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40607e30
+android.view.View@40596bc8
+android.widget.ImageView@406080e0
+android.widget.TextView: Approx Address (within 0.0 meters)
+4th Ave 4th Ave
+Washington, District of Columbia 20319
+android.widget.ImageView@4050ecf0
+com.jazzmoonstudio.android.common.view.CustomViewPager@40588090
+android.support.v4.app.y@4055e730
+android.widget.LinearLayout@40669f80
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4066aa80
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40612c78
+android.widget.ImageView@4066df20
+android.widget.TextView: Waterfront-SEU
+android.widget.TextView: Approx: 0.46 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056d5d0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40631310
+android.widget.ImageView@4056d960
+android.widget.TextView: Navy Yard
+android.widget.TextView: Approx: 0.77 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40673dc8
+android.support.v4.app.y@40580a88
+android.widget.LinearLayout@40552178
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4057e7a8
+android.widget.FrameLayout@4057d328
+com.millennialmedia.android.MMAdView@4057d5e8
+android.webkit.WebView@4062bbf0

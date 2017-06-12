@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40589538
+android.widget.LinearLayout@40589fe8
+android.widget.FrameLayout@4058a298
+android.widget.ImageView@4058a548
+android.widget.RelativeLayout@4058a9e0
+android.widget.ImageButton@4058aff0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058e6a0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590ab0
+android.widget.LinearLayout@40590e58
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592650
+android.widget.LinearLayout@40571328
+android.widget.TextView: Locations
+android.widget.ScrollView@405229c8
+android.widget.TableLayout@40552108
+android.widget.TableRow@4060d6c0
+android.widget.ImageView@4055e288
+android.widget.TextView: 820 Bridgeport Avenue
+android.widget.TextView: 1.19 mi
+android.widget.TableRow@40584db0
+android.widget.ImageView@4061fd30
+android.widget.TextView: 828 Bridgeport Avenue
+android.widget.TextView: 1.21 mi
+android.widget.TableRow@406209e8
+android.widget.ImageView@40620d20
+android.widget.TextView: 44 Huntington Plaza
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40616bb8
+android.widget.ImageView@40617018
+android.widget.TextView: 44 Huntington Plaza
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40611a28
+android.widget.ImageView@40611e40
+android.widget.TextView: 925 White Plains Road
+android.widget.TextView: 2.82 mi
+android.widget.TableRow@40612e98
+android.widget.ImageView@4057c898
+android.widget.TextView: 925 White Plains Road
+android.widget.TextView: 2.82 mi
+android.widget.TableRow@4060afd0
+android.widget.ImageView@40575d50
+android.widget.TextView: 4865 Main Street
+android.widget.TextView: 4.39 mi
+android.widget.TableRow@40615080
+android.widget.ImageView@40615528
+android.widget.TextView: 4865 Main Street
+android.widget.TextView: 4.39 mi
+android.widget.TableRow@4060eb88
+android.widget.ImageView@40638038
+android.widget.TextView: 1640 Barnum Avenue
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@40552908
+android.widget.ImageView@40552db0
+android.widget.TextView: 1640 Barnum Avenue
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@40654330
+android.widget.ImageView@406547d8
+android.widget.TextView: 951 Stratford Avenue
+android.widget.TextView: 4.86 mi
+android.widget.TableRow@4057bc68
+android.widget.ImageView@4057c128
+android.widget.TextView: 951 Stratford Avenue
+android.widget.TextView: 4.86 mi
+android.widget.TableRow@40639c30
+android.widget.ImageView@4063a0d8
+android.widget.TextView: 975 Madison Avenue (North End)
+android.widget.TextView: 5.35 mi
+android.widget.TableRow@406183d8
+android.widget.ImageView@4061b5d0
+android.widget.TextView: 975 Madison Avenue
+android.widget.TextView: 5.35 mi
+android.widget.TableRow@4061c578
+android.widget.ImageView@40561818
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.81 mi
+android.widget.TableRow@405627e0
+android.widget.ImageView@4062cf08
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.83 mi
+android.widget.TableRow@4062dde8
+android.widget.ImageView@4062e290
+android.widget.TextView: 1000 Lafayette Boulevard
+android.widget.TextView: 6.10 mi
+android.widget.TableRow@406273b8
+android.widget.ImageView@40627860
+android.widget.TextView: 1000 Lafayette Boulevard
+android.widget.TextView: 6.10 mi
+android.widget.TableRow@406337d8
+android.widget.ImageView@40633c80
+android.widget.TextView: 1715 Black Rock Turnpike
+android.widget.TextView: 7.45 mi
+android.widget.TableRow@40634c48
+android.widget.ImageView@406290d0
+android.widget.TextView: 1715 Black Rock Turnpike
+android.widget.TextView: 7.45 mi
+android.widget.FrameLayout@40548768
+android.widget.ImageView@40573de8
+android.widget.Button: Filter
+android.widget.LinearLayout@40574138
+android.widget.FrameLayout@4055ce50
+android.widget.ImageView@40574f00
+android.widget.Button: Filter
+android.widget.FrameLayout@40576bd8
+android.widget.Button: Done
+android.widget.FrameLayout@40582ad8
+android.widget.ImageView@405778a8
+android.widget.TextView: Stores
+android.widget.ImageView@4057a0f0
+android.widget.FrameLayout@406149e8
+android.widget.ImageView@40581f28
+android.widget.TextView: ATMs
+android.widget.ImageView@405841d8
+android.widget.FrameLayout@40589538
+android.widget.LinearLayout@40589fe8
+android.widget.FrameLayout@4058a298
+android.widget.ImageView@4058a548
+android.widget.RelativeLayout@4058a9e0
+android.widget.ImageButton@4058aff0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058e6a0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590ab0
+android.widget.LinearLayout@40590e58
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592650
+android.widget.LinearLayout@40571328
+android.widget.TextView: Locations
+android.widget.ScrollView@405229c8
+android.widget.TableLayout@40552108
+android.widget.TableRow@4060d6c0
+android.widget.ImageView@4055e288
+android.widget.TextView: 820 Bridgeport Avenue
+android.widget.TextView: 1.19 mi
+android.widget.TableRow@40584db0
+android.widget.ImageView@4061fd30
+android.widget.TextView: 828 Bridgeport Avenue
+android.widget.TextView: 1.21 mi
+android.widget.TableRow@406209e8
+android.widget.ImageView@40620d20
+android.widget.TextView: 44 Huntington Plaza
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40616bb8
+android.widget.ImageView@40617018
+android.widget.TextView: 44 Huntington Plaza
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40611a28
+android.widget.ImageView@40611e40
+android.widget.TextView: 925 White Plains Road
+android.widget.TextView: 2.82 mi
+android.widget.TableRow@40612e98
+android.widget.ImageView@4057c898
+android.widget.TextView: 925 White Plains Road
+android.widget.TextView: 2.82 mi
+android.widget.TableRow@4060afd0
+android.widget.ImageView@40575d50
+android.widget.TextView: 4865 Main Street
+android.widget.TextView: 4.39 mi
+android.widget.TableRow@40615080
+android.widget.ImageView@40615528
+android.widget.TextView: 4865 Main Street
+android.widget.TextView: 4.39 mi
+android.widget.TableRow@4060eb88
+android.widget.ImageView@40638038
+android.widget.TextView: 1640 Barnum Avenue
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@40552908
+android.widget.ImageView@40552db0
+android.widget.TextView: 1640 Barnum Avenue
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@40654330
+android.widget.ImageView@406547d8
+android.widget.TextView: 951 Stratford Avenue
+android.widget.TextView: 4.86 mi
+android.widget.TableRow@4057bc68
+android.widget.ImageView@4057c128
+android.widget.TextView: 951 Stratford Avenue
+android.widget.TextView: 4.86 mi
+android.widget.TableRow@40639c30
+android.widget.ImageView@4063a0d8
+android.widget.TextView: 975 Madison Avenue (North End)
+android.widget.TextView: 5.35 mi
+android.widget.TableRow@406183d8
+android.widget.ImageView@4061b5d0
+android.widget.TextView: 975 Madison Avenue
+android.widget.TextView: 5.35 mi
+android.widget.TableRow@4061c578
+android.widget.ImageView@40561818
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.81 mi
+android.widget.TableRow@405627e0
+android.widget.ImageView@4062cf08
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.83 mi
+android.widget.TableRow@4062dde8
+android.widget.ImageView@4062e290
+android.widget.TextView: 1000 Lafayette Boulevard
+android.widget.TextView: 6.10 mi
+android.widget.TableRow@406273b8
+android.widget.ImageView@40627860
+android.widget.TextView: 1000 Lafayette Boulevard
+android.widget.TextView: 6.10 mi
+android.widget.TableRow@406337d8
+android.widget.ImageView@40633c80
+android.widget.TextView: 1715 Black Rock Turnpike
+android.widget.TextView: 7.45 mi
+android.widget.TableRow@40634c48
+android.widget.ImageView@406290d0
+android.widget.TextView: 1715 Black Rock Turnpike
+android.widget.TextView: 7.45 mi
+android.widget.FrameLayout@40548768
+android.widget.ImageView@40573de8
+android.widget.Button: Filter
+android.widget.LinearLayout@40574138
+android.widget.FrameLayout@4055ce50
+android.widget.ImageView@40574f00
+android.widget.Button: Filter
+android.widget.FrameLayout@40576bd8
+android.widget.Button: Done
+android.widget.FrameLayout@40582ad8
+android.widget.ImageView@405778a8
+android.widget.TextView: Stores
+android.widget.ImageView@4057a0f0
+android.widget.FrameLayout@406149e8
+android.widget.ImageView@40581f28
+android.widget.TextView: ATMs
+android.widget.ImageView@405841d8
+android.widget.FrameLayout@40589538
+android.widget.LinearLayout@40589fe8
+android.widget.FrameLayout@4058a298
+android.widget.ImageView@4058a548
+android.widget.RelativeLayout@4058a9e0
+android.widget.ImageButton@4058aff0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058e6a0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590ab0
+android.widget.LinearLayout@40590e58
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592650
+android.widget.LinearLayout@40571328
+android.widget.TextView: Locations
+android.widget.ScrollView@405229c8
+android.widget.TableLayout@40552108
+android.widget.TableRow@4060d6c0
+android.widget.ImageView@4055e288
+android.widget.TextView: 820 Bridgeport Avenue
+android.widget.TextView: 1.19 mi
+android.widget.TableRow@40584db0
+android.widget.ImageView@4061fd30
+android.widget.TextView: 828 Bridgeport Avenue
+android.widget.TextView: 1.21 mi
+android.widget.TableRow@406209e8
+android.widget.ImageView@40620d20
+android.widget.TextView: 44 Huntington Plaza
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40616bb8
+android.widget.ImageView@40617018
+android.widget.TextView: 44 Huntington Plaza
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40611a28
+android.widget.ImageView@40611e40
+android.widget.TextView: 925 White Plains Road
+android.widget.TextView: 2.82 mi
+android.widget.TableRow@40612e98
+android.widget.ImageView@4057c898
+android.widget.TextView: 925 White Plains Road
+android.widget.TextView: 2.82 mi
+android.widget.TableRow@4060afd0
+android.widget.ImageView@40575d50
+android.widget.TextView: 4865 Main Street
+android.widget.TextView: 4.39 mi
+android.widget.TableRow@40615080
+android.widget.ImageView@40615528
+android.widget.TextView: 4865 Main Street
+android.widget.TextView: 4.39 mi
+android.widget.TableRow@4060eb88
+android.widget.ImageView@40638038
+android.widget.TextView: 1640 Barnum Avenue
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@40552908
+android.widget.ImageView@40552db0
+android.widget.TextView: 1640 Barnum Avenue
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@40654330
+android.widget.ImageView@406547d8
+android.widget.TextView: 951 Stratford Avenue
+android.widget.TextView: 4.86 mi
+android.widget.TableRow@4057bc68
+android.widget.ImageView@4057c128
+android.widget.TextView: 951 Stratford Avenue
+android.widget.TextView: 4.86 mi
+android.widget.TableRow@40639c30
+android.widget.ImageView@4063a0d8
+android.widget.TextView: 975 Madison Avenue (North End)
+android.widget.TextView: 5.35 mi
+android.widget.TableRow@406183d8
+android.widget.ImageView@4061b5d0
+android.widget.TextView: 975 Madison Avenue
+android.widget.TextView: 5.35 mi
+android.widget.TableRow@4061c578
+android.widget.ImageView@40561818
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.81 mi
+android.widget.TableRow@405627e0
+android.widget.ImageView@4062cf08
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.83 mi
+android.widget.TableRow@4062dde8
+android.widget.ImageView@4062e290
+android.widget.TextView: 1000 Lafayette Boulevard
+android.widget.TextView: 6.10 mi
+android.widget.TableRow@406273b8
+android.widget.ImageView@40627860
+android.widget.TextView: 1000 Lafayette Boulevard
+android.widget.TextView: 6.10 mi
+android.widget.TableRow@406337d8
+android.widget.ImageView@40633c80
+android.widget.TextView: 1715 Black Rock Turnpike
+android.widget.TextView: 7.45 mi
+android.widget.TableRow@40634c48
+android.widget.ImageView@406290d0
+android.widget.TextView: 1715 Black Rock Turnpike
+android.widget.TextView: 7.45 mi
+android.widget.FrameLayout@40548768
+android.widget.ImageView@40573de8
+android.widget.Button: Filter
+android.widget.LinearLayout@40574138
+android.widget.FrameLayout@4055ce50
+android.widget.ImageView@40574f00
+android.widget.Button: Filter
+android.widget.FrameLayout@40576bd8
+android.widget.Button: Done
+android.widget.FrameLayout@40582ad8
+android.widget.ImageView@405778a8
+android.widget.TextView: Stores
+android.widget.ImageView@4057a0f0
+android.widget.FrameLayout@406149e8
+android.widget.ImageView@40581f28
+android.widget.TextView: ATMs
+android.widget.ImageView@405841d8

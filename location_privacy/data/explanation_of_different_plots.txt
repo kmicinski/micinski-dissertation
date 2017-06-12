@@ -1,0 +1,20 @@
+Explanation of the different plots
+==================================
+
+For the "median" plots, we take each city, and the median error
+(according to some metric) across the different locations in that city
+(we chose ten).
+
+For apps where we have lists of things, we can plot this metric as we
+consider 'more and more' pieces of the list.  (For example, in our
+scripts we curtail apps at a certain point.)  In GasBuddy and
+Restaurant Finder, for instance, we went through the apps and found
+exactly how much each screen contained (how many stations, etc..) and
+then we plotted each 'turn' of the knob.
+
+The GasBuddy results are plotted for these different values, I will
+have the rest of the apps done by this on Sunday morning.
+Aditionally, I need to implement some more metrics, I will talk about
+exactly whic h metrics I should implement (on Saturday night) with
+Jeff today (Saturday).
+

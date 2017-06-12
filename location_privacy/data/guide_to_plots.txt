@@ -1,0 +1,19 @@
+Guide to the plots
+------------------
+
+For each app, we also have an associated set of plots.  We typically
+run our different metrics on the apps varying a parameter (how many
+things we cut off of the end of the list), usually the number of
+things fitting on a single screen of the app.  For each app we vary
+this between some minimum value and maximum.  For example, in GasBuddy
+(and each of our other apps), we have approximately 5 things per
+screen displayed.
+
+ - medians_across_city_n.jpg - the edit distance metric evaluated for
+   different values of n, where n is some multiple of the number of
+   screens we've traversed.
+
+ - medians_across_city_si_n.jpg - set intersection metric
+
+ - medians_across_city_additional_distance.jpg - The additional
+   distance metric.xs

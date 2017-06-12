@@ -1,0 +1,1405 @@
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.RelativeLayout@405ee5b8
+com.google.ads.AdView@405b9970
+android.gesture.GestureOverlayView@406e6ee0
+android.widget.FrameLayout@405c3090
+com.google.ads.internal.AdWebView@40612218
+android.widget.TableLayout@40714d98
+android.widget.TableRow@40715368
+android.widget.RelativeLayout@40717f78
+android.widget.RelativeLayout@40718350
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4071c080
+android.widget.ImageView@4071c458
+android.widget.TextView: CITGO
+android.widget.TextView: 244 Platt Ave & Jones Hill Rd
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 0.3 mi
+android.widget.TableLayout@406f9660
+android.widget.TableRow@406fc108
+android.widget.RelativeLayout@406fc7c8
+android.widget.RelativeLayout@406fcba0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:58 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40703a08
+android.widget.ImageView@40703ca0
+android.widget.TextView: Mobil
+android.widget.TextView: 265 Platt Ave & Jones Hill Rd
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 0.32 mi
+android.widget.TableLayout@406e15c0
+android.widget.TableRow@406e1b90
+android.widget.RelativeLayout@406e44c8
+android.widget.RelativeLayout@406e48a0
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:58 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406e8538
+android.widget.ImageView@406e8910
+android.widget.TextView: Valero
+android.widget.TextView: 528 Main St & Kelsey Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 0.99 mi
+android.widget.TableLayout@406c6a10
+android.widget.TableRow@406c73c0
+android.widget.RelativeLayout@406ca508
+android.widget.RelativeLayout@406ca9b8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406d0958
+android.widget.ImageView@406d0d78
+android.widget.TextView: Best Gas
+android.widget.TextView: 147 Campbell Ave & Noble St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.01 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@406c6a10
+android.widget.TableRow@406c73c0
+android.widget.RelativeLayout@406ca508
+android.widget.RelativeLayout@406ca9b8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406d0958
+android.widget.ImageView@406d0d78
+android.widget.TextView: Best Gas
+android.widget.TextView: 147 Campbell Ave & Noble St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.01 mi
+android.widget.TableLayout@407a2358
+android.widget.TableRow@407a2928
+android.widget.RelativeLayout@407a2fe8
+android.widget.RelativeLayout@407a33c0
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:07 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a4bd0
+android.widget.ImageView@407a4fa8
+android.widget.TextView: Shell
+android.widget.TextView: 444 Saw Mill Rd & Hilton Dr
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.13 mi
+android.widget.TableLayout@407b3028
+android.widget.TableRow@407b35f8
+android.widget.RelativeLayout@407b3cb8
+android.widget.RelativeLayout@407b4090
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407b58a0
+android.widget.ImageView@407b5c78
+android.widget.TextView: Sunoco
+android.widget.TextView: 361 Campbell Ave  & Brown St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.19 mi
+android.widget.TableLayout@4057aac8
+android.widget.TableRow@405899b8
+android.widget.RelativeLayout@4057ac78
+android.widget.RelativeLayout@40581920
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40581f18
+android.widget.ImageView@405eca80
+android.widget.TextView: Mobil
+android.widget.TextView: 273 Saw Mill Rd & Greta St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.24 mi
+android.widget.TableLayout@40580290
+android.widget.TableRow@405d4c78
+android.widget.RelativeLayout@405e3ef8
+android.widget.RelativeLayout@405fdb08
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ff7e8
+android.widget.ImageView@406645e0
+android.widget.TextView: Hess
+android.widget.TextView: 345 Elm St & Savin Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.38 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@40580290
+android.widget.TableRow@405d4c78
+android.widget.RelativeLayout@405e3ef8
+android.widget.RelativeLayout@405fdb08
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ff7e8
+android.widget.ImageView@406645e0
+android.widget.TextView: Hess
+android.widget.TextView: 345 Elm St & Savin Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.38 mi
+android.widget.TableLayout@405ff638
+android.widget.TableRow@40679ed8
+android.widget.RelativeLayout@40602430
+android.widget.RelativeLayout@40604fe8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4060d600
+android.widget.ImageView@4066c028
+android.widget.TextView: Shell
+android.widget.TextView: 658 Campbell Ave & Elm St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.46 mi
+android.widget.TableLayout@40604e38
+android.widget.TableRow@406824c0
+android.widget.RelativeLayout@40612b10
+android.widget.RelativeLayout@40615710
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061cb28
+android.widget.ImageView@40674a70
+android.widget.TextView: Stop & Shop
+android.widget.TextView: 249 Bull Hill Ln  & Carlsten rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.68 mi
+android.widget.TableLayout@406114b0
+android.widget.TableRow@40612960
+android.widget.RelativeLayout@40626ae8
+android.widget.RelativeLayout@4062bf80
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4062eb70
+android.widget.ImageView@406bbc68
+android.widget.TextView: Tim's Auto Center
+android.widget.TextView: 28 Jones Hill Rd & Ocean Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.77 mi
+android.widget.TableLayout@40613780
+android.widget.TableRow@40615558
+android.widget.RelativeLayout@40634360
+android.widget.RelativeLayout@40638718
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4064a4c8
+android.widget.ImageView@406dc580
+android.widget.TextView: Sunoco
+android.widget.TextView: 5 Joneshill Rd & Ocean Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.77 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@40613780
+android.widget.TableRow@40615558
+android.widget.RelativeLayout@40634360
+android.widget.RelativeLayout@40638718
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4064a4c8
+android.widget.ImageView@406dc580
+android.widget.TextView: Sunoco
+android.widget.TextView: 5 Joneshill Rd & Ocean Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.77 mi
+android.widget.TableLayout@40726b30
+android.widget.TableRow@4064a2f8
+android.widget.RelativeLayout@406a33d0
+android.widget.RelativeLayout@406ccce0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405da0a0
+android.widget.ImageView@40605748
+android.widget.TextView: Mobil
+android.widget.TextView: bostonpost Rd & racebrook Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.81 mi
+android.widget.TableLayout@40721f58
+android.widget.TableRow@406af928
+android.widget.RelativeLayout@405f6cf0
+android.widget.RelativeLayout@4058e4f8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40676790
+android.widget.ImageView@406f1c90
+android.widget.TextView: Shell
+android.widget.TextView: 115 Boston Post Rd & Dogburn Ln
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.92 mi
+android.widget.TableLayout@4068ab30
+android.widget.TableRow@4057f9a8
+android.widget.RelativeLayout@40601978
+android.widget.RelativeLayout@40614c70
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062e178
+android.widget.ImageView@40633928
+android.widget.TextView: Gulf
+android.widget.TextView: 151 Boston Post Rd & Erving Eagle Pl
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.94 mi
+android.widget.TableLayout@405f2780
+android.widget.TableRow@40618918
+android.widget.RelativeLayout@407103a8
+android.widget.RelativeLayout@4059ed78
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406f34f8
+android.widget.ImageView@406f9d08
+android.widget.TextView: Cumberland Farms
+android.widget.TextView: 151 Boston Post Rd & Lindy st
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.94 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@405f2780
+android.widget.TableRow@40618918
+android.widget.RelativeLayout@407103a8
+android.widget.RelativeLayout@4059ed78
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406f34f8
+android.widget.ImageView@406f9d08
+android.widget.TextView: Cumberland Farms
+android.widget.TextView: 151 Boston Post Rd & Lindy st
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.94 mi
+android.widget.TableLayout@406531e0
+android.widget.TableRow@406101b0
+android.widget.RelativeLayout@40620748
+android.widget.RelativeLayout@40688e00
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070e550
+android.widget.ImageView@407753d0
+android.widget.TextView: CITGO
+android.widget.TextView:  62 Elm St & First Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.96 mi
+android.widget.TableLayout@406235f0
+android.widget.TableRow@406292f8
+android.widget.RelativeLayout@40633cb0
+android.widget.RelativeLayout@40636a00
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40685650
+android.widget.ImageView@40685948
+android.widget.TextView: Sam's Club
+android.widget.TextView: 2 Boston Post Rd & Meloy Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 1.97 mi
+android.widget.TableLayout@40683870
+android.widget.TableRow@406886b0
+android.widget.RelativeLayout@406904b8
+android.widget.RelativeLayout@406987d0
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061b6d8
+android.widget.ImageView@40621470
+android.widget.TextView: Sunoco
+android.widget.TextView: 44 Elm St & Water St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 1.98 mi
+android.widget.TableLayout@40692e70
+android.widget.TableRow@40694298
+android.widget.RelativeLayout@40656d98
+android.widget.RelativeLayout@406441a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40673178
+android.widget.ImageView@40673490
+android.widget.TextView: Mobil
+android.widget.TextView: 248 Boston Post Rd & Indian River Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.02 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@40616800
+android.widget.TableRow@40616c90
+android.widget.RelativeLayout@407196a8
+android.widget.RelativeLayout@40719a80
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407a71d0
+android.widget.ImageView@4067a110
+android.widget.TextView: Mobil
+android.widget.TextView: 248 Boston Post Rd & Indian River Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.02 mi
+android.widget.TableLayout@406e9f38
+android.widget.TableRow@406ed210
+android.widget.RelativeLayout@406ed888
+android.widget.RelativeLayout@406f0918
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406f7c90
+android.widget.ImageView@406fabb8
+android.widget.TextView: XtraMart
+android.widget.TextView: 750 First Ave & I-95 Exit 43
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.03 mi
+android.widget.TableLayout@4066bc40
+android.widget.TableRow@406c1fb8
+android.widget.RelativeLayout@406c8868
+android.widget.RelativeLayout@406c8c20
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406dcf90
+android.widget.ImageView@406e32c8
+android.widget.TextView: First Fuel
+android.widget.TextView: 810 1st Ave & Spring St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.07 mi
+android.widget.TableLayout@406258b0
+android.widget.TableRow@40648fc0
+android.widget.RelativeLayout@40689328
+android.widget.RelativeLayout@40689700
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: Mon 11:00 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40712c30
+android.widget.ImageView@40713008
+android.widget.TextView: Mobil
+android.widget.TextView: 949 Boston Post Rd & Farwell St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.13 mi
+android.widget.TableLayout@40692e70
+android.widget.TableRow@40694298
+android.widget.RelativeLayout@40656d98
+android.widget.RelativeLayout@406441a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40673178
+android.widget.ImageView@40673490
+android.widget.TextView: Shell
+android.widget.TextView: 340 Boston Post Rd & Lambert Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.2 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@40692e70
+android.widget.TableRow@40694298
+android.widget.RelativeLayout@40656d98
+android.widget.RelativeLayout@406441a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40673178
+android.widget.ImageView@40673490
+android.widget.TextView: Shell
+android.widget.TextView: 340 Boston Post Rd & Lambert Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.2 mi
+android.widget.TableLayout@4057aac8
+android.widget.TableRow@405d4588
+android.widget.RelativeLayout@40557fc8
+android.widget.RelativeLayout@4057ac78
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4057d868
+android.widget.ImageView@4054c2d8
+android.widget.TextView: Depalmas
+android.widget.TextView: 746 West City Ave & Ardale St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.21 mi
+android.widget.TableLayout@40580290
+android.widget.TableRow@405d4c78
+android.widget.RelativeLayout@40580440
+android.widget.RelativeLayout@40581f18
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ff7e8
+android.widget.ImageView@405f1488
+android.widget.TextView: Valero
+android.widget.TextView: 347 Boston Post Rd  & Lambert Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.25 mi
+android.widget.TableLayout@40581d58
+android.widget.TableRow@405da090
+android.widget.RelativeLayout@40601978
+android.widget.RelativeLayout@40602430
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40604fe8
+android.widget.ImageView@4061abe8
+android.widget.TextView: Shell
+android.widget.TextView: 540 Orange Ave & Rockview St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.34 mi
+android.widget.TableLayout@405fe4c0
+android.widget.TableRow@40616330
+android.widget.RelativeLayout@4060d600
+android.widget.RelativeLayout@40611660
+android.widget.TextView: 3.85
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:53 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40612b10
+android.widget.ImageView@40622e70
+android.widget.TextView: Exxon
+android.widget.TextView: 404 Boston Post Rd & Orange Center Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.39 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@405fe4c0
+android.widget.TableRow@40616330
+android.widget.RelativeLayout@4060d600
+android.widget.RelativeLayout@40611660
+android.widget.TextView: 3.85
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:53 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40612b10
+android.widget.ImageView@40622e70
+android.widget.TextView: Exxon
+android.widget.TextView: 404 Boston Post Rd & Orange Center Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 2.39 mi
+android.widget.TableLayout@405ff638
+android.widget.TableRow@406c73c0
+android.widget.RelativeLayout@40604e38
+android.widget.RelativeLayout@40613780
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062cba0
+android.widget.ImageView@40631590
+android.widget.TextView: Mobil
+android.widget.TextView: I-95 N & Exit 41
+android.widget.TextView: Milford, CT
+android.widget.TextView: 2.42 mi
+android.widget.TableLayout@40654868
+android.widget.TableRow@4064a2f8
+android.widget.RelativeLayout@406d0d78
+android.widget.RelativeLayout@4075f158
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40647ff8
+android.widget.ImageView@406637d8
+android.widget.TextView: Mobil
+android.widget.TextView: I-95 S & Exit 41
+android.widget.TextView: Milford, CT
+android.widget.TextView: 2.48 mi
+android.widget.TableLayout@4061c970
+android.widget.TableRow@40645ee8
+android.widget.RelativeLayout@40615710
+android.widget.RelativeLayout@4061cb28
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4061f718
+android.widget.ImageView@40653c38
+android.widget.TextView: Getty
+android.widget.TextView: 183 Ella T Grasso Blvd & Kimberly Ave
+android.widget.TextView: New Haven, CT
+android.widget.TextView: 2.53 mi
+android.widget.TableLayout@4062c9e0
+android.widget.TableRow@40680668
+android.widget.RelativeLayout@40623ac8
+android.widget.RelativeLayout@40626ae8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406296c8
+android.widget.ImageView@406645e0
+android.widget.TextView: Shell
+android.widget.TextView: 1345 New Haven Ave & Merwin Ave
+android.widget.TextView: Milford, CT
+android.widget.TextView: 2.57 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@4062c9e0
+android.widget.TableRow@40680668
+android.widget.RelativeLayout@40623ac8
+android.widget.RelativeLayout@40626ae8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406296c8
+android.widget.ImageView@406645e0
+android.widget.TextView: Shell
+android.widget.TextView: 1345 New Haven Ave & Merwin Ave
+android.widget.TextView: Milford, CT
+android.widget.TextView: 2.57 mi
+android.widget.TableLayout@406374a0
+android.widget.TableRow@4066ec38
+android.widget.RelativeLayout@4062bf80
+android.widget.RelativeLayout@40630ca8
+android.widget.TextView: 3.77
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40633cb0
+android.widget.ImageView@40674a70
+android.widget.TextView: Mercury
+android.widget.TextView: 270 Bostot Post Rd & Campbell Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.64 mi
+android.widget.TableLayout@4067c730
+android.widget.TableRow@40685b50
+android.widget.RelativeLayout@40634360
+android.widget.RelativeLayout@40638718
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406460a0
+android.widget.ImageView@4067e8f0
+android.widget.TextView: Best Gas
+android.widget.TextView: Orange Ave & Front Ave
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 2.81 mi
+android.widget.TableLayout@40687c70
+android.widget.TableRow@406906f8
+android.widget.RelativeLayout@4064a4c8
+android.widget.RelativeLayout@4064d100
+android.widget.TextView: 3.87
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:53 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064fca0
+android.widget.ImageView@406bbc68
+android.widget.TextView: Citgo
+android.widget.TextView: Kimberly Ave & Howard Ave
+android.widget.TextView: New Haven, CT
+android.widget.TextView: 2.94 mi
+android.widget.TableLayout@4069b708
+android.widget.TableRow@406d8450
+android.widget.RelativeLayout@40654168
+android.widget.RelativeLayout@4066edf0
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40672568
+android.widget.ImageView@406cce38
+android.widget.TextView: Costco
+android.widget.TextView: 1718 Boston Post Rd  & Peck Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.14 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@4069b708
+android.widget.TableRow@406d8450
+android.widget.RelativeLayout@40654168
+android.widget.RelativeLayout@4066edf0
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40672568
+android.widget.ImageView@406cce38
+android.widget.TextView: Costco
+android.widget.TextView: 1718 Boston Post Rd  & Peck Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.14 mi
+android.widget.TableLayout@406f6178
+android.widget.TableRow@40687330
+android.widget.RelativeLayout@40773fb0
+android.widget.RelativeLayout@40586e78
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 22 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4077e150
+android.widget.ImageView@4068d738
+android.widget.TextView: Shell
+android.widget.TextView: 190 Woodmont Rd & Old Gate Ln
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.26 mi
+android.widget.TableLayout@406efdb8
+android.widget.TableRow@40720328
+android.widget.RelativeLayout@4057b9c8
+android.widget.RelativeLayout@40663b10
+android.widget.TextView: 3.82
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064c268
+android.widget.ImageView@4067aca0
+android.widget.TextView: Pilot
+android.widget.TextView: 433 Old Gate Ln & Woodmont Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.3 mi
+android.widget.TableLayout@40719858
+android.widget.TableRow@40724168
+android.widget.RelativeLayout@4057d2a8
+android.widget.RelativeLayout@4069d168
+android.widget.TextView: 3.95
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ff248
+android.widget.ImageView@40604160
+android.widget.TextView: BP
+android.widget.TextView: 540 Derby Ave  & Elizabeth St
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 3.38 mi
+android.widget.TableLayout@405ecc58
+android.widget.TableRow@4057e498
+android.widget.RelativeLayout@4069a600
+android.widget.RelativeLayout@406d3948
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:04 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40714258
+android.widget.ImageView@40729f70
+android.widget.TextView: Mobil
+android.widget.TextView: 200 Sargent Dr & Food Terminal Dr
+android.widget.TextView: New Haven, CT
+android.widget.TextView: 3.4 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@407635e0
+android.widget.TableRow@40763bb0
+android.widget.RelativeLayout@40583268
+android.widget.RelativeLayout@40583640
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:04 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062a960
+android.widget.ImageView@4062ac28
+android.widget.TextView: Mobil
+android.widget.TextView: 200 Sargent Dr & Food Terminal Dr
+android.widget.TextView: New Haven, CT
+android.widget.TextView: 3.4 mi
+android.widget.TableLayout@40689b00
+android.widget.TableRow@4068a048
+android.widget.RelativeLayout@40727090
+android.widget.RelativeLayout@40727468
+android.widget.TextView: 3.82
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4069e5f0
+android.widget.ImageView@4069e9c8
+android.widget.TextView: CITGO
+android.widget.TextView: 365 Old Gate Ln & I-95 (Exit 40)
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.5 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@40689b00
+android.widget.TableRow@4068a048
+android.widget.RelativeLayout@40727090
+android.widget.RelativeLayout@40727468
+android.widget.TextView: 3.82
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4069e5f0
+android.widget.ImageView@4069e9c8
+android.widget.TextView: CITGO
+android.widget.TextView: 365 Old Gate Ln & I-95 (Exit 40)
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.5 mi
+android.widget.TableLayout@4072a510
+android.widget.TableRow@40660fe0
+android.widget.RelativeLayout@406615b0
+android.widget.RelativeLayout@4069bec8
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40696158
+android.widget.ImageView@40696530
+android.widget.TextView: Sunoco
+android.widget.TextView: 435 Derby Ave & Forest Rd
+android.widget.TextView: West Haven, CT
+android.widget.TextView: 3.55 mi
+android.widget.TableLayout@40630418
+android.widget.TableRow@406e0f30
+android.widget.RelativeLayout@407b1058
+android.widget.RelativeLayout@407b1308
+android.widget.TextView: 3.74
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062d9e0
+android.widget.ImageView@4062ddb8
+android.widget.TextView: Route 34 Fuel
+android.widget.TextView: 217 Derby Tpke & Sheffield Rd
+android.widget.TextView: Orange, CT
+android.widget.TextView: 3.6 mi
+android.widget.TableLayout@405ecc58
+android.widget.TableRow@4057e498
+android.widget.RelativeLayout@4069a600
+android.widget.RelativeLayout@406d3948
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 6:04 AM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40714258
+android.widget.ImageView@40729f70
+android.widget.TextView: Sunoco
+android.widget.TextView: 322 Old Gate Ln & East Town Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.62 mi
+android.widget.TableLayout@40759bd0
+android.widget.TableRow@4075a1a0
+android.widget.RelativeLayout@4075a860
+android.widget.RelativeLayout@4075ac38
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4074b370
+android.widget.ImageView@4074b748
+android.widget.TextView: D'urso's
+android.widget.TextView: 38 Townsend  & Morris Cove Rd
+android.widget.TextView: East Haven, CT
+android.widget.TextView: 3.76 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@40759bd0
+android.widget.TableRow@4075a1a0
+android.widget.RelativeLayout@4075a860
+android.widget.RelativeLayout@4075ac38
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4074b370
+android.widget.ImageView@4074b748
+android.widget.TextView: D'urso's
+android.widget.TextView: 38 Townsend  & Morris Cove Rd
+android.widget.TextView: East Haven, CT
+android.widget.TextView: 3.76 mi
+android.widget.TableLayout@407e8360
+android.widget.TableRow@407e8930
+android.widget.RelativeLayout@407e8ff0
+android.widget.RelativeLayout@407e93c8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407eabd8
+android.widget.ImageView@407eafb0
+android.widget.TextView: Stop & Shop
+android.widget.TextView: 1630 E Town Rd & Boston Post Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.78 mi
+android.widget.TableLayout@407f7ce8
+android.widget.TableRow@407f82b8
+android.widget.RelativeLayout@407f8978
+android.widget.RelativeLayout@407f8d50
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407fa560
+android.widget.ImageView@407fa938
+android.widget.TextView: Mobil
+android.widget.TextView: 1354 Boston Post Rd & East Town Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.85 mi
+android.widget.TableLayout@40808190
+android.widget.TableRow@40808760
+android.widget.RelativeLayout@40808e20
+android.widget.RelativeLayout@408091f8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4080aa08
+android.widget.ImageView@4080ade0
+android.widget.TextView: Shell
+android.widget.TextView: 524 New Haven Ave & Old Gate Ln
+android.widget.TextView: Milford, CT
+android.widget.TextView: 4.11 mi
+android.widget.TableLayout@4057aac8
+android.widget.TableRow@405d4588
+android.widget.RelativeLayout@40557fc8
+android.widget.RelativeLayout@4057ac78
+android.widget.TextView: 3.85
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d868
+android.widget.ImageView@4054c2d8
+android.widget.TextView: Power Gas
+android.widget.TextView: 1 Whalley Ave & Broadway
+android.widget.TextView: New Haven, CT
+android.widget.TextView: 4.22 mi
+android.widget.RelativeLayout@4072be88
+android.widget.FrameLayout@405a0cd0
+android.widget.RelativeLayout@405d5ae8
+android.widget.LinearLayout@405f25f0
+android.view.View@40709d58
+android.widget.RelativeLayout@406ac3c0
+android.widget.TextView: Regular
+android.view.View@405e50a0
+android.view.View@40706a40
+android.widget.RelativeLayout@406565b8
+android.widget.TextView: Midgrade
+android.view.View@40676068
+android.view.View@40709af8
+android.widget.RelativeLayout@40676258
+android.widget.TextView: Premium
+android.view.View@406cc868
+android.view.View@40709c28
+android.widget.RelativeLayout@406cca58
+android.widget.TextView: Diesel
+android.view.View@406dd580
+android.view.View@40709e78
+android.view.View@406b7340
+android.widget.LinearLayout@406b7750
+android.widget.RelativeLayout@406b79a0
+android.widget.ImageView@406b9898
+android.widget.TextView: Reload
+android.widget.RelativeLayout@405a1c08
+android.widget.ImageView@406acb98
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406b80d8
+android.widget.ImageView@406c44a8
+android.widget.TextView: Map View
+android.view.View@406ce388
+gbis.gbandroid.views.layouts.CustomListView@4054c490
+android.widget.TableLayout@407e8360
+android.widget.TableRow@407e8930
+android.widget.RelativeLayout@407e8ff0
+android.widget.RelativeLayout@407e93c8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407eabd8
+android.widget.ImageView@407eafb0
+android.widget.TextView: Stop & Shop
+android.widget.TextView: 1630 E Town Rd & Boston Post Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.78 mi
+android.widget.TableLayout@407f7ce8
+android.widget.TableRow@407f82b8
+android.widget.RelativeLayout@407f8978
+android.widget.RelativeLayout@407f8d50
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407fa560
+android.widget.ImageView@407fa938
+android.widget.TextView: Mobil
+android.widget.TextView: 1354 Boston Post Rd & East Town Rd
+android.widget.TextView: Milford, CT
+android.widget.TextView: 3.85 mi
+android.widget.TableLayout@40808190
+android.widget.TableRow@40808760
+android.widget.RelativeLayout@40808e20
+android.widget.RelativeLayout@408091f8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4080aa08
+android.widget.ImageView@4080ade0
+android.widget.TextView: Shell
+android.widget.TextView: 524 New Haven Ave & Old Gate Ln
+android.widget.TextView: Milford, CT
+android.widget.TextView: 4.11 mi
+android.widget.TableLayout@4057aac8
+android.widget.TableRow@405d4588
+android.widget.RelativeLayout@40557fc8
+android.widget.RelativeLayout@4057ac78
+android.widget.TextView: 3.85
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d868
+android.widget.ImageView@4054c2d8
+android.widget.TextView: Power Gas
+android.widget.TextView: 1 Whalley Ave & Broadway
+android.widget.TextView: New Haven, CT
+android.widget.TextView: 4.22 mi
+android.widget.TableLayout@40581d58
+android.widget.TableRow@405d4c78
+android.widget.RelativeLayout@40580440
+android.widget.RelativeLayout@40581f18
+android.widget.TextView: 3.83
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ff7e8
+android.widget.ImageView@405f1488
+android.widget.TextView: Forbes Premium
+android.widget.TextView: 401 Forbes Ave & Woodward Ave
+android.widget.TextView: East Haven, CT
+android.widget.TextView: 4.31 mi
+android.widget.RelativeLayout@4072be88

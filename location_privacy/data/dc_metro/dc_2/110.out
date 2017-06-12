@@ -1,0 +1,67 @@
+android.widget.FrameLayout@4056d4c8
+android.widget.TabHost@405160b8
+android.widget.LinearLayout@405163c8
+android.widget.LinearLayout@40639e80
+android.widget.LinearLayout@4063b518
+android.widget.ImageView@4063b920
+android.widget.ImageButton@4063bb48
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4056bf80
+android.widget.ProgressBar@405859c8
+android.widget.ImageButton@40586198
+android.widget.TabWidget@4063a340
+android.widget.LinearLayout@40568a10
+android.widget.ImageView@405935f8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40620928
+android.widget.ImageView@40587c80
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4056a770
+android.view.View@4056b488
+android.widget.ImageView@4056aa20
+android.widget.TextView: Approx Address (within 0.0 meters)
+4614 12th St NE
+Washington, District of Columbia 20017
+android.widget.ImageView@40639628
+com.jazzmoonstudio.android.common.view.CustomViewPager@4063d208
+android.support.v4.app.y@40571028
+android.widget.LinearLayout@4062c1e8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062cce8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4063e6e0
+android.widget.ImageView@4060fcf8
+android.widget.ImageView@4060fe48
+android.widget.ImageView@4060ffe0
+android.widget.TextView: Fort Totten
+android.widget.TextView: Approx: 0.73 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40565a68
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40616c40
+android.widget.ImageView@40616db0
+android.widget.TextView: Brookland-CUA
+android.widget.TextView: Approx: 0.87 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4055e500
+android.support.v4.app.y@40611ba0
+android.widget.LinearLayout@40515850
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40607b60
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405a3730
+android.widget.TextView: 12TH ST + ALLISON ST
+android.widget.TextView: Approx: 0.06 mi.
+android.widget.TextView: Stop ID: 1002422
+Lines: 80,80v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4066cbf0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4066d4d8
+android.widget.TextView: 12TH ST + BUCHANAN ST
+android.widget.TextView: Approx: 0.09 mi.
+android.widget.TextView: Stop ID: 1002441
+Lines: 80,80c
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056f7a0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405700c8
+android.widget.TextView: BUCHANAN ST NE + 12TH ST NE
+android.widget.TextView: Approx: 0.1 mi.
+android.widget.TextView: Stop ID: 1003596
+Lines: B51
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4057b900
+android.widget.FrameLayout@4060f828
+com.millennialmedia.android.MMAdView@4060fa28
+android.webkit.WebView@406062d8

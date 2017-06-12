@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405878e8
+android.widget.LinearLayout@40588398
+android.widget.FrameLayout@40588648
+android.widget.ImageView@405888f8
+android.widget.RelativeLayout@40588d90
+android.widget.ImageButton@405893a0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ca50
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058ee60
+android.widget.LinearLayout@4058f208
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590a00
+android.widget.LinearLayout@40557c00
+android.widget.TextView: Locations
+android.widget.ScrollView@40516a58
+android.widget.TableLayout@405598d0
+android.widget.TableRow@406238e8
+android.widget.ImageView@40627270
+android.widget.TextView: 320 Route 25 A (Rocky Point)
+android.widget.TextView: 3.02 mi
+android.widget.TableRow@4061ebc8
+android.widget.ImageView@40582de0
+android.widget.TextView: 320 Route 25A
+android.widget.TextView: 3.02 mi
+android.widget.TableRow@406179d0
+android.widget.ImageView@40617e58
+android.widget.TextView: 620 Route 25A
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@40627c38
+android.widget.ImageView@40618a70
+android.widget.TextView: 620 Route 25A
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@4060f5a8
+android.widget.ImageView@4060fa50
+android.widget.TextView: 86 W Nesconset Highway
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4058af48
+android.widget.ImageView@40616d08
+android.widget.TextView: 86 W Nesconset Highway
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4061f1b0
+android.widget.ImageView@4061f610
+android.widget.TextView: 949 Horseblock Road
+android.widget.TextView: 11 mi
+android.widget.TableRow@40615300
+android.widget.ImageView@406156f8
+android.widget.TextView: 949 Horseblock Road
+android.widget.TextView: 11 mi
+android.widget.TableRow@40610698
+android.widget.ImageView@406340c0
+android.widget.TextView: 2822 Middle Country Road
+android.widget.TextView: 12 mi
+android.widget.TableRow@4055c170
+android.widget.ImageView@4057a160
+android.widget.TextView: 2822 Middle Country Road
+android.widget.TextView: 12 mi
+android.widget.TableRow@40634fa8
+android.widget.ImageView@4060e2f0
+android.widget.TextView: 621 Lake Avenue
+android.widget.TextView: 12 mi
+android.widget.TableRow@40621188
+android.widget.ImageView@40621630
+android.widget.TextView: 621 Lake Avenue
+android.widget.TextView: 12 mi
+android.widget.TableRow@4050b240
+android.widget.ImageView@4050b6e8
+android.widget.TextView: 474 Portion Road
+android.widget.TextView: 13 mi
+android.widget.TableRow@4062e098
+android.widget.ImageView@40629c08
+android.widget.TextView: 474 Portion Road
+android.widget.TextView: 13 mi
+android.widget.TableRow@4060b508
+android.widget.ImageView@4060b9b0
+android.widget.TextView: 1806 Medford Avenue
+android.widget.TextView: 13 mi
+android.widget.TableRow@4062b1c8
+android.widget.ImageView@4060a480
+android.widget.TextView: 1806 Medford Avenue (Route 112)
+android.widget.TextView: 13 mi
+android.widget.TableRow@40612400
+android.widget.ImageView@406128a8
+android.widget.TextView: 101 Hospital Road
+android.widget.TextView: 14 mi
+android.widget.TableRow@40609a28
+android.widget.ImageView@40609e68
+android.widget.TextView: 530 William Floyd Parkway
+android.widget.TextView: 14 mi
+android.widget.TableRow@40635eb8
+android.widget.ImageView@406322b0
+android.widget.TextView: 530 William Floyd Parkway
+android.widget.TextView: 14 mi
+android.widget.TableRow@40553448
+android.widget.ImageView@40553820
+android.widget.TextView: 714 Smithtown Bypass
+android.widget.TextView: 14 mi
+android.widget.FrameLayout@40562170
+android.widget.ImageView@4056bae0
+android.widget.Button: Filter
+android.widget.LinearLayout@4056f7d8
+android.widget.FrameLayout@4060fc90
+android.widget.ImageView@40581528
+android.widget.Button: Filter
+android.widget.FrameLayout@40610818
+android.widget.Button: Done
+android.widget.FrameLayout@406115b8
+android.widget.ImageView@40586800
+android.widget.TextView: Stores
+android.widget.ImageView@40617468
+android.widget.FrameLayout@40612140
+android.widget.ImageView@4061e030
+android.widget.TextView: ATMs
+android.widget.ImageView@40620c28
+android.widget.FrameLayout@405878e8
+android.widget.LinearLayout@40588398
+android.widget.FrameLayout@40588648
+android.widget.ImageView@405888f8
+android.widget.RelativeLayout@40588d90
+android.widget.ImageButton@405893a0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ca50
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058ee60
+android.widget.LinearLayout@4058f208
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590a00
+android.widget.LinearLayout@40557c00
+android.widget.TextView: Locations
+android.widget.ScrollView@40516a58
+android.widget.TableLayout@405598d0
+android.widget.TableRow@406238e8
+android.widget.ImageView@40627270
+android.widget.TextView: 320 Route 25 A (Rocky Point)
+android.widget.TextView: 3.02 mi
+android.widget.TableRow@4061ebc8
+android.widget.ImageView@40582de0
+android.widget.TextView: 320 Route 25A
+android.widget.TextView: 3.02 mi
+android.widget.TableRow@406179d0
+android.widget.ImageView@40617e58
+android.widget.TextView: 620 Route 25A
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@40627c38
+android.widget.ImageView@40618a70
+android.widget.TextView: 620 Route 25A
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@4060f5a8
+android.widget.ImageView@4060fa50
+android.widget.TextView: 86 W Nesconset Highway
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4058af48
+android.widget.ImageView@40616d08
+android.widget.TextView: 86 W Nesconset Highway
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4061f1b0
+android.widget.ImageView@4061f610
+android.widget.TextView: 949 Horseblock Road
+android.widget.TextView: 11 mi
+android.widget.TableRow@40615300
+android.widget.ImageView@406156f8
+android.widget.TextView: 949 Horseblock Road
+android.widget.TextView: 11 mi
+android.widget.TableRow@40610698
+android.widget.ImageView@406340c0
+android.widget.TextView: 2822 Middle Country Road
+android.widget.TextView: 12 mi
+android.widget.TableRow@4055c170
+android.widget.ImageView@4057a160
+android.widget.TextView: 2822 Middle Country Road
+android.widget.TextView: 12 mi
+android.widget.TableRow@40634fa8
+android.widget.ImageView@4060e2f0
+android.widget.TextView: 621 Lake Avenue
+android.widget.TextView: 12 mi
+android.widget.TableRow@40621188
+android.widget.ImageView@40621630
+android.widget.TextView: 621 Lake Avenue
+android.widget.TextView: 12 mi
+android.widget.TableRow@4050b240
+android.widget.ImageView@4050b6e8
+android.widget.TextView: 474 Portion Road
+android.widget.TextView: 13 mi
+android.widget.TableRow@4062e098
+android.widget.ImageView@40629c08
+android.widget.TextView: 474 Portion Road
+android.widget.TextView: 13 mi
+android.widget.TableRow@4060b508
+android.widget.ImageView@4060b9b0
+android.widget.TextView: 1806 Medford Avenue
+android.widget.TextView: 13 mi
+android.widget.TableRow@4062b1c8
+android.widget.ImageView@4060a480
+android.widget.TextView: 1806 Medford Avenue (Route 112)
+android.widget.TextView: 13 mi
+android.widget.TableRow@40612400
+android.widget.ImageView@406128a8
+android.widget.TextView: 101 Hospital Road
+android.widget.TextView: 14 mi
+android.widget.TableRow@40609a28
+android.widget.ImageView@40609e68
+android.widget.TextView: 530 William Floyd Parkway
+android.widget.TextView: 14 mi
+android.widget.TableRow@40635eb8
+android.widget.ImageView@406322b0
+android.widget.TextView: 530 William Floyd Parkway
+android.widget.TextView: 14 mi
+android.widget.TableRow@40553448
+android.widget.ImageView@40553820
+android.widget.TextView: 714 Smithtown Bypass
+android.widget.TextView: 14 mi
+android.widget.FrameLayout@40562170
+android.widget.ImageView@4056bae0
+android.widget.Button: Filter
+android.widget.LinearLayout@4056f7d8
+android.widget.FrameLayout@4060fc90
+android.widget.ImageView@40581528
+android.widget.Button: Filter
+android.widget.FrameLayout@40610818
+android.widget.Button: Done
+android.widget.FrameLayout@406115b8
+android.widget.ImageView@40586800
+android.widget.TextView: Stores
+android.widget.ImageView@40617468
+android.widget.FrameLayout@40612140
+android.widget.ImageView@4061e030
+android.widget.TextView: ATMs
+android.widget.ImageView@40620c28
+android.widget.FrameLayout@405878e8
+android.widget.LinearLayout@40588398
+android.widget.FrameLayout@40588648
+android.widget.ImageView@405888f8
+android.widget.RelativeLayout@40588d90
+android.widget.ImageButton@405893a0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ca50
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058ee60
+android.widget.LinearLayout@4058f208
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590a00
+android.widget.LinearLayout@40557c00
+android.widget.TextView: Locations
+android.widget.ScrollView@40516a58
+android.widget.TableLayout@405598d0
+android.widget.TableRow@406238e8
+android.widget.ImageView@40627270
+android.widget.TextView: 320 Route 25 A (Rocky Point)
+android.widget.TextView: 3.02 mi
+android.widget.TableRow@4061ebc8
+android.widget.ImageView@40582de0
+android.widget.TextView: 320 Route 25A
+android.widget.TextView: 3.02 mi
+android.widget.TableRow@406179d0
+android.widget.ImageView@40617e58
+android.widget.TextView: 620 Route 25A
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@40627c38
+android.widget.ImageView@40618a70
+android.widget.TextView: 620 Route 25A
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@4060f5a8
+android.widget.ImageView@4060fa50
+android.widget.TextView: 86 W Nesconset Highway
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4058af48
+android.widget.ImageView@40616d08
+android.widget.TextView: 86 W Nesconset Highway
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4061f1b0
+android.widget.ImageView@4061f610
+android.widget.TextView: 949 Horseblock Road
+android.widget.TextView: 11 mi
+android.widget.TableRow@40615300
+android.widget.ImageView@406156f8
+android.widget.TextView: 949 Horseblock Road
+android.widget.TextView: 11 mi
+android.widget.TableRow@40610698
+android.widget.ImageView@406340c0
+android.widget.TextView: 2822 Middle Country Road
+android.widget.TextView: 12 mi
+android.widget.TableRow@4055c170
+android.widget.ImageView@4057a160
+android.widget.TextView: 2822 Middle Country Road
+android.widget.TextView: 12 mi
+android.widget.TableRow@40634fa8
+android.widget.ImageView@4060e2f0
+android.widget.TextView: 621 Lake Avenue
+android.widget.TextView: 12 mi
+android.widget.TableRow@40621188
+android.widget.ImageView@40621630
+android.widget.TextView: 621 Lake Avenue
+android.widget.TextView: 12 mi
+android.widget.TableRow@4050b240
+android.widget.ImageView@4050b6e8
+android.widget.TextView: 474 Portion Road
+android.widget.TextView: 13 mi
+android.widget.TableRow@4062e098
+android.widget.ImageView@40629c08
+android.widget.TextView: 474 Portion Road
+android.widget.TextView: 13 mi
+android.widget.TableRow@4060b508
+android.widget.ImageView@4060b9b0
+android.widget.TextView: 1806 Medford Avenue
+android.widget.TextView: 13 mi
+android.widget.TableRow@4062b1c8
+android.widget.ImageView@4060a480
+android.widget.TextView: 1806 Medford Avenue (Route 112)
+android.widget.TextView: 13 mi
+android.widget.TableRow@40612400
+android.widget.ImageView@406128a8
+android.widget.TextView: 101 Hospital Road
+android.widget.TextView: 14 mi
+android.widget.TableRow@40609a28
+android.widget.ImageView@40609e68
+android.widget.TextView: 530 William Floyd Parkway
+android.widget.TextView: 14 mi
+android.widget.TableRow@40635eb8
+android.widget.ImageView@406322b0
+android.widget.TextView: 530 William Floyd Parkway
+android.widget.TextView: 14 mi
+android.widget.TableRow@40553448
+android.widget.ImageView@40553820
+android.widget.TextView: 714 Smithtown Bypass
+android.widget.TextView: 14 mi
+android.widget.FrameLayout@40562170
+android.widget.ImageView@4056bae0
+android.widget.Button: Filter
+android.widget.LinearLayout@4056f7d8
+android.widget.FrameLayout@4060fc90
+android.widget.ImageView@40581528
+android.widget.Button: Filter
+android.widget.FrameLayout@40610818
+android.widget.Button: Done
+android.widget.FrameLayout@406115b8
+android.widget.ImageView@40586800
+android.widget.TextView: Stores
+android.widget.ImageView@40617468
+android.widget.FrameLayout@40612140
+android.widget.ImageView@4061e030
+android.widget.TextView: ATMs
+android.widget.ImageView@40620c28

@@ -1,0 +1,136 @@
+%% Redexer paper
+
+\section{Related Work}
+
+Several other researchers have proposed mechanisms to refine or reduce
+permissions in Android. MockDroid allows users to replace an
+app's view of certain private data with fake
+information~\cite{mockdroid}. Apex is similar, and also lets 
+the user enforce simple constraints such as the
+number of times per day a resource may be accessed~\cite{apex}. TISSA
+gives users detailed control over an app's access to selected private data
+(phone identity, location, contacts, and the call log), letting the
+user decide whether the app can see the true data, empty data,
+anonymized data, or mock data~\cite{zhou2011taming}. AppFence
+similarly lets users provide mock data to apps requesting private
+information, and can also ensure private data that is released to apps
+does not leave the device~\cite{Hornyack:2011:TAD:2046707.2046780}.  A
+limitation of all of these approaches is that they require
+modifications to the Android platform, and hence to be used in
+practice must either be
+adopted by Google or device providers, or must be run on rooted
+phones. In contrast, \rewriter and \lib run on stock, unmodified
+Android systems available today.
+
+Researchers have also developed other ways to enhance Android's
+overall security framework. Kirin employs a set of user-defined
+security rules to flag potential malware at install
+time~\cite{enck2009lightweight}. Saint enriches permissions on Android
+to support a variety of installation constraints, e.g., a permission
+can include a whitelist of apps that may request
+it~\cite{ongtang2009semantically}. These approaches are complementary
+to our system, as they take the platform permissions as is and do not
+refine them.
+
+There have been several studies of Android's permissions, sensitive
+APIs, and the use of permissions across apps.  Barrera et
+al.~\cite{barrera2010methodology} analyze the way permissions are used
+in Android apps, and observe that only a small number of Android
+permissions are widely used but that some of these, in particular
+Internet permissions, are overly broad (as we have also found). Vidas
+et al.~\cite{vidas:w2sp11} describe a tool that, using
+documentation-derived information, can statically analyze an app's
+source code to find a minimum set of permissions it
+needs. Stowaway~\cite{felt:ccs11} performs a static analysis on the
+Android API itself to discover which APIs require what permissions,
+something they found is not always well documented. (We used
+Stowaway's data set in several cases to help determine what adapters
+we needed to implement in \lib.)
+
+Finally, several tools have been developed that look for security
+issues in Android apps. TaintDroid tracks the flow of sensitive
+information~\cite{taintdroid}. Ded~\cite{ded}, a Dalvik-to-Java
+decompiler, has been used to discover previously undisclosed device
+identifier leaks. ComDroid~\cite{chin11:mobisys} finds vulnerabilities
+related to Intent handling. Felt et al.~\cite{felt2011permission}
+study the problem of permission redelegation, in which an app is
+tricked into providing sensitive capabilities to another app.
+Woodpecker~\cite{grace:ndss12} uses dataflow analysis to find
+capability leaks on Android phones. All of these tools focus on
+improper use of the current set of Android's permissions. \rewriter
+and \lib take a complimentary approach, replacing existing permissions
+with finer-grained ones to reduce or eliminate consequences of
+security issues.
+
+
+%% Location Privacy Paper
+\section{Related Work}
+
+There is a large body of work on increasing location
+privacy, though we are aware of no other work that directly measures
+the resulting utility of mobile Android apps.
+
+The Cach\'{e} system \cite{Amini:2010} caches and prefetches
+content from a server, obfuscating the user's location at the cost of
+potentially stale content and higher bandwidth.  Additionally,
+application writers must specify rules for caching up front.  The
+system caches data for a set of regions, quantizing the user's location 
+as in our approach.  
+The authors note that app utility will be impacted by their technique, 
+but they do not measure it explicitly.
+
+Hornyack et al. \cite{Hornyack:2011} study apps that use sensitive
+information (such as location), and present AppFence, a system that
+can fuzz inputs to apps. While the AppFence authors note the effects of
+fuzzing app inputs on usability, they do not study it systematically
+using any particular metric.
+
+Shokri et al. \cite{Shokri:2011} present a systematic approach to
+quantifying Location Privacy Preserving Mechanisms (LPPMs).  They also
+describe an meter on the user's devise that
+continuously informs the user of their privacy.  In our work, we implemented a simple
+truncation-based LPPM (corresponding to a technique they call
+\emph{precision reduction}), and use this to study
+utility as a function of the degree of truncation. As future work, we
+may consider evaluating the utility of other policies from their
+system.
+
+In follow up work, Shokri et al. \cite{Shokri:2012} present an
+optimal strategy to prevent localization attacks.
+%, based on bounding
+%the probability that an attacker can learn the
+%precise location of a user at a given time.  
+Their analysis formulates location privacy as a Bayesian Stackelberg 
+game, where a user chooses a location cloaking strategy without 
+knowing their potential adversary.
+While their analysis considers service quality, they use metrics that do 
+not clearly map to utility, such as Euclidean distance from the 
+true location (rather than the actual effect of the change on the service).
+
+Our study focuses on privacy for a single user at a stationary point.
+Allowing the app to collect traces of data reveals much more
+information \cite{Gruteser:2005}, \cite{Golle:2009}.  Much of the
+existing work on location privacy \cite{Beresford:2004}, \cite{Bettini:2005},
+\cite{Hoh:2005}, \cite{Gruteser:2003} focuses on $k$-anonymity: if a
+user is making a query to a location based service, they can only be
+identified to be within a set of $k$ potential users.  
+One popular
+technique is to use mix zones \cite{Beresford:2004}: once a user enters 
+a designated area their location information becomes ``mixed'' with 
+others in that same area.  This technique requires a trusted middleware 
+layer (to properly mix location data) and requires these mix zones 
+to be defined.  In contrast, location truncation can be done locally
+on a mobile device.
+
+None of these previous approaches study the impact of location privacy
+on app utility.  The work that comes closest is by Shokri et
+al. \cite{Shokri:2012}, but while that framework considers utility as
+an element of their models, it is not directly measured on apps.  Our
+work is complementary: we focus not on optimal obfuscation techniques,
+but rather we fix an obfuscation strategy and study how utility
+changes under that technique.  As future work, we intend to couple our 
+empirical utility functions with the theoretical models presented by
+Shokri et al.
+Doing so would allow us to determine bounds for $k$ and allow us to study 
+how the optimal strategies presented by Shokri et al.
+are affected.

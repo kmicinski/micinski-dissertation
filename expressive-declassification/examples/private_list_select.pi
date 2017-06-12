@@ -1,0 +1,7 @@
+\begin{verbatim}
+((contacts(x)
+  . selection(y)
+  . let selection = x[y] in net<selection>)
+  | contacts<con>)
+  || net(x)
+\end{verbatim}

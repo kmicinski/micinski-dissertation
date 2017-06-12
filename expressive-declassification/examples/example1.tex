@@ -1,0 +1,24 @@
+\begin{figure*}
+\begin{verbatim}
+(* Policy declarations *)
+let L = \x,y -> x,y
+let H = \x,y -> 0,0
+
+(* called when the button is pressed.. *)
+let buttonClick(textArea) |>
+  let net(reply) |>
+    set textArea := reply
+  in
+  let | loc((l1,l2), L) |> net(l1,l2)
+
+let onCreate() |>
+  let newTextArea(a) -o
+    let newButton(sendLocation) -o
+      (* Wait for the button to be pressed *)
+      | let sendLocation() |> buttonClick(a)
+    in
+    createNewButton()
+  in
+  createNewTextArea()
+\end{verbatim}
+\end{figure*}

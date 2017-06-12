@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40595c50
+android.widget.LinearLayout@40596700
+android.widget.FrameLayout@405969b0
+android.widget.ImageView@40596c60
+android.widget.RelativeLayout@405970f8
+android.widget.ImageButton@40597708
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059adb8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d1c8
+android.widget.LinearLayout@4059d570
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059ed68
+android.widget.LinearLayout@4052d8f0
+android.widget.TextView: Locations
+android.widget.ScrollView@405903f8
+android.widget.TableLayout@405190b0
+android.widget.TableRow@40621598
+android.widget.ImageView@40618bb8
+android.widget.TextView: 1476 Broad Street (Broad Street Extension)
+android.widget.TextView: 0.55 mi
+android.widget.TableRow@4062c088
+android.widget.ImageView@4062c3f8
+android.widget.TextView: 1476 Broad Street
+android.widget.TextView: 0.56 mi
+android.widget.TableRow@4062d3e0
+android.widget.ImageView@4062d888
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 1.38 mi
+android.widget.TableRow@406328c0
+android.widget.ImageView@40632d68
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 1.41 mi
+android.widget.TableRow@406286b0
+android.widget.ImageView@40628b58
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 1.82 mi
+android.widget.TableRow@4062fa80
+android.widget.ImageView@4062ff28
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 1.82 mi
+android.widget.TableRow@40630f10
+android.widget.ImageView@406313b8
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40586080
+android.widget.ImageView@40586528
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40544cb0
+android.widget.ImageView@40545158
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40546140
+android.widget.ImageView@405465e8
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40638c58
+android.widget.ImageView@40639100
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 2.07 mi
+android.widget.TableRow@4054af38
+android.widget.ImageView@4054b3e0
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 2.09 mi
+android.widget.TableRow@4054c3b8
+android.widget.ImageView@4054c860
+android.widget.TextView: 70 Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4054d8a8
+android.widget.ImageView@4061c090
+android.widget.TextView: 70 Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4061d078
+android.widget.ImageView@4061d520
+android.widget.TextView: 155 Jefferson Street
+android.widget.TextView: 3.96 mi
+android.widget.TableRow@4061e508
+android.widget.ImageView@4061e9b0
+android.widget.TextView: 155 Jefferson Street
+android.widget.TextView: 3.96 mi
+android.widget.TableRow@40539f68
+android.widget.ImageView@4053a410
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 3.99 mi
+android.widget.TableRow@4053b3f8
+android.widget.ImageView@4053b8a0
+android.widget.TextView: 571 New York Avenue
+android.widget.TextView: 3.99 mi
+android.widget.TableRow@4053c888
+android.widget.ImageView@4053cd30
+android.widget.TextView: 571 New York Avenue
+android.widget.TextView: 4.00 mi
+android.widget.TableRow@4053ddb0
+android.widget.ImageView@4053e4e0
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 4.01 mi
+android.widget.FrameLayout@40528890
+android.widget.ImageView@4052c3d8
+android.widget.Button: Filter
+android.widget.LinearLayout@40544668
+android.widget.FrameLayout@40557f38
+android.widget.ImageView@40563cc8
+android.widget.Button: Filter
+android.widget.FrameLayout@40599958
+android.widget.Button: Done
+android.widget.FrameLayout@4061ef78
+android.widget.ImageView@40639f60
+android.widget.TextView: Stores
+android.widget.ImageView@4052eab0
+android.widget.FrameLayout@405b6520
+android.widget.ImageView@40530270
+android.widget.TextView: ATMs
+android.widget.ImageView@405b3e28
+android.widget.FrameLayout@40595c50
+android.widget.LinearLayout@40596700
+android.widget.FrameLayout@405969b0
+android.widget.ImageView@40596c60
+android.widget.RelativeLayout@405970f8
+android.widget.ImageButton@40597708
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059adb8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d1c8
+android.widget.LinearLayout@4059d570
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059ed68
+android.widget.LinearLayout@4052d8f0
+android.widget.TextView: Locations
+android.widget.ScrollView@405903f8
+android.widget.TableLayout@405190b0
+android.widget.TableRow@40621598
+android.widget.ImageView@40618bb8
+android.widget.TextView: 1476 Broad Street (Broad Street Extension)
+android.widget.TextView: 0.55 mi
+android.widget.TableRow@4062c088
+android.widget.ImageView@4062c3f8
+android.widget.TextView: 1476 Broad Street
+android.widget.TextView: 0.56 mi
+android.widget.TableRow@4062d3e0
+android.widget.ImageView@4062d888
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 1.38 mi
+android.widget.TableRow@406328c0
+android.widget.ImageView@40632d68
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 1.41 mi
+android.widget.TableRow@406286b0
+android.widget.ImageView@40628b58
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 1.82 mi
+android.widget.TableRow@4062fa80
+android.widget.ImageView@4062ff28
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 1.82 mi
+android.widget.TableRow@40630f10
+android.widget.ImageView@406313b8
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40586080
+android.widget.ImageView@40586528
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40544cb0
+android.widget.ImageView@40545158
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40546140
+android.widget.ImageView@405465e8
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40638c58
+android.widget.ImageView@40639100
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 2.07 mi
+android.widget.TableRow@4054af38
+android.widget.ImageView@4054b3e0
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 2.09 mi
+android.widget.TableRow@4054c3b8
+android.widget.ImageView@4054c860
+android.widget.TextView: 70 Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4054d8a8
+android.widget.ImageView@4061c090
+android.widget.TextView: 70 Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4061d078
+android.widget.ImageView@4061d520
+android.widget.TextView: 155 Jefferson Street
+android.widget.TextView: 3.96 mi
+android.widget.TableRow@4061e508
+android.widget.ImageView@4061e9b0
+android.widget.TextView: 155 Jefferson Street
+android.widget.TextView: 3.96 mi
+android.widget.TableRow@40539f68
+android.widget.ImageView@4053a410
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 3.99 mi
+android.widget.TableRow@4053b3f8
+android.widget.ImageView@4053b8a0
+android.widget.TextView: 571 New York Avenue
+android.widget.TextView: 3.99 mi
+android.widget.TableRow@4053c888
+android.widget.ImageView@4053cd30
+android.widget.TextView: 571 New York Avenue
+android.widget.TextView: 4.00 mi
+android.widget.TableRow@4053ddb0
+android.widget.ImageView@4053e4e0
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 4.01 mi
+android.widget.FrameLayout@40528890
+android.widget.ImageView@4052c3d8
+android.widget.Button: Filter
+android.widget.LinearLayout@40544668
+android.widget.FrameLayout@40557f38
+android.widget.ImageView@40563cc8
+android.widget.Button: Filter
+android.widget.FrameLayout@40599958
+android.widget.Button: Done
+android.widget.FrameLayout@4061ef78
+android.widget.ImageView@40639f60
+android.widget.TextView: Stores
+android.widget.ImageView@4052eab0
+android.widget.FrameLayout@405b6520
+android.widget.ImageView@40530270
+android.widget.TextView: ATMs
+android.widget.ImageView@405b3e28
+android.widget.FrameLayout@40595c50
+android.widget.LinearLayout@40596700
+android.widget.FrameLayout@405969b0
+android.widget.ImageView@40596c60
+android.widget.RelativeLayout@405970f8
+android.widget.ImageButton@40597708
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059adb8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d1c8
+android.widget.LinearLayout@4059d570
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059ed68
+android.widget.LinearLayout@4052d8f0
+android.widget.TextView: Locations
+android.widget.ScrollView@405903f8
+android.widget.TableLayout@405190b0
+android.widget.TableRow@40621598
+android.widget.ImageView@40618bb8
+android.widget.TextView: 1476 Broad Street (Broad Street Extension)
+android.widget.TextView: 0.55 mi
+android.widget.TableRow@4062c088
+android.widget.ImageView@4062c3f8
+android.widget.TextView: 1476 Broad Street
+android.widget.TextView: 0.56 mi
+android.widget.TableRow@4062d3e0
+android.widget.ImageView@4062d888
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 1.38 mi
+android.widget.TableRow@406328c0
+android.widget.ImageView@40632d68
+android.widget.TextView: 575 Kingsland Street
+android.widget.TextView: 1.41 mi
+android.widget.TableRow@406286b0
+android.widget.ImageView@40628b58
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 1.82 mi
+android.widget.TableRow@4062fa80
+android.widget.ImageView@4062ff28
+android.widget.TextView: 277 Franklin Avenue
+android.widget.TextView: 1.82 mi
+android.widget.TableRow@40630f10
+android.widget.ImageView@406313b8
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40586080
+android.widget.ImageView@40586528
+android.widget.TextView: 85-107 Pompton Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40544cb0
+android.widget.ImageView@40545158
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40546140
+android.widget.ImageView@405465e8
+android.widget.TextView: 233 Bloomfield Avenue
+android.widget.TextView: 2.01 mi
+android.widget.TableRow@40638c58
+android.widget.ImageView@40639100
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 2.07 mi
+android.widget.TableRow@4054af38
+android.widget.ImageView@4054b3e0
+android.widget.TextView: 1188 Clifton Avenue
+android.widget.TextView: 2.09 mi
+android.widget.TableRow@4054c3b8
+android.widget.ImageView@4054c860
+android.widget.TextView: 70 Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4054d8a8
+android.widget.ImageView@4061c090
+android.widget.TextView: 70 Main Street
+android.widget.TextView: 3.88 mi
+android.widget.TableRow@4061d078
+android.widget.ImageView@4061d520
+android.widget.TextView: 155 Jefferson Street
+android.widget.TextView: 3.96 mi
+android.widget.TableRow@4061e508
+android.widget.ImageView@4061e9b0
+android.widget.TextView: 155 Jefferson Street
+android.widget.TextView: 3.96 mi
+android.widget.TableRow@40539f68
+android.widget.ImageView@4053a410
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 3.99 mi
+android.widget.TableRow@4053b3f8
+android.widget.ImageView@4053b8a0
+android.widget.TextView: 571 New York Avenue
+android.widget.TextView: 3.99 mi
+android.widget.TableRow@4053c888
+android.widget.ImageView@4053cd30
+android.widget.TextView: 571 New York Avenue
+android.widget.TextView: 4.00 mi
+android.widget.TableRow@4053ddb0
+android.widget.ImageView@4053e4e0
+android.widget.TextView: 425 Pleasant Valley Way
+android.widget.TextView: 4.01 mi
+android.widget.FrameLayout@40528890
+android.widget.ImageView@4052c3d8
+android.widget.Button: Filter
+android.widget.LinearLayout@40544668
+android.widget.FrameLayout@40557f38
+android.widget.ImageView@40563cc8
+android.widget.Button: Filter
+android.widget.FrameLayout@40599958
+android.widget.Button: Done
+android.widget.FrameLayout@4061ef78
+android.widget.ImageView@40639f60
+android.widget.TextView: Stores
+android.widget.ImageView@4052eab0
+android.widget.FrameLayout@405b6520
+android.widget.ImageView@40530270
+android.widget.TextView: ATMs
+android.widget.ImageView@405b3e28

@@ -1,0 +1,103 @@
+\select@language {english}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ List of Figures}{ix}{chapter*.2}
+\contentsline {chapter}{List of Abbreviations}{x}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Binary Rewriting for Enhanced Security on Android}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Interaction-Based Declassification Policies}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}User Interactions and Permission Use on Android}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Permission-Use Provenance in Android Using Sparse Dynamic Analysis}{9}{section.1.4}
+\contentsline {chapter}{\numberline {2}Binary Rewriting for Android Apps}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Redexer}{12}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Parsing Android Bytecode}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Linking}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Modification}{13}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Visitor API and extensions}{15}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Logging}{16}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}An Emperical Study of Location Truncation on Android}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}How Apps Use Location}{20}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Implementation}{22}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Experimental Design}{25}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Locations and truncations}{27}{subsubsection.2.2.3.1}
+\contentsline {subsection}{\numberline {2.2.4}Metrics used for evaluation}{28}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Edit distance}{29}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Set intersection size}{29}{subsubsection.2.2.4.2}
+\contentsline {subsubsection}{\numberline {2.2.4.3}Additional distance incurred}{30}{subsubsection.2.2.4.3}
+\contentsline {subsubsection}{\numberline {2.2.4.4}Testing infrastructure}{31}{subsubsection.2.2.4.4}
+\contentsline {subsection}{\numberline {2.2.5}Results}{33}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Edit Distance}{34}{subsubsection.2.2.5.1}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Set Intersection}{36}{subsubsection.2.2.5.2}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Additional Distance}{38}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}Discussion}{39}{subsubsection.2.2.5.4}
+\contentsline {section}{\numberline {2.3}Related Work}{40}{section.2.3}
+\contentsline {section}{\numberline {2.4}Conclusion}{44}{section.2.4}
+\contentsline {chapter}{\numberline {3}Checking Interaction-Based Declassification Policies \\ for Android Using Symbolic Execution}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{45}{section.3.1}
+\contentsline {section}{\numberline {3.2}Example Apps and Policies}{47}{section.3.2}
+\contentsline {section}{\numberline {3.3}Program Traces and Security Definition}{53}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Program Traces}{53}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Interaction-based Declassification Policies}{55}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Implementation}{58}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Driving App Execution}{59}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Symbolic Variables in Traces}{61}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Checking Policies with Z3}{62}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Minimizing Calls to Z3}{63}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Experiments}{64}{section.3.5}
+\contentsline {section}{\numberline {3.6}Limitations and Future Work}{69}{section.3.6}
+\contentsline {section}{\numberline {3.7}Related Work}{70}{section.3.7}
+\contentsline {section}{\numberline {3.8}Conclusion}{73}{section.3.8}
+\contentsline {chapter}{\numberline {4}User Interactions and Permission Use on Android}{74}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{74}{section.4.1}
+\contentsline {section}{\numberline {4.2}App Measurement Survey Methodology}{79}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Binary Rewriting and Execution Logging}{80}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Log Visualization}{81}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Resource Uses}{83}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Coding Apps and Resolving Differences}{85}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}App Selection}{86}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Limitations}{87}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}App Measurement Survey Results}{88}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Resource Usage Across Apps}{90}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Discussion}{91}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}User Expectations Study Methodology}{91}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Study Overview}{93}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Conditions}{95}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Statistical Analysis}{98}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Ecological Validity and Limitations}{98}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}User Expectations Study Results}{100}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Demographics}{101}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}H1 -- Interactivity v. Expectation}{101}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}H2 -- Real-World Frequency v. Expectation}{103}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}H3 -- Effect of Previously Seen Accesses}{105}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}App v. Expectation}{106}{subsection.4.5.5}
+\contentsline {section}{\numberline {4.6}Conclusions and Design Recommendations}{107}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Access Resources As Interactively As Possible}{107}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Use Interactions to Grant Authorization}{108}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Handle background authorization separately}{109}{subsection.4.6.3}
+\contentsline {chapter}{\numberline {5}Permission-Use Provenance in Android Using Sparse Dynamic Analysis}{111}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{111}{section.5.1}
+\contentsline {section}{\numberline {5.2}Overview}{114}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Running Example}{116}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Bytecode Instrumentation and Trace Generation}{116}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Sparse Trace Interpolation}{119}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Inter-callback Graphs and Summarization}{122}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Provenance Inference}{125}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sparse Trace Generation}{126}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Sparse Trace Interpolation}{128}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Inter-callback Graphs and Summarization}{130}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Implementation}{132}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Logging instrumentation.}{132}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Sparse Trace Interpolation.}{133}{subsection.5.4.2}
+\contentsline {paragraph}{Inter-callback connections.}{135}{paragraph*.35}
+\contentsline {section}{\numberline {5.5}Evaluation}{136}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Camera2Evil}{138}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Call Recorder}{138}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Misbothering}{140}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Contact Merger}{141}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Smart Studio Proxy}{142}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Related Work}{142}{section.5.6}
+\contentsline {section}{\numberline {5.7}Conclusion}{147}{section.5.7}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{149}{chapter.6}
+\contentsline {section}{\numberline {6.1}Binary Rewriting for Android Apps}{149}{section.6.1}
+\contentsline {section}{\numberline {6.2}Checking Interaction-Based Declassification Policies for Android Using Symbolic Execution}{150}{section.6.2}
+\contentsline {section}{\numberline {6.3}User Interactions and Permission Use on Android}{151}{section.6.3}
+\contentsline {section}{\numberline {6.4}Permission-Use Provenance in Android Using Sparse Dynamic Analysis}{152}{section.6.4}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{154}{chapter*.37}

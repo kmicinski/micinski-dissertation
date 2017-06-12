@@ -1,0 +1,12 @@
+\begin{verbatim}
+P
+|
+let mainLoop(msg) |>
+  match msg with
+    | OnCreate -> onCreate()
+    | _ -> onCreate()
+  in
+  mainLoop()
+in
+mainLoop(OnCreate)
+\end{verbatim}

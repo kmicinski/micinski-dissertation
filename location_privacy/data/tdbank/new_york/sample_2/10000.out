@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405899e0
+android.widget.LinearLayout@4058a490
+android.widget.FrameLayout@4058a740
+android.widget.ImageView@4058a9f0
+android.widget.RelativeLayout@4058ae88
+android.widget.ImageButton@4058b498
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058eb48
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590f58
+android.widget.LinearLayout@40591300
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592af8
+android.widget.LinearLayout@4050e710
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c8f0
+android.widget.TableLayout@405977c8
+android.widget.TableRow@40615260
+android.widget.ImageView@406147c0
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 1.05 mi
+android.widget.TableRow@40638bb8
+android.widget.ImageView@40622480
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 1.05 mi
+android.widget.TableRow@4050ddf0
+android.widget.ImageView@4050e298
+android.widget.TextView: 8206 Fifth Avenue (Bay Ridge)
+android.widget.TextView: 1.07 mi
+android.widget.TableRow@40627020
+android.widget.ImageView@406274c8
+android.widget.TextView: 8206 Fifth Avenue
+android.widget.TextView: 1.07 mi
+android.widget.TableRow@4062d8b8
+android.widget.ImageView@406172e8
+android.widget.TextView: 6323 7Th Avenue (MJG-Corporate)
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@4060e778
+android.widget.ImageView@4060ec20
+android.widget.TextView: 150 55Th Street (Lutheran Medical Center)
+android.widget.TextView: 1.94 mi
+android.widget.TableRow@40552d80
+android.widget.ImageView@4060a670
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@40629c30
+android.widget.ImageView@4062a0d8
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@406165b0
+android.widget.ImageView@40616a58
+android.widget.TextView: 987 Fourth Avenue (Sunset Park)
+android.widget.TextView: 2.79 mi
+android.widget.TableRow@40631a88
+android.widget.ImageView@40631f30
+android.widget.TextView: 987 4Th Avenue
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@40639db0
+android.widget.ImageView@406550b8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 2.87 mi
+android.widget.TableRow@40655f98
+android.widget.ImageView@4061ea88
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 2.87 mi
+android.widget.TableRow@40612e80
+android.widget.ImageView@40613278
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.99 mi
+android.widget.TableRow@405511c0
+android.widget.ImageView@40551668
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.99 mi
+android.widget.TableRow@4057bb10
+android.widget.ImageView@4057bfb8
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 3.11 mi
+android.widget.TableRow@4055e798
+android.widget.ImageView@4055ec40
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 3.11 mi
+android.widget.TableRow@4061d980
+android.widget.ImageView@4061ddc0
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 3.20 mi
+android.widget.TableRow@406200d8
+android.widget.ImageView@40620580
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 3.23 mi
+android.widget.TableRow@40632840
+android.widget.ImageView@40632ce8
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 3.25 mi
+android.widget.TableRow@4062b670
+android.widget.ImageView@4062bb18
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.27 mi
+android.widget.FrameLayout@40576398
+android.widget.ImageView@40550760
+android.widget.Button: Filter
+android.widget.LinearLayout@40559c30
+android.widget.FrameLayout@40612768
+android.widget.ImageView@405685e0
+android.widget.Button: Filter
+android.widget.FrameLayout@40614b80
+android.widget.Button: Done
+android.widget.FrameLayout@40615f30
+android.widget.ImageView@405736d8
+android.widget.TextView: Stores
+android.widget.ImageView@405849a8
+android.widget.FrameLayout@40621748
+android.widget.ImageView@405ae7b8
+android.widget.TextView: ATMs
+android.widget.ImageView@405b9b48
+android.widget.FrameLayout@405899e0
+android.widget.LinearLayout@4058a490
+android.widget.FrameLayout@4058a740
+android.widget.ImageView@4058a9f0
+android.widget.RelativeLayout@4058ae88
+android.widget.ImageButton@4058b498
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058eb48
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590f58
+android.widget.LinearLayout@40591300
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592af8
+android.widget.LinearLayout@4050e710
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c8f0
+android.widget.TableLayout@405977c8
+android.widget.TableRow@40615260
+android.widget.ImageView@406147c0
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 1.05 mi
+android.widget.TableRow@40638bb8
+android.widget.ImageView@40622480
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 1.05 mi
+android.widget.TableRow@4050ddf0
+android.widget.ImageView@4050e298
+android.widget.TextView: 8206 Fifth Avenue (Bay Ridge)
+android.widget.TextView: 1.07 mi
+android.widget.TableRow@40627020
+android.widget.ImageView@406274c8
+android.widget.TextView: 8206 Fifth Avenue
+android.widget.TextView: 1.07 mi
+android.widget.TableRow@4062d8b8
+android.widget.ImageView@406172e8
+android.widget.TextView: 6323 7Th Avenue (MJG-Corporate)
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@4060e778
+android.widget.ImageView@4060ec20
+android.widget.TextView: 150 55Th Street (Lutheran Medical Center)
+android.widget.TextView: 1.94 mi
+android.widget.TableRow@40552d80
+android.widget.ImageView@4060a670
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@40629c30
+android.widget.ImageView@4062a0d8
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@406165b0
+android.widget.ImageView@40616a58
+android.widget.TextView: 987 Fourth Avenue (Sunset Park)
+android.widget.TextView: 2.79 mi
+android.widget.TableRow@40631a88
+android.widget.ImageView@40631f30
+android.widget.TextView: 987 4Th Avenue
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@40639db0
+android.widget.ImageView@406550b8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 2.87 mi
+android.widget.TableRow@40655f98
+android.widget.ImageView@4061ea88
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 2.87 mi
+android.widget.TableRow@40612e80
+android.widget.ImageView@40613278
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.99 mi
+android.widget.TableRow@405511c0
+android.widget.ImageView@40551668
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.99 mi
+android.widget.TableRow@4057bb10
+android.widget.ImageView@4057bfb8
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 3.11 mi
+android.widget.TableRow@4055e798
+android.widget.ImageView@4055ec40
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 3.11 mi
+android.widget.TableRow@4061d980
+android.widget.ImageView@4061ddc0
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 3.20 mi
+android.widget.TableRow@406200d8
+android.widget.ImageView@40620580
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 3.23 mi
+android.widget.TableRow@40632840
+android.widget.ImageView@40632ce8
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 3.25 mi
+android.widget.TableRow@4062b670
+android.widget.ImageView@4062bb18
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.27 mi
+android.widget.FrameLayout@40576398
+android.widget.ImageView@40550760
+android.widget.Button: Filter
+android.widget.LinearLayout@40559c30
+android.widget.FrameLayout@40612768
+android.widget.ImageView@405685e0
+android.widget.Button: Filter
+android.widget.FrameLayout@40614b80
+android.widget.Button: Done
+android.widget.FrameLayout@40615f30
+android.widget.ImageView@405736d8
+android.widget.TextView: Stores
+android.widget.ImageView@405849a8
+android.widget.FrameLayout@40621748
+android.widget.ImageView@405ae7b8
+android.widget.TextView: ATMs
+android.widget.ImageView@405b9b48
+android.widget.FrameLayout@405899e0
+android.widget.LinearLayout@4058a490
+android.widget.FrameLayout@4058a740
+android.widget.ImageView@4058a9f0
+android.widget.RelativeLayout@4058ae88
+android.widget.ImageButton@4058b498
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058eb48
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590f58
+android.widget.LinearLayout@40591300
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592af8
+android.widget.LinearLayout@4050e710
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c8f0
+android.widget.TableLayout@405977c8
+android.widget.TableRow@40615260
+android.widget.ImageView@406147c0
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 1.05 mi
+android.widget.TableRow@40638bb8
+android.widget.ImageView@40622480
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 1.05 mi
+android.widget.TableRow@4050ddf0
+android.widget.ImageView@4050e298
+android.widget.TextView: 8206 Fifth Avenue (Bay Ridge)
+android.widget.TextView: 1.07 mi
+android.widget.TableRow@40627020
+android.widget.ImageView@406274c8
+android.widget.TextView: 8206 Fifth Avenue
+android.widget.TextView: 1.07 mi
+android.widget.TableRow@4062d8b8
+android.widget.ImageView@406172e8
+android.widget.TextView: 6323 7Th Avenue (MJG-Corporate)
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@4060e778
+android.widget.ImageView@4060ec20
+android.widget.TextView: 150 55Th Street (Lutheran Medical Center)
+android.widget.TextView: 1.94 mi
+android.widget.TableRow@40552d80
+android.widget.ImageView@4060a670
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@40629c30
+android.widget.ImageView@4062a0d8
+android.widget.TextView: 1301 65Th Street (Dyker Heights)
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@406165b0
+android.widget.ImageView@40616a58
+android.widget.TextView: 987 Fourth Avenue (Sunset Park)
+android.widget.TextView: 2.79 mi
+android.widget.TableRow@40631a88
+android.widget.ImageView@40631f30
+android.widget.TextView: 987 4Th Avenue
+android.widget.TextView: 2.81 mi
+android.widget.TableRow@40639db0
+android.widget.ImageView@406550b8
+android.widget.TextView: 6628 18Th Avenue (18Th And 67Th)
+android.widget.TextView: 2.87 mi
+android.widget.TableRow@40655f98
+android.widget.ImageView@4061ea88
+android.widget.TextView: 6628 18Th Avenue
+android.widget.TextView: 2.87 mi
+android.widget.TableRow@40612e80
+android.widget.ImageView@40613278
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.99 mi
+android.widget.TableRow@405511c0
+android.widget.ImageView@40551668
+android.widget.TextView: 4526 13Th Avenue
+android.widget.TextView: 2.99 mi
+android.widget.TableRow@4057bb10
+android.widget.ImageView@4057bfb8
+android.widget.TextView: 2173 86Th Street
+android.widget.TextView: 3.11 mi
+android.widget.TableRow@4055e798
+android.widget.ImageView@4055ec40
+android.widget.TextView: 2173 86Th Street (Bensonhurst)
+android.widget.TextView: 3.11 mi
+android.widget.TableRow@4061d980
+android.widget.ImageView@4061ddc0
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 3.20 mi
+android.widget.TableRow@406200d8
+android.widget.ImageView@40620580
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 3.23 mi
+android.widget.TableRow@40632840
+android.widget.ImageView@40632ce8
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 3.25 mi
+android.widget.TableRow@4062b670
+android.widget.ImageView@4062bb18
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.27 mi
+android.widget.FrameLayout@40576398
+android.widget.ImageView@40550760
+android.widget.Button: Filter
+android.widget.LinearLayout@40559c30
+android.widget.FrameLayout@40612768
+android.widget.ImageView@405685e0
+android.widget.Button: Filter
+android.widget.FrameLayout@40614b80
+android.widget.Button: Done
+android.widget.FrameLayout@40615f30
+android.widget.ImageView@405736d8
+android.widget.TextView: Stores
+android.widget.ImageView@405849a8
+android.widget.FrameLayout@40621748
+android.widget.ImageView@405ae7b8
+android.widget.TextView: ATMs
+android.widget.ImageView@405b9b48

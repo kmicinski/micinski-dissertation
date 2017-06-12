@@ -1,0 +1,49 @@
+android.widget.FrameLayout@406666a8
+android.widget.TabHost@406672b8
+android.widget.LinearLayout@406675c8
+android.widget.LinearLayout@406679a0
+android.widget.LinearLayout@4066eac0
+android.widget.ImageView@4066ef48
+android.widget.ImageButton@4066f170
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40676f90
+android.widget.ProgressBar@40677d68
+android.widget.ImageButton@40678548
+android.widget.TabWidget@40667e60
+android.widget.LinearLayout@40670cc8
+android.widget.ImageView@40672b10
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40674b28
+android.widget.ImageView@40675128
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@406698a0
+android.view.View@40676498
+android.widget.ImageView@40669b50
+android.widget.TextView: Approx Address (within 0.0 meters)
+301 E Alexandria Ave
+Alexandria, Virginia 22301
+android.widget.ImageView@4066aaa8
+com.jazzmoonstudio.android.common.view.CustomViewPager@4066bb08
+android.support.v4.app.y@40557498
+android.widget.LinearLayout@4067ecf8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4067f7f8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40579648
+android.widget.ImageView@405835b0
+android.widget.ImageView@4067fed0
+android.widget.TextView: Braddock Road
+android.widget.TextView: Approx: 0.37 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4058e800
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40676618
+android.widget.ImageView@40677a38
+android.widget.ImageView@405ec750
+android.widget.TextView: King Street
+android.widget.TextView: Approx: 0.83 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056cfd0
+android.support.v4.app.y@40514388
+android.widget.LinearLayout@4055e388
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054cdb0
+android.widget.FrameLayout@4066d138
+com.millennialmedia.android.MMAdView@4066d3f8
+android.webkit.WebView@40679910

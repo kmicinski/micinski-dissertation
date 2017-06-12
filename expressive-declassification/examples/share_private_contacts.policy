@@ -1,0 +1,4 @@
+\begin{align}
+  \forall x : con, bc : chan. G( & K(x \in contacts) \implies \\ 
+  & (last(bc) = () \land public(x)))
+\end{align}

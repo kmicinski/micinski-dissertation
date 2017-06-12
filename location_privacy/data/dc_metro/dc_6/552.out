@@ -1,0 +1,60 @@
+android.widget.FrameLayout@40589e70
+android.widget.TabHost@405768b8
+android.widget.LinearLayout@40576b90
+android.widget.LinearLayout@4056e170
+android.widget.LinearLayout@40577498
+android.widget.ImageView@40577920
+android.widget.ImageButton@4063c6d0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@405875f0
+android.widget.ProgressBar@40588378
+android.widget.ImageButton@4057ea68
+android.widget.TabWidget@4056e5f0
+android.widget.LinearLayout@4056c638
+android.widget.ImageView@4056f180
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@405924e0
+android.widget.ImageView@40592ae0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@405104e8
+android.view.View@4061da68
+android.widget.ImageView@40614a70
+android.widget.TextView: Approx Address (within 0.0 meters)
+Regents Dr Regents Dr
+College Park, Maryland
+android.widget.ImageView@406151d8
+com.jazzmoonstudio.android.common.view.CustomViewPager@4063b328
+android.support.v4.app.y@405570e0
+android.widget.LinearLayout@406288b8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@406294b8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40556a20
+android.widget.ImageView@40556b90
+android.widget.TextView: College Park-U of MD
+android.widget.TextView: Approx: 0.74 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40639be8
+android.support.v4.app.y@40570790
+android.widget.LinearLayout@4055e990
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4057b938
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40610708
+android.widget.TextView: BALTIMORE AVE + REGENTS DR
+android.widget.TextView: Approx: 0.24 mi.
+android.widget.TextView: Stop ID: 3002115
+Lines: 81,83,86
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40603a98
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40631250
+android.widget.TextView: BALTIMORE AVE + ROSSBOROUGH LA
+android.widget.TextView: Approx: 0.33 mi.
+android.widget.TextView: Stop ID: 3002155
+Lines: 81,83,86,86v2
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4057c748
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4060f1f8
+android.widget.TextView: BALTIMORE AVE + KNOX RD
+android.widget.TextView: Approx: 0.35 mi.
+android.widget.TextView: Stop ID: 3002099
+Lines: 81,83,86,86v2
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4067a370
+android.widget.FrameLayout@4063e628
+com.millennialmedia.android.MMAdView@4063e8e8
+android.webkit.WebView@4050cff8

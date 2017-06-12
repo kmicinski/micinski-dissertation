@@ -1,0 +1,312 @@
+%% Redexer paper
+
+\section{Related Work}
+
+Several other researchers have proposed mechanisms to refine or reduce
+permissions in Android. MockDroid allows users to replace an
+app's view of certain private data with fake
+information~\cite{mockdroid}. Apex is similar, and also lets 
+the user enforce simple constraints such as the
+number of times per day a resource may be accessed~\cite{apex}. TISSA
+gives users detailed control over an app's access to selected private data
+(phone identity, location, contacts, and the call log), letting the
+user decide whether the app can see the true data, empty data,
+anonymized data, or mock data~\cite{zhou2011taming}. AppFence
+similarly lets users provide mock data to apps requesting private
+information, and can also ensure private data that is released to apps
+does not leave the device~\cite{Hornyack:2011:TAD:2046707.2046780}.  A
+limitation of all of these approaches is that they require
+modifications to the Android platform, and hence to be used in
+practice must either be
+adopted by Google or device providers, or must be run on rooted
+phones. In contrast, \rewriter and \lib run on stock, unmodified
+Android systems available today.
+
+Researchers have also developed other ways to enhance Android's
+overall security framework. Kirin employs a set of user-defined
+security rules to flag potential malware at install
+time~\cite{enck2009lightweight}. Saint enriches permissions on Android
+to support a variety of installation constraints, e.g., a permission
+can include a whitelist of apps that may request
+it~\cite{ongtang2009semantically}. These approaches are complementary
+to our system, as they take the platform permissions as is and do not
+refine them.
+
+There have been several studies of Android's permissions, sensitive
+APIs, and the use of permissions across apps.  Barrera et
+al.~\cite{barrera2010methodology} analyze the way permissions are used
+in Android apps, and observe that only a small number of Android
+permissions are widely used but that some of these, in particular
+Internet permissions, are overly broad (as we have also found). Vidas
+et al.~\cite{vidas:w2sp11} describe a tool that, using
+documentation-derived information, can statically analyze an app's
+source code to find a minimum set of permissions it
+needs. Stowaway~\cite{felt:ccs11} performs a static analysis on the
+Android API itself to discover which APIs require what permissions,
+something they found is not always well documented. (We used
+Stowaway's data set in several cases to help determine what adapters
+we needed to implement in \lib.)
+
+Finally, several tools have been developed that look for security
+issues in Android apps. TaintDroid tracks the flow of sensitive
+information~\cite{taintdroid}. Ded~\cite{ded}, a Dalvik-to-Java
+decompiler, has been used to discover previously undisclosed device
+identifier leaks. ComDroid~\cite{chin11:mobisys} finds vulnerabilities
+related to Intent handling. Felt et al.~\cite{felt2011permission}
+study the problem of permission redelegation, in which an app is
+tricked into providing sensitive capabilities to another app.
+Woodpecker~\cite{grace:ndss12} uses dataflow analysis to find
+capability leaks on Android phones. All of these tools focus on
+improper use of the current set of Android's permissions. \rewriter
+and \lib take a complimentary approach, replacing existing permissions
+with finer-grained ones to reduce or eliminate consequences of
+security issues.
+
+
+%% Location Privacy Paper
+\section{Related Work}
+
+There is a large body of work on increasing location
+privacy, though we are aware of no other work that directly measures
+the resulting utility of mobile Android apps.
+
+The Cach\'{e} system \cite{Amini:2010} caches and prefetches
+content from a server, obfuscating the user's location at the cost of
+potentially stale content and higher bandwidth.  Additionally,
+application writers must specify rules for caching up front.  The
+system caches data for a set of regions, quantizing the user's location 
+as in our approach.  
+The authors note that app utility will be impacted by their technique, 
+but they do not measure it explicitly.
+
+Hornyack et al. \cite{Hornyack:2011} study apps that use sensitive
+information (such as location), and present AppFence, a system that
+can fuzz inputs to apps. While the AppFence authors note the effects of
+fuzzing app inputs on usability, they do not study it systematically
+using any particular metric.
+
+Shokri et al. \cite{Shokri:2011} present a systematic approach to
+quantifying Location Privacy Preserving Mechanisms (LPPMs).  They also
+describe an meter on the user's devise that
+continuously informs the user of their privacy.  In our work, we implemented a simple
+truncation-based LPPM (corresponding to a technique they call
+\emph{precision reduction}), and use this to study
+utility as a function of the degree of truncation. As future work, we
+may consider evaluating the utility of other policies from their
+system.
+
+In follow up work, Shokri et al. \cite{Shokri:2012} present an
+optimal strategy to prevent localization attacks.
+%, based on bounding
+%the probability that an attacker can learn the
+%precise location of a user at a given time.  
+Their analysis formulates location privacy as a Bayesian Stackelberg 
+game, where a user chooses a location cloaking strategy without 
+knowing their potential adversary.
+While their analysis considers service quality, they use metrics that do 
+not clearly map to utility, such as Euclidean distance from the 
+true location (rather than the actual effect of the change on the service).
+
+Our study focuses on privacy for a single user at a stationary point.
+Allowing the app to collect traces of data reveals much more
+information \cite{Gruteser:2005}, \cite{Golle:2009}.  Much of the
+existing work on location privacy \cite{Beresford:2004}, \cite{Bettini:2005},
+\cite{Hoh:2005}, \cite{Gruteser:2003} focuses on $k$-anonymity: if a
+user is making a query to a location based service, they can only be
+identified to be within a set of $k$ potential users.  
+One popular
+technique is to use mix zones \cite{Beresford:2004}: once a user enters 
+a designated area their location information becomes ``mixed'' with 
+others in that same area.  This technique requires a trusted middleware 
+layer (to properly mix location data) and requires these mix zones 
+to be defined.  In contrast, location truncation can be done locally
+on a mobile device.
+
+None of these previous approaches study the impact of location privacy
+on app utility.  The work that comes closest is by Shokri et
+al. \cite{Shokri:2012}, but while that framework considers utility as
+an element of their models, it is not directly measured on apps.  Our
+work is complementary: we focus not on optimal obfuscation techniques,
+but rather we fix an obfuscation strategy and study how utility
+changes under that technique.  As future work, we intend to couple our 
+empirical utility functions with the theoretical models presented by
+Shokri et al.
+Doing so would allow us to determine bounds for $k$ and allow us to study 
+how the optimal strategies presented by Shokri et al.
+are affected.
+
+%% CHI paper 
+
+\section{Background and Related Work}
+
+%Polaris is a logical extension of CapDesk. Both implementations aim to eliminate security notifications and nerfed capabilities due to security limitations by sandboxing applications. each system replicates an isolated environment for applications with narrowly limited authority and permissions. even if they?re compromised, the adversary can only impact one application (and the data that application has direct, explicit access to)
+
+
+In earlier versions of Android, users were presented
+with a list of permissions requested by an app at install time. The
+user could then either grant the app full use of those permissions or
+not install the app at all. This model had a number of
+problems: few users comprehended or even read the list of permissions~\cite{Felt:2012soups},
+and many apps requested more permissions than they used~\cite{Felt:2011}. 
+Because of these
+issues, Android M~\cite{AndroidMPermissions} switched to a model where
+apps ask for a permission the first time it is needed; the permission is 
+then granted indefinitely.
+%%  This
+%% brings Android closer to enforcing \emph{contextual
+%%   integrity}~\cite{Nissenbaum:2004}, which states that resources
+%% should be accessed in accordance with contextual norms.  
+%However,
+%on Android M, permissions are still granted indefinitely.
+
+In our work, we ask whether authorization systems similar to
+Android's can be improved by taking the user interface into account.
+% In this paper, we study foundational questions about
+% whether existing apps use permissions in a contextual manner
+% (shedding light on whether asking for permission on the first use is
+% necessary or sufficient); whether users expect permissions to be used
+% contextually; and whether user expectations and current practice
+% align. 
+Note that our work is orthogonal to the question of whether
+permissions are at the right level of granularity
+\cite{Jeon:spsm2012,Bugiel:2013} or protect the right
+resources~\cite{Felt:2012spsm}.
+
+% Android security---particularly the permission system---has been
+% heavily studied in the research community
+% \cite{Felt:2011,Felt:2012spsm,Sarma:2012,Wang:2013,Chia:2012,Liu:2016,Balebako:2013,Fu:2014}
+% (among many others). There is also substantial work
+% \cite{Wijesekera:2015,Thompson:2013,Jung:2012} indicating that users'
+% expectations about resource accesses depend on the context.
+
+% Our paper builds on the prior work by studying the extent to which
+% existing \cite{Ringer:2016,Micinski:2015,Yang:2013,Roesner:2012,Roesner:2013,Chen:13} contextual security systems could be applied to
+% existing apps. Our paper also studies how app UI context influences
+% user expectations about resource usage. We are unaware of other
+% existing work that tries to answer these questions with similar
+% studies. \jeff{Not sure how to word this.}
+
+\paragraph*{Contextual Security on Mobile Devices}
+%
+% It has been repeatedly shown
+% \cite{Thompson:2013,Jung:2012,Almuhimedi:2015,Balebako:2013,Fu:2014}
+% that users are frequently surprised by resource accesses that happen
+% while apps are in the background. For example,
+%
+The motivation for our work, that authorization can be better
+integrated with the UI, exemplifies \emph{contextual
+  security}~\cite{Nissenbaum:2004}, which suggests security decisions
+should take the context into account. Several researchers have
+studied contextual security on mobile devices. Almuhimedi
+et. al~\cite{Almuhimedi:2015} showed users historical data about how
+apps accessed their locations. They found 95\% of users reassessed the
+apps' need for location, with 58\% of those users further restricting
+location access.  King~\cite{King:2012} found users
+are more likely to expect sensitive resource accesses when
+suggested by the context. Felt et. 
+al~\cite{Felt:2012hotsec} proposed a process for deciding the 
+appropriate authorization mechanism for a permission based on the a
+permissions' use in context. Several
+researchers~\cite{Balebako:2013,Fu:2014,Wijesekera:2015} found users
+are surprised by some sensitive resource accesses
+%, such as location
+%and phone information,
+that occur when apps are in the
+background. Most closely related to this paper, in a field study 
+Wijesekera et al.~\cite{Wijesekera:2015} found that context is an
+important factor in determining expectation of resource use.
+Our work builds on this finding by using a controlled experiment 
+to distinguish how different contextual factors, including consecutive 
+interactions, contribute to user expectations.
+
+The works just mentioned mainly define context as whether the
+app is on or off the screen. In contrast, we use a
+much richer notion of context based on sequences of UI actions. 
+
+%While Wijesekera et. al~\cite{Wijesekera:2015} do perform
+%a field study on a set of users and determine that context is an
+%important factor in determining expectation of resource use, our work
+%performs a controlled experiment across a variety of different
+%variables. Specifically, our definition of app context is guided by a
+%deeper notion of the sequence of actions a user took through an app
+%(e.g., the sequence of clicks) whereas theirs only considers whether
+%the app was on the screen at the time (and provides users a screenshot
+%at that time to make decisions about if an access is expected). This
+%also allows our study to reason about sequences of accesses and
+%compare expectation about future access based on the expectation of
+%the prior, incorporating aspects of the newer (Android M) architecture
+%present in apps since that work took place.
+
+
+
+% Wijesekera
+% et. al~\cite{Wijesekera:2015} explored contextual integrity on Android
+% and found that many users were surprised by some sensitive resource
+% accesses that occur when Android apps are in the background. Flu
+% et. al~\cite{Fu:2014} used run-time disclosures to show users which
+% apps accessed their location. Many users were surprised to learn apps
+% they did not frequently use accessed their location in the background.
+% Balebako et. al~\cite{Balebako:2013} created the ``Privacy Leaks''
+% tool, which allows users to audit which apps use their information in
+% real time. They similarly found users were surprised that apps access
+% location and phone information even when the apps had not been used
+% much.
+
+
+
+%  includes whether the app is in the background, but also recent
+% actions in the app's UI.  Our paper complements the above studies by
+% showing how an app's UI influences user expectations about resource
+% usage.
+
+\paragraph*{Enforcing Contextual Security}
+Many systems have been proposed to enforce contextual security in
+apps.  Chen et. al~\cite{Chen:13} present Pegasus, a static analysis
+system for analyzing apps and enforcing policies based on
+\emph{permission event graphs} (PEGs). For example, Pegasus can check
+that contacts are only accessed after clicking a certain
+button. PEGs inspired the design of \apptracer{}. However, \apptracer{}
+uses dynamic (rather than static) analysis to reduce issues of false
+positives---every behavior \apptracer{} logs occurred in an actual run,
+whereas static analysis may report sensitive resource accesses that can never actually occur.
+%conservatively overestimates the runtime
+%behavior of the program (for example, it ).
+
+% However, Permissions Event Graphs take into account a deeper knowledge
+% of the Android API. \apptracer{}'s graph merely orders events
+% temporally, with only a portion of edges coming from Android's
+% semantics. This means \apptracer{} is less precise at understanding the
+% program's behavior, but allows us to scale up to all of the Android
+% API.
+
+Yang et al.~\cite{Yang:2013} presented AppIntent, which uses symbolic
+execution to determine sequences of UI events that lead to information
+leakage. Micinski et. al~\cite{Micinski:2015} use symbolic execution
+to enforce secure information-flow properties based on UI
+events. While both systems are promising, in practice symbolic
+execution is difficult to run at scale on Android apps due to the
+complexity of modeling the Android framework.
+
+Stiegler et al. developed CapDesk~\cite{capdesk} and later Polaris~\cite{Stiegler:2006}, 
+two capability-based desktop system that utilize user interaction to drive access control.
+However, CapDesk and Polaris's focus is limited to file access.
+Roesner et. al~\cite{Roesner:2012} expand user-driven access control with \emph{Access Control
+  Gadgets} (ACGs), which tie resource accesses to certain UI elements,
+e.g., an ACG might allow location to be used only after a specific
+button is clicked. ACGs were later expanded to work on Android, with 
+and later without modifying the operating system~\cite{Roesner:2013,Ringer:2016}.
+The original ACG paper includes a user study measuring 
+expectations related to interactive permission uses; our work 
+expands on this idea to study a broader variety of factors and 
+use cases. 
+%work on Android \cite{Roesner:2013} by modifying the Android runtime.
+%Recent follow up work by Ringer et. al~\cite{Ringer:2016} allows ACGs
+%to be used on an unmodified operating system. 
+While the current paper
+does not directly implement or measure ACGs, our findings do support
+the use of ACGs.
+% While our user study incorporates elements of the study
+%done in the original paper on ACGs---specifically, we also measure
+%expectation change as the result of clicks---we also measure user
+%expectation across a larger possible design space encompassing
+%different user actions and subsequent accesses.

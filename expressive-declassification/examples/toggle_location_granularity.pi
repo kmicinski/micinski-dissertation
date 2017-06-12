@@ -1,0 +1,15 @@
+\begin{lstlisting}
+data button = On | Off
+data policy = L | H
+let checkbox_to_policy c = 
+  ! (c(v). if v = On then H else L)
+let location_mask = \(x,y). (x%10000,y%10000)
+let retrieve_location policy_chan location =
+  ! (location(x,y).
+      policy_chan(p).
+        if p = H then net<x,y> else net<location_mask (x,y)>)
+let 
+location(lc).
+  let c = checkbox<> in
+    retrieve_location_policy_chan checkbox_to_policy(c) lc
+\end{lstlisting}

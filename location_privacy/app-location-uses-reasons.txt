@@ -1,0 +1,274 @@
+[weather] ../../apps/market-2012-04-11/news_and_magazines/com.zumobi.msnbc-14.apk weather
+[nearby_cities] ../../apps/market-2012-04-11/news_and_magazines/craigslist.pro.free-20.apk nearby_cities_no_dist
+[weather] ../../apps/market-2012-04-11/news_and_magazines/com.cnn.mobile.android.phone-8.apk weather
+[weather] ../../apps/market-2012-04-11/news_and_magazines/com.univision.android-3.apk weather (I think)
+[unsure] ../../apps/market-2012-04-11/news_and_magazines/com.abc.abcnews-5.apk don't know
+[nearby_cities] ../../apps/market-2012-04-11/news_and_magazines/com.nytimes.android-24.apk nearby_cities_no_dist
+[ads] ../../apps/market-2012-04-11/news_and_magazines/org.npr.android.news-7222.apk ads
+[list_unordered ads] ../../apps/market-2012-04-11/news_and_magazines/com.criticalhitsoftware.policeradio-140.apk list_nearby (uncertain of order)
+[unsure] ../../apps/market-2012-04-11/news_and_magazines/com.foxnews.android-7.apk don't know
+[tagging] air.com.sparknotes.sparknotes checkin
+[nearby_cities] gov.nasa Uses city to give information about space station sightings
+[ads] com.teachersparadise.scratchdraw ads
+[fine_grained ads] com.freestarchart Uses location to give you view of the night sky
+[ads] com.rovio.angrybirdsrio ads
+[ads] com.halfbrick.fruitninjafree ads
+[ads] com.rovio.angrybirds ads
+[ads] com.rovio.angrybirdsspace.ads ads
+[ads] com.glu.samuzombie ads
+[unsure] com.zynga.dreamzoo game
+[ads] com.bejoymobile.dookid ads
+[list_unsorted] com.scvngr.android.app Uses list, but not sure how accurate it is to current location.
+[unsure] com.glu.smallstreet game (unsure, uses GL)
+[unsure] com.ea.games.simsfreeplay_na uses 1GB of installation...
+[ads] com.photobucket.android ads
+[tagging ads] com.appspot.swisscodemonkeys.camerafx uploads to social, tagging location
+[tagging] com.jellybus.fxfree tags the image with your location
+[tagging] vStudio.Android.Camera360 tags the image with your location
+[tagging] com.kth.PuddingCamera tags the image with your location
+[tagging] com.cyworld.camera tags image
+[list_sorted ads] com.sigmaphone.topmedfree creates a list of pharacies closest to you
+[ads] com.wikilibs.fan_women_hairstyles_4 ads
+[ads] com.luckyxmobile.babycare ads
+[weather] com.anddoes.fancywidgets weather
+[weather] mobi.lockscreen.magiclocker weather
+[ads] com.sancronringtones.funnysmssb ads
+[weather] com.mobilityflow.animatedweather.free weather
+[weather] com.mediawoz.goweather weather
+[ads] com.jjfitue.free1 ads
+[ads] com.droidapps.sexyamegrlslwp ads
+[fine_grained] com.google.android.apps.maps pinpoints you
+[ads] hwolask.sexygirls.kaera.uehara unsure, ads?
+[list_unsorte ads] net.muik.instaroid pictures near you
+[tagging] com.picsart.studio tagging, ads
+[list_unsorted] com.badoo.mobile [Zpeople nearby
+[list_unsorted] org.wikipedia nearby (with map)
+[ads] com.greenleaf.android.translator.enes.a ads
+[fine_grained] com.google.android.stardroid map of night sky
+[list_unsorted ads] com.dictionary list words people have searched nearby (and ads)
+[list_sorted] com.microsoft.mobileexperiences.bing nearby restaurants, directions, nearby locations
+[unsure] com.mobitv.client.tmobiletvhd [Zdid not work1
+[fine_grained] com.lookout pinpoint device
+[unsure] com.jb.gosms unsure, ?
+[weather ads] com.weather.Weather weather, ads
+[tagging ads] com.facebook.katana tagging, ads, etc
+[unsure] com.telenav.app.android.cingular 
+[not_testable] com.mobitv.client.tv doesn't work
+[fine_grained] com.telenav.app.android.sprint navigation
+[tagging] com.google.android.googlequicksearchbox location based search
+[tagging] com.twitter.android location based tagging for tweets
+[unsure] com.vzw.hss.myverizon unsure
+[ads] com.dangergames.froglotus ads
+[ads] my.wca.rubik.ext ads
+[ads] com.mw.rouletteroyale ads
+[ads] ncom.chapslife.septatest ads
+[fine_grained ads] com.codesector.speedview.free speed
+[list_unsorted] polis.koll displays map of data near your location
+[fine_grained ads] com.navfree.android.OSM.USA navigation
+[not_testable] com.iboss.passenger could not test
+[fine_grained ads] com.binarytoys.speedometer speedometer
+[nearby_cities] com.ridecharge.android.taximagic finds taxis near you, hard to tell, closest city
+[not_testable] net.sharewire.parkmobilev2 could not test
+[unsure] com.densebrain.android.nycsubwaymap unsure, closest station in NYC, perhaps?
+[list_unsorted] com.trapster.android map of closest speed traps to you
+[not_testable] com.drivevox.drivevox could not test
+[list_sorted] com.waze shows traffic reports near you, targets you on a map, good candidate for skewing, other users around you
+[list_unsorted] inrix.android.ui shows traffic problems closest to you, but many reports are indestinguishable
+[fine_grained] com.picitup.iOnRoad locates car, navigates
+[fine_grained] com.navfree.android.OSM.ALL turn by turn navigation
+[fine_grained] com.nomadrobot.mycarlocatorfree locates and keeps track of car
+[fine_grained] spinninghead.carhome maps, navigation, compass, speed, etc...
+[ads] com.vox.radardetector ads, finds police radar near you?
+[list_sorted] com.tcore.android.LoadBoard finds nearby truck stops, loads, rest stops, fuel prices, walmarts, etc...
+[fine_grained] com.cellphone.phonetracker.lite finds you phone and tracks it to locate it (if it's lost)
+[fine_grained] com.google.android.maps.mytracks tracks your phone
+[ads] com.fatsecret.android ads
+[fine_grained] com.endomondo.android sports tracker, tracks your individual runs
+[fine_grained] com.wsl.noom sports tracker, tracks runs
+[fine_grained] com.mapmyrun.android2 maps runs
+[fine_grained] com.wsl.CardioTrainer tracks runs
+[list_sorted] com.webmd.android let's you search for nearest pharacies / doctors / etc...
+[nearby_cities] com.weightwatchers.mobile lets you locate meetings but then does not use location information
+[fine_grained] com.fitnesskeeper.runkeeper.pro lets you store run information
+[list_sorted] com.healthagen.iTriage find the closest hospital
+[ads] com.skimble.workouts [Ztracks workouts, ads
+[fine_grained ads] com.usnaviguide.radar_now weather, displays your current location and nearby weather
+[not_testable] com.gau.go.launcherex.gowidget.weatherwidget could not test
+[nearby_cities ads] com.handmark.expressweather gets city, uses adsa
+[weather] com.accuweather.android.simpleweather displays weather
+[weather] com.mediawoz.goweather displays weather
+[weather ads] com.wetter.androidclient displays weather within nearest city
+[weather] com.yahoo.mobile.client.android.weather displays weather information
+[weather] com.wunderground.android.weather displays weather
+[weather] com.droid27.senseflipclockweather displays weather information
+[weather] com.kdfw.android.weather displays weather
+[weather] org.satok.gweather displays weather
+[weather] com.pelmorex.WeatherEyeAndroid displays weather
+[weather] com.droid27.d3flipclockweather displays weather
+[weather] com.xiaad.android.thermometertrial displays weather
+[weather] com.aws.android displays weather
+[weather] com.accuweather.android displays weather
+[fine_grained] com.antivirus.trial location based tracking of your phone, for recovery
+[ads] net.talking.panda.all displays ads
+[ads] cnew.bmw.meimeisexy.w1 ads
+[ads] hwolask.sexygirls.miku.ohashi ads
+[ads] Mika.col.Ori [Zads
+[unsure] com.citrix.Receiver not sure
+[tagging] com.intuit.intuitgopayment tag transactions
+[nearby_cities] com.indeed.android.jobsearch lists recent job posting
+[list_unsorted] com.ups.mobile.android [Zclosest locations on a map
+[tagging] com.squareup tag transactions
+[list_unsorted] com.monster.android.Views displays list of recent jobs without location order
+[not_testable] com.cozi.androidtmobile could not test
+[not_testable] com.tmobile.d411 could not test
+[not_testable] com.softwareimaging.motoprint.mobile could not test
+[fine_grained ads] com.apksoftware.compass uses location to calibrate compass
+[tagging] com.evernote tags notes
+[nearby_cities] com.google.android.apps.unveil location based search results
+[nearby_cities] com.vlingo.client location based searches
+[ads] com.latedroid.juicedefender needs permission to turn off location 
+[nearby_cities] com.livingsocial.www targets ads to you based on a city
+[not_testable] com.tmobile.moreforme could not test
+[ads] com.ScanLife ads
+[nearby_cities] com.google.android.apps.shopper lists some deals near you
+[nearby_cities] com.google.android.apps.offers finds closest city and suggests offers
+[nearby_cities] com.groupon displays deals closest to you
+[not_testable] com.froogloid.kring.google.zxing.client.android not sure
+[list_sorted] com.usablenet.mobile.walgreen gives a list of the closest walgreens
+[nearby_cities] com.amazon.mShop.android finds country for purchases
+[not_testable] com.mercadolibre unsure, app is in spanish
+[list_sorted] com.walmart.android lists nearby walmarts, displays ads to you based on your location
+[list_sorted] com.target.ui lists nearby targets
+[list_unsorted] thecouponsapp.coupon shows coupons near your area
+[nearby_cities] com.ebay.redlaser localized search results.
+[nearby_cities] com.mtag.att.codescanner provides local results
+[nearby_cities] com.biggu.shopsavvy provides local search results
+[not_testable] com.stitcher.app could not test
+[unsure] com.datpiff.mobile unsure
+[tagging] com.qik.lite.android tags videos, has ability to let you select your own "scale"
+[ads] com.dangerous_riders.freegame ads
+[not_testable] com.polarbit.rthunderlite could not test
+[ads] way2app.carracing ads
+[ads] com.finger2finger.games.motobikesnow.lite ads
+[ads] com.arbstudios.tikikartfree ads
+[ads] com.hzwp.mtSpeed ads
+[ads] com.polarbit.rthunder2lite ads
+[ads] com.omgpop.dstfree ads
+[ads] com.pocketools.currency ads
+[not_testable] com.barclaycardus need an account
+[list_sorted] com.konylabs.capitalone lists closest capital one banks to you
+[not_testable] com.citi.citimobile could not test; need an account
+[list_sorted] com.paypal.android.p2pmobile lists businesses close to you in different categories
+[not_testable] com.infonow.bofa could not test
+[fine_grained] com.geico.mobile asks permission determines current accident location tagging and fine grained
+[list_sorted] com.usaa.mobile.android.usaa finds branches, ATMs, etc... in your area, but not uniquely identifiable
+[tagging] com.mint allows you to tag tansactions, finds out where you are spending money
+[list_sorted] com.wf.wellsfargomobile finds ATMs near you, things like that
+[list_sorted] com.tdbank finds nearest locations of TD ameritrade
+[not_testable] com.google.android.apps.walletnfcrel could not test
+[list_sorted] com.chase.sig.android lists closest atms
+[list_sorted] com.usbank.mobilebanking finds locations of nearest banks
+[fine_grained] mobi.mgeek.TunnyBrowser allows websites to access locations
+[tagging ads] com.qikffc.android allows you to tag videos
+[not_testable] com.viber.voip could not test
+[fine_grained] org.mozilla.firefox provides locations to websites
+[fine_grained] com.antivirus tags phone in case it is lost
+[not_testable] com.whatsapp could not test
+[unsure] com.skype.raider unsure
+[tagging] com.yahoo.mobile.client.android.im tagging conversations
+[tagging] com.facebook.orca tagging conversations with location
+[ads] com.oovoo ads
+[tagging] com.rebelvox.voxer tagging messages with location
+[tagging] com.skype.android.verizon tagging messages
+[not_testable] com.qiktmobile.android could not test
+[ads] com.miniclip.pingpong ads
+[ads] com.distinctivegames.footballkicks ads
+[ads] com.clapfootgames.vtt3dfree ads
+[ads] com.sas.basketball ads
+[not_testable] com.gameloft.android.ANMP.GloftNFHM could not test
+[ads] com.apostek.SlotMachine ads
+[ads] com.bytesequencing.spades_ads ads
+[not_testable] com.gameloft.android.ANMP.GloftUFHM could not test
+[ads] com.mw.slotsroyale ads
+[unsure] com.kamagames.pokerist unsure
+[list_sorted] com.cars.android looks up cars closest to you
+[list_sorted] com.trulia.android looks up homes closest to you
+[list_sorted] com.yum.pizzahut lets you find the closest pizza hut based on your zip code
+[fine_grained] com.dolphin.browser provides location to websites
+[list_sorted] com.papajohns.android finds the closest store to you
+[list_sorted ads] com.kbb.mobile ads, and finding closest dealers based on area
+[ads] fr.telemaque.horoscope ads
+[ads] com.yuvalluzon.yourmirror ads
+[not_testable] com.digitaloutcrop.mixology could not test
+[not_testable] com.ancestry.android.apps.ancestry could not test
+[list_sorted] com.move.realtor lists homes for rent near you
+[not_testable] com.starbucks.mobilecard could not test
+[ads list_sorted] com.zillow.android.zillowmap ads and closest houses to you
+[not_testable] com.dominospizza could not test
+[] com.benaughty did not test
+[list_sorted] com.greatclips.android finds closest stores to you and displays them on a map
+[tagging] com.life360.android.safetymapd tags your phone so you can check in and your family can find you
+[not_testable] com.asurion.android.mobilebackup.metro could not test, not on metro PCS
+[nearby_cities] com.google.android.voicesearch uses your location to display relevant search results
+[fine_grained] com.motorola.contextual.smartrules uses contextual rules to do things with your phone
+[ads] com.sound.effects installs ads
+[ads] com.shake.charge installs ads
+[ads] org.zwanoo.android.speedtest ads
+[ads]goldenshorestechnologies.brightestflashlight.free ads
+[tagging] com.wavemarket.waplauncher lets you tag your location for your family
+[list_sorted] com.yellowpages.android.ypmobile lets you find closest things
+[list_unsorted] com.foodspotting lists good food near your location
+[not_testable] com.vznavigator.ADR6350 does not work
+[not_testable] com.vznavigator.ADR6300 could not test
+[nearby_cities] com.google.android.street fine grained location search based on street map
+[list_sorted] com.yelp.android lets you find nearby places to eat, etc...
+[fine_grained] com.telenav.app.android.uscc navigation
+[not_testable] com.telecomsys.android.SCG not able to test
+[list_sorted ads] com.poynt.android finds nearby things
+[fine_grained ads] com.telenav.app.android.telenav navigaton
+[list_sorted] gbis.gbandroid find gas stations nearby
+[not_testable] com.vznavigator.DROIDRAZR could not test
+[fine_grained] com.layar finds points of interest around you based on scanning images
+[not_testable] com.vznavigator.SCHI500 could not test
+[fine_grained] com.google.earth displays your location on a map
+[not_testable] com.vznavigator.DROID3 unable to test
+[not_testable] com.vznavigator.DROID4 unable to test
+[not_testable] com.vznavigator.DROIDBIONIC unable to test
+[not_testable] com.vznavigator.SCHI405 unable to test
+[not_testable] com.vznavigator.DROIDX unable to test
+[not_testable] com.vznavigator.ADR6400L unable to test
+[fine_grained] com.bumptech.bumpga uses location to determine where users are
+[not_testable] com.heytell could not test
+[tagging] com.taggedapp lets you tag information
+[tagging ads] uk.co.senab.blueNotifyFree lets you tag picture
+[tagging] com.google.android.apps.plus lets you tag and check in
+[tagging] com.joelapenna.foursquared lets you check in
+[tagging] com.twidroid lets you tag tweets
+[not_testable] com.pose could not use app, too old
+[not_testable] com.myyearbook.m could not test, too old
+[tagging] com.handmark.tweetcaster tags tweets
+[not_testable] com.pinger.textfree could not test, required signup
+[not_testable] com.skout.android too old a version to use
+[unsure] mobi.androidcloud.app.ptt.client unsure
+[not_testable] com.instagram.android unable to test, need account
+[fine_grained] com.pof.android lets you find people near you, chat
+[ads] com.FunForMobile.main ads
+[ads] com.tour.pgatour ads
+[not_testable] com.yahoo.mobile.client.android.fantasybaseball could not test
+[ads] com.cbsshell ads
+[ads] com.fivemobile.thescore ads
+[ads nearby_cities] com.protrade.sportacular ads, localized scores
+[unsure] com.bamnetworks.mobile.android.gameday.atbat unsure
+[not_testable] com.hitpost could not test
+[nearby_cities] com.nbadigital.gametimelite uses user's location to "black out" user
+[not_testable] com.handson.h2o.nfl could not test
+[not_testable] com.handson.h2o.nascar09 could not test
+[nearby_cities] com.bleacherreport.android.teamstream determines your location to suggest "local teams"
+[not_testable] com.nbadigital.sprintmobile could not test
+[list_sorted] com.bamnetworks.mobile.android.ballpark allows you to find nearby basball stadiums
+[not_testable] com.mobitv.client.nfl2010 could not test
+[ads] com.handmark.sportcaster ads
+[list_unsorted] com.scannerradio lists radio stations within the surrounding area
+[not_testable] com.sdgtl.mediahub.tmo.vplus cannot install
+[unsure] net.lucky.star.mrtm unsure
+[not_testable] com.blockbuster.app.moto could not test

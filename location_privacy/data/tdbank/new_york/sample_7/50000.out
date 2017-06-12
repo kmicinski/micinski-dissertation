@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405859f8
+android.widget.LinearLayout@405864a8
+android.widget.FrameLayout@40586758
+android.widget.ImageView@40586a08
+android.widget.RelativeLayout@40586ea0
+android.widget.ImageButton@405874b0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ab60
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cf70
+android.widget.LinearLayout@4058d318
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058eb10
+android.widget.LinearLayout@4060b2a8
+android.widget.TextView: Locations
+android.widget.ScrollView@4052ddc0
+android.widget.TableLayout@4057b760
+android.widget.TableRow@4057bba0
+android.widget.ImageView@4054fb08
+android.widget.TextView: 70 Middlesex Avenue
+android.widget.TextView: 2.13 mi
+android.widget.TableRow@4062ee80
+android.widget.ImageView@4062f278
+android.widget.TextView: 70 Middlesex Avenue
+android.widget.TextView: 2.14 mi
+android.widget.TableRow@40556038
+android.widget.ImageView@406392f0
+android.widget.TextView: 65 James Street (JFK Medical)
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@40627ac8
+android.widget.ImageView@406099f0
+android.widget.TextView: 259 Lake Avenue
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@40624360
+android.widget.ImageView@406254b0
+android.widget.TextView: 259 Lake Avenue
+android.widget.TextView: 2.59 mi
+android.widget.TableRow@4062b5c0
+android.widget.ImageView@4062ba68
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40635028
+android.widget.ImageView@406354d0
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 2.69 mi
+android.widget.TableRow@40634708
+android.widget.ImageView@40634bb0
+android.widget.TextView: 2064 Oak Tree Road
+android.widget.TextView: 4.14 mi
+android.widget.TableRow@40614b60
+android.widget.ImageView@40638030
+android.widget.TextView: 2064 Oak Tree Road
+android.widget.TextView: 4.20 mi
+android.widget.TableRow@40574000
+android.widget.ImageView@405744a8
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 4.32 mi
+android.widget.TableRow@40577b98
+android.widget.ImageView@40578040
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 4.33 mi
+android.widget.TableRow@40579078
+android.widget.ImageView@40579520
+android.widget.TextView: 1906 Lincoln Highway (Stony Road)
+android.widget.TextView: 4.56 mi
+android.widget.TableRow@4061fbb0
+android.widget.ImageView@40620058
+android.widget.TextView: 1906 Lincoln Highway
+android.widget.TextView: 4.57 mi
+android.widget.TableRow@4057a6e8
+android.widget.ImageView@4057ab90
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@40632468
+android.widget.ImageView@40632910
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@406338d8
+android.widget.ImageView@4054d3b8
+android.widget.TextView: 1060-1068 Stelton Road
+android.widget.TextView: 6.09 mi
+android.widget.TableRow@4054e380
+android.widget.ImageView@4054e828
+android.widget.TextView: 1060-1068 Stelton Road
+android.widget.TextView: 6.11 mi
+android.widget.TableRow@4060ec98
+android.widget.ImageView@4060f140
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@405756d0
+android.widget.ImageView@40575b78
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 6.27 mi
+android.widget.TableRow@40576bc0
+android.widget.ImageView@405500f0
+android.widget.TextView: 2473 Plainfield Avenue
+android.widget.TextView: 6.28 mi
+android.widget.FrameLayout@40610a00
+android.widget.ImageView@40615858
+android.widget.Button: Filter
+android.widget.LinearLayout@40616698
+android.widget.FrameLayout@4061a1d8
+android.widget.ImageView@4061ad60
+android.widget.Button: Filter
+android.widget.FrameLayout@40622e08
+android.widget.Button: Done
+android.widget.FrameLayout@40626348
+android.widget.ImageView@40626700
+android.widget.TextView: Stores
+android.widget.ImageView@4062a4f8
+android.widget.FrameLayout@40634ed0
+android.widget.ImageView@4060c938
+android.widget.TextView: ATMs
+android.widget.ImageView@40614df0
+android.widget.FrameLayout@405859f8
+android.widget.LinearLayout@405864a8
+android.widget.FrameLayout@40586758
+android.widget.ImageView@40586a08
+android.widget.RelativeLayout@40586ea0
+android.widget.ImageButton@405874b0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ab60
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cf70
+android.widget.LinearLayout@4058d318
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058eb10
+android.widget.LinearLayout@4060b2a8
+android.widget.TextView: Locations
+android.widget.ScrollView@4052ddc0
+android.widget.TableLayout@4057b760
+android.widget.TableRow@4057bba0
+android.widget.ImageView@4054fb08
+android.widget.TextView: 70 Middlesex Avenue
+android.widget.TextView: 2.13 mi
+android.widget.TableRow@4062ee80
+android.widget.ImageView@4062f278
+android.widget.TextView: 70 Middlesex Avenue
+android.widget.TextView: 2.14 mi
+android.widget.TableRow@40556038
+android.widget.ImageView@406392f0
+android.widget.TextView: 65 James Street (JFK Medical)
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@40627ac8
+android.widget.ImageView@406099f0
+android.widget.TextView: 259 Lake Avenue
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@40624360
+android.widget.ImageView@406254b0
+android.widget.TextView: 259 Lake Avenue
+android.widget.TextView: 2.59 mi
+android.widget.TableRow@4062b5c0
+android.widget.ImageView@4062ba68
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40635028
+android.widget.ImageView@406354d0
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 2.69 mi
+android.widget.TableRow@40634708
+android.widget.ImageView@40634bb0
+android.widget.TextView: 2064 Oak Tree Road
+android.widget.TextView: 4.14 mi
+android.widget.TableRow@40614b60
+android.widget.ImageView@40638030
+android.widget.TextView: 2064 Oak Tree Road
+android.widget.TextView: 4.20 mi
+android.widget.TableRow@40574000
+android.widget.ImageView@405744a8
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 4.32 mi
+android.widget.TableRow@40577b98
+android.widget.ImageView@40578040
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 4.33 mi
+android.widget.TableRow@40579078
+android.widget.ImageView@40579520
+android.widget.TextView: 1906 Lincoln Highway (Stony Road)
+android.widget.TextView: 4.56 mi
+android.widget.TableRow@4061fbb0
+android.widget.ImageView@40620058
+android.widget.TextView: 1906 Lincoln Highway
+android.widget.TextView: 4.57 mi
+android.widget.TableRow@4057a6e8
+android.widget.ImageView@4057ab90
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@40632468
+android.widget.ImageView@40632910
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@406338d8
+android.widget.ImageView@4054d3b8
+android.widget.TextView: 1060-1068 Stelton Road
+android.widget.TextView: 6.09 mi
+android.widget.TableRow@4054e380
+android.widget.ImageView@4054e828
+android.widget.TextView: 1060-1068 Stelton Road
+android.widget.TextView: 6.11 mi
+android.widget.TableRow@4060ec98
+android.widget.ImageView@4060f140
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@405756d0
+android.widget.ImageView@40575b78
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 6.27 mi
+android.widget.TableRow@40576bc0
+android.widget.ImageView@405500f0
+android.widget.TextView: 2473 Plainfield Avenue
+android.widget.TextView: 6.28 mi
+android.widget.FrameLayout@40610a00
+android.widget.ImageView@40615858
+android.widget.Button: Filter
+android.widget.LinearLayout@40616698
+android.widget.FrameLayout@4061a1d8
+android.widget.ImageView@4061ad60
+android.widget.Button: Filter
+android.widget.FrameLayout@40622e08
+android.widget.Button: Done
+android.widget.FrameLayout@40626348
+android.widget.ImageView@40626700
+android.widget.TextView: Stores
+android.widget.ImageView@4062a4f8
+android.widget.FrameLayout@40634ed0
+android.widget.ImageView@4060c938
+android.widget.TextView: ATMs
+android.widget.ImageView@40614df0
+android.widget.FrameLayout@405859f8
+android.widget.LinearLayout@405864a8
+android.widget.FrameLayout@40586758
+android.widget.ImageView@40586a08
+android.widget.RelativeLayout@40586ea0
+android.widget.ImageButton@405874b0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ab60
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cf70
+android.widget.LinearLayout@4058d318
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058eb10
+android.widget.LinearLayout@4060b2a8
+android.widget.TextView: Locations
+android.widget.ScrollView@4052ddc0
+android.widget.TableLayout@4057b760
+android.widget.TableRow@4057bba0
+android.widget.ImageView@4054fb08
+android.widget.TextView: 70 Middlesex Avenue
+android.widget.TextView: 2.13 mi
+android.widget.TableRow@4062ee80
+android.widget.ImageView@4062f278
+android.widget.TextView: 70 Middlesex Avenue
+android.widget.TextView: 2.14 mi
+android.widget.TableRow@40556038
+android.widget.ImageView@406392f0
+android.widget.TextView: 65 James Street (JFK Medical)
+android.widget.TextView: 2.23 mi
+android.widget.TableRow@40627ac8
+android.widget.ImageView@406099f0
+android.widget.TextView: 259 Lake Avenue
+android.widget.TextView: 2.58 mi
+android.widget.TableRow@40624360
+android.widget.ImageView@406254b0
+android.widget.TextView: 259 Lake Avenue
+android.widget.TextView: 2.59 mi
+android.widget.TableRow@4062b5c0
+android.widget.ImageView@4062ba68
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 2.67 mi
+android.widget.TableRow@40635028
+android.widget.ImageView@406354d0
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 2.69 mi
+android.widget.TableRow@40634708
+android.widget.ImageView@40634bb0
+android.widget.TextView: 2064 Oak Tree Road
+android.widget.TextView: 4.14 mi
+android.widget.TableRow@40614b60
+android.widget.ImageView@40638030
+android.widget.TextView: 2064 Oak Tree Road
+android.widget.TextView: 4.20 mi
+android.widget.TableRow@40574000
+android.widget.ImageView@405744a8
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 4.32 mi
+android.widget.TableRow@40577b98
+android.widget.ImageView@40578040
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 4.33 mi
+android.widget.TableRow@40579078
+android.widget.ImageView@40579520
+android.widget.TextView: 1906 Lincoln Highway (Stony Road)
+android.widget.TextView: 4.56 mi
+android.widget.TableRow@4061fbb0
+android.widget.ImageView@40620058
+android.widget.TextView: 1906 Lincoln Highway
+android.widget.TextView: 4.57 mi
+android.widget.TableRow@4057a6e8
+android.widget.ImageView@4057ab90
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@40632468
+android.widget.ImageView@40632910
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@406338d8
+android.widget.ImageView@4054d3b8
+android.widget.TextView: 1060-1068 Stelton Road
+android.widget.TextView: 6.09 mi
+android.widget.TableRow@4054e380
+android.widget.ImageView@4054e828
+android.widget.TextView: 1060-1068 Stelton Road
+android.widget.TextView: 6.11 mi
+android.widget.TableRow@4060ec98
+android.widget.ImageView@4060f140
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 6.26 mi
+android.widget.TableRow@405756d0
+android.widget.ImageView@40575b78
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 6.27 mi
+android.widget.TableRow@40576bc0
+android.widget.ImageView@405500f0
+android.widget.TextView: 2473 Plainfield Avenue
+android.widget.TextView: 6.28 mi
+android.widget.FrameLayout@40610a00
+android.widget.ImageView@40615858
+android.widget.Button: Filter
+android.widget.LinearLayout@40616698
+android.widget.FrameLayout@4061a1d8
+android.widget.ImageView@4061ad60
+android.widget.Button: Filter
+android.widget.FrameLayout@40622e08
+android.widget.Button: Done
+android.widget.FrameLayout@40626348
+android.widget.ImageView@40626700
+android.widget.TextView: Stores
+android.widget.ImageView@4062a4f8
+android.widget.FrameLayout@40634ed0
+android.widget.ImageView@4060c938
+android.widget.TextView: ATMs
+android.widget.ImageView@40614df0

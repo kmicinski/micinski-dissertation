@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405880b8
+android.widget.LinearLayout@40588b68
+android.widget.FrameLayout@40588e18
+android.widget.ImageView@405890c8
+android.widget.RelativeLayout@40589560
+android.widget.ImageButton@40589b70
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058d220
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f630
+android.widget.LinearLayout@4058f9d8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@405911d0
+android.widget.LinearLayout@40560368
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c7f8
+android.widget.TableLayout@405655c0
+android.widget.TableRow@4058b3b8
+android.widget.ImageView@40620ea8
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 4.71 mi
+android.widget.TableRow@4062c520
+android.widget.ImageView@4062c9c8
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@4060bdb8
+android.widget.ImageView@4062fff0
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@40614638
+android.widget.ImageView@406136a0
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 4.93 mi
+android.widget.TableRow@4062aaf0
+android.widget.ImageView@40555770
+android.widget.TextView: 16 Bethany Road
+android.widget.TextView: 6.41 mi
+android.widget.TableRow@40623ed8
+android.widget.ImageView@4060c7d8
+android.widget.TextView: 16 Bethany Road
+android.widget.TextView: 6.41 mi
+android.widget.TableRow@4060b050
+android.widget.ImageView@40622298
+android.widget.TextView: 442 Route 35 (Middletown)
+android.widget.TextView: 6.47 mi
+android.widget.TableRow@4061ac30
+android.widget.ImageView@4063a1f0
+android.widget.TextView: 442 Route 35
+android.widget.TextView: 6.51 mi
+android.widget.TableRow@4061db60
+android.widget.ImageView@4061e008
+android.widget.TextView: 4401 Amboy Road (Eltingville)
+android.widget.TextView: 6.94 mi
+android.widget.TableRow@40553270
+android.widget.ImageView@40553718
+android.widget.TextView: 4401 Amboy Road
+android.widget.TextView: 6.94 mi
+android.widget.TableRow@4060df28
+android.widget.ImageView@4061b7f8
+android.widget.TextView: 727 N Beers Street (Bayshore Hospital)
+android.widget.TextView: 7.34 mi
+android.widget.TableRow@40635218
+android.widget.ImageView@406356c0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@40611f88
+android.widget.ImageView@40633ce0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@40618df0
+android.widget.ImageView@40619298
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.54 mi
+android.widget.TableRow@4062f6b0
+android.widget.ImageView@4062fb58
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.56 mi
+android.widget.TableRow@40633898
+android.widget.ImageView@40608b10
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.02 mi
+android.widget.TableRow@4060fba8
+android.widget.ImageView@40610050
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@40551010
+android.widget.ImageView@405514b8
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 8.48 mi
+android.widget.TableRow@406364a0
+android.widget.ImageView@40636948
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 8.57 mi
+android.widget.TableRow@406557e8
+android.widget.ImageView@40655c90
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 8.58 mi
+android.widget.FrameLayout@405472e8
+android.widget.ImageView@40566418
+android.widget.Button: Filter
+android.widget.LinearLayout@40567f38
+android.widget.FrameLayout@405479f8
+android.widget.ImageView@405b69f0
+android.widget.Button: Filter
+android.widget.FrameLayout@40573f18
+android.widget.Button: Done
+android.widget.FrameLayout@40585880
+android.widget.ImageView@405bad20
+android.widget.TextView: Stores
+android.widget.ImageView@40610b40
+android.widget.FrameLayout@405b1ca0
+android.widget.ImageView@40619f20
+android.widget.TextView: ATMs
+android.widget.ImageView@40621fc8
+android.widget.FrameLayout@405880b8
+android.widget.LinearLayout@40588b68
+android.widget.FrameLayout@40588e18
+android.widget.ImageView@405890c8
+android.widget.RelativeLayout@40589560
+android.widget.ImageButton@40589b70
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058d220
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f630
+android.widget.LinearLayout@4058f9d8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@405911d0
+android.widget.LinearLayout@40560368
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c7f8
+android.widget.TableLayout@405655c0
+android.widget.TableRow@4058b3b8
+android.widget.ImageView@40620ea8
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 4.71 mi
+android.widget.TableRow@4062c520
+android.widget.ImageView@4062c9c8
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@4060bdb8
+android.widget.ImageView@4062fff0
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@40614638
+android.widget.ImageView@406136a0
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 4.93 mi
+android.widget.TableRow@4062aaf0
+android.widget.ImageView@40555770
+android.widget.TextView: 16 Bethany Road
+android.widget.TextView: 6.41 mi
+android.widget.TableRow@40623ed8
+android.widget.ImageView@4060c7d8
+android.widget.TextView: 16 Bethany Road
+android.widget.TextView: 6.41 mi
+android.widget.TableRow@4060b050
+android.widget.ImageView@40622298
+android.widget.TextView: 442 Route 35 (Middletown)
+android.widget.TextView: 6.47 mi
+android.widget.TableRow@4061ac30
+android.widget.ImageView@4063a1f0
+android.widget.TextView: 442 Route 35
+android.widget.TextView: 6.51 mi
+android.widget.TableRow@4061db60
+android.widget.ImageView@4061e008
+android.widget.TextView: 4401 Amboy Road (Eltingville)
+android.widget.TextView: 6.94 mi
+android.widget.TableRow@40553270
+android.widget.ImageView@40553718
+android.widget.TextView: 4401 Amboy Road
+android.widget.TextView: 6.94 mi
+android.widget.TableRow@4060df28
+android.widget.ImageView@4061b7f8
+android.widget.TextView: 727 N Beers Street (Bayshore Hospital)
+android.widget.TextView: 7.34 mi
+android.widget.TableRow@40635218
+android.widget.ImageView@406356c0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@40611f88
+android.widget.ImageView@40633ce0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@40618df0
+android.widget.ImageView@40619298
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.54 mi
+android.widget.TableRow@4062f6b0
+android.widget.ImageView@4062fb58
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.56 mi
+android.widget.TableRow@40633898
+android.widget.ImageView@40608b10
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.02 mi
+android.widget.TableRow@4060fba8
+android.widget.ImageView@40610050
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@40551010
+android.widget.ImageView@405514b8
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 8.48 mi
+android.widget.TableRow@406364a0
+android.widget.ImageView@40636948
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 8.57 mi
+android.widget.TableRow@406557e8
+android.widget.ImageView@40655c90
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 8.58 mi
+android.widget.FrameLayout@405472e8
+android.widget.ImageView@40566418
+android.widget.Button: Filter
+android.widget.LinearLayout@40567f38
+android.widget.FrameLayout@405479f8
+android.widget.ImageView@405b69f0
+android.widget.Button: Filter
+android.widget.FrameLayout@40573f18
+android.widget.Button: Done
+android.widget.FrameLayout@40585880
+android.widget.ImageView@405bad20
+android.widget.TextView: Stores
+android.widget.ImageView@40610b40
+android.widget.FrameLayout@405b1ca0
+android.widget.ImageView@40619f20
+android.widget.TextView: ATMs
+android.widget.ImageView@40621fc8
+android.widget.FrameLayout@405880b8
+android.widget.LinearLayout@40588b68
+android.widget.FrameLayout@40588e18
+android.widget.ImageView@405890c8
+android.widget.RelativeLayout@40589560
+android.widget.ImageButton@40589b70
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058d220
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f630
+android.widget.LinearLayout@4058f9d8
+android.widget.TextView: Locations
+com.google.android.maps.MapView@405911d0
+android.widget.LinearLayout@40560368
+android.widget.TextView: Locations
+android.widget.ScrollView@4050c7f8
+android.widget.TableLayout@405655c0
+android.widget.TableRow@4058b3b8
+android.widget.ImageView@40620ea8
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 4.71 mi
+android.widget.TableRow@4062c520
+android.widget.ImageView@4062c9c8
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@4060bdb8
+android.widget.ImageView@4062fff0
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@40614638
+android.widget.ImageView@406136a0
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 4.93 mi
+android.widget.TableRow@4062aaf0
+android.widget.ImageView@40555770
+android.widget.TextView: 16 Bethany Road
+android.widget.TextView: 6.41 mi
+android.widget.TableRow@40623ed8
+android.widget.ImageView@4060c7d8
+android.widget.TextView: 16 Bethany Road
+android.widget.TextView: 6.41 mi
+android.widget.TableRow@4060b050
+android.widget.ImageView@40622298
+android.widget.TextView: 442 Route 35 (Middletown)
+android.widget.TextView: 6.47 mi
+android.widget.TableRow@4061ac30
+android.widget.ImageView@4063a1f0
+android.widget.TextView: 442 Route 35
+android.widget.TextView: 6.51 mi
+android.widget.TableRow@4061db60
+android.widget.ImageView@4061e008
+android.widget.TextView: 4401 Amboy Road (Eltingville)
+android.widget.TextView: 6.94 mi
+android.widget.TableRow@40553270
+android.widget.ImageView@40553718
+android.widget.TextView: 4401 Amboy Road
+android.widget.TextView: 6.94 mi
+android.widget.TableRow@4060df28
+android.widget.ImageView@4061b7f8
+android.widget.TextView: 727 N Beers Street (Bayshore Hospital)
+android.widget.TextView: 7.34 mi
+android.widget.TableRow@40635218
+android.widget.ImageView@406356c0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@40611f88
+android.widget.ImageView@40633ce0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 7.46 mi
+android.widget.TableRow@40618df0
+android.widget.ImageView@40619298
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.54 mi
+android.widget.TableRow@4062f6b0
+android.widget.ImageView@4062fb58
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.56 mi
+android.widget.TableRow@40633898
+android.widget.ImageView@40608b10
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.02 mi
+android.widget.TableRow@4060fba8
+android.widget.ImageView@40610050
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@40551010
+android.widget.ImageView@405514b8
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 8.48 mi
+android.widget.TableRow@406364a0
+android.widget.ImageView@40636948
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 8.57 mi
+android.widget.TableRow@406557e8
+android.widget.ImageView@40655c90
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 8.58 mi
+android.widget.FrameLayout@405472e8
+android.widget.ImageView@40566418
+android.widget.Button: Filter
+android.widget.LinearLayout@40567f38
+android.widget.FrameLayout@405479f8
+android.widget.ImageView@405b69f0
+android.widget.Button: Filter
+android.widget.FrameLayout@40573f18
+android.widget.Button: Done
+android.widget.FrameLayout@40585880
+android.widget.ImageView@405bad20
+android.widget.TextView: Stores
+android.widget.ImageView@40610b40
+android.widget.FrameLayout@405b1ca0
+android.widget.ImageView@40619f20
+android.widget.TextView: ATMs
+android.widget.ImageView@40621fc8

@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40587b48
+android.widget.LinearLayout@405885f8
+android.widget.FrameLayout@405888a8
+android.widget.ImageView@40588b58
+android.widget.RelativeLayout@40588ff0
+android.widget.ImageButton@40589600
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ccb0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f0c0
+android.widget.LinearLayout@4058f468
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590c60
+android.widget.LinearLayout@4050dab8
+android.widget.TextView: Locations
+android.widget.ScrollView@4050a510
+android.widget.TableLayout@40516dc8
+android.widget.TableRow@40618b08
+android.widget.ImageView@40551f38
+android.widget.TextView: 4401 Amboy Road (Eltingville)
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@406375c8
+android.widget.ImageView@40632340
+android.widget.TextView: 4401 Amboy Road
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@406369b0
+android.widget.ImageView@4057a0b0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 3.43 mi
+android.widget.TableRow@4050b770
+android.widget.ImageView@4050bc18
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 3.43 mi
+android.widget.TableRow@40616650
+android.widget.ImageView@40616af8
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.93 mi
+android.widget.TableRow@40620e68
+android.widget.ImageView@4060adb8
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@4062f1b8
+android.widget.ImageView@4062f648
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 4.54 mi
+android.widget.TableRow@40613c70
+android.widget.ImageView@40614118
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 4.56 mi
+android.widget.TableRow@40633ed8
+android.widget.ImageView@4062c898
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 4.85 mi
+android.widget.TableRow@4062da28
+android.widget.ImageView@4062dee8
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 4.85 mi
+android.widget.TableRow@40635038
+android.widget.ImageView@406354e0
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 5.68 mi
+android.widget.TableRow@406308b0
+android.widget.ImageView@40630d58
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 5.70 mi
+android.widget.TableRow@4054fc90
+android.widget.ImageView@40550138
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 5.82 mi
+android.widget.TableRow@40612298
+android.widget.ImageView@40612740
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 5.82 mi
+android.widget.TableRow@40617ea8
+android.widget.ImageView@40618350
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 6.96 mi
+android.widget.TableRow@406261c0
+android.widget.ImageView@40626668
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 6.96 mi
+android.widget.TableRow@40639530
+android.widget.ImageView@406399d8
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 7.28 mi
+android.widget.TableRow@40622138
+android.widget.ImageView@406225e0
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 7.66 mi
+android.widget.TableRow@406235c8
+android.widget.ImageView@4061b7f0
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 7.68 mi
+android.widget.TableRow@4061c848
+android.widget.ImageView@4061ccf0
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 7.77 mi
+android.widget.FrameLayout@4055b198
+android.widget.ImageView@40510048
+android.widget.Button: Filter
+android.widget.LinearLayout@40516058
+android.widget.FrameLayout@406134e0
+android.widget.ImageView@4052c8a8
+android.widget.Button: Filter
+android.widget.FrameLayout@4061a410
+android.widget.Button: Done
+android.widget.FrameLayout@406255a8
+android.widget.ImageView@4056f798
+android.widget.TextView: Stores
+android.widget.ImageView@40575090
+android.widget.FrameLayout@40629708
+android.widget.ImageView@405827e8
+android.widget.TextView: ATMs
+android.widget.ImageView@40582f38
+android.widget.FrameLayout@40587b48
+android.widget.LinearLayout@405885f8
+android.widget.FrameLayout@405888a8
+android.widget.ImageView@40588b58
+android.widget.RelativeLayout@40588ff0
+android.widget.ImageButton@40589600
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ccb0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f0c0
+android.widget.LinearLayout@4058f468
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590c60
+android.widget.LinearLayout@4050dab8
+android.widget.TextView: Locations
+android.widget.ScrollView@4050a510
+android.widget.TableLayout@40516dc8
+android.widget.TableRow@40618b08
+android.widget.ImageView@40551f38
+android.widget.TextView: 4401 Amboy Road (Eltingville)
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@406375c8
+android.widget.ImageView@40632340
+android.widget.TextView: 4401 Amboy Road
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@406369b0
+android.widget.ImageView@4057a0b0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 3.43 mi
+android.widget.TableRow@4050b770
+android.widget.ImageView@4050bc18
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 3.43 mi
+android.widget.TableRow@40616650
+android.widget.ImageView@40616af8
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.93 mi
+android.widget.TableRow@40620e68
+android.widget.ImageView@4060adb8
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@4062f1b8
+android.widget.ImageView@4062f648
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 4.54 mi
+android.widget.TableRow@40613c70
+android.widget.ImageView@40614118
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 4.56 mi
+android.widget.TableRow@40633ed8
+android.widget.ImageView@4062c898
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 4.85 mi
+android.widget.TableRow@4062da28
+android.widget.ImageView@4062dee8
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 4.85 mi
+android.widget.TableRow@40635038
+android.widget.ImageView@406354e0
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 5.68 mi
+android.widget.TableRow@406308b0
+android.widget.ImageView@40630d58
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 5.70 mi
+android.widget.TableRow@4054fc90
+android.widget.ImageView@40550138
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 5.82 mi
+android.widget.TableRow@40612298
+android.widget.ImageView@40612740
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 5.82 mi
+android.widget.TableRow@40617ea8
+android.widget.ImageView@40618350
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 6.96 mi
+android.widget.TableRow@406261c0
+android.widget.ImageView@40626668
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 6.96 mi
+android.widget.TableRow@40639530
+android.widget.ImageView@406399d8
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 7.28 mi
+android.widget.TableRow@40622138
+android.widget.ImageView@406225e0
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 7.66 mi
+android.widget.TableRow@406235c8
+android.widget.ImageView@4061b7f0
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 7.68 mi
+android.widget.TableRow@4061c848
+android.widget.ImageView@4061ccf0
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 7.77 mi
+android.widget.FrameLayout@4055b198
+android.widget.ImageView@40510048
+android.widget.Button: Filter
+android.widget.LinearLayout@40516058
+android.widget.FrameLayout@406134e0
+android.widget.ImageView@4052c8a8
+android.widget.Button: Filter
+android.widget.FrameLayout@4061a410
+android.widget.Button: Done
+android.widget.FrameLayout@406255a8
+android.widget.ImageView@4056f798
+android.widget.TextView: Stores
+android.widget.ImageView@40575090
+android.widget.FrameLayout@40629708
+android.widget.ImageView@405827e8
+android.widget.TextView: ATMs
+android.widget.ImageView@40582f38
+android.widget.FrameLayout@40587b48
+android.widget.LinearLayout@405885f8
+android.widget.FrameLayout@405888a8
+android.widget.ImageView@40588b58
+android.widget.RelativeLayout@40588ff0
+android.widget.ImageButton@40589600
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ccb0
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058f0c0
+android.widget.LinearLayout@4058f468
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40590c60
+android.widget.LinearLayout@4050dab8
+android.widget.TextView: Locations
+android.widget.ScrollView@4050a510
+android.widget.TableLayout@40516dc8
+android.widget.TableRow@40618b08
+android.widget.ImageView@40551f38
+android.widget.TextView: 4401 Amboy Road (Eltingville)
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@406375c8
+android.widget.ImageView@40632340
+android.widget.TextView: 4401 Amboy Road
+android.widget.TextView: 1.76 mi
+android.widget.TableRow@406369b0
+android.widget.ImageView@4057a0b0
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 3.43 mi
+android.widget.TableRow@4050b770
+android.widget.ImageView@4050bc18
+android.widget.TextView: 929 Huguenot Avenue
+android.widget.TextView: 3.43 mi
+android.widget.TableRow@40616650
+android.widget.ImageView@40616af8
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.93 mi
+android.widget.TableRow@40620e68
+android.widget.ImageView@4060adb8
+android.widget.TextView: 1540 Hylan Boulevard
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@4062f1b8
+android.widget.ImageView@4062f648
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 4.54 mi
+android.widget.TableRow@40613c70
+android.widget.ImageView@40614118
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 4.56 mi
+android.widget.TableRow@40633ed8
+android.widget.ImageView@4062c898
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 4.85 mi
+android.widget.TableRow@4062da28
+android.widget.ImageView@4062dee8
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 4.85 mi
+android.widget.TableRow@40635038
+android.widget.ImageView@406354e0
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 5.68 mi
+android.widget.TableRow@406308b0
+android.widget.ImageView@40630d58
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 5.70 mi
+android.widget.TableRow@4054fc90
+android.widget.ImageView@40550138
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 5.82 mi
+android.widget.TableRow@40612298
+android.widget.ImageView@40612740
+android.widget.TextView: 126 Page Avenue
+android.widget.TextView: 5.82 mi
+android.widget.TableRow@40617ea8
+android.widget.ImageView@40618350
+android.widget.TextView: 9904 Fourth Avenue (Fort Hamilton)
+android.widget.TextView: 6.96 mi
+android.widget.TableRow@406261c0
+android.widget.ImageView@40626668
+android.widget.TextView: 9904 4Th Avenue
+android.widget.TextView: 6.96 mi
+android.widget.TableRow@40639530
+android.widget.ImageView@406399d8
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 7.28 mi
+android.widget.TableRow@40622138
+android.widget.ImageView@406225e0
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 7.66 mi
+android.widget.TableRow@406235c8
+android.widget.ImageView@4061b7f0
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 7.68 mi
+android.widget.TableRow@4061c848
+android.widget.ImageView@4061ccf0
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 7.77 mi
+android.widget.FrameLayout@4055b198
+android.widget.ImageView@40510048
+android.widget.Button: Filter
+android.widget.LinearLayout@40516058
+android.widget.FrameLayout@406134e0
+android.widget.ImageView@4052c8a8
+android.widget.Button: Filter
+android.widget.FrameLayout@4061a410
+android.widget.Button: Done
+android.widget.FrameLayout@406255a8
+android.widget.ImageView@4056f798
+android.widget.TextView: Stores
+android.widget.ImageView@40575090
+android.widget.FrameLayout@40629708
+android.widget.ImageView@405827e8
+android.widget.TextView: ATMs
+android.widget.ImageView@40582f38

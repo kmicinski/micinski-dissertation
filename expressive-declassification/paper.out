@@ -1,0 +1,17 @@
+\BOOKMARK [1][]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [1][]{section.0.2}{Overview}{}% 2
+\BOOKMARK [2][]{subsection.0.2.1}{Bump app}{section.0.2}% 3
+\BOOKMARK [2][]{subsection.0.2.2}{Location resolution toggle app}{section.0.2}% 4
+\BOOKMARK [1][]{section.0.3}{Program Traces and Security Definition}{}% 5
+\BOOKMARK [2][]{subsection.0.3.1}{Program Traces}{section.0.3}% 6
+\BOOKMARK [2][]{subsection.0.3.2}{GUI-based Declassification Policies}{section.0.3}% 7
+\BOOKMARK [1][]{section.0.4}{Implementation}{}% 8
+\BOOKMARK [2][]{subsection.0.4.1}{Driving App Execution}{section.0.4}% 9
+\BOOKMARK [2][]{subsection.0.4.2}{Generating Traces}{section.0.4}% 10
+\BOOKMARK [2][]{subsection.0.4.3}{Checking Policies with Z3}{section.0.4}% 11
+\BOOKMARK [2][]{subsection.0.4.4}{Minimizing Calls to Z3}{section.0.4}% 12
+\BOOKMARK [1][]{section.0.5}{Experiments}{}% 13
+\BOOKMARK [2][]{subsection.0.5.1}{Subject Programs}{section.0.5}% 14
+\BOOKMARK [2][]{subsection.0.5.2}{Results}{section.0.5}% 15
+\BOOKMARK [1][]{section.0.6}{Related Work}{}% 16
+\BOOKMARK [1][]{section.0.7}{Conclusion}{}% 17

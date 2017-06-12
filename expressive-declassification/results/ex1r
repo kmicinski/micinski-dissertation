@@ -1,0 +1,32 @@
+65536 final states
+...
+ concretized: ct_select_7
+ channel: low Input: SYM:action_8 tag: high (High)
+ concretized: action_8
+ channel: low Input: SYM:ct_select_8 tag: high (High)
+ concretized: ct_select_8
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel  Choose (0x7f060006): 0x00000002 (Low)
+ channel:  Click (0x7f060007) (Low)
+ channel: net Send: SYM:secret_2 (Low)
+Num of instances to solve in analysis 398616
+====== symdroid performance statistics ======
+TOTAL                          894.578 s
+  parse                           0.011 s
+  vm                             832.176 s
+    SMT                            397.358 s
+  analyze                        62.391 s
+    assemble_eqs                    0.024 s
+    SMT                             7.671 s
+    counter                         0.003 s
+    logging                         6.078 s
+      SMT                             1.525 s
+Timing used
+Memory statistics: total=93326.95MB, max=4915.77MB, minor=93326.92MB, major=10833.15MB, promoted=10833.13MB
+    minor collections=44504  major collections=40 compactions=0
+# of symbolic var: 1

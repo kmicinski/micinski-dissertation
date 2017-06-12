@@ -1,0 +1,4 @@
+\begin{align}
+  \forall x : con, bc : chan.G( & K(x \in contacts) \implies ev(bc()) \\ 
+  & \land last(sc) = n \land x = contacts[n])
+\end{align}

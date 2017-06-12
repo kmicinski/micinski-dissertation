@@ -1,0 +1,55 @@
+android.widget.FrameLayout@40607270
+android.widget.TabHost@40605138
+android.widget.LinearLayout@40605448
+android.widget.LinearLayout@4060ed48
+android.widget.LinearLayout@4061feb8
+android.widget.ImageView@40620340
+android.widget.ImageButton@40620568
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4058e4e8
+android.widget.ProgressBar@4058f2b0
+android.widget.ImageButton@4060fe08
+android.widget.TabWidget@4060f208
+android.widget.LinearLayout@4056e008
+android.widget.ImageView@4057cfc8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40625898
+android.widget.ImageView@40625e98
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4063c208
+android.view.View@4058d9f0
+android.widget.ImageView@40596fd8
+android.widget.TextView: Approx Address (within 0.0 meters)
+Rock Creek and Potomac Pkwy NW Rock Creek and Potomac Pkwy NW
+Washington, District of Columbia 20566
+android.widget.ImageView@4061ce40
+com.jazzmoonstudio.android.common.view.CustomViewPager@40606640
+android.support.v4.app.y@40554f60
+android.widget.LinearLayout@4066a008
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4066ab08
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405468a0
+android.widget.ImageView@4063da20
+android.widget.ImageView@4063dbd8
+android.widget.TextView: Arlington Cemetery
+android.widget.TextView: Approx: 0.62 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4054c7f0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40513f30
+android.widget.ImageView@405140a0
+android.widget.ImageView@40582be8
+android.widget.TextView: Foggy Bottom-GWU
+android.widget.TextView: Approx: 0.72 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4067c528
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40553180
+android.widget.ImageView@40578208
+android.widget.TextView: Rosslyn
+android.widget.TextView: Approx: 0.99 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4057a810
+android.widget.ImageView@405688b8
+android.support.v4.app.y@40580828
+android.widget.LinearLayout@4051a210
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054bc40
+android.widget.FrameLayout@4057bde8
+com.millennialmedia.android.MMAdView@4057c0a8
+android.webkit.WebView@40611150

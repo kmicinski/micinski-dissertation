@@ -1,0 +1,2316 @@
+\renewcommand{\thechapter}{5}
+
+\chapter{Permission-Use Provenance in Android Using Sparse Dynamic Analysis}
+
+\begin{figure*}[t]
+  \includegraphics[scale=0.32]{abstracting-traces/imgs/arch-diagram.eps}
+  \caption{Overview of \hogarth.}
+  \label{fig:process}
+\end{figure*}
+
+\section{Introduction}
+\label{sec:intro}
+
+Android apps can request permission to access a wide range of
+sensitive device resources such as contacts, calendar, GPS location,
+etc. However, if we wish to determine whether an app is secure,
+inspecting its permissions is insufficient, because permissions give
+apps unconstrained access to their corresponding resources.  For
+example, an app that accesses the microphone whenever the app is
+running might be suspicious, while an app that accesses the microphone
+only after the ``Mic'' button is clicked may be secure. Yet both have
+the same microphone permission.
+
+Thus, a better approach to understanding an app's security
+implications is to determine the \emph{context} of sensitive resource
+uses~\cite{WijesekeraBTREW17,olejnik2017,Nissenbaum:2004,Wijesekera:2015}: 
+e.g., whether a use occurred after the user clicked
+a related button~\cite{micinski2017}. However, doing so today is
+difficult. Manual reverse engineering of app bytecode is
+time-consuming and error-prone. Program analysis of Android apps is
+difficult because Android is a large, complicated framework and
+Android apps are callback-oriented, and thus even an app's control
+flow is difficult to model.  Moreover, existing program
+analyses for Android focus primarily on finding taint flows~\cite{Arzt2014,Enck2010,Yang2013,Bell2014,AppContext} and 
+common malware
+behaviors~\cite{Fratantonio2016,Yang2015,chen2013,wong2016intellidroid,Feng2014}
+rather than on explaining sensitive resource uses. (Section~\ref{sec:related}
+discusses related work in more detail.)
+
+This paper introduces \hogarth{},\footnote{In the movie \textit{The Iron Giant}, 
+the character Hogart helps a robot come out of hiding. Our tool is designed 
+to reveal potentially hidden Android permission uses.} a prototype tool demonstrating a 
+new approach to program analysis for sensitive resource accesses. 
+\hogarth{} produces
+\emph{provenance diagrams} showing the context of app permission
+uses. A provenance diagram is a graph where nodes are either API
+methods that need permissions, e.g., \code{setAudioSource(...MIC)},
+or callbacks invoked by the Android framework, e.g., a
+\code{doInBackground} method of an asynchronous task. There is an edge
+from node $A$ to node $B$ labeled with formula $\phi$ if $A$ may call
+$B$ when $\phi$ holds. Thus, provenance diagrams reveal deep 
+information about the context of sensitive resource uses.
+For example, Section~\ref{sec:overview} describes a
+provenance diagram, inferred from android malware, in which
+a background photo capture is 
+triggered by a command received from the network.
+
+\hogarth{} uses a novel combination of dynamic analysis, symbolic
+execution, and abstract interpretation. More specifically,
+\hogarth{} performs dynamic analysis by instrumenting app bytecode
+so that, when an app is run, it produces a log \emph{trace} of the app's
+execution. Then, \hogarth{} uses symbolic execution to replay the
+paths seen in the trace and infer \emph{path conditions} capturing the
+conditions under which each observed bytecode instruction
+occurred. During this process, \hogarth{} may introduce some
+overapproximation, similarly to abstract interpretation, to shrink the
+size of the path conditions and improve performance.
+
+This combination of analyses enables \hogarth{} to produce
+provenance diagrams with very precise information for realistic
+apps. By using dynamic analysis,
+\hogarth{} restricts its focus to only feasible paths actually seen
+during program execution. But then symbolic execution and abstract
+interpretation enable \hogarth{} to generalize observed paths
+beyond the concrete values seen at runtime.
+The symbolic execution and abstract interpretation also allow the 
+dynamic analysis instrumentation to be \emph{sparse} so that
+instrumented apps remain responsive. 
+(Section~\ref{sec:overview} gives an overview of our approach, and
+Section~\ref{sec:technical} describes provenance inference formally.)
+
+\hogarth{} is implemented on top of Redexer~\cite{jsjeon:spsm12},
+a Dalvik bytecode rewriting tool, and
+SymDroid~\cite{jeon:2012:symdroid}, a Dalvik bytecode symbolic
+executor.  To validate the \hogarth{} prototype, we applied it to a
+set of five apps, selected from F-Droid~\cite{fdroid} and the Contagio
+Malware dump~\cite{contagio}. We found that \hogarth{} discovers
+provenance diagrams that match information one of the authors produced
+manually with a time-consuming reverse engineering
+effort. %We also applied
+%\hogarth{} to \jeff{what?} and found \jeff{what?}
+%\jeff{Add a bit more about what we found.}
+(Section~\ref{sec:implementation} describes our implementation, and Section~\ref{sec:evaluation} discusses our evaluation.)
+
+In summary, \hogarth{} introduces a new approach to automatically
+infer the provenance of a sensitive resource use, using a novel
+combination of dynamic analysis, symbolic execution, and abstract
+interpretation. The approach demonstrated in \hogarth{} has potential
+applications for app auditing, reverse engineering, and security
+evaluation more generally.
+
+% Auditing the provenance of permission uses in an Android application
+% is forestalled by the complexity of the underlying system as well as
+% essential aspects of idiomatic Android programming.  Callback-oriented
+% frameworks, such as Android, reduce the issues of statefulness and
+% synchronization that they impose on their users, but at the same time
+% obfuscate control-flow behavior in ways that complicate determining
+% the origins of control points.  To gain a complete picture of the
+% control-flow paths reaching a point in the application, an auditor
+% must diligently work backward to the top of all containing callback
+% methods, and then to all possible registration points for each, then
+% to the top of their call back methods in turn, and so forth.  At each
+% of these points, uncertainty over the dynamic types of objects, the
+% results of conditional branches, and the behavior of the underlying
+% Android framework thwart an auditors progress.  As this compounding
+% uncertainty makes manual investigation of behavioral triggers tedious
+% in small apps and intractable in large ones, we instead seek automatic
+% analysis techniques that can assist in focusing manual efforts to a
+% narrow selection of control-flow paths.
+
+% The scale and intricacy of the Android framework and its many
+% libraries is sufficient to make a precise static analysis intractable
+% as well.  Imprecision in a static analysis drowns an auditor in false
+% positives---reported origins of permission use that cannot occur in an
+% actual program execution.  Reporting spurious provenance for
+% permission use runs counter to our goal of aiding program
+% understanding with only moderate human involvement as the benefit of
+% sound overapproximation (\ie, no false negatives) comes with the heavy
+% cost of requiring an auditor to wade through false positves and
+% separate the wheat from the chaff manually.  By contrast, a dynamic
+% analysis can only give a complete view of program behavior up to the
+% coverage obtained at runtime; however, it will accordingly provide
+% only actual cases of permission use as witnesses to a more general
+% behavior (\ie, no false positives).  As our goal is to aid in
+% understanding the provenance of permissions as they are actually used
+% by a target Android application, we may assume the existence of the
+% permission use in typical executions, but not that the use of these
+% permissions is triggered only under conditions the user expects.  By
+% designing a process for scalable dynamic analysis, our approach is to
+% save a large corpus of representative program executions from which we
+% may automatically derive the set of fine-grained provenance
+% information for their use of permissions in practice.
+
+% The downside of this dynamic analysis is a different kind of stress
+% placed on scalability.  The process of binary rewriting we use to
+% extend an Android application with instrumentation for introspection
+% and printing, occurs only after register allocation and is necessarily
+% a significant disruption of caching behavior and prior optimization,
+% interposing method calls and the use of reflection in otherwise
+% efficient code.  Fully logging all instructions will slow down an
+% application by several orders of magnitude and render it unusable.  In
+% addition, the Android runtime automatically kills processes that drop
+% in responsiveness as a result of such heavy instrumentation.
+% Unfortunately, even a sparse instrumentation which only records a
+% subset of instructions (\eg, method calls and branches), may fall down
+% in some applications due to the use of logging for methods called
+% within a tight loop.
+
+% To address these limitations, we log only a select number of
+% instructions, and only within a limited portion of the target program
+% corresponding to application code---omitting common libraries and the
+% Android framework itself.  This allows us to scale our dynamic
+% analysis to real-world applications, but leaves many small
+% intraprocedural gaps in the resulting program trace, along with much
+% larger gaps corresponding to the framework and calls into library
+% code.  The sparsity of our logs, needed to obtain scalibility in our
+% dynamic analysis, requires us to replay and repair them post-hoc,
+% recovering missing detail within callback traces and making crucial
+% interhandler connections through framework code (connections between a
+% callback registration and its eventual invocations).  For these
+% repairs, we develop a small-step intrahandler abstract-machine
+% semantics and conduct a bisimulation between this abstract machine and
+% each sparse trace; the process also extends these traces with symbolic
+% path conditions.
+
+% With these repaired intrahandler traces and their interhandler
+% connections, we extract all nodes prior to a permission use of
+% interest, across all traces, and coalesce them into an abstract state
+% graph such that a given syntactic point will indicate a disjunction of
+% the conditions which lead to the permission use.  The disjunction of
+% path conditions stored at an abstracted node can then be minimized
+% using an off-the-shelf solver such as Z3~\cite{DeMoura2008Z3} or
+% CVC4~\cite{Barrett2011CVC4}.  This logical minimization of disjoined
+% path conditions effectively eliminates behavior that is irrelevant to
+% the eventual permission use.  A branch, with a scrutiny of
+% $r_\text{cond}$, which preceeds a permission use, is relevant if its
+% branching behavior co-varies with the permission use; that is to say,
+% if the branch is taken in every case where the permission is
+% triggered, it is relevant and $r_\text{cond}$ is a condition of the
+% permission use on paths where this branch is reached.  If, instead,
+% paths which reach the permission use sometimes take this branch and
+% sometimes do not, the coalesced path conditions will effectively
+% contain a disjunction $r_\text{cond} \vee \neg r_\text{cond}$ which
+% can be minimized away.
+
+% A final step performs a backward traversal of this abstract
+% path-condition-minimized graph, starting with the target permission
+% use, and extending toward the set of top-most callbacks which may lead
+% to it.  In the course of this backward walk, a regular expression
+% representing the provenance of the permission use is constructed which
+% may be displayed for the user to summarize the conditions under which
+% it is triggered.  This regular expression describes possible sequences
+% of callbacks and their path conditions that terminate in a permission
+% use and its final intrahandler path condition.
+
+% \subsection{Contributions}
+
+% We contribute an approach to automatically modeling the provenance of
+% a permission use, or line of code generally, by using a sparse dynamic
+% analysis and post-hoc recovery process, a lightweight system model,
+% and a directed abstraction process.  More specifically:
+
+% \begin{itemize}
+% \item We develop a scalable process for sparsely instrumenting an
+%   Android app and logging its behavior.  We show that only a few
+%   crucial points need to be logged in order to properly recover full
+%   dynamic traces for our purposes.
+
+% \item We design a lightweight system model for instrumenting objects
+%   that the Android framework may re-synthesize internally.  This
+%   allows us fully elide logging within the framework and connect
+%   callbacks with their registrations precisely by matching objects on
+%   both sides of system code.
+
+% \item We use a novel process for directed abstraction of the repaired
+%   and connected callback traces that coalesces control-flow points
+%   that lead to the permission use of interest.  We are then able to
+%   combine and minimize path-condition formulae to determine relevant
+%   branching behavior.
+% \end{itemize}
+
+
+%JF: Let's work the outline into the introduction.
+% \subsection{Outline}
+% %
+% In Section~\ref{sec:overview}, we discuss our goal and approach broadly and introduce its basic elements.
+% %
+% An example is used to illustrate an app with a malicious trigger and the kind of provenance information we want to obtain.
+
+
+% In Section~\ref{sec:technical}, we formalize a simplified instantiation of our approach in full and use it to explain each aspect in detail.
+% %
+% This section works through our full pipeline from sparse dynamic logs to provenance graphs.
+
+
+% In Section~\ref{sec:implementation}, we address the real-world complications ommitted from Section~\ref{sec:technical} and issues
+% of scaling our approach to Android applications in the wild.
+
+
+% In Section~\ref{sec:evaluation}, we use 5 small apps consisting of open-source apps and known malware and 30 popular real-world apps to evaluate our approach.  
+
+
+% In Section~\ref{sec:related}, we compare our approach to related work among both dynamic and static approaches to this problem.
+
+
+
+\section{Overview}
+\label{sec:overview}
+
+Figure~\ref{fig:process} gives an overview of \hogarth{}'s
+architecture.  Its input is an Android APK file, which
+contains the app's Dalvik bytecode. Its first step is then
+to instrument the app so that, when run, it produces a \emph{trace} of
+the app's execution. The trace is sparse in that it only
+logs key program points needed to reproduce the observed execution.
+%, post hoc,
+%exactly in terms of control flow and approximately in terms of data flow.
+%JF: Previous says too much and not enough
+
+The user runs the modified app to produce a corpus of
+representative traces, and then \hogarth{} performs a process of
+\emph{sparse-trace interpolation} to infer a \emph{path condition}
+for every program point in traced callbacks. A path condition is a
+formula among inputs to the callback (both its arguments and data
+it receives from the Android framework) that holds if that
+program point is reached.
+
+Next, \hogarth{} connects distinct handlers into a inter-callback graph,
+adding from callback $A$ to callback $B$ if $A$ registered $B$. In
+this case, we say $A$ is the \emph{registrar}. Finally, \hogarth{}
+performs a \textit{targeted summarization} step which
+coalesces all runs of a callback that preceeded a permission use of interest.
+%
+This process yields a \textit{provenance diagram}, which is a directed graph
+where nodes are either callback methods or API calls that need permissions.
+An edge from $A$ to $B$ labeled with path condition $\phi$ indicates that callback
+$A$ may register callback $B$, or directly use permission $B$, under that
+condition ($\phi$) on its inputs. Thus, we can use a provenance diagram to understand the
+circumstances under which a permission is used, both in terms of
+inter-callback control flow and conditions on app data.
+
+
+\newcommand{\cln}[1]{\textsuperscript{\colortt{gray}{#1}}}
+\begin{figure}
+  %\begin{subfigure}{\columnwidth}
+  \footnotesize
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`$=3\catcode`^=7\catcode`_=8}]
+\cln{1  }class MyService\$2 extends Thread \{ ...
+\cln{2  }  public void run() \{ ...
+\cln{3  }    while (true) \{ ...
+\cln{4  }      v14 = v12.readLine(); ...
+\cln{5  }      if (v14.contains("takephoto(")) \{
+\cln{6  }        if (((String)v15.get(0)).equalsIgnoreCase("front(")) \{
+\cln{7  }          ...
+\cln{8  }          new takePhoto(myService, FRONT).$\colortt{blue}{execute}$(new String[0]);
+\cln{9  }        \} else
+\cln{10 }          new takePhoto(myService, BACK).$\colortt{blue}{execute}$(new String[0]);
+\cln{11 }        \} \} \} \}
+  
+\cln{12 }public class takePhoto extends AsyncTask \{ ...
+\cln{13 }  private void initialiseCamera() \{ ...
+\cln{14 }    if (PackageManager.PERMISSION\_GRANTED ==
+\cln{15 }        ContextCompat.checkSelfPermission(myService,
+\cln{16 }          android.Manifest.permission.CAMERA)) \{ ...
+\cln{17 }      cameraManager.openCamera(camId,mStateCallback,cameraHandler);
+\cln{18 }      $\colortt{red}{cameraDevice.createCaptureSession}$(outputs,
+\cln{19 }      mccsStateCallback, cameraHandler);
+\cln{20 }  \} ... \} ...
+\cln{21 }  protected Object doInBackground(Object[] arg2) \{
+\cln{22 }    return this.doInBackground(((String[])arg2));
+\cln{23 }  \}
+\cln{24 }  protected String doInBackground(String[] arg5) \{
+\cln{25 }    initialiseCamera();
+\cln{26 }    return "Executed";
+\cln{27 }  \} \}
+\end{Verbatim}
+    \caption{Code excerpt of the malicious camera use.}
+    \label{fig:example-code}
+    % \end{subfigure}
+\end{figure}
+%$
+
+%JF: The previous discussion here was much too long. This should be a
+%quick overview and then the remainder of section 2 will cover the
+%points in detail.
+
+% Dendroid is a root access toolkit (RAT) that gives over control of an
+% app's permissions, in this case use of the camera, to a remote
+% command-and-control server. The benign trigger for the camera
+% permission use is to take a picture at the click of a button, while
+% the malicious trigger involves asking a remote command-and-control
+% server, on a background thread, when to take a picture for upload.
+
+
+
+\subsection{Running Example}
+
+In the remainder of this section, we illustrate \hogarth{} on
+\textsf{Camera2Evil}, an app we produced by injecting the
+Dendroid~\cite{dendroid} malware into the \textsf{Camera2Basic} Android example
+app \cite{camera2basic}, which allows the user to take a picture by
+pressing a button. Once Dendroid is injected into the app, it allows a remote command-and-control
+server to stealthily take a picture, without the user pressing a
+button, and upload it.
+
+Figure~\ref{fig:example-code} gives an excerpt from the
+\textsf{Camera2Evil} code, which is a combination of the open source
+\textsf{Camera2Basic} app for the Google sample library and 
+the source of Dendroid was extracted using the JEB decompiler~\cite{jeb}. 
+ Here \code{MyService\$2.run}, running in a
+background thread, listens for (adversary) commands. If it receives
+the right command, it creates a new instance of \code{takePhoto},
+which is an \code{AsyncTask}, and executes it (callback registrar shown in blue).
+This queues up the \code{takePhoto.}\code{doInBackground(Object[])}  method to be
+called by Android in the future. Once invoked, this method
+calls \code{initialiseCamera}, which checks to see that the camera
+permission has been acquired already and, if so, it surreptitiously
+takes a photo (sensitive API calls shown in red).
+
+\subsection{Bytecode Instrumentation and Trace Generation}
+
+The first step of \hogarth{}'s process is to add logging instrumentation to
+the \textsf{Camera2Evil} bytecode.
+We do so using Redexer \cite{jsjeon:spsm12}, a Dalvik bytecode rewriting tool.  More
+specifically, we insert a new method \code{log($\ldots$)} that writes
+its arguments and the current thread id to a
+\code{ConcurrentLinkedQueue}. We also insert code that
+creates a background thread to dequeue log entries, introspect on these data,
+and asynchronously write them to a file. This
+design helps ensure logging does not slow down the main app thread.
+
+Then, we add calls to \code{log($\ldots$)} to record key events. More
+specifically, we insert code to record the method arguments (including
+the receiver) at every app method's entry.
+For example, we add logging to the beginning of
+\code{doInBackground(String[])} that records the \code{takePhoto}
+receiver and the \code{String[]} argument. We also log the arguments
+and return values to every API call, e.g., the \code{execute} calls in
+our running example.  Finally, we insert a call to
+\code{log($\ldots$)} at the entry of every basic block. \hogarth{} uses
+this information later in its process to recover exact control flow.
+
+%\jeff{There was some text in here about not logging library and system
+%  code. I think that's probably a bit too much detail here, but
+%  perhaps that should be in the implementation system?}
+
+%\jeff{There was a line here about the log recording the ``instruction
+%  type.'' I'm not sure what that means (maybe the different flavors of
+%  invoke?). Might be too detailed here, and could be saved for
+%  implementation section.}
+  
+% \michelle{could add line numbers to the code snippet to make references clearer?}
+
+% for methods which may be top level callbacks, we ensure an id for the
+% reciever object is logged.
+
+%Each line in the final log additionally provides an instruction type
+
+% Skipping library and system code and logging application code only to
+% a limited degree allows our dynamic analysis to scale to real-world
+% apps.
+
+
+
+\begin{figure}
+  \footnotesize
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`$=3\catcode`^=7\catcode`_=8}]
+Method > 977 com..MyService\$2.run(com..MyService\$2@244505)
+API > 977 java.io.BufferedReader.readLine(java.io.BufferedReader@84370)
+API < 977 java.io.BufferedReader.readLine(java.lang.String@765419)
+...
+API > 977 java.lang.String.contains(java.lang.String@765419,
+  java.lang.String@923754)
+API < 977 java.lang.String.contains(java.lang.Boolean@490195)
+BBEntry 977 1119442
+...
+API > 977 android.os.AsyncTask.$\colortt{blue}{execute}$(com..takePhoto@6720952,
+  [Ljava.lang.String;@263773)
+
+...
+
+Method > 985 com..takePhoto.doInBackground(com..takePhoto
+  @6720952,[Ljava.lang.String;@263773)
+...
+Method > 985 com..takePhoto.initialiseCamera(
+  com..takePhoto@6720952)
+...
+API > 985 java.lang.Object.checkSelfPermission(
+  com..MyService@1131473,java.lang.String@7204364)
+API < 985 java.lang.Object.checkSelfPermission(
+  java.lang.Integer@3382498)
+BBEntry 985 1127344
+...
+API > 985 android..CameraManager.openCamera(
+  android..CameraManager@1134037,java.lang.String@9683765,  
+  com..takePhoto\$1@2286550,android.os.Handler@2206143)
+...
+API > 985 $\colortt{red}{android..CameraDevice.createCaptureSession}$(
+  android..CameraDeviceImpl@122346893,java..ArrayList@122060324,
+  com..takePhoto\$3@367746,android.os.Handler@2206143)
+...
+\end{Verbatim}
+  \caption{Two partial sparse traces for Camera2Evil.}
+  \label{fig:example-trace}
+\end{figure}
+%
+%$
+
+Figure~\ref{fig:example-trace} shows two portions of the trace
+generated by running the instrumented \textsf{Camera2Evil} app. The
+trace at the top is for \code{MyService\$2.run}, which is an app
+method as indicated by the \code{Method >} line in the
+log. \hogarth{} infers that this is in fact a callback invoked by
+the Android framework because this trace entry is not nested inside
+any other method call entry. That same trace line lists the \emph{thread id},
+in this case $977$, so that we can distinguish otherwise intertwined
+log entries from different threads. It also includes the arguments to
+the \code{run} method, in this case only the receiver object, which is recorded
+as the object's class and method (here abbreviated) followed by the
+\emph{object id}, in this case $244505$ (every object has a unique
+integer $\var{id}$ in the Java runtime). Notice that we do not record
+object fields---we only use these values to match up callback
+registrations to the actual callbacks, as discussed below.
+
+%\jeff{I'm surprised Strings and Booleans aren't serialized as their
+%  actual values?} %% TG: Hmm, we could have done this, but we don't use them.
+%  %% mostly they would become symbolic anyway once merged across multiple runs.
+
+%\jeff{Why does the last line of the top log have [Ljava.lang.String?}
+%The brackets indicate it is an array type; is this really worth lingering on here though?
+
+The next lines in the top portion of the trace record the call to
+(\code{API > 977}) and return (\code{API < 977}) from
+\code{readLine}.  Redexer marks a call \code{API} whenever it 
+cannot find the target method in the app's class definitions. During
+sparse trace interpolation, API call results are represented
+abstractly so that path conditions may be in terms of API calls
+(details below).
+%JF: Stuff below is too confusing at this point.
+% We distinguish API calls
+% from app methods and track their exits because we do not instrument the 
+% framework and it is possible that an API could call app methods.  Therefore, we 
+% include API exits to avoid potential ambiguity in the logs.
+% \jeff{Explain why we know these are API calls, and
+%   some of the consequences of this decision.}
+
+Then after a call/return pair to \code{contains} (on line 5 in the code), the line
+\code{BBEntry 977 1119442} records the entry to basic block number
+$1119442$, where the number is assigned by \hogarth{}. In this case,
+reaching that basic block tells us that the true branch of the first
+conditional (the result of testing \code{contains}) was taken. We will
+use this information below to build up a path condition. After
+some additional entries, this portion of the trace ends with a call to \code{execute}. 
+
+The bottom portion of Figure~\ref{fig:example-trace} shows a portion
+of the log from the subsequent call to
+\code{takePhoto.doInBackground}. Notice that this may occur an
+arbitrary amount of time later in the log. The log entries are similar
+to above, with some API calls, a basic block entry that records taking
+the true branch of the condition in \code{initialise\-Camera}, and calls
+to two methods needing the camera permission.
+
+\begin{figure}[t]
+\centering
+  \includegraphics[scale=0.42]{abstracting-traces/imgs/camera2evil.eps}
+  \vspace{0.3cm}
+  \begin{mdframed}
+  \scriptsize
+  \begin{tabular}{ r | p{0.9\textwidth} }
+    $\phi_1$
+    &
+    true
+    \\
+    $\phi_2$
+    &
+    true
+    \\
+    $\phi_3$
+    &
+   ((equals(``goldfish'',staticfd\_119) == 0) \& \\
+   &
+   (startsWith(staticfd\_118,``generic'') == 0) \& \\
+   &
+   (startsWith(staticfd\_117,``generic'') == 0) \& \\
+   &
+   (equals(``google\_sdk'',staticfd\_120) == 0) \& \\
+   &
+   (equals(``google\_sdk'',staticfd\_121) == 0) \& \\
+   &
+   (!(booleanValue(var872550) == 0)) \& \\
+   &
+   (getBoolean(getDefaultSharedPreferences(getApplicationContext(var830452)), \\
+   &
+   ``Start'',0) == 0))
+   \\
+   $\phi_6$
+   &
+   (getId(argument11) == \#x7f0a0059)
+  \end{tabular}
+  \end{mdframed}
+  \caption{Camera2Evil: Partial camera-use provenance diagram.}
+  \label{fig:camera2evil-provenance}
+\end{figure}
+
+
+
+\subsection{Sparse Trace Interpolation}
+
+Next, \hogarth{} performs \emph{sparse trace interpolation} by
+replaying the logs using a hybrid of abstract
+interpretation~\cite{cousot:1977:unifiedlatticemodel,cousot:1979:systematicdesign} and
+symbolic execution~\cite{Cadar:2006:EXE,Cadar:2008:klee} to derive a
+\emph{path condition} at every point, within app methods, reached while the
+trace was generated. Critically, \hogarth{} can do so even though
+the logged information is \emph{sparse}, in particular it only includes method
+entries and exits, API calls, and the start of each basic
+block.
+
+\hogarth{} implements sparse trace interpolation on top of 
+SymDroid~\cite{jeon:2012:symdroid}, a Dalvik bytecode symbolic
+executor. For each callback observed in the trace (in our example,
+\code{MyService\$2.run} and \code{takePhoto.doInBackground}),
+\hogarth{} steps through the method's instructions (and the
+instructions of any app method called), following the path seen in the
+trace and building up a path condition in terms of the callback
+method's inputs and the return values from API calls and field
+accesses (the latter not shown in this example).
+
+For example, \hogarth{} will start stepping through
+\code{MyService\$2.run}. The receiver \code{this} will be bound to an
+\emph{abstract value} that records the actual value seen in the log,
+in this case \code{com..MyService\$2@244505}. As \hogarth{}
+continues, it builds more complex abstract values to encode primitive operations
+and represent returns from framework calls, as necessary. For example, \hogarth{}
+will eventually reach the call to \code{readLine}. For simplicity, suppose
+that local variable \code{v12} is bound to an abstract value of the
+same name ($\var{v12}$). Then after the call, \code{v14} will simply be bound to
+the abstract symbolic value $\var{BufferedReader.readLine(v12)}$, where the
+receiver is listed as the first argument.
+
+Whenever there is a branch, \hogarth{} follows the path taken in the
+trace and records which way the branch test went in the path
+condition. For example, recall that the trace took the true branch
+when testing the return value of \code{contains}. Thus, \hogarth{}
+will take the same path, stepping into the \code{then} branch of the
+conditional, and it will conjoin a symbolic value
+\begin{center}
+  \textit{String.contains(BufferedReader.readLine(v12), ..@923754)}
+\end{center}
+to the path condition. As it continues execution, \hogarth{} will
+eventually reach the \smalltt{execute} call on line 8 and determine
+that the following path condition, which we will refer to as $\phi_4$,
+holds at the call:
+\begin{center}
+  \textit{
+  (!(isConnected(getActiveNetworkInfo(getSystemService(
+getApplicationContext(var832364),``connectivity''))) == 0)) \&
+(!(getActiveNetworkInfo(getSystemService(
+getApplicationContext(var832364), ``connectivity'')) == 0)) \&
+ (!(readLine(newClsAt834888) == 0)) \&
+(find(matcher(compile(``\textbackslash{}(([\textasciicircum{})]+)\textbackslash{})''), \\
+readLine(newClsAt834888))) == 0) \& \\
+(!(contains(readLine(newClsAt834888),``takephoto('') == 0)) \&
+(equals(group(matcher(compile(``\textbackslash(([\textasciicircum{})]+)\textbackslash)''),
+readLine(newClsAt834888)),1),``'')==0)
+ (!(equalsIgnoreCase(get(newClsAt838062,0),``front('') == 0)) \&
+}
+\end{center}
+We discuss the path condition in more detail below.
+
+Similarly, when \hogarth{} executes \code{takePhoto.doInBackground},
+it will eventually reach the call to \code{createCaptureSession} with the path
+condition $\phi_5$:
+\begin{center}
+  \textit{
+  (! (getCameraIdList(getSystemService(
+  getApplicationContext(var862168),``camera'')).length <= 1)) \&
+(checkSelfPermission(var862168,``android.permission.CAMERA'') == 0)
+  }
+\end{center}
+We also discuss this path condition below.
+
+\subsection{Inter-callback Graphs and Summarization}
+
+\hogarth{}'s final steps are to connect distinct callback traces
+and summarize them to construct the provenance diagram from
+coalesced callbacks and their inferred path conditions.
+
+Figure~\ref{fig:camera2evil-provenance} shows a portion of the
+provenance diagram for \textsf{Camera2Evil}. The diagram is constructed as
+follows. First, by default \hogarth{} assumes that all
+permission-related API calls observed in the trace are of
+interest. \hogarth{} adds a node to the graph for each such method,
+in this case we have \code{createCaptureSession} and \code{capture}.  We will begin 
+by focusing on the \code{createCaptureSession}, which is the malicious camera 
+use case.  That method was called while
+\code{doInBackground} was executed, so \hogarth{} also adds
+\code{doIn\-Background} to the graph and adds an edge between the nodes
+labeled with the path condition, $\phi_5$, that held when the
+call occurred. If there were multiple such path conditions, e.g.,
+because \code{createCaptureSession} was called inside \code{doInBackground}
+multiple times, \hogarth{} labels the edge with the disjunction of
+the path conditions. 
+
+Next, \hogarth{} determines which callbacks were triggered by which
+other callbacks. For example, recall that in \textsf{Camera2Evil}, the
+\code{run} method scheduled \code{doInBackground}. \hogarth{} finds
+these dependencies using a heuristic: We use the
+EdgeMiner~\cite{cao:2015:edgeminer} data set to identify which API
+calls might register callbacks.  Then if the trace contains a
+call to a registration method that passes some object which is later
+used as the receiver object in a callback, \hogarth{} assumes the
+registration caused the callback and adds an appropriate edge to the
+graph.
+
+For example, EdgeMiner reports that \code{AsyncTask.execute} is such a
+registration method. The trace in Figure~\ref{fig:example-trace} for
+\code{MyService\$2.run} contains a call to \code{execute} (in blue) with
+object @6720952 as an argument. Subsequently in the trace, the
+\code{doInBackground} method is invoked with @670952 as the
+receiver. Thus, \hogarth{} adds an edge to the provenance diagram
+from \code{MyService\$2.run} to \code{doInBackground}, labeled with
+the path condition, $\phi_4$, that held when \code{execute} was
+called.
+
+In addition to using EdgeMiner to determine callback connections, 
+there are some cases where this is not possible (e.g. Intent passing) and 
+we have to manually establish these connections.  We discuss this further 
+in Section~\ref{sec:implementation}.
+
+\hogarth{} continues this process, adding callbacks to the graph
+until it reaches a fixpoint. We can then use the resulting graph to
+investigate under what circumstances permissions are used. If we trace
+back the diagram in Figure~\ref{fig:camera2evil-provenance}, we see
+that when the app launches (\code{onCreate}), it starts the malicious 
+service (\code{MyService.onStart}) which kicks off another thread 
+(\code{MyService\$1.run}).  Both $\phi_1$ and $\phi_2$ are shown as 
+\code{true} because these transitions through the program will always 
+occur after the app is started.  In \code{MyService\$1.run}, $\phi_3$ tells 
+us that the malware checks its \code{DefaultSharedPreferences} for 
+two settings, whether it should start and if its Google Play bypass 
+feature is enabled.  If the bypass feature is enabled, then it checks 
+the build information on the device to determine whether the 
+app is running on an emulator, i.e. the product or model are ``\code{google\_sdk}'',
+the brand or device are ``\code{generic}'' or the hardware is ``\code{goldfish}''.  If
+$\phi_3$ holds, then a second thread \code{MyService\$2} is started 
+to connect to the adversary's command-and-control server.  $\phi_4$ 
+states that if the device has an Internet connection (either wifi or cellular), 
+it receives some commands from the server, and the string ``\code{take
+photo(front(}'' is included in the commands, then it begins a new 
+asynchronous task to take a photo and send that back to the server 
+(\code{takePhoto.doInBackground}).  Finally, $\phi_5$ states that if 
+there is at least one camera available on the device and the app 
+has been granted the permission ``\code{android.permission.CAMERA}'', 
+then the malware calls \code{CameraDevice.createCaptureSession} to 
+surreptitiously take a picture.
+
+Similarly, \hogarth{} generates the provenance diagram for the instance of 
+\code{createCaptureSession} on the right, the benign case.  In the 
+benign case, when \code{onClick} is triggered by a user click, $\phi_6$ 
+states that if ID of the button that was clicked is equal to \code{\#x7f0a0059}
+(the ID of the "take picture" button), then \code{CameraCaptureSession.capture}
+is called to take a picture.  Using these provenance diagrams auditors can 
+better understand the conditions of a resource use and differentiate 
+between the malicious and benign cases.
+
+% Once we have obtained a set of independent, repaired callback
+% executions, we can connect them together through the framework into
+% an inter-callback graph.  Instead of modeling or logging the Android
+% framework, we treat it as a black box and match objects passed into
+% a registration function that are observed as the receiving object
+% for a callback method.  As some objects are re-synthesized within
+% the Android system (\eg, threads, intents), we cannot rely on all
+% objects to have a permanent object id and must instrument a
+% selection of classes with a magic number that is copied and
+% serialized with the object.  This step in our process yields a
+% non-deterministic graph with both intra-callback edges and
+% inter-callback edges. It has the potential to introduce imprecision
+% (\ie, spurious inter-callback edges), however this effect appears
+% modest in practice. We use the EdgeMiner~\cite{cao:2015:edgeminer}
+% database to restrict the API calls which are considered possible
+% callback registrars.
+
+
+% Finally, we mark those states in our inter-callback graphs that
+% preceed a permission use (or any code point of interest).  In the
+% case of this camera-use permission, all the points in the
+% \smalltt{doInBackground} permission that preceed the camera
+% use are marked as leading to our point of interest; then, because
+% the top of the callback is marked, its registration point in
+% \smalltt{run} is likewise marked (as this preceeds the
+% callback via an inter-callback-graph edge) and then further
+% preceeding points in the trace are marked from there propagating
+% backward.
+
+% We then collapse inter-callback edges between the same callbacks and
+% preceed the permission use into an abstract, consolidated summary
+% graph where summarized path conditions are construed as disjoined.
+% This means if, at a callback registration, one prior execution had
+% gone down the left side of a preceeding branch and extended the path
+% condition with a symbolic value $a$, but another execution had gone
+% through the right side of the same branch and extended the path
+% condition with $\neg a$, the coalesced and disjoined path condition
+% $a \vee \neg a$ can be simplified (minimized) away to show that this
+% branch was not in-fact relevant to the eventual permission use.  An
+% example is the check against the result of \texttt{\small
+% equalsIgnoreCase} that reaches a call to the registrar
+% {\colortt{blue}{execute}} along both its branches.  After
+% summarizing the inter-callback edges between \smalltt{run} and
+% \texttt{doInBackground}, the disjoined path condition for this edge
+% will na\"ivly show that the condition on the result of
+% \smalltt{equalsIgnoreCase} may either pass or not, and, once
+% minimized, that it is irrelevant.  The abstracted inter-callback
+% graph with minimized path conditions represents a provenance diagram
+% for the target permission use that shows all possible sequences of
+% callbacks and the relevant branching behavior along each.
+
+% Consider the diagram in Figure~\ref{fig:camera2evil-provenance}
+% showing the provenance for use of the camera in Camera2Evil.
+% %
+% The left side of the diagram shows the benign camera trigger, as is
+% readily apparent from its root callback
+% (\textsf{Camera2BasicFragment.onClick}), the expected user-interface
+% trigger.
+% %
+% The right side of the diagram shows the malicious triggers originating
+% with any of three background external events and propagating through a
+% chain of callback registrations and invocations to reach the
+% permission use.
+% %
+% Each box between the topmost external event and the resource use
+% represents an intermediate callback and each arrow denotes a callback
+% registration, possibly contingient upon a path condition being
+% satisfied.
+
+
+% The malicious trigger begins either when the main activity is created
+% at \textsf{CameraActivity.onCreate} or when
+% \textsf{ServiceReceiver.onReceive} is called because the phone has
+% turned on or the external apps have become available.
+% %
+% The former top-most callback sets up the malware to run when the app
+% is turned on by the user; the latter top-most callback is a backup to
+% trigger the malware when the phone turns on the SD card is plugged in.
+% %
+% Both these top-most callbacks pass an intent to the system that tells
+% it to start the \mbox{\textsf{MyService}} service.
+% %
+% In the case of the \textsf{CameraActivity.onCreate} callback, there is
+% an additional check to ensure the service is not already running,
+% embodied in $\var{PC}_4$.
+% %
+% \textsf{MyService.onStart} unconditionally registers a new thread
+% \textsf{MyService\$1} to run.
+% %
+% This thread then checks that the app is not running within an emulator
+% and was activated (the checks embodied in $\var{PC}_6$), and then
+% registers a further thread \textsf{MyService\$2}.
+% %
+% This second thread registers itself repeatedly to run again after a
+% predetermined timeout and queries the command-and-control server,
+% whose address is encoded in base64, with a GET request to receive a
+% remote command.
+% %
+% When this command is contains the string \smalltt{"takePhoto("}
+% ($\var{PC}_8$), a new \smalltt{AsyncTask} \textsf{takePhoto} is
+% registered that uses the camera.
+% %
+% By presenting an auditor with a provenance diagram, we are able to
+% convey a high-level understanding of the UI events and background
+% events that lead to permission use, along with the dynamic checks
+% which are made along the way.
+
+
+
+\section{Provenance Inference}
+\label{sec:technical}
+%
+This section gives a formal presentation of the analysis just
+described. To keep our presentation compact, we show how to infer
+provenance using the simplified Dalvik bytecode language in
+Figure~\ref{fig:lang}. Here and below, we write $\vec{x}$ for a
+sequence of zero or more $x$'s, and we write $x_i$ to signify the
+$i$th element of such a sequence (starting from index 0).
+
+In this language, based on SymDroid's
+$\mu$-Dalvik intermediate representation, a program $\var{prog}$
+consists of a sequence of class definitions $\overrightarrow{\var{class}}$.
+A single class definition consists of a class name $C$, its superclass,
+a sequence of method definitions $\overrightarrow{\var{method}}$, and a sequence
+of field names $\vec{f}$. Each method definition includes the method
+name $m$, a sequence of registers $\vec{r}$ for the
+formal parameters, and a sequence of instructions $\vec{i}$ for the
+method body.
+
+Instructions are fairly standard.  An unconditional jump $\sgoto j$ sets
+the program counter so the instruction at index $j$ is executed
+next. A conditional jump $\sif r j$ branches to instruction $j$ if the
+contents of register $r$ is true. Assignments of the form $\sassn r c$
+write a constant integer, string, or boolean into register $r$; assignments
+$\sassn{r_1}{r_2}$ copy $r_2$ to $r_1$; and assignments $\sassn {r_1}
+{r_2 \oplus r_3}$ apply some operation $\oplus$ to $r_2$ and $r_3$,
+storing the result in $r_1$. Fields are read with $\sfread
+{r_1} {r_2} f$ and written with $\sfwrite {r_1} f {r_2}$. Allocation
+$\snew{r}{C}$ creates a fresh instance of class~$C$ and stores a
+pointer to it in $r$. Method invocation $\scall r {r_0} m {r_1,
+  \ldots}$ performs dynamic dispatch of method $m$ with the given
+receiver $r_0$ and arguments $r_1, \ldots$, assigning the result to
+$r$. Lastly, $\sret{r}$ exits the current method, returning $r$.
+
+Note that this language omits many features of Dalvik bytecode, such
+as arrays, static methods and fields, etc. We discuss details of handling
+full Android apps in Section~\ref{sec:implementation}.
+
+
+\begin{figure}[t]
+  \centering
+  \small
+
+  \begin{displaymath}
+    \begin{array}{rcl}
+      \var{prog} & ::=& \overrightarrow{\var{class}} \\
+      \var{class} & ::=& C <: C\ \overrightarrow{\var{method}}\ \vec{f} \\
+      \var{method} & ::=& m(\vec{r})\ \vec{i} \\
+      \var{i} & ::= & \sgoto j
+                           \mid \sif r j
+                           \mid \sassn r c
+                           \mid \sassn r r
+                           \mid \sassn r {r \oplus r} \\
+      & \mid & \sfread r r f 
+      \mid \sfwrite r f r
+      \mid \snew r C
+      \mid \scall r r m {r, \ldots} \\
+      & \mid & \sret r \\
+      c & ::= & n \mid \var{str} \mid \var{true} \mid \var{false} \\
+      \oplus & ::= & \{+, -, *, <, \neg, \wedge, \vee, \ldots\} \\
+    \end{array}
+  \end{displaymath}
+  \begin{displaymath}
+    \begin{array}{rclrcl}
+      C & \in & \textit{classes} & m & \in & \textit{methods} \\
+      f & \in & \textit{fields} & r & \in & \textit{regs} \\
+      n & \in & \textit{integers} & \var{str} & \in & \textit{strings}
+    \end{array}
+  \end{displaymath}
+
+  \caption{Simplified Dalvik bytecode.}
+  \label{fig:lang}
+\end{figure}
+
+
+
+
+\subsection{Sparse Trace Generation}
+\label{sec:dynamic-analysis}
+%
+As previously discussed, provenance inference begins by instrumenting
+and executing the program to gather a set of dynamic
+traces. In our implementation (Section~\ref{sec:implementation}), we
+modify the app's bytecode to add tracing instrumentation. Here
+we elide that step, and simply describe the trace this instrumentation yields.
+
+Figure~\ref{fig:traces} gives a grammar for \emph{program traces}
+$\var{pt}$, which consists of a sequence of \emph{callback traces}
+$\vec{\var{ct}}$. Each callback trace records what happens from the
+time Android invokes an app callback to the time the callback returns to the
+framework. A callback trace $C.m(\vec{\var{v}})\ \vec{\var{ti}}$
+records the class $C$ and method $m$ called by the framework, along
+with the argument values $\vec{v}$, where $v_0$ encodes the method
+receiver. Each value is either ignored, written $\epsilon$, or a class $C$
+paired with an $\var{id}$. In our implementation, we log all constants
+as $\epsilon$ for performance reasons (specifically, writing all
+strings to the trace is expensive).
+Notice that we do not record object fields---we
+only use these values to match up callback registrations to the actual
+callbacks, as discussed below.
+
+Each callback trace also includes a sequence of \emph{trace items}
+$\vec{\var{ti}}$ that occurred during the callback.
+There are four kinds of trace items. First, $C.m$ logs a call to an app
+method~$m$ of class~$C$. We elide arguments because these will be
+recovered via symbolic execution.
+Second, $C.m(\vec{\var{v}})$ logs a call to an API method $m$ of class
+$C$. In this case, we do record the argument values $\vec{\var{v}}$
+since they may include possible callback registrations.
+Lastly, \texttt{then} and \texttt{else} log
+which way each $\sfmt{if}$ instruction branched. These model the
+\code{BBEntry} trace entires in Section~\ref{sec:overview}.
+%JF: I suspect we don't need to say the following given section 2.
+%  Between this and logged method calls,
+% we are always able to recover the full control-flow behavior of the trace, and
+% use symbolic execution to place constraints on data.
+
+
+\begin{figure}[t]
+  \small
+  \begin{displaymath}
+    \begin{array}{rcll}
+      \var{pt} & ::= & \vec{\var{ct}}  & \text{[program trace]} \\
+      \var{ct} & ::= & C.m(\vec{\var{v}})\ \vec{\var{ti}} & \text{[callback trace]} \\
+      \var{ti} & ::= & C.m  & \text{[app call]} \\
+               & \mid & C.m (\vec{\var{v}})  & \text{[API call]} \\
+               %& \mid & \var{id}  & \text{[allocation]} \\
+               & \mid & \texttt{then} \mid \texttt{else} & \text{[branch]} \\
+      \var{v} & ::= & \epsilon \mid C@\var{id}  & \text{[value]} \\
+    %\\
+    %|&\ \var{class}\ n\ \var{v}  && \text{[field access]}
+    \end{array}
+  \end{displaymath}
+  \caption{Dynamic traces.}
+  \label{fig:traces}
+  %\jeff{Do we need to distinguish callback and method items?}
+  % Yes, we do if we want to formalize the connection between callbacks and registrations
+\end{figure}
+
+
+\subsection{Sparse Trace Interpolation}
+\label{sec:bisimulation}
+
+\begin{figure}[t]
+  \small
+
+  \begin{subfigure}{\columnwidth}
+    \begin{displaymath}
+      \begin{array}{rcll}
+        \var{state} & ::=& \langle \vec{i}, \var{rf}, \sigma, \kappa, \phi, \vec{\var{ti}} \rangle
+        & \text{[machine state]} \\
+        \var{rf} & : & \textit{regs} \parto \absval
+        & \text{[register file]} \\
+        \sigma & : & \absval \rightarrow \textit{fields} \parto \absval
+        & \text{[store]} \\
+        \kappa & ::=& \epsilon \mid (r, \var{rf}, \vec{i})\cpair\kappa
+        & \text{[stack]} \\
+        \phi & ::= & \absval
+        & \text{[path condition]} \\
+        \absval & ::= & c \mid C@\var{id} \mid \oplus\vec{\absval}
+        & \text{[abstract value]} \\
+        &\mid& r \mid \absval.f \mid C.m(\vec{\absval})
+%\texttt{new}\ C \mid 
+        \\
+%        & \mid & (\oplus\ s\ \ldots) \mid \top \\
+%        \var{loc} & ::=& (\var{class}, \var{id})
+%        & \text{[object pointers $\var{Loc}$]} \\
+      \end{array}
+    \end{displaymath}
+    \caption{Abstract machine domains.}
+    \label{fig:sym-state}
+  \end{subfigure}
+
+  \bigskip{}
+
+  % \framebox{
+  %   \begin{math}
+  %     \langle\vec{i}, \var{rf}, \sigma, \kappa, \phi, \vec{\var{ti}} \rangle \leadsto
+  %     \langle\vec{i'}, \var{rf}', \sigma', \kappa', \phi', \vec{\var{ti}'} \rangle
+  %   \end{math}
+  % }
+  
+  \begin{subfigure}{\columnwidth}
+  \begin{displaymath}
+    \begin{array}{lr}
+      \arrayrulecolor{lightgray}
+      \toprule
+
+      % \langle C.m(\vec{v})\ \vec{\var{ti}} \rangle
+      % \leadsto
+      % \langle \vec{i}, [r_i \mapsto \symname{v_i}], \varnothing, \epsilon, \epsilon, \vec{\var{ti}} \rangle
+      % & \text{[Inject]} \\
+      % \multicolumn{1}{r}{
+      %   \text{where}\
+      %   \vec{i} = \var{lookup}(C, m)
+      % }
+
+      % \\ \midrule
+
+      \langle \texttt{goto}\ j\cpair\vec{i}, \var{rf}, \sigma, \kappa, \phi, \vec{\var{ti}} \rangle
+      \leadsto
+      \langle \var{instr}(j), \var{rf}, \sigma, \kappa, \phi, \vec{\var{ti}} \rangle
+      & \text{[Jump]}
+
+      \\ \midrule
+
+    \langle \mathtt{if}\ r\ \mathtt{then}\ j\cpair\vec{i}, \var{rf}, \sigma, \kappa, \phi, \mathtt{then}\cpair\vec{\var{ti}} \rangle
+      \leadsto
+      & \text{[Then]} \\
+      \multicolumn{1}{r}{\langle \var{instr}(j), \var{rf}, \sigma, \kappa, \var{rf}(r)\!\wedge\!\phi, \vec{\var{ti}} \rangle}
+      \\ \midrule
+
+      \langle \mathtt{if}\ r\ \mathtt{then}\ j\cpair\vec{i}, \var{rf}, \sigma, \kappa, \phi, \mathtt{else}\cpair\vec{\var{ti}} \rangle
+      \leadsto
+      & \text{[Else]} \\
+      \multicolumn{1}{r}{\langle \vec{i}, \var{rf}, \sigma, \kappa, \neg \var{rf}(r)\!\wedge\!\phi, \vec{\var{ti}} \rangle}
+      \\ \midrule
+                   
+      \langle r \leftarrow c\cpair\vec{i},\var{rf},\sigma,\kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto
+      \langle \vec{i}, \var{rf} [ r \mapsto c ],\sigma,\kappa,\phi, \vec{\var{ti}} \rangle
+      & \text{[AssnC]}
+      \\ \midrule
+
+      \langle r \leftarrow r'\cpair\vec{i},\var{rf},\sigma,\kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto
+      \langle \vec{i}, \var{rf} [ r \mapsto \var{rf}(r') ],\sigma,\kappa,\phi, \vec{\var{ti}} \rangle
+      & \text{[AssnR]}
+      \\ \midrule
+
+      \langle r_1 \leftarrow r_2\oplus r_3\cpair\vec{i},\var{rf},\sigma,\kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto & \text{[AssnOp]} \\
+      \multicolumn{1}{r}{\langle \vec{i}, \var{rf} [ r_1 \mapsto \oplus\var{rf}(r_2),\!\var{rf}(r_3) ],\sigma,\kappa,\phi, \vec{\var{ti}} \rangle}
+      \\ \midrule
+
+      \langle r' \leftarrow r.f\cpair\vec{i}, \var{rf}, \sigma, \kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto
+      \langle \vec{i}, \var{rf}\ \!', \sigma, \kappa,\phi, \vec{\var{ti}} \rangle
+      & \text{[AssnF]} \\
+      \multicolumn{1}{r}{\text{where } \var{rf}\ \!' = \var{rf}[r' \mapsto \sigma(\absval)(f)]
+      \wedge \absval = \var{rf}(r)}
+      \\ \midrule
+
+      \multicolumn{2}{r}{
+      \langle r' \leftarrow r.f\cpair\vec{i}, \var{rf}, \sigma, \kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto
+      \langle \vec{i}, \var{rf}\ \!', \sigma, \kappa,\phi, \vec{\var{ti}} \rangle
+      \hspace*{1.1cm}
+      \text{[AssnFExt]}} \\
+      \multicolumn{1}{r}{\text{where } \var{rf}\ \!' = \var{rf}[r' \mapsto \absval.f]
+      \wedge \absval = \var{rf}(r)
+      \wedge f \notin \dom(\sigma(\absval))}
+%      \multicolumn{1}{r}{\wedge\ \sigma' = \sigma [ \absval \mapsto f \mapsto \absval.f ]}
+      \\ \midrule
+
+      \langle r.f \leftarrow r'\cpair\vec{i},\var{rf},\sigma,\kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto
+      \langle \vec{i},\var{rf},\sigma',\kappa,\phi, \vec{\var{ti}} \rangle
+      & \text{[FWrite]} \\
+      \multicolumn{1}{r}{\text{where } \sigma' = \sigma[\var{rf}(r) \mapsto f \mapsto \var{rf}(r')]}
+      \\ \midrule
+
+      \langle r \leftarrow \mathtt{new}\ C\cpair\vec{i}, \var{rf}, \sigma, \kappa,\phi, \vec{\var{ti}} \rangle
+      \leadsto
+      & \text{[New]} \\
+      \multicolumn{1}{r}{
+      \langle \vec{i}, \var{rf}[r \mapsto C@\var{id}], \sigma, \kappa,\phi, \vec{\var{ti}} \rangle
+      \text{ where } \var{id} \text{ fresh}}
+      \\ \midrule
+
+      \langle r'' \leftarrow r.m(\vec{r})\cpair\vec{i}, \var{rf}, \sigma, \kappa, \phi, C.m\cpair\vec{\var{ti}}'
+ \rangle
+      \leadsto
+      & \text{[Call]} \\
+      \multicolumn{1}{r}{\langle \vec{i}', \var{rf}\ \!', \sigma, \kappa', \phi, \vec{\var{ti}}' \rangle} \\
+      \multicolumn{2}{r}{\text{where } \var{rf}\ \!' = [ \vec{r'} \mapsto \var{rf}(\vec{r}) ]
+      \wedge m(\vec{\var{r'}})\ \vec{i}' = \var{lookup}(C.m)} \\
+      \multicolumn{1}{r}{\wedge\ \kappa' = (r'', \var{rf}, \vec{i})\cpair\kappa}
+
+      \\ \midrule
+
+      \langle \mathtt{ret}\ r\cpair\vec{i}, \var{rf}, \sigma, (r',\var{rf}\ \!',\vec{i}')\cpair\kappa, \phi, \vec{\var{ti}} \rangle
+      \leadsto
+      & \text{[Ret]} \\
+      \multicolumn{1}{r}{
+      \langle \vec{i}', \var{rf}\ \!'[r' \mapsto \var{rf}(r)], \sigma, \kappa, \phi, \vec{\var{ti}} \rangle
+      }
+
+      \\ \midrule
+
+      \langle r' \leftarrow r.m(\vec{r})\cpair\vec{i}, \var{rf}, \sigma, \kappa, \phi, C.m(\vec{\var{v}})\cpair\vec{\var{ti}} \rangle
+      \leadsto
+      & \text{[API]} \\
+      \multicolumn{1}{r}{
+      \langle \vec{i}, \var{rf}[r' \mapsto C.m(\var{rf}(\vec{r}))], \sigma, \kappa, \phi, \vec{\var{ti}} \rangle
+      } \\ \bottomrule
+    \end{array}
+  \end{displaymath}
+  \caption{Abstract machine semantics.}
+  \label{fig:rules}
+\end{subfigure}
+
+\caption{Formalism for sparse trace interpolation.}
+\label{fig:symbolic-exec}
+\end{figure}
+
+Next, \hogarth{} uses a hybrid abstract interpretation and symbolic execution
+to simulate the app bytecode, in order to infer path conditions describing the paths seen
+in the trace.  Figure~\ref{fig:symbolic-exec} formalizes this process as a
+series of operational rules over machine \emph{states}
+$\langle \vec{i}, \var{rf}, \sigma, \kappa, \phi, \vec{\var{ti}}
+\rangle$.
+%\michelle{insert? The machine states (and their components) are defined in Figure 7a.} 
+% TG: In various other places we remind the reader inline of a symbol or component. I think it helps.
+Here $\vec{i}$ is the sequence of instructions remaining to
+be executed. The register file $\var{rf}$ maps registers to
+\emph{abstract values}~$\absval$, which include constants, object
+$\var{id}$s paired with classes, and operations among abstract values,
+which are standard. Abstract values also include
+$r$, which stands for the value read from a register (here, always a
+parameter to the method); 
+$\absval.f$, which stands the value read from a field of an object; and
+$C.m(\vec{\absval})$, which stands for the value returned from an
+API call with arguments $\vec{\absval}$ (where, again, the first
+argument is the receiver object). These last three forms allow
+\hogarth{} to track the conditions on ``inputs'' to the callback from
+parameters or from values returned by the Android framework.
+
+%JF: Not sure why we need the following?
+% We also allow composite values (negation,
+% binary operations, and fields accessed on underlying abstract values),
+% which allows \hogarth{} to track local sequences of operations.
+
+%   Abstract
+% values also include $\top$, which indicates a ``don't care'' value. We
+% can introduce $\top$ as needed for performance. \jeff{Say more once we
+%   decide how $\top$ is used.}
+
+A machine state also includes the store/heap $\sigma$, which maps
+abstract values (representing object locations) and field names to abstract values. The stack
+$\kappa$ is a (possibly-empty) sequence of triples
+$(r, \var{rf}, \vec{i})$, where $r$ is the register to be written upon
+returning, $\var{rf}$ is the previous register file to reinstate, and
+$\vec{i}$ is the sequence of instructions to resume upon
+returning. Finally, the path condition $\phi$ is a (boolean) abstract
+value, and $\vec{\var{ti}}$ is the trace to be followed.
+
+% in initial state $\langle \vec{i}, [r_i \mapsto
+% \symname{v_i}], \varnothing, \epsilon, \var{true}, \vec{\var{ti}}
+% \rangle$ where $\vec{i} = \var{lookup}(C, m)$. Here the helper
+% $\var{lookup}(C.m)$ (not formalized) retrieves the body $\vec{i}$ of
+% method $m$ in class $C$. In other words, 
+
+% [Inject] begins each callback trace by looking up the instructions for
+% the callback method $m$ in its class $C$, and initializing the register file
+% with a binding for each $r_i$ where $\symname{v_i}$ is a fresh symbol named for
+% the $i$\textsuperscript{th} parameter. The helper $\var{lookup}(C,m)$ is not
+% formalized, but simply retrieves the body, $\vec{i}$, of a method $m$ in class $C$.
+
+Figure~\ref{fig:rules} lists the machine's operational rules.
+[Jump] replaces the instruction sequence with those at the target address,
+using helper function $\var{instr}(j)$ (not formalized).
+[Then] and [Else] handle conditional branches, using the observed
+trace to guide the machine.
+When the head of the trace is \texttt{then}, the concrete
+execution took the true branch, so [Then]
+conjoins the branch condition $\var{rf}(r)$ to
+the current path condition $\phi$ (meaning the abstract value at
+$\var{rf}(r)$ must correspond to true) and jumps.
+When the head of the trace is \texttt{else},
+execution fell through, so [Else] simply steps past the branch
+instruction and conjoins the negation of the branch condition
+with the path condition.
+
+[AssnC], [AssnR], and [AssnOp] update the register file so the
+left-hand side register~$r$ maps to the given constant, register
+contents, or operation, respectively. Fields are stored lazily, so
+when they have never previously been read or assigned, they will not
+have a mapping in the store.  [AssnF] looks up the contents of a field
+that has been previously written into the store. [AssnFExt] handles
+the case when $f\notin\dom(\sigma(\absval))$, \ie, when some field is
+accessed that was not previously written by the current callback. In
+this case, the field was written by some external code (either in Android
+or a different callback), and \hogarth{} binds abstract value
+$a.f$ to the left-hand side to represent the field read.
+[FWrite] updates the store so that the abstract object pointed to
+by $\var{rf}(r)$ has an $f$ field that maps to the symbol denoted by the right-hand side
+$\var{rf}(r')$. [New] handles an allocation, in which a fresh $\var{id}$
+(meaning one not chosen before and not in the trace) is paired with
+$C$ and bound in the register file.
+
+[Call] handles an invocation of one of the app's methods. At these control
+points, the log has recorded $C.m$, the class and method that was
+invoked at run time. Thus, the rules use $\var{lookup}$ (not
+formalized) to
+retrive the corresponding method definition. [Call] then pushes the return
+register, the current register file, and the remaining instruction
+sequence onto the stack. It then begins executing the callee's
+instructions under a new register file mapping the formal parameters
+to the actual arguments. [Ret] handles a return by popping
+the stack frame and updating the return register. Finally, [API]
+binds an abstract value representing the call.
+
+To derive path conditions for a program trace
+$\var{pt} = \var{ct}_0, \var{ct}_1, \ldots$, for each
+$\var{ct}_j = C.m(\vec{v})\ \vec{\var{ti}}$, we begin with an entry-point state:
+\begin{displaymath}
+\langle \var{lookup}(C,m), \var{rf}[r_i \mapsto a(r_i, v_i)], \varnothing,
+\epsilon, \var{true}, \vec{\var{ti}} \rangle
+\end{displaymath}
+We begin executing the body of $C.m$ with a register file where each
+formal parameter $r_i$ is bound to $a(r_i, v_i)$, where
+$a(r_i, C@id) = C@id$ and $a[(r_i, \epsilon) = r_i$. The initial
+store and stack are empty, the initial path condition is $\var{true}$,
+and the initial sequence of trace items comes from the callback trace.
+We write $\var{ct}_j \leadsto^* \var{state}$ if $\var{state}$ is
+reachable in zero or more steps of the machine starting in the initial
+(entry-point) state for $\var{ct}_j$.
+
+%JF: I don't think we need to say the following. The bit about
+%intertwining should be in the implementation section.
+% When a $\sret{r}$ instruction is reached under an empty stack
+% ($\epsilon$), the machine is stuck and terminates.  At the end of this
+% process, we obtain sequences of machine states, $\vec{\varsigma}$,
+% that each encode a fine-grained dynamic trace for the execution of a
+% callback that is fully concrete in its control-flow behavior and
+% largely symbolic in its data-flow behavior.  In our implementation,
+% library code may invoke user code leading to an intertwining of opaque
+% API calls and entry points to app code. In addition, our presentation
+% elides primitive operations, treating these as analogous to API calls,
+% however, our implementation derives composite symbols (such as
+% $\symname{\texttt{(+ $\symname{x}$ 5)}}$) from the inputs to primitive
+% operations. These and other complications of this process are
+% discussed further in Section~\ref{sec:implementation}.
+
+
+
+\subsection{Inter-callback Graphs and Summarization}
+\label{sec:inter-callback-graphs}
+
+%JF: The following is just a rehash of section 2, don't need it.
+%  The diagram in
+% Figure~\ref{fig:camera2evil-provenance} includes nodes naming callback
+% methods and nodes naming API calls requiring a permission. An edge from node $A$ to
+% node $B$ labeled $\phi$ indicates that $B$ may be registered during the
+% execution of $A$, if $B$ is a callback, or may be directly invoked during the
+% execution of $A$, if $B$ is a sensitive resource use, when $\phi$ holds.
+
+% To obtain this summary of all executions, we first build a graph where every node is a
+% method, $C.m$. These nodes will be callback methods, app methods, or API methods
+% corresponding to permission calls.
+
+%JF: This is just a repetition of what's already in section 2, right?
+%Do we really need it here again?
+% For example, in our Camera2Evil example, the penultimate \jeff{really?
+%   can we not use that word?} malicious callback would include a node
+% for \code{run}, \code{readLine}, \code{contains},
+% \code{equalsIgnoreCase}, and both calls to \code{execute} (among some
+% others not shown). All of these methods are then connected in a graph
+% via transitive sequences of abstract machine steps.  API calls that
+% may be registration points (as determined by the EdgeMiner
+% project~\cite{cao:2015:edgeminer}) are then connected to the entry
+% points of callbacks according to exact data flows---that is, if an
+% argument, such as the reciever of \code{execute}, matches the reciever
+% object of the callback, such as the instance of \code{takePhoto}, an
+% inter-callback edge is added between the registrar and callback.
+
+Finally, we can build the provenance diagram.  
+ We begin by first constructing an \emph{exploded graph} as follows. Let
+$\var{pt} = \var{ct}_0, \var{ct}_1, \ldots$ be the program trace.
+Initially, we add to the graph every API method $C.m$ that requires a
+permission of interest. Then, until we reach a fixpoint, we pick a
+node $C.m$ in the graph and add an edge $C'.m' \overset{\phi}{\longrightarrow} C.m$
+for every $\phi$, either: (1) such that we have
+$C'.m'(\vec{v'})\ \vec{\var{ti}} \in \var{pt}$ and
+\[
+C'.m'(\vec{v'})\ \vec{\var{ti}}' \leadsto^* \langle \_, \_, \_, \_, \phi, C.m(\vec{v})\cpair\vec{\var{ti}}
+\rangle
+\]
+%
+for some $C$, $m$, $\vec{v}$, and $\vec{\var{ti}}$, or, (2) such that $C.m(\vec{v})\ \vec{\var{ti}} \in \var{pt}$
+and there exists, in any recovered trace, a state
+%
+\[
+  \langle\_, \_, \_, \_, \phi, C'.m'(\vec{v}')\cpair\vec{\var{ti}}' \rangle,
+  \text{where }
+  v_0 = v_i',
+  \text{for some }
+  i
+\]
+
+This first case handles adding edges from callbacks ($C'.m'$) to API calls that
+preceed target permissions. At the first iteration of this process, all these API
+calls will be the target permissions themselves. The second case handles connecting
+callbacks ($C.m$) back to the API calls that may register
+them\footnote{calls that could be a callback registration according to the EdgeMiner database}.
+This is done by making an edge back to registrar calls that pass the receiver object ($v_0$)
+as some argument ($v_i'$). After this, case (1) will connect these registrars back to their
+callbacks and the process continues to work backward.
+%
+%In other words, we add the edge if there was a callback $C'.m'$ during
+%which $C.m$ (an API call) was invoked, or we add an edge if there was an
+%API call\footnote{that could be a callback registration according to the EdgeMiner database}  
+%$C'.m'$ that potentially registered the callback $C.m$. 
+%
+In total, this fixpoint computation builds a directed graph of callbacks and API calls
+that lead to a target sensitive resource use.
+
+
+The exploded graph may have multiple edges, with different path
+conditions, between the same pair of nodes.  To create the final
+\emph{summarized graph} we combine these edges. For every connected
+pair of nodes $C'.m'$ and $C.m$ we consider all their path conditions
+\[
+C'.m' \overset{\phi_0}{\longrightarrow} C.m \qquad
+C'.m' \overset{\phi_1}{\longrightarrow} C.m \qquad
+\ldots
+\]
+and replace them with a single edge
+\[
+C'.m' \overset{\phi_0 \vee \phi_1 \vee \ldots}{\xrightarrow{\hspace{1cm}}} C.m
+\]
+
+Our final provenance diagrams are simply these summarized graphs where each pair of sequential callback and registrar
+is rendered as a single node.
+
+
+% Once we have a set of callback traces for the same execution of the target app, interpolated and symbolically executed
+% as a sequence of machine states $\vec{\varsigma}$, we may then connect them up through the framework.
+% Although we haven't logged the framework's internals, we can use the identity of handler objects, those flowing into
+% registration functions (API calls) and then appearing again as the reciever object of a callback method,
+% to connect the dots through opaque system code. For example, in one trace we might have logged an API call,
+% $\var{MyTask}.\var{execute}(\var{id}_0, \var{id}_1)$, and in another a top-level callback,
+% $\var{MyTask}.\var{doInBackground}(\var{id}_0, \var{id}_1)$---where in both cases the zeroth argument is the reciever.
+% We can tell that the machine states for $\var{execute}$ and $\var{doInBackground}$ are registration point and callback,
+% respectively, because the same object, $\var{id}_0$, is passed into $\var{execute}$ and then is the reciever
+% for $\var{doInBackground}$.
+
+% When we see an instance of this pattern, we can save a connection between these points in a relation
+% $(\dashrightarrow)$, between machine states,
+% that suppliments our local-semantics relation $(\leadsto)$ with inter-callback causal edges for registrations and the
+% callbacks they trigger. We may formalize $(\dashrightarrow)$:
+
+% \begin{align*}
+%     \langle \_, \_, \_, \_, \_, C.m(\vec{v})\!:\!\vec{\var{ti}} \rangle
+%     &\dashrightarrow
+%     \langle C'.m'(C''\ \var{id}\!:\!\vec{v}') \rangle
+%     \\
+%     \text{where} \hspace{1cm} \exists i .\  v_i &= C''\ \var{id}
+% \end{align*}
+
+% That is, when one of the values passed as an argument (some $v_i$) to an API method is also the receiving object
+% of a top-level callback, the state for the API call has a dotted arrow to the entry-point state for the callback.
+% This may then also be refined by a set of API calls which statically may be registrations to avoid some spurious
+% connections that would otherwise result. Further details for our implementation of this step are given in
+% Section~\ref{sec:implementation}.
+
+
+% The next step is to distinguish all states $\varsigma$ that both preceed a permission use of interest and
+% are focused at the same instruction and to perform a permission-oriented abstraction where such states are
+% consolidated to a single abstract state.
+% %
+% A state preceeds a target permission use if it came before it in the interpolated callback trace or if it
+% was encountered in a callback trace that registered this callback trace (or a callback trace which otherwise preceeds it).
+% %
+% We can formalize this as a prediate $\var{preceeds(\varsigma)}$ that is seeded with the machine states encoding
+% the API call for the permission use.
+% %
+% Then, we can compute the transitive backward reachability closure of $\var{preceeds}$ that satisfies:
+% %
+% \[
+%   \var{preceeds}(\varsigma) \wedge (\varsigma \leadsto \varsigma' \vee \varsigma \dashrightarrow \varsigma')
+%   \implies
+%   \var{preceeds}(\varsigma')
+% \]
+
+
+% This allows us to define a congruence relation for states which are coalesced:
+% %
+% \begin{align*}
+%   \overbrace{\langle \vec{i}, \_, \_, \_, \_, \_ \rangle}^{\varsigma}
+%   &\cong
+%   \overbrace{\langle \vec{i}\ \!', \_, \_, \_, \_, \_ \rangle}^{\varsigma'}, \text{iff}
+%   \\
+%   \vec{i} = \vec{i}\ \!' &\wedge \var{preceeds}(\varsigma) \wedge \var{preceeds}(\varsigma')
+% \end{align*}
+
+
+% In our implementation, a coalesced state is simply a set of states that have been grouped together
+% according to the above congruence.
+% %
+% Within these sets of states, we treat the path conditions $\phi$ as being disjoined and we can use an SMT solver
+% to minimize this disjunction to remove irrelevant branches.
+% %
+% If both arms of a conditional (branching on some $r$ where $r \mapsto s$) are reached along two different paths,
+% points after this conditional, that preceed a target permission use, will be coalesced and the disjoined
+% path condition will contain $s \vee \neg s$, which can be minimized away.
+
+
+
+\section{Implementation}
+\label{sec:implementation}
+
+We implemented \hogarth{} by building on top of Redexer~\cite{jsjeon:spsm12} and
+SymDroid~\cite{jeon:2012:symdroid}. Our extensions were written in Java
+(for the logging machinery) and OCaml (for additions to Redexer and Symdroid),
+and required on the order of 10,000 lines of code.
+There were several unique challenges in implementing our approach for
+full Android apps.
+
+\subsection{Logging instrumentation.}
+
+We observed that, in practice, it is crucial to ensure \hogarth{}'s
+instrumentation does not affect app performance too much, especially
+in the UI thread, since Android kills applications whose UI thread
+becomes non-responsive. Thus, our inserted \code{log} calls perform no
+introspection themselves. They simply add messages to a
+\code{ConcurrentLinkedQueue}, which uses a wait-free algorithm to
+communicate with a separate worker thread that retrieves messages from
+the queue to produce the trace.  In total, the message passing
+interface adds between 10 and 20 Dalvik instructions for each inserted
+\code{log} call.
+
+Recall that we log only app code and not Android framework code. For
+performance, we also excluded methods in \code{android.\-support.*} and allow
+the user to specify other paths to exclude. In these cases we mark such
+methods as \code{API} calls and do not add logging instrumentation inside them.
+In practice this is critical for scalability, since it greatly reduces
+the overall amount of logging performed.
+
+In our formalism, API calls do not themselves carry an internal
+trace. However, that is insufficient in practice.  For example,
+consider \code{java.util.Collections.sort}, which we treat as an API
+method. When called, it in turn will call the app's \code{compare}
+method for objects passed in, which will have logging calls inside
+it. To handle this case, our implementation maintains a
+\textit{phantom context} representing the unknown portion of the stack
+inside the API call. Our logging instrumentation then records both the
+entry and exit of every API call (unlike app methods) so that we know
+how to delineate these phantom contexts. Otherwise, we might be unsure
+whether encountering log items from user code meant the API call had returned
+or simply made another call back into app code.
+
+%\jeff{What does this allow \hogarth{} to
+%  achieve? Below it says ``delineate multiple calls'' but I don't know
+%  what that means.}
+
+% Because we log the entry point of every method, we know when a call
+% back into application code has been made, and can delineate multiple
+% calls from opaque system or library code.  Then, although we don't
+% need to record a return value from API calls, we do need to log a
+% control-flow mark that states when the call returned---otherwise there
+% could be some cases where it was unknown if an API call had returned
+% or made another method call.  In our symbolic execution and
+% interpolation phase, we use these marks to delineate a \textit{phantom
+%   context}, a stack frame that only knows that control is held by an
+% otherwise opaque API call.
+
+%JF: We say the above in section 3, so we probably don't need to say
+%it here.
+% The last difference between our formalism and implementation is that
+% the formalism uses \texttt{then} or \texttt{else} to track branches.
+% In our implementation, we record the top of every basic block with its
+% thread id and instruction.  This serves the same purpose and, in our
+% interpolatoin phase, is sufficient to disambiguate all control flow
+% within methods.
+
+
+\subsection{Sparse Trace Interpolation.}
+
+%\jeff{I don't understand the following paragraph. Do we really need it?}
+In addition to the language features formalized, \hogarth{} must
+handle dynamic dispatch for instance methods, static methods, static
+fields, and primitive arrays.  Dynamic dispatch is performed on a
+receiver object by looking at the next basic block address encountered
+in the log.  Static
+methods and fields are handled in a manner analagous to instance
+methods and fields.  An initial symbol for static fields is set in the
+store and replaced at each assignment as would a register or instance
+field's symbol.
+
+Recall that the abstract values in Figure~\ref{fig:sym-state} have a
+fairly rich structure. As a fairly typical symbolic executor, SymDroid
+only directly supports constants, symbolic variables, and operations
+among symbolic expressions. Thus, \hogarth{} encodes registers, field accesses,
+and method calls as symbolic variables with special names. For
+example, an API call value $C.m(a)$ where $C$ is a $\var{BufferedReader}$,
+$m$ is a $\var{readLine}$, and $a$ is a $\texttt{new}\ C'$, may be
+encoded as a symbolic variable named
+\textsf{BufferedReader.readLine(newClsAt534998)}.
+
+One issue with this encoding is that, in the presence of loops and
+recursion, we might wind up reusing a symbolic variable name. This
+could cause the same symbolic variable to stand for multiple values,
+which might then yield multiple, possibly contradictory branch
+conditions. To sidestep this issue, we observe that path condition
+clauses relevant for permission uses typically do not involve
+variables that change with loop iterations. Thus, if \hogarth{} is in
+a loop and is about to reuse a symbolic variable already in the path
+condition, it heuristically removes all clauses involving that
+variable before reusing it. In practice this means path conditions
+will only include information about the last iteration of a loop,
+which in our experience is sufficient.
+
+% Because we allocate fresh symbols (\eg, callback parameters), and
+% compound symbols (\eg, API calls), based on program syntax, loops and
+% recursion pose a complication because identical symbols would
+% naturally be reallocated.  In our formalism from
+% Section~\ref{sec:bisimulation}, we do simply reallocate an identical
+% symbol on each pass through a loop, and then conjoin the duplicate
+% symbol with the existing path condition.  This behavior is unsound
+% where two different concrete values may have been constrained
+% individually but by reusing the same symbol for both, they become
+% conflated and two different (possibly contradictory) branch conditions
+% become conjoined.
+
+% Instead, we observe that branches actually relevant to permission uses
+% and callback registrations typically occur between the crucial branch
+% point and another iteration of the loop.  Our strategy therefore is to
+% reallocate the same symbol each time through a loop, but only after
+% revoking all its existing occurences within the current path
+% condition.  This strategy is sound because symbols in the path
+% condition only ever refer to a single concrete value.
+% %% TG: Cite "single" abstractions here?
+% % This allows only ``single'' abstractions \cite{} within path conditions
+% % until the final coalescing and summarization phase of analysis.
+% %
+% It is also precise for cases where a registrar or sensitive resource use comes
+% between the crucial branch and its branch condition being revoked upon reallocation.
+
+
+As we developed \hogarth{}, we found that path conditions often
+contain many abstract values for arrays. In practice those values were
+uninteresting and their presence in the path conditions decreases
+performance significantly. Thus, our implementation includes a special
+abstract value $\top$ that represents any possible abstract value, and
+we model all arrays as $\top$. Constraints on $\top$ are discarded and
+not added to the path condition, and complex abstract values involving
+$\top$ are simply reduced to $\top$, e.g., $\top.f$ is $\top$.
+
+% To handle array access, we use a abstract value $\top$ that
+% overapproximates all possible symbols and remains permanently
+% unconstrained.  When new values are derived from $\top$ via primitive
+% operations, API calls, or field access, the result is also $\top$.
+% This ensures that path conditions will not contain symbols specific to
+% array indices.  We use this heuristic because crucial branch
+% conditions do not typically pertain to specific array elements and
+% without it path conditions become cluttered with very large numbers of
+% junk clauses.
+
+One last issue in sparse trace interpolation is invocations of
+\code{<clinit>} methods, which are invoked whenever the Dalvik Virtual
+Machine decides to load a class. Thus, there is no syntactic call site
+for such calls, and therefore they do not really fit well in a
+provenance diagram. We opted to simply elide such calls from our
+analysis. To do so correctly, we add extra logging to the end of
+\code{<clinit>} methods so we know when they exit (whereas we do not
+log the return of other app methods).
+
+% Another issues is that the log can contain \code{<clinit>} methods for
+% class loading at arbitrary points in the execution without
+% introduction by a syntactic call site.  When our interpolation phase
+% encounters such code in the log, it scans over and skips it.  This is
+% a challenge because we normally elide logging of method returns as
+% this is usually syntactically evident.  In the special case of
+% \code{<clinit>} methods, we do log their return points or we would
+% otherwise be unable to determine where it ended in the log and how to
+% skip it.
+
+%\paragraph{Symbolic Variables for Loops and Recursion.}
+
+% A coarse but sound alternative is to track those symbols which have
+% previously been allocated, and allocating a $\top$ value at each
+% subsequent point they would have been reused.  While this is a sound
+% strategy in that path conditions never become overconstrained or
+% contradictory, consider what happens at the conditional that tests for
+% the string \code{"takephoto("} in \textsf{Camera2Evil} (line 5 of
+% Figure~\ref{fig:example-code}).  Because the symbol $\var{v14}$ was
+% already allocated, it becomes $\top$ and every subsequent manipulation
+% of it remains conservatively $\top$.  This crucial branch condition is
+% then omitted from the path condition reaching \code{execute}.  Another
+% strategy would be to realloated a new variant of a symbol whenever it
+% has been seen already.  Thus if a symbol
+% $\var{BufferedReader.readLine(v12)}$ has previously been allocated in
+% another iteration, we might allocate
+% $\var{BufferedReader.readLine(v12)}_2$ the next time through.  This
+% would be correct and precise, but clutters our path conditions with
+% hundreds of nearly identical junk clauses in practice just as
+% including array-element symbols does.
+
+
+\paragraph{Inter-callback connections.}
+
+Recall that we use the EdgeMiner~\cite{cao:2015:edgeminer} database to
+identify possible registrar methods, and then we connect up a
+registrar with a callback if the receiver of the latter was an
+argument to the former, using the object $\var{id}$ for comparison.
+
+While this approach is largely successful, there are a few cases where
+Android reuses the same object for different callbacks, particularly
+\code{Intent}s and \code{Thread}s; thus we cannot rely on their object
+$\var{id}$s. We address this issue by using a different $\var{id}$ in
+these cases. For \code{Intent}s (which are essentially key-value
+maps), we add a \emph{magic id} field that gets a fresh value each
+time, and use that in place of the object $\var{id}$. For
+\code{Thread}s, we use the thread $\var{id}$ in place of the object
+$\var{id}$.
+
+% We use the EdgeMiner~\cite{cao:2015:edgeminer} database to prune the
+% inter-callback edges we add and reduce the number of spurious
+% connections.  EdgeMiner automatically yields a system model for
+% android using a static data-flow analysis.  We do not use it directly
+% as it is conservative and contains a significant number of
+% false-positives; we do use it in conjunction with actual observed data
+% flows to prune false-positives we would otherwise produce ourselves by
+% considering every callback receiver to be registered at every API call
+% it is passed to.
+
+% Although normally we are able to draw connections between API calls
+% that register callbacks and instances of those callbacks based on
+% object ids, some objects are regularly re-synthesized within the
+% framework, resulting in a new, but identical, object receiving the
+% callback once it is eventually invoked.  An example of this are
+% Android intents.  To handle connect identical intents that pass from a
+% registrar to a callback invocation, we instrument them with a
+% key-value pair that records a fresh \textit{magic id}.  While the
+% intent is serialized and remade within the framework and given a new
+% Java object id, this key-value pair is preserved and it retains its
+% magic id.  Then when printing the log, for these objects we replace
+% the object id with their magic id.  In the case of \code{Thread}
+% objects, we simply treat the thread id as its magic id.
+
+
+%%\jeff{We don't need any of the following three paragraphs. We've
+%%  already gone over this in the overview section and then the
+%  formalism. Instead, this section should just have some
+%  slash-paragraphs on the key differences between the formalism and
+%  the implementation.}
+%
+%We now describe how we use our theory of provenance inference and
+%implemented it for Android. We implemented sparse trace generation by
+%implementing a logging library, which allows high performance logging
+%of apps. We then use a Redexer, an Android binary rewriter, to link
+%our library with an app and annotate various points within the
+%bytecode to call our library and record events.
+%
+%After collecting a log, we perform sparse trace interpolation. To do
+%this, we have modified SymDroid to consume a log produced by our
+%sparse logging library. We begin by taking our log and building a
+%large graph of traces through top-level handlers within an app. While
+%building up these, we trace the control flow of the app and generate a
+%sequence of symbolic states, which includes a path condition
+%constraining the values on that run. In places where the app's control
+%flow is ambiguous (e.g., at branches or within exception blocks), we
+%use the concrete log to drive the execution down the branch observed
+%in the log.
+%
+%After performing sparase trace interpolation, we are left with a set
+%of sequences of abstract states that mirror the execution within the
+%corpus of logs. We next walk over this set of sequences and connect
+%registrations within toplevel handlers to the roots of sequences that
+%they register, as described in
+%section~\ref{sec:inter-callback-graphs}. Finally, we perform the
+%summarization procedure by traversing back in this graph from a set of
+%points of interest through toplevel handlers. As we do so, we merge
+%path conditions using disjunction. This leaves us with a final formula
+%that is the collection of path conditions from our interpolated
+%traces. We form the final graph by sending this formula to Z3, which
+%produces a minimized version of this formula.
+%
+%\subsection{Sparse Trace Generation via Binary Rewriting}
+%
+%\jeff{I think almost all the discussion in the next five paragraphs is
+%  all a rehash of what's already in the overview and then the
+%  formalism. We don't need it here.}
+%
+%To record traces through apps, we implemented a Java library which
+%records sequences of events to a file. This library includes calls to
+%log basic block entries, method entries within the app, and API calls
+%to the system. Our library serializes parameters to the log and prints
+%it to a file in a format which is subsequently parsed by our trace
+%interpolation tool. 
+%
+%A key challenge was logging enough information to recover a
+%deterministic trace through an app, while not inserting so much
+%instrumentation that the app became unresponsive.  We were able to
+%acheive high throughput logging at scale by using a combination of a
+%few techniques. First, We carefully considered each source of
+%control-flow ambiguity and determined that we needed to log the
+%following:
+%
+%\begin{description}
+%
+%\item[Method call entries]---We record method call entries in our log
+%  because we need to recover the toplevel handlers. We also record
+%  their arguments, which is necessary as we connect inter-callback
+%  edges by relating invocations of toplevel handlers with objects
+%  passed into API calls that register handlers.
+%
+%\item[Basic block entries]---Basic blocks allow us to disambiguate
+%  control flow paths through apps.
+%
+%\item[API calls and returns]---Parameters of API calls are used to
+%  perform inter-callback graph generation. We also need to log the
+%  returns of API calls to disambiguate possible calls from the API
+%  back into user code. For example, consider
+%  \code{java.util.Collections.sort}, which calls a user specified
+%  \code{compare} method some number of times before it returns.
+%\end{description}
+%
+%Our tool also supports logging field lookups and array reads, however
+%we found that instrumenting them in our apps caused many apps to
+%perform unacceptably slow.
+%
+
+
+
+\section{Evaluation}
+\label{sec:evaluation}
+
+\begin{table*}
+{
+  \singlespacing
+  \tiny
+  \centering
+  \begin{tabular}{llr|rr|rrrrr}
+    \toprule
+     &&&&& \multicolumn{2}{l}{\textbf{\# Triggers}} &  \multicolumn{3}{l}{\textbf{\# Clauses}} \\
+       \textbf{App} & \textbf{Resources} & \textbf{\# Log Lines} & \textbf{Time (s)} & \textbf{Mem (Mb)}  & RE & Found & RE & Found & Missed \\
+      \midrule
+      Camera2Evil          & Camera     & 12,298    & 97    & 919    & 2 & 2 & 14 & 30 & 0 \\
+      Call Recorder        & Microphone & 4,520     & ~1    & 799    & 1 & 1 & 5  &  5 & 0 \\
+      Misbothering         & Contacts   & 674       & ~1    & 694    & 1 & 1 & 3  &  3 & 0 \\
+      Contact Merger       & Contacts   & 602,422   & 38    & 1,606  & 4 & 1 & 8  & 18 & 1 \\
+      Smart Studio Proxy   & SMS        & 3,151,374 & 18    & 1,606  & 4 & 1 & 4  & 14 & 10 \\
+      \bottomrule
+  \end{tabular}
+  \caption{Performance metrics for \hogarth{} when run across our apps. For number of 
+  triggers, RE indicates ground truth, and Found indicates how many \hogarth{} found. For 
+  number of clauses, RE indicates the clauses identified by our reverse engineer, Found 
+  indicates the number of clauses identified by \hogarth{} (which may include some deemed 
+  irrelevant in the manual analysis), and Missed indicates clauses identified by the manual 
+  analysis but not \hogarth{}. } 
+  \label{tab:performance}
+}
+\end{table*}
+
+%
+We validated \hogarth{} on a set of five apps, in order to a) check that it 
+worked correctly and b) evaluate the impact of its approximations on the 
+end result. We obtained ground truth by using five moderately-sized apps 
+that were manually reversed engineered by the third author, who has professional 
+experience reverse engineering Android apps. While
+reverse engineering these apps, we generated a provenance diagram in
+the style of Figure~\ref{fig:camera2evil-provenance}. Then, we ran
+\hogarth{} on each app to ensure that it produced the same graph of
+handlers and correctly inferred the path conditions leading to each
+registration and permission use.
+
+%We used a second set of apps to perform a case study of \hogarth{}'s
+%ability to find permission uses within malware and greyware. For this,
+%we picked 10 apps within these categories and
+%ran \hogarth{} on each. We present our findings and detail how an
+%auditor would use \hogarth{}'s results when making decisions about
+%how apps use permissions.
+
+For our analysis, we selected five apps that use permissions in the 
+background. The first app is our running
+example, the Camera2Evil app. Three others are benign apps from the
+open-source F-Droid~\cite{fdroid} repository. We include an additional 
+malicious app from the Contagio Malware dump~\cite{contagio}.
+
+To obtain ground truth, we first manually identified the permission uses of interest
+within the app's source code. Using our knowledge of the Android
+framework, we then examined all of the app's source code to trace
+backwards and determine how each method could be reached via handler
+registrations. As we went back through the app, we also collected path
+conditions we believed were relevant to the use of the permission. 
+These results were synthesized into a provenance diagram for each app.
+
+Next, we ran \hogarth{} on each app to generate a provenance
+diagram. We compared the results of \hogarth{} with our
+manually-generated provenance diagram.
+
+We also evaluated \hogarth{}'s performance on each of our apps by
+measuring the running time and memory consumption for each app we
+analyzed. Table~\ref{tab:performance} includes the performance numbers
+for the apps we tested. Because \hogarth{}'s scalability is impacted
+by the size of the log being analyzed, we include the number
+of log entries, the running time, and maximum amount of memory
+consumed. Our tests were performed on a machine with a 3.5 Ghz Core i7
+processor and 16 gigabytes of RAM running Ubuntu 16.04.2 LTS. Runtime
+results were averaged over the course of five runs. \hogarth{}
+currently handles app logs of around 50-100 MB before it runs out of
+memory in processing them. This is because the first step in our
+analysis is to generate an interpolated state corresponding to each
+run in the log. In a future version of \hogarth{} we plan to summarize
+apps in concert with performing log interpolation, allowing us to
+scale to much larger logs.
+
+Using this procedure, we found that \hogarth{}
+correctly inferred the path conditions for the logs we used. 
+Below, we walk through each example app and discuss how \hogarth{} works on
+each.
+
+
+\subsection{Camera2Evil}
+%
+%\michelle{kris or dan please verify this section}
+%
+The first app in our validation study was our running example,
+Camera2Evil. As discussed in previous sections, Camera2Evil has two
+triggers leading to the use of the \code{CAMERA} permission.  One of
+them is the benign behavior, as a result of clicking a button, and the
+other was the malicious trigger, which is invoked when the app
+receives a command from the control server.
+
+\hogarth{} generated a diagram with the same structure as 
+the one we produced by hand, but with some extra clauses in the path conditions.
+%For example, when we reverse engineered the app by hand, we included in the path 
+%condition the clause that a \code{CameraAccessException} does not
+%occur. \hogarth{} does not include the negation of exceptions in path
+%conditions. 
+For example, the \hogarth{} path conditions included some additional clauses 
+that our expert did not identify as relevant to the permission use. 
+These included a few clauses that stated
+invariants about the lengths of various arrays that the app iterates over.
+
+\hogarth{} successfully discovered the path leading to the malicious
+permission use, which happens when a line received from the server
+contains the string ``\code{takephoto(front(}.'' Camera2Evil makes a call to
+\code{BufferedReader.readLine} until it finds a string matching the
+specific name. As we discussed in Section~\ref{sec:implementation},
+\hogarth{} uses a strategy to
+allocate symbolic names in the presence of loops. This helped ensure
+that \hogarth{} correctly included the last iteration of the loop in
+the summary path condition.
+
+\subsection{Call Recorder}
+%
+%\michelle{someone check this for accuracy}
+%
+The Call Recorder app~\cite{callrecorder} allows users to record calls and store a copy on
+their device. The app registers an Android broadcast
+receiver\cite{broadcast}, which will receive messages from the Android
+system whenever a phone call takes place and start recording accordingly.
+
+To accomplish this, Call Recorder registers (in its manifest) for 
+a handler named \code{MyPhoneReceiver.onReceive} to listen for 
+phone call events. When the user receives a phone call, the Android 
+system sends a message to the app, which the \code{onReceive} handles. 
+Within this handler, the app checks that external storage is mounted, that 
+a phone call is currently underway (off-hook), and that a user-controlled flag
+enabling recording is set. If these conditions are met, the app then creates 
+an intent to start an Android Service, named \code{RecordService}. Within this 
+service, in the \code{RecordService.onStartCommand} method, the app checks 
+that a \code{phone\-Number} field is non-null and that no other recording is 
+currently in progress. If both these conditions are true, the app begins recording 
+the user's audio by calling\code{MediaRecorder.start}. This use of the 
+\code{RECORD\_AUDIO} permission happens outside of the app's UI.
+
+\hogarth{} infers a provenance diagram leading to the \code{RECORD\_AUDIO} 
+permission and rooted at the \code{MyPhoneReceiver.onReceive} handler.
+(Note that \hogarth{} does not currently include machinery to detect 
+which event type---in this case phone calls---has been registered in the 
+manifest, but we can observe this via manual inspection of the manifest.)
+
+\hogarth{} correctly infers an edge from \code{on\-Receive} to 
+\code{Re\-cord\-Ser\-vice.on\-Start\-Com\-mand}, the background service that 
+performs the recording, and correctly infers all path conditions for 
+this edge: that the user-controller flag has been set, that external 
+storage is mounted, and that the phone is off-hook. 
+
+With respect to the edge from \code{Re\-cord\-Ser\-vice.on\-Start\-Com\-mand} 
+to \code{Me\-dia\-Re\-corder.start}, \hogarth{} again correctly infers the 
+path condition: that the phone number is non-null and no other
+recording is in progress. In total the manual diagram and the 
+\hogarth{} diagram matched.
+%\michelle{Note that \code{phoneNumber} is set elsewhere in the app before the
+%execution of the callback, but note that since \hogarth{} does not
+%reason about data dependence, it cannot infer anything about the value
+%of \code{phoneNumber}.
+
+
+
+%\hogarth{} infers the provenance diagram leading to the use of the
+%\code{RECORD\_AUDIO} permission, which happens outside of the app's
+%UI. The provenance graph is rooted at a handler named
+%\code{MyPhoneReceiver.onReceive}. This handler is registered in the
+%app's manifest to listen for phone call events. (Note that \hogarth{}
+%does not currently include machinery to detect registration in the 
+%manifest; however, it can be observed via manual inspection.) When the user
+%receives a phone call, the Android system sends a message to the app
+%which is handled by \code{onReceive}. The app will create an intent to
+%start an Android service, named \code{RecordService}, when the
+%external storage is mounted and the user has enabled listening. To
+%indicate that the app wants to record the user, it sets a
+%flag---\code{\quoted{commandType}} in the intent---to the value
+%\code{1}.  \hogarth{} correctly infers the path condition under which
+%the intent is sent, which happens when the external storage is mounted
+%and the user has enabled recording.
+%
+%Under this circumstance, \hogarth{} infers an edge from
+%\code{onReceive} to \code{RecordService.onStartCommand}, the
+%background service which performs the recording. At the entry of
+%\code{onStartCommand}, it checks the value of
+%\code{\quoted{commandType}} in the intent key/value store. It then
+%begins recording the user's audio by calling
+%\code{MediaRecorder.start}. \hogarth{} correctly infers that call
+%takes place when the command type is set to the proper constant
+%value. It also infers that a particular app field, \code{phoneNumber},
+%is not null. \code{phoneNumber} is set elsewhere in the app before the
+%execution of the callback, but note that since \hogarth{} does not
+%reason about data dependence, it cannot infer anything about the value
+%of \code{phoneNumber}.
+
+\subsection{Misbothering}
+
+Misbothering SMS~\cite{misbothering} is an app that mutes notification for any message
+sent by a user not in the contacts list. It works by checking the
+sender of all incoming SMS messages and only notifying the user if the
+sender is the user's contact list. We used \hogarth{} on Misbothering
+and were correctly able to discover the circumstances under which it
+accesses the user's contacts. Upon receiving an SMS, the app enters a 
+handler, which executes a set of checks to ensure that particular app variables 
+are initialized correctly. The handler also checks that a non-empty 
+message was received. The \hogarth{} diagram matches the diagram 
+generated by our expert for this handler.
+% At the entry of a handler,
+%which is invoked upon receiving an SMS, It includes a set of checks to
+%ensure that particular app variables are initialized correctly, and
+%that the received text contains a nonempty message.
+
+Note that Misbothering registers a receiver for text data from the
+system. While \hogarth{} observes that this handler is invoked, the 
+handler is registered via the app's manifest. As in the call recorder app 
+above, \hogarth{} does not detect manifest registrations, and so cannot 
+detect which event is tied to the handler, but this can be obtained 
+by inspection. 
+
+\subsection{Contact Merger}
+
+The Contact Merger app~\cite{contactmerger} helps identify duplicate contacts by analyzing
+a user's contact list and recommending entries that may refer to
+the same person. Access to the user's contacts can happen in one of five situations:
+a direct interaction in the form of a button click, on app startup, a timer alarm that
+triggers in the background at a one-hour interval, a device reboot, or a
+new app package being installed.
+
+These five situations are associated with four triggers (reboot and package install 
+are triggered by the same broadcast receiver). Of these, the timer and the 
+reboot/install are not covered by our logs, which did 
+not include a restart or a new package or last an hour. Incomplete logs, 
+of course, are a limitation of dynamic analysis; this app demonstrates the 
+importance of capturing longer logs containing a wider variety of events. 
+
+\hogarth{} correctly identified one of the two remaining triggers: app startup.
+For this trigger, \hogarth{} identified path conditions to the \code{READ\_CONTACTS} 
+permission including that the app's internal contacts
+database has been set up (the source code indicates this is a
+workaround for a bug), that a specific file (used to store the
+contacts) exists, and that the contact analysis has not yet been performed. 
+\hogarth{} also gathers some additional path condition clauses that 
+our reverse engineer deemed irrelevant, such as requiring that a 
+particular loop along the path to \code{READ\_CONTACTS} has successfully 
+exited.
+
+\hogarth{} does not find the click trigger because its Android system model 
+is incomplete: the click trigger uses an unusual type of intent handler that 
+we do not currently support. The set of such unusual handlers is small~\cite{cao:2015:edgeminer}, 
+and once they are identified, adding support for them into \hogarth{} is straightforward.
+
+%We ran \hogarth{} on Contact Merger and found one relevant path to
+%the \code{READ\_CONTACTS} permission. For example, in one path to the
+%permission we observe that the app starts a thread to read the
+%contacts under the conditions that the app's internal contacts
+%database has been set up (the source code indicates this is a
+%workaround for a bug), that a specific file (used to store the
+%contacts) exists, and that a scan has not yet been performed. We also
+%noticed that \hogarth{} failed to find one path because our app
+%exploration was incomplete. Our log did not include a run where the
+%phone was restarted, and so \hogarth{} failed to infer this path to
+%the permission use.
+
+%The contacts are ultimately accessed within the thread
+%\code{AnalyzerThread.run}, the method \code{reportProgress} is
+%called. This method loops through a set of registered observers to
+%report progress, so \hogarth{} gathers a path condition that asserts
+%the loop was exited. This is not relevant to the permission use, and
+%yet it is included because it occurs on paths leading to the
+%permission use.
+
+\subsection{Smart Studio Proxy}
+Smart Studio Proxy (also known as Android Trojan Spy~\cite{trojanspy})
+is a piece of malware, discovered in 2015, designed to collect a
+variety of user data and ship it to the attacker. The malware accesses
+the user's SMS messages whenever a new message arrives, any message is
+changed by the user, the phone wakes from sleep mode, the network
+connectivity changes, or 30 minutes has passed since the last upload
+to the attacker (because there was no available network connection
+previously). These situations equate to four triggers, as waking and 
+network change come through the same \code{onReceive} handler.
+
+\hogarth{} was able to correctly identify one of these four triggers: the 
+one for waking and network change. Within this trigger, \hogarth{} finds 
+the path condition for network change, but not the path condition for 
+waking. As with Contact Merger, the missing triggers and paths reflect 
+the fact that \hogarth{}'s Android system model is not yet complete.
+
+%which took place when the connectivity had changed. However, Smart
+%Studio Proxy also includes an entry point after a text is
+%received. \hogarth{} did not correctly identify this source, as it has
+%an incomplete model of the Android system. We plan to include a more
+%complete model of Android in the future.
+
+
+
+
+%=======
+%\paragraph*{Contextual Security.}
+%Several researchers have explored contextual security on Android. 
+%Multiple approaches have been proposed to compare the results of 
+%dataflow analysis with textual app descriptions including their 
+%functionality descriptions~\cite{pandita2013whyper,qu2014autocog} 
+%and privacy policies~\cite{yu2016revisiting,slavin2016toward}.  Elish 
+%et al.~\cite{elish2012} focuses on specific interface elements and 
+%use a dataflow analysis to check whether 
+%sensitive actions are dependent on UI interactions.  It marks any 
+%that do not have this dependency as malicious.  
+%Backstage~\cite{avdiienkodetecting} and AsDroid~\cite{Huang2014}
+%also focus on using the user interface element as context, but use 
+%reachability analysis to determine the set of APIs called when the 
+%user interacts with a given element.  Backstage then compare the 
+%called APIs to those called by other similarly named APIs to identify 
+%potentially malicious outliers.  AsDroid compares the set of called 
+%APIs to a set of functions commonly misused by malware, e.g. sending 
+%SMS messages, encrypted HTTP communication, etc.    Our work is orthogonal to the  question of whether a
+%behavior is expected by the user.
+%
+%\jeff{I'm not sure if we need the previous paragraph.}
+%
+%>>>>>>> 5f8ee44a7f2becafb416f5cce011e5ecc9556189
+
+
+
+%Note that our work is orthogonal to the question of whether a
+%behavior is expected by the user based on the user
+%interface~\cite{avdiienkodetecting,Huang2014,elish2012},
+%description~\cite{pandita2013whyper,qu2014autocog}, privacy
+%policy~\cite{yu2016revisiting,slavin2016toward}, or other contextual
+%information~\cite{olejnik2017,WijesekeraBTREW17}.
+%
+%\jeff{I'm not sure if we need the previous paragraph. If we do need
+%  it, we should rephrase it as: Several researchers have explored
+%  contextual security (on Android?). ...explain these papers
+%  briefly... then say, our work is orthogonal to these.}
+
+\section{Related Work}
+\label{sec:related}
+There are several threads of related work.
+
+\paragraph*{Contextual Security Analysis for Android.}
+
+Several researchers have proposed program analyses that aim to infer
+the context, or provenance, of security-relevant actions in
+Android apps. Pegasus~\cite{chen2013} analyzes apps to infer
+Permission Event Graphs (PEGs), which describe the relationship
+between Android events and permission uses. In contrast to
+\hogarth{}'s provenance diagrams, PEGs do not include predicates
+about the app state.
+
+AppIntent~\cite{Yang2013} uses data-flow analysis to identify program
+paths that may leak private information, and then employs directed
+symbolic execution on those paths to find inputs that could trigger a
+leak. As the full Android system is too complicated to effectively apply
+symbolic execution in a scalable manner, the authors use a system model
+to assist the analysis. Our approach is more precise in the sense that
+all behaviors we report are witnessed in actual executions, and by
+actually running the program, we eschew any need for a system model
+that would be hard to construct and maintain---as the system is updated frequently.
+
+AppContext~\cite{Yang2015b} identifies inter-procedure control-flow paths
+from program entry points to potentially malicious behaviors and then
+performs a data-flow analysis to identify the conditions that may
+trigger malicious behaviors. AppContext is similar to our approach
+in that it identifies the crucial branch conditions and inter-procedural
+contexts that lead to sensitive behaviors. As with AppIntent, our approach is
+more precise, being grounded with a dynamic analysis
+(although sound only with respect to observed behaviors).
+
+TriggerScope~\cite{Fratantonio2016} uses a combination of static analysis
+and symbolic execution to identify particularly complex trigger conditions
+associated with potentially malicious code. They attempt to detect ``logic bombs''
+by identifying path conditions that are abnormally complex when simplified.
+\hogarth{} has three key differences with TriggerScope.
+First, our approach depends on gathering a representative corpus of
+dynamic traces, relying on the conceit that all permission uses will be
+exercised; TriggerScope specifically looks for triggers that are rare
+and specific.
+Second, because we rely on dynamic traces to drive further analysis of
+the application, we achieve a more precise result because all
+events observed in our dynamic traces are possible.  Third, because
+we rely on a minimal model of the system, our approach is more
+resilient to the changes in Android from version to version.
+
+%\jeff{I don't really buy the previous paragraph. The first part, being
+%  ``more sound,'' is not really sensible. For the second part, are we
+%  saying that the three tools above need some more complex system
+%  model (all three)? If so, we should say that first, then say we
+%  don't need that. Also, all of these have been applied to many
+%  hundreds of apps. We've applied only to 5 apps. So we need to
+%  something suggest here why what we're doing is so much better that
+%  it makes sense we've only run it on a few apps so far.}
+%\tom{more sound makes not sense, and we're not really sound anyway.
+%  I'm sure more sound was meant to be more precise, as this is the case
+%   (all our traces are real behaviors)}
+
+FuzzDroid~\cite{rasthofer2017making} uses a genetic mutation fuzzer to
+drive execution of an app toward a specific target location.
+IntelliDroid~\cite{wong2016intellidroid} uses static analysis to
+identify an overapproximation of inputs that could trigger malicious
+activity and then dynamically executes these inputs to prune false
+positives. These approaches identify a single path that reaches a
+target, in contrast to \hogarth{} which tries to identify the set of
+conditions that could lead to sensitive resource use.
+
+Lastly, AppTracer~\cite{micinski2017} uses dynamic analysis to
+discover what user interactions temporally precede sensitive resource
+uses. \hogarth{} builds on AppTracer's tracing infrastructure, which
+also uses Redexer, but adds inter-callback graph generation, to
+discover dependencies among callbacks, and symbolic execution/abstract
+interpretation, to recover path conditions. As a result, \hogarth{}
+can infer much richer contextual information about sensitive resource
+uses than AppTracer.
+
+
+\paragraph*{Taint and Flow Analysis for Android.}
+
+TaintDroid~\cite{Enck2010} modifies the Android firmware to perform
+system-wide dynamic taint-tracking and notifies the user whenever sensitive
+data is leaked.  Phosphor~\cite{Bell2014} provides similar
+taint-tracking, but instead modifies the JVM to improve portability.
+FlowDroid~\cite{Arzt2014} uses static data-flow analysis find sensitive
+data leaks. These tools all focus on data flow, which is orthogonal to
+the control-flow (e.g., path conditions) dependencies that \hogarth{}
+discovers.
+
+\paragraph*{Other Analyses for Android.}
+
+% A key challenge we faced was in defining a minimal model of the
+% system.  Due to the complexity of the Android system, we could not
+% dynamically log all the internal behaviors of the Android framework,
+% so we needed a way to model the system behavior by connecting
+% callbacks directly to their registrations.
+Yang et al.~\cite{Yang2015} present a model for tracking callback
+sequences in Android called \textit{Callback Control-Flow Graphs}
+(CCFG).  By connecting callbacks to their sources through the
+framework, CCFGs allow a static analysis to traverse
+context-sensitive control flow
+paths and identify callbacks that could be triggered.  Because it is 
+possible for different callbacks to be triggered based on the invocation 
+context of the handler, e.g. ~\code{onClick} may trigger different callbacks
+depending on the widget it is associated with.  This context-sensitivity improves
+the precision of static analysis in Android.
+
+Building on the concept of CCFGs, EdgeMiner~\cite{cao:2015:edgeminer} performs a
+static analysis that automatically creates API summaries describing the
+relationship between callbacks and registrations through the framework via static
+data-flow analysis.  As mentioned earlier, we use EdgeMiner's list of
+API methods that could register callbacks, but refine it by actual observations of
+data flows. 
+
+User-centric dependence analysis~\cite{elish2012} uses a dependence analysis
+of Android apps to characterize the data consumption behaviors along paths
+from user inputs to sensitive resource uses.  This project is a preliminary effort
+at identifying which user inputs a sensitive API call depends upon.
+%
+
+
+%
+
+% However, we do not use its information about the relationships
+% between callbacks and registrations because we found it to be too
+% imprecise. \jeff{prev correct?}
+
+% Using this systematic approach to developing a framework model,
+% EdgeMiner can quickly adapt their model to frequent changes in
+% Android.  We utilize the insights of this research \tom{state the
+%   insight? Doesn't EM do static analysis within the framework?} to
+% allow minimal logging while still tracking our dynamic traces as they
+% cross the system boundary.
+
+%JF: This doesn't seem that relevant.
+% Hopper~\cite{Blackshear2015} introduces a static analysis that can
+% ``jump'' sections of the control flow to
+% focus on only relevant (i.e. control and data
+% dependent) components of the code and avoid intractability.
+% Blackshear et al. use this analysis in Hopper to identify null-pointer
+% dereferences.
+
+\paragraph*{Concolic Execution.}
+
+One style of symbolic execution is \emph{concolic
+  execution}~\cite{Godefroid:2005:DDA:1065010.1065036,
+  Sen:2005:CCU:1081706.1081750, Cadar:2006:EXE}, in which programs are
+instrumented to track symbolic expressions at run-time along with
+their concrete counterparts in the actual run.  A benefit of concolic
+execution is that when a system call is made, any symbolic expressions
+passed in can be \emph{concretized}, i.e., made equal to, their
+underlying values. This lets concolic executors avoid needing to model
+system calls, though at the expense of less power (e.g., not all
+possible paths that system call could take will be modeled).  In a
+sense, \hogarth{}'s approach is dual to concolic execution: We start
+with a concrete trace, and we then turn system call returns into
+\emph{abstract} values so we can track their effect on program
+execution.
+% This lets us generalize concrete traces, though it might
+% result in over-generalization where a system call return has extra
+% constraints that \hogarth{} does not observe.
+%JF: But we don't use the generalization for the same thing so it
+%doesn't matter as much. So probably don't say that.
+
+
+
+\paragraph*{Text-based Contextual Security.}
+
+Several researchers have explored natural-language contextual security for Android.
+%
+For example, BACKSTAGE~\cite{avdiienkodetecting} mines Android apps for
+pairs of UI elements and the API calls they trigger and performs a
+clustering analysis to find outliers that invoke APIs atypical for their
+UI elements and textual descriptions.
+%
+AsDroid~\cite{Huang2014} performs static analysis of top-most app methods
+and textual analysis of UI components they are associated with, to detect
+semantic mismatches.
+%
+Slavin, et al.~\cite{slavin2016toward} produce a map of API methods to
+privacy policy phrases in order to check that natural-language privacy
+policies match the API uses in Android apps.
+%
+TAPVerifier~\cite{yu2016revisiting} builds a data-flow model of the target app
+and a natural-language model of its privacy policy to detect a mismatch.
+%
+Wijesekera, et al.~\cite{WijesekeraBTREW17} and Olejnik, et al.~\cite{olejnik2017}
+consider context outside of the app such as whether the app was in the foreground
+or background, whether the user was home or in public.
+
+
+Our approach is orthogonal to these in that we use inter-callback control
+flow and symbolic constraints on data as our notion of context, and rely on
+a human auditor to interpret reasonable versus malicious triggers based on
+provenance diagrams.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+In this paper, we introduced a new approach that uses dynamic
+analysis, symbolic execution, and abstract interpretation to
+automatically recover the provenance of permission uses in Android
+apps. We described \hogarth{}, a prototype implementation of our
+approach, and applied it to a set of five Android apps, demonstrating
+that it produces results comparable to a skilled reverse engineer.
+%We describe \hogarth{}, a prototype tool that uses our approach to produce provenance 
+%diagrams that provide this context for the use of sensitive resources within an app.
+%Our prototype demonstrates that our strategy can produce useful provenance diagrams that 
+%identify key triggers of sensitive acesses, with results that are comparable to those 
+%from a skilled reverse engineer.
+
+In future work, we plan to modify \hogarth{} to build provenance
+diagrams incrementally on demand, to improve performance.  We also
+plan to explore how to most usefully visualize provenance diagrams to
+aid skilled auditors in their analysis.  We envision productive
+interactions between a live visualization of provenance and an auditor
+that allows probing down into the source code in a fine-grained way.
+
+We believe that \hogarth{} provides a promising proof of concept, and
+we think the approach has the potential to be of significant aid in
+app auditing (at the market level), malware analysis, and reverse
+engineering.
+
+%JF: multi-dex is really not interesting...
+% extend \hogarth{} to handle multi-dex applications (those with over
+% $2^{16}$ methods), to perform backtracking on demand, 
+% \jeff{what is backtracking?}
+% and to coalesce
+% on-the-fly as we backtrack (currently both of these steps, drawing
+% inter-callback connections and summarization, are separate steps
+% peformed all at once).
+%

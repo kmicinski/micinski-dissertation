@@ -1,0 +1,69 @@
+\paragraph{Revealing contacts in a designated group}
+
+Imagine an application that interacts with a remote server that allows
+a user to backup selected contacts so that they may later be
+retrieved.  The set of the user's contacts is private information, and
+the app will query the user to pick a contact to send to the service
+so that it may be backed up.  The property we wish to maintain is that
+the server can never learn the value of a contact until it has been
+selected from the list.
+
+The following is a correct implementation of this functionality:
+
+\input{examples/share_private_contacts.pi}
+
+\input{examples/share_private_contacts.policy}
+
+\paragraph{Selecting a private contact from a list}
+
+In this example, the user selects a private contact from a contact
+picker provided to the user.  The idea is that the attacker is allowed
+to learn the selected contact, but no more information about the list.
+
+This is an example of the core formalism:
+\begin{itemize}
+
+\item The user sends the private data (a \code{string list}) to the
+  application
+\item The user selects a number within the range $0$ to $length(x) -
+  1$ to index into the list
+\item The application sends only \code{x[y]} to the remote application
+  through the special channel \code{net}.
+\item The remote application reads the selected contact through the
+  \code{net} channel.
+\end{itemize}
+
+\input{examples/private_list_select.pi}
+
+We next want to move from this core formalism to a formalism where we
+actually lay out GUI buttons and events.  Specifically, we want a
+formalism that will give us a spinner, and a button to select from a
+set of possible outputs.  We want the action to be such that when the
+user from a list, it is sent to the web:
+
+\input{examples/private_list_select_gui.pi}
+
+Now we need to specify the policy on $x$:
+
+\input{examples/private_list_select_gui.policy}
+
+\paragraph{Toggling between city and state}
+
+In the following example, we continually send our location to a remote
+server (for example, for location based search results).  We want the
+GUI to have a checkbox that can be in two states:
+
+\begin{itemize}
+\item If the checkbox is checked, we send fine grained location
+  information to the server.
+\item If the checkbox is unchecked, we mask our location so that we
+  only reveal our location to within a mask.
+\end{itemize}
+
+The following program implements this functionality:
+
+\input{examples/toggle_location_granularity.pi}
+
+The security policy is:
+
+\input{examples/toggle_location_granularity.policy}

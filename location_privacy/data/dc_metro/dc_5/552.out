@@ -1,0 +1,52 @@
+android.widget.FrameLayout@40639ac8
+android.widget.TabHost@405a0d88
+android.widget.LinearLayout@4050dfe0
+android.widget.LinearLayout@4050e268
+android.widget.LinearLayout@40515f30
+android.widget.ImageView@4061d628
+android.widget.ImageButton@4061d850
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40624d28
+android.widget.ProgressBar@40625a40
+android.widget.ImageButton@40626210
+android.widget.TabWidget@4050e728
+android.widget.LinearLayout@40578d28
+android.widget.ImageView@40583810
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@405a4530
+android.widget.ImageView@40594df8
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40609a08
+android.view.View@40596168
+android.widget.ImageView@40609b88
+android.widget.TextView: Approx Address (within 0.0 meters)
+3555 Springland Ln NW
+Washington, District of Columbia 20008
+android.widget.ImageView@4060a4b0
+com.jazzmoonstudio.android.common.view.CustomViewPager@406023c8
+android.support.v4.app.y@40513958
+android.widget.LinearLayout@4062c7b0
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062d2b0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4059c438
+android.widget.ImageView@4059c648
+android.widget.TextView: Van Ness-UDC
+android.widget.TextView: Approx: 0.47 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4059d3a8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4059aea8
+android.widget.ImageView@4059b0b8
+android.widget.TextView: Tenleytown-AU
+android.widget.TextView: Approx: 0.70 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4059be18
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4066a550
+android.widget.ImageView@4066a6c0
+android.widget.TextView: Cleveland Park
+android.widget.TextView: Approx: 0.79 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40569e28
+android.support.v4.app.y@4058f478
+android.widget.LinearLayout@4055cd78
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4056e658
+android.widget.FrameLayout@4060cfe8
+com.millennialmedia.android.MMAdView@4060d2a8
+android.webkit.WebView@40627558

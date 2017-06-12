@@ -1,0 +1,71 @@
+Success
+	pkg: /data/local/tmp/troyd.apk
+Success
+apk: /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../apks/com.accuweather.android.apk
+Loaded suite /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android
+Started
+I/umd.troyd( 8435): acp.clientlib.AcpAct
+D/umd.troyd( 8435): got command clickImg
+D/umd.troyd( 8435): click: 2th image
+D/umd.troyd( 8435): got command clickImg
+D/umd.troyd( 8435): click: 1th image
+D/umd.troyd( 8435): got command getViews
+D/umd.troyd( 8435): android.widget.FrameLayout@4065b918
+D/umd.troyd( 8435): com.android.internal.widget.WeightedLinearLayout@40676e90
+D/umd.troyd( 8435): android.widget.LinearLayout@4069a788
+D/umd.troyd( 8435): android.widget.LinearLayout@4069de88
+D/umd.troyd( 8435): android.widget.ImageView@405e5e70
+D/umd.troyd( 8435): com.android.internal.widget.DialogTitle: Loading…
+D/umd.troyd( 8435): android.widget.ImageView@405f4b40
+D/umd.troyd( 8435): android.widget.LinearLayout@405febd0
+D/umd.troyd( 8435): android.widget.ScrollView@40526330
+D/umd.troyd( 8435): android.widget.FrameLayout@4062ece0
+D/umd.troyd( 8435): android.widget.FrameLayout@406be198
+D/umd.troyd( 8435): android.widget.FrameLayout@405ef910
+D/umd.troyd( 8435): android.widget.LinearLayout@4060b460
+D/umd.troyd( 8435): android.widget.ProgressBar@40614a08
+D/umd.troyd( 8435): android.widget.TextView: 
+D/umd.troyd( 8435): android.widget.LinearLayout@406bff70
+D/umd.troyd( 8435): android.widget.LinearLayout@406c6830
+D/umd.troyd( 8435): android.widget.LinearLayout@4079c578
+D/umd.troyd( 8435): android.widget.Button: 
+D/umd.troyd( 8435): android.widget.Button: 
+D/umd.troyd( 8435): android.widget.Button: 
+D/umd.troyd( 8435): android.widget.LinearLayout@4058a498
+D/umd.troyd( 8435): got command getActivities
+D/umd.troyd( 8435): opened: acp.clientlib.AcpAct
+D/umd.troyd( 8435): opened: com.accuweather.android.MainActivity
+E
+Finished in 82.230492 seconds.
+
+  1) Error:
+test_Test(TroydTest):
+Timeout::Error: execution expired
+    /usr/lib/ruby/1.8/timeout.rb:64:in `runcmd'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/adb.rb:132:in `sync_logcat'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/adb.rb:124:in `cmd'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:132:in `no_arg'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:70:in `finish'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:59:in `teardown'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:57:in `teardown'
+
+1 tests, 0 assertions, 0 failures, 1 errors
+Finished in 82.230492 seconds.
+
+  1) Error:
+test_Test(TroydTest):
+Timeout::Error: execution expired
+    /usr/lib/ruby/1.8/timeout.rb:64:in `runcmd'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/adb.rb:132:in `sync_logcat'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/adb.rb:124:in `cmd'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:132:in `no_arg'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/../bin/cmd.rb:70:in `finish'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:59:in `teardown'
+    /home/micinski/projects/android/troyd-accuweather/location_testing/../bin/../testcases/com.accuweather.android.rb:57:in `teardown'
+
+1 tests, 0 assertions, 0 failures, 1 errors
+here!
+opened activities: 2
+acp.clientlib.AcpAct
+com.accuweather.android.MainActivity
+

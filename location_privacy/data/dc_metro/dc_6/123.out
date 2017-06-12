@@ -1,0 +1,54 @@
+android.widget.FrameLayout@405689c0
+android.widget.TabHost@40637670
+android.widget.LinearLayout@40637980
+android.widget.LinearLayout@4063c3d8
+android.widget.LinearLayout@4057aae8
+android.widget.ImageView@40612bb8
+android.widget.ImageButton@40612db0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4057c268
+android.widget.ProgressBar@40605b48
+android.widget.ImageButton@40606318
+android.widget.TabWidget@4063c898
+android.widget.LinearLayout@40585790
+android.widget.ImageView@4056bed8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4056fe08
+android.widget.ImageView@405898f8
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4063a600
+android.view.View@4057b770
+android.widget.ImageView@40636340
+android.widget.TextView: Approx Address (within 0.0 meters)
+1101 Chapel Dr
+College Park, Maryland 20740
+android.widget.ImageView@406079a8
+com.jazzmoonstudio.android.common.view.CustomViewPager@405a0360
+android.support.v4.app.y@40548050
+android.widget.LinearLayout@4062d578
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062e078
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40613e18
+android.widget.ImageView@4067b708
+android.widget.TextView: College Park-U of MD
+android.widget.TextView: Approx: 0.88 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405123d0
+android.support.v4.app.y@40575650
+android.widget.LinearLayout@4063ed30
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054e0a8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4061c680
+android.widget.TextView: CAMPUS DR + PREINKERT DR
+android.widget.TextView: Approx: 0.34 mi.
+android.widget.TextView: Stop ID: 3002152
+Lines: C2v1,C8,C8v1,C8v2,C8v3,F6,F6v1,J4
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40584a18
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40579b60
+android.widget.TextView: BALTIMORE AVE + REGENTS DR
+android.widget.TextView: Approx: 0.46 mi.
+android.widget.TextView: Stop ID: 3002115
+Lines: 81,83,86
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40576210
+android.widget.FrameLayout@40569b28
+com.millennialmedia.android.MMAdView@40569ce0
+android.webkit.WebView@406282e8

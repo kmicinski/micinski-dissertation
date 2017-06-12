@@ -1,0 +1,658 @@
+metavar x,y  ::= {{ com variable }} {{ lex alphanum }} 
+metavar f ::= {{ com function }}
+metavar id ::= {{ com identifier }} {{ tex $id$ }}
+metavar addr ::= {{ com address }}
+metavar P,Q,R ::= {{ com process }}
+metavar Ty ::= {{ com Type }}
+%metavar A  ::= {{ com base type }}
+metavar nat ::= {{ com constant }} {{ lex numeral }}
+metavar dc  ::= {{ com declassification channel name  }}
+metavar c  ::= {{ com channel }}
+metavar n,j,l  ::= {{ com integer }} {{ lex numeral }}
+metavar op ::= {{ com operator }}
+metavar ty ::= {{ com type }} {{ tex \tau }}
+metavar C  ::= {{ com class identifier }}
+indexvar i ::= {{ hol num }} {{ coq nat }} 
+
+%% -------------------------------------------------------------------
+%% Programs
+%% -------------------------------------------------------------------
+
+grammar
+
+%% terminal symbols
+terminals :: 'terminals_' ::=
+  | \                   ::   :: lambda     {{ tex \lambda }}
+  | -->                 ::   :: red        {{ tex \longrightarrow }}
+  | -->m                ::   :: redm       {{ tex \overset{\longrightarrow}{msg\?} }}
+  | ->                  ::   :: arrow      {{ tex \rightarrow }}
+  | <-                  ::   :: larrow      {{ tex \leftarrow }}
+  | |-                  ::   :: turnstile  {{ tex \vdash }}
+  | -o                  ::   :: lollipop   {{ tex \multimap }}
+  | |>                  ::   :: handle     {{ tex \triangleright }} 
+  | <                   ::   :: langle     {{ tex \langle }}
+  | >                   ::   :: rangle     {{ tex \rangle }}
+%%  |                   ::   :: in         {{ tex \in }}
+  | join                ::   :: join       {{ tex \sqcup }}
+  | meet                ::   :: meet       {{ tex \sqcap }}
+  | empty               ::   :: empty      {{ tex \emptyset }}
+  | oper                ::   :: oper         {{ tex \oplus }}
+  | le                  ::   :: le         {{ tex \sqsubseteq }}
+  | NI                  ::   :: NI         {{ tex $NI$ }}
+  | ||                  ::   :: par        {{ tex \parallel }}
+  | |||                 ::   :: cpar       {{ tex \parallel_{C} }}
+  | op                  ::   :: op         {{ tex \oplus }}
+  | forall              ::   :: forall     {{ tex \forall }}
+  | forallr             ::   :: forallr     {{ tex \forall^r }}
+  | glob                ::   :: glob       {{ tex \square }}
+  | dot                 ::   :: dot        {{ tex \cdot }}
+  | knows               ::   :: knows      {{ tex K }}
+  | fut                 ::   :: fut        {{ tex \lozenge }}
+  | and                 ::   :: and        {{ tex \land }}
+  | or                  ::   :: or         {{ tex \lor }}
+  | cons                ::   :: cons       {{ tex :: }}
+  | nil                 ::   :: nil        {{ tex nil }}
+  | U                   ::   :: until      {{ tex U }}
+  | tt                  ::   :: true       {{ tex \top }}
+  | ff                  ::   :: false      {{ tex \bot }}
+  | T                   ::   :: top        {{ tex \top }}
+  | F                   ::   :: bot        {{ tex \bot }}
+  | |=                  ::   :: models     {{ tex \models }}
+  | !=                  ::   :: nmodels    {{ tex \nvDash }}
+  | ~=                  ::   :: neq 	   {{ tex \neq }}
+  | ~                   ::   :: not        {{ tex \lnot }}  
+  | >=                  ::   :: gte        {{ tex \geq }}
+  | >                   ::   :: gt         {{ tex \gt }}
+  | exists              ::   :: exists     {{ tex \exists }}
+  | obv_equiv           ::   :: obv_equiv  {{ tex \equiv^{obv} }}
+  | ins                 ::   :: ins        {{ tex \in }}
+  | nins                ::   :: nins       {{ tex \not\in }}
+  | =>                  ::   :: rede       {{ tex \Downarrow_e }}
+  | new                 ::   :: new        {{ tex \nu }}
+  | |-                  ::   :: types      {{ tex \vdash }}
+
+%% -------------------------------------------------------------------
+%% Process Calculus
+%% -------------------------------------------------------------------
+
+%% Names
+%policy_name :: 'Name_' ::=
+%  | dc              ::  :: Name
+
+k :: 'konst_' ::=
+  | nat  :: :: Nat
+  | str  :: :: String
+  | H    :: :: High
+  | L    :: :: Low
+  | tt   ::  :: True
+  | ff   ::  :: False
+
+dchan :: 'dc_' ::=
+  | c r  ::  :: ReleaseChan {{ tex [[c]]^r }}
+
+%% Channels
+chan :: 'chan_' ::=
+  | c     ::  :: ChanVar
+
+%% Values
+v :: 'Val_' ::=
+  | k                ::  :: Const
+  | chan             ::  :: Chan
+  | x                ::  :: Var
+  | nil              ::  :: Nil
+  | v1 cons v2       ::  :: Cons
+  | addr             ::  :: Address
+  | ()               ::  :: Unit
+  | tt               ::  :: True
+  | ff               ::  :: False
+
+%% -------------------------------------------------------------------
+%% Lambda fragment
+%% -------------------------------------------------------------------
+
+bop :: 'Bop_' ::= {{ com Binary operators }}
+  | beq  :: :: BEq {{ tex = }}
+  | bneq :: :: BNeq {{ tex \neq }}
+
+%% Match patterns
+matchpat :: 'Match_' ::=
+  | k                                 ::  :: Const
+  | x                                 ::  :: Var
+  | ( matchpat1 , matchpat2 )         ::  :: Pair
+  | [ matchpat1 , .. , matchpati ]    ::  :: Lst
+
+%% Expressions
+e :: 'Exp_' ::=  {{ com Expressions }}
+  | v                     ::  :: Val     {{ com Value }}
+  | e1 bop e2             :: M:: Bop 
+  | if e1 then e2 else e3 ::  :: If      {{ com If }}
+  | e1 e2                 ::  :: App     {{ com Application }}
+  | fix f . e             ::  :: Fix     {{ com Recursion }}
+  | \ x . e               ::  :: Lam     {{ com Abstraction }}
+  | \ matchpat . e        :: M:: Match   {{ com Abstraction }}
+  | case e of e1 e2       ::  :: Sum     {{ com Case }}
+  | ( e1 , e2 )           ::  :: Pair    {{ com Pair }}
+  | e1 cons e2            ::  :: Cons    {{ com Cons }}
+  | { e / x } e'          :: M:: Esub    
+
+gui :: 'Gui_' ::=  {{ com GUI handlers }}
+  | button < k , c >      ::  :: Button
+  | spinner < e , v , c > ::  :: Spinner
+  | checkbox < c >        ::  :: Checkbox
+  | textbox < c >         ::  :: Text
+
+%% -------------------------------------------------------------------
+%% process fragment
+%% -------------------------------------------------------------------
+
+%% Processes
+p :: 'P_' ::=  {{ com Processes }}
+  | 0                              ::  :: Null  {{ com Inert Process}}
+  | p1 || p2                       ::  :: Composition  {{ com Composition }}
+  | ! p                            ::  :: Replication  {{ com Replication}}
+  | new x . p                      ::  :: Restriction  {{ com Restriction }}
+  | if e1 = e2 then p1 else p2     ::  :: Conditional
+  | [[ phi ]] p                    ::  :: Knowledge {{ com Knowledge }}
+  | c ( x ) . p                    ::  :: Input  {{ com Input }}
+  | dchan ( x ) . p                ::  :: GuiInput  {{ com GUI Input }}
+  | c < x > . p                    ::  :: Output  {{ com Output }}
+  | p1 ; p2                        ::  :: Seq {{ com Sequence }}
+  | set addr <- e ; p              ::  :: Set {{ com Assignment }}
+  | let x = e in p                 ::  :: Let
+  | let x matchpat1 .. matchpati = e in p :: M:: LetMatch
+  | let x = ref v in p             ::  :: Ref {{ com Reference }}
+  | let x = get v in p             ::  :: Get {{ com Lookup }}
+  | let c = gui in p               ::  :: Gui 
+  | ( red p )                      :: M:: red {{ tex \Red{$[[p]]$} }}
+  | ( grn p )                      :: M:: grn {{ tex \Grn{$[[p]]$} }}
+  | ( p )                          :: M:: Paren
+  | { v / x } p                    :: M:: Psub
+%  | { v / chan } p                 :: M:: CSub
+  | { chan / c } p                 :: M:: CSub2
+
+% App :: 'App_' ::=
+%   | c ( x ) . App                  ::  :: Input
+%   | p                              ::  :: Proc
+
+% User :: 'User_' ::=
+%   | c < x > . User                 ::  :: Output
+%   | p                              ::  :: Proc
+
+%% Program
+%%Prog :: 'Prog_' ::=
+%%  | (App || User) ||| p       ::  :: Program
+
+%% Observable state 
+O :: 'O_' ::=
+  | msg cons O  ::  :: Msg
+  | nil         ::  :: Nil
+
+vset :: 'Vset_' ::=
+  | { v }            ::  :: Singleton
+  | { v1 , .. , vi } ::  :: Vals
+  | {}               ::  :: Empty
+
+% Declassification channel value ranges (set of things that can happen)
+Cvm :: 'Cvm_' ::=
+  | { c r -> vset } , Cvm ::  :: Extend
+  | nil                   ::  :: None
+  | ( red Cvm )           :: M:: red {{ tex \Red{$[[Cvm]]$} }}
+  | ( Cvm )               ::  :: Paren
+
+% Declassification channel map
+Dc :: 'Dc_' ::=
+  | { name -> O } , Dc        ::  :: Extend
+  | nil                       ::  :: None
+  | update ( Dc , dchan , v ) :: M:: Update
+  | ( red Dc )                :: M:: red {{ tex \Red{$[[Dc]]$} }}
+  | ( grn Dc )                :: M:: grn {{ tex \Grn{$[[Dc]]$} }}
+
+
+%% Store
+Sigma :: 'Sigma_' ::= {{ tex \sigma }}
+  | { addr -> v } , Sigma  ::  :: Extend
+  | dot                    ::  :: None
+  | ( Sigma )              :: M:: Paren
+  | ( red Sigma )          :: M:: red {{ tex \Red{$[[Sigma]]$} }}
+  | ( grn Sigma )          :: M:: grn {{ tex \Grn{$[[Sigma]]$} }}
+
+%% Machine configuration
+M :: 'M_' ::=
+  | < p , Cvm , Dc , Sigma >  ::  :: Config
+
+%% Trace
+trace :: 'trace_' ::= %%{{ tex tr }}
+  | (< Prog , nil , nil > , 0 ) -->m execution  ::  :: Start
+  | (M , i) -->m execution                      ::  :: Continue
+  | (M , i)                                     ::  :: End
+
+Traces :: 'Traces_' ::= {{ tex \mathcal{T} }}
+  | trace conns Traces  ::  :: Cons
+  | nil                 ::  :: None
+
+%% -------------------------------------------------------------------
+%% Type syntax
+%% -------------------------------------------------------------------
+
+A :: 'A_' ::= {{ com Base types }}
+  | string        ::  :: String
+  | num           ::  :: Num
+  | bool          ::  :: Bool
+  
+ftau :: 'ftau_' ::= {{ tex \tau^f }} {{ com First order types }}
+  | A             ::  :: Base
+  | ftau1 + ftau2 ::  :: Sum
+  | ftau1 * ftau2 ::  :: Pair
+  | list ftau     ::  :: List
+
+%% Expression types
+tau :: 'tau_' ::= 
+  | A             ::  :: Base
+  | tau1 + tau2   ::  :: Sum
+  | tau1 * tau2   ::  :: Pair
+  | tau1 -> tau2  ::  :: Fun
+  | list tau      ::  :: List
+  | ref A         ::  :: Ref
+  | ( tau )       :: M:: Parn
+
+ptau :: 'ptau_' ::=
+  | 1                ::  :: Unit
+  | ! ptau           ::  :: Bang
+  | ptau1 ten ptau2  ::  :: Tensor
+  | ptau1 -o ptau2   ::  :: Lolli
+  | ptau1 op ptau2   ::  :: Oplus
+  | ptau1 & ptau2    ::  :: OAnd
+
+%% Typing contexts
+Gamma :: 'Gamma_' ::= {{ tex \Gamma }}
+  | x : tau , Gamma ::  :: Extend
+  | f : tau , Gamma :: M:: Extend2 %% XXXXX
+  | dot             ::  :: Empty
+
+Delta :: 'Delta_' ::= {{ tex \Delta }}
+  | c car ptau , Delta ::  :: Extend
+  | dot                ::  :: Empty
+
+%% Process types
+%ptau :: 'ptau_' :: {{ tex \tau^p }}
+%  | 
+
+%% -------------------------------------------------------------------
+%% Logic formulas
+%% -------------------------------------------------------------------
+
+exp :: 'exp_' ::=
+  | secret ( x )            ::  :: ExpInit
+  | k                       ::  :: ExpConst
+  | x                       ::  :: Var
+  | op ( exp1 , .. , expi ) ::  :: ExpOp
+  | exp1 [ exp2 ]           :: M:: ExpIndex
+  | events ( chan )         ::  :: Trace
+
+%%trc :: 'trc_' ::=
+%%  | trace(c)   ::  :: Trace
+%%  | last(c)    ::  :: Last
+%%  | k          ::  :: Const
+
+%%tr :: 'tr_' ::=
+%%  | trc1 = trc2 ::  :: Eq
+%%  | tr1 and tr2 ::  :: And
+%%  | tr1 or tr2  ::  :: Or
+
+phi {{ tex \phi }} :: 'Phi_' ::= 
+  | T                        ::  :: True
+  | F                        ::  :: False
+  | exp1 = exp2              ::  :: Eq
+  | phi1 and phi2            ::  :: And
+  | phi1 or phi2             ::  :: Or
+  | knows ( phi )            ::  :: Knows
+  | phi1 U phi2              ::  :: Until
+  | fut ( phi )              ::  :: Future
+  | glob ( phi )             ::  :: Always
+  | phi1 -> phi2             ::  :: Implies
+  | forall x : ftau . phi    ::  :: Forall
+  | exists x : ftau . phi    ::  :: Exists
+  | ~ phi                    ::  :: Not
+  | x in exp                 :: M:: In
+  | ( phi )                  :: M:: Parn
+  | { v / x } phi            :: M:: FSub
+%%  | Edge ( x , phi )         ::  :: When
+
+formula :: formula_ ::=
+  | judgement                        ::  :: judgement
+  | addr fresh for Sigma             ::  :: addr_fresh_for_G
+  | exists formula1 . formula2       ::  :: exists
+  | forall formula1 . formula2       ::  :: forall
+  | formula1 >= formula2             ::  :: gte
+  | formula1 > formula2              ::  :: gt
+  | formula1 = formula2              ::  :: eq
+  | formula1 != formula2             ::  :: neq
+  | e : tau                          ::  :: typ
+  | v : ftau                         ::  :: typ2
+  | k                                ::  :: const
+  | x                                ::  :: var
+  | j                                ::  :: j
+  | v                                ::  :: v
+  | n                                ::  :: n
+  | Gamma                            ::  :: gamma
+  | trace                            ::  :: trace
+  | denot ( trace , n , exp )        ::  :: denot
+  | Cvm ( dchan )                    ::  :: dm
+  | formula1 ins formula2            ::  :: in
+  | obv_equiv ( trace , n , Traces ) ::  :: obvequiv
+  | { formula }                      ::  :: set
+  | formula1 nins formula2           ::  :: nsin
+  | free ( p )                       ::  :: free
+  | events ( trace , formula )       ::  :: trc
+  | ( formula1 , formula2 )          ::  :: pair
+  | ( formula1 , formula2 ]          ::  :: interval  {{ tex \( [[formula1]] , [[formula2]] \] }}
+  | [ formula1 , formula2 )          ::  :: intervall  {{ tex [ [[formula1]] , [[formula2]] ) }}
+
+%ftrans :: 'ftrans_' ::=
+%  | 
+
+%%
+%% Transition semantics
+%%
+
+defns Evaluates :: '' ::= 
+
+defn
+e , Sigma => v
+
+:: :: ereduces :: 'EEvalutes'
+{{ com Evalutes }}
+by
+
+-------------- :: EConst
+k , Sigma => k
+
+defns Reduces :: '' ::=
+
+defn
+< p1 , Cvm1 , Dc1 , Sigma1 > --> < p2 , Cvm2 , Dc2 , Sigma2 >
+
+:: :: preduces :: 'Reduces'
+{{ com Reduces }}
+by
+
+p1 congr p2
+--------------------------------------------- :: Congr
+< p1 , Cvm , Dc, Sigma1 > --> < p2 , Cvm , Dc, Sigma2 >
+
+e1 , Sigma => v1
+e2 , Sigma => v2
+v1 = v2
+-------------------------------------------------------------------- :: IfTrue
+< if e1 = e2 then p1 else p2 , Cvm , Dc, Sigma > --> < p1 , Cvm , Dc, Sigma >
+
+e1 , Sigma => v1
+e2 , Sigma => v2
+v1 != v2
+------------------------------------------------------------------- :: IfFalse
+< if e1 = e2 then p1 else p2 , Cvm , Dc, Sigma > --> < p2 , Cvm , Dc, Sigma >
+
+addr fresh for Sigma
+----------------------------------------------------------------------------------------- :: Ref
+< let x = ref v in p , Cvm , Dc, ( grn Sigma ) > --> < { addr / x } p , Cvm , Dc, ( grn ( {addr -> v} , Sigma ) ) >
+
+< p1 , Cvm1 , Dc1, Sigma1 > --> < p2 , Cvm2 , Dc2 , Sigma2 >
+--------------------------------------------------------------------- :: Red
+< p1 || p3 , Cvm , Dc1, Sigma1 > --> < p2 || p3 , Cvm2 , Dc2 , Sigma2 >
+
+< p1 , Cvm1 , Dc1 , Sigma1 > --> < p2 , Cvm2 , Dc2 , Sigma2 >
+--------------------------------------------------------------------------- :: New
+< new x . p1 , Cvm1 , Dc1 , Sigma1 > --> < new x . p2 , Cvm2 , Dc2 , Sigma2 >
+
+--------------------------------------------------------------------------------------- :: Comm
+< c ( x1 ) . p1 || c < x2 > . p2 , Cvm , Dc, Sigma > --> < { v / x } p1 || p2 , Cvm , Dc, Sigma >
+
+e , Sigma => v
+-------------------------------------------------------------- :: Let
+< let x = e in p , Cvm , Dc, Sigma > --> < { v / x } p , Cvm , Dc, Sigma >
+
+e , Sigma => v
+---------------------------------------------------------------------------------------------------------- :: Set
+< set addr <- e ; p , Cvm , Dc, ( grn Sigma ) > --> < p , Cvm , Dc, ( grn ( {addr -> v} , Sigma ) ) >
+
+------------------------------------------------------------------------------------------------------------------------------------ :: Btn
+< ( red ( let c1 = button < k , c2 r > in p ) ) , ( red Cvm ) , Dc, Sigma > --> < ( red ( { c2 r / c1 } p ) ) , ( red ( {c2 r -> {()} } , Cvm ) ) , Dc, Sigma >
+
+v ins Cvm (c r)
+--------------------------------------------------------------------------------------------------------------------------- :: GuiInput
+< ( red (c r ( x ) . p ) ) , Cvm , (red Dc ), Sigma > --> < (red {v / x } p ) , Cvm , (red update ( Dc, c r , v ) ) , Sigma >
+
+%---------------------------------------------------------------------------- :: Checkbox
+%< let c1 = checkbox < c2 r > in p , Cvm , D , S > --> < { c2 r / c1 } p , {c2 r -> { 0 , 1 } } cons Cvm , D , S >
+
+%---------------------------------------------------------------------------- :: Spinner
+%< let c1 = spinner < e , v , c2 r > in p , Cvm , D , S > --> < { c2 r / c1 } p , {c2 r -> { 1 , .. , n } } cons Cvm , D , S >
+
+%% 
+%% Models
+%% 
+
+defns Models :: '' ::=
+
+
+%%
+%% Trace models phi
+%%
+
+%% What it means for a set of traces to model a formula
+
+defn
+Traces , ( trace , n ) |= phi
+
+:: :: tmodelsphi :: 'Models'
+{{ com Models }}
+{{ tex [[Traces]] , ( [[trace]] , [[n]] ) \models [[phi]] }}
+by 
+
+----------------------  :: True
+Traces, (trace,n) |= T
+
+
+Traces, (trace,n) != phi
+--------------------------  :: Not
+Traces, (trace,n) |= ~ phi
+
+denot( trace , n , exp1 ) = denot( trace , n , exp2 )
+----------------------------------------------------  :: Eq
+Traces, (trace,n) |= exp1 = exp2
+
+Traces, (trace,n) |= phi1
+Traces, (trace,n) |= phi2
+------------------------- :: And
+Traces, (trace,n) |= phi1 and phi2
+
+Traces, (trace,n) |= phi1
+--------------------------------- :: LOr
+Traces, (trace,n) |= phi1 or phi2
+
+Traces, (trace,n) |= phi2
+--------------------------------- :: ROr
+Traces, (trace,n) |= phi1 or phi2
+
+forall j . j >= n
+Traces, ( trace , j ) |= phi
+------------------------------ :: Glob
+Traces, ( trace , n ) |= glob ( phi )
+
+exists j . j >= n
+Traces, (trace,j) |= phi
+-------------------------------- :: Fut
+Traces, (trace,n) |= fut ( phi )
+
+( trace2 , j ) ins obv_equiv ( trace1 , n , Traces )
+%%j in { events ( trace1 , n ) = events ( trace1 , j ) }
+Traces, ( trace2 , j ) |= phi
+------------------------------------------------------ :: K 
+Traces, (trace1 , n ) |= knows ( phi )
+
+exists j . Traces, (trace , j) |= phi2
+l ins [ n , j )
+Traces, (trace , l) |= phi1
+---------------------------------- :: U 
+Traces, (trace , n) |= phi1 U phi2
+
+v : ftau
+Traces, (trace , n) |= { v / x } phi
+---------------------------------------------- :: ForallV
+Traces, (trace , n) |= forall x : ftau . phi
+
+defns NModels :: '' ::=
+
+defn
+Traces , ( trace , n ) != phi
+
+:: :: tnmodelsphi :: 'NModels'
+{{ com NModels }}
+{{ tex [[Traces]] , ( [[trace]] , [[n]] ) \nvDash [[phi]] }}
+by
+
+Traces, (trace,n) |= ~ phi
+--------------------------  :: Not
+Traces, (trace,n) != phi
+
+%% 
+%% 
+%% Equivalences
+%%
+%%
+
+%% 
+%% Alpha Equivalence
+%% 
+
+defns AEquiv :: '' ::=
+
+defn
+p1 alphaequiv p2
+
+:: :: alphaequiv :: 'AEquiv'
+{{ com Alpha Equivalent }}
+{{ tex [[ p1 ]] \equiv_a [[ p2 ]] }}
+by 
+
+-------------- :: IdEquiv
+p alphaequiv p
+
+%%
+%% Process congruence
+%% 
+
+defns Congr :: '' ::=
+
+%% Congruence over 
+defn
+p1 congr p2
+:: :: congruent :: 'Congruent'
+{{ com Congruent }}
+{{ tex [[ p1 ]] \equiv_p [[ p2 ]] }}
+by
+
+p1 alphaequiv p2
+---------------- :: AeqCongr
+p1 congr p2
+
+p1 congr p2
+----------------------- :: Reorder
+p1 || p2 congr p2 || p1
+
+p1 congr p2
+----------------------- :: Weakening
+p1 || p3 congr p2 || p3
+
+---------------- :: Zero
+p1 || 0 congr p1
+
+----------------------------------------- :: ReorderBinder
+new x . new y . p congr new y . new x . p
+
+-----------------  :: NewZero
+new x . 0 congr 0
+
+------------------ :: Bang
+! p congr p || ! p
+
+x nins free ( p2 )
+----------------------------------------- :: ScopeFree
+new x . ( p1 || p2) congr ( new x . p1 ) || p2
+
+%%
+%%
+%% Typing rules
+%%
+%%
+
+defns Types :: '' ::=
+
+defn
+Gamma |- e : tau
+
+:: :: ehastype :: 'EType'
+{{ com Expression typing }}
+{{ tex [[ Gamma ]] \vdash [[ e ]] : [[ tau ]] }}
+by 
+
+x : tau ins Gamma
+----------------- :: Var
+Gamma |- x : tau
+
+Gamma |- x1 : tau1
+Gamma |- x2 : tau2
+------------------------------- :: Prod
+Gamma |- ( x1 , x2 ) : tau1 * tau2
+
+Gamma |- x : tau1
+------------------------ :: Inr
+Gamma |- inl x : tau1 + tau2
+
+Gamma |- x : tau2
+------------------------ :: Inl
+Gamma |- inr x : tau1 + tau2
+
+x : tau1 , Gamma |- e : tau2
+------------------------ :: Lam
+Gamma |- \ x . e : tau1 -> tau2
+
+--------------------- :: Nil
+Gamma |- nil : list A
+
+% bop : tau1 -> tau2 -> tau3 in Gamma
+% x1 : tau1 ins Gamma
+% x2 : tau2 ins Gamma
+% -------------------- :: Bop
+% Gamma |- bop x1 x2 : tau3
+
+Gamma |- e1 : tau1 -> tau2
+Gamma |- e2 : tau1
+---------------------- :: App
+Gamma |- e1 e2 : tau2
+
+Gamma |- e1 : bool
+Gamma |- e2 : tau
+Gamma |- e3 : tau
+------------------------- :: If
+Gamma |- if e1 then e2 else e3 : tau
+
+
+f : tau1 -> tau2 , Gamma |- e : (tau1 -> tau2) -> tau1 -> tau2
+-------------------------------------------------------------- :: Fix
+Gamma |- fix f . e : tau1 -> tau2
+
+Gamma |- e1 : tau1 + tau2
+------------------------- :: Case
+Gamma |- case e1 of e2 e3 : tau1
+
+defn
+Gamma , Delta |- p : ptau
+
+:: :: phastype :: 'PType'
+{{ com Process typing }}
+{{ tex [[ Gamma ]] ; [[ Delta ]] \vdash [[ p ]] : [[ ptau ]] }}
+by
+
+------------------------- :: 1R
+Gamma ; dot |- 0 :: x : 1

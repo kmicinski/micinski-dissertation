@@ -1,0 +1,42 @@
+android.widget.FrameLayout@405810f0
+android.widget.TabHost@4057e2b8
+android.widget.LinearLayout@4057e5c8
+android.widget.LinearLayout@40565bc8
+android.widget.LinearLayout@40588620
+android.widget.ImageView@40588aa8
+android.widget.ImageButton@40588cd0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40625648
+android.widget.ProgressBar@40626410
+android.widget.ImageButton@40626be0
+android.widget.TabWidget@40566048
+android.widget.LinearLayout@40585e40
+android.widget.ImageView@4057f680
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40613a28
+android.widget.ImageView@40614028
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4056e940
+android.view.View@40620620
+android.widget.ImageView@4056eae0
+android.widget.TextView: Approx Address (within 0.0 meters)
+1810 Plymouth St NW
+Washington, District of Columbia 20012
+android.widget.ImageView@4060ff60
+com.jazzmoonstudio.android.common.view.CustomViewPager@4058a750
+android.support.v4.app.y@40582ae8
+android.widget.LinearLayout@405a0fc0
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@405a1d50
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4057adb8
+android.widget.ImageView@4057af28
+android.widget.TextView: Silver Spring
+android.widget.TextView: Approx: 0.82 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40680820
+android.support.v4.app.y@40621ae8
+android.widget.LinearLayout@40511788
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40581f78
+android.widget.FrameLayout@406386b8
+com.millennialmedia.android.MMAdView@40638978
+android.webkit.WebView@4059bd68

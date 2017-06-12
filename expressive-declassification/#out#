@@ -1,0 +1,1907 @@
+------------------------------------------------------------------------
+r19721 | micinski | 2015-07-01 20:31:56 -0400 (Wed, 01 Jul 2015) | 1 line
+
+adding TR version of Esorics 2015 paper.
+------------------------------------------------------------------------
+r19719 | micinski | 2015-06-29 10:20:35 -0400 (Mon, 29 Jun 2015) | 1 line
+
+adding cite to TR
+------------------------------------------------------------------------
+r19718 | micinski | 2015-06-28 18:39:48 -0400 (Sun, 28 Jun 2015) | 1 line
+
+removing all remaining comments and fixing broken citation
+------------------------------------------------------------------------
+r19717 | jfoster | 2015-06-27 18:49:28 -0400 (Sat, 27 Jun 2015) | 2 lines
+
+Some edits for space.
+
+------------------------------------------------------------------------
+r19716 | jfoster | 2015-06-27 18:43:52 -0400 (Sat, 27 Jun 2015) | 1 line
+
+Some edits.
+------------------------------------------------------------------------
+r19715 | micinski | 2015-06-26 21:43:31 -0400 (Fri, 26 Jun 2015) | 2 lines
+
+adding a pass through the paper.  Have not yet begun to collect stuff into a TR yet.
+
+------------------------------------------------------------------------
+r19713 | jfoster | 2015-06-26 15:37:44 -0400 (Fri, 26 Jun 2015) | 2 lines
+
+Some comments on todos.
+
+------------------------------------------------------------------------
+r19712 | jfoster | 2015-06-26 15:27:31 -0400 (Fri, 26 Jun 2015) | 1 line
+
+Edit to section 6.
+------------------------------------------------------------------------
+r19711 | jfoster | 2015-06-26 11:05:33 -0400 (Fri, 26 Jun 2015) | 1 line
+
+A pass over the related work section.
+------------------------------------------------------------------------
+r19710 | micinski | 2015-06-26 10:53:00 -0400 (Fri, 26 Jun 2015) | 1 line
+
+adding ref for security type systems
+------------------------------------------------------------------------
+r19709 | jfoster | 2015-06-26 10:25:15 -0400 (Fri, 26 Jun 2015) | 1 line
+
+Clean up wording a bit.
+------------------------------------------------------------------------
+r19708 | jfoster | 2015-06-26 10:24:10 -0400 (Fri, 26 Jun 2015) | 2 lines
+
+Adjust text responding to reviewer comment about non-obvious flows.
+
+------------------------------------------------------------------------
+r19707 | micinski | 2015-06-25 22:59:01 -0400 (Thu, 25 Jun 2015) | 1 line
+
+munging the related work section to address reviewer comments
+------------------------------------------------------------------------
+r19706 | jfoster | 2015-06-25 20:00:50 -0400 (Thu, 25 Jun 2015) | 2 lines
+
+Remove most commented out stuff (since we need to submit the .tex for the camera-ready version).
+
+------------------------------------------------------------------------
+r19705 | jfoster | 2015-06-25 19:28:08 -0400 (Thu, 25 Jun 2015) | 1 line
+
+Edits to 5 and 7.
+------------------------------------------------------------------------
+r19704 | jfoster | 2015-06-25 19:25:22 -0400 (Thu, 25 Jun 2015) | 1 line
+
+Edits to 4.
+------------------------------------------------------------------------
+r19703 | jfoster | 2015-06-25 19:18:47 -0400 (Thu, 25 Jun 2015) | 1 line
+
+Edits to 3.
+------------------------------------------------------------------------
+r19702 | jfoster | 2015-06-25 19:16:15 -0400 (Thu, 25 Jun 2015) | 1 line
+
+Edits to 2.
+------------------------------------------------------------------------
+r19701 | jfoster | 2015-06-25 19:11:35 -0400 (Thu, 25 Jun 2015) | 1 line
+
+Edits to introduction, move acknowledgments to a footnote for space.
+------------------------------------------------------------------------
+r19700 | micinski | 2015-06-22 00:14:11 -0400 (Mon, 22 Jun 2015) | 1 line
+
+Fixing many comments in the todos, fixing up the related work and fixing the bug with S a reviewer mentioned is left to do.
+------------------------------------------------------------------------
+r19698 | jfoster | 2015-06-21 10:43:16 -0400 (Sun, 21 Jun 2015) | 1 line
+
+Some comments on todos.
+------------------------------------------------------------------------
+r19696 | micinski | 2015-06-18 22:12:55 -0400 (Thu, 18 Jun 2015) | 1 line
+
+adding todo list from the reviews
+------------------------------------------------------------------------
+r19693 | jfoster | 2015-06-16 10:03:59 -0400 (Tue, 16 Jun 2015) | 1 line
+
+Fix typos in acknowledgments, add draft watermark for posting draft version.
+------------------------------------------------------------------------
+r19692 | jfoster | 2015-06-16 09:27:29 -0400 (Tue, 16 Jun 2015) | 1 line
+
+esorics reviews
+------------------------------------------------------------------------
+r19549 | jfoster | 2015-04-19 14:21:50 -0400 (Sun, 19 Apr 2015) | 1 line
+
+Fix typo.
+------------------------------------------------------------------------
+r19547 | sv-clarkson | 2015-04-16 13:29:41 -0400 (Thu, 16 Apr 2015) | 1 line
+
+produce funding acks in paper
+------------------------------------------------------------------------
+r19544 | micinski | 2015-04-13 23:00:40 -0400 (Mon, 13 Apr 2015) | 1 line
+
+adding pdf
+------------------------------------------------------------------------
+r19543 | micinski | 2015-04-13 23:00:00 -0400 (Mon, 13 Apr 2015) | 1 line
+
+copying paper for future reference
+------------------------------------------------------------------------
+r19542 | micinski | 2015-04-13 22:47:29 -0400 (Mon, 13 Apr 2015) | 1 line
+
+clarification about ms in table
+------------------------------------------------------------------------
+r19541 | micinski | 2015-04-13 22:42:53 -0400 (Mon, 13 Apr 2015) | 1 line
+
+fixing inconsistency with () vs unit in equation and removing strange wording because of plots being reformatted to have only timing information
+------------------------------------------------------------------------
+r19540 | micinski | 2015-04-13 22:32:19 -0400 (Mon, 13 Apr 2015) | 1 line
+
+fixing example 2 in section 2 to be consistent.  We use true and false rather than text 'coarse' and 'fine' in the discussion: so I made them consistent and left out the text since it seems confusing and is unexplained: I think it previously referred to the GUI labels.
+------------------------------------------------------------------------
+r19539 | micinski | 2015-04-13 22:26:58 -0400 (Mon, 13 Apr 2015) | 1 line
+
+fixing declassification condition in text of section two
+------------------------------------------------------------------------
+r19538 | micinski | 2015-04-13 22:21:38 -0400 (Mon, 13 Apr 2015) | 1 line
+
+removing device for consistency
+------------------------------------------------------------------------
+r19537 | micinski | 2015-04-13 22:19:36 -0400 (Mon, 13 Apr 2015) | 1 line
+
+leftover 'address' from when I changed email to ID
+------------------------------------------------------------------------
+r19536 | sv-clarkson | 2015-04-13 22:11:58 -0400 (Mon, 13 Apr 2015) | 1 line
+
+updated related work based on discussion with kris and jeff
+------------------------------------------------------------------------
+r19535 | micinski | 2015-04-13 22:11:45 -0400 (Mon, 13 Apr 2015) | 1 line
+
+fixing primitives definition to include unit
+------------------------------------------------------------------------
+r19534 | micinski | 2015-04-13 22:09:12 -0400 (Mon, 13 Apr 2015) | 1 line
+
+fixing the spelling of 'sendBtn' vs. 'sendButton'.  This was an error from when it was shortened.  I chose 'sendBtn' to be consistent between the two
+------------------------------------------------------------------------
+r19533 | micinski | 2015-04-13 22:03:05 -0400 (Mon, 13 Apr 2015) | 1 line
+
+adding clarification about how android starts apps.
+------------------------------------------------------------------------
+r19532 | micinski | 2015-04-13 22:01:25 -0400 (Mon, 13 Apr 2015) | 1 line
+
+fixing appintent tweak.
+------------------------------------------------------------------------
+r19531 | micinski | 2015-04-13 21:57:18 -0400 (Mon, 13 Apr 2015) | 1 line
+
+adding appintent discussion tweak.
+------------------------------------------------------------------------
+r19530 | micinski | 2015-04-13 21:38:09 -0400 (Mon, 13 Apr 2015) | 1 line
+
+modifying Figure 1 so that  in the code (the variable) is consistent with the read on the  channel.  Even though they are not technically the same thing, explaining that here is awkward because we haven't talked about orderings of events, and it's better to have the variable in the program be a proxy (from the reader's point of view) for the name in the policy.
+------------------------------------------------------------------------
+r19529 | micinski | 2015-04-13 20:37:05 -0400 (Mon, 13 Apr 2015) | 1 line
+
+adding new graphs
+------------------------------------------------------------------------
+r19528 | jfoster | 2015-04-13 20:11:38 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Pass over section 6.
+------------------------------------------------------------------------
+r19527 | sv-clarkson | 2015-04-13 19:24:53 -0400 (Mon, 13 Apr 2015) | 1 line
+
+revised related work extensively
+------------------------------------------------------------------------
+r19526 | micinski | 2015-04-13 19:17:19 -0400 (Mon, 13 Apr 2015) | 1 line
+
+pass through five
+------------------------------------------------------------------------
+r19525 | micinski | 2015-04-13 19:09:03 -0400 (Mon, 13 Apr 2015) | 1 line
+
+updating plots
+------------------------------------------------------------------------
+r19524 | jfoster | 2015-04-13 19:02:36 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Two bugs that need to be fixed.
+------------------------------------------------------------------------
+r19523 | jfoster | 2015-04-13 19:00:50 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Grouping in Fig 5
+------------------------------------------------------------------------
+r19522 | jfoster | 2015-04-13 19:00:06 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Fix Fig 5, which was messed up. Kris, can you check the fixes are correct?
+------------------------------------------------------------------------
+r19521 | jfoster | 2015-04-13 18:56:22 -0400 (Mon, 13 Apr 2015) | 2 lines
+
+Remove a couple other mentions of space, fix some nits.
+
+------------------------------------------------------------------------
+r19520 | micinski | 2015-04-13 18:34:04 -0400 (Mon, 13 Apr 2015) | 1 line
+
+removing discussion of memory
+------------------------------------------------------------------------
+r19519 | jfoster | 2015-04-13 18:17:23 -0400 (Mon, 13 Apr 2015) | 1 line
+
+It fits\!
+------------------------------------------------------------------------
+r19518 | jfoster | 2015-04-13 17:40:18 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Edits for space.
+------------------------------------------------------------------------
+r19517 | jfoster | 2015-04-13 17:33:53 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Nits.
+------------------------------------------------------------------------
+r19516 | micinski | 2015-04-13 17:01:17 -0400 (Mon, 13 Apr 2015) | 1 line
+
+addressing 2/3 of Jeff's comments
+------------------------------------------------------------------------
+r19515 | jfoster | 2015-04-13 16:49:27 -0400 (Mon, 13 Apr 2015) | 2 lines
+
+Fix caption for fig 5, remove one sig fig from MB numbers.
+
+------------------------------------------------------------------------
+r19514 | jfoster | 2015-04-13 16:43:09 -0400 (Mon, 13 Apr 2015) | 1 line
+
+More edits for space.
+------------------------------------------------------------------------
+r19513 | jfoster | 2015-04-13 16:34:08 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Edits for space.
+------------------------------------------------------------------------
+r19512 | jfoster | 2015-04-13 16:28:06 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Pass over Section 5.
+------------------------------------------------------------------------
+r19511 | micinski | 2015-04-13 15:08:01 -0400 (Mon, 13 Apr 2015) | 1 line
+
+adding section on scaling to larger apps
+------------------------------------------------------------------------
+r19510 | jfoster | 2015-04-13 14:45:12 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Some edits for space.
+------------------------------------------------------------------------
+r19509 | micinski | 2015-04-13 14:44:53 -0400 (Mon, 13 Apr 2015) | 1 line
+
+updating memory usage info and machine statistics
+------------------------------------------------------------------------
+r19508 | sv-clarkson | 2015-04-13 14:20:51 -0400 (Mon, 13 Apr 2015) | 1 line
+
+updated intro
+------------------------------------------------------------------------
+r19507 | micinski | 2015-04-13 14:17:16 -0400 (Mon, 13 Apr 2015) | 1 line
+
+my pass over section five
+------------------------------------------------------------------------
+r19506 | sv-clarkson | 2015-04-13 14:09:57 -0400 (Mon, 13 Apr 2015) | 1 line
+
+updated my funding acks
+------------------------------------------------------------------------
+r19505 | jfoster | 2015-04-13 13:55:07 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Change to binary files.
+------------------------------------------------------------------------
+r19504 | micinski | 2015-04-13 13:34:02 -0400 (Mon, 13 Apr 2015) | 1 line
+
+adding svgs
+------------------------------------------------------------------------
+r19503 | jfoster | 2015-04-13 12:32:20 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Edits for space.
+------------------------------------------------------------------------
+r19502 | jfoster | 2015-04-13 12:30:26 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Edits to 2 to refer to intent.
+------------------------------------------------------------------------
+r19501 | jfoster | 2015-04-13 12:14:07 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Edits after chatting with Michael
+------------------------------------------------------------------------
+r19500 | jfoster | 2015-04-13 10:45:58 -0400 (Mon, 13 Apr 2015) | 1 line
+
+Edits and notes.
+------------------------------------------------------------------------
+r19499 | sv-clarkson | 2015-04-13 10:00:48 -0400 (Mon, 13 Apr 2015) | 1 line
+
+comments on intro
+------------------------------------------------------------------------
+r19498 | micinski | 2015-04-12 23:44:39 -0400 (Sun, 12 Apr 2015) | 1 line
+
+removing \jeff{5} and putting 5 in place
+------------------------------------------------------------------------
+r19497 | micinski | 2015-04-12 23:41:14 -0400 (Sun, 12 Apr 2015) | 1 line
+
+my pass through the paper, reformatting plots, fixing comments
+------------------------------------------------------------------------
+r19496 | jfoster | 2015-04-12 16:31:24 -0400 (Sun, 12 Apr 2015) | 1 line
+
+Another edit for space.
+------------------------------------------------------------------------
+r19495 | jfoster | 2015-04-12 15:39:13 -0400 (Sun, 12 Apr 2015) | 1 line
+
+A couple of nits for space.
+------------------------------------------------------------------------
+r19494 | jfoster | 2015-04-12 15:32:17 -0400 (Sun, 12 Apr 2015) | 1 line
+
+Edits to abstract and intro.
+------------------------------------------------------------------------
+r19493 | jfoster | 2015-04-12 14:18:58 -0400 (Sun, 12 Apr 2015) | 6 lines
+
+Pass over section 5.
+
+* Changed Fig 4 to only include the min # of events. I couldn't figure out how to tell a story with the max # of events in there.
+
+* Otherwise generally cleaned up text. Right now this section is still missing a lot of analysis of the data.
+
+------------------------------------------------------------------------
+r19492 | micinski | 2015-04-12 12:06:30 -0400 (Sun, 12 Apr 2015) | 1 line
+
+updating table
+------------------------------------------------------------------------
+r19491 | sv-clarkson | 2015-04-11 19:37:40 -0400 (Sat, 11 Apr 2015) | 1 line
+
+edited the intro
+------------------------------------------------------------------------
+r19490 | micinski | 2015-04-11 16:37:19 -0400 (Sat, 11 Apr 2015) | 1 line
+
+revising text in results section to match tables and plots
+------------------------------------------------------------------------
+r19489 | micinski | 2015-04-11 16:25:43 -0400 (Sat, 11 Apr 2015) | 1 line
+
+adding more data to the table based on numbers from necessary runs
+------------------------------------------------------------------------
+r19488 | sv-clarkson | 2015-04-11 16:13:39 -0400 (Sat, 11 Apr 2015) | 1 line
+
+Use Clarkson's middle initial
+------------------------------------------------------------------------
+r19487 | jfoster | 2015-04-11 15:29:30 -0400 (Sat, 11 Apr 2015) | 1 line
+
+Revised intro draft.
+------------------------------------------------------------------------
+r19486 | micinski | 2015-04-11 03:12:48 -0400 (Sat, 11 Apr 2015) | 1 line
+
+formatting the table presenting results in the manner I think Jeff described yesterday
+------------------------------------------------------------------------
+r19485 | jsjeon | 2015-04-11 00:02:00 -0400 (Sat, 11 Apr 2015) | 1 line
+
+nits: byte formatting and table layout
+------------------------------------------------------------------------
+r19484 | micinski | 2015-04-10 23:23:00 -0400 (Fri, 10 Apr 2015) | 1 line
+
+committing a version of the papers with the graphs I just checked in included.  The plotslook bad because I haven't tweaked them enough in R (my configuration is all busted after upgrading my mac, so I need to e.g., reinstall libcairo which R uses to render graphics). I haven't talked about them in the paper text, and I also haven't redone the table with the comparison of necessary vs maximum events.  That is the next thing to do: I have the raw data to draw in the table, I just need to reformat it.
+------------------------------------------------------------------------
+r19483 | micinski | 2015-04-10 23:11:38 -0400 (Fri, 10 Apr 2015) | 1 line
+
+adding some rough plots that look bad because I haven't figured out how to prettify them with R.  Everything is plotted on a log axis, with runtime on the left and memory on the right.  Data forms an almost perfect line on a log axis.
+------------------------------------------------------------------------
+r19482 | micinski | 2015-04-10 13:03:22 -0400 (Fri, 10 Apr 2015) | 1 line
+
+reformatting listings so that they take up less space
+------------------------------------------------------------------------
+r19480 | jfoster | 2015-04-09 14:26:02 -0400 (Thu, 09 Apr 2015) | 1 line
+
+Edits to Section 5.
+------------------------------------------------------------------------
+r19479 | jfoster | 2015-04-09 13:56:36 -0400 (Thu, 09 Apr 2015) | 1 line
+
+Edits to Section 4.
+------------------------------------------------------------------------
+r19478 | jfoster | 2015-04-09 13:43:21 -0400 (Thu, 09 Apr 2015) | 5 lines
+
+Edits to Section 3.
+* Got rid of "channels" and just have "names" instead.
+* We're saying "insecure" now instead of "evil"
+* Fixed some other bugs.
+
+------------------------------------------------------------------------
+r19477 | jsjeon | 2015-04-09 13:39:48 -0400 (Thu, 09 Apr 2015) | 1 line
+
+nits
+------------------------------------------------------------------------
+r19476 | jsjeon | 2015-04-09 13:34:35 -0400 (Thu, 09 Apr 2015) | 1 line
+
+propdel svn:executable
+------------------------------------------------------------------------
+r19475 | jfoster | 2015-04-09 13:19:10 -0400 (Thu, 09 Apr 2015) | 6 lines
+
+Edits to Section 2.
+
+* Rewrote paragraph on channel names to remove channel names.
+* Changed listing font size to be smaller
+* Nits otherwise
+
+------------------------------------------------------------------------
+r19474 | micinski | 2015-04-09 12:50:02 -0400 (Thu, 09 Apr 2015) | 1 line
+
+fixing the revert I accidentally made when I merged
+------------------------------------------------------------------------
+r19473 | micinski | 2015-04-09 12:48:09 -0400 (Thu, 09 Apr 2015) | 1 line
+
+merging my formatting fixes, split the listings into multiple figures
+------------------------------------------------------------------------
+r19472 | jfoster | 2015-04-09 10:58:27 -0400 (Thu, 09 Apr 2015) | 2 lines
+
+Fix a bunch of formatting stuff, including listing multiple authors instead of just one etc.
+
+------------------------------------------------------------------------
+r19471 | micinski | 2015-04-08 19:20:36 -0400 (Wed, 08 Apr 2015) | 1 line
+
+A first shot at reorganizing the introduction, changing the event definition to only writes, and eliminating redundant text based on that definition.  Changed the title to interaction-based declassification.  I will take another pass over the paper tonight to solidify the introduction and make sure it's really saying what I want, but please feel free to object now if something is terribly wrong.
+------------------------------------------------------------------------
+r19470 | micinski | 2015-04-08 15:55:34 -0400 (Wed, 08 Apr 2015) | 1 line
+
+reformatting in LNCS style, figures are totally messed up and need to be fixed.
+------------------------------------------------------------------------
+r19469 | micinski | 2015-04-08 13:42:48 -0400 (Wed, 08 Apr 2015) | 1 line
+
+commiting work on experiments section: except for number of necessary events for WhereRU this section is done.  I will now move on to editing the introduction based on the discussion with Jeff that I had earlier today
+------------------------------------------------------------------------
+r19468 | jonfd | 2015-04-07 22:27:07 -0400 (Tue, 07 Apr 2015) | 2 lines
+
+spelling nit
+
+------------------------------------------------------------------------
+r19467 | jfoster | 2015-04-07 15:56:32 -0400 (Tue, 07 Apr 2015) | 1 line
+
+Edit for space, remove empty event.
+------------------------------------------------------------------------
+r19466 | jfoster | 2015-04-07 15:53:49 -0400 (Tue, 07 Apr 2015) | 1 line
+
+Edit introduction a bit.
+------------------------------------------------------------------------
+r19465 | jfoster | 2015-04-07 15:49:11 -0400 (Tue, 07 Apr 2015) | 1 line
+
+More edits for space.
+------------------------------------------------------------------------
+r19464 | jfoster | 2015-04-07 15:39:10 -0400 (Tue, 07 Apr 2015) | 1 line
+
+Nits in 4.
+------------------------------------------------------------------------
+r19463 | jfoster | 2015-04-07 15:34:22 -0400 (Tue, 07 Apr 2015) | 4 lines
+
+Some nits, including:
+* Using ph instead of phone everywhere
+* Use \tset everywhere, instead of \traces(e) some places and \tset other places.
+
+------------------------------------------------------------------------
+r19462 | jfoster | 2015-04-07 15:24:48 -0400 (Tue, 07 Apr 2015) | 1 line
+
+Some edits for space.
+------------------------------------------------------------------------
+r19461 | jfoster | 2015-04-07 15:21:00 -0400 (Tue, 07 Apr 2015) | 1 line
+
+Text about where are you.
+------------------------------------------------------------------------
+r19460 | micinski | 2015-04-07 12:48:25 -0400 (Tue, 07 Apr 2015) | 1 line
+
+commiting the text in the paper sans experiments, which are pending analysis as they are on my machine which has lost power.  If it doesn't come back by 3 I will simply take it and plug it in somewhere else.
+------------------------------------------------------------------------
+r19459 | micinski | 2015-04-07 11:29:20 -0400 (Tue, 07 Apr 2015) | 1 line
+
+checking in fixed version where figures do not get chopped incorrectly
+------------------------------------------------------------------------
+r19458 | jonfd | 2015-04-06 09:08:59 -0400 (Mon, 06 Apr 2015) | 2 lines
+
+Response to comments on where-are-you
+
+------------------------------------------------------------------------
+r19457 | jfoster | 2015-04-05 15:41:53 -0400 (Sun, 05 Apr 2015) | 1 line
+
+Nit.
+------------------------------------------------------------------------
+r19456 | micinski | 2015-04-05 13:53:56 -0400 (Sun, 05 Apr 2015) | 1 line
+
+addressing comments, thinking about how to fix flow between sections 4.2 and 4.3
+------------------------------------------------------------------------
+r19455 | jfoster | 2015-04-04 16:59:07 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Another edit for space.
+------------------------------------------------------------------------
+r19454 | jfoster | 2015-04-04 16:53:51 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits for space.
+------------------------------------------------------------------------
+r19453 | jfoster | 2015-04-04 16:45:24 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits to 6 and 7.
+------------------------------------------------------------------------
+r19452 | jfoster | 2015-04-04 16:42:35 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits to 5.
+------------------------------------------------------------------------
+r19451 | jfoster | 2015-04-04 16:40:07 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits to 4.
+------------------------------------------------------------------------
+r19450 | jfoster | 2015-04-04 16:33:05 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits to section 3.
+------------------------------------------------------------------------
+r19449 | jfoster | 2015-04-04 16:19:23 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits to section 2.
+------------------------------------------------------------------------
+r19448 | jfoster | 2015-04-04 16:17:43 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Edits to abstract and intro.
+------------------------------------------------------------------------
+r19447 | jfoster | 2015-04-04 15:47:04 -0400 (Sat, 04 Apr 2015) | 1 line
+
+Some edits for space.
+------------------------------------------------------------------------
+r19446 | jonfd | 2015-04-04 15:22:55 -0400 (Sat, 04 Apr 2015) | 2 lines
+
+Where Are You app description
+
+------------------------------------------------------------------------
+r19445 | micinski | 2015-04-03 22:51:16 -0400 (Fri, 03 Apr 2015) | 1 line
+
+updates: fixes to unresolved references in figs and dangling refs in text to prior semantics section
+------------------------------------------------------------------------
+r19444 | micinski | 2015-04-03 22:21:59 -0400 (Fri, 03 Apr 2015) | 1 line
+
+changing interpose to intersperse
+------------------------------------------------------------------------
+r19443 | micinski | 2015-04-03 22:19:03 -0400 (Fri, 03 Apr 2015) | 1 line
+
+Finishing my pass over the paper
+------------------------------------------------------------------------
+r19442 | micinski | 2015-04-02 16:31:07 -0400 (Thu, 02 Apr 2015) | 1 line
+
+committing more edits
+------------------------------------------------------------------------
+r19441 | micinski | 2015-04-02 16:14:16 -0400 (Thu, 02 Apr 2015) | 1 line
+
+Pass over the document, changed email to ID in example, reorganized author names, made changes to clean up formulas
+------------------------------------------------------------------------
+r19440 | micinski | 2015-04-02 13:19:47 -0400 (Thu, 02 Apr 2015) | 1 line
+
+formatting figures so that they appear side by side
+------------------------------------------------------------------------
+r19439 | micinski | 2015-04-02 12:53:20 -0400 (Thu, 02 Apr 2015) | 1 line
+
+adding version of paper with Android formalism cut
+------------------------------------------------------------------------
+r19435 | jfoster | 2015-03-29 16:40:41 -0400 (Sun, 29 Mar 2015) | 1 line
+
+Add acknowledgments before I forget.
+------------------------------------------------------------------------
+r19433 | micinski | 2015-03-28 17:26:56 -0400 (Sat, 28 Mar 2015) | 1 line
+
+reformatting paper in USE format.  I followed all of the instructions on the ENTCS website and am pretty sure this is right.  I left holes where there are things that I need to figure out.  The paper without the bibliography is around 19 pages ENTCS, with obvious places where we could compress it because it is not formatted in a way amenable to the single column format.
+------------------------------------------------------------------------
+r19414 | micinski | 2015-03-25 20:07:37 -0400 (Wed, 25 Mar 2015) | 1 line
+
+adding follow up ideas from reviews
+------------------------------------------------------------------------
+r19380 | jsjeon | 2015-03-23 00:14:02 -0400 (Mon, 23 Mar 2015) | 1 line
+
+reviews for CSF 15 submission
+------------------------------------------------------------------------
+r19379 | jsjeon | 2015-03-23 00:13:01 -0400 (Mon, 23 Mar 2015) | 1 line
+
+reviews for CSF 15 submission
+------------------------------------------------------------------------
+r19362 | micinski | 2015-03-16 15:22:54 -0400 (Mon, 16 Mar 2015) | 1 line
+
+fixing bug in semantics for RIfTrue and RIfFalse: they did not have subscript on e in test for branch
+------------------------------------------------------------------------
+r19357 | micinski | 2015-03-10 17:11:55 -0400 (Tue, 10 Mar 2015) | 1 line
+
+errors we found while chatting with Josiah
+------------------------------------------------------------------------
+r19356 | micinski | 2015-03-10 16:01:42 -0400 (Tue, 10 Mar 2015) | 1 line
+
+adding minimum number of events to demonstrate a counterexample
+------------------------------------------------------------------------
+r19353 | micinski | 2015-03-01 12:46:32 -0500 (Sun, 01 Mar 2015) | 1 line
+
+committing data for max evts needed for contact picker app, going to add numbers for other apps next
+------------------------------------------------------------------------
+r19346 | micinski | 2015-02-24 20:12:00 -0500 (Tue, 24 Feb 2015) | 1 line
+
+adding argument for benign bump app
+------------------------------------------------------------------------
+r19338 | jfoster | 2015-02-18 09:13:27 -0500 (Wed, 18 Feb 2015) | 1 line
+
+de-anonymized version.
+------------------------------------------------------------------------
+r19337 | jfoster | 2015-02-12 00:12:55 -0500 (Thu, 12 Feb 2015) | 1 line
+
+masklower8 isn't uninterpreted.
+------------------------------------------------------------------------
+r19336 | micinski | 2015-02-11 23:06:09 -0500 (Wed, 11 Feb 2015) | 1 line
+
+fixing spelling mistakes
+------------------------------------------------------------------------
+r19335 | jfoster | 2015-02-11 22:57:45 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+AGIF and move a figure onto another page.
+
+------------------------------------------------------------------------
+r19334 | micinski | 2015-02-11 22:48:36 -0500 (Wed, 11 Feb 2015) | 1 line
+
+removing comment
+------------------------------------------------------------------------
+r19333 | jfoster | 2015-02-11 22:46:11 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Conclusion
+------------------------------------------------------------------------
+r19332 | jonfd | 2015-02-11 22:45:01 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+nit
+
+------------------------------------------------------------------------
+r19331 | jfoster | 2015-02-11 22:42:49 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Addressed phi
+------------------------------------------------------------------------
+r19330 | jfoster | 2015-02-11 22:35:55 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Updated abstract.
+------------------------------------------------------------------------
+r19329 | jfoster | 2015-02-11 22:31:13 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Update Equiv stuff.
+------------------------------------------------------------------------
+r19328 | jonfd | 2015-02-11 22:19:16 -0500 (Wed, 11 Feb 2015) | 3 lines
+
+attempt to clarify single-activity in section 2
+cut text ID vs numeric ID in section 4
+
+------------------------------------------------------------------------
+r19327 | jfoster | 2015-02-11 22:10:14 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Nit.
+------------------------------------------------------------------------
+r19326 | jfoster | 2015-02-11 22:07:57 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Revised intro.
+------------------------------------------------------------------------
+r19325 | micinski | 2015-02-11 22:04:37 -0500 (Wed, 11 Feb 2015) | 1 line
+
+fixing some TODOs
+------------------------------------------------------------------------
+r19324 | micinski | 2015-02-11 22:01:39 -0500 (Wed, 11 Feb 2015) | 1 line
+
+cite to Cadar 13 paper
+------------------------------------------------------------------------
+r19323 | micinski | 2015-02-11 21:49:48 -0500 (Wed, 11 Feb 2015) | 1 line
+
+finite lattice assumption
+------------------------------------------------------------------------
+r19322 | micinski | 2015-02-11 21:33:54 -0500 (Wed, 11 Feb 2015) | 1 line
+
+new paper template
+------------------------------------------------------------------------
+r19321 | micinski | 2015-02-11 21:29:49 -0500 (Wed, 11 Feb 2015) | 1 line
+
+change to style options
+------------------------------------------------------------------------
+r19320 | micinski | 2015-02-11 21:18:24 -0500 (Wed, 11 Feb 2015) | 1 line
+
+fixing crossref bib
+------------------------------------------------------------------------
+r19319 | micinski | 2015-02-11 21:15:59 -0500 (Wed, 11 Feb 2015) | 1 line
+
+finishing my pass on section six, left broken cite on Jif and emailed Michael to find out the right paper.  If I don't get a reponse I'll dig through the gigantic list of Jif pubs to find the right thing to cite.
+------------------------------------------------------------------------
+r19318 | jfoster | 2015-02-11 21:11:25 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edits to the rest of section 2.
+------------------------------------------------------------------------
+r19317 | jonfd | 2015-02-11 21:00:37 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+nits at start of sec 2
+
+------------------------------------------------------------------------
+r19316 | jfoster | 2015-02-11 20:45:00 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+Edits to the first part of section 2. Most important thing: Tried to clarify what a channel name is. Did it work?
+
+------------------------------------------------------------------------
+r19315 | micinski | 2015-02-11 20:24:07 -0500 (Wed, 11 Feb 2015) | 1 line
+
+comitting some fixup text to clarify definition of NotEquiv
+------------------------------------------------------------------------
+r19314 | micinski | 2015-02-11 20:08:12 -0500 (Wed, 11 Feb 2015) | 1 line
+
+attempt at fixing definition in four to account for class function
+------------------------------------------------------------------------
+r19313 | micinski | 2015-02-11 19:57:28 -0500 (Wed, 11 Feb 2015) | 1 line
+
+checking in paper bibs
+------------------------------------------------------------------------
+r19312 | jfoster | 2015-02-11 19:53:43 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edit to MaskLower8 stuff.
+------------------------------------------------------------------------
+r19311 | micinski | 2015-02-11 19:51:10 -0500 (Wed, 11 Feb 2015) | 1 line
+
+adjusting paper to cite clarkson 10 as michael suggested
+------------------------------------------------------------------------
+r19310 | jfoster | 2015-02-11 19:42:27 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edits to the rest of 5, evil -> insecure.
+------------------------------------------------------------------------
+r19309 | micinski | 2015-02-11 19:41:11 -0500 (Wed, 11 Feb 2015) | 1 line
+
+adding MaskLower8 defn in section 3
+------------------------------------------------------------------------
+r19308 | jfoster | 2015-02-11 19:21:12 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edits to first part of sec 5.
+------------------------------------------------------------------------
+r19307 | micinski | 2015-02-11 19:16:25 -0500 (Wed, 11 Feb 2015) | 1 line
+
+fixing a place where we used monotonicity of release
+------------------------------------------------------------------------
+r19306 | jonfd | 2015-02-11 19:15:47 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+revisions to IV.A
+
+------------------------------------------------------------------------
+r19305 | micinski | 2015-02-11 19:12:36 -0500 (Wed, 11 Feb 2015) | 1 line
+
+some changes in related work
+------------------------------------------------------------------------
+r19304 | jfoster | 2015-02-11 18:58:42 -0500 (Wed, 11 Feb 2015) | 1 line
+
+checkpoint
+------------------------------------------------------------------------
+r19303 | jfoster | 2015-02-11 18:51:23 -0500 (Wed, 11 Feb 2015) | 1 line
+
+More edits to 4.
+------------------------------------------------------------------------
+r19302 | jfoster | 2015-02-11 17:35:15 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edits to 4.0, 4.A, 4.B.
+------------------------------------------------------------------------
+r19301 | micinski | 2015-02-11 13:49:06 -0500 (Wed, 11 Feb 2015) | 1 line
+
+checking in some comments on the experiments explaining why the implict flows, and why the first contact picker app takes so long
+------------------------------------------------------------------------
+r19300 | jsjeon | 2015-02-11 13:24:05 -0500 (Wed, 11 Feb 2015) | 1 line
+
+cite Activity lifecycle
+------------------------------------------------------------------------
+r19299 | jfoster | 2015-02-11 13:19:32 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Finished pass over 3.
+------------------------------------------------------------------------
+r19298 | jsjeon | 2015-02-11 11:44:54 -0500 (Wed, 11 Feb 2015) | 1 line
+
+nits in Section VI
+------------------------------------------------------------------------
+r19297 | jsjeon | 2015-02-11 11:28:14 -0500 (Wed, 11 Feb 2015) | 1 line
+
+minor edits to Section IV
+------------------------------------------------------------------------
+r19296 | jfoster | 2015-02-11 11:24:04 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edits to the rest of 3.B.
+------------------------------------------------------------------------
+r19295 | jfoster | 2015-02-11 11:17:36 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+Edits to first part of 3.B, fixed Fig 4 to actually be in our source language (modulo syntactic sugar)
+
+------------------------------------------------------------------------
+r19294 | jsjeon | 2015-02-11 10:58:30 -0500 (Wed, 11 Feb 2015) | 1 line
+
+nits
+------------------------------------------------------------------------
+r19293 | jfoster | 2015-02-11 10:57:00 -0500 (Wed, 11 Feb 2015) | 1 line
+
+Edtis to 3.0 and 3.A.
+------------------------------------------------------------------------
+r19292 | jfoster | 2015-02-11 10:14:15 -0500 (Wed, 11 Feb 2015) | 6 lines
+
+Edits to 2.
+
+* Added a trace example for Fig 1, to explain LTL stuff better.
+* Fixed loc_declass in Fig 2
+* Explained that "channels" are actually field reads/writes
+
+------------------------------------------------------------------------
+r19291 | micinski | 2015-02-11 09:12:02 -0500 (Wed, 11 Feb 2015) | 1 line
+
+addressing Jinseong's comments
+------------------------------------------------------------------------
+r19290 | micinski | 2015-02-11 09:05:35 -0500 (Wed, 11 Feb 2015) | 1 line
+
+comitting revisions of the paper addressing all comments except some TODOs for names, looking up performance characteristics of my machine, discussing some interesting things about results, a concluding sentence, finishing the related work, and a conclusion
+------------------------------------------------------------------------
+r19289 | jsjeon | 2015-02-11 01:22:55 -0500 (Wed, 11 Feb 2015) | 1 line
+
+nits
+------------------------------------------------------------------------
+r19288 | jsjeon | 2015-02-11 01:21:42 -0500 (Wed, 11 Feb 2015) | 1 line
+
+a few more comments on sections II and III
+------------------------------------------------------------------------
+r19287 | jsjeon | 2015-02-11 00:56:18 -0500 (Wed, 11 Feb 2015) | 2 lines
+
+some comments on section III.A and III.B}
+
+------------------------------------------------------------------------
+r19286 | micinski | 2015-02-11 00:32:27 -0500 (Wed, 11 Feb 2015) | 1 line
+
+comitting revisions of the paper addressing all comments except some TODOs for names, looking up performance characteristics of my machine, discussing some interesting things about results, a concluding sentence, finishing the related work, and a conclusion
+------------------------------------------------------------------------
+r19285 | jsjeon | 2015-02-11 00:15:03 -0500 (Wed, 11 Feb 2015) | 1 line
+
+to emphasize malicious behavior in Fig. 3; its caption is copy-n-pasted
+------------------------------------------------------------------------
+r19284 | jsjeon | 2015-02-10 23:54:05 -0500 (Tue, 10 Feb 2015) | 1 line
+
+nit
+------------------------------------------------------------------------
+r19283 | jsjeon | 2015-02-10 23:46:19 -0500 (Tue, 10 Feb 2015) | 1 line
+
+typos in the location sharing app code
+------------------------------------------------------------------------
+r19282 | micinski | 2015-02-10 22:01:11 -0500 (Tue, 10 Feb 2015) | 1 line
+
+adding switch in semantics of section three
+------------------------------------------------------------------------
+r19281 | jfoster | 2015-02-10 18:55:38 -0500 (Tue, 10 Feb 2015) | 1 line
+
+Don't waste time with an appendix.
+------------------------------------------------------------------------
+r19280 | jfoster | 2015-02-10 18:52:52 -0500 (Tue, 10 Feb 2015) | 1 line
+
+Update section 5.
+------------------------------------------------------------------------
+r19279 | micinski | 2015-02-10 18:39:19 -0500 (Tue, 10 Feb 2015) | 1 line
+
+finishing my pass over section three.  Two things are dirty that need to be explained: the GUI inputs are by definition (from our semantics) symbolic, but our policies (in implementation) rely on GUI inputs being concrete.  Not sure how to fix this!  Also, Michael notes an incorrect circularity in our definition of values and primitives, and that we need to somehow make \oplus and f() corresopnd.  I haven't really thought about how to fix this, but I can see why it's a problem.
+------------------------------------------------------------------------
+r19278 | micinski | 2015-02-10 18:37:11 -0500 (Tue, 10 Feb 2015) | 1 line
+
+fixing broken ref...
+------------------------------------------------------------------------
+r19277 | micinski | 2015-02-10 18:36:09 -0500 (Tue, 10 Feb 2015) | 1 line
+
+adding text in section three to explain that GUI inputs and the \code{netout} output is declassified at Low by convention, wrote text describing how we had lied in section two.  If this needs to be moved further (e.g.,) to make it more explicit, feel free to note this.
+------------------------------------------------------------------------
+r19276 | micinski | 2015-02-10 17:37:40 -0500 (Tue, 10 Feb 2015) | 1 line
+
+addressing many comments in section three.
+------------------------------------------------------------------------
+r19275 | micinski | 2015-02-10 16:36:57 -0500 (Tue, 10 Feb 2015) | 1 line
+
+addressing some of Jeff's comments in section 5
+------------------------------------------------------------------------
+r19273 | micinski | 2015-02-10 16:02:45 -0500 (Tue, 10 Feb 2015) | 1 line
+
+Addressing some more comments from Michael on section 3.B
+------------------------------------------------------------------------
+r19272 | micinski | 2015-02-10 15:50:06 -0500 (Tue, 10 Feb 2015) | 1 line
+
+Fixing comments Michael made on example evil app
+------------------------------------------------------------------------
+r19271 | micinski | 2015-02-10 15:46:16 -0500 (Tue, 10 Feb 2015) | 1 line
+
+Fixing trace example in section 3.C
+------------------------------------------------------------------------
+r19270 | micinski | 2015-02-10 15:45:01 -0500 (Tue, 10 Feb 2015) | 1 line
+
+addressing Michael's (correct) comments on the example
+------------------------------------------------------------------------
+r19269 | micinski | 2015-02-10 15:37:13 -0500 (Tue, 10 Feb 2015) | 1 line
+
+updating the related work a bit
+------------------------------------------------------------------------
+r19268 | sv-clarkson | 2015-02-10 15:06:48 -0500 (Tue, 10 Feb 2015) | 1 line
+
+Comments on 3.B
+------------------------------------------------------------------------
+r19267 | jfoster | 2015-02-10 14:38:33 -0500 (Tue, 10 Feb 2015) | 4 lines
+
+Edits to Section 4.
+
+Kris, there were a lot of things I really didn't understand with your edits here. Please take a look.
+
+------------------------------------------------------------------------
+r19266 | micinski | 2015-02-10 13:51:25 -0500 (Tue, 10 Feb 2015) | 1 line
+
+addressing (a subset of) Michael's comments on sections 3/3.A
+------------------------------------------------------------------------
+r19265 | sv-clarkson | 2015-02-09 23:18:35 -0500 (Mon, 09 Feb 2015) | 1 line
+
+Comments on 3.0 and 3.A
+------------------------------------------------------------------------
+r19264 | micinski | 2015-02-09 21:37:52 -0500 (Mon, 09 Feb 2015) | 1 line
+
+adding a running examle in section three of the 'evil' contact picker app which sends the phone number when it should send the email.  I think this is a very welcome change and clarifies things in the section, but it needs to be carefully looked over: I'm sure I made some dumb mistakes somewhere and it's probably inconsistent with the semantics.  I think this section is now ready to be read front to back by Michael
+------------------------------------------------------------------------
+r19263 | micinski | 2015-02-09 20:45:53 -0500 (Mon, 09 Feb 2015) | 1 line
+
+I addressed Jeff's comments in section two.  I gave more detail on the location toggle example and fixed some minor bugs with it.  To properly explain it, I put an example, but I'm not sure it fits here: it seems similar to what I'm going to do in section three as well.  I hope that at some point soon, someone will read this over and give me feedback to tell me whether that explanation clarifies things, I think there are still some things that need rewording, because it's somewhat confusing why location is time varying and contacts isn't (short story, it *is*, but we're treating it as if it's provided up front to the app).  I fixed the bump example to read location up front so the policy works, but didn't explain the nuanced reasons there.
+------------------------------------------------------------------------
+r19262 | micinski | 2015-02-09 19:55:27 -0500 (Mon, 09 Feb 2015) | 1 line
+
+updating section two to fix the bug jeff and I discussed by moving the place that email is read.  Somewhat inappropriately hackish, but I think the cleanest way to address this without talking about email having to be treated as a time varying value.
+------------------------------------------------------------------------
+r19261 | jfoster | 2015-02-09 16:57:08 -0500 (Mon, 09 Feb 2015) | 1 line
+
+Fix definition numbering.
+------------------------------------------------------------------------
+r19260 | jfoster | 2015-02-09 16:55:40 -0500 (Mon, 09 Feb 2015) | 1 line
+
+Edits to 3.
+------------------------------------------------------------------------
+r19259 | micinski | 2015-02-09 16:24:09 -0500 (Mon, 09 Feb 2015) | 1 line
+
+my changes to section five
+------------------------------------------------------------------------
+r19258 | jfoster | 2015-02-09 16:23:33 -0500 (Mon, 09 Feb 2015) | 1 line
+
+Revert to previous declassification condition format after talking to Kris.
+------------------------------------------------------------------------
+r19257 | jfoster | 2015-02-09 15:43:07 -0500 (Mon, 09 Feb 2015) | 1 line
+
+Some more progress on 3.C. Still working.
+------------------------------------------------------------------------
+r19256 | jfoster | 2015-02-09 15:07:27 -0500 (Mon, 09 Feb 2015) | 11 lines
+
+Changed policies to have form
+
+\phi \rhs \psi : S
+
+meaning
+
+If \phi holds, then \psi is declassified at S
+
+Need to adjust text in 3.C to match.
+
+
+------------------------------------------------------------------------
+r19255 | jfoster | 2015-02-09 14:31:57 -0500 (Mon, 09 Feb 2015) | 2 lines
+
+Edits through 3.B.
+
+------------------------------------------------------------------------
+r19254 | jfoster | 2015-02-09 13:12:32 -0500 (Mon, 09 Feb 2015) | 1 line
+
+Edits to 3.0 and 3.A
+------------------------------------------------------------------------
+r19253 | micinski | 2015-02-08 23:25:51 -0500 (Sun, 08 Feb 2015) | 1 line
+
+commiting my changes to section four.  I still need to address the end of section four (Minimizing calls to Z3).
+------------------------------------------------------------------------
+r19252 | jfoster | 2015-02-08 19:51:46 -0500 (Sun, 08 Feb 2015) | 1 line
+
+Draft introduction.
+------------------------------------------------------------------------
+r19250 | jfoster | 2015-02-08 17:21:00 -0500 (Sun, 08 Feb 2015) | 1 line
+
+More edits to 2.
+------------------------------------------------------------------------
+r19249 | micinski | 2015-02-08 16:35:28 -0500 (Sun, 08 Feb 2015) | 1 line
+
+commiting my work on section 3, I think it's done now and is ready to be ready by everyone for feedback.  I will now swtich to working on addressing Jeff's comments on section four and then proceed to finishing section five.
+------------------------------------------------------------------------
+r19248 | jfoster | 2015-02-08 16:17:38 -0500 (Sun, 08 Feb 2015) | 1 line
+
+Working on section 2.
+------------------------------------------------------------------------
+r19247 | micinski | 2015-02-08 15:32:48 -0500 (Sun, 08 Feb 2015) | 1 line
+
+changes to the first part of section three on the language semantics are done, I am now moving on to attempting to fix up any questions in the remainder of section three.
+------------------------------------------------------------------------
+r19246 | jfoster | 2015-02-08 14:17:30 -0500 (Sun, 08 Feb 2015) | 1 line
+
+Pass over 4. Lots of questions.
+------------------------------------------------------------------------
+r19240 | micinski | 2015-02-07 15:05:33 -0500 (Sat, 07 Feb 2015) | 1 line
+
+adding results from location toggle app and separating experiments section from implementation section
+------------------------------------------------------------------------
+r19237 | micinski | 2015-02-07 14:27:36 -0500 (Sat, 07 Feb 2015) | 1 line
+
+adding result text describing one evil variant and putting results in formatted form
+------------------------------------------------------------------------
+r19228 | micinski | 2015-02-07 10:45:58 -0500 (Sat, 07 Feb 2015) | 1 line
+
+adding text on results minus third that I am rerunning now
+------------------------------------------------------------------------
+r19227 | micinski | 2015-02-07 10:45:36 -0500 (Sat, 07 Feb 2015) | 1 line
+
+adding results minus third since I had to reconfigure it (it was timing out and I had to lower the event size)
+------------------------------------------------------------------------
+r19197 | micinski | 2015-02-06 02:18:30 -0500 (Fri, 06 Feb 2015) | 1 line
+
+adding text on optimizing the analysis
+------------------------------------------------------------------------
+r19172 | micinski | 2015-02-03 21:20:06 -0500 (Tue, 03 Feb 2015) | 1 line
+
+reformatting paper to be in IEEEtran format, I looked up the options to use on the CAV website.  Surprisingly, the resulting paper is quite nice looking.  I munged on the example code to make them fit inside single column boxes.  I still have some work to do in reorganizing figures so they don't overfill hboxes.
+------------------------------------------------------------------------
+r19161 | jfoster | 2015-02-03 13:00:08 -0500 (Tue, 03 Feb 2015) | 1 line
+
+Put page numbers back.
+------------------------------------------------------------------------
+r19149 | sv-clarkson | 2015-02-02 16:07:33 -0500 (Mon, 02 Feb 2015) | 1 line
+
+Use my middle initial
+------------------------------------------------------------------------
+r19145 | jonfd | 2015-02-02 11:28:12 -0500 (Mon, 02 Feb 2015) | 2 lines
+
+Edits and comments on implementation section
+
+------------------------------------------------------------------------
+r19141 | jfoster | 2015-02-02 07:15:20 -0500 (Mon, 02 Feb 2015) | 1 line
+
+Some comments/questions on code, compress a bit.
+------------------------------------------------------------------------
+r19139 | jfoster | 2015-02-02 07:03:09 -0500 (Mon, 02 Feb 2015) | 1 line
+
+Fix up a few things.
+------------------------------------------------------------------------
+r19136 | micinski | 2015-02-02 00:36:13 -0500 (Mon, 02 Feb 2015) | 1 line
+
+removing secret input heap from semantics figure 2
+------------------------------------------------------------------------
+r19135 | micinski | 2015-02-02 00:33:51 -0500 (Mon, 02 Feb 2015) | 1 line
+
+checking in refactoring of section 3.  I still need to think and refactor the  definition to be appropriate, which I'll do tomorrow morning.
+------------------------------------------------------------------------
+r19125 | jfoster | 2015-02-01 17:59:39 -0500 (Sun, 01 Feb 2015) | 1 line
+
+Don't forget to cite these.
+------------------------------------------------------------------------
+r19121 | micinski | 2015-02-01 15:57:50 -0500 (Sun, 01 Feb 2015) | 1 line
+
+taking a pass through section three and addressing Jeff and Michael's comments from yesterday.
+------------------------------------------------------------------------
+r19110 | micinski | 2015-01-31 22:37:52 -0500 (Sat, 31 Jan 2015) | 1 line
+
+adding text on Symdroid, incorporating Jeff and Jon's comments they sent earlier today.
+------------------------------------------------------------------------
+r19108 | micinski | 2015-01-31 16:43:46 -0500 (Sat, 31 Jan 2015) | 1 line
+
+updating the formalism in the source langauge figure, the semantics for programs, and the explanation of programs in the text of section 3.  I have dropped timestamps from messages, because we are no longer using them in our symbolic execution, or our definition of policies.  I think there are still problems with boolean expressions: for example, they include variables, and since boolean expressions are a subset of primitives this seems bad.  It seemed syntactically ugly to create something like 'concrete boolean expressions' and 'boolean expressions that can appear in ifs', so I was hoping someone might offer a suggestion: I can brainstorm a better solution to that.  I also think that the text needs to be cleaned up, the presentation of things may be a little out of order, and I'm sure people will have questions about things, but I think I've addressed all of Jeff's comments in his previous email.
+------------------------------------------------------------------------
+r19107 | jfoster | 2015-01-31 16:21:20 -0500 (Sat, 31 Jan 2015) | 2 lines
+
+Pass over policies stuff. Lots of questions.
+
+------------------------------------------------------------------------
+r19098 | micinski | 2015-01-30 22:28:29 -0500 (Fri, 30 Jan 2015) | 1 line
+
+fleshing out section on checking formulas from the semantics
+------------------------------------------------------------------------
+r19096 | jfoster | 2015-01-30 17:19:25 -0500 (Fri, 30 Jan 2015) | 1 line
+
+Remove some packages I don't think we're using.
+------------------------------------------------------------------------
+r19095 | jfoster | 2015-01-30 17:18:20 -0500 (Fri, 30 Jan 2015) | 6 lines
+
+Changed listings to use better fonts.
+
+Why was there a line
+
+\renewcommand{\bfdefault}{b}? That was screwing up boldface in the listings, and I have no idea what it's for.
+
+------------------------------------------------------------------------
+r19093 | jfoster | 2015-01-30 15:41:10 -0500 (Fri, 30 Jan 2015) | 1 line
+
+Edits to abstract.
+------------------------------------------------------------------------
+r19091 | jfoster | 2015-01-30 14:35:40 -0500 (Fri, 30 Jan 2015) | 1 line
+
+Abstract revision.
+------------------------------------------------------------------------
+r19086 | micinski | 2015-01-30 13:54:42 -0500 (Fri, 30 Jan 2015) | 1 line
+
+further simplifying policies
+------------------------------------------------------------------------
+r19085 | micinski | 2015-01-30 13:50:22 -0500 (Fri, 30 Jan 2015) | 1 line
+
+simplifying policies
+------------------------------------------------------------------------
+r19083 | micinski | 2015-01-30 13:38:17 -0500 (Fri, 30 Jan 2015) | 1 line
+
+adding in abstract
+------------------------------------------------------------------------
+r19082 | micinski | 2015-01-30 08:29:04 -0500 (Fri, 30 Jan 2015) | 1 line
+
+fixing final latex error and using my script..
+------------------------------------------------------------------------
+r19081 | micinski | 2015-01-30 08:21:51 -0500 (Fri, 30 Jan 2015) | 1 line
+
+fixing omitted tex error
+------------------------------------------------------------------------
+r19078 | micinski | 2015-01-29 23:41:03 -0500 (Thu, 29 Jan 2015) | 1 line
+
+adding contact picker example and policy
+------------------------------------------------------------------------
+r19077 | micinski | 2015-01-29 23:28:05 -0500 (Thu, 29 Jan 2015) | 1 line
+
+adding time-varying location toggle example
+------------------------------------------------------------------------
+r19076 | micinski | 2015-01-29 22:51:28 -0500 (Thu, 29 Jan 2015) | 1 line
+
+adding section on two-trace declassification SMT equations
+------------------------------------------------------------------------
+r19069 | micinski | 2015-01-29 15:32:52 -0500 (Thu, 29 Jan 2015) | 1 line
+
+fixing misplaced bracket
+------------------------------------------------------------------------
+r19067 | micinski | 2015-01-29 15:08:55 -0500 (Thu, 29 Jan 2015) | 1 line
+
+adding formalism for policies and denotation function that takes traces (and their inputs) to associated security levels.
+------------------------------------------------------------------------
+r19054 | micinski | 2015-01-28 13:58:22 -0500 (Wed, 28 Jan 2015) | 1 line
+
+adding example (on page 4) of potential policy in LTL
+------------------------------------------------------------------------
+r19015 | micinski | 2015-01-24 15:29:59 -0500 (Sat, 24 Jan 2015) | 1 line
+
+checkign in a version of the paper with the definition of NI with an undefined  function.  I need to talk to Jeff about the best way to write this down.
+------------------------------------------------------------------------
+r19012 | micinski | 2015-01-24 15:07:27 -0500 (Sat, 24 Jan 2015) | 1 line
+
+removing outdated symbolic semantics from paper
+------------------------------------------------------------------------
+r19011 | micinski | 2015-01-24 14:50:15 -0500 (Sat, 24 Jan 2015) | 1 line
+
+removing outdated text from the beginning of the paper, I think the syntax and semantics figure are ready for Jeff to read
+------------------------------------------------------------------------
+r19010 | micinski | 2015-01-24 10:25:48 -0500 (Sat, 24 Jan 2015) | 1 line
+
+Fixing the TSecInput rule.  The TInput rule is still there.  There is no difference in domain for these rules, so they overlap: originally we had them set up so that channels had superscripts indicating which rule could apply.  In our implementation of symdroid, we have policies which constrain secret inputs and all other channels we simply keep as low, so it makes sense to have only the TSecInput rule here (perhaps renamed to TInput) and then constrain inputs using our policies.
+------------------------------------------------------------------------
+r19009 | micinski | 2015-01-24 10:11:45 -0500 (Sat, 24 Jan 2015) | 1 line
+
+adding in operational semantics for ifs with a \bdenot{} form that is not yet defined in the paper, it maps a value to a symbolic assertion.
+------------------------------------------------------------------------
+r19007 | micinski | 2015-01-23 22:45:44 -0500 (Fri, 23 Jan 2015) | 1 line
+
+adding textual description of updated formalism
+------------------------------------------------------------------------
+r19001 | micinski | 2015-01-22 14:01:48 -0500 (Thu, 22 Jan 2015) | 1 line
+
+reformatting paper into LNCS format.
+------------------------------------------------------------------------
+r18996 | micinski | 2015-01-21 13:57:56 -0500 (Wed, 21 Jan 2015) | 1 line
+
+adding explanation of equation forming
+------------------------------------------------------------------------
+r18884 | micinski | 2014-12-11 21:24:28 -0500 (Thu, 11 Dec 2014) | 1 line
+
+Checking in a correct proof of GNI -> Defn2 (NI)
+------------------------------------------------------------------------
+r18883 | micinski | 2014-12-10 13:50:51 -0500 (Wed, 10 Dec 2014) | 1 line
+
+checking in revised section introducing hyperltl2
+------------------------------------------------------------------------
+r18882 | micinski | 2014-12-09 15:45:30 -0500 (Tue, 09 Dec 2014) | 1 line
+
+fixing errors in build..
+------------------------------------------------------------------------
+r18881 | micinski | 2014-12-09 13:46:24 -0500 (Tue, 09 Dec 2014) | 1 line
+
+Checking in definition of optimization for SMT constraints
+------------------------------------------------------------------------
+r18880 | micinski | 2014-12-08 22:50:51 -0500 (Mon, 08 Dec 2014) | 1 line
+
+Including note on hygiene for renaming symbolic variables in traces.
+------------------------------------------------------------------------
+r18879 | micinski | 2014-12-08 22:46:57 -0500 (Mon, 08 Dec 2014) | 1 line
+
+Including the algorithm for checking GNI using an SMT solver that produces a formula with quantifiers.
+------------------------------------------------------------------------
+r18878 | micinski | 2014-12-08 20:20:25 -0500 (Mon, 08 Dec 2014) | 1 line
+
+checking in definition of noninterference for GNI, proof sketch it implies definition 2 (our defn of NI), and a way to systematize H/L declassification for data
+------------------------------------------------------------------------
+r18851 | micinski | 2014-11-28 19:55:42 -0500 (Fri, 28 Nov 2014) | 1 line
+
+checking in declassification for static data, what declassification and a first example of where declassification
+------------------------------------------------------------------------
+r18850 | micinski | 2014-11-28 18:56:05 -0500 (Fri, 28 Nov 2014) | 1 line
+
+checking in definition of Noninterference for our programs using HyperLTL2 as the logic.
+------------------------------------------------------------------------
+r18849 | sv-clarkson | 2014-11-24 11:36:11 -0500 (Mon, 24 Nov 2014) | 1 line
+
+Tweaks made to semantics while reading through them with Kris.
+------------------------------------------------------------------------
+r18848 | micinski | 2014-11-20 12:07:20 -0500 (Thu, 20 Nov 2014) | 1 line
+
+working on the examples section
+------------------------------------------------------------------------
+r18845 | micinski | 2014-11-18 14:19:38 -0500 (Tue, 18 Nov 2014) | 1 line
+
+changing the paper so that time-varying is changed to "dynamic".  I wanted to keep a consistent naming convention, we can change it later, but it should all say dynamic for now.  I don't care what we call it, but switching the name throughout the paper seems bad: and time-varying isn't technically correct since our formalism doesn't really model time in a precise way.
+------------------------------------------------------------------------
+r18842 | micinski | 2014-11-17 20:43:49 -0500 (Mon, 17 Nov 2014) | 1 line
+
+defining release conditions for programs and putting frameworks in place to talk about epistemic declassification as a generaliztion of equivalence relations on secret inputs.  Next thing needed to be done is to fill in the blanks I left and then scale this up to gradual release for time-varying secrets.
+------------------------------------------------------------------------
+r18841 | micinski | 2014-11-17 16:22:12 -0500 (Mon, 17 Nov 2014) | 1 line
+
+including a first shot at defining noninterference modulo declassification.  I have included definitions for release policies using equivalence relations that are characteried by syntactic formulas in our logic, and defined what these mean in a multi-trace setting.  I have then stated noninterference modulo declassificiation up to this relation, and then I have written the "what" formula in our logic that corresponds to this property and put a theorem asserting their equivalence in our appendix.  Next I have to do the proof of the equivalence.
+------------------------------------------------------------------------
+r18840 | jfoster | 2014-11-17 15:21:32 -0500 (Mon, 17 Nov 2014) | 1 line
+
+Some more edits to 3.
+------------------------------------------------------------------------
+r18839 | jfoster | 2014-11-17 15:06:27 -0500 (Mon, 17 Nov 2014) | 1 line
+
+A few edits to section 3.
+------------------------------------------------------------------------
+r18838 | micinski | 2014-11-17 14:27:29 -0500 (Mon, 17 Nov 2014) | 1 line
+
+rewording text on which modalities we include
+------------------------------------------------------------------------
+r18837 | micinski | 2014-11-17 12:25:06 -0500 (Mon, 17 Nov 2014) | 1 line
+
+removing channel superscripts and fixing figure
+------------------------------------------------------------------------
+r18836 | jfoster | 2014-11-17 11:01:19 -0500 (Mon, 17 Nov 2014) | 1 line
+
+A few nits.
+------------------------------------------------------------------------
+r18835 | micinski | 2014-11-16 22:23:38 -0500 (Sun, 16 Nov 2014) | 1 line
+
+realized the AK formula was written incorrectly...
+------------------------------------------------------------------------
+r18834 | micinski | 2014-11-16 22:22:35 -0500 (Sun, 16 Nov 2014) | 1 line
+
+realized the AK formula was written incorrectly...
+------------------------------------------------------------------------
+r18833 | micinski | 2014-11-16 22:15:25 -0500 (Sun, 16 Nov 2014) | 1 line
+
+minor revisions to the source language syntax and semantics to fix small errors.  Removing Michael's comments in section 4 and 5A that have been addressed.  Made notes to talk via Skype about the important ones.  Sections 4-5A are done.  Next I will work on defining release using equivalence relations formally for sections 5B and C
+------------------------------------------------------------------------
+r18832 | micinski | 2014-11-15 01:41:42 -0500 (Sat, 15 Nov 2014) | 1 line
+
+Realized that the wrong implication was used in Figure 4: needs to be metalogical implication rather than logical one (accidentally made typo)
+------------------------------------------------------------------------
+r18831 | micinski | 2014-11-15 01:37:11 -0500 (Sat, 15 Nov 2014) | 1 line
+
+Worked on a syntax for symbolic execution semantics.  Added boolean expressions, and SMT constraints.  I might not get around to it, but wanted to get at least the syntax out when I had thought about it.  Next thing to do on this is to implement the reduction semantics.
+------------------------------------------------------------------------
+r18830 | micinski | 2014-11-14 17:10:56 -0500 (Fri, 14 Nov 2014) | 1 line
+
+Fixing the channel names in section 3: think they're all used consistently and correctly in the figure: the input rules TSecInput and TInput move the value from the channel to the handler channel with an ^h superscript: the reason for this is so that there's no ambiguity between the THandle rule and the TInput/TSecInput rules.  I changed THandle so that it makes sure that the timestamp doesn't get incremented.  Note that there is text in the paper describing how \Sigma^+ is implemented.
+------------------------------------------------------------------------
+r18829 | micinski | 2014-11-14 14:29:27 -0500 (Fri, 14 Nov 2014) | 1 line
+
+I have finished working on addressing Michael's comments and modifying the figure as Jeff described.  I think there's still some two points: I haven't thought about whether we should drop tau transitions, I think it creates a problem I need to discuss with Jeff.  Second, we don't have a good notation for secrets other than C -> N -> N, where C is the set of channel names.
+------------------------------------------------------------------------
+r18828 | micinski | 2014-11-14 03:48:58 -0500 (Fri, 14 Nov 2014) | 1 line
+
+Worked on fixing errors Michael mentioned and responding to his comments up through 5B.
+------------------------------------------------------------------------
+r18825 | sv-clarkson | 2014-11-13 18:29:27 -0500 (Thu, 13 Nov 2014) | 1 line
+
+Comments on sections 4--5b.
+------------------------------------------------------------------------
+r18802 | micinski | 2014-11-13 12:14:18 -0500 (Thu, 13 Nov 2014) | 1 line
+
+small error in traces defn..
+------------------------------------------------------------------------
+r18801 | micinski | 2014-11-13 12:12:51 -0500 (Thu, 13 Nov 2014) | 1 line
+
+finished sections 4-5B, still iterating on text for 5C.  Please read 4-5B and comment, 5C will be done by 4-5PM today, there are a just a few things I have to write up.
+------------------------------------------------------------------------
+r18785 | jfoster | 2014-11-12 19:38:06 -0500 (Wed, 12 Nov 2014) | 1 line
+
+Switch to a better theorem environment.
+------------------------------------------------------------------------
+r18777 | sv-clarkson | 2014-11-12 14:17:02 -0500 (Wed, 12 Nov 2014) | 1 line
+
+page numbers
+------------------------------------------------------------------------
+r18776 | micinski | 2014-11-12 14:04:16 -0500 (Wed, 12 Nov 2014) | 1 line
+
+fixing math mode bug
+------------------------------------------------------------------------
+r18775 | micinski | 2014-11-12 14:01:39 -0500 (Wed, 12 Nov 2014) | 1 line
+
+checking in proof of NI<->AK
+------------------------------------------------------------------------
+r18758 | jfoster | 2014-11-11 18:44:36 -0500 (Tue, 11 Nov 2014) | 1 line
+
+Many comments on section 2.
+------------------------------------------------------------------------
+r18750 | micinski | 2014-11-11 14:59:04 -0500 (Tue, 11 Nov 2014) | 1 line
+
+checking in a draft of a new introduction section
+------------------------------------------------------------------------
+r18738 | micinski | 2014-11-11 04:04:29 -0500 (Tue, 11 Nov 2014) | 1 line
+
+adding explanation on time varying policies.  Need to write down the formula template, it's basically just a generalized version of the location truncation example with release predicates and knowledge bounds, but I need to sit down and be explicit.
+------------------------------------------------------------------------
+r18736 | micinski | 2014-11-11 00:41:28 -0500 (Tue, 11 Nov 2014) | 1 line
+
+major revisions of sections 2 and 4, modifications to section 3, still some comments from Jeff on section 3.
+------------------------------------------------------------------------
+r18728 | micinski | 2014-11-10 16:00:18 -0500 (Mon, 10 Nov 2014) | 1 line
+
+adding completed statement of examples
+------------------------------------------------------------------------
+r18715 | jfoster | 2014-11-08 17:46:55 -0500 (Sat, 08 Nov 2014) | 1 line
+
+Some comments here and there.
+------------------------------------------------------------------------
+r18712 | micinski | 2014-11-08 00:20:36 -0500 (Sat, 08 Nov 2014) | 1 line
+
+fixing errors in committed tex
+------------------------------------------------------------------------
+r18710 | micinski | 2014-11-07 22:44:09 -0500 (Fri, 07 Nov 2014) | 1 line
+
+adding picture
+------------------------------------------------------------------------
+r18709 | micinski | 2014-11-07 22:31:34 -0500 (Fri, 07 Nov 2014) | 1 line
+
+pushing changes to the paper to update various sections based on edits yesterday and today.
+------------------------------------------------------------------------
+r18673 | micinski | 2014-10-30 19:21:09 -0400 (Thu, 30 Oct 2014) | 1 line
+
+changing the definition of the logic as I discussed with Jeff and Michael via email and talked about yesterday, now I need to go over the statements and write out the theorems (and, obviously, check / do the proofs) for the updated definition of the logic.
+------------------------------------------------------------------------
+r18641 | jfoster | 2014-10-23 19:30:46 -0400 (Thu, 23 Oct 2014) | 1 line
+
+Another nit.
+------------------------------------------------------------------------
+r18640 | jfoster | 2014-10-23 19:29:11 -0400 (Thu, 23 Oct 2014) | 1 line
+
+A few comments in Figures 3, 4, 5.
+------------------------------------------------------------------------
+r18639 | jfoster | 2014-10-23 19:24:51 -0400 (Thu, 23 Oct 2014) | 1 line
+
+Various comments and questions in Section III.
+------------------------------------------------------------------------
+r18634 | micinski | 2014-10-21 23:20:38 -0400 (Tue, 21 Oct 2014) | 1 line
+
+adding section IV on time varying declassification with statements of theorems and more polished text, including systematic statement of release conditions
+------------------------------------------------------------------------
+r18581 | micinski | 2014-10-03 01:29:50 -0400 (Fri, 03 Oct 2014) | 1 line
+
+a version of the paper with all of the extraneous text removed, all of the errors fixed, an implementation of the time varying semantics, a lifting lemma from ETL to TVETL, and the examples (somewhat) fixed, along with semantics lifted to the time varying case, some work to do to patch up TVETL to ETL (in the ETL case secret input stores need to be explicitly given where in the TVETL case they appear as atoms), this is the same problem that Jeff noted the other day when he pointed out that the current  version has no way to talk about secrets in ETL.
+------------------------------------------------------------------------
+r18579 | micinski | 2014-09-30 22:47:26 -0400 (Tue, 30 Sep 2014) | 1 line
+
+forgot the Now rule!  Adding it..
+------------------------------------------------------------------------
+r18578 | micinski | 2014-09-30 22:28:52 -0400 (Tue, 30 Sep 2014) | 1 line
+
+adding some notes on a logic for incorporating and speaking about time varying information flow
+------------------------------------------------------------------------
+r18577 | micinski | 2014-09-30 14:35:56 -0400 (Tue, 30 Sep 2014) | 1 line
+
+including some proof sketches, need to be checked and I need to verify that statement for "what" is correct in section 5.4, also need to define epistemic event based declassification and sketch proof for it.  Definition uses knowledge bounds (all atoms holding in the "known" set are also held in the "allowed to know" set) and induction on traces
+------------------------------------------------------------------------
+r18574 | micinski | 2014-09-30 13:19:15 -0400 (Tue, 30 Sep 2014) | 1 line
+
+adding simpler syntax for atomic propositions
+------------------------------------------------------------------------
+r18573 | micinski | 2014-09-30 08:20:06 -0400 (Tue, 30 Sep 2014) | 1 line
+
+adding notation to figure three to define everything in terms of its unfolded rule rather than derived syntax
+------------------------------------------------------------------------
+r18571 | micinski | 2014-09-29 23:38:21 -0400 (Mon, 29 Sep 2014) | 1 line
+
+adding some changes to syntactically delimit release conditions and add text for declassification in ETL
+------------------------------------------------------------------------
+r18566 | micinski | 2014-09-28 19:50:41 -0400 (Sun, 28 Sep 2014) | 1 line
+
+adding section in paper that solidifies figure 3, with correct versions of logical semantics for our ETL
+------------------------------------------------------------------------
+r18563 | micinski | 2014-09-24 14:05:43 -0400 (Wed, 24 Sep 2014) | 1 line
+
+equivalent ETL formulation
+------------------------------------------------------------------------
+r18562 | micinski | 2014-09-24 13:55:49 -0400 (Wed, 24 Sep 2014) | 1 line
+
+adding to section five, definitions and statements of theorems for NI and ETL based NI
+------------------------------------------------------------------------
+r18560 | micinski | 2014-09-23 02:35:10 -0400 (Tue, 23 Sep 2014) | 1 line
+
+adding a Coq based formalism of NI that I used to think about ideas earlier in the day and typecheck statements in the paper, very rough draft
+------------------------------------------------------------------------
+r18541 | micinski | 2014-09-16 14:11:12 -0400 (Tue, 16 Sep 2014) | 1 line
+
+including changes for making paper line up with syntax for formalism in Rafnsson's paper
+------------------------------------------------------------------------
+r18521 | jfoster | 2014-09-07 13:47:51 -0400 (Sun, 07 Sep 2014) | 1 line
+
+Nit
+------------------------------------------------------------------------
+r18520 | micinski | 2014-09-06 19:00:52 -0400 (Sat, 06 Sep 2014) | 3 lines
+
+Adding change in paper to fix error that I used pattern matching where
+we haven't defined it for the TProg rule in the semantics.
+
+------------------------------------------------------------------------
+r18519 | micinski | 2014-09-06 18:51:37 -0400 (Sat, 06 Sep 2014) | 4 lines
+
+Changing paper to update bugs in figures for epistemic temporal
+semantics and fix various other statements, moving ETL statement of NI
+to main paper and extra text to appendix.
+
+------------------------------------------------------------------------
+r18513 | micinski | 2014-09-05 00:29:24 -0400 (Fri, 05 Sep 2014) | 1 line
+
+adding changes to revert to static secrets, added definition of NI in our logic using L modality, changed semantics to account for everything
+------------------------------------------------------------------------
+r18512 | micinski | 2014-09-03 17:20:28 -0400 (Wed, 03 Sep 2014) | 1 line
+
+copying paper using time varying semantics to separate file
+------------------------------------------------------------------------
+r18477 | micinski | 2014-08-07 13:40:17 -0400 (Thu, 07 Aug 2014) | 1 line
+
+changes for notation in sections 1,2,3
+------------------------------------------------------------------------
+r18474 | micinski | 2014-07-30 13:58:50 -0400 (Wed, 30 Jul 2014) | 1 line
+
+adding notes on notation
+------------------------------------------------------------------------
+r18473 | micinski | 2014-07-29 18:09:20 -0400 (Tue, 29 Jul 2014) | 1 line
+
+adding notes on NI and discussion on timing expression and observational equivalence
+------------------------------------------------------------------------
+r18472 | micinski | 2014-07-29 00:45:22 -0400 (Tue, 29 Jul 2014) | 1 line
+
+notes about running example for ETL formalism
+------------------------------------------------------------------------
+r18468 | micinski | 2014-07-18 22:00:16 -0400 (Fri, 18 Jul 2014) | 1 line
+
+updating paper to include correct form of judgement and notes in the figure about what they mean
+------------------------------------------------------------------------
+r18467 | micinski | 2014-07-18 01:41:50 -0400 (Fri, 18 Jul 2014) | 1 line
+
+Adding definitions for observational equivalence and trace restriction, and definition of noninterference using those.
+------------------------------------------------------------------------
+r18466 | micinski | 2014-07-16 18:32:53 -0400 (Wed, 16 Jul 2014) | 1 line
+
+checking in input with time annotations in traces
+------------------------------------------------------------------------
+r18465 | micinski | 2014-07-16 15:51:38 -0400 (Wed, 16 Jul 2014) | 1 line
+
+moving definition of time varying semantics to paper and fixing errors in notation and writeup of rules
+------------------------------------------------------------------------
+r18459 | micinski | 2014-07-14 16:19:14 -0400 (Mon, 14 Jul 2014) | 1 line
+
+fixing missing definition
+------------------------------------------------------------------------
+r18458 | micinski | 2014-07-14 16:17:41 -0400 (Mon, 14 Jul 2014) | 1 line
+
+adding definition of noninterference for time varying semantics
+------------------------------------------------------------------------
+r18455 | micinski | 2014-07-06 15:01:38 -0400 (Sun, 06 Jul 2014) | 1 line
+
+adding ocaml implementation of trace generator for our language
+------------------------------------------------------------------------
+r18450 | micinski | 2014-06-24 15:32:00 -0400 (Tue, 24 Jun 2014) | 1 line
+
+adding definition of time varying semantics and questions I have about it
+------------------------------------------------------------------------
+r18390 | micinski | 2014-05-24 23:08:08 -0400 (Sat, 24 May 2014) | 1 line
+
+rule to add in initial secrets into the dynamic semantics
+------------------------------------------------------------------------
+r18387 | jfoster | 2014-05-22 15:07:27 -0400 (Thu, 22 May 2014) | 1 line
+
+Nits.
+------------------------------------------------------------------------
+r18386 | jfoster | 2014-05-22 14:57:16 -0400 (Thu, 22 May 2014) | 1 line
+
+Text about trace generation plus fix some nits in the rules for trace generation.
+------------------------------------------------------------------------
+r18379 | micinski | 2014-05-14 23:08:37 -0400 (Wed, 14 May 2014) | 1 line
+
+checking in accidental bork on forgetting to define thm
+------------------------------------------------------------------------
+r18377 | micinski | 2014-05-13 15:52:07 -0400 (Tue, 13 May 2014) | 1 line
+
+renaming LTL |> phi to exclude the lozenge (future) modality
+------------------------------------------------------------------------
+r18376 | micinski | 2014-05-13 15:24:02 -0400 (Tue, 13 May 2014) | 1 line
+
+checking in some updated lemmas and thinking I almost have main proof of simulation based noninterference done
+------------------------------------------------------------------------
+r18375 | sv-clarkson | 2014-05-13 13:08:56 -0400 (Tue, 13 May 2014) | 1 line
+
+Proof system for logic
+------------------------------------------------------------------------
+r18373 | jfoster | 2014-05-13 12:49:32 -0400 (Tue, 13 May 2014) | 8 lines
+
+* Removed \adds form from semantics, since it wasn't simplifying things that much.
+
+* Added reduction rule for `case', eliminated other conditional rules.
+
+* Added rule for declassify.
+
+* Added text explaining the rules.
+
+------------------------------------------------------------------------
+r18372 | jfoster | 2014-05-13 10:49:41 -0400 (Tue, 13 May 2014) | 2 lines
+
+Changed case to use more clear pattern matching, got rid of if.
+
+------------------------------------------------------------------------
+r18371 | jfoster | 2014-05-13 10:29:54 -0400 (Tue, 13 May 2014) | 4 lines
+
+Some more cleanup of Figure 1, stratifying values into primitives (that can be sent over the network) from other values. Also added some descriptive text.
+
+Still a bit confused about the right form of case. Should also remove one of {case, if}.
+
+------------------------------------------------------------------------
+r18370 | micinski | 2014-05-13 01:49:04 -0400 (Tue, 13 May 2014) | 1 line
+
+checking in some proofs and updates to formalism based on errors discovered in doing some proofs / reasoning about them.  Also updated reduction semantics as it was not properly substituting argument to handler in THandle rule.
+------------------------------------------------------------------------
+r18369 | jfoster | 2014-05-13 00:07:24 -0400 (Tue, 13 May 2014) | 1 line
+
+Some cleanup in Figure 1. Change 'id' to 'ch' (channel). Change constructors to 'f' to avoid confusion with channels.
+------------------------------------------------------------------------
+r18365 | micinski | 2014-05-10 23:33:24 -0400 (Sat, 10 May 2014) | 1 line
+
+checkingin some auxiliar lemmas
+------------------------------------------------------------------------
+r18364 | sv-clarkson | 2014-05-10 23:03:59 -0400 (Sat, 10 May 2014) | 1 line
+
+Finalized of semantics of N; added KAM rule
+------------------------------------------------------------------------
+r18363 | micinski | 2014-05-10 18:29:55 -0400 (Sat, 10 May 2014) | 1 line
+
+including definition of observational determinism for our system
+------------------------------------------------------------------------
+r18351 | jfoster | 2014-05-08 18:43:14 -0400 (Thu, 08 May 2014) | 6 lines
+
+Some figure cleanup.
+
+Get rid of adversary function in reduction semantics---it doesn't seem necessary any more. Now the semantics is just non-deterministic.
+
+Added a rule TProg for generating a trace from a program.
+
+------------------------------------------------------------------------
+r18348 | jfoster | 2014-05-08 16:01:29 -0400 (Thu, 08 May 2014) | 1 line
+
+alternative def of N
+------------------------------------------------------------------------
+r18345 | micinski | 2014-05-08 13:10:04 -0400 (Thu, 08 May 2014) | 1 line
+
+adding some extra stuff to the examples to account for declassification
+------------------------------------------------------------------------
+r18341 | micinski | 2014-05-08 09:11:45 -0400 (Thu, 08 May 2014) | 1 line
+
+list of things to prove
+------------------------------------------------------------------------
+r18340 | micinski | 2014-05-08 02:20:06 -0400 (Thu, 08 May 2014) | 1 line
+
+adding declassify primitive and typing rules
+------------------------------------------------------------------------
+r18339 | sv-clarkson | 2014-05-07 22:51:14 -0400 (Wed, 07 May 2014) | 1 line
+
+fix a typo in definition of K_id in figure 4
+------------------------------------------------------------------------
+r18338 | jfoster | 2014-05-07 20:06:10 -0400 (Wed, 07 May 2014) | 2 lines
+
+Another example app: continuous vs. intermittent location release.
+
+------------------------------------------------------------------------
+r18337 | jfoster | 2014-05-07 19:58:24 -0400 (Wed, 07 May 2014) | 1 line
+
+nits
+------------------------------------------------------------------------
+r18336 | jfoster | 2014-05-07 19:55:48 -0400 (Wed, 07 May 2014) | 1 line
+
+policy for 2.4.
+------------------------------------------------------------------------
+r18335 | jfoster | 2014-05-07 19:31:37 -0400 (Wed, 07 May 2014) | 6 lines
+
+Go back to separate call to install handler.
+
+Add text labels to buttons etc.
+
+Switch to radio buttons for 2.3.
+
+------------------------------------------------------------------------
+r18334 | jfoster | 2014-05-07 19:25:18 -0400 (Wed, 07 May 2014) | 4 lines
+
+Add some missing quantification in 2.3.
+
+Use standard fonts for ACM conference format.
+
+------------------------------------------------------------------------
+r18333 | jfoster | 2014-05-07 19:12:30 -0400 (Wed, 07 May 2014) | 1 line
+
+Attempt at location truncation policy.
+------------------------------------------------------------------------
+r18332 | jfoster | 2014-05-07 18:54:07 -0400 (Wed, 07 May 2014) | 2 lines
+
+Changed K and N modalities to be w.r.t. listening on a particular channel, since this was trivial to do.
+
+------------------------------------------------------------------------
+r18331 | jfoster | 2014-05-07 18:32:37 -0400 (Wed, 07 May 2014) | 1 line
+
+Tweak
+------------------------------------------------------------------------
+r18330 | jfoster | 2014-05-07 18:21:01 -0400 (Wed, 07 May 2014) | 1 line
+
+Define policy satisfcation
+------------------------------------------------------------------------
+r18329 | jfoster | 2014-05-07 18:17:18 -0400 (Wed, 07 May 2014) | 1 line
+
+Some cleanup
+------------------------------------------------------------------------
+r18328 | jfoster | 2014-05-07 17:22:11 -0400 (Wed, 07 May 2014) | 8 lines
+
+Fixed 2.1 and 2.2 to use last
+
+Fixed fig 3 to be accurate
+
+Updated Figu 4 so definition of K filters out to the net channel, using notation t_{net}. This needs to be defined somewhere.
+
+Tried to stratify formulae so that K is always on the outside, but doesn't work with value. Will need to think about this.
+
+------------------------------------------------------------------------
+r18327 | jfoster | 2014-05-07 14:29:56 -0400 (Wed, 07 May 2014) | 2 lines
+
+Fixed policy for 2.2?
+
+------------------------------------------------------------------------
+r18326 | jfoster | 2014-05-07 14:26:36 -0400 (Wed, 07 May 2014) | 2 lines
+
+Fixed 2.1 policy?
+
+------------------------------------------------------------------------
+r18325 | jfoster | 2014-05-07 14:12:31 -0400 (Wed, 07 May 2014) | 2 lines
+
+Cleaned up 2.2. These policies don't quite work right yet, however.
+
+------------------------------------------------------------------------
+r18324 | jfoster | 2014-05-07 12:30:20 -0400 (Wed, 07 May 2014) | 1 line
+
+syntactic sugar for a reverse of since
+------------------------------------------------------------------------
+r18323 | jfoster | 2014-05-07 12:24:43 -0400 (Wed, 07 May 2014) | 6 lines
+
+Simplified and corrected 2.1 code a bit.
+
+Fixed security policy to order button click and select, and to force both to have happened for there to be a release.
+
+Using \rhs instead of "releases" (can change this later).
+
+------------------------------------------------------------------------
+r18322 | jfoster | 2014-05-06 20:02:51 -0400 (Tue, 06 May 2014) | 1 line
+
+Small fixes. Remove types from forall and exists, as they don't seem necessary.
+------------------------------------------------------------------------
+r18321 | micinski | 2014-05-06 16:05:59 -0400 (Tue, 06 May 2014) | 1 line
+
+checking in some initial ideas for security type system..
+------------------------------------------------------------------------
+r18320 | jfoster | 2014-05-06 15:49:14 -0400 (Tue, 06 May 2014) | 2 lines
+
+Add since operator, define last in terms of it, add definition of value.
+
+------------------------------------------------------------------------
+r18318 | jfoster | 2014-05-06 10:13:38 -0400 (Tue, 06 May 2014) | 1 line
+
+Changed to 'at most'
+------------------------------------------------------------------------
+r18314 | jfoster | 2014-05-05 17:16:35 -0400 (Mon, 05 May 2014) | 1 line
+
+Definition of only knows modality in Figure 4. How does this relate to Halperin's definition?
+------------------------------------------------------------------------
+r18313 | micinski | 2014-05-05 13:59:07 -0400 (Mon, 05 May 2014) | 1 line
+
+checking in updated definition of knowledge bound relation
+------------------------------------------------------------------------
+r18310 | micinski | 2014-05-04 00:55:22 -0400 (Sun, 04 May 2014) | 1 line
+
+commiting release semantics rules
+------------------------------------------------------------------------
+r18309 | micinski | 2014-05-03 20:34:26 -0400 (Sat, 03 May 2014) | 1 line
+
+adding high level policy descriptions as "constraint Releases phi(secret) " descriptions
+------------------------------------------------------------------------
+r18307 | micinski | 2014-05-01 16:12:31 -0400 (Thu, 01 May 2014) | 1 line
+
+adding policy visualiation for contact picker
+------------------------------------------------------------------------
+r18306 | micinski | 2014-05-01 16:08:13 -0400 (Thu, 01 May 2014) | 1 line
+
+checking in examples and formulas for their examples
+------------------------------------------------------------------------
+r18303 | micinski | 2014-04-29 21:42:45 -0400 (Tue, 29 Apr 2014) | 1 line
+
+typo..
+------------------------------------------------------------------------
+r18302 | micinski | 2014-04-29 21:40:13 -0400 (Tue, 29 Apr 2014) | 1 line
+
+checking in a guess at what the proper formula for the contact picker should be
+------------------------------------------------------------------------
+r18300 | micinski | 2014-04-29 13:43:53 -0400 (Tue, 29 Apr 2014) | 1 line
+
+adding updated examples with named GUI channels
+------------------------------------------------------------------------
+r18299 | sv-clarkson | 2014-04-29 12:26:35 -0400 (Tue, 29 Apr 2014) | 1 line
+
+citation to access control gadgets
+------------------------------------------------------------------------
+r18297 | sv-clarkson | 2014-04-28 19:28:57 -0400 (Mon, 28 Apr 2014) | 2 lines
+
+Added a lot of related work, along with a one-sentence summary of each paper.
+
+------------------------------------------------------------------------
+r18296 | micinski | 2014-04-28 12:04:32 -0400 (Mon, 28 Apr 2014) | 1 line
+
+adding revised examples and formulas in temporal epistemic logic
+------------------------------------------------------------------------
+r18295 | micinski | 2014-04-27 00:31:38 -0400 (Sun, 27 Apr 2014) | 1 line
+
+adding location example in correct language
+------------------------------------------------------------------------
+r18292 | jfoster | 2014-04-23 12:06:56 -0400 (Wed, 23 Apr 2014) | 4 lines
+
+Reorg'd source language a bit so values only contain what we want. (Should id be a value?)
+
+Added forall and exists to temporal logic semantics
+
+------------------------------------------------------------------------
+r18289 | sv-clarkson | 2014-04-23 11:45:00 -0400 (Wed, 23 Apr 2014) | 1 line
+
+fix a typo in language syntax
+------------------------------------------------------------------------
+r18288 | sv-clarkson | 2014-04-23 11:41:46 -0400 (Wed, 23 Apr 2014) | 1 line
+
+fix a tiny math bug in semantics of U
+------------------------------------------------------------------------
+r18287 | micinski | 2014-04-23 11:00:03 -0400 (Wed, 23 Apr 2014) | 1 line
+
+checking in a few example programs...
+------------------------------------------------------------------------
+r18286 | jfoster | 2014-04-23 10:48:13 -0400 (Wed, 23 Apr 2014) | 1 line
+
+Add not and a base case
+------------------------------------------------------------------------
+r18285 | jfoster | 2014-04-23 10:42:30 -0400 (Wed, 23 Apr 2014) | 1 line
+
+Epistemic temporal logic semantics with indexes
+------------------------------------------------------------------------
+r18277 | jfoster | 2014-04-19 09:40:27 -0400 (Sat, 19 Apr 2014) | 1 line
+
+Nits
+------------------------------------------------------------------------
+r18276 | jfoster | 2014-04-18 21:09:15 -0400 (Fri, 18 Apr 2014) | 1 line
+
+fix build
+------------------------------------------------------------------------
+r18275 | micinski | 2014-04-18 20:46:14 -0400 (Fri, 18 Apr 2014) | 1 line
+
+cleaning up paper directory to dump all the useless files and odds and ends.
+------------------------------------------------------------------------
+r18274 | micinski | 2014-04-18 20:04:04 -0400 (Fri, 18 Apr 2014) | 1 line
+
+I incorrectly include \lozenge in a few rules that should not have had them.
+------------------------------------------------------------------------
+r18273 | jfoster | 2014-04-18 18:07:34 -0400 (Fri, 18 Apr 2014) | 1 line
+
+svn ignore
+------------------------------------------------------------------------
+r18272 | micinski | 2014-04-18 17:21:01 -0400 (Fri, 18 Apr 2014) | 1 line
+
+forgot to add paper, moving paper2.tex to paper.tex
+------------------------------------------------------------------------
+r18271 | micinski | 2014-04-18 17:20:40 -0400 (Fri, 18 Apr 2014) | 1 line
+
+adding definition of models relation, updating paper slightly
+------------------------------------------------------------------------
+r18270 | jfoster | 2014-04-17 16:23:07 -0400 (Thu, 17 Apr 2014) | 4 lines
+
+Remove ott from paper2.tex.
+
+Inline the various files scattered here and there into the .tex file.
+
+------------------------------------------------------------------------
+r18269 | jfoster | 2014-04-17 15:45:13 -0400 (Thu, 17 Apr 2014) | 1 line
+
+Reformat semantics in straight latex
+------------------------------------------------------------------------
+r18267 | jfoster | 2014-04-16 20:17:03 -0400 (Wed, 16 Apr 2014) | 1 line
+
+Fix direction of enqueue.
+------------------------------------------------------------------------
+r18266 | jfoster | 2014-04-16 20:14:08 -0400 (Wed, 16 Apr 2014) | 1 line
+
+Allow multiple inputs
+------------------------------------------------------------------------
+r18265 | jfoster | 2014-04-16 19:54:48 -0400 (Wed, 16 Apr 2014) | 2 lines
+
+Version of paper.tex with some new trace rules in it.
+
+------------------------------------------------------------------------
+r18264 | micinski | 2014-04-16 15:21:07 -0400 (Wed, 16 Apr 2014) | 1 line
+
+changing step rules to small step relation
+------------------------------------------------------------------------
+r18263 | micinski | 2014-04-15 21:08:50 -0400 (Tue, 15 Apr 2014) | 1 line
+
+adding typed up example for contact picker and compressing GUI specification as to eliminate it, though can add back in if necessary...(?)
+------------------------------------------------------------------------
+r18262 | micinski | 2014-04-15 17:56:57 -0400 (Tue, 15 Apr 2014) | 1 line
+
+adding trace definition to drive machine and choose inputs paramaterized on a function f
+------------------------------------------------------------------------
+r18260 | micinski | 2014-04-15 13:31:24 -0400 (Tue, 15 Apr 2014) | 1 line
+
+adding trace definition, relatively small and needs to be cleaned up
+------------------------------------------------------------------------
+r18257 | micinski | 2014-04-14 02:15:20 -0400 (Mon, 14 Apr 2014) | 1 line
+
+adding in beginning of trace based semantics, traces steps through handlers, need to annotate with knowledge transform and accumulation and define semantics based on that
+------------------------------------------------------------------------
+r18256 | micinski | 2014-04-13 21:57:27 -0400 (Sun, 13 Apr 2014) | 1 line
+
+adding new rules left out (minus the ones for list, which still need to be added) and other GUI rules
+------------------------------------------------------------------------
+r18255 | micinski | 2014-04-13 18:34:25 -0400 (Sun, 13 Apr 2014) | 1 line
+
+changing Ott formalism to take big step semantics over handlers
+------------------------------------------------------------------------
+r18254 | micinski | 2014-04-13 12:28:48 -0400 (Sun, 13 Apr 2014) | 1 line
+
+made some more slight modifications to the semantics to make it (hopefully) more correct, I think
+------------------------------------------------------------------------
+r18253 | micinski | 2014-04-13 02:06:41 -0400 (Sun, 13 Apr 2014) | 1 line
+
+renaming latex character in Ott to fix build
+------------------------------------------------------------------------
+r18249 | micinski | 2014-04-12 15:50:36 -0400 (Sat, 12 Apr 2014) | 1 line
+
+adding formalism that builds correctly
+------------------------------------------------------------------------
+r18248 | micinski | 2014-04-11 16:07:29 -0400 (Fri, 11 Apr 2014) | 1 line
+
+adding let rule, realized I had left it out
+------------------------------------------------------------------------
+r18247 | micinski | 2014-04-11 16:00:02 -0400 (Fri, 11 Apr 2014) | 1 line
+
+adding updated semantics for task queue formalism
+------------------------------------------------------------------------
+r18243 | micinski | 2014-04-06 19:05:00 -0400 (Sun, 06 Apr 2014) | 1 line
+
+adding Ott formalization of task queue handler semantics
+------------------------------------------------------------------------
+r18242 | micinski | 2014-04-06 09:01:21 -0400 (Sun, 06 Apr 2014) | 1 line
+
+Adding description for a task queue based semantics
+------------------------------------------------------------------------
+r17941 | micinski | 2014-02-09 22:41:50 -0500 (Sun, 09 Feb 2014) | 1 line
+
+changing into to account for GUI emphasis
+------------------------------------------------------------------------
+r17933 | micinski | 2014-02-05 14:59:59 -0500 (Wed, 05 Feb 2014) | 1 line
+
+adding updates to paper abstract and formalism
+------------------------------------------------------------------------
+r17919 | micinski | 2014-01-31 22:15:07 -0500 (Fri, 31 Jan 2014) | 1 line
+
+adding changes to formalism to make it simpler, corresponding changes in text to paper, update to IEEE format, and checking in bibliography
+------------------------------------------------------------------------
+r17897 | micinski | 2014-01-21 23:13:51 -0500 (Tue, 21 Jan 2014) | 1 line
+
+adding updated version of paper with new source language, formula language, and examples, along with a write up of notes on binding structure for GUI elements
+------------------------------------------------------------------------
+r17636 | micinski | 2013-11-19 15:49:46 -0500 (Tue, 19 Nov 2013) | 1 line
+
+adding updates to examples
+------------------------------------------------------------------------
+r17633 | micinski | 2013-11-18 00:40:41 -0500 (Mon, 18 Nov 2013) | 1 line
+
+adding ott markup for join calculus
+------------------------------------------------------------------------
+r17435 | micinski | 2013-11-05 23:05:36 -0500 (Tue, 05 Nov 2013) | 1 line
+
+adding updated ott source file and explanation of language
+------------------------------------------------------------------------
+r17345 | micinski | 2013-10-29 11:39:10 -0400 (Tue, 29 Oct 2013) | 1 line
+
+adding a high level example of the policy
+------------------------------------------------------------------------
+r17344 | micinski | 2013-10-29 11:26:37 -0400 (Tue, 29 Oct 2013) | 1 line
+
+adding the example of the operational code for the meetup example
+------------------------------------------------------------------------
+r17342 | micinski | 2013-10-29 11:21:07 -0400 (Tue, 29 Oct 2013) | 1 line
+
+fixing up expressive declassification directory
+------------------------------------------------------------------------

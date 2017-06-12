@@ -1,0 +1,31 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Location information usage in the top apps\relax }}{23}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The user (represented by the red cross) has their location truncated to a grid of fixed points.\relax }}{24}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Experimental parameters.\relax }}{26}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Restaurant Finder without (left) and with (right) 0.2~km of truncation.\relax }}{28}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Graphs of median edit distance versus truncation amount. Higher edit distance implies lower utility.\relax }}{33}{figure.caption.8}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Set intersection size results.\relax }}{35}{figure.caption.9}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Additional distance results.\relax }}{37}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ``Bump'' app and policy.\relax }}{49}{figure.caption.11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Location sharing app and policy.\relax }}{52}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Formal definitions.\relax }}{54}{figure.caption.13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Runtime vs. number of events.\relax }}{67}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Results at minimum input depth.\relax }}{68}{figure.caption.15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces App Measurement Survey Procedure.\relax }}{80}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces AppTracer{} graphs and corresponding resource access patterns in our codebook.\relax }}{82}{figure.caption.17}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Percent of observed patterns of each type, per resource. Bar labels indicate how many apps we observed using each pattern, non-normalized.\relax }}{88}{figure.caption.18}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces User expectations study procedure. Lower portion shows partial examples of user actions and survey questions.\relax }}{92}{figure.caption.20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Likert-scale expectation responses for (a) the first user action, organized by int. pattern, and (b) the second user action, organized by authorization pattern.\relax }}{104}{figure.caption.27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Overview of Hogarth\xspace .\relax }}{112}{figure.caption.28}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Code excerpt of the malicious camera use.\relax }}{115}{figure.caption.29}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Two partial sparse traces for Camera2Evil.\relax }}{118}{figure.caption.30}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Camera2Evil: Partial camera-use provenance diagram.\relax }}{120}{figure.caption.31}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Simplified Dalvik bytecode.\relax }}{126}{figure.caption.32}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Dynamic traces.\relax }}{127}{figure.caption.33}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Formalism for sparse trace interpolation.\relax }}{148}{figure.caption.34}
+\addvspace {10\p@ }

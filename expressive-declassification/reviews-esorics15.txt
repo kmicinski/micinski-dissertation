@@ -1,0 +1,71 @@
+----------------------- REVIEW 1 ---------------------
+PAPER: 144
+TITLE: Checking Interaction-Based Declassification Policies for Android Using Symbolic Execution
+AUTHORS: Kristopher Micinski, Jonathan Fetter-Degges, Jinseong Jeon, Jeffrey Foster and Michael Clarkson
+
+
+----------- REVIEW -----------
+The paper presents a framework relying on symbolic execution for verifying whether an Android application complies with information declassification policies.
+Policies are expressed through LTL formulae.
+
+The paper is well written and leverages formal methods to address an interesting problem. However, there are few weaknesses which significantly reduce the potential impact of this work.
+
+A major issue is the absence of a precise threat model. Since the authors apply their methodology to the Java source code, the reader would expect a detailed comparison against the major existing techniques (e.g., type systems, model checking, contract-driven development, assume-guarantee reasoning, ...) which can be applied for verifying information flow properties. The proposed technique would be much more useful if applied at bytecode level. For instance, declassification policies could be checked before installation by a user.
+In this respect, targeting Android is also slightly contrived. Indeed, events only refer to graphic components usage (e.g., button clicks) and system calls (e.g., netout). This also works for other environments (e.g., Java and Web Applications), so why focusing on Android? Since Android apps can interact through well define channels (IPC) it might have been interesting to include inter-application communications in the trace language. As a confirmation, of this aspect the authors compare their work with SIF (Servlet Information Flow).
+
+Apart from that, the paper lacks a real contribution either theoretical or practical. After the preliminary definitions of Sec. 3 one would expect some theorem showing that the approach is indeed sound, e.g., can a checked app violate the declassification policy at runtime? Also the prototype implementation appears quite weak. SymDroid carries out most of the work and its integration with Z3 is not a novelty (in Sec. 4 the authors say "SymDroid invokes Z3").
+Finally, the experiments are not very useful: why measuring the performances if there is no guarantee about the soundness of the approach and, as the authors say, it cannot scale on bigger inputs?
+
+On the positive side, I think the direction that the authors are taking is both relevant and interesting, but currently the results appear quite immature. I suggest the authors to solve consider/answer these two questions. What in your approach is Android-specific? What theoretical/practical achievements are provided by your technique?
+
+-------
+Other comments
+- The necessity of using LTL with bot past and future operators is not clear. It seems that you could only consider the past trace. This could affect the whole proposal since in that case traces are always finite.
+- "Due to space limitations, we omit details on how traces are generated". You should at least provide a reference.
+- you define last(n,p) = \not(n!*) S n!p. Why not last(n,p) = \not(n!p) S n!p?
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 144
+TITLE: Checking Interaction-Based Declassification Policies for Android Using Symbolic Execution
+AUTHORS: Kristopher Micinski, Jonathan Fetter-Degges, Jinseong Jeon, Jeffrey Foster and Michael Clarkson
+
+
+----------- REVIEW -----------
+Protecting data on mobile devices is a very important research problem. This paper proposed an innovative approach suing interaction-based declassification policies, in which the user's interactions with the app constrain the release of sensitive information. The policies are defined extensionally, so as to be independent of the app's implementation, based on sequences of security-relevant events that occur in app runs. Policies use LTL formulae to precisely specify which secret inputs, read at which times, may be released.
+
+The paper is well written and organized. The proposed  method is also innovative. The application of the proposed method looks promising according to the evaluation results in the paper.
+
+My concern about the paper is that the attack scenario are simplified. It is not clear how reliable the proposed method can be to defend against attacks. For example, while a sequence of events, or a pattern of sequence, can be captured, it is not clear how to determine the characteristics of a particular event, which may jeopardize further security analysis.
+
+Also, on page 13, in paragraph of "Scalability", the evaluation is done on a desktop computer, so the analysis is offline or not at the run time of real applications. I am not clear how sequences of real applications can be enumerated.
+
+Overall, this is a well written paper with innovative ideas. The solution looks promising. It will be great if the authors can clarify some technical details in the paper.
+
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 144
+TITLE: Checking Interaction-Based Declassification Policies for Android Using Symbolic Execution
+AUTHORS: Kristopher Micinski, Jonathan Fetter-Degges, Jinseong Jeon, Jeffrey Foster and Michael Clarkson
+
+
+----------- REVIEW -----------
+Overall, this is a well-written and interesting paper, with a good contribution to the field of Android security. The paper presents a new framework for practical user control of sensitive information release by Android apps. The basic premise of the framework is that users naturally express their security and privacy intentions through interactions. While this premise is generally accepted, without the authors' contribution there is no way to formally assess whether an app was actually doing what the user interaction prompts stated. The authors close this gap with ClickRelease, a prototype that checks whether an app's logic satisfies security conditions expressed in an Interaction-based Declassification Policy Language.
+
+I like how the paper begins with two illustrative examples (Bump and Location) before diving into the details of the language, policies and implementation. This is an excellent way to highlight the unique aspects of interaction-based declassification without getting bogged down into details. The two examples are straightforward and well-explained, making it very clear how the proposed framework will work and help to make the reader anxious to learn the details.
+
+The section describing program traces and policies is clearly written. Again, the tiebacks to the examples given in the previous section were extremely helpful to my understanding of the need for tracing and how the policy is constructed.
+
+Implementation of ClickRelease is based on previous work by the same authors, SymDroid. The authors wisely choose to run the test app in an executable model of the Android framework which simulates key parts, such as click generation and basic classes such as LocationManager and TelephonyManager.
+
+The main deficiencies of the paper are as follows:
+
+1. The paper fails to discuss limitations of the system beyond a few statements here and there regarding future work ideas and possible issues of scalability. I feel there should be a dedicated discussion about any inherent limitations of such an approach, not just features which haven't yet been added. For example: 1) a discussion of cases where the basic premise of user capturing user intent through interactions may be invalid. Is complete user understanding and confidence a starting assumption of this work? Should situations where there are programmatic GUI controls in place (i.e., Accessibility features) be mentioned? What if these are malicious (see Jang, et. al., A11y Attacks: Exploiting Accessibility in Operating Systems, CCS '14); 2) situations when code and/or data flows are obfuscated or complex. Very rarely do apps have simple action buttons like “Send Device ID”. Rather, they are more abstract/multi-faceted things like “Submit Post” or “Add to Favorites!
+
+ ”. How will the ClickRelease system work with interactions like these where several or many data items may be associated with the action? How does the user in this case indicate intent with respect to sensitive information?; 3) situations when sensitive data is stored and read later after possibly being modified, combined, transformed, etc.; 4) can the system differentiate between different flow destinations? For example, sharing coarse location with one site but not others? Can there be Low Internet destinations and High Internet destinations?
+
+2. Although the paper considers “insecure” apps being ones that have programming mistakes, the paper does not discuss how the system would perform when used to analyze potentially malicious apps that attempt to declassify through trickery or covertness. Would it be able to detect malicious declassification? What about cases where the user interaction GUI is not clear or intentionally misleading? What are the ways in which ClickRelease can be defeated?
+
+3. The analysis of related work is good but incomplete as it only compares very similar information flow works and not competing/complementary approaches, such as fine-grained permissions or mandatory access controls (as examples). Also, I think it would be useful to include a discussion of how ClickRelease should coexist in a security environment that includes other security policy checking and enforcement tools and mechanisms. ClickRelease is not a panacea, so its role will complement other things that have strengths where ClickRelease is not focused.
+
+As it stands, I think the paper is marginally acceptable, mainly due to the lack of discussions regarding caveats, limitations, and ClickRelease's relationship with other security frameworks.

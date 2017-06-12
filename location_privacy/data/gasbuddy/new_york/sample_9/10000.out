@@ -1,0 +1,1343 @@
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.RelativeLayout@40628dc0
+com.google.ads.AdView@4063f400
+android.gesture.GestureOverlayView@40585708
+android.widget.FrameLayout@405b1b18
+com.google.ads.internal.AdWebView@405cdc00
+android.widget.TableLayout@406bc0f8
+android.widget.TableRow@406bf458
+android.widget.RelativeLayout@406bfad8
+android.widget.RelativeLayout@406c29d0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406c9b20
+android.widget.ImageView@406ccc90
+android.widget.TextView: CITGO
+android.widget.TextView: 441 Beach 129th St & Cronston Ave
+android.widget.TextView: Queens, NY
+android.widget.TextView: 3.09 mi
+android.widget.TableLayout@406126a8
+android.widget.TableRow@40612c78
+android.widget.RelativeLayout@40615ff8
+android.widget.RelativeLayout@406163d0
+android.widget.TextView: 4.29
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40698b70
+android.widget.ImageView@40698f48
+android.widget.TextView: Mobil
+android.widget.TextView: 6000 Shore Pkwy &  Exit 11-Flatbush
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 4.52 mi
+android.widget.TableLayout@407029d8
+android.widget.TableRow@40705ed8
+android.widget.RelativeLayout@40706468
+android.widget.RelativeLayout@407096b8
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405fdf40
+android.widget.ImageView@405fe318
+android.widget.TextView: Sunoco
+android.widget.TextView: 2701 Knapp St & Voorhies Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.03 mi
+android.widget.TableLayout@406b4b68
+android.widget.TableRow@406b8188
+android.widget.RelativeLayout@406c2350
+android.widget.RelativeLayout@406c56e8
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d3388
+android.widget.ImageView@406d37a8
+android.widget.TextView: Shell
+android.widget.TextView: 2472 Knapp St & Ave Y
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.33 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@406b4b68
+android.widget.TableRow@406b8188
+android.widget.RelativeLayout@406c2350
+android.widget.RelativeLayout@406c56e8
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d3388
+android.widget.ImageView@406d37a8
+android.widget.TextView: Shell
+android.widget.TextView: 2472 Knapp St & Ave Y
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.33 mi
+android.widget.TableLayout@4076fd80
+android.widget.TableRow@40770350
+android.widget.RelativeLayout@407709d0
+android.widget.RelativeLayout@40770da8
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407725b8
+android.widget.ImageView@40772990
+android.widget.TextView: Mobil
+android.widget.TextView: 2402 Knapp St & Ave X
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.42 mi
+android.widget.TableLayout@4077fba0
+android.widget.TableRow@40780170
+android.widget.RelativeLayout@40780830
+android.widget.RelativeLayout@40780c08
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 21 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40782418
+android.widget.ImageView@407827f0
+android.widget.TextView: CITGO
+android.widget.TextView: 3755 Nostrand Ave & Ave Y
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.57 mi
+android.widget.TableLayout@4078ff00
+android.widget.TableRow@407904d0
+android.widget.RelativeLayout@40790b90
+android.widget.RelativeLayout@40790f68
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40792778
+android.widget.ImageView@40792b50
+android.widget.TextView: Shell
+android.widget.TextView: 59-14 Beach Channel Dr & B 59 St
+android.widget.TextView: Queens, NY
+android.widget.TextView: 5.67 mi
+android.widget.TableLayout@4079f7c8
+android.widget.TableRow@4079fd98
+android.widget.RelativeLayout@407a0458
+android.widget.RelativeLayout@407a0830
+android.widget.TextView: 4.15
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a2040
+android.widget.ImageView@407a2418
+android.widget.TextView: BP
+android.widget.TextView: 3010 Ocean Ave & Jerome Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.72 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@4079f7c8
+android.widget.TableRow@4079fd98
+android.widget.RelativeLayout@407a0458
+android.widget.RelativeLayout@407a0830
+android.widget.TextView: 4.15
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a2040
+android.widget.ImageView@407a2418
+android.widget.TextView: BP
+android.widget.TextView: 3010 Ocean Ave & Jerome Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.72 mi
+android.widget.TableLayout@4050b690
+android.widget.TableRow@405578d8
+android.widget.RelativeLayout@40546bc8
+android.widget.RelativeLayout@40555748
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40562468
+android.widget.ImageView@4050b810
+android.widget.TextView: Mobil
+android.widget.TextView: 2228 Gerritsen Ave & Ave U
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.85 mi
+android.widget.TableLayout@40586b60
+android.widget.TableRow@405ac5b0
+android.widget.RelativeLayout@4058c560
+android.widget.RelativeLayout@4059a510
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405b79d8
+android.widget.ImageView@40551ae8
+android.widget.TextView: Sunoco
+android.widget.TextView: 3095 Ave U & Gerritsen Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.88 mi
+android.widget.TableLayout@405bec90
+android.widget.TableRow@4060f608
+android.widget.RelativeLayout@405e49f0
+android.widget.RelativeLayout@405e7538
+android.widget.TextView: 3.85
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405eeea8
+android.widget.ImageView@40559618
+android.widget.TextView: Getty
+android.widget.TextView: 3902 Ave U & Ryder St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.91 mi
+android.widget.TableLayout@405c7208
+android.widget.TableRow@40627fc8
+android.widget.RelativeLayout@405f3238
+android.widget.RelativeLayout@40608c48
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4060ddc8
+android.widget.ImageView@40583040
+android.widget.TextView: Gulf
+android.widget.TextView: 3031 Coney Island Ave & Neptune Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.94 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@405c7208
+android.widget.TableRow@40627fc8
+android.widget.RelativeLayout@405f3238
+android.widget.RelativeLayout@40608c48
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4060ddc8
+android.widget.ImageView@40583040
+android.widget.TextView: Gulf
+android.widget.TextView: 3031 Coney Island Ave & Neptune Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.94 mi
+android.widget.TableLayout@405e5890
+android.widget.TableRow@4062c370
+android.widget.RelativeLayout@40619e88
+android.widget.RelativeLayout@4061b100
+android.widget.TextView: 3.83
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406234d0
+android.widget.ImageView@40588208
+android.widget.TextView: Shell
+android.widget.TextView: 3046 Coney Island Ave & Neptune Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.94 mi
+android.widget.TableLayout@405e7058
+android.widget.TableRow@40654de8
+android.widget.RelativeLayout@406240a8
+android.widget.RelativeLayout@406274b8
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40631538
+android.widget.ImageView@4058da60
+android.widget.TextView: Mobil
+android.widget.TextView: 3003 Coney Island  & Guider Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 5.95 mi
+android.widget.TableLayout@405f2e48
+android.widget.TableRow@4065e278
+android.widget.RelativeLayout@406533f8
+android.widget.RelativeLayout@406543f8
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40668578
+android.widget.ImageView@40514f10
+android.widget.TextView: Mobil
+android.widget.TextView: 6202  Ave U & Mill Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.07 mi
+android.widget.TableLayout@406245c8
+android.widget.TableRow@40678a68
+android.widget.RelativeLayout@4066b7a8
+android.widget.RelativeLayout@406811c8
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40686408
+android.widget.ImageView@40561e30
+android.widget.TextView: BP
+android.widget.TextView: 6201  Ave U & Mill 
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.09 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@406245c8
+android.widget.TableRow@40678a68
+android.widget.RelativeLayout@4066b7a8
+android.widget.RelativeLayout@406811c8
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40686408
+android.widget.ImageView@40561e30
+android.widget.TextView: BP
+android.widget.TextView: 6201  Ave U & Mill 
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.09 mi
+android.widget.TableLayout@4062a850
+android.widget.TableRow@40685e50
+android.widget.RelativeLayout@4068d490
+android.widget.RelativeLayout@40650858
+android.widget.TextView: 3.86
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40665840
+android.widget.ImageView@40605288
+android.widget.TextView: Hess
+android.widget.TextView: 2400 Flatbush Ave & Ave T
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.12 mi
+android.widget.TableLayout@4062dbe0
+android.widget.TableRow@406b5530
+android.widget.RelativeLayout@4076ff88
+android.widget.RelativeLayout@40550d90
+android.widget.TextView: 3.90
+android.widget.TextView: 9
+android.widget.TextView: 16 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40562d08
+android.widget.ImageView@40618c90
+android.widget.TextView: Getty
+android.widget.TextView: 2001 Gravesend Neck Rd & Ocean Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.18 mi
+android.widget.TableLayout@40630ae0
+android.widget.TableRow@406e45b8
+android.widget.RelativeLayout@405e40a0
+android.widget.RelativeLayout@405eb538
+android.widget.TextView: 3.98
+android.widget.TextView: 9
+android.widget.TextView: 18 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40601ef0
+android.widget.ImageView@40622718
+android.widget.TextView: Sunoco
+android.widget.TextView: 2285 Flatbush Ave & Fillmore Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.38 mi
+android.widget.TableLayout@40630c88
+android.widget.TableRow@40585168
+android.widget.RelativeLayout@4077f458
+android.widget.RelativeLayout@406e3518
+android.widget.TextView: 4.08
+android.widget.TextView: 9
+android.widget.TextView: 56 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064da10
+android.widget.ImageView@40653250
+android.widget.TextView: BP
+android.widget.TextView: 2624 Coney Island Ave & Lancaster Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.41 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@40630c88
+android.widget.TableRow@40585168
+android.widget.RelativeLayout@4077f458
+android.widget.RelativeLayout@406e3518
+android.widget.TextView: 4.08
+android.widget.TextView: 9
+android.widget.TextView: 56 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4064da10
+android.widget.ImageView@40653250
+android.widget.TextView: BP
+android.widget.TextView: 2624 Coney Island Ave & Lancaster Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.41 mi
+android.widget.TableLayout@40650420
+android.widget.TableRow@40636498
+android.widget.RelativeLayout@406ea0e8
+android.widget.RelativeLayout@4070cb90
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40581c88
+android.widget.ImageView@406c5898
+android.widget.TextView: Gulf
+android.widget.TextView: 38-01 Beach Channel Dr & Beach 38th St
+android.widget.TextView: Far Rockaway, NY
+android.widget.TextView: 6.46 mi
+android.widget.TableLayout@406cc7a0
+android.widget.TableRow@406d13d0
+android.widget.RelativeLayout@406dd4f8
+android.widget.RelativeLayout@407721c0
+android.widget.TextView: 4.29
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40783ab0
+android.widget.ImageView@407917e0
+android.widget.TextView: Gulf
+android.widget.TextView: 2317 Ralph Ave & Ave M
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.54 mi
+android.widget.TableLayout@40703a78
+android.widget.TableRow@4070a9b0
+android.widget.RelativeLayout@40670ff8
+android.widget.RelativeLayout@406a0a70
+android.widget.TextView: 4.15
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406536f0
+android.widget.ImageView@40716a68
+android.widget.TextView: Sunoco
+android.widget.TextView: 2489 Coney Island Ave & Ave V
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.54 mi
+android.widget.TableLayout@40699520
+android.widget.TableRow@406a04a0
+android.widget.RelativeLayout@406a7140
+android.widget.RelativeLayout@406b8f68
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406ef048
+android.widget.ImageView@406f2758
+android.widget.TextView: Eagle
+android.widget.TextView: 366 Ave Y & W 3rd St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.71 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@406ffd10
+android.widget.TableRow@4062ef38
+android.widget.RelativeLayout@4062f5b8
+android.widget.RelativeLayout@40669d10
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4066cd00
+android.widget.ImageView@4066d0d8
+android.widget.TextView: Eagle
+android.widget.TextView: 366 Ave Y & W 3rd St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.71 mi
+android.widget.TableLayout@4063c0a0
+android.widget.TableRow@40666ab8
+android.widget.RelativeLayout@40667138
+android.widget.RelativeLayout@406af428
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4068ef58
+android.widget.ImageView@406a30c0
+android.widget.TextView: BP
+android.widget.TextView: 2317 Coney Island Ave & Ave T
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.75 mi
+android.widget.TableLayout@406fcf28
+android.widget.TableRow@40600818
+android.widget.RelativeLayout@40713910
+android.widget.RelativeLayout@40713c90
+android.widget.TextView: 4.03
+android.widget.TextView: 9
+android.widget.TextView: Mon 12:36 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d3c0
+android.widget.ImageView@406a5e38
+android.widget.TextView: Shell
+android.widget.TextView: 9612 Seaview Ave & Rockaway Pkwy
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.87 mi
+android.widget.TableLayout@406ee2d8
+android.widget.TableRow@406a6ab8
+android.widget.RelativeLayout@4063ec88
+android.widget.RelativeLayout@407944a8
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406738c8
+android.widget.ImageView@40673c30
+android.widget.TextView: BP
+android.widget.TextView: 1982 Utica Ave & Ave L
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.89 mi
+android.widget.TableLayout@40699520
+android.widget.TableRow@406a04a0
+android.widget.RelativeLayout@406a7140
+android.widget.RelativeLayout@406b8f68
+android.widget.TextView: 3.80
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406ef048
+android.widget.ImageView@406f2758
+android.widget.TextView: Exxon
+android.widget.TextView: 2063 Ralph Ave & Ave K Ext
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.89 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@40699520
+android.widget.TableRow@406a04a0
+android.widget.RelativeLayout@406a7140
+android.widget.RelativeLayout@406b8f68
+android.widget.TextView: 3.80
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406ef048
+android.widget.ImageView@406f2758
+android.widget.TextView: Exxon
+android.widget.TextView: 2063 Ralph Ave & Ave K Ext
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.89 mi
+android.widget.TableLayout@4076e988
+android.widget.TableRow@4076ef58
+android.widget.RelativeLayout@4071b6f0
+android.widget.RelativeLayout@4071ba28
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4071d238
+android.widget.ImageView@4073fa10
+android.widget.TextView: Liberty
+android.widget.TextView: 2965 86th St & McDonald Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.9 mi
+android.widget.TableLayout@40725f50
+android.widget.TableRow@40726520
+android.widget.RelativeLayout@40726be0
+android.widget.RelativeLayout@40726fb8
+android.widget.TextView: 3.99
+android.widget.TextView: 9
+android.widget.TextView: Mon 5:14 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407287c8
+android.widget.ImageView@40728ba0
+android.widget.TextView: Mobil
+android.widget.TextView: 2000 Rockaway Pkwy  & Seaview Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.91 mi
+android.widget.TableLayout@407e6da0
+android.widget.TableRow@407e7370
+android.widget.RelativeLayout@407e7a30
+android.widget.RelativeLayout@407e7e08
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407e9618
+android.widget.ImageView@407e99f0
+android.widget.TextView: Hess
+android.widget.TextView: 1620 Neptune Ave & W 17th St
+android.widget.TextView: Coney Island, NY
+android.widget.TextView: 6.98 mi
+android.widget.TableLayout@40586b60
+android.widget.TableRow@405578d8
+android.widget.RelativeLayout@40546bc8
+android.widget.RelativeLayout@40555748
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 16 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40562468
+android.widget.ImageView@4050b810
+android.widget.TextView: Mobil
+android.widget.TextView: 2773 Nostrand Ave & Kings Hwy
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.99 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@40586b60
+android.widget.TableRow@405578d8
+android.widget.RelativeLayout@40546bc8
+android.widget.RelativeLayout@40555748
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 16 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40562468
+android.widget.ImageView@4050b810
+android.widget.TextView: Mobil
+android.widget.TextView: 2773 Nostrand Ave & Kings Hwy
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 6.99 mi
+android.widget.TableLayout@405bec90
+android.widget.TableRow@40585168
+android.widget.RelativeLayout@40581c88
+android.widget.RelativeLayout@4058c560
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405b79d8
+android.widget.ImageView@40514f10
+android.widget.TextView: Mobil
+android.widget.TextView: 1702 Neptune Ave & W 17th St
+android.widget.TextView: Coney Island, NY
+android.widget.TextView: 7.01 mi
+android.widget.TableLayout@405c7208
+android.widget.TableRow@4059a510
+android.widget.RelativeLayout@405c6e28
+android.widget.RelativeLayout@405c97b8
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405e49f0
+android.widget.ImageView@40551ae8
+android.widget.TextView: Getty
+android.widget.TextView: 1881 Utica Ave & Flatlands Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.05 mi
+android.widget.TableLayout@405e5890
+android.widget.TableRow@405ac5b0
+android.widget.RelativeLayout@405e7538
+android.widget.RelativeLayout@405eeea8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405f3238
+android.widget.ImageView@40559618
+android.widget.TextView: Shell
+android.widget.TextView: 3072 Cropsey Ave & Hart Pl
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.08 mi
+android.widget.TableLayout@405e7058
+android.widget.TableRow@40602420
+android.widget.RelativeLayout@40608c48
+android.widget.RelativeLayout@4060ddc8
+android.widget.TextView: 3.84
+android.widget.TextView: 9
+android.widget.TextView: Mon 9:02 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40619e88
+android.widget.ImageView@40561e30
+android.widget.TextView: Fun Gas
+android.widget.TextView: 3827 Kings Hwy & Flatbush Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.1 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@405e7058
+android.widget.TableRow@40602420
+android.widget.RelativeLayout@40608c48
+android.widget.RelativeLayout@4060ddc8
+android.widget.TextView: 3.84
+android.widget.TextView: 9
+android.widget.TextView: Mon 9:02 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40619e88
+android.widget.ImageView@40561e30
+android.widget.TextView: Fun Gas
+android.widget.TextView: 3827 Kings Hwy & Flatbush Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.1 mi
+android.widget.TableLayout@405f2e48
+android.widget.TableRow@4060f608
+android.widget.RelativeLayout@4061b100
+android.widget.RelativeLayout@406234d0
+android.widget.TextView: 4.07
+android.widget.TextView: 9
+android.widget.TextView: 16 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406240a8
+android.widget.ImageView@40583040
+android.widget.TextView: Gulf
+android.widget.TextView: 1933 Flatbush Ave & Kings Hwy
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.1 mi
+android.widget.TableLayout@4061bfa0
+android.widget.TableRow@40627fc8
+android.widget.RelativeLayout@406274b8
+android.widget.RelativeLayout@40627db0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40628688
+android.widget.ImageView@40627660
+android.widget.TextView: Gulf
+android.widget.TextView: 2001 Neptune  & W 20 St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.11 mi
+android.widget.TableLayout@406245c8
+android.widget.TableRow@406b50d0
+android.widget.RelativeLayout@406fe700
+android.widget.RelativeLayout@4062dbe0
+android.widget.TextView: 3.85
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406bda38
+android.widget.ImageView@406f4fa0
+android.widget.TextView: CITGO
+android.widget.TextView: 1981 Ocean Ave &  O
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.13 mi
+android.widget.TableLayout@406bd808
+android.widget.TableRow@40680db8
+android.widget.RelativeLayout@4060c418
+android.widget.RelativeLayout@40643330
+android.widget.TextView: 3.87
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406557a8
+android.widget.ImageView@40674f38
+android.widget.TextView: Lukoil
+android.widget.TextView: 2955 Cropsey Ave & Canal Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.16 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@406bd808
+android.widget.TableRow@40680db8
+android.widget.RelativeLayout@4060c418
+android.widget.RelativeLayout@40643330
+android.widget.TextView: 3.87
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406557a8
+android.widget.ImageView@40674f38
+android.widget.TextView: Lukoil
+android.widget.TextView: 2955 Cropsey Ave & Canal Ave
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.16 mi
+android.widget.TableLayout@406f7cd0
+android.widget.TableRow@40677900
+android.widget.RelativeLayout@406f2b88
+android.widget.RelativeLayout@40603350
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40780838
+android.widget.ImageView@4067be80
+android.widget.TextView: Paz
+android.widget.TextView: 2978 Cropsey Ave & Bay 54th St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.17 mi
+android.widget.TableLayout@40636b50
+android.widget.TableRow@40791910
+android.widget.RelativeLayout@407928f0
+android.widget.RelativeLayout@406ebdc0
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a2de8
+android.widget.ImageView@407a3218
+android.widget.TextView: Sunoco
+android.widget.TextView: 5808 Flatlands Ave & E 58th St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.17 mi
+android.widget.TableLayout@40650f68
+android.widget.TableRow@40666068
+android.widget.RelativeLayout@40668e48
+android.widget.RelativeLayout@40679238
+android.widget.TextView: 3.80
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40635ba0
+android.widget.ImageView@407a09e0
+android.widget.TextView: Getty
+android.widget.TextView: 5807 Flatlands Ave & E 58th St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.22 mi
+android.widget.TableLayout@406893b8
+android.widget.TableRow@406d3e80
+android.widget.RelativeLayout@40706ba8
+android.widget.RelativeLayout@40706f48
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40712f28
+android.widget.ImageView@40616728
+android.widget.TextView: Mobil
+android.widget.TextView: 1935 Coney Island Ave & Ave P
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.26 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@406893b8
+android.widget.TableRow@406d3e80
+android.widget.RelativeLayout@40706ba8
+android.widget.RelativeLayout@40706f48
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40712f28
+android.widget.ImageView@40616728
+android.widget.TextView: Mobil
+android.widget.TextView: 1935 Coney Island Ave & Ave P
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.26 mi
+android.widget.TableLayout@40705310
+android.widget.TableRow@40700b70
+android.widget.RelativeLayout@407011c0
+android.widget.RelativeLayout@40701598
+android.widget.TextView: 4.15
+android.widget.TextView: 9
+android.widget.TextView: 54 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070f348
+android.widget.ImageView@4070f720
+android.widget.TextView: Gulf
+android.widget.TextView: 1938 Coney Island Ave & Ave P
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.28 mi
+android.widget.TableLayout@4076ace8
+android.widget.TableRow@4076b2b8
+android.widget.RelativeLayout@4076b938
+android.widget.RelativeLayout@4076bd10
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4076d520
+android.widget.ImageView@4076d8f8
+android.widget.TextView: BP
+android.widget.TextView: 7702 Flatlands Ave & East 77th 
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.29 mi
+android.widget.TableLayout@407b2378
+android.widget.TableRow@407b2948
+android.widget.RelativeLayout@407b2fc8
+android.widget.RelativeLayout@407b33a0
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: Tue 12:09 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407b4bb0
+android.widget.ImageView@407b4f88
+android.widget.TextView: Calco
+android.widget.TextView: 1722 Utica Ave & Ave I
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.34 mi
+android.widget.TableLayout@407b9848
+android.widget.TableRow@407b9e18
+android.widget.RelativeLayout@407ba498
+android.widget.RelativeLayout@407ba870
+android.widget.TextView: 4.14
+android.widget.TextView: 9
+android.widget.TextView: 15 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407bc080
+android.widget.ImageView@407bc458
+android.widget.TextView: Sunoco
+android.widget.TextView: 1815 Ocean Ave & Ave M
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.36 mi
+android.widget.RelativeLayout@405b0f98
+android.widget.FrameLayout@40640060
+android.widget.RelativeLayout@40655208
+android.widget.LinearLayout@405b31f8
+android.view.View@40644110
+android.widget.RelativeLayout@40641dc0
+android.widget.TextView: Regular
+android.view.View@4067a278
+android.view.View@40643a20
+android.widget.RelativeLayout@406424f8
+android.widget.TextView: Midgrade
+android.view.View@4060ced0
+android.view.View@40643c70
+android.widget.RelativeLayout@40642e90
+android.widget.TextView: Premium
+android.view.View@4063e468
+android.view.View@40643ec0
+android.widget.RelativeLayout@406430e0
+android.widget.TextView: Diesel
+android.view.View@405d1060
+android.view.View@40644db0
+android.view.View@40593d68
+android.widget.LinearLayout@4061f828
+android.widget.RelativeLayout@4061fdf8
+android.widget.ImageView@4063b838
+android.widget.TextView: Reload
+android.widget.RelativeLayout@40642260
+android.widget.ImageView@406429b0
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@40644360
+android.widget.ImageView@40644888
+android.widget.TextView: Map View
+android.view.View@406184d0
+gbis.gbandroid.views.layouts.CustomListView@40656528
+android.widget.TableLayout@40804ec8
+android.widget.TableRow@40805498
+android.widget.RelativeLayout@40805b58
+android.widget.RelativeLayout@40805f30
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40807740
+android.widget.ImageView@40807b18
+android.widget.TextView: BP
+android.widget.TextView: 7702 Flatlands Ave & East 77th 
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.29 mi
+android.widget.TableLayout@407f4b18
+android.widget.TableRow@407f50e8
+android.widget.RelativeLayout@407f5768
+android.widget.RelativeLayout@407f5b40
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: Tue 12:09 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407f7350
+android.widget.ImageView@407f7728
+android.widget.TextView: Calco
+android.widget.TextView: 1722 Utica Ave & Ave I
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.34 mi
+android.widget.TableLayout@407b9848
+android.widget.TableRow@407b9e18
+android.widget.RelativeLayout@407ba498
+android.widget.RelativeLayout@407ba870
+android.widget.TextView: 4.14
+android.widget.TextView: 9
+android.widget.TextView: 15 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407bc080
+android.widget.ImageView@407bc458
+android.widget.TextView: Sunoco
+android.widget.TextView: 1815 Ocean Ave & Ave M
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.36 mi
+android.widget.TableLayout@407b2378
+android.widget.TableRow@407b2948
+android.widget.RelativeLayout@407b2fc8
+android.widget.RelativeLayout@407b33a0
+android.widget.TextView: 4.09
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407b4bb0
+android.widget.ImageView@407b4f88
+android.widget.TextView: Mobil
+android.widget.TextView: 8401 Flatlands Ave & E 83rd St
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.41 mi
+android.widget.TableLayout@4076ace8
+android.widget.TableRow@4076b2b8
+android.widget.RelativeLayout@4076b938
+android.widget.RelativeLayout@4076bd10
+android.widget.TextView: 4.15
+android.widget.TextView: 9
+android.widget.TextView: 19 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4076d520
+android.widget.ImageView@4076d8f8
+android.widget.TextView: BP
+android.widget.TextView: 1775 Coney Island Ave & Ave N
+android.widget.TextView: Brooklyn, NY
+android.widget.TextView: 7.47 mi
+android.widget.RelativeLayout@405b0f98

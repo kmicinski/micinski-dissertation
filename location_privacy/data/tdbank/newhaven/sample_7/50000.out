@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40589810
+android.widget.LinearLayout@4058a2c0
+android.widget.FrameLayout@4058a570
+android.widget.ImageView@4058a820
+android.widget.RelativeLayout@4058acb8
+android.widget.ImageButton@4058b2c8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058e978
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590d88
+android.widget.LinearLayout@40591130
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592928
+android.widget.LinearLayout@405697a0
+android.widget.TextView: Locations
+android.widget.ScrollView@4050e1f0
+android.widget.TableLayout@40551048
+android.widget.TableRow@406131d8
+android.widget.ImageView@4061f8a8
+android.widget.TextView: 647 Main Street
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4050b2b0
+android.widget.ImageView@40615250
+android.widget.TextView: 647 Main Street
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@405560d0
+android.widget.ImageView@40556578
+android.widget.TextView: 55 Boston Post Road
+android.widget.TextView: 7.54 mi
+android.widget.TableRow@405763d0
+android.widget.ImageView@40576878
+android.widget.TextView: 55 Boston Post Road
+android.widget.TextView: 7.57 mi
+android.widget.TableRow@40612f00
+android.widget.ImageView@4050efa0
+android.widget.TextView: 1625 Summer Street
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@4050d290
+android.widget.ImageView@4050d738
+android.widget.TextView: 1625 Summer Street
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@406199b0
+android.widget.ImageView@40551250
+android.widget.TextView: 50 Charles Street (Saugatuck)
+android.widget.TextView: 9.49 mi
+android.widget.TableRow@40620f40
+android.widget.ImageView@406213e8
+android.widget.TextView: 50 Charles Street
+android.widget.TextView: 9.49 mi
+android.widget.TableRow@4050beb0
+android.widget.ImageView@4050c358
+android.widget.TextView: 437 Wport Avenue
+android.widget.TextView: 9.81 mi
+android.widget.TableRow@405609a8
+android.widget.ImageView@40560e50
+android.widget.TextView: 437 Westport Avenue
+android.widget.TextView: 9.81 mi
+android.widget.TableRow@40623568
+android.widget.ImageView@40653ce8
+android.widget.TextView: 517 Larkfield Road
+android.widget.TextView: 9.82 mi
+android.widget.TableRow@40654cb0
+android.widget.ImageView@4057b870
+android.widget.TextView: 517 Larkfield Road
+android.widget.TextView: 9.85 mi
+android.widget.TableRow@40617418
+android.widget.ImageView@40617810
+android.widget.TextView: 1040 Jericho Turnpike
+android.widget.TextView: 11 mi
+android.widget.TableRow@40631c70
+android.widget.ImageView@406320d0
+android.widget.TextView: 1040 Jericho Turnpike
+android.widget.TextView: 11 mi
+android.widget.TableRow@40629650
+android.widget.ImageView@40629a90
+android.widget.TextView: 380 Main Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40633bf8
+android.widget.ImageView@40633ff0
+android.widget.TextView: 380 Main Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40634e40
+android.widget.ImageView@4062fca8
+android.widget.TextView: 185 Main Street
+android.widget.TextView: 11 mi
+android.widget.TableRow@40630b20
+android.widget.ImageView@40613c38
+android.widget.TextView: 185 Main Street
+android.widget.TextView: 11 mi
+android.widget.TableRow@40614a68
+android.widget.ImageView@40614f10
+android.widget.TextView: 235 Greenwich Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40552e50
+android.widget.ImageView@405532f8
+android.widget.TextView: 235 Greenwich Avenue
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@40613ae0
+android.widget.ImageView@40569b08
+android.widget.Button: Filter
+android.widget.LinearLayout@40583118
+android.widget.FrameLayout@4061aac0
+android.widget.ImageView@405b43d8
+android.widget.Button: Filter
+android.widget.FrameLayout@40639130
+android.widget.Button: Done
+android.widget.FrameLayout@4052ac90
+android.widget.ImageView@40616b10
+android.widget.TextView: Stores
+android.widget.ImageView@40620d38
+android.widget.FrameLayout@4055a6f0
+android.widget.ImageView@40622440
+android.widget.TextView: ATMs
+android.widget.ImageView@40625d58
+android.widget.FrameLayout@40589810
+android.widget.LinearLayout@4058a2c0
+android.widget.FrameLayout@4058a570
+android.widget.ImageView@4058a820
+android.widget.RelativeLayout@4058acb8
+android.widget.ImageButton@4058b2c8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058e978
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590d88
+android.widget.LinearLayout@40591130
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592928
+android.widget.LinearLayout@405697a0
+android.widget.TextView: Locations
+android.widget.ScrollView@4050e1f0
+android.widget.TableLayout@40551048
+android.widget.TableRow@406131d8
+android.widget.ImageView@4061f8a8
+android.widget.TextView: 647 Main Street
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4050b2b0
+android.widget.ImageView@40615250
+android.widget.TextView: 647 Main Street
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@405560d0
+android.widget.ImageView@40556578
+android.widget.TextView: 55 Boston Post Road
+android.widget.TextView: 7.54 mi
+android.widget.TableRow@405763d0
+android.widget.ImageView@40576878
+android.widget.TextView: 55 Boston Post Road
+android.widget.TextView: 7.57 mi
+android.widget.TableRow@40612f00
+android.widget.ImageView@4050efa0
+android.widget.TextView: 1625 Summer Street
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@4050d290
+android.widget.ImageView@4050d738
+android.widget.TextView: 1625 Summer Street
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@406199b0
+android.widget.ImageView@40551250
+android.widget.TextView: 50 Charles Street (Saugatuck)
+android.widget.TextView: 9.49 mi
+android.widget.TableRow@40620f40
+android.widget.ImageView@406213e8
+android.widget.TextView: 50 Charles Street
+android.widget.TextView: 9.49 mi
+android.widget.TableRow@4050beb0
+android.widget.ImageView@4050c358
+android.widget.TextView: 437 Wport Avenue
+android.widget.TextView: 9.81 mi
+android.widget.TableRow@405609a8
+android.widget.ImageView@40560e50
+android.widget.TextView: 437 Westport Avenue
+android.widget.TextView: 9.81 mi
+android.widget.TableRow@40623568
+android.widget.ImageView@40653ce8
+android.widget.TextView: 517 Larkfield Road
+android.widget.TextView: 9.82 mi
+android.widget.TableRow@40654cb0
+android.widget.ImageView@4057b870
+android.widget.TextView: 517 Larkfield Road
+android.widget.TextView: 9.85 mi
+android.widget.TableRow@40617418
+android.widget.ImageView@40617810
+android.widget.TextView: 1040 Jericho Turnpike
+android.widget.TextView: 11 mi
+android.widget.TableRow@40631c70
+android.widget.ImageView@406320d0
+android.widget.TextView: 1040 Jericho Turnpike
+android.widget.TextView: 11 mi
+android.widget.TableRow@40629650
+android.widget.ImageView@40629a90
+android.widget.TextView: 380 Main Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40633bf8
+android.widget.ImageView@40633ff0
+android.widget.TextView: 380 Main Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40634e40
+android.widget.ImageView@4062fca8
+android.widget.TextView: 185 Main Street
+android.widget.TextView: 11 mi
+android.widget.TableRow@40630b20
+android.widget.ImageView@40613c38
+android.widget.TextView: 185 Main Street
+android.widget.TextView: 11 mi
+android.widget.TableRow@40614a68
+android.widget.ImageView@40614f10
+android.widget.TextView: 235 Greenwich Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40552e50
+android.widget.ImageView@405532f8
+android.widget.TextView: 235 Greenwich Avenue
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@40613ae0
+android.widget.ImageView@40569b08
+android.widget.Button: Filter
+android.widget.LinearLayout@40583118
+android.widget.FrameLayout@4061aac0
+android.widget.ImageView@405b43d8
+android.widget.Button: Filter
+android.widget.FrameLayout@40639130
+android.widget.Button: Done
+android.widget.FrameLayout@4052ac90
+android.widget.ImageView@40616b10
+android.widget.TextView: Stores
+android.widget.ImageView@40620d38
+android.widget.FrameLayout@4055a6f0
+android.widget.ImageView@40622440
+android.widget.TextView: ATMs
+android.widget.ImageView@40625d58
+android.widget.FrameLayout@40589810
+android.widget.LinearLayout@4058a2c0
+android.widget.FrameLayout@4058a570
+android.widget.ImageView@4058a820
+android.widget.RelativeLayout@4058acb8
+android.widget.ImageButton@4058b2c8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058e978
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40590d88
+android.widget.LinearLayout@40591130
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40592928
+android.widget.LinearLayout@405697a0
+android.widget.TextView: Locations
+android.widget.ScrollView@4050e1f0
+android.widget.TableLayout@40551048
+android.widget.TableRow@406131d8
+android.widget.ImageView@4061f8a8
+android.widget.TextView: 647 Main Street
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@4050b2b0
+android.widget.ImageView@40615250
+android.widget.TextView: 647 Main Street
+android.widget.TextView: 7.42 mi
+android.widget.TableRow@405560d0
+android.widget.ImageView@40556578
+android.widget.TextView: 55 Boston Post Road
+android.widget.TextView: 7.54 mi
+android.widget.TableRow@405763d0
+android.widget.ImageView@40576878
+android.widget.TextView: 55 Boston Post Road
+android.widget.TextView: 7.57 mi
+android.widget.TableRow@40612f00
+android.widget.ImageView@4050efa0
+android.widget.TextView: 1625 Summer Street
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@4050d290
+android.widget.ImageView@4050d738
+android.widget.TextView: 1625 Summer Street
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@406199b0
+android.widget.ImageView@40551250
+android.widget.TextView: 50 Charles Street (Saugatuck)
+android.widget.TextView: 9.49 mi
+android.widget.TableRow@40620f40
+android.widget.ImageView@406213e8
+android.widget.TextView: 50 Charles Street
+android.widget.TextView: 9.49 mi
+android.widget.TableRow@4050beb0
+android.widget.ImageView@4050c358
+android.widget.TextView: 437 Wport Avenue
+android.widget.TextView: 9.81 mi
+android.widget.TableRow@405609a8
+android.widget.ImageView@40560e50
+android.widget.TextView: 437 Westport Avenue
+android.widget.TextView: 9.81 mi
+android.widget.TableRow@40623568
+android.widget.ImageView@40653ce8
+android.widget.TextView: 517 Larkfield Road
+android.widget.TextView: 9.82 mi
+android.widget.TableRow@40654cb0
+android.widget.ImageView@4057b870
+android.widget.TextView: 517 Larkfield Road
+android.widget.TextView: 9.85 mi
+android.widget.TableRow@40617418
+android.widget.ImageView@40617810
+android.widget.TextView: 1040 Jericho Turnpike
+android.widget.TextView: 11 mi
+android.widget.TableRow@40631c70
+android.widget.ImageView@406320d0
+android.widget.TextView: 1040 Jericho Turnpike
+android.widget.TextView: 11 mi
+android.widget.TableRow@40629650
+android.widget.ImageView@40629a90
+android.widget.TextView: 380 Main Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40633bf8
+android.widget.ImageView@40633ff0
+android.widget.TextView: 380 Main Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40634e40
+android.widget.ImageView@4062fca8
+android.widget.TextView: 185 Main Street
+android.widget.TextView: 11 mi
+android.widget.TableRow@40630b20
+android.widget.ImageView@40613c38
+android.widget.TextView: 185 Main Street
+android.widget.TextView: 11 mi
+android.widget.TableRow@40614a68
+android.widget.ImageView@40614f10
+android.widget.TextView: 235 Greenwich Avenue
+android.widget.TextView: 11 mi
+android.widget.TableRow@40552e50
+android.widget.ImageView@405532f8
+android.widget.TextView: 235 Greenwich Avenue
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@40613ae0
+android.widget.ImageView@40569b08
+android.widget.Button: Filter
+android.widget.LinearLayout@40583118
+android.widget.FrameLayout@4061aac0
+android.widget.ImageView@405b43d8
+android.widget.Button: Filter
+android.widget.FrameLayout@40639130
+android.widget.Button: Done
+android.widget.FrameLayout@4052ac90
+android.widget.ImageView@40616b10
+android.widget.TextView: Stores
+android.widget.ImageView@40620d38
+android.widget.FrameLayout@4055a6f0
+android.widget.ImageView@40622440
+android.widget.TextView: ATMs
+android.widget.ImageView@40625d58

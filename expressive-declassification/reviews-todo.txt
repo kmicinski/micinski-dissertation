@@ -1,0 +1,215 @@
+
+
+Comment (R1): "the reader would expect a detailed comparison against
+the major existing techniques (e.g., type systems, model checking,
+contract-driven development, assume-guarantee reasoning, ...) which
+can be applied for verifying information flow properties"
+
+ - TODO: clarify related work section to compare against other
+   techniques, illustrating why they would not work for information
+   flow.
+
+Comment (R1): "The proposed technique would be much more useful if
+applied at bytecode level."
+
+ - TODO: be very firm to clarify that we *are* working on bytecode.
+ - JF: We say this a few times in the paper already. I'm not sure
+   else we would add it. Maybe the abstract can say, "...that uses
+   symbolic execution [of Dalvik bytecode] to check..." [Done]
+
+ - TODO: think hard about how to justify: why are we doing our
+   development on Android?  How does it apply to other (e.g.,) GUI
+   models?  What makes us different than SIF?  Presumably our
+   declassification policies.
+ - JF: We can add a bit to the introduction to say, this should work
+   for other GUIs as well. The SIF etc stuff should go in related work.
+
+Comment (R1): "Since Android apps can interact through well define
+channels (IPC) it might have been interesting to include
+inter-application communications in the trace language."
+
+ - TODO: Think about how we could include modeling interactions
+   between apps in our model.
+ - JF: I would add a discussion/future work section and put this in
+   there. [Done]
+
+Comment (R1): "one would expect some theorem showing that the approach
+is indeed sound."
+
+ - TODO: we aren't sound.  Comment on what we could to address this.
+   The reviewer says that our experiments are weak because they only
+   verify the small world hypothesis (which is our alternative to
+   soundness) for artificial apps.
+ - JF: Also goes in future work. [Done]
+
+Question (R1): What in your approach is Android-specific?
+
+ - TODO: Answer this.  Presumably, that we are exploring static
+   analysis methodologies that work for the reactive setting.
+ - JF: Might add something to future work about this.
+ - JF: I don't think this is quite done yet. The reviewer wasn't
+   asking about what we can generalize, more about what is specific to
+   Android.
+  
+
+Comment (R1): The necessity of using LTL with bot past and future
+operators is not clear. It seems that you could only consider the past
+trace. This could affect the whole proposal since in that case traces
+are always finite.
+
+ - TODO: You'll always be talking about a finite (but arbitrarily
+   large) counterexample.  This is because we're checking
+   2-hypersafety properties.
+ - JF: I don't understand your response?
+ - KM: I think I just don't understand what the reviewer was saying.
+   I don't see why we would just be talking about finite traces.  I'm
+   trying to say that for security policies, we only want to talk
+   about *finite prefixes* of infinite traces.
+ - JF: Maybe the point is that we're not reasoning about liveness
+   policies, only safety policies.
+ - JF: I added a note saying that we have all these modalities just to
+   make policies easy to write. [Done]
+
+Comment (R1): "Due to space limitations, we omit details on how traces are
+generated". You should at least provide a reference.
+
+ - TODO: Provide a reference.
+ - JF: Maybe make a version of this with an appendix with the
+   formalism in it, and make it a TR.
+ - KM: Todo, decide if we have time to do this
+
+Comment (R1): "you define last(n,p) = \not(n!*) S n!p. Why not last(n,p) = \not(n!p) S n!p?"
+
+ - TODO: think about this.
+ - JF: I agree with the reviewer---this seems like a small bug in the
+   definition. What does the implementation do?
+ - JF: I disagree with the reviewer now. It's correct---for p to be
+   the last value, it must be that *no* other value was written on the
+   channel. [Done]
+
+Comment (R2): while a sequence of events, or a pattern of sequence,
+can be captured, it is not clear how to determine the characteristics
+of a particular event, which may jeopardize further security analysis.
+
+ - TODO: Ask everyone.  How do I parse this comment?  Does it mean
+   that we need to figure out what things are declassified by the app?
+   I.e., the problem I have in my proposal?
+ - JF: I really don't understand it, either. Does anyone else get it? [Resolved]
+
+Comment (R2): The evaluation is done on a desktop computer, so the
+analysis is offline or not at the run time of real applications. I am
+not clear how sequences of real applications can be enumerated.
+
+ - TODO: I think this means this: how do we know what possible
+   interactions there are?  The answer in our case is that we write
+   the driver.  For real apps, what would we do?  We need an answer.
+ - JF: I think this reviewer is just kind of confused. The driver is
+   the answer, and we talk about that a lot in the paper. We could
+   potentially add something in the new future work section about
+   running this on real apps. [Done]
+
+Comment (R3): I feel there should be a dedicated discussion about any
+inherent limitations of such an approach, not just features which
+haven't yet been added, a discussion of cases where the basic premise
+of user capturing user intent through interactions may be invalid.
+
+ - TODO: Explain how we would handle these more complicated
+   declassification cases.  Explain how we could ascertain them for a
+   given app.
+ - JF: I think the point here is to talk about limitations. I think
+   that's a really good idea, and we should add a section doing
+   that.
+ - JF: Not done, comment added to paper.
+
+Comment (R3): Situations when code and/or data flows are obfuscated or
+complex. Very rarely do apps have simple action buttons like “Send
+Device ID”. Rather, they are more abstract/multi-faceted things like
+“Submit Post” or “Add to Favorites!
+
+  - TODO: I think the concern here is perhaps scalability? Our
+    approach should handle this, as long as it can enumerate those
+    paths.
+  - JF: I think this goes in a limitations or future work
+    discussion. I don't think there's a real issue here, but what the
+    reviewer is worried about is that we the release event may not be
+    as simple as a single method call---it may be a sequence of things
+    that happen in a particular way. I think we can still handle these cases
+    just fine, but we don't have experience with that. [Done]
+ - JF: Is this really done? I didn't see that in the limitations section.
+
+Question (R3): How will the ClickRelease system work with interactions
+like these where several or many data items may be associated with the
+action?
+
+  - TODO: Discuss an encoding for these cases.  Our system easily
+    allows this, I believe.  You could (at the very least) write
+    multiple declassification cases for each piece of data being
+    released.
+  - JF: I agree. There may be something to talk about in future work
+    talking about ho to develop a nice way to express these. [Done] 
+
+Question (R3): [how do you handle] situations when sensitive data is
+stored and read later after possibly being modified, combined,
+transformed, etc
+
+  - TODO: Our system handles this off the shelf.  Incorporate this
+    into the discussion.
+  - JF: Right, and in fact our examples already show this: sensitive
+    data is stored in a flag, and then the flag is released later
+    on. I think the point to make is, this is a feature of information
+    flow in general. Maybe we should talk about this in section 2 a
+    bit. [Done]
+
+Question (R3): Can the system differentiate between different flow
+destinations? For example, sharing coarse location with one site but
+not others? Can there be Low Internet destinations and High Internet
+destinations?
+
+  - TODO: We could model all of that, but we don't.  For this
+    application we have only a single output.  There is nothing
+    inherent in our technique that prevents us from generalizing.
+ - JF: Agreed, and this is something to talk about in future work. [Done]
+
+Question (R3): The paper considers “insecure” apps being ones that
+have programming mistakes, the paper does not discuss how the system
+would perform when used to analyze potentially malicious apps that
+attempt to declassify through trickery or covertness.
+
+  - TODO: the problem here is that we need a policy a priori.  If you
+    start with an arbitrary app, how do you know what the policy
+    *should* be.  We need to think about that and offer an explanation.
+ - JF: Right, malicious apps aren't really an issue per se---it's all
+    a question of the policies. [Resolved]
+
+Question (R3): What about cases where the user interaction GUI is not
+clear or intentionally misleading?
+
+  - TODO: I think that's an orthogonal problem that none of our static
+    analysis techniques are going to help us solve right now.  It
+    would be very interesting, but defining mathematically what looks
+    fishy would be hard.  Perhaps it would be possible to look at
+    related research on this?  Surely someone has done a (e.g.,)
+    statistical model to detect this?
+ - JF: We could say something about this in a limitations section, but
+    I don't think there's really a point. If the technique doesn't
+    apply because the GUI actions aren't sufficient, then we're just
+    out of luck, and there's not much more to say. [Resolved]
+
+Question (R3): What are the ways in which ClickRelease can be defeated?
+
+  - TODO: If the app does something bad past the frontier of our
+    exploration.  If it uses (e.g.,) native code we can't analyze.
+  - JF: Goes in new limitations section. [Done]
+
+Question (R3): I think it would be useful to include a discussion of
+how ClickRelease should coexist in a security environment that
+includes other security policy checking and enforcement tools and
+mechanisms.
+
+  - TODO: come up with a story here.
+  - JF: Not sure what to say, because it depends entirely on what
+    those other tools and mechanisms would be, and I don't know what
+    the reviewer has in mind. I don't really see the point of
+   addressing this---we're just going to be speculating. Whereas the
+  comparisons to use in the current Android environment are easy to
+  understand and clear. [Resolved]

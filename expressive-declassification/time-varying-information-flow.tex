@@ -1,0 +1,253 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+
+\newcommand{\aset}[1]{\{#1\}}
+\newcommand{\dom}{\mathop\textit{dom}\nolimits}
+
+\newcommand{\sfmt}[1]{\textsf{#1}}
+\newcommand{\sch}{\textit{ch}}
+\newcommand{\loc}{\ell}
+\newcommand{\sassign}[2]{#1 := #2}
+\newcommand{\scase}[2]{\sfmt{case}~#1~\sfmt{of}~#2}
+\newcommand{\sderef}[1]{!#1}
+\newcommand{\sfalse}{\sfmt{false}}
+\newcommand{\sif}[3]{\sfmt{if}~#1~\sfmt{then}~#2~\sfmt{else}~#3}
+\newcommand{\sinl}{\sfmt{inl}}
+\newcommand{\sinr}{\sfmt{inr}}
+\newcommand{\sinstall}[2]{\sfmt{install}~#1~#2}
+\newcommand{\sdeclassify}[1]{\sfmt{declassify}~#1}
+\newcommand{\sref}[1]{\sfmt{ref}~#1}
+\newcommand{\denot}[1]{\ensuremath{\llbracket #1 \rrbacket}}
+\newcommand{\ssend}[2]{\sfmt{send}~#1~#2}
+\newcommand{\strue}{\sfmt{true}}
+\newcommand{\sunit}{\sfmt{unit}}
+\newcommand{\sreduce}{\Downarrow}
+\newcommand{\treduce}{\rightarrow}
+\newcommand{\partialfun}{\rightharpoonup}
+\newcommand{\ltrue}{\ensuremath{\top}}
+\newcommand{\lfalse}{\ensuremath{\bot}}
+\newcommand{\config}[1]{\langle{}#1\rangle{}}
+\newcommand{\program}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\restr}[2]{\ensuremath{\left.#1\right|_{#2}}}
+\newcommand{\modelsrcon}{\models^{r}}
+\newcommand{\judge}{\vdash}
+\newcommand{\xv}{p}
+
+\newcommand{\tr}{t}
+\newcommand{\typ}{\tau}
+\newcommand{\tint}{\textit{int}}
+\newcommand{\tset}{\mathcal{T}}
+\newcommand{\pset}{\ensuremath{\mathcal{P}}}
+\newcommand{\tnext}{\mathcal{X}}
+\newcommand{\talways}{\square}
+\newcommand{\tevent}{\lozenge}
+\newcommand{\tuntil}{~\mathcal{U}~}
+\newcommand{\tsince}{~\mathcal{S}~}
+\newcommand{\tpast}{~\mathcal{P}~}
+\newcommand{\tknows}[1]{\mathcal{K}_{#1}}
+\newcommand{\tatmost}[1]{\mathcal{N}_{#1}}
+\newcommand{\tpossible}[1]{\mathcal{L}_{#1}}
+\newcommand{\tthen}{~\textit{then}~}
+\newcommand{\tlast}[2]{\textit{last}(#1, #2)}
+%\newcommand{\tforall}{\hbox{forall}~}
+\newcommand{\texists}{\hbox{exists}~}
+\newcommand{\tcurrent}[1]{\hbox{current}_{#1}~}
+\newcommand{\tval}[1]{\textit{value}(#1)}
+\newcommand{\trelease}{\rhd}
+\newcommand{\evt}{\eta}
+
+\begin{document}
+
+\title{About time varying information flow for reactive systems}
+\maketitle
+
+\section{Introduction}
+
+Assume a trace generating semantics for a program $e$ that takes the
+form $e \Downarrow tr$, where $tr$ is a sequence of messages of the
+form $ch \{!,?\} v$ for a channel type $\mathbb{C}$ (identifiers) that
+can be compared for equality, but are fixed (i.e., cannot be freely
+generated) and $v$ is a set of values that appears along these
+channels.  We use $!$ for message output along channel $ch$ and $?$
+for input along channel $ch$.
+
+The semantics of the program generates a trace of message by taking
+reduction steps in an abstract machine given a small step semantics of
+the form $\Sigma_1 \to^\eta \Sigma_2$, where $\eta$ is either a
+message or an empty transition ($\tau$).
+
+By a principal $p$ we mean a subset of $\mathcal{P}(\mathbb{C})$.  The
+interpretation of a principal is that when the semantics of a program
+produces output, the principal will observe only the messages in the
+set $p$.  By observing the messages written along the channels in $p$,
+they will potentially learn values along other channels.  For example,
+the program (1):
+
+\begin{lstlisting}[float,caption=My caption here,label=ex1]
+input(secret).output<secret>
+\end{lstlisting}
+
+When run produces a trace that contains:
+
+\begin{verbatim}
+secret?n , output!n
+\end{verbatim}
+
+If we change the value of the input, we change the value of the
+output.  An intelligent observer will learn that the value input along
+the channel secret has been revealed.
+
+Contrast with the following program:
+
+\begin{lstlisting}[float,caption=My caption here,label=ex2]
+input(secret).output<secret*0>
+\end{lstlisting}
+
+Which always produces the observable 0.
+
+\section{Time varying information flow} 
+
+Now we want to define information flow polices for programs that
+interact with secret inputs whose values change over time, along with
+the policies that change them over time.
+
+\paragraph{Noninterference}
+
+Let $Tr(e)$ be the set of traces of program $e$.  We define
+noninterference for channel $ch$ at time $i$ in the following way:
+
+Consider any trace $tr \in Tr(e)$, if $tr[i] = ch?v_1$ for some $v_1$,
+then there is also a trace in $Tr(e)$ which is equivalent up to $i$,
+but contains any other value $v_2$, call this set $\equiv(tr,i-1)$,
+the set of traces equivalent up to $i-1$ steps.  Let $succ(tr,i)$ be
+the suffixes of $tr$ after $i$ steps.  $tr$ satisfies noninterference
+at time $i$ if for all $tr_1 tr_2 \in \equiv(tr,i-1)$, $succ(tr_1,i) =
+succ(tr_2,i)$.
+
+A program satisfies time varying noninterference for channel $ch$ if
+for all times $i$ it satisfies noninterference at time $i$.
+
+\paragraph{Defining knowledge about a value over time}
+
+Given a channel $ch$ and an index $i$, we define the knowledge about
+$ch$ a time $j \geq i$ as the set of literals that is known about the
+value of $ch[i]$ at time $j$.
+
+As an example, in Program \ref{ex1} above, we have the following
+knowledge graph for secret at time 0:
+
+time 0: $\{\}$ (No information known)
+time 1: $value(secret=0)$ 
+
+By contrast in program \ref{ex2} we have the knowledge graph as zero
+throughout.  Note that the knowledge for times before i is undefined.
+We typically want to write formulas that have the form: ``considering
+the value of the secret at the current time, it is never true that any
+time in the future, the observer learns more than $\phi(secret)$.''
+
+\section{An epistemic semantics for time varying data}
+
+
+\begin{figure*}[t]
+  \begin{displaymath}
+    \begin{array}{rcl}
+      % \phi^\mathcal{T} & ::= & x \mid p^\mathcal{T} \mid f^\mathcal{T}
+      % ( \phi^{\mathcal{T}}_1 , ... , \phi^\mathcal{T}_n ) \mid
+      % \\
+      \phi, \psi & ::= &
+      \phi^A ( p_1 , ..., p_n ) @ x^t
+      \mid \neg \phi
+      \mid \phi \wedge \phi
+      \mid \phi \vee \phi
+      \mid \phi \tuntil \phi
+      \mid \phi \tsince \phi \\
+      & \mid & \talways \phi
+      \mid \tevent \phi
+      \mid \forall x . \phi
+      \mid \tknows{\sch} \phi
+      \mid Now(\phi,x)
+    \end{array}
+  \end{displaymath}
+
+  \begin{displaymath}
+    \begin{array}{rcl}
+      \tset, \tr, i , S \models \phi^A ( p_1 , ..., p_n ) @ i & \iff &
+      \tr[i] \models^A \phi^A ( p_1 , ..., p_n )  \\
+
+      \tset, \tr, i , S \models \neg \phi & \iff &
+      \tset, \tr, i , S \not \models \phi \\
+
+      \tset, \tr, i , S \models \phi \land \psi & \iff &
+      \tset, \tr, i , S \models \phi \hbox{ and } \tset, \tr, i , S \models \psi \\
+
+      \tset, \tr, i , S \models \phi \lor \psi & \iff &
+      \tset, \tr, i , S \models \phi \hbox{ or } \tset, \tr, i , S \models \psi \\
+
+%      \tset, \tr, i \models \tnext \phi & \iff &
+%      \tset, \tr, (i+1) \models \phi \\
+
+      \tset, \tr, i , S \models \talways \phi & \iff &
+      \forall j ~.~ j \geq i \Rightarrow (\tset, \tr, j , S \models \phi) \\
+
+      \tset, \tr, i , S \models \tevent \phi & \iff &
+      \exists j ~.~ j \geq i \Rightarrow (\tset, \tr, j , S \models \phi) \\
+
+      \tset, \tr, i , S \models \phi \tuntil \psi & \iff &
+      \exists j ~.~ j \geq i \Rightarrow ((\tset, \tr, j , S \models \psi)
+      \hbox{ and } \\
+      & & \forall k ~.~ i \leq k < j \Rightarrow (\tset, \tr, k , S
+      \models \phi)) \\
+
+      \tset, \tr, i , S \models \phi \tsince \psi & \iff &
+      \exists j ~.~ j \leq i \Rightarrow ((\tset, \tr, j , S \models \psi)
+      \hbox{ and } \\
+      & & \forall k ~.~ j < k \leq i \Rightarrow (\tset, \tr, k , S
+      \models \phi)) \\
+
+      \tset, \tr, i , S \models \forall x . \phi & \iff &
+      \hbox{for all } p, (\tset, \tr, i , S \models \aset{x\mapsto p} \phi) \\
+
+      \tset, \tr, i , S \models \exists x , \phi & \iff &
+      \hbox{there exists } p. (\tset, \tr, i , S \models \aset{x\mapsto p} \phi) \\
+
+      \tset, \tr, i , S \models \tknows{\sch} \phi & \iff &
+      \forall u \in \tset ~,~
+      \tr[1..i] \cong^{\sch} u[1..i] \Rightarrow \\ & & 
+        \tset, u, i , S \models
+      \phi \\
+
+      \tset, \tr, i , S \models Now(\phi,t) & \iff &
+       \tset, \tr, i , S \models \phi \aset{t\mapsto i} \\
+
+    \end{array}
+  \end{displaymath}
+  \label{fig:etl}
+  \caption{Epistemic temporal logic semantics and notation.}
+\end{figure*}
+
+\begin{displaymath}
+  \forall x , G(Now(L(secret@t = x),t))
+\end{displaymath}
+
+Or...
+
+\begin{displaymath}
+  \forall x , G(Now(\lnot F K(secret@t = x),t))
+\end{displaymath}
+
+Release properties...
+
+\begin{displaymath}
+  G (last\_checkbox\_true \Rightarrow Now(\forall x, G(secret@t = x)),t)
+\end{displaymath}
+
+\end{document}
+
+
+
+
+

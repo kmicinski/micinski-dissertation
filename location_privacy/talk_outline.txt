@@ -1,0 +1,82 @@
+
+# An Empirical Study of Location Truncation on Android
+
+Overall talk goals:
+ - Main idea:
+
+  We use location based services (via apps) every day, but most of
+  these services are untrusted.  
+  
+  Why give any more information than necessary to these services?
+  
+  It turns out, that for many apps you can truncate location to a good
+  degree without losing utility of the app.
+
+1.  Give examples of a bunch of apps which use location based
+    services: taken from our study.
+
+2.  Discuss a few worst case scenarios when these apps leak your
+    information.
+
+3.  Ask how we can solve this:
+    	- Many tools considered, 
+	  - privacy and anonymity,
+	  - theoretical models for protecting privacy
+	  - use artificial mappings and require too much knowledge a priori
+	  - (examples of all of these points)
+	- Instead, use something simple: location truncation.
+
+4.  Present study of a bunch of apps: show the different types of
+    apps, how / why they used certain information, what effects
+    truncation would have on these different types of apps. 
+    
+    Give real world examples, numbers about how many apps *can't* work
+    using this technique, etc..
+
+5.  Slide on the design of cloakdroid, provide figures illustrating
+    API and then how rewriting changes the API to use CloakDroid.
+    
+    (Also discuss how we validated that rewriting worked, manually).
+
+6.  Explain metrics used for evaluation:
+    
+    running example with app from paper (Restaurant Finder) 
+    
+    Edit distance
+    
+    Set intersection
+    
+    Additional distance (take a little longer to explain, perhaps
+    longer example).
+
+7.  Discuss results of study:
+    
+    General overview:
+    	    - Additional distance probably best metric
+	    - Edit distance does not have as clear a physical interpertation 
+	    - Set intersection might work in some scenarios
+
+    Specific results:
+    	    - Could generally go 5 - 20 Km, without significantly (discuss) 
+	    affecting utility	    
+
+8.  Condensed results from each metric.
+    
+    - A little time on edit distance, when might it be good?
+
+    - A little more time on set intersection, when and why might it be
+      good?
+
+    - Longer time on additional distance, examples given to support
+      hypothesis that denser region implies more truncation ability.
+
+9.  Questions / answers?
+
+Additional slides:
+
+    - Pictorial illustration of why you "lose more stuff" at the edges
+      of a circle.
+
+    - More graphs..?
+
+

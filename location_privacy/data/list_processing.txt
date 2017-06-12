@@ -1,0 +1,14 @@
+List types
+----------
+
+For apps producing lists of locations as their outputs, we process
+information obtained from troyd reports and then post process the
+output using a combintion of awk and shell scripts.  For each
+directory which uses a list type, our ultimate goal is to produce a
+large set of directories corresponding to each data point (which is a
+(location,sublocation) tuple).  Each directory, corresponding to a
+(location,sublocation) tuple, holds a large sequence of troyd output
+files corresponding to the views on the screen forming a list.  We
+need to take this data and transform it into output in a fashion such
+that the output is a hashable list which we can run our analyisis
+algorithms over.

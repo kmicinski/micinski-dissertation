@@ -1,0 +1,37 @@
+android.widget.FrameLayout@4062d008
+android.widget.TabHost@40599820
+android.widget.LinearLayout@40599b30
+android.widget.LinearLayout@40599f08
+android.widget.LinearLayout@4066a188
+android.widget.ImageView@4066a610
+android.widget.ImageButton@4066a838
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40672908
+android.widget.ProgressBar@40673988
+android.widget.ImageButton@40674158
+android.widget.TabWidget@4059a3c8
+android.widget.LinearLayout@4066c610
+android.widget.ImageView@4066e458
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@406704a0
+android.widget.ImageView@40670aa0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4059bff8
+android.view.View@40671e10
+android.widget.ImageView@4059c2a8
+android.widget.TextView: Approx Address (within 0.0 meters)
+Pigeon Hill Rd
+Spring Grove, Pennsylvania 17362
+android.widget.ImageView@4059d200
+com.jazzmoonstudio.android.common.view.CustomViewPager@4059e260
+android.support.v4.app.y@405d7b20
+android.widget.LinearLayout@405a6030
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@405a6b30
+android.support.v4.app.y@406849b8
+android.widget.LinearLayout@405d8760
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@406841b0
+android.widget.FrameLayout@4059fae8
+com.millennialmedia.android.MMAdView@4059fda8
+android.webkit.WebView@406754a0

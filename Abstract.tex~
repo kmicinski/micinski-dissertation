@@ -1,0 +1,33 @@
+%Abstract Page 
+
+\hbox{\ }
+
+\renewcommand{\baselinestretch}{1}
+\small \normalsize
+
+\begin{center}
+\large{{ABSTRACT}} 
+
+\vspace{3em} 
+
+\end{center}
+\hspace{-.15in}
+\begin{tabular}{ll}
+Title of dissertation:    & {\large  INTERACTION-BASED PRIVACY POLICIES}\\
+&				      {\large  FOR MOBILE APPS} \\
+\ \\
+&                          {\large  Kristopher Micinski, Doctor of Philosophy, 2017} \\
+\ \\
+Dissertation directed by: & {\large  Professor Jeffrey S. Foster} \\
+\end{tabular}
+
+\vspace{3em}
+
+\renewcommand{\baselinestretch}{2}
+\large \normalsize
+
+\blindtext
+
+\blindtext
+
+

@@ -1,0 +1,182 @@
+===========================================================================
+                            CSF '15 Review #82A
+                     Updated 9 Mar 2015 8:27:19am EDT
+---------------------------------------------------------------------------
+      Paper #82: GUI-Based Declassification Policies for Mobile Apps
+---------------------------------------------------------------------------
+
+                      Overall merit: 2. Weak reject
+                Reviewer Confidence: 3. High
+
+                         ===== Paper summary =====
+
+This paper describes a new method for specifying information flow policies in android-style mobile applications, and describes an implementation of policy checking built on symbolic execution. The method is based on characterising the condition under which an input to the system may be considered public (safe to release on the output). The paper describes this a declassification policy.  The conditions are expressed using a LTL language including past modalities, where the logic is over  traces of (GUI) input events to the system (rather than, say, some kind of state information).  The method also allows a specification to describe which parts of an input may be released.
+
+                     ===== Comments for authors =====
+
+I very much liked the GUI motivated event-based view of this paper.  The policy specification language is interesting, since it is very powerful, but at the same time the noninterference condition described still appears to be relatively simple.  The formal model of the style of computation is reasonable-looking, and the proposed implementation appears to be novel, and can at least be applied to the toy examples of the paper.
+
+What I was less convinced about is (i) the intended attacker model and the soundness of the proposed implementation method, and (ii) how the components of the paper hang together. Regarding (i), it was not clear how well-separated the code and the policy are.  Does it make sense for the system to propose the policy which is checked against an untrusted application?  Or are the policies too low-level to make sense in the presence of untrusted code (for example, a checkbox event might be generated without the user realising that they have made a security critical decision).  The paper does not give any clear vision in this regard.  This spills over in to the implementation method - at no point does the paper really state whether the implementation is intended to be sound for noninterference.  It builds on a method which is widely used for testing - i.e. where soundness is not a typical requirement.  
+These points relate to issue (ii): how the paper hangs together.  My main disappointment in this paper is the fact that the three main artefacts: the security policy language and condition, the formal semantics of a simplification of the computation model, and the implementation are not well connected at all.  In fact I was left puzzled as to the role of the formal semantics in this paper since nothing is proved about it.  It would have made much mose sense to define the symbolic semantics method at the level of the formal semantics, and prove (for example) that it can be used to establish noninterference. 
+
+Other points
+
+Outputs: it would have helped my understanding if you have pointed out that your system has one and only one output channel, which is always of type Low.  This is important because the definition of NI, which appears to be more general than that, is not really meaningful for multiple multiple output levels.  This also relates to the comment in IIIC para 2: "As is standard, security levels S form a lattice".  This is misleading because there are two kinds of lattice used in the literature, and you are using the lesser known one, and your definition does not cover both. Here you are using the "lattice of information" to model degrees of information release on a public channel, from Low (all information) to High (no information).  This is not the same as military lattice models (Public-Secret-Top Secret) which require multiple levels of output to be meaningful. 
+
+Possible issue with Definition 2 (NI).  Models of temporal logic usually apply to complete (possibly infinite) traces, and trace satisfaction is not closed under prefix. But your definition of traces(e) via fig 5 allows you to pick arbitrary partial traces. Doesn't this cause problems for the semantics? Doesn't it also give the following problem in the definition: take two traces t1 and t2 which satisfy the left hand side of the implication of Def 2, but for which t1 stops after the last input, whereas t2 has subsequent outputs. Then the right-hand side will fail just because we were allowed to take t1 to be as short as we liked.
+
+IV A last para: explain the consequences of these choices. 
+
+B "we avoid the need for such reasoning by only using symbolic variables..."    It sounds like a limitation on the policies that you allow, but it is only explained in terms of the internals of the implementation. If it is a policy limitation then it would be appropriate to define the limitation at the level of policies.  The informal description here is rather circular " a policy does not depend on the value of a secret input".  Whether an input is secret or not depends on the policy.
+
+===========================================================================
+                            CSF '15 Review #82B
+                     Updated 12 Mar 2015 1:14:58pm EDT
+---------------------------------------------------------------------------
+      Paper #82: GUI-Based Declassification Policies for Mobile Apps
+---------------------------------------------------------------------------
+
+                      Overall merit: 2. Weak reject
+                Reviewer Confidence: 3. High
+
+                         ===== Paper summary =====
+
+The paper proposes using LTL to specify reactive security policies involving
+declassification.  In the style of CSP, execution traces include ? actions
+for inputs and ! actions for outputs.  A security policy is more-or-less an 
+LTL formula describing acceptable executions: each output must be deemed
+acceptable given the prior sequence of inputs.
+
+They give a semantics of traces using a simple lambda calculus with
+input/output and define policies and noninterference.  The describe an
+implementation that uses of a model checker to detect policy violations.
+They give some examples to demonstrate the utility of the model checker.
+
+                     ===== Comments for authors =====
+
+The idea of the paper is to use LTL over CSP-like traces to define
+access-control policies and then to use model checking to verify.  This may
+be a promising approach.  The current paper, however, does not make an
+effective argument.
+
+The authors have failed to establish that their work is novel.  The
+discussion of related work is far from complete.  There is great deal of
+relevant work on declassification, for example, in the browser, which is also
+UI-based.  See, for example, "Stateful Declassification Policies for
+Event-Driven Programs" in CSF2014, and back references.  Also "Epistemic
+Temporal Logic for Information Flow Security" in PLAS2011.  There is also
+relevant work on access control.  For example "An Access Control System for
+Web Service Compositions" in ICWS2007.
+
+The authors have also failed to relate the definition of noninterference
+(section III) to the implementation (sections IV-V).  Such a connection is
+necessary.
+
+Minor comments.
+
+The title of section III should change.  You are not formalizing android.
+You are formalizing a small core language that is inspired by android.
+
+In section IV-A: "intractable" -> "difficult"
+
+===========================================================================
+                            CSF '15 Review #82C
+                     Updated 21 Mar 2015 9:45:26am EDT
+---------------------------------------------------------------------------
+      Paper #82: GUI-Based Declassification Policies for Mobile Apps
+---------------------------------------------------------------------------
+
+                      Overall merit: 1. Reject
+                Reviewer Confidence: 3. High
+
+                         ===== Paper summary =====
+
+This paper presents a symbolic execution framework for Android that
+tests whether declassification policies attached to inputs of a
+GUI-based program are satisfied or not. The program is modeled as a
+reactive system. Policies are written in LTL and specify when inputs
+are to be labelled low. The symbolic execution then explores paths to
+a finite depth and checks non-interference on every pair of traces.
+
+                     ===== Comments for authors =====
+
+I think the overall goal of associating rich declassification policies
+with a GUI-driven app is quite meaningful. This is because GUI events
+often represent user intent to declassify, e.g., a user may click a
+radio box to indicate that a certain class of values is not to be
+considered secret any longer.
+
+That said, the specific content in this paper is not novel and of poor
+quality technically. I'll list the problems I see:
+
+- Contrary to what the introduction and the word "declassification" in
+  the title suggest, the policies considered in this paper are not
+  really declassification policies. Instead, they are source labeling
+  policies. Here, LTL formulas determine only what label is attached
+  to an input, when that input is read. That label cannot be changed
+  later in the execution of the program. So, for instance, it is not
+  possible to read an input and then, based on user clicks, decide
+  later whether or not to declassify the input.
+
+- There is no novel foundational content in the paper. The paper
+  presents a standard model of a reactive system and a standard
+  definition of noninterference. The former is not connected to Dalvik
+  and neither is used later. The formal model is not used for symbolic
+  execution or its presentation and no security property is proved,
+  even for an abstracted version of the enforcement.
+
+- The symbolic execution is explained at a very high-level, and I did
+  not see anything novel in it. Experiments are limited to a few
+  hand-written examples.
+
+- There is an attempt to handle what-declassification policies, but
+  this is vague and handwavy: It is based on a definition of value
+  equivalence at each security level. It is unclear where this
+  definition would come from. We are shown only one small
+  example. What-declassification conditions are not specified in the
+  policies.
+
+- It is not clear how the work will scale to actual UI events seen by
+  Android apps. Many Android APIs return Java objects, rather than
+  primitive types. How are these handled? Android apps encounter many
+  message queues, not one. (Even apps that don't install their own
+  "Looper"s receive low-level RPCs on message queues other than the
+  "main UI queue".) Android apps can and do run native code, which is
+  outside Dalvik.
+
+Nits and picks:
+
+- ch?* can be encoded as \exists x. ch?x. It is not clear why a
+  separate construct ch?* is included.
+
+- In IV-B you mention that "generating a symbolic variable for a
+  secret input also emits a trace event". It is not clear how you
+  define level(t,P,i) for such events. Please elaborate.
+
+- Page 2, "so we can precise specify" --> "so we can precisely
+  specify"
+
+- Page 3, "User and secret inputs and injected" --> "User and secret
+  inputs are injected"
+
+- The prose in II-B says mFine, true, and false; the policies in
+  Figures 2 and 7 say mRadio, "fine", and "coarse".
+
+- Fig 4: code, email, phone have type ref string but integers occur in
+  the sample traces III-B.
+
+- Fig 5: RCstr conclusion, "\Sigma_{i+1}" --> "\Sigma_{n+1}".
+
+- Fig 5: (netout, p), M' --> (netout, p) @ M'
+
+- Page 6: Level H -> Level High
+
+- Page 6: "we also declassify all GUI inputs as Low" --> classify.
+
+- Page 6: first col: two of the four displayed equations are too wide.
+
+- Page 6: "since they do not differ in the upper 32 bits" --> 24.
+
+- Page 6: "Note that Note that".
+
+- Page 8: "that may constraint" --> constrain

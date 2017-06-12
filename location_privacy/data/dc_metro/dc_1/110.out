@@ -1,0 +1,42 @@
+android.widget.FrameLayout@40588e20
+android.widget.TabHost@4050d168
+android.widget.LinearLayout@4050d478
+android.widget.LinearLayout@4056c8f8
+android.widget.LinearLayout@40638bd0
+android.widget.ImageView@40607be8
+android.widget.ImageButton@40607e10
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4057d6a8
+android.widget.ProgressBar@40670058
+android.widget.ImageButton@40670828
+android.widget.TabWidget@4056cda0
+android.widget.LinearLayout@40515f20
+android.widget.ImageView@4061ff58
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40583dd8
+android.widget.ImageView@405843d8
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40568568
+android.view.View@40591700
+android.widget.ImageView@40577d08
+android.widget.TextView: Approx Address (within 0.0 meters)
+1805 Primrose Rd NW
+Washington, District of Columbia 20012
+android.widget.ImageView@40578428
+com.jazzmoonstudio.android.common.view.CustomViewPager@4063c068
+android.support.v4.app.y@40572678
+android.widget.LinearLayout@4061a180
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4061ac80
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40677c50
+android.widget.ImageView@40632148
+android.widget.TextView: Silver Spring
+android.widget.TextView: Approx: 0.73 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40571328
+android.support.v4.app.y@4061e4e8
+android.widget.LinearLayout@405563a0
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@406180a0
+android.widget.FrameLayout@4063a3e8
+com.millennialmedia.android.MMAdView@4063a608
+android.webkit.WebView@40579b98

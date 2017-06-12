@@ -1,0 +1,67 @@
+android.widget.FrameLayout@4058d930
+android.widget.TabHost@4056cea0
+android.widget.LinearLayout@406373c8
+android.widget.LinearLayout@40637740
+android.widget.LinearLayout@405948c0
+android.widget.ImageView@40594ca8
+android.widget.ImageButton@40594ed0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4066c9b0
+android.widget.ProgressBar@4066d778
+android.widget.ImageButton@4066df48
+android.widget.TabWidget@40637c00
+android.widget.LinearLayout@40580418
+android.widget.ImageView@4050a630
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4066a548
+android.widget.ImageView@4066ab48
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4056f038
+android.view.View@4066beb8
+android.widget.ImageView@4056f2e8
+android.widget.TextView: Approx Address (within 0.0 meters)
+28 E Braddock Rd
+Alexandria, Virginia 22301
+android.widget.ImageView@40572550
+com.jazzmoonstudio.android.common.view.CustomViewPager@4056fcd0
+android.support.v4.app.y@40565208
+android.widget.LinearLayout@406744e8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40674fe8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40558938
+android.widget.ImageView@40558b28
+android.widget.ImageView@40558d38
+android.widget.TextView: Braddock Road
+android.widget.TextView: Approx: 0.35 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4058b870
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406880d8
+android.widget.ImageView@406882a0
+android.widget.ImageView@40579ea8
+android.widget.TextView: King Street
+android.widget.TextView: Approx: 0.60 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056d9c8
+android.support.v4.app.y@40582f08
+android.widget.LinearLayout@40567380
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4056f988
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4061c708
+android.widget.TextView: MOUNT VERNON AVE + E SPRING ST
+android.widget.TextView: Approx: 0.27 mi.
+android.widget.TextView: Stop ID: 4000185
+Lines: 10A,10Av1,10B,10Bc,10Bv1,10E
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40579898
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40584ae0
+android.widget.TextView: MOUNT VERNON AVE + E SPRING ST
+android.widget.TextView: Approx: 0.28 mi.
+android.widget.TextView: Stop ID: 4000184
+Lines: 10A,10Av2,10B,10Bv1,10Bv4,10E
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40576138
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4058ad08
+android.widget.TextView: MOUNT VERNON AVE + GLENDALE AVE
+android.widget.TextView: Approx: 0.33 mi.
+android.widget.TextView: Stop ID: 4000194
+Lines: 10A,10Av2,10B,10Bv1,10Bv4,10E
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406358b0
+android.widget.FrameLayout@40585cb0
+com.millennialmedia.android.MMAdView@40585f70
+android.webkit.WebView@4066f290

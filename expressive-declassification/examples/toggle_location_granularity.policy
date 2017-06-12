@@ -1,0 +1,4 @@
+\begin{align}
+  \forall cb. G( & K(last(location)) \implies last(cb) = On \\
+    &\land K(last(location) \% 10000) \implies last(cb) = Off)
+\end{align}

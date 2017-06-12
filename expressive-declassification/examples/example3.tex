@@ -1,0 +1,28 @@
+\begin{verbatim}
+(* Policy declarations *)
+let L = \x -> x
+let P = \x -> x % 2
+let H = \x -> 0
+
+(* Send information about the value of source in a loop. *)
+let sendInformation(source) |>
+  let | b1(v,P) |> net(v)
+      | b1(v,H) |> 0
+  in
+  sendInformation(source)
+
+(* Monitor the state of the checkbox and switch the policy 
+   of channel as it switches from 0 to 1. *)
+let switchCheckbox(checkbox,chan) |>
+  let | c(0) |> policy(private_channel, L)
+      | c(1) |> policy(private_channel, H)
+  in 0
+
+(* Create a new checkbox and then send information about a 
+   private channel. *)
+let onCreate() |>
+  let newCheckbox(c) |>
+    switchCheckbox(c, private_chan_a)
+  in
+  sendInformation(private_chan_a)
+\end{verbatim}

@@ -1,0 +1,348 @@
+android.widget.FrameLayout@4058c208
+android.widget.LinearLayout@4058ccb8
+android.widget.FrameLayout@4058cf68
+android.widget.ImageView@4058d218
+android.widget.RelativeLayout@4058d6b0
+android.widget.ImageButton@4058dcc0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40591370
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40593780
+android.widget.LinearLayout@40593b28
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40595320
+android.widget.LinearLayout@4050eef0
+android.widget.TextView: Locations
+android.widget.ScrollView@40518640
+android.widget.TableLayout@4050afa0
+android.widget.TableRow@4058f3a8
+android.widget.ImageView@4061d7f0
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.41 mi
+android.widget.TableRow@4062b9c8
+android.widget.ImageView@4062bda8
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.45 mi
+android.widget.TableRow@40634038
+android.widget.ImageView@406343d0
+android.widget.TextView: 442 Route 35
+android.widget.TextView: 8.58 mi
+android.widget.TableRow@406233b0
+android.widget.ImageView@4057bc00
+android.widget.TextView: 442 Route 35 (Middletown)
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@4057b5c0
+android.widget.ImageView@4061fa78
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.85 mi
+android.widget.TableRow@40608890
+android.widget.ImageView@40565af8
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.87 mi
+android.widget.TableRow@4063a568
+android.widget.ImageView@4063aa10
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 9.02 mi
+android.widget.TableRow@4057cae0
+android.widget.ImageView@4057cf88
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 9.26 mi
+android.widget.TableRow@4061cc70
+android.widget.ImageView@4061d118
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 9.31 mi
+android.widget.TableRow@40615818
+android.widget.ImageView@40615ca8
+android.widget.TextView: 500 Shrewsberry Avenue
+android.widget.TextView: 10.00 mi
+android.widget.TableRow@40618a60
+android.widget.ImageView@40618f08
+android.widget.TextView: 500 Shrewsbury Avenue
+android.widget.TextView: 10.00 mi
+android.widget.TableRow@406388c0
+android.widget.ImageView@40636330
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4060dae0
+android.widget.ImageView@4060df88
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4057e2f0
+android.widget.ImageView@4057e798
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 10 mi
+android.widget.TableRow@40624548
+android.widget.ImageView@406249f0
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4060f010
+android.widget.ImageView@4060f4b8
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 11 mi
+android.widget.TableRow@4055f970
+android.widget.ImageView@4055fe18
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 11 mi
+android.widget.TableRow@4060aea8
+android.widget.ImageView@4060b350
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 11 mi
+android.widget.TableRow@4060c1c8
+android.widget.ImageView@4050d048
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 11 mi
+android.widget.TableRow@4050df18
+android.widget.ImageView@4050e3c0
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@40585fd0
+android.widget.ImageView@40551f00
+android.widget.Button: Filter
+android.widget.LinearLayout@40554230
+android.widget.FrameLayout@4058c510
+android.widget.ImageView@40556be0
+android.widget.Button: Filter
+android.widget.FrameLayout@40611860
+android.widget.Button: Done
+android.widget.FrameLayout@40619318
+android.widget.ImageView@40557108
+android.widget.TextView: Stores
+android.widget.ImageView@40558c28
+android.widget.FrameLayout@4061bfb0
+android.widget.ImageView@405611b8
+android.widget.TextView: ATMs
+android.widget.ImageView@4060ce30
+android.widget.FrameLayout@4058c208
+android.widget.LinearLayout@4058ccb8
+android.widget.FrameLayout@4058cf68
+android.widget.ImageView@4058d218
+android.widget.RelativeLayout@4058d6b0
+android.widget.ImageButton@4058dcc0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40591370
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40593780
+android.widget.LinearLayout@40593b28
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40595320
+android.widget.LinearLayout@4050eef0
+android.widget.TextView: Locations
+android.widget.ScrollView@40518640
+android.widget.TableLayout@4050afa0
+android.widget.TableRow@4058f3a8
+android.widget.ImageView@4061d7f0
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.41 mi
+android.widget.TableRow@4062b9c8
+android.widget.ImageView@4062bda8
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.45 mi
+android.widget.TableRow@40634038
+android.widget.ImageView@406343d0
+android.widget.TextView: 442 Route 35
+android.widget.TextView: 8.58 mi
+android.widget.TableRow@406233b0
+android.widget.ImageView@4057bc00
+android.widget.TextView: 442 Route 35 (Middletown)
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@4057b5c0
+android.widget.ImageView@4061fa78
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.85 mi
+android.widget.TableRow@40608890
+android.widget.ImageView@40565af8
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.87 mi
+android.widget.TableRow@4063a568
+android.widget.ImageView@4063aa10
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 9.02 mi
+android.widget.TableRow@4057cae0
+android.widget.ImageView@4057cf88
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 9.26 mi
+android.widget.TableRow@4061cc70
+android.widget.ImageView@4061d118
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 9.31 mi
+android.widget.TableRow@40615818
+android.widget.ImageView@40615ca8
+android.widget.TextView: 500 Shrewsberry Avenue
+android.widget.TextView: 10.00 mi
+android.widget.TableRow@40618a60
+android.widget.ImageView@40618f08
+android.widget.TextView: 500 Shrewsbury Avenue
+android.widget.TextView: 10.00 mi
+android.widget.TableRow@406388c0
+android.widget.ImageView@40636330
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4060dae0
+android.widget.ImageView@4060df88
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4057e2f0
+android.widget.ImageView@4057e798
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 10 mi
+android.widget.TableRow@40624548
+android.widget.ImageView@406249f0
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4060f010
+android.widget.ImageView@4060f4b8
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 11 mi
+android.widget.TableRow@4055f970
+android.widget.ImageView@4055fe18
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 11 mi
+android.widget.TableRow@4060aea8
+android.widget.ImageView@4060b350
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 11 mi
+android.widget.TableRow@4060c1c8
+android.widget.ImageView@4050d048
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 11 mi
+android.widget.TableRow@4050df18
+android.widget.ImageView@4050e3c0
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@40585fd0
+android.widget.ImageView@40551f00
+android.widget.Button: Filter
+android.widget.LinearLayout@40554230
+android.widget.FrameLayout@4058c510
+android.widget.ImageView@40556be0
+android.widget.Button: Filter
+android.widget.FrameLayout@40611860
+android.widget.Button: Done
+android.widget.FrameLayout@40619318
+android.widget.ImageView@40557108
+android.widget.TextView: Stores
+android.widget.ImageView@40558c28
+android.widget.FrameLayout@4061bfb0
+android.widget.ImageView@405611b8
+android.widget.TextView: ATMs
+android.widget.ImageView@4060ce30
+android.widget.FrameLayout@4058c208
+android.widget.LinearLayout@4058ccb8
+android.widget.FrameLayout@4058cf68
+android.widget.ImageView@4058d218
+android.widget.RelativeLayout@4058d6b0
+android.widget.ImageButton@4058dcc0
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40591370
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@40593780
+android.widget.LinearLayout@40593b28
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40595320
+android.widget.LinearLayout@4050eef0
+android.widget.TextView: Locations
+android.widget.ScrollView@40518640
+android.widget.TableLayout@4050afa0
+android.widget.TableRow@4058f3a8
+android.widget.ImageView@4061d7f0
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.41 mi
+android.widget.TableRow@4062b9c8
+android.widget.ImageView@4062bda8
+android.widget.TextView: 568 River Road
+android.widget.TextView: 7.45 mi
+android.widget.TableRow@40634038
+android.widget.ImageView@406343d0
+android.widget.TextView: 442 Route 35
+android.widget.TextView: 8.58 mi
+android.widget.TableRow@406233b0
+android.widget.ImageView@4057bc00
+android.widget.TextView: 442 Route 35 (Middletown)
+android.widget.TextView: 8.59 mi
+android.widget.TableRow@4057b5c0
+android.widget.ImageView@4061fa78
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.85 mi
+android.widget.TableRow@40608890
+android.widget.ImageView@40565af8
+android.widget.TextView: 89 W Front Street
+android.widget.TextView: 8.87 mi
+android.widget.TableRow@4063a568
+android.widget.ImageView@4063aa10
+android.widget.TextView: 3015 W 29Th Street (MJG-Shorefront)
+android.widget.TextView: 9.02 mi
+android.widget.TableRow@4057cae0
+android.widget.ImageView@4057cf88
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 9.26 mi
+android.widget.TableRow@4061cc70
+android.widget.ImageView@4061d118
+android.widget.TextView: 207 Harmony Road
+android.widget.TextView: 9.31 mi
+android.widget.TableRow@40615818
+android.widget.ImageView@40615ca8
+android.widget.TextView: 500 Shrewsberry Avenue
+android.widget.TextView: 10.00 mi
+android.widget.TableRow@40618a60
+android.widget.ImageView@40618f08
+android.widget.TextView: 500 Shrewsbury Avenue
+android.widget.TextView: 10.00 mi
+android.widget.TableRow@406388c0
+android.widget.ImageView@40636330
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4060dae0
+android.widget.ImageView@4060df88
+android.widget.TextView: 670 Laurel Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4057e2f0
+android.widget.ImageView@4057e798
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 10 mi
+android.widget.TableRow@40624548
+android.widget.ImageView@406249f0
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 10 mi
+android.widget.TableRow@4060f010
+android.widget.ImageView@4060f4b8
+android.widget.TextView: 1630 Shore Parkway
+android.widget.TextView: 11 mi
+android.widget.TableRow@4055f970
+android.widget.ImageView@4055fe18
+android.widget.TextView: 1630 Shore Parkway (Caesars Bay)
+android.widget.TextView: 11 mi
+android.widget.TableRow@4060aea8
+android.widget.ImageView@4060b350
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 11 mi
+android.widget.TableRow@4060c1c8
+android.widget.ImageView@4050d048
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 11 mi
+android.widget.TableRow@4050df18
+android.widget.ImageView@4050e3c0
+android.widget.TextView: 2266 Cropsey Avenue (Sephardic Home For The Aged)
+android.widget.TextView: 11 mi
+android.widget.FrameLayout@40585fd0
+android.widget.ImageView@40551f00
+android.widget.Button: Filter
+android.widget.LinearLayout@40554230
+android.widget.FrameLayout@4058c510
+android.widget.ImageView@40556be0
+android.widget.Button: Filter
+android.widget.FrameLayout@40611860
+android.widget.Button: Done
+android.widget.FrameLayout@40619318
+android.widget.ImageView@40557108
+android.widget.TextView: Stores
+android.widget.ImageView@40558c28
+android.widget.FrameLayout@4061bfb0
+android.widget.ImageView@405611b8
+android.widget.TextView: ATMs
+android.widget.ImageView@4060ce30

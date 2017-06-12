@@ -1,0 +1,174 @@
+android.widget.FrameLayout@405161a0
+android.widget.TabHost@4060f830
+android.widget.LinearLayout@4060f9d8
+android.widget.LinearLayout@4060fdb0
+android.widget.LinearLayout@40517d80
+android.widget.ImageView@40596fe0
+android.widget.ImageButton@405971e8
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40624ce0
+android.widget.ProgressBar@40625970
+android.widget.ImageButton@40626140
+android.widget.TabWidget@40610270
+android.widget.LinearLayout@4061de10
+android.widget.ImageView@40584e60
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@406067e0
+android.widget.ImageView@40594120
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4057e5f8
+android.view.View@40595478
+android.widget.ImageView@4057e778
+android.widget.TextView: Approx Address (within 0.0 meters)
+1776 D St NW
+Washington, District of Columbia 20006
+android.widget.ImageView@4057f088
+com.jazzmoonstudio.android.common.view.CustomViewPager@40607fc0
+android.support.v4.app.y@405c0698
+android.widget.LinearLayout@4062c728
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062d228
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c6638
+android.widget.ImageView@406c6848
+android.widget.ImageView@406c6a68
+android.widget.TextView: Farragut West
+android.widget.TextView: Approx: 0.50 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c7aa0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c4b98
+android.widget.ImageView@406c4da8
+android.widget.ImageView@406c4fc8
+android.widget.TextView: Farragut North
+android.widget.TextView: Approx: 0.62 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c5fe8
+android.widget.ImageView@406d1c10
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c3398
+android.widget.ImageView@406c35a8
+android.widget.ImageView@406c37c8
+android.widget.TextView: McPherson Square
+android.widget.TextView: Approx: 0.63 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c4548
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c1b20
+android.widget.ImageView@406c1d30
+android.widget.TextView: Foggy Bottom-GWU
+android.widget.TextView: Approx: 0.67 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c2d68
+android.widget.ImageView@406d2310
+android.widget.ImageView@406d2530
+android.support.v4.app.y@40515ae0
+android.widget.LinearLayout@40553b38
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40515248
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406ce0f0
+android.widget.TextView: 18TH ST NW + D ST NW
+android.widget.TextView: Approx: 0.08 mi.
+android.widget.TextView: Stop ID: 1000942
+Lines: 11Y,11Yc,80,H1,L1,S1v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406cf6a8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406cc130
+android.widget.TextView: C ST NW + 17TH ST NW
+android.widget.TextView: Approx: 0.1 mi.
+android.widget.TextView: Stop ID: 1000917
+Lines: H1,L1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406cd6e8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406ca230
+android.widget.TextView: 18TH ST NW + C ST NW
+android.widget.TextView: Approx: 0.13 mi.
+android.widget.TextView: Stop ID: 1000911
+Lines: 11Y,11Yc,80,H1,L1,S1v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406cb7f8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c8228
+android.widget.TextView: 18TH ST NW + E ST NW (S)
+android.widget.TextView: Approx: 0.13 mi.
+android.widget.TextView: Stop ID: 1000979
+Lines: 11Y,11Yc,80,H1,L1,S1v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c9558
+android.widget.FrameLayout@40612bb0
+com.millennialmedia.android.MMAdView@40612e30
+android.webkit.WebView@40627488
+android.widget.FrameLayout@405161a0
+android.widget.TabHost@4060f830
+android.widget.LinearLayout@4060f9d8
+android.widget.LinearLayout@4060fdb0
+android.widget.LinearLayout@40517d80
+android.widget.ImageView@40596fe0
+android.widget.ImageButton@405971e8
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40624ce0
+android.widget.ProgressBar@40625970
+android.widget.ImageButton@40626140
+android.widget.TabWidget@40610270
+android.widget.LinearLayout@4061de10
+android.widget.ImageView@40584e60
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@406067e0
+android.widget.ImageView@40594120
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4057e5f8
+android.view.View@40595478
+android.widget.ImageView@4057e778
+android.widget.TextView: Approx Address (within 0.0 meters)
+1776 D St NW
+Washington, District of Columbia 20006
+android.widget.ImageView@4057f088
+com.jazzmoonstudio.android.common.view.CustomViewPager@40607fc0
+android.support.v4.app.y@405c0698
+android.widget.LinearLayout@4062c728
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062d228
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c1b20
+android.widget.ImageView@406c1d30
+android.widget.TextView: Foggy Bottom-GWU
+android.widget.TextView: Approx: 0.67 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c2d68
+android.widget.ImageView@406d2310
+android.widget.ImageView@406d2530
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406f7f20
+android.widget.ImageView@406f8130
+android.widget.ImageView@406f8350
+android.widget.TextView: Federal Triangle
+android.widget.TextView: Approx: 0.69 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406f90d0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406f9720
+android.widget.ImageView@406f9930
+android.widget.ImageView@406f9b50
+android.widget.ImageView@406f9d70
+android.widget.TextView: Metro Center
+android.widget.TextView: Approx: 0.75 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406faaf0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406fb160
+android.widget.ImageView@406fb370
+android.widget.ImageView@406fb590
+android.widget.TextView: Smithsonian
+android.widget.TextView: Approx: 0.81 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406fc4d8
+android.support.v4.app.y@40515ae0
+android.widget.LinearLayout@40553b38
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40515248
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406ce0f0
+android.widget.TextView: 18TH ST NW + D ST NW
+android.widget.TextView: Approx: 0.08 mi.
+android.widget.TextView: Stop ID: 1000942
+Lines: 11Y,11Yc,80,H1,L1,S1v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406cf6a8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406cc130
+android.widget.TextView: C ST NW + 17TH ST NW
+android.widget.TextView: Approx: 0.1 mi.
+android.widget.TextView: Stop ID: 1000917
+Lines: H1,L1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406cd6e8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406ca230
+android.widget.TextView: 18TH ST NW + C ST NW
+android.widget.TextView: Approx: 0.13 mi.
+android.widget.TextView: Stop ID: 1000911
+Lines: 11Y,11Yc,80,H1,L1,S1v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406cb7f8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@406c8228
+android.widget.TextView: 18TH ST NW + E ST NW (S)
+android.widget.TextView: Approx: 0.13 mi.
+android.widget.TextView: Stop ID: 1000979
+Lines: 11Y,11Yc,80,H1,L1,S1v1
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406c9558
+android.widget.FrameLayout@40612bb0
+com.millennialmedia.android.MMAdView@40612e30
+android.webkit.WebView@40627488

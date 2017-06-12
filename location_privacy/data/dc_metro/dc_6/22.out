@@ -1,0 +1,47 @@
+android.widget.FrameLayout@4060ff08
+android.widget.TabHost@40588c80
+android.widget.LinearLayout@40588f90
+android.widget.LinearLayout@406285c8
+android.widget.LinearLayout@40584e68
+android.widget.ImageView@4061eb98
+android.widget.ImageButton@4061edc0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4056f860
+android.widget.ProgressBar@40605fe8
+android.widget.ImageButton@406067b8
+android.widget.TabWidget@40628a88
+android.widget.LinearLayout@405911b8
+android.widget.ImageView@4056b268
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40612ca0
+android.widget.ImageView@406132a0
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40607f18
+android.view.View@4056ed68
+android.widget.ImageView@406081c8
+android.widget.TextView: Approx Address (within 0.0 meters)
+3711 Kennedy Pl
+Hyattsville, Maryland 20782
+android.widget.ImageView@4056dc78
+com.jazzmoonstudio.android.common.view.CustomViewPager@40515250
+android.support.v4.app.y@40560f68
+android.widget.LinearLayout@4066a0b8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4066ad08
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4060eff8
+android.widget.ImageView@4060f1d0
+android.widget.TextView: Prince George's Plaza
+android.widget.TextView: Approx: 0.74 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40675b18
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40610bb8
+android.widget.ImageView@40610d28
+android.widget.TextView: West Hyattsville
+android.widget.TextView: Approx: 0.81 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405952b8
+android.support.v4.app.y@405702e8
+android.widget.LinearLayout@40547600
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40581650
+android.widget.FrameLayout@405168c0
+com.millennialmedia.android.MMAdView@40516b80
+android.webkit.WebView@4062f400

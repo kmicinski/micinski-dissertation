@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40585b80
+android.widget.LinearLayout@40586630
+android.widget.FrameLayout@405868e0
+android.widget.ImageView@40586b90
+android.widget.RelativeLayout@40587028
+android.widget.ImageButton@40587638
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ace8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058d0f8
+android.widget.LinearLayout@4058d4a0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058ec98
+android.widget.LinearLayout@4050b0b8
+android.widget.TextView: Locations
+android.widget.ScrollView@4054f178
+android.widget.TableLayout@40554d90
+android.widget.TableRow@40623458
+android.widget.ImageView@40630dd0
+android.widget.TextView: 2187 OAK BAY AVE UNIT 107
+android.widget.TextView: 76 mi
+android.widget.TableRow@4060de78
+android.widget.ImageView@4060cc20
+android.widget.TextView: 1568 FAIRFIELD RD
+android.widget.TextView: 76 mi
+android.widget.TableRow@40525310
+android.widget.ImageView@405257b8
+android.widget.TextView: 2000 CADBORO BAY RD
+android.widget.TextView: 76 mi
+android.widget.TableRow@40614cb8
+android.widget.ImageView@40615160
+android.widget.TextView: 1080 DOUGLAS ST
+android.widget.TextView: 78 mi
+android.widget.TableRow@40555ea8
+android.widget.ImageView@4061cee0
+android.widget.TextView: 1150 DOUGLAS ST
+android.widget.TextView: 78 mi
+android.widget.TableRow@4062abb0
+android.widget.ImageView@4062b058
+android.widget.TextView: 3675 SHELBOURNE STREET
+android.widget.TextView: 78 mi
+android.widget.TableRow@4061c198
+android.widget.ImageView@40610a60
+android.widget.TextView: 182 WILSON ST UNIT 100
+android.widget.TextView: 78 mi
+android.widget.TableRow@40623e28
+android.widget.ImageView@406242d0
+android.widget.TextView: 811 ROYAL OAK DRIVE
+android.widget.TextView: 79 mi
+android.widget.TableRow@4060a0c8
+android.widget.ImageView@4060a570
+android.widget.TextView: 3530 BLANSHARD ST
+android.widget.TextView: 79 mi
+android.widget.TableRow@40579858
+android.widget.ImageView@40637060
+android.widget.TextView: 4000 QUADRA ST
+android.widget.TextView: 80 mi
+android.widget.TableRow@4061a820
+android.widget.ImageView@4061acc8
+android.widget.TextView: 309 BURNSIDE RD W
+android.widget.TextView: 80 mi
+android.widget.TableRow@4062c9b0
+android.widget.ImageView@4062ce58
+android.widget.TextView: 2945 JACKLIN RD UNIT 860
+android.widget.TextView: 83 mi
+android.widget.TableRow@40625908
+android.widget.ImageView@40625db0
+android.widget.TextView: 2401G MILLSTREAM RD UNIT 149
+android.widget.TextView: 84 mi
+android.widget.TableRow@40578618
+android.widget.ImageView@40573f00
+android.widget.TextView: 6670 SOOKE RD
+android.widget.TextView: 88 mi
+android.widget.TableRow@40574c68
+android.widget.ImageView@40620cf0
+android.widget.TextView: 2406 BEACON AVE
+android.widget.TextView: 90 mi
+android.widget.TableRow@40621ab8
+android.widget.ImageView@40621f60
+android.widget.TextView: 32817 SOUTH FRASER WAY
+android.widget.TextView: 96 mi
+android.widget.TableRow@40575e20
+android.widget.ImageView@405762c8
+android.widget.TextView: 2298 WHATCOM RD
+android.widget.TextView: 96 mi
+android.widget.TableRow@406120f0
+android.widget.ImageView@40612550
+android.widget.TextView: 2130 SUMAS WAY
+android.widget.TextView: 96 mi
+android.widget.TableRow@406133c8
+android.widget.ImageView@40613870
+android.widget.TextView: 32435 SOUTH FRASER WAY UNIT 1
+android.widget.TextView: 97 mi
+android.widget.TableRow@4057a330
+android.widget.ImageView@4057a7d8
+android.widget.TextView: 26310 FRASER HIGHWAY UNIT 880
+android.widget.TextView: 99 mi
+android.widget.FrameLayout@4053dfe0
+android.widget.ImageView@4050bd00
+android.widget.Button: Filter
+android.widget.LinearLayout@40538798
+android.widget.FrameLayout@4057d698
+android.widget.ImageView@4053a150
+android.widget.Button: Filter
+android.widget.FrameLayout@40614788
+android.widget.Button: Done
+android.widget.FrameLayout@40616e70
+android.widget.ImageView@4053cc08
+android.widget.TextView: Stores
+android.widget.ImageView@40543ac0
+android.widget.FrameLayout@40618af0
+android.widget.ImageView@40556b38
+android.widget.TextView: ATMs
+android.widget.ImageView@4057ffa8
+android.widget.FrameLayout@40585b80
+android.widget.LinearLayout@40586630
+android.widget.FrameLayout@405868e0
+android.widget.ImageView@40586b90
+android.widget.RelativeLayout@40587028
+android.widget.ImageButton@40587638
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ace8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058d0f8
+android.widget.LinearLayout@4058d4a0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058ec98
+android.widget.LinearLayout@4050b0b8
+android.widget.TextView: Locations
+android.widget.ScrollView@4054f178
+android.widget.TableLayout@40554d90
+android.widget.TableRow@40623458
+android.widget.ImageView@40630dd0
+android.widget.TextView: 2187 OAK BAY AVE UNIT 107
+android.widget.TextView: 76 mi
+android.widget.TableRow@4060de78
+android.widget.ImageView@4060cc20
+android.widget.TextView: 1568 FAIRFIELD RD
+android.widget.TextView: 76 mi
+android.widget.TableRow@40525310
+android.widget.ImageView@405257b8
+android.widget.TextView: 2000 CADBORO BAY RD
+android.widget.TextView: 76 mi
+android.widget.TableRow@40614cb8
+android.widget.ImageView@40615160
+android.widget.TextView: 1080 DOUGLAS ST
+android.widget.TextView: 78 mi
+android.widget.TableRow@40555ea8
+android.widget.ImageView@4061cee0
+android.widget.TextView: 1150 DOUGLAS ST
+android.widget.TextView: 78 mi
+android.widget.TableRow@4062abb0
+android.widget.ImageView@4062b058
+android.widget.TextView: 3675 SHELBOURNE STREET
+android.widget.TextView: 78 mi
+android.widget.TableRow@4061c198
+android.widget.ImageView@40610a60
+android.widget.TextView: 182 WILSON ST UNIT 100
+android.widget.TextView: 78 mi
+android.widget.TableRow@40623e28
+android.widget.ImageView@406242d0
+android.widget.TextView: 811 ROYAL OAK DRIVE
+android.widget.TextView: 79 mi
+android.widget.TableRow@4060a0c8
+android.widget.ImageView@4060a570
+android.widget.TextView: 3530 BLANSHARD ST
+android.widget.TextView: 79 mi
+android.widget.TableRow@40579858
+android.widget.ImageView@40637060
+android.widget.TextView: 4000 QUADRA ST
+android.widget.TextView: 80 mi
+android.widget.TableRow@4061a820
+android.widget.ImageView@4061acc8
+android.widget.TextView: 309 BURNSIDE RD W
+android.widget.TextView: 80 mi
+android.widget.TableRow@4062c9b0
+android.widget.ImageView@4062ce58
+android.widget.TextView: 2945 JACKLIN RD UNIT 860
+android.widget.TextView: 83 mi
+android.widget.TableRow@40625908
+android.widget.ImageView@40625db0
+android.widget.TextView: 2401G MILLSTREAM RD UNIT 149
+android.widget.TextView: 84 mi
+android.widget.TableRow@40578618
+android.widget.ImageView@40573f00
+android.widget.TextView: 6670 SOOKE RD
+android.widget.TextView: 88 mi
+android.widget.TableRow@40574c68
+android.widget.ImageView@40620cf0
+android.widget.TextView: 2406 BEACON AVE
+android.widget.TextView: 90 mi
+android.widget.TableRow@40621ab8
+android.widget.ImageView@40621f60
+android.widget.TextView: 32817 SOUTH FRASER WAY
+android.widget.TextView: 96 mi
+android.widget.TableRow@40575e20
+android.widget.ImageView@405762c8
+android.widget.TextView: 2298 WHATCOM RD
+android.widget.TextView: 96 mi
+android.widget.TableRow@406120f0
+android.widget.ImageView@40612550
+android.widget.TextView: 2130 SUMAS WAY
+android.widget.TextView: 96 mi
+android.widget.TableRow@406133c8
+android.widget.ImageView@40613870
+android.widget.TextView: 32435 SOUTH FRASER WAY UNIT 1
+android.widget.TextView: 97 mi
+android.widget.TableRow@4057a330
+android.widget.ImageView@4057a7d8
+android.widget.TextView: 26310 FRASER HIGHWAY UNIT 880
+android.widget.TextView: 99 mi
+android.widget.FrameLayout@4053dfe0
+android.widget.ImageView@4050bd00
+android.widget.Button: Filter
+android.widget.LinearLayout@40538798
+android.widget.FrameLayout@4057d698
+android.widget.ImageView@4053a150
+android.widget.Button: Filter
+android.widget.FrameLayout@40614788
+android.widget.Button: Done
+android.widget.FrameLayout@40616e70
+android.widget.ImageView@4053cc08
+android.widget.TextView: Stores
+android.widget.ImageView@40543ac0
+android.widget.FrameLayout@40618af0
+android.widget.ImageView@40556b38
+android.widget.TextView: ATMs
+android.widget.ImageView@4057ffa8
+android.widget.FrameLayout@40585b80
+android.widget.LinearLayout@40586630
+android.widget.FrameLayout@405868e0
+android.widget.ImageView@40586b90
+android.widget.RelativeLayout@40587028
+android.widget.ImageButton@40587638
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ace8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058d0f8
+android.widget.LinearLayout@4058d4a0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058ec98
+android.widget.LinearLayout@4050b0b8
+android.widget.TextView: Locations
+android.widget.ScrollView@4054f178
+android.widget.TableLayout@40554d90
+android.widget.TableRow@40623458
+android.widget.ImageView@40630dd0
+android.widget.TextView: 2187 OAK BAY AVE UNIT 107
+android.widget.TextView: 76 mi
+android.widget.TableRow@4060de78
+android.widget.ImageView@4060cc20
+android.widget.TextView: 1568 FAIRFIELD RD
+android.widget.TextView: 76 mi
+android.widget.TableRow@40525310
+android.widget.ImageView@405257b8
+android.widget.TextView: 2000 CADBORO BAY RD
+android.widget.TextView: 76 mi
+android.widget.TableRow@40614cb8
+android.widget.ImageView@40615160
+android.widget.TextView: 1080 DOUGLAS ST
+android.widget.TextView: 78 mi
+android.widget.TableRow@40555ea8
+android.widget.ImageView@4061cee0
+android.widget.TextView: 1150 DOUGLAS ST
+android.widget.TextView: 78 mi
+android.widget.TableRow@4062abb0
+android.widget.ImageView@4062b058
+android.widget.TextView: 3675 SHELBOURNE STREET
+android.widget.TextView: 78 mi
+android.widget.TableRow@4061c198
+android.widget.ImageView@40610a60
+android.widget.TextView: 182 WILSON ST UNIT 100
+android.widget.TextView: 78 mi
+android.widget.TableRow@40623e28
+android.widget.ImageView@406242d0
+android.widget.TextView: 811 ROYAL OAK DRIVE
+android.widget.TextView: 79 mi
+android.widget.TableRow@4060a0c8
+android.widget.ImageView@4060a570
+android.widget.TextView: 3530 BLANSHARD ST
+android.widget.TextView: 79 mi
+android.widget.TableRow@40579858
+android.widget.ImageView@40637060
+android.widget.TextView: 4000 QUADRA ST
+android.widget.TextView: 80 mi
+android.widget.TableRow@4061a820
+android.widget.ImageView@4061acc8
+android.widget.TextView: 309 BURNSIDE RD W
+android.widget.TextView: 80 mi
+android.widget.TableRow@4062c9b0
+android.widget.ImageView@4062ce58
+android.widget.TextView: 2945 JACKLIN RD UNIT 860
+android.widget.TextView: 83 mi
+android.widget.TableRow@40625908
+android.widget.ImageView@40625db0
+android.widget.TextView: 2401G MILLSTREAM RD UNIT 149
+android.widget.TextView: 84 mi
+android.widget.TableRow@40578618
+android.widget.ImageView@40573f00
+android.widget.TextView: 6670 SOOKE RD
+android.widget.TextView: 88 mi
+android.widget.TableRow@40574c68
+android.widget.ImageView@40620cf0
+android.widget.TextView: 2406 BEACON AVE
+android.widget.TextView: 90 mi
+android.widget.TableRow@40621ab8
+android.widget.ImageView@40621f60
+android.widget.TextView: 32817 SOUTH FRASER WAY
+android.widget.TextView: 96 mi
+android.widget.TableRow@40575e20
+android.widget.ImageView@405762c8
+android.widget.TextView: 2298 WHATCOM RD
+android.widget.TextView: 96 mi
+android.widget.TableRow@406120f0
+android.widget.ImageView@40612550
+android.widget.TextView: 2130 SUMAS WAY
+android.widget.TextView: 96 mi
+android.widget.TableRow@406133c8
+android.widget.ImageView@40613870
+android.widget.TextView: 32435 SOUTH FRASER WAY UNIT 1
+android.widget.TextView: 97 mi
+android.widget.TableRow@4057a330
+android.widget.ImageView@4057a7d8
+android.widget.TextView: 26310 FRASER HIGHWAY UNIT 880
+android.widget.TextView: 99 mi
+android.widget.FrameLayout@4053dfe0
+android.widget.ImageView@4050bd00
+android.widget.Button: Filter
+android.widget.LinearLayout@40538798
+android.widget.FrameLayout@4057d698
+android.widget.ImageView@4053a150
+android.widget.Button: Filter
+android.widget.FrameLayout@40614788
+android.widget.Button: Done
+android.widget.FrameLayout@40616e70
+android.widget.ImageView@4053cc08
+android.widget.TextView: Stores
+android.widget.ImageView@40543ac0
+android.widget.FrameLayout@40618af0
+android.widget.ImageView@40556b38
+android.widget.TextView: ATMs
+android.widget.ImageView@4057ffa8

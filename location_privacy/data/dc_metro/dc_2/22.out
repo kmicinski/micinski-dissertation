@@ -1,0 +1,76 @@
+android.widget.FrameLayout@40604158
+android.widget.TabHost@405639d0
+android.widget.LinearLayout@40563ce0
+android.widget.LinearLayout@405640b8
+android.widget.LinearLayout@406084c0
+android.widget.ImageView@40575460
+android.widget.ImageButton@40575688
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40629bf8
+android.widget.ProgressBar@4062a9c0
+android.widget.ImageButton@4062b190
+android.widget.TabWidget@4057b7f0
+android.widget.LinearLayout@40616710
+android.widget.ImageView@4057ca20
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4056e0a0
+android.widget.ImageView@405694a8
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40585b38
+android.view.View@4056a728
+android.widget.ImageView@40585de8
+android.widget.TextView: Approx Address (within 0.0 meters)
+350 Morse St NE
+Washington, District of Columbia 20002
+android.widget.ImageView@406103c0
+com.jazzmoonstudio.android.common.view.CustomViewPager@4063a390
+android.support.v4.app.y@40571ce0
+android.widget.LinearLayout@40591580
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40592080
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40607fd8
+android.widget.ImageView@4063cef8
+android.widget.TextView: New York Ave-Florida Ave-Gallaudet U
+android.widget.TextView: Approx: 0.20 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40635068
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4058d608
+android.widget.ImageView@4058d778
+android.widget.TextView: Rhode Island Ave-Brentwood
+android.widget.TextView: Approx: 0.84 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405796f8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4060ee18
+android.widget.ImageView@4060f028
+android.widget.TextView: Union Station
+android.widget.TextView: Approx: 0.85 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4057eaf8
+android.support.v4.app.y@4058a358
+android.widget.LinearLayout@40567ca0
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@405724e8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4057f210
+android.widget.TextView: FLORIDA AVE + 3RD ST NE
+android.widget.TextView: Approx: 0.21 mi.
+android.widget.TextView: Stop ID: 1001388
+Lines: 90,90v1,92,92c,93,93c,X3
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@406150c8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405688e0
+android.widget.TextView: FLORIDA AVE + 3RD ST NE
+android.widget.TextView: Approx: 0.22 mi.
+android.widget.TextView: Stop ID: 1001378
+Lines: 90,90v1,92,92v1,93,93v1,X3
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4066e2c8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40570a80
+android.widget.TextView: FLORIDA AVE + 5TH ST
+android.widget.TextView: Approx: 0.24 mi.
+android.widget.TextView: Stop ID: 1001358
+Lines: 90,90v1,92,92c,93,93c,X3
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4066bb40
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4066c720
+android.widget.TextView: FLORIDA AVE + 5TH ST
+android.widget.TextView: Approx: 0.27 mi.
+android.widget.TextView: Stop ID: 1001356
+Lines: 90,90v1,92,92v1,93,93v1,X3
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40587818
+android.widget.FrameLayout@40595588
+com.millennialmedia.android.MMAdView@40637e50
+android.webkit.WebView@4058c328

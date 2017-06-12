@@ -1,0 +1,55 @@
+android.widget.FrameLayout@406385d8
+android.widget.TabHost@40637b18
+android.widget.LinearLayout@40591bc8
+android.widget.LinearLayout@40591fa0
+android.widget.LinearLayout@40577310
+android.widget.ImageView@40577798
+android.widget.ImageButton@40615918
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40606bb0
+android.widget.ProgressBar@4062fa48
+android.widget.ImageButton@40630218
+android.widget.TabWidget@40592460
+android.widget.LinearLayout@4056eb28
+android.widget.ImageView@4057dfd8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4056a668
+android.widget.ImageView@4056ac68
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@406127e8
+android.view.View@406060b8
+android.widget.ImageView@40612a98
+android.widget.TextView: Approx Address (within 0.0 meters)
+600 Russell Rd
+Alexandria, Virginia 22301
+android.widget.ImageView@4057f928
+com.jazzmoonstudio.android.common.view.CustomViewPager@4057a9a0
+android.support.v4.app.y@4068a7a0
+android.widget.LinearLayout@4066ecf8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40670468
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40688a10
+android.widget.ImageView@40634d60
+android.widget.TextView: King Street
+android.widget.TextView: Approx: 0.50 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4066dd00
+android.widget.ImageView@405540d0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4058a898
+android.widget.ImageView@4058abe8
+android.widget.ImageView@40670190
+android.widget.TextView: Braddock Road
+android.widget.TextView: Approx: 0.63 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056dc18
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4066d488
+android.widget.ImageView@405971f8
+android.widget.ImageView@40598ca0
+android.widget.TextView: Eisenhower Avenue
+android.widget.TextView: Approx: 0.92 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405653b0
+android.support.v4.app.y@4068c518
+android.widget.LinearLayout@4068b380
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4068bc68
+android.widget.FrameLayout@40636da8
+com.millennialmedia.android.MMAdView@40637068
+android.webkit.WebView@40669d68

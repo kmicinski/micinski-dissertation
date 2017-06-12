@@ -1,0 +1,38 @@
+android.widget.FrameLayout@4058a280
+android.widget.LinearLayout@4058ad30
+android.widget.FrameLayout@4058afe0
+android.widget.ImageView@4058b290
+android.widget.RelativeLayout@4058b728
+android.widget.ImageButton@4058bd38
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058f3e8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@405917f8
+android.widget.LinearLayout@40591ba0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@40593398
+android.widget.LinearLayout@40525538
+android.widget.TextView: Locations
+android.widget.ScrollView@4052e948
+android.widget.TableLayout@4060d8e8
+android.widget.TableRow@4060c308
+android.widget.TextView: No search results found
+android.widget.FrameLayout@4060b2f0
+android.widget.ImageView@40558dc0
+android.widget.Button: Filter
+android.widget.LinearLayout@405603f8
+android.widget.FrameLayout@406136c8
+android.widget.ImageView@40560930
+android.widget.Button: Filter
+android.widget.FrameLayout@406143d0
+android.widget.Button: Done
+android.widget.FrameLayout@406154c8
+android.widget.ImageView@405654e8
+android.widget.TextView: Stores
+android.widget.ImageView@40568090
+android.widget.FrameLayout@40616308
+android.widget.ImageView@40578248
+android.widget.TextView: ATMs
+android.widget.ImageView@405af058

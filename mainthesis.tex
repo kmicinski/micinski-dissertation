@@ -1,0 +1,535 @@
+% Select the version that fits how you are making this LaTeX document (its driver).
+% The first two are the most likely ones to be needed.
+%
+\newcommand{\mydriver}{pdftex} %Making a PDF directly using pdflatex.
+
+\documentclass[12pt,\mydriver]{thesis}
+
+\usepackage{titlesec}
+   \titleformat{\chapter}
+      {\normalfont\large}{Chapter \thechapter:}{1em}{}
+
+%% Kris Micinski's stuff
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{lscape}
+\usepackage{indentfirst}
+\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{tabls}
+\usepackage{wrapfig}
+\usepackage{slashbox}
+\usepackage{setspace}
+%\usepackage{longtable}
+\usepackage{supertabular}
+\usepackage{amsmath}
+%\usepackage{subeqn}
+\usepackage{caption}
+\usepackage{caption3}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage[bookmarks, colorlinks=true, plainpages=false, citecolor=blue, urlcolor=blue, filecolor=blue, linkcolor=blue]{hyperref} 
+
+\newcommand{\tbsp}{\rule{0pt}{18pt}} %used to get a vertical distance after \hline
+\renewcommand{\baselinestretch}{2}
+\setlength{\textwidth}{5.9in}
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-.50in}
+%\setlength{\topmargin}{0in}    %use this setting if the printer makes the the top margin 1/2 inch instead of 1 inch
+\setlength{\oddsidemargin}{.55in}
+\setlength{\parindent}{.4in}
+\pagestyle{empty}
+
+%\usepackage[colorlinks=true,urlcolor=black,citecolor=black,
+%            filecolor=black,linkcolor=black]{hyperref}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage{xspace}
+\usepackage{pifont}
+\usepackage{listings}
+\usepackage{url}
+\urlstyle{sf}
+\usepackage{rotating}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage{wasysym}
+%\usepackage{colortbl}
+\usepackage{textcomp}
+%\usepackage{enumitem}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\definecolor{lightgray}{gray}{.8}
+\newcommand{\thickhline}{\noalign{\hrule height 1pt}}
+%\newcommand{\thickhline}{\hline}
+\lstset{language=caml,
+  basicstyle=\footnotesize\sffamily,
+  otherkeywords={--},
+  columns=flexible,
+  literate={->}{{$\rightarrow\,$}}{2},
+  %frame=single,
+  lineskip=1pt,
+  numbers=none,
+  numberstyle=\tiny\it,
+  numbersep=5pt,
+  escapeinside={/**}{*/},
+  mathescape=true,
+}
+%\newcommand{\code}[1]{\lstinline[basicstyle=\sffamily]!#1!}
+\newcommand{\code}[1]{\textsf{#1}}
+
+\hyphenation{Ads-Private OS-Network-System Internet-URL}
+
+\newcommand{\lib}{Mr.\ Hide\xspace}
+%\newcommand{\rewriter}{Dr.\ Android\xspace}
+\newcommand{\troyd}{Troyd\xspace}
+
+%\newcommand{\perm}[1]{\texttt{#1}}
+\newcommand{\perm}[1]{\textsf{\textit{#1}}}
+\newcommand{\cm}{\checkmark\xspace}
+\newcommand{\cmb}{\ding{52}\xspace}
+\newcommand{\drop}{-}
+\newcommand{\package}[1]{\nolinkurl{#1}}
+
+\newcommand{\comment}[3][\color{red}]{}%{{#1{[{#2}: {#3}]}}}
+
+% Allow a break, but don't insert space
+\newcommand{\bnsp}{\hspace{0pt}} % a breaking non-space
+
+\newcommand{\polAdsBlindName}{\perm{AdsPrivate}\xspace}
+\newcommand{\polAnonUsageName}{\perm{AnonUsage}\xspace}
+\newcommand{\polCrashReportName}{\perm{CrashReport}\xspace}
+\newcommand{\polAdsGeoName}{\perm{AdsGeo}\xspace}
+\newcommand{\polInternetUrlName}[1]{\perm{InternetURL(}{#1}\perm{)}\xspace}
+\newcommand{\polBarcodeName}{\perm{ScanBarcodes}\xspace}
+\newcommand{\polLocationBlockName}{\perm{LocationBlock}\xspace}
+\newcommand{\polLocationVisibleName}{\perm{LocationVisible}\xspace}
+\newcommand{\polMobileBillingName}{\perm{MobileBilling}\xspace}
+\newcommand{\polToggleGpsName}{\perm{ToggleGPS}\xspace}
+\newcommand{\polOwnFilesSDName}{\perm{SDCardOwnFiles}\xspace}
+\newcommand{\polSharedSDName}{\perm{SDCardShared}\xspace}
+
+\newcommand{\dropPol}{\ding{56}\xspace}
+\newcommand{\fullPol}{$\CIRCLE$\xspace}
+\newcommand{\partialPol}{$\LEFTcircle$\xspace}
+\newcommand{\nonePol}{$\Circle$\xspace}
+\newcommand{\havePol}{\(\bullet\)\xspace}
+
+%% Location privacy paper defs
+%% for comments
+%%\newcommand{\comment}[3][\color{red}]{{#1{[{#2}: {#3}]}}}
+%%\newcommand{\kris}[1]{\comment[\color{orange}]{km}{#1}}
+%%\newcommand{\jeff}[1]{\comment[\color{green}]{JSF}{#1}}
+
+%%\newcommand{\thickhline}{\noalign{\hrule height 1pt}}
+
+%% names of things
+\newcommand{\fuzzer}{CloakDroid\xspace}
+%\newcommand{\lib}{Mr.\ Hide\xspace}
+\newcommand{\hidelib}{\code{hidelib}\xspace}
+%\newcommand{\troyd}{\code{troyd}\xspace}
+\newcommand{\rewriter}{Dr.\ Android\xspace}
+
+%% Statistics
+
+\newcommand{\numinvestigatedapps}{750\xspace}
+\newcommand{\numpointspercity}{10\xspace}
+\newcommand{\numappsusinglocation}{275\xspace}
+\newcommand{\numcities}{6\xspace}
+\newcommand{\numstationaryapps}{261\xspace}
+\newcommand{\numfinegrainedapps}{34\xspace}
+% \newcommand{\code}[1]{\textsf{\small #1}} % CHECKME
+\newcommand{\bcode}[1]{\texttt{#1}}
+\newcommand{\coarsenotfine}{???\xspace} % FIXME
+\newcommand{\finenotcoarse}{???\xspace} % FIXME
+\newcommand{\coarseandfine}{???\xspace} % FIXME
+\newcommand{\adsonly}{???\xspace} % FIXME
+\newcommand{\listapps}{???\xspace} % FIXME
+\newcommand{\weatherapps}{???\xspace} % FIXME
+\newcommand{\otherapps}{???\xspace} % FIXME
+\newcommand{\cdiff}{\delta}
+
+%%\input{app-location-uses-reasons}
+
+\newcommand{\numappsweather}{21\xspace}
+\newcommand{\numappsnearbycities}{22\xspace}
+\newcommand{\numappsunsure}{17\xspace}
+\newcommand{\numappsads}{78\xspace}
+\newcommand{\numappsonlyads}{58\xspace}
+\newcommand{\numappslist}{43\xspace}
+\newcommand{\numappslistads}{6\xspace}
+\newcommand{\numappstagging}{28\xspace}
+\newcommand{\numappsfinegrained}{34\xspace}
+\newcommand{\numappsfinegrainedads}{7\xspace}
+\newcommand{\numappstaggingads}{4\xspace}
+\newcommand{\numappsweatherads}{2\xspace}
+\newcommand{\numappsnottestable}{52\xspace}
+\newcommand{\numappsnearbycitiesads}{1\xspace}
+
+%% Apps
+
+\newcommand{\app}[1]{#1}
+\newcommand{\hospitals}{\app{Hospitals Near Me}}
+\newcommand{\tdbank}{\app{TD Bank}}
+\newcommand{\webmd}{\app{WebMD}}
+\newcommand{\gasbuddy}{\app{Gasbuddy}}
+\newcommand{\restaurantfinder}{\app{Restaurant Finder}}
+\newcommand{\walmart}{\app{Walmart}}
+
+%% End of location privacy paper..
+
+%% Chapter 4 -- Expressive declassification
+\newtheorem{definition}{Definition}
+\newtheorem{algorithm}{Algorithm}
+
+\newcommand{\aset}[1]{\{#1\}}
+\newcommand{\dom}{\mathop\textit{dom}\nolimits}
+
+%% Names of things
+\newcommand{\tvetl}{TVETL\xspace}
+
+\newcommand{\sfmt}[1]{\textsf{#1}}
+\newcommand{\sch}{\textit{name}}
+\newcommand{\loc}{\ell}
+\newcommand{\sassign}[2]{#1 := #2}
+\newcommand{\scase}[2]{\sfmt{case}~#1~\sfmt{of}~#2}
+\newcommand{\sderef}[1]{!#1}
+\newcommand{\sfalse}{\sfmt{false}}
+\newcommand{\sif}[3]{\sfmt{if}~#1~\sfmt{then}~#2~\sfmt{else}~#3}
+\newcommand{\bdenot}[1]{\llbracket~#1\rrbracket_B}
+\newcommand{\sinl}{\sfmt{inl}}
+\newcommand{\sinr}{\sfmt{inr}}
+\newcommand{\sinstall}[2]{\sfmt{install}~#1~#2}
+\newcommand{\sdeclassify}[1]{\sfmt{declassify}~#1}
+\newcommand{\sref}[1]{\sfmt{ref}~#1}
+\newcommand{\denot}[1]{\ensuremath{\llbracket #1 \rrbacket}}
+\newcommand{\ssend}[2]{\sfmt{send}~#1~#2}
+\newcommand{\strue}{\sfmt{true}}
+\newcommand{\sunit}{\sfmt{unit}}
+\newcommand{\sreduce}{\Downarrow}
+\newcommand{\treduce}{\rightarrow}
+\newcommand{\partialfun}{\rightharpoonup}
+\newcommand{\ltrue}{\ensuremath{\top}}
+\newcommand{\lfalse}{\ensuremath{\bot}}
+\newcommand{\config}[1]{\langle{}#1\rangle{}}
+\newcommand{\program}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\sclass}[2]{\ensuremath{\lfloor#1\rfloor_{#2}}}
+\newcommand{\restr}[2]{\ensuremath{\left.#1\right|_{#2}}}
+\newcommand{\modelsrcon}{\models^{r}}
+\newcommand{\amodels}{\models^{A}}
+\newcommand{\judge}{\vdash}
+\newcommand{\xv}{p}
+\newcommand{\bexpr}{b}
+\newcommand{\filter}{\upharpoonright}
+\newcommand{\restrict}{\upharpoonright}
+\newcommand{\etlb}{ETLB\xspace}
+\newcommand{\hyperltltwo}{HyperLTL\xspace}
+
+\newcommand{\absstate}{\Sigma^s}
+\newcommand{\tvar}{x^t}
+
+%\newcommand{\traces}{\textit{traces}}
+%\newcommand{\tracesrename}{\textit{traces'}}
+\newcommand{\tick}[1]{#1^{+}}
+\newcommand{\atom}{A}
+\newcommand{\toolname}{ClickRelease\xspace}
+
+\newcommand{\tr}{t\xspace}
+\newcommand{\typ}{\tau}
+\newcommand{\tint}{\textit{int}}
+\newcommand{\tset}{\ensuremath{\mathcal{T}}\xspace}
+\newcommand{\tsets}{\ensuremath{\mathcal{T}^s}\xspace}
+\newcommand{\pset}{\ensuremath{\mathcal{P}}}
+\newcommand{\tnext}{\mathcal{X}}
+\newcommand{\talways}{\mathcal{G}}
+%\newcommand{\tfuture}{~\mathcal{F}~}
+\newcommand{\tevent}{\lozenge}
+\newcommand{\tfuture}{\mathcal{F}}
+\newcommand{\tuntil}{~\mathcal{U}~}
+\newcommand{\tsince}{~\mathcal{S}~}
+\newcommand{\tpast}{\mathcal{P}}
+\newcommand{\tknows}[1]{\mathcal{K}_{#1}}
+\newcommand{\tatmost}[1]{\mathcal{N}_{#1}}
+\newcommand{\tpossible}[1]{\mathcal{L}_{#1}}
+\newcommand{\tthen}{~\textit{then}~}
+\newcommand{\tlast}[2]{\textit{last}(#1, #2)}
+\newcommand{\limplies}{\rightarrow}
+%\newcommand{\tforall}{\hbox{forall}~}
+\newcommand{\texists}{\hbox{exists}~}
+\newcommand{\tcurrent}[1]{\hbox{current}_{#1}~}
+\newcommand{\tval}[1]{\textit{value}(#1)}
+\newcommand{\trelease}{\rhd}
+\newcommand{\evt}{\eta}
+\newcommand{\mimplies}{\Rightarrow}
+\newcommand{\with}{\&}
+\newcommand{\tlevel}[3]{\textit{level}(#1, #2, #3)}
+\newcommand{\tleveltr}[2]{\textit{level}(#1, #2)}
+%\newcommand{\tlevel}[3]{\llbracket #1 \rrbracket_{#2} [#3]}
+
+
+%% for comments
+%\newcommand{\comment}[3][\color{red}]{{#1{[{#2}: {#3}]}}}
+%\newcommand{\kris}[1]{\comment[\color{orange}]{kris}{#1}}
+%\newcommand{\jeff}[1]{\comment[\color{green}]{JSF}{#1}}
+
+\newcommand{\rsout}[1]{{\color{blue}\sout{#1}}}
+\newcommand{\review}[1]{{\color{blue}{#1}}}
+
+%% Chapter 5 -- CHI paper
+
+% This package aligns decimals in tables
+\usepackage{siunitx}
+
+\usepackage[flushleft]{threeparttable}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newtheorem{hyp}{H}
+\newcommand{\backgroundonly}{\textit{Bg}}
+\newcommand{\backgroundnotify}{\textit{Bn}}
+\newcommand{\interactive}{\textit{Clk}}
+\newcommand{\first}{\textit{Fst}}
+\newcommand{\launch}{\textit{Lch}}
+\newcommand{\never}{\textit{Nvr}}
+\newcommand{\location}{\textit{Loc}}
+\newcommand{\mic}{\textit{Mic}}
+\newcommand{\contacts}{\textit{Con}}
+\newcommand{\coffee}{\textit{Coffee}}
+\newcommand{\fitness}{\textit{Fitness}}
+\newcommand{\apptracer}{AppTracer}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\footnotesize\ttfamily}, % Keep for same font inside red code
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  escapeinside={/**}{*/},
+}
+
+
+\newcommand{\removedapps}{87\xspace}
+\newcommand{\apktoolerrors}{19\xspace}
+\newcommand{\rewritingerrors}{5\xspace}
+\newcommand{\redexererrors}{29\xspace}
+\newcommand{\accountserrors}{16\xspace}
+\newcommand{\unusableerrors}{23\xspace}
+
+\newcommand{\para}[1]{\noindent\textbf{#1.\phantom{xx}}}
+
+%% Chapter 6 -- Abstracting traces 
+
+\newcommand{\phrame}{\phi}
+\newcommand{\aphrame}{\hat{\phi}}
+
+\newcommand{\defas}{\triangleq}
+
+
+\newcommand{\var}[1]{\mathit{#1}}
+\newcommand{\syn}[1]{\mathsf{#1}}
+
+
+\newcommand{\Pow}[1]{\mathcal{P}(#1)}
+\newcommand{\Set}[1]{\{#1\}}
+\newcommand{\SetBuild}[2]{\{#1\ \vert\ #2\}}
+
+\newcommand{\ttlp}{\texttt{(}}
+\newcommand{\ttrp}{\texttt{)}}
+\newcommand{\sexpr}[1]{\ttlp#1\ttrp}
+\newcommand{\colortt}[2]{\color{#1}\texttt{#2}}
+
+\newcommand{\join}{\sqcup}
+\newcommand{\sqless}{\sqsubseteq}
+
+
+\newcommand{\parto}{\rightharpoonup}
+\newcommand{\aexp}{\var{ae}}
+
+
+\newcommand{\letform}[3]{\texttt{(let\ ([}#1\ #2\texttt{])\ }#3\texttt{)}}
+\newcommand{\appform}[2]{\texttt{(}#1\ #2\texttt{)}}
+\newcommand{\lamform}[2]{\texttt{($\lambda$\ (}#1\texttt{)\ }#2\texttt{)}}
+
+
+\newcommand{\calcTo}{\rightarrow_{\text{calc}}}
+\newcommand{\signTo}{\leadsto_{\text{sign}}}
+
+\newcommand{\lamTo}{\rightarrow_{\scalebox{0.60}{$\lambda$}}}
+\newcommand{\ceTo}{\rightarrow_{\scalebox{0.50}{CE}}}
+\newcommand{\ceToW}{\rightarrow_{\scalebox{0.50}{$S_{\text{CE}}$}}}
+\newcommand{\cekTo}{\rightarrow_{\scalebox{0.50}{CEK}}}
+\newcommand{\cekToW}{\rightarrow_{\scalebox{0.50}{$S_{\text{CEK}}$}}}
+
+\newcommand{\instTo}{\overset{\scalebox{0.40}{\!\!\!\!Inst}}{\leadsto}}
+
+
+\newcommand{\cTo}{\rightarrow_{\scalebox{0.45}{$\Sigma$}}}
+\newcommand{\cToW}{\rightarrow_{\scalebox{0.45}{$S$}}}
+\newcommand{\fsTo}{\leadsto^{\text{\texttildelow}}_{\scalebox{0.45}{$\Sigma$}}}
+\newcommand{\pdTo}{\leadsto^{\scalebox{0.45}[0.25]{$\wedge$}}_{\scalebox{0.45}{$\Sigma$}}}
+\newcommand{\fsToW}{\leadsto^{\text{\texttildelow}}_{\scalebox{0.45}{$\Xi$}}}
+\newcommand{\pdToW}{\leadsto^{\scalebox{0.45}[0.25]{$\wedge$}}_{\scalebox{0.45}{$\Xi$}}}
+\newcommand{\fsToS}{\leadsto^{\text{\texttildelow}}_{\scalebox{0.45}{$S$}}}
+\newcommand{\pdToS}{\leadsto^{\scalebox{0.45}[0.25]{$\wedge$}}_{\scalebox{0.45}{$S$}}}
+\newcommand{\pdToX}{\leadsto^{\scalebox{0.45}[0.25]{$\wedge$}}_{\scalebox{0.45}{$\mathcal{X}$}}}
+\newcommand{\dsToW}{\leadsto^{\scalebox{0.45}[0.25]{$\wedge$}}_{\scalebox{0.45}{$G$}}}
+\newcommand{\pdToSub}{\overset{\scalebox{0.45}[0.45]{$\!\!\!\!\!\sqsubseteq$}}{\leadsto^{\scalebox{0.45}[0.25]{$\wedge$}}_{\scalebox{0.45}{$\Sigma$}}}}
+\newcommand{\fsToSub}{\overset{\scalebox{0.45}[0.45]{$\!\!\!\!\!\sqsubseteq$}}{\leadsto^{\text{\texttildelow}}_{\scalebox{0.45}{$\Sigma$}}}}
+\newcommand{\fsPath}{\overset{\!\scalebox{0.55}[0.55]{\texttildelow}}{\hookrightarrow}}
+\newcommand{\pdPath}{\overset{\!\scalebox{0.45}[0.25]{$\wedge$}}{\hookrightarrow}}
+
+
+
+\newcommand{\simXi}{\sqsupseteq_{\scalebox{0.5}{$\Xi$}}}
+\newcommand{\simState}{\sqsupseteq_{\scalebox{0.45}{$\Sigma$}}}
+\newcommand{\simR}{\sqsupseteq_{\scalebox{0.45}{$R$}}}
+\newcommand{\simX}{\sqsupseteq_{\scalebox{0.45}{$\mathcal{X}$}}}
+\newcommand{\simEnv}{\equiv_{\scalebox{0.45}{$Env$}}}
+\newcommand{\simAddr}{\equiv_{\scalebox{0.45}{$Addr$}}}
+\newcommand{\simStore}{\sqsupseteq_{\scalebox{0.45}{$Store$}}}
+\newcommand{\simD}{\sqsupseteq_{\scalebox{0.45}{$D$}}}
+\newcommand{\simClo}{\equiv_{\scalebox{0.45}{$Clo$}}}
+\newcommand{\simKont}{\sqsupseteq_{\scalebox{0.45}{$Kont$}}}
+\newcommand{\simFrame}{\equiv_{\scalebox{0.45}{$Frame$}}}
+\newcommand{\simTau}{\equiv_{\scalebox{0.45}{$\tau$}}}
+
+\newcommand{\precXi}{\sqsupseteq_{\scalebox{0.5}{$\Xi$}}}
+\newcommand{\precStore}{\sqsupseteq_{\scalebox{0.45}{$Store$}}}
+\newcommand{\precD}{\sqsupseteq_{\scalebox{0.45}{$D$}}}
+\newcommand{\precR}{\sqsupseteq_{\scalebox{0.45}{$R$}}}
+
+\newcommand{\tAddr}{T_{\scalebox{0.45}[0.45]{$Addr$}}}
+\newcommand{\tEnv}{T_{\scalebox{0.45}[0.45]{$Env$}}}
+\newcommand{\tClo}{T_{\scalebox{0.45}[0.45]{$Clo$}}}
+\newcommand{\tD}{T_{\scalebox{0.45}[0.45]{$D$}}}
+\newcommand{\tStore}{T_{\scalebox{0.45}[0.45]{$Store$}}}
+\newcommand{\tFrame}{T_{\scalebox{0.45}[0.45]{$Frame$}}}
+\newcommand{\tTau}{T_{\scalebox{0.65}[0.65]{$\tau$}}}
+
+\newcommand{\hAddr}{H_{\scalebox{0.45}[0.45]{$Addr$}}}
+\newcommand{\hEnv}{H_{\scalebox{0.45}[0.45]{$Env$}}}
+\newcommand{\hClo}{H_{\scalebox{0.45}[0.45]{$Clo$}}}
+\newcommand{\hD}{H_{\scalebox{0.45}[0.45]{$D$}}}
+\newcommand{\hStore}{H_{\scalebox{0.45}[0.45]{$Store$}}}
+\newcommand{\hFrame}{H_{\scalebox{0.45}[0.45]{$Frame$}}}
+\newcommand{\hKont}{H_{\scalebox{0.45}[0.45]{$Kont$}}}
+\newcommand{\hC}{H_{\scalebox{0.45}[0.45]{$C$}}}
+\newcommand{\hState}{H_{\scalebox{0.45}[0.45]{$\Sigma$}}}
+\newcommand{\hTau}{H_{\scalebox{0.65}[0.65]{$\tau$}}}
+
+\newcommand{\inpsi}{\in_{\scalebox{0.7}[0.7]{$\psi$}}}
+
+
+
+\newcommand{\simGenericprec}{\overset{\scalebox{0.45}{$\!\!\!\sqsupseteq$}}{\equiv}}
+
+
+% Latin.
+\newcommand{\vs}{{\textit{v{.}}}}
+\newcommand{\ie}{\textit{i.e.}}
+\newcommand{\eg}{\textit{e.g.}}
+\newcommand{\etc}{\textit{etc.}}
+\newcommand{\etal}{\textit{et al.}}
+
+\newcommand{\comm}[3][\color{red}]{{#1{[{#2}: {#3}]}}}
+\newcommand{\kris}[1]{\comm[\color{blue}]{Kris}{#1}}
+\newcommand{\jeff}[1]{\comm[\color{green}]{Jeff}{#1}}
+\newcommand{\dan}[1]{\comm[\color{orange}]{Dan}{#1}}
+\newcommand{\tom}[1]{\comm[\color{violet}]{Tom}{#1}}
+\newcommand{\michelle}[1]{\comm[\color{cyan}]{Michelle}{#1}}
+
+\newcommand{\cpair}{\!:\!}
+%\newcommand{\sfmt}[1]{\mathtt{#1}}
+\newcommand{\sgoto}[1]{\sfmt{goto }\ #1}
+%\newcommand{\sif}[2]{\sfmt{if}\ #1\ \sfmt{then}\ #2}
+\newcommand{\sassn}[2]{#1 \leftarrow #2}
+\newcommand{\sfread}[3]{#1 \leftarrow #2.#3}
+\newcommand{\sfwrite}[3]{#1.#2 \leftarrow #3}
+\newcommand{\snew}[2]{#1 \leftarrow \sfmt{new}\ #2}
+\newcommand{\scall}[4]{#1 \leftarrow #2.#3(#4)}
+\newcommand{\sret}[1]{\sfmt{ret}\ #1}
+
+%\newcommand{\dom}{\mathop\textit{dom}\nolimits}
+\newcommand{\hogarth}{Hogarth\xspace}
+\newcommand{\absval}{a}
+\newcommand{\quoted}[1]{\textquotedbl#1\textquotedbl}
+
+\newcommand{\symname}[1]{\alpha\langle\!\langle #1 \rangle\!\rangle}
+
+\newcommand{\smalltt}[1]{\texttt{\small #1}}
+\usepackage{fancyvrb}
+\usepackage{mdframed}
+
+
+\begin{document}
+
+\include{Abstract} %(must be first, required, non-numbered)
+\include{Titlepage} %(must follow Abstract, required, non-numbered)
+\include{Copyright} %(highly recommended, non-numbered)
+
+%Pages from this point start at lower-case Roman number ii)
+\pagestyle{plain}
+\pagenumbering{roman}
+\setcounter{page}{2}
+
+%\include{Preface}  %(if present, start at lower-case Roman number ii)
+%\include{Foreword} %(if present, lower-case Roman)
+\include{Dedication} %(if present, lower-case Roman)
+\include{Acknowledgements} %(if present, lower-case Roman)
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\tableofcontents %(required, lower-case Roman)
+\newpage
+%\listoftables %(if present, lower-case Roman)
+%\newpage
+\listoffigures %(if present, lower-case Roman)
+\newpage
+% LIST OF ABBREVIATIONS
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+\include{Abbreviations}
+
+\newpage
+\setlength{\parskip}{0em}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+%Pages from this point start at Arabic numeral 1
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\include{Chapter1}
+\include{Chapter2}
+\include{Chapter3}
+\include{Chapter4}
+\include{Chapter5}
+\include{Chapter6}
+
+\include{supertabular}
+%\titleformat{\chapter}
+%      {\normalfont\large}{Appendix \thechapter:}{1em}{}
+%\include{AppendixA}
+%\include{AppendixB}
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+%\include{Bibliography}
+%When using Bibtex, delete the previous line and use the following
+%three lines.  
+\newpage
+\bibliographystyle{unsrt} 
+\bibliography{dissertation} 
+
+\end{document}

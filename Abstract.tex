@@ -1,0 +1,78 @@
+%Abstract Page 
+
+\hbox{\ }
+
+\renewcommand{\baselinestretch}{1}
+\small \normalsize
+
+\begin{center}
+\large{{ABSTRACT}} 
+
+\vspace{3em} 
+
+\end{center}
+\hspace{-.15in}
+\begin{tabular}{ll}
+Title of dissertation:    & {\large  INTERACTION-BASED PRIVACY POLICIES}\\
+&				      {\large  FOR MOBILE APPS} \\
+\ \\
+&                          {\large  Kristopher Micinski, Doctor of Philosophy, 2017} \\
+\ \\
+Dissertation directed by: & {\large  Professor Jeffrey S. Foster} \\
+\end{tabular}
+
+\vspace{3em}
+
+\renewcommand{\baselinestretch}{2}
+\large \normalsize
+
+Mobile operating systems pervade our modern lives. Security and
+privacy is of particular concern on these systems, as they have access
+to a wide range of sensitive resources. Apps access these sensitive
+resources to help users perform tasks. However, apps may use these
+sensitive resources in a way that the user does not expect. For
+example, an app may look up reviews of restaurants nearby, but also
+leak the user's location to an ad service every hour.
+
+I claim that interaction serves as a valuable component of security
+decisions, because the user's interaction with the app's user
+interface (UI) deeply informs their mental model of what is
+acceptable. I introduce the notion of interaction-based security,
+wherein security decisions are driven by this interaction.
+
+To help understand and enforce interaction-based security, I present
+four pieces of work. The first is Redexer, which allows performing
+binary instrumentation of off-the-shelf Android binaries. Binary
+transformation is a useful tool for enforcing and studying security
+properties. I demonstrate one example of how Redexer can be used to
+study location privacy in apps.
+
+Android permissions constrain how data enters apps, but does not
+constrain how the information is used or where it
+goes. Information-flow allows us to formally define what it means for
+data to leak from applications, but it is unclear how to use
+information-flow policies for Android apps, because apps frequently
+declassify information. My insight is that declassification should be
+driven by the user's interaction with the app's UI. I
+define interaction-based declassification policies, and show how they
+can be used to define policies for several example apps. I then
+implement a symbolic executor which checks Android apps to ensure they
+respect these policies.
+
+Next, I test the hypothesis that the app's UI influences security
+decisions. I outline an app study that measures when apps use
+sensitive resources with respect to their UI. I then conduct a user
+study to measure how an app's UI influences their expectation that a
+sensitive resource will be accessed. I find that interactivity plays a
+large role in determining user expectation of sensitive resource
+use. I also find that users may not always understand background uses
+of these sensitive resources and using them expectation requires
+special care in some circumstances.
+
+Last, I present a tool which can help a security auditor quickly
+understand how apps use resources. My tool uses a novel combination of
+app logging, symbolic execution, and abstract interpretation to infer
+a formula that holds on each permission use. I evaluate my tool on
+several moderately-sized apps and show that it infers the same
+formulas we laboriously found by hand.
+

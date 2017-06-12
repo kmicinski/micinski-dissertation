@@ -1,0 +1,1329 @@
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.RelativeLayout@40727380
+com.google.ads.AdView@405a1808
+android.gesture.GestureOverlayView@40675970
+android.widget.FrameLayout@405d7c98
+com.google.ads.internal.AdWebView@406a47f8
+android.widget.TableLayout@4070d8e0
+android.widget.TableRow@40710fe0
+android.widget.RelativeLayout@40717a88
+android.widget.RelativeLayout@40717f38
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 23 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40721910
+android.widget.ImageView@40721d30
+android.widget.TextView: BP
+android.widget.TextView: 2401 Hanover St & Cromwell St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 0.45 mi
+android.widget.TableLayout@4065d4b8
+android.widget.TableRow@40660a28
+android.widget.RelativeLayout@406cba88
+android.widget.RelativeLayout@406ce310
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406d1f38
+android.widget.ImageView@406d2310
+android.widget.TextView: BP
+android.widget.TextView: 1100 S Hanover St & W Cross St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 0.6 mi
+android.widget.TableLayout@406dfe28
+android.widget.TableRow@406e2678
+android.widget.RelativeLayout@406e2d18
+android.widget.RelativeLayout@406e30f0
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406e6e50
+android.widget.ImageView@406e9710
+android.widget.TextView: BP
+android.widget.TextView: 2000 Haines St & Russell St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 0.65 mi
+android.widget.TableLayout@406f7c70
+android.widget.TableRow@406fa758
+android.widget.RelativeLayout@406fae08
+android.widget.RelativeLayout@406fb1e0
+android.widget.TextView: 3.51
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40700e60
+android.widget.ImageView@40701238
+android.widget.TextView: CITGO
+android.widget.TextView: 1500 Russell St & Worcester St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 0.65 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@406f7c70
+android.widget.TableRow@406fa758
+android.widget.RelativeLayout@406fae08
+android.widget.RelativeLayout@406fb1e0
+android.widget.TextView: 3.51
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40700e60
+android.widget.ImageView@40701238
+android.widget.TextView: CITGO
+android.widget.TextView: 1500 Russell St & Worcester St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 0.65 mi
+android.widget.TableLayout@4077af68
+android.widget.TableRow@4077b538
+android.widget.RelativeLayout@4077bbf8
+android.widget.RelativeLayout@4077bfd0
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 3 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4077d7e0
+android.widget.ImageView@4077dbb8
+android.widget.TextView: Royal Farms
+android.widget.TextView: 1530 Russell St & Bayard St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@4078b088
+android.widget.TableRow@4078b658
+android.widget.RelativeLayout@4078bd18
+android.widget.RelativeLayout@4078c0f0
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 3 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4078d900
+android.widget.ImageView@4078dcd8
+android.widget.TextView: Shell
+android.widget.TextView: 1712 Russell St & Bayard St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@4079b178
+android.widget.TableRow@4079b748
+android.widget.RelativeLayout@4079be08
+android.widget.RelativeLayout@4079c1e0
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4079d9f0
+android.widget.ImageView@4079ddc8
+android.widget.TextView: Exxon
+android.widget.TextView: 1800 Russell St & Bush St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40566d70
+android.widget.TableRow@4054ad10
+android.widget.RelativeLayout@405581d8
+android.widget.RelativeLayout@4057b238
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: Mon 4:14 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d858
+android.widget.ImageView@4054cbf8
+android.widget.TextView: Royal Farms
+android.widget.TextView: 1440 Key Hwy & Lawrence 
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@4057b080
+android.widget.TableRow@405f26f0
+android.widget.RelativeLayout@4057dde8
+android.widget.RelativeLayout@405804a0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40580a50
+android.widget.ImageView@405c5670
+android.widget.TextView: BP
+android.widget.TextView: 2920 Waterview Ave & Cherry Hill Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@4057b080
+android.widget.TableRow@405f26f0
+android.widget.RelativeLayout@4057dde8
+android.widget.RelativeLayout@405804a0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40580a50
+android.widget.ImageView@405c5670
+android.widget.TextView: BP
+android.widget.TextView: 2920 Waterview Ave & Cherry Hill Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@4057dc38
+android.widget.TableRow@40607260
+android.widget.RelativeLayout@40583320
+android.widget.RelativeLayout@405fd5c8
+android.widget.TextView: 3.51
+android.widget.TextView: 9
+android.widget.TextView: 10 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406001b0
+android.widget.ImageView@405f5e18
+android.widget.TextView: BP
+android.widget.TextView: 1465 Key Hwy & E Key Hwy
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@405fd410
+android.widget.TableRow@40676570
+android.widget.RelativeLayout@40602dc0
+android.widget.RelativeLayout@406059c8
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40613540
+android.widget.ImageView@4060e088
+android.widget.TextView: Sunoco
+android.widget.TextView: 400 Russell St & Washington Blvd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@405ffe58
+android.widget.TableRow@4067e280
+android.widget.RelativeLayout@40616120
+android.widget.RelativeLayout@406199c8
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061d5d0
+android.widget.ImageView@40636b78
+android.widget.TextView: U.S. Gas
+android.widget.TextView: 1463 Washington Blvd & Bush St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40600000
+android.widget.TableRow@406926e0
+android.widget.RelativeLayout@40620198
+android.widget.RelativeLayout@40624458
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40629580
+android.widget.ImageView@4069fd98
+android.widget.TextView: Quest
+android.widget.TextView: 1769 Washington Blvd & Monroe St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40602a68
+android.widget.TableRow@40698de8
+android.widget.RelativeLayout@4062ed38
+android.widget.RelativeLayout@406344f8
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40638220
+android.widget.ImageView@406a2738
+android.widget.TextView: Royal Farms
+android.widget.TextView: 1801 Washington Blvd & Monroe St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@40602a68
+android.widget.TableRow@40698de8
+android.widget.RelativeLayout@4062ed38
+android.widget.RelativeLayout@406344f8
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40638220
+android.widget.ImageView@406a2738
+android.widget.TextView: Royal Farms
+android.widget.TextView: 1801 Washington Blvd & Monroe St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@4079b178
+android.widget.TableRow@4079b748
+android.widget.RelativeLayout@4079be08
+android.widget.RelativeLayout@4079c1e0
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: 23 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4079d9f0
+android.widget.ImageView@4079ddc8
+android.widget.TextView: Mystik
+android.widget.TextView: 1026 Eastern Ave & S Central Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40566d70
+android.widget.TableRow@4054ad10
+android.widget.RelativeLayout@405581d8
+android.widget.RelativeLayout@4057b238
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 16 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d858
+android.widget.ImageView@4054cbf8
+android.widget.TextView: CITGO
+android.widget.TextView: 1500 Eastern Ave & S Caroline St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@406d84c8
+android.widget.TableRow@406b7d60
+android.widget.RelativeLayout@4057cc60
+android.widget.RelativeLayout@40639c78
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40682ba0
+android.widget.ImageView@4050e050
+android.widget.TextView: Sunoco
+android.widget.TextView: 3302 Annapolis Rd  & W Potapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@4068c410
+android.widget.TableRow@40582be0
+android.widget.RelativeLayout@405ff718
+android.widget.RelativeLayout@40604f30
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40623478
+android.widget.ImageView@40628a98
+android.widget.TextView: Royal Farms
+android.widget.TextView: 3360 Annapolis Rd & W Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@4068c410
+android.widget.TableRow@40582be0
+android.widget.RelativeLayout@405ff718
+android.widget.RelativeLayout@40604f30
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40623478
+android.widget.ImageView@40628a98
+android.widget.TextView: Royal Farms
+android.widget.TextView: 3360 Annapolis Rd & W Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@405ffe58
+android.widget.TableRow@4067e280
+android.widget.RelativeLayout@40616120
+android.widget.RelativeLayout@406199c8
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: Mon 9:33 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061d5d0
+android.widget.ImageView@40636b78
+android.widget.TextView: Crown
+android.widget.TextView: 427 W Mulberry  & N Paca St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40600000
+android.widget.TableRow@406926e0
+android.widget.RelativeLayout@40620198
+android.widget.RelativeLayout@40624458
+android.widget.TextView: 3.57
+android.widget.TextView: 9
+android.widget.TextView: Mon 9:31 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40629580
+android.widget.ImageView@4069fd98
+android.widget.TextView: Exxon
+android.widget.TextView: 513 W Mulberry St & Greene St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40557688
+android.widget.TableRow@4069a408
+android.widget.RelativeLayout@4065e308
+android.widget.RelativeLayout@4057ebc8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40603fb8
+android.widget.ImageView@40641c10
+android.widget.TextView: CITGO
+android.widget.TextView: 810 W Patapsco Ave & Marmenco Ct
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.TableLayout@40625670
+android.widget.TableRow@4063eda0
+android.widget.RelativeLayout@4066d910
+android.widget.RelativeLayout@40684cc8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40615c88
+android.widget.ImageView@4062bbb0
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 3204 Hollins Ferry Rd  & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 99.99 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@4057dc38
+android.widget.TableRow@4066f880
+android.widget.RelativeLayout@405fd5c8
+android.widget.RelativeLayout@406001b0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40602dc0
+android.widget.ImageView@405c5670
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 3204 Hollins Ferry Rd  & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 1.93 mi
+android.widget.TableLayout@4057b080
+android.widget.TableRow@405522a8
+android.widget.RelativeLayout@4057dde8
+android.widget.RelativeLayout@40580a50
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405f9050
+android.widget.ImageView@405b02f8
+android.widget.TextView: BP
+android.widget.TextView: 1015 E Orleans St & Colvin St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 1.96 mi
+android.widget.TableLayout@406d84c8
+android.widget.TableRow@406b7d60
+android.widget.RelativeLayout@4057cc60
+android.widget.RelativeLayout@40639c78
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 12 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40682ba0
+android.widget.ImageView@4050e050
+android.widget.TextView: BP
+android.widget.TextView: 1300 E Fayette St & N Central Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 1.99 mi
+android.widget.TableLayout@40566d70
+android.widget.TableRow@4054ad10
+android.widget.RelativeLayout@405581d8
+android.widget.RelativeLayout@4057b238
+android.widget.TextView: 3.39
+android.widget.TextView: 9
+android.widget.TextView: 20 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d858
+android.widget.ImageView@4054cbf8
+android.widget.TextView: Carroll Fuel
+android.widget.TextView: 3550 Potee St & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.03 mi
+android.widget.TableLayout@40625670
+android.widget.TableRow@4063eda0
+android.widget.RelativeLayout@4066d910
+android.widget.RelativeLayout@40684cc8
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40615c88
+android.widget.ImageView@4062bbb0
+android.widget.TextView: Exxon
+android.widget.TextView: 1418 E Fayette St & N Caroline St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.05 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@40625670
+android.widget.TableRow@4063eda0
+android.widget.RelativeLayout@4066d910
+android.widget.RelativeLayout@40684cc8
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40615c88
+android.widget.ImageView@4062bbb0
+android.widget.TextView: Exxon
+android.widget.TextView: 1418 E Fayette St & N Caroline St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.05 mi
+android.widget.TableLayout@40600000
+android.widget.TableRow@406926e0
+android.widget.RelativeLayout@40620198
+android.widget.RelativeLayout@40624458
+android.widget.TextView: 3.47
+android.widget.TextView: 9
+android.widget.TextView: 20 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40629580
+android.widget.ImageView@4069fd98
+android.widget.TextView: BP
+android.widget.TextView: 3600 Potee St  & W Patapsco Ave 
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.06 mi
+android.widget.TableLayout@40557688
+android.widget.TableRow@4069a408
+android.widget.RelativeLayout@4065e308
+android.widget.RelativeLayout@4057ebc8
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 20 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40603fb8
+android.widget.ImageView@40641c10
+android.widget.TextView: Royal Farms
+android.widget.TextView: 3601 Potee St & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.09 mi
+android.widget.TableLayout@405fd410
+android.widget.TableRow@4067f360
+android.widget.RelativeLayout@406059c8
+android.widget.RelativeLayout@40613540
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4061cef0
+android.widget.ImageView@405f5e18
+android.widget.TextView: Carroll Fuel
+android.widget.TextView: 2650 W Patapsco Ave & Lorena Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.15 mi
+android.widget.TableLayout@405ff3b8
+android.widget.TableRow@4068a300
+android.widget.RelativeLayout@40624610
+android.widget.RelativeLayout@406270c0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4062c138
+android.widget.ImageView@4060e088
+android.widget.TextView: Quarles
+android.widget.TextView: 2900 Washington Blvd & Morrell Park Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.15 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@4057dc38
+android.widget.TableRow@40724c80
+android.widget.RelativeLayout@405fd5c8
+android.widget.RelativeLayout@406001b0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40602dc0
+android.widget.ImageView@405c5670
+android.widget.TextView: Quarles
+android.widget.TextView: 2900 Washington Blvd & Morrell Park Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.15 mi
+android.widget.TableLayout@4057b080
+android.widget.TableRow@4069fae8
+android.widget.RelativeLayout@4057dde8
+android.widget.RelativeLayout@40580a50
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405f9050
+android.widget.ImageView@405b02f8
+android.widget.TextView: CITGO
+android.widget.TextView: 2414 Frederick Ave & S Catherine St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.22 mi
+android.widget.TableLayout@40566d70
+android.widget.TableRow@4054ad10
+android.widget.RelativeLayout@405581d8
+android.widget.RelativeLayout@4057b238
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d858
+android.widget.ImageView@4054cbf8
+android.widget.TextView: Shell
+android.widget.TextView: 601 South Luzerne Ave & Fleet St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.39 mi
+android.widget.TableLayout@406d84c8
+android.widget.TableRow@406b7d60
+android.widget.RelativeLayout@4057cc60
+android.widget.RelativeLayout@40639c78
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 12 minutes ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40682ba0
+android.widget.ImageView@4050e050
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 4000 Ritchie Hwy  & Potee St & Belle Grove Rd
+android.widget.TextView: Brooklyn Park, MD
+android.widget.TextView: 2.4 mi
+android.widget.TableLayout@405ff3b8
+android.widget.TableRow@4068a300
+android.widget.RelativeLayout@40624610
+android.widget.RelativeLayout@406270c0
+android.widget.TextView: 3.57
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062c138
+android.widget.ImageView@4060e088
+android.widget.TextView: Sunoco
+android.widget.TextView: 1920 Orleans  St & Washington St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.43 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@405ff3b8
+android.widget.TableRow@4068a300
+android.widget.RelativeLayout@40624610
+android.widget.RelativeLayout@406270c0
+android.widget.TextView: 3.57
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4062c138
+android.widget.ImageView@4060e088
+android.widget.TextView: Sunoco
+android.widget.TextView: 1920 Orleans  St & Washington St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.43 mi
+android.widget.TableLayout@40557688
+android.widget.TableRow@4069a408
+android.widget.RelativeLayout@4065e308
+android.widget.RelativeLayout@4057ebc8
+android.widget.TextView: 3.57
+android.widget.TextView: 9
+android.widget.TextView: 3 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40603fb8
+android.widget.ImageView@40641c10
+android.widget.TextView: CITGO
+android.widget.TextView: 2001 Orleans St & N Washington St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.45 mi
+android.widget.TableLayout@405fd410
+android.widget.TableRow@4067f360
+android.widget.RelativeLayout@406059c8
+android.widget.RelativeLayout@40613540
+android.widget.TextView: 3.39
+android.widget.TextView: 9
+android.widget.TextView: Sun 6:00 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061cef0
+android.widget.ImageView@405f5e18
+android.widget.TextView: Hess
+android.widget.TextView: 3205 Washington Blvd & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.48 mi
+android.widget.TableLayout@40605818
+android.widget.TableRow@40790978
+android.widget.RelativeLayout@40613380
+android.widget.RelativeLayout@40616120
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406199c8
+android.widget.ImageView@406a2738
+android.widget.TextView: Shell
+android.widget.TextView: 1517 Caton Ave & Georgetown Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.52 mi
+android.widget.TableLayout@40615f70
+android.widget.TableRow@4061d428
+android.widget.RelativeLayout@4062eb88
+android.widget.RelativeLayout@40631790
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40662ae0
+android.widget.ImageView@4066f518
+android.widget.TextView: Quest
+android.widget.TextView: 3224 Washington Blvd & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.54 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@40615f70
+android.widget.TableRow@4061d428
+android.widget.RelativeLayout@4062eb88
+android.widget.RelativeLayout@40631790
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40662ae0
+android.widget.ImageView@4066f518
+android.widget.TextView: Quest
+android.widget.TextView: 3224 Washington Blvd & Patapsco Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.54 mi
+android.widget.TableLayout@40566d70
+android.widget.TableRow@4054ad10
+android.widget.RelativeLayout@405581d8
+android.widget.RelativeLayout@4057b238
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 10 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057d858
+android.widget.ImageView@4054cbf8
+android.widget.TextView: CITGO
+android.widget.TextView: 900 E Patapsco Ave & 9th St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.56 mi
+android.widget.TableLayout@406d84c8
+android.widget.TableRow@406b7d60
+android.widget.RelativeLayout@4057cc60
+android.widget.RelativeLayout@40639c78
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 21 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40682ba0
+android.widget.ImageView@4050e050
+android.widget.TextView: BP
+android.widget.TextView: 17 E Mt Royal Ave & St Paul St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.56 mi
+android.widget.TableLayout@4061df60
+android.widget.TableRow@40707330
+android.widget.RelativeLayout@40628038
+android.widget.RelativeLayout@40651720
+android.widget.TextView: 3.34
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40691ff8
+android.widget.ImageView@40581238
+android.widget.TextView: Xpress Fuels
+android.widget.TextView: 2417 W Franklin St & W Warwick Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.63 mi
+android.widget.TableLayout@40691530
+android.widget.TableRow@40675fc0
+android.widget.RelativeLayout@406771d0
+android.widget.RelativeLayout@4067cb20
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40635028
+android.widget.ImageView@40680580
+android.widget.TextView: BP
+android.widget.TextView: 900 N Monroe St (US-1S) & W Lafayette Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.63 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@40691530
+android.widget.TableRow@40675fc0
+android.widget.RelativeLayout@406771d0
+android.widget.RelativeLayout@4067cb20
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40635028
+android.widget.ImageView@40680580
+android.widget.TextView: BP
+android.widget.TextView: 900 N Monroe St (US-1S) & W Lafayette Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.63 mi
+android.widget.TableLayout@405fd410
+android.widget.TableRow@4067f360
+android.widget.RelativeLayout@406059c8
+android.widget.RelativeLayout@40613540
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Sun 6:00 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4061cef0
+android.widget.ImageView@405f5e18
+android.widget.TextView: Quarles
+android.widget.TextView: 1225 Chesapeake Ave & Shell Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.65 mi
+android.widget.TableLayout@40605818
+android.widget.TableRow@40790978
+android.widget.RelativeLayout@40613380
+android.widget.RelativeLayout@40616120
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 13 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406199c8
+android.widget.ImageView@406a2738
+android.widget.TextView: Three Brothers
+android.widget.TextView: 3041 Frederick Rd & Wellesley St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.77 mi
+android.widget.TableLayout@406f5288
+android.widget.TableRow@40701600
+android.widget.RelativeLayout@406f8520
+android.widget.RelativeLayout@406f8838
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 14 minutes ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070c9c0
+android.widget.ImageView@4070cd20
+android.widget.TextView: Royal Farms
+android.widget.TextView: 3505 Washington Blvd & Lansdowne Rd
+android.widget.TextView: Lansdowne, MD
+android.widget.TextView: 2.85 mi
+android.widget.TableLayout@4078e638
+android.widget.TableRow@40724278
+android.widget.RelativeLayout@40724818
+android.widget.RelativeLayout@406f18b8
+android.widget.TextView: 3.39
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4066b3f8
+android.widget.ImageView@406c6038
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 2701 W Franklin St & N Calverton Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.87 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@4071cfd8
+android.widget.TableRow@4079c788
+android.widget.RelativeLayout@4079ce08
+android.widget.RelativeLayout@4079d1e0
+android.widget.TextView: 3.39
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407203e0
+android.widget.ImageView@40670ed0
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 2701 W Franklin St & N Calverton Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.87 mi
+android.widget.TableLayout@406fd960
+android.widget.TableRow@406fdf08
+android.widget.RelativeLayout@406fe588
+android.widget.RelativeLayout@40632560
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061e8f8
+android.widget.ImageView@4061ecd0
+android.widget.TextView: Hess
+android.widget.TextView: 1801 N Charles St & E Lafayette Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.88 mi
+android.widget.RelativeLayout@4071d500
+android.widget.FrameLayout@405d5318
+android.widget.RelativeLayout@40559338
+android.widget.LinearLayout@405d35d8
+android.view.View@406b5250
+android.widget.RelativeLayout@406db310
+android.widget.TextView: Regular
+android.view.View@40703ad0
+android.view.View@406b4ea8
+android.widget.RelativeLayout@40707098
+android.widget.TextView: Midgrade
+android.view.View@407115e0
+android.view.View@406b4ff0
+android.widget.RelativeLayout@40714b30
+android.widget.TextView: Premium
+android.view.View@406aecb0
+android.view.View@406b5120
+android.widget.RelativeLayout@406aeea0
+android.widget.TextView: Diesel
+android.view.View@405b2858
+android.view.View@406bbc80
+android.view.View@406b8970
+android.widget.LinearLayout@406b8bc0
+android.widget.RelativeLayout@406b9060
+android.widget.ImageView@4058a520
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4058b9a8
+android.widget.ImageView@405e59d8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4054f260
+android.widget.ImageView@406c0320
+android.widget.TextView: Map View
+android.view.View@406c53d0
+gbis.gbandroid.views.layouts.CustomListView@405b45a0
+android.widget.TableLayout@4071cfd8
+android.widget.TableRow@4079c788
+android.widget.RelativeLayout@4079ce08
+android.widget.RelativeLayout@4079d1e0
+android.widget.TextView: 3.39
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407203e0
+android.widget.ImageView@40670ed0
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 2701 W Franklin St & N Calverton Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.87 mi
+android.widget.TableLayout@406fd960
+android.widget.TableRow@406fdf08
+android.widget.RelativeLayout@406fe588
+android.widget.RelativeLayout@40632560
+android.widget.TextView: 3.45
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061e8f8
+android.widget.ImageView@4061ecd0
+android.widget.TextView: Hess
+android.widget.TextView: 1801 N Charles St & E Lafayette Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.88 mi
+android.widget.TableLayout@4061df60
+android.widget.TableRow@40707330
+android.widget.RelativeLayout@40628038
+android.widget.RelativeLayout@40651720
+android.widget.TextView: 3.34
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40691ff8
+android.widget.ImageView@40581238
+android.widget.TextView: Hess
+android.widget.TextView: 510 Franklintown Rd & W Franklin St
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.94 mi
+android.widget.TableLayout@406d84c8
+android.widget.TableRow@406b7d60
+android.widget.RelativeLayout@4057cc60
+android.widget.RelativeLayout@40639c78
+android.widget.TextView: 3.34
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40682ba0
+android.widget.ImageView@4050e050
+android.widget.TextView: Crown
+android.widget.TextView: 2810 W Franklin St & Lauretta Ave
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 2.97 mi
+android.widget.TableLayout@4078e638
+android.widget.TableRow@40724278
+android.widget.RelativeLayout@40724818
+android.widget.RelativeLayout@406f18b8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4066b3f8
+android.widget.ImageView@406c6038
+android.widget.TextView: CITGO
+android.widget.TextView: 2801 Edmondson Ave & N Franklintown Rd
+android.widget.TextView: Baltimore, MD
+android.widget.TextView: 3.01 mi
+android.widget.RelativeLayout@4071d500

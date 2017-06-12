@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40595c70
+android.widget.LinearLayout@40596720
+android.widget.FrameLayout@405969d0
+android.widget.ImageView@40596c80
+android.widget.RelativeLayout@40597118
+android.widget.ImageButton@40597728
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059add8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d1e8
+android.widget.LinearLayout@4059d590
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059ed88
+android.widget.LinearLayout@4055cfb8
+android.widget.TextView: Locations
+android.widget.ScrollView@4055db70
+android.widget.TableLayout@40530270
+android.widget.TableRow@40631b78
+android.widget.ImageView@40632908
+android.widget.TextView: 356 Springfield Avenue
+android.widget.TextView: 1.98 mi
+android.widget.TableRow@40636ea8
+android.widget.ImageView@40637350
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 2.36 mi
+android.widget.TableRow@405853f0
+android.widget.ImageView@40585810
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 2.36 mi
+android.widget.TableRow@405867f8
+android.widget.ImageView@40586ca0
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 3.10 mi
+android.widget.TableRow@405454b0
+android.widget.ImageView@40545958
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 3.14 mi
+android.widget.TableRow@4062b390
+android.widget.ImageView@4062b838
+android.widget.TextView: 2265 Morris Avenue
+android.widget.TextView: 3.14 mi
+android.widget.TableRow@4062c7f8
+android.widget.ImageView@4062cca0
+android.widget.TextView: 2265 Morris Avenue
+android.widget.TextView: 3.16 mi
+android.widget.TableRow@40614200
+android.widget.ImageView@406146a8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@40615690
+android.widget.ImageView@40615b38
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@4061f220
+android.widget.ImageView@4061f6c8
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@406206b0
+android.widget.ImageView@4062dce8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@4062ecd0
+android.widget.ImageView@4062f178
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 3.60 mi
+android.widget.TableRow@40630160
+android.widget.ImageView@4054ae88
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 3.60 mi
+android.widget.TableRow@4054bec0
+android.widget.ImageView@4054c368
+android.widget.TextView: 166 Morris Avenue
+android.widget.TextView: 4.35 mi
+android.widget.TableRow@4054d350
+android.widget.ImageView@4054d7f8
+android.widget.TextView: 166 Morris Avenue
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@4053f238
+android.widget.ImageView@4053f6e0
+android.widget.TextView: 540 Morris Avenue
+android.widget.TextView: 5.13 mi
+android.widget.TableRow@405406c8
+android.widget.ImageView@40540b70
+android.widget.TextView: 540 Morris Avenue
+android.widget.TextView: 5.14 mi
+android.widget.TableRow@40541b58
+android.widget.ImageView@40542000
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 5.55 mi
+android.widget.TableRow@40542fe8
+android.widget.ImageView@405397f0
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 5.55 mi
+android.widget.TableRow@4053a830
+android.widget.ImageView@4053acd8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 5.68 mi
+android.widget.FrameLayout@40557f60
+android.widget.ImageView@40563cf0
+android.widget.Button: Filter
+android.widget.LinearLayout@40599978
+android.widget.FrameLayout@40633e28
+android.widget.ImageView@40510bf0
+android.widget.Button: Filter
+android.widget.FrameLayout@40526128
+android.widget.Button: Done
+android.widget.FrameLayout@4052ed20
+android.widget.ImageView@4055c1f0
+android.widget.TextView: Stores
+android.widget.ImageView@40554af8
+android.widget.FrameLayout@4055ef70
+android.widget.ImageView@405b5ed0
+android.widget.TextView: ATMs
+android.widget.ImageView@40525ad8
+android.widget.FrameLayout@40595c70
+android.widget.LinearLayout@40596720
+android.widget.FrameLayout@405969d0
+android.widget.ImageView@40596c80
+android.widget.RelativeLayout@40597118
+android.widget.ImageButton@40597728
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059add8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d1e8
+android.widget.LinearLayout@4059d590
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059ed88
+android.widget.LinearLayout@4055cfb8
+android.widget.TextView: Locations
+android.widget.ScrollView@4055db70
+android.widget.TableLayout@40530270
+android.widget.TableRow@40631b78
+android.widget.ImageView@40632908
+android.widget.TextView: 356 Springfield Avenue
+android.widget.TextView: 1.98 mi
+android.widget.TableRow@40636ea8
+android.widget.ImageView@40637350
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 2.36 mi
+android.widget.TableRow@405853f0
+android.widget.ImageView@40585810
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 2.36 mi
+android.widget.TableRow@405867f8
+android.widget.ImageView@40586ca0
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 3.10 mi
+android.widget.TableRow@405454b0
+android.widget.ImageView@40545958
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 3.14 mi
+android.widget.TableRow@4062b390
+android.widget.ImageView@4062b838
+android.widget.TextView: 2265 Morris Avenue
+android.widget.TextView: 3.14 mi
+android.widget.TableRow@4062c7f8
+android.widget.ImageView@4062cca0
+android.widget.TextView: 2265 Morris Avenue
+android.widget.TextView: 3.16 mi
+android.widget.TableRow@40614200
+android.widget.ImageView@406146a8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@40615690
+android.widget.ImageView@40615b38
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@4061f220
+android.widget.ImageView@4061f6c8
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@406206b0
+android.widget.ImageView@4062dce8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@4062ecd0
+android.widget.ImageView@4062f178
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 3.60 mi
+android.widget.TableRow@40630160
+android.widget.ImageView@4054ae88
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 3.60 mi
+android.widget.TableRow@4054bec0
+android.widget.ImageView@4054c368
+android.widget.TextView: 166 Morris Avenue
+android.widget.TextView: 4.35 mi
+android.widget.TableRow@4054d350
+android.widget.ImageView@4054d7f8
+android.widget.TextView: 166 Morris Avenue
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@4053f238
+android.widget.ImageView@4053f6e0
+android.widget.TextView: 540 Morris Avenue
+android.widget.TextView: 5.13 mi
+android.widget.TableRow@405406c8
+android.widget.ImageView@40540b70
+android.widget.TextView: 540 Morris Avenue
+android.widget.TextView: 5.14 mi
+android.widget.TableRow@40541b58
+android.widget.ImageView@40542000
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 5.55 mi
+android.widget.TableRow@40542fe8
+android.widget.ImageView@405397f0
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 5.55 mi
+android.widget.TableRow@4053a830
+android.widget.ImageView@4053acd8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 5.68 mi
+android.widget.FrameLayout@40557f60
+android.widget.ImageView@40563cf0
+android.widget.Button: Filter
+android.widget.LinearLayout@40599978
+android.widget.FrameLayout@40633e28
+android.widget.ImageView@40510bf0
+android.widget.Button: Filter
+android.widget.FrameLayout@40526128
+android.widget.Button: Done
+android.widget.FrameLayout@4052ed20
+android.widget.ImageView@4055c1f0
+android.widget.TextView: Stores
+android.widget.ImageView@40554af8
+android.widget.FrameLayout@4055ef70
+android.widget.ImageView@405b5ed0
+android.widget.TextView: ATMs
+android.widget.ImageView@40525ad8
+android.widget.FrameLayout@40595c70
+android.widget.LinearLayout@40596720
+android.widget.FrameLayout@405969d0
+android.widget.ImageView@40596c80
+android.widget.RelativeLayout@40597118
+android.widget.ImageButton@40597728
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4059add8
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4059d1e8
+android.widget.LinearLayout@4059d590
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4059ed88
+android.widget.LinearLayout@4055cfb8
+android.widget.TextView: Locations
+android.widget.ScrollView@4055db70
+android.widget.TableLayout@40530270
+android.widget.TableRow@40631b78
+android.widget.ImageView@40632908
+android.widget.TextView: 356 Springfield Avenue
+android.widget.TextView: 1.98 mi
+android.widget.TableRow@40636ea8
+android.widget.ImageView@40637350
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 2.36 mi
+android.widget.TableRow@405853f0
+android.widget.ImageView@40585810
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 2.36 mi
+android.widget.TableRow@405867f8
+android.widget.ImageView@40586ca0
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 3.10 mi
+android.widget.TableRow@405454b0
+android.widget.ImageView@40545958
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 3.14 mi
+android.widget.TableRow@4062b390
+android.widget.ImageView@4062b838
+android.widget.TextView: 2265 Morris Avenue
+android.widget.TextView: 3.14 mi
+android.widget.TableRow@4062c7f8
+android.widget.ImageView@4062cca0
+android.widget.TextView: 2265 Morris Avenue
+android.widget.TextView: 3.16 mi
+android.widget.TableRow@40614200
+android.widget.ImageView@406146a8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@40615690
+android.widget.ImageView@40615b38
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@4061f220
+android.widget.ImageView@4061f6c8
+android.widget.TextView: 1180 Raymond Boulevard
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@406206b0
+android.widget.ImageView@4062dce8
+android.widget.TextView: 105-109 Mulberry Street
+android.widget.TextView: 3.24 mi
+android.widget.TableRow@4062ecd0
+android.widget.ImageView@4062f178
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 3.60 mi
+android.widget.TableRow@40630160
+android.widget.ImageView@4054ae88
+android.widget.TextView: 394 Scotland Road
+android.widget.TextView: 3.60 mi
+android.widget.TableRow@4054bec0
+android.widget.ImageView@4054c368
+android.widget.TextView: 166 Morris Avenue
+android.widget.TextView: 4.35 mi
+android.widget.TableRow@4054d350
+android.widget.ImageView@4054d7f8
+android.widget.TextView: 166 Morris Avenue
+android.widget.TextView: 4.38 mi
+android.widget.TableRow@4053f238
+android.widget.ImageView@4053f6e0
+android.widget.TextView: 540 Morris Avenue
+android.widget.TextView: 5.13 mi
+android.widget.TableRow@405406c8
+android.widget.ImageView@40540b70
+android.widget.TextView: 540 Morris Avenue
+android.widget.TextView: 5.14 mi
+android.widget.TableRow@40541b58
+android.widget.ImageView@40542000
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 5.55 mi
+android.widget.TableRow@40542fe8
+android.widget.ImageView@405397f0
+android.widget.TextView: 455 Prospect Avenue
+android.widget.TextView: 5.55 mi
+android.widget.TableRow@4053a830
+android.widget.ImageView@4053acd8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 5.68 mi
+android.widget.FrameLayout@40557f60
+android.widget.ImageView@40563cf0
+android.widget.Button: Filter
+android.widget.LinearLayout@40599978
+android.widget.FrameLayout@40633e28
+android.widget.ImageView@40510bf0
+android.widget.Button: Filter
+android.widget.FrameLayout@40526128
+android.widget.Button: Done
+android.widget.FrameLayout@4052ed20
+android.widget.ImageView@4055c1f0
+android.widget.TextView: Stores
+android.widget.ImageView@40554af8
+android.widget.FrameLayout@4055ef70
+android.widget.ImageView@405b5ed0
+android.widget.TextView: ATMs
+android.widget.ImageView@40525ad8

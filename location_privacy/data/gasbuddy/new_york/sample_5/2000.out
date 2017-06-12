@@ -1,0 +1,1343 @@
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.RelativeLayout@406f1538
+com.google.ads.AdView@407059c0
+android.gesture.GestureOverlayView@4063a910
+android.widget.FrameLayout@40709048
+com.google.ads.internal.AdWebView@405eb428
+android.widget.TableLayout@405b8170
+android.widget.TableRow@40607b40
+android.widget.RelativeLayout@406080b0
+android.widget.RelativeLayout@40608488
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406599a0
+android.widget.ImageView@40659d78
+android.widget.TextView: Gulf
+android.widget.TextView: 650 Grand St & Bishop St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.08 mi
+android.widget.TableLayout@407141d0
+android.widget.TableRow@407147a0
+android.widget.RelativeLayout@40717378
+android.widget.RelativeLayout@40717750
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4050afb0
+android.widget.ImageView@4050b388
+android.widget.TextView: Sunoco
+android.widget.TextView: 470 Communipaw Ave & Garfield Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.21 mi
+android.widget.TableLayout@406fcc10
+android.widget.TableRow@406fd1e0
+android.widget.RelativeLayout@406ffd78
+android.widget.RelativeLayout@40700150
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40703bc8
+android.widget.ImageView@40706400
+android.widget.TextView: Sunoco
+android.widget.TextView: 465 Grand St & Pacific Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.42 mi
+android.widget.TableLayout@406e2640
+android.widget.TableRow@406e5298
+android.widget.RelativeLayout@406e8340
+android.widget.RelativeLayout@406e87f0
+android.widget.TextView: 3.95
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406ec490
+android.widget.ImageView@406eeb60
+android.widget.TextView: Lukoil
+android.widget.TextView: 2388 John F Kennedy Blvd & Communipaw Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.8 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@406e2640
+android.widget.TableRow@406e5298
+android.widget.RelativeLayout@406e8340
+android.widget.RelativeLayout@406e87f0
+android.widget.TextView: 3.95
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406ec490
+android.widget.ImageView@406eeb60
+android.widget.TextView: Lukoil
+android.widget.TextView: 2388 John F Kennedy Blvd & Communipaw Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.8 mi
+android.widget.TableLayout@4057bd30
+android.widget.TableRow@40527340
+android.widget.RelativeLayout@40510108
+android.widget.RelativeLayout@40553308
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405587e8
+android.widget.ImageView@40553e88
+android.widget.TextView: Exxon
+android.widget.TextView: 2379 John F Kennedy Blvd & Communipaw Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.84 mi
+android.widget.TableLayout@4057e958
+android.widget.TableRow@4059fd18
+android.widget.RelativeLayout@4057bee0
+android.widget.RelativeLayout@4057e578
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4057eb08
+android.widget.ImageView@4056c500
+android.widget.TextView: Delta
+android.widget.TextView: 329 Newark Ave & 4th St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.87 mi
+android.widget.TableLayout@40581588
+android.widget.TableRow@405ea418
+android.widget.RelativeLayout@405af740
+android.widget.RelativeLayout@405c3d40
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405f2de0
+android.widget.ImageView@4058c6b0
+android.widget.TextView: Exxon
+android.widget.TextView: 770 Garfield Ave & Caven Point Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 0.87 mi
+android.widget.TableLayout@405fec88
+android.widget.TableRow@40654f90
+android.widget.RelativeLayout@40601a78
+android.widget.RelativeLayout@40604688
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4060a280
+android.widget.ImageView@405b2ae0
+android.widget.TextView: BP
+android.widget.TextView: 808 Communipaw Ave & West Side Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.04 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@405fec88
+android.widget.TableRow@40654f90
+android.widget.RelativeLayout@40601a78
+android.widget.RelativeLayout@40604688
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4060a280
+android.widget.ImageView@405b2ae0
+android.widget.TextView: BP
+android.widget.TextView: 808 Communipaw Ave & West Side Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.04 mi
+android.widget.TableLayout@4069c4f0
+android.widget.TableRow@405f07f8
+android.widget.RelativeLayout@40630eb8
+android.widget.RelativeLayout@40645a68
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406a01f8
+android.widget.ImageView@406da5b8
+android.widget.TextView: Exxon
+android.widget.TextView: 775 West Side Ave & Duncan Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.06 mi
+android.widget.TableLayout@40709f80
+android.widget.TableRow@4055c500
+android.widget.RelativeLayout@4069de68
+android.widget.RelativeLayout@406c9948
+android.widget.TextView: 3.81
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:44 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406472a8
+android.widget.ImageView@4066f438
+android.widget.TextView: Getty
+android.widget.TextView: 676 Garfield Ave & Bay View Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.16 mi
+android.widget.TableLayout@406d5a98
+android.widget.TableRow@405af8a8
+android.widget.RelativeLayout@406326e0
+android.widget.RelativeLayout@406649f8
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: Mon 2:36 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40613500
+android.widget.ImageView@4061e4d0
+android.widget.TextView: Delta
+android.widget.TextView: 348 Baldwin Ave & Washburn St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.25 mi
+android.widget.TableLayout@406d3fd8
+android.widget.TableRow@406e1480
+android.widget.RelativeLayout@406f5508
+android.widget.RelativeLayout@406ff6f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405a3288
+android.widget.ImageView@406d71f8
+android.widget.TextView: Delta
+android.widget.TextView: 345 Baldwin St & Washburn St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.25 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@406d3fd8
+android.widget.TableRow@406e1480
+android.widget.RelativeLayout@406f5508
+android.widget.RelativeLayout@406ff6f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405a3288
+android.widget.ImageView@406d71f8
+android.widget.TextView: Delta
+android.widget.TextView: 345 Baldwin St & Washburn St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.25 mi
+android.widget.TableLayout@4066e720
+android.widget.TableRow@405c9940
+android.widget.RelativeLayout@40557020
+android.widget.RelativeLayout@4074a758
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 4 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406b24f0
+android.widget.ImageView@40718d08
+android.widget.TextView: Exxon
+android.widget.TextView: 726 Jersey Ave  & 12th St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.39 mi
+android.widget.TableLayout@406cc6c0
+android.widget.TableRow@4062ec20
+android.widget.RelativeLayout@406e6740
+android.widget.RelativeLayout@40555730
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40567538
+android.widget.ImageView@40612490
+android.widget.TextView: Gulf
+android.widget.TextView: 53 Broadway & Corbin Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.4 mi
+android.widget.TableLayout@40604da8
+android.widget.TableRow@40611b48
+android.widget.RelativeLayout@406148d0
+android.widget.RelativeLayout@406177c0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40647a68
+android.widget.ImageView@4064a4d0
+android.widget.TextView: BP
+android.widget.TextView: 235 12th St & Erie St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.43 mi
+android.widget.TableLayout@4069db90
+android.widget.TableRow@4068e538
+android.widget.RelativeLayout@40695a68
+android.widget.RelativeLayout@406c41a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40683230
+android.widget.ImageView@406835b0
+android.widget.TextView: Shell
+android.widget.TextView: 197 12th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.46 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@4069db90
+android.widget.TableRow@4068e538
+android.widget.RelativeLayout@40695a68
+android.widget.RelativeLayout@406c41a8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40683230
+android.widget.ImageView@406835b0
+android.widget.TextView: Shell
+android.widget.TextView: 197 12th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.46 mi
+android.widget.TableLayout@406c1a28
+android.widget.TableRow@406f3be0
+android.widget.RelativeLayout@406e0538
+android.widget.RelativeLayout@406e08f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4066df88
+android.widget.ImageView@4066e268
+android.widget.TextView: Lukoil
+android.widget.TextView: 200 12th St & Erie St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.48 mi
+android.widget.TableLayout@406be1a0
+android.widget.TableRow@405fdb10
+android.widget.RelativeLayout@405fe0a0
+android.widget.RelativeLayout@4063cc48
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406304c0
+android.widget.ImageView@40630838
+android.widget.TextView: Gulf
+android.widget.TextView: 183 12th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.49 mi
+android.widget.TableLayout@4057bd30
+android.widget.TableRow@40527340
+android.widget.RelativeLayout@40510108
+android.widget.RelativeLayout@40553308
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405587e8
+android.widget.ImageView@4058c6b0
+android.widget.TextView: Shell
+android.widget.TextView: 1000 Communipaw Ave  & NJ-440
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.49 mi
+android.widget.TableLayout@4057e958
+android.widget.TableRow@4057e578
+android.widget.RelativeLayout@4057bee0
+android.widget.RelativeLayout@4057eb08
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40581738
+android.widget.ImageView@405a1ec0
+android.widget.TextView: Exxon
+android.widget.TextView: 983 Communipaw Ave & NJ-440 N
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.51 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@406018a8
+android.widget.TableRow@406b4a60
+android.widget.RelativeLayout@40622df8
+android.widget.RelativeLayout@40625a08
+android.widget.TextView: 3.55
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40629a28
+android.widget.ImageView@4060d4f8
+android.widget.TextView: Exxon
+android.widget.TextView: 983 Communipaw Ave & NJ-440 N
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.51 mi
+android.widget.TableLayout@405fec88
+android.widget.TableRow@40627aa0
+android.widget.RelativeLayout@40613f98
+android.widget.RelativeLayout@40617390
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4061ef68
+android.widget.ImageView@405bac80
+android.widget.TextView: Sunoco
+android.widget.TextView: 248 14th St & Jersey Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.51 mi
+android.widget.TableLayout@405bb4f8
+android.widget.TableRow@405ea418
+android.widget.RelativeLayout@40604688
+android.widget.RelativeLayout@4060a280
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406113c0
+android.widget.ImageView@405b78c0
+android.widget.TextView: BP
+android.widget.TextView: 230 14th St & Erie St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.54 mi
+android.widget.TableLayout@40581588
+android.widget.TableRow@4059fd18
+android.widget.RelativeLayout@405c3d40
+android.widget.RelativeLayout@405f2de0
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40601a78
+android.widget.ImageView@405b3528
+android.widget.TextView: Valero
+android.widget.TextView: 193 14th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.57 mi
+android.widget.TableLayout@4057e958
+android.widget.TableRow@4057e578
+android.widget.RelativeLayout@4057bee0
+android.widget.RelativeLayout@4057eb08
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40581738
+android.widget.ImageView@405a1ec0
+android.widget.TextView: Shell
+android.widget.TextView: 3080 John F Kennedy Blvd & St Paul's Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.57 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@4057e958
+android.widget.TableRow@4057e578
+android.widget.RelativeLayout@4057bee0
+android.widget.RelativeLayout@4057eb08
+android.widget.TextView: 3.75
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40581738
+android.widget.ImageView@405a1ec0
+android.widget.TextView: Shell
+android.widget.TextView: 3080 John F Kennedy Blvd & St Paul's Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.57 mi
+android.widget.TableLayout@406044d8
+android.widget.TableRow@406e5298
+android.widget.RelativeLayout@4062f290
+android.widget.RelativeLayout@40631e68
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40634b48
+android.widget.ImageView@40689478
+android.widget.TextView: CLK GAS
+android.widget.TextView: 210 14th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.58 mi
+android.widget.TableLayout@4060a0d0
+android.widget.TableRow@406e5de0
+android.widget.RelativeLayout@40636210
+android.widget.RelativeLayout@4063e700
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: Mon 4:35 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4063f720
+android.widget.ImageView@4069b2e0
+android.widget.TextView: Liberty
+android.widget.TextView: 202 14th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.58 mi
+android.widget.TableLayout@40611208
+android.widget.TableRow@405558e0
+android.widget.RelativeLayout@406470f0
+android.widget.RelativeLayout@4064c9a0
+android.widget.TextView: 3.89
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40651b38
+android.widget.ImageView@406b6478
+android.widget.TextView: Sunoco
+android.widget.TextView: 14th St & Grove St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.59 mi
+android.widget.TableLayout@40613de8
+android.widget.TableRow@406396b8
+android.widget.RelativeLayout@4065c8a8
+android.widget.RelativeLayout@40669958
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4066c538
+android.widget.ImageView@407017c0
+android.widget.TextView: Gulf
+android.widget.TextView: 376 Duncan Ave & Stockton Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.6 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@40613de8
+android.widget.TableRow@406396b8
+android.widget.RelativeLayout@4065c8a8
+android.widget.RelativeLayout@40669958
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4066c538
+android.widget.ImageView@407017c0
+android.widget.TextView: Gulf
+android.widget.TextView: 376 Duncan Ave & Stockton Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.6 mi
+android.widget.TableLayout@40581e90
+android.widget.TableRow@40614840
+android.widget.RelativeLayout@40649330
+android.widget.RelativeLayout@40651070
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406e26d8
+android.widget.ImageView@40619b48
+android.widget.TextView: Gas Stop
+android.widget.TextView: 325 US-1-9 S & Sip Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.62 mi
+android.widget.TableLayout@4060daf8
+android.widget.TableRow@406541a0
+android.widget.RelativeLayout@40647998
+android.widget.RelativeLayout@4076fd30
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40710b78
+android.widget.ImageView@40677d28
+android.widget.TextView: Shell
+android.widget.TextView: 164 14th St & Luis Munoz Marin Blvd
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.63 mi
+android.widget.TableLayout@40679008
+android.widget.TableRow@4054fb98
+android.widget.RelativeLayout@406e9180
+android.widget.RelativeLayout@406acb68
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406e84f8
+android.widget.ImageView@405b7f18
+android.widget.TextView: Hess
+android.widget.TextView: 701 NJ-440 S  & Virginia Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.63 mi
+android.widget.TableLayout@40679c18
+android.widget.TableRow@406e3aa8
+android.widget.RelativeLayout@4061b308
+android.widget.RelativeLayout@406d32e0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40615d00
+android.widget.ImageView@4063ae40
+android.widget.TextView: Broadway Diesel & Gas
+android.widget.TextView: 156 Broadway & US-1 & US-9 Truck Route
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.64 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@40679c18
+android.widget.TableRow@406e3aa8
+android.widget.RelativeLayout@4061b308
+android.widget.RelativeLayout@406d32e0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40615d00
+android.widget.ImageView@4063ae40
+android.widget.TextView: Broadway Diesel & Gas
+android.widget.TextView: 156 Broadway & US-1 & US-9 Truck Route
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.64 mi
+android.widget.TableLayout@4066bee8
+android.widget.TableRow@40685ee0
+android.widget.RelativeLayout@4068c248
+android.widget.RelativeLayout@406251b8
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: Mon 4:34 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4069a110
+android.widget.ImageView@406127f8
+android.widget.TextView: Exxon
+android.widget.TextView: 597 Luis Munoz Marin Blvd & 14th St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.65 mi
+android.widget.TableLayout@40712260
+android.widget.TableRow@406487d8
+android.widget.RelativeLayout@406b8e60
+android.widget.RelativeLayout@4074c008
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40736820
+android.widget.ImageView@40736b38
+android.widget.TextView: Delta
+android.widget.TextView: 1869 John F Kennedy Blvd & Fowler Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.66 mi
+android.widget.TableLayout@406edad0
+android.widget.TableRow@406dcde0
+android.widget.RelativeLayout@406dd460
+android.widget.RelativeLayout@406dfc08
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406c2650
+android.widget.ImageView@406d64c0
+android.widget.TextView: Hess
+android.widget.TextView: 590 Luis Munoz Marin Blvd & 14th St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.68 mi
+android.widget.TableLayout@4070fcb0
+android.widget.TableRow@40716298
+android.widget.RelativeLayout@406b0110
+android.widget.RelativeLayout@406b04e8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a2eb8
+android.widget.ImageView@406a3258
+android.widget.TextView: Exxon
+android.widget.TextView: 3140 John F Kennedy Blvd & Beacon Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.68 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@4070fcb0
+android.widget.TableRow@40716298
+android.widget.RelativeLayout@406b0110
+android.widget.RelativeLayout@406b04e8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a2eb8
+android.widget.ImageView@406a3258
+android.widget.TextView: Exxon
+android.widget.TextView: 3140 John F Kennedy Blvd & Beacon Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.68 mi
+android.widget.TableLayout@4065fa20
+android.widget.TableRow@4065fff0
+android.widget.RelativeLayout@407465e8
+android.widget.RelativeLayout@40746948
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40748158
+android.widget.ImageView@40620170
+android.widget.TextView: Exxon
+android.widget.TextView: 854 Jersey Ave & 18th St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.69 mi
+android.widget.TableLayout@40605880
+android.widget.TableRow@40605e50
+android.widget.RelativeLayout@406064d0
+android.widget.RelativeLayout@406068a8
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40741b08
+android.widget.ImageView@40741ee0
+android.widget.TextView: CITGO
+android.widget.TextView: 362 Tonnele Ave & Spruce 
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.92 mi
+android.widget.TableLayout@407973f8
+android.widget.TableRow@407979c8
+android.widget.RelativeLayout@40798088
+android.widget.RelativeLayout@40798460
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40799c70
+android.widget.ImageView@4079a048
+android.widget.TextView: Exxon
+android.widget.TextView: 1737 John F Kennedy Blvd & Danforth Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.95 mi
+android.widget.TableLayout@407a6c38
+android.widget.TableRow@407a7208
+android.widget.RelativeLayout@407a78c8
+android.widget.RelativeLayout@407a7ca0
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: Mon 1:38 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a94b0
+android.widget.ImageView@407a9888
+android.widget.TextView: Exxon
+android.widget.TextView: 403 Tonnele Ave & Manhattan Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.96 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@407a6c38
+android.widget.TableRow@407a7208
+android.widget.RelativeLayout@407a78c8
+android.widget.RelativeLayout@407a7ca0
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: Mon 1:38 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a94b0
+android.widget.ImageView@407a9888
+android.widget.TextView: Exxon
+android.widget.TextView: 403 Tonnele Ave & Manhattan Ave
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 1.96 mi
+android.widget.TableLayout@407d1718
+android.widget.TableRow@407d1ce8
+android.widget.RelativeLayout@407d23a8
+android.widget.RelativeLayout@407d2780
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 12 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407d3f90
+android.widget.ImageView@407d4368
+android.widget.TextView: Valero
+android.widget.TextView: 425 Newark St & Observer Hwy & Marin Blvd
+android.widget.TextView: Hoboken, NJ
+android.widget.TextView: 1.97 mi
+android.widget.TableLayout@407e1cc8
+android.widget.TableRow@407e2298
+android.widget.RelativeLayout@407e2958
+android.widget.RelativeLayout@407e2d30
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407e4540
+android.widget.ImageView@407e4918
+android.widget.TextView: Gulf
+android.widget.TextView: 432 Danforth Ave & NJ-440
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.01 mi
+android.widget.TableLayout@407f13b8
+android.widget.TableRow@407f1988
+android.widget.RelativeLayout@407f2048
+android.widget.RelativeLayout@407f2420
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407f3c30
+android.widget.ImageView@407f4008
+android.widget.TextView: New Jersey Truck Stop
+android.widget.TextView: 1 S Hackensack Ave & US Truck 1 & 9
+android.widget.TextView: Kearny, NJ
+android.widget.TextView: 2.32 mi
+android.widget.TableLayout@407f7e58
+android.widget.TableRow@407f8428
+android.widget.RelativeLayout@407f8fb8
+android.widget.RelativeLayout@407f9390
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:15 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40510108
+android.widget.ImageView@4058c6b0
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 565 Tonnele Ave & County Rd
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.39 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@405bb4f8
+android.widget.TableRow@4061ce20
+android.widget.RelativeLayout@40601a78
+android.widget.RelativeLayout@40604688
+android.widget.TextView: 3.65
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:15 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4060a280
+android.widget.ImageView@405bac80
+android.widget.TextView: 7-Eleven
+android.widget.TextView: 565 Tonnele Ave & County Rd
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.39 mi
+android.widget.TableLayout@40581588
+android.widget.TableRow@4061b4b8
+android.widget.RelativeLayout@405b2da8
+android.widget.RelativeLayout@405c3d40
+android.widget.TextView: 3.59
+android.widget.TextView: 9
+android.widget.TextView: 1 hour ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405f2de0
+android.widget.ImageView@405b78c0
+android.widget.TextView: BP
+android.widget.TextView: 3530 John F Kennedy Blvd & Paterson St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.59 mi
+android.widget.TableLayout@4057e958
+android.widget.TableRow@405ea418
+android.widget.RelativeLayout@4057eb08
+android.widget.RelativeLayout@40581738
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405b0990
+android.widget.ImageView@405b3528
+android.widget.TextView: Exxon
+android.widget.TextView: 61 Lincoln Hwy & Central Ave
+android.widget.TextView: Kearny, NJ
+android.widget.TextView: 2.68 mi
+android.widget.TableLayout@4057bd30
+android.widget.TableRow@4059fd18
+android.widget.RelativeLayout@40553308
+android.widget.RelativeLayout@405587e8
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057bee0
+android.widget.ImageView@405a1ec0
+android.widget.TextView: Sunoco
+android.widget.TextView: 720 Tonnele Ave & North St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.71 mi
+android.widget.TableLayout@407f7e58
+android.widget.TableRow@407f8428
+android.widget.RelativeLayout@407f8fb8
+android.widget.RelativeLayout@407f9390
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:15 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40510108
+android.widget.ImageView@4058c6b0
+android.widget.TextView: Getty
+android.widget.TextView: 450 New York Ave & Paterson Plank Rd
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.73 mi
+android.widget.RelativeLayout@406da220
+android.widget.FrameLayout@405de938
+android.widget.RelativeLayout@40673f80
+android.widget.LinearLayout@405c3858
+android.view.View@406f7058
+android.widget.RelativeLayout@406c5138
+android.widget.TextView: Regular
+android.view.View@406cf2a0
+android.view.View@406f0620
+android.widget.RelativeLayout@406cf4b0
+android.widget.TextView: Midgrade
+android.view.View@406d5d28
+android.view.View@406f0780
+android.widget.RelativeLayout@406d5f18
+android.widget.TextView: Premium
+android.view.View@406e9cb8
+android.view.View@406f08b0
+android.widget.RelativeLayout@406e9ea8
+android.widget.TextView: Diesel
+android.view.View@406f02e8
+android.view.View@406f7178
+android.view.View@4063ad30
+android.widget.LinearLayout@40666db8
+android.widget.RelativeLayout@405df150
+android.widget.ImageView@40689cf8
+android.widget.TextView: Reload
+android.widget.RelativeLayout@4064fc78
+android.widget.ImageView@405c5bf8
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@4064e6d0
+android.widget.ImageView@4054f9f0
+android.widget.TextView: Map View
+android.view.View@405a1a08
+gbis.gbandroid.views.layouts.CustomListView@40664e48
+android.widget.TableLayout@4057e958
+android.widget.TableRow@405ea418
+android.widget.RelativeLayout@4057eb08
+android.widget.RelativeLayout@40581738
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: 14 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405b0990
+android.widget.ImageView@405b3528
+android.widget.TextView: Exxon
+android.widget.TextView: 61 Lincoln Hwy & Central Ave
+android.widget.TextView: Kearny, NJ
+android.widget.TextView: 2.68 mi
+android.widget.TableLayout@4057bd30
+android.widget.TableRow@4059fd18
+android.widget.RelativeLayout@40553308
+android.widget.RelativeLayout@405587e8
+android.widget.TextView: 3.69
+android.widget.TextView: 9
+android.widget.TextView: 9 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4057bee0
+android.widget.ImageView@405a1ec0
+android.widget.TextView: Sunoco
+android.widget.TextView: 720 Tonnele Ave & North St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.71 mi
+android.widget.TableLayout@407f7e58
+android.widget.TableRow@407f8428
+android.widget.RelativeLayout@407f8fb8
+android.widget.RelativeLayout@407f9390
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 8:15 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40510108
+android.widget.ImageView@4058c6b0
+android.widget.TextView: Getty
+android.widget.TextView: 450 New York Ave & Paterson Plank Rd
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.73 mi
+android.widget.TableLayout@406827c0
+android.widget.TableRow@406eeb60
+android.widget.RelativeLayout@4064a9b0
+android.widget.RelativeLayout@406bbc28
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4062f0c0
+android.widget.ImageView@4067ab28
+android.widget.TextView: Getty
+android.widget.TextView: 782 Tonnele Ave & North St
+android.widget.TextView: Jersey City, NJ
+android.widget.TextView: 2.85 mi
+android.widget.TableLayout@406752f8
+android.widget.TableRow@405d8680
+android.widget.RelativeLayout@4063deb8
+android.widget.RelativeLayout@40652d90
+android.widget.TextView: 3.53
+android.widget.TextView: 9
+android.widget.TextView: 2 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406f7508
+android.widget.ImageView@405b3938
+android.widget.TextView: Quick Chek
+android.widget.TextView: 20 E 53rd St & Ave E
+android.widget.TextView: Bayonne, NJ
+android.widget.TextView: 2.93 mi
+android.widget.RelativeLayout@406da220

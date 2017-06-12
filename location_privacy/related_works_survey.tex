@@ -1,0 +1,53 @@
+\section{Related work}
+
+Krumm \cite{krumm:loc_priv_survey} describes 
+
+Shokri \cite{shokri:quantifying_loc_privacy} notes the lack of a
+quantifiable metric to reason about location privacy.  They present a
+formalism based on an attacker's prior knowledge and present a
+systematic bound on how much the attacker could have learned given a
+data trace, implementing their technique in a tool (the location
+privacy meter) which will inform users, over time, of how much privacy
+they have lost in using a system.
+
+http://icapeople.epfl.ch/rshokri/papers/11SP.pdf
+
+Benisch et. al \cite{benisch:capturing_location_priv_prefs} performed
+a user study on a set of test subjects and acquired data as to the
+preferences of users' privacy preferences.  They revealed that users
+do indeed have rich preferences as to whom they share their data with,
+and present a systematic approach to deriving policies for sharing
+location data with other users based on a set of rules.
+
+http://www.springerlink.com/content/q5028286x0n03w25/
+
+Cheng et. al \cite{cheng:preserving_user_location_privacy} studies a
+similar location dissemination approach to the one considered here:
+where location information is disclosed to services which are used to
+provide information to users based on their location.  They suggest
+using a data model which incorporates uncertainty, in which case
+queries to services embed probabilistic results (with respect to
+quality) and present an approach to minimize path projection.
+
+http://www.petworkshop.org/2006/preproc/preproc_23.pdf
+
+The Cach\'{e} system uses caching of query results along with
+prefetching to help ensure user anonymity.  An application writer will
+specify a set of triggers which will be passed down to the cach\'{e}
+system.  The Cach\'{e} system mediates requests and prefetches data as
+appropriate.  The risk is that the user may not have the data in their
+cache (or it may be stale), and to account for this the system does an
+amount of learning and programmer specification to maximize
+probability of fresh results residing in the cache.
+
+http://www.winlab.rutgers.edu/~janne/cache-mobisys11.pdf
+
+Skimmed this paper on
+
+http://dl.acm.org/citation.cfm?id=1128483
+
+Survey paper on location privacy, I need to read about mix zones
+
+http://www.utdallas.edu/~muratk/courses/privacy08f_files/location_privacy_pervasive_computing.pdf
+
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.1.3689

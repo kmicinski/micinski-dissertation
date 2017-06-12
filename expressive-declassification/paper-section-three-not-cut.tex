@@ -1,0 +1,2158 @@
+\documentclass{entcs} \usepackage{entcsmacro}
+\usepackage{url}
+\usepackage{latexsym,amsmath,amssymb,stmaryrd}
+
+%\renewcommand{\bfdefault}{b}
+
+\usepackage{xspace}
+\usepackage{enumerate}
+\usepackage{subcaption}
+\usepackage{listings}
+%\usepackage{supertabular}
+%\usepackage{stackrel}
+%\usepackage{marvosym}
+\usepackage{pgf}
+%\usepackage{tikz}
+%\usepackage{mdframed}
+\usepackage{mathpartir}
+%\usepackage{etoolbox}
+\usepackage{color}
+\usepackage{soul}
+\usepackage{subscript}
+%\usepackage{float}
+
+% Listings
+\newcommand{\code}[1]{\text{\lstinline!#1!}}
+
+\definecolor{lightgreen}{rgb}{.85,.95,.85}
+\definecolor{lightblue}{rgb}{.85,.90,1}
+\definecolor{lightred}{rgb}{.95,.85,.85}
+\definecolor{lightgrey}{rgb}{.95,.95,.95}
+\sethlcolor{lightred}
+
+\definecolor{drkyellow}{rgb}{0.4,0.3,0}
+\definecolor{drkred}{rgb}{0.5,0,0}
+\definecolor{drkgreen}{rgb}{0,0.5,0}
+
+\definecolor{dkgreen}{rgb}{0.1,0.40,0.1}
+
+\definecolor{dkred}{rgb}{0.5,0,0}
+\definecolor{medred}{rgb}{0.6,0,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\newcommand{\myparagraph}[1]{\paragraph{#1.}}
+
+\newcommand{\lstrule}{%
+ \hspace{1mm}%
+ \color{gray}{\rule[1.18mm]{0.8\textwidth}{0.1pt}}%
+ \hspace{\fill}%
+}
+
+%% TODO: Make the listings look prettier
+
+\lstset{language=Java,
+  morecomment=[l]{--},          % add Haskell comment style
+  columns=flexible,
+  basicstyle=\small\sffamily,
+%  basewidth=0.5em,
+%  lineskip={-2.35pt},
+%  aboveskip=5mm,
+%  belowskip=-5mm,
+%  identifierstyle=\textbf,
+%  keywordsprefix=\#,
+  literate={->}{$\rightarrow$}2
+           {=>}{$\Rightarrow$}2
+           {<-}{$\leftarrow$}2
+           {...}{$\cdots$}2
+           {fun}{$\lambda$}1
+           {||}{$\parallel$}1
+           {**}{$\times$}2,
+  escapechar=@,
+  escapeinside={/**}{*/},
+  numbers=left,                   % where to put the line-numbers
+  numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+  stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
+                                  % will be numbered
+  numbersep=5pt,                  % how far the line-numbers are from the code
+  showspaces=false,               % show spaces adding particular underscores
+  showstringspaces=false,         % underline spaces within strings
+  numberblanklines=false,
+  showtabs=false,
+  frame=single,                   % adds a frame around the code
+%  frame=lines,
+  rulecolor=\color{gray},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+%  tabsize=2,                      % sets default tabsize to 2 spaces
+%  captionpos=b,                   % sets the caption-position to bottom
+%  breaklines=false,                % sets automatic line breaking
+%  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+%  title=\lstname,                   % show the filename of files included with \lstinputlisting;
+%  keywordstyle=\color{blue},          % keyword style
+%  identifierstyle=\color{drkgreen},     
+%  backgroundcolor=\color{lightgrey},
+  commentstyle=\color{dkred}\itshape,       % comment style
+  stringstyle=\color{mauve}         % string literal style
+}
+
+% \lstset{language=Caml,
+%   morecomment=[l]{--},          % add Haskell comment style
+%   columns=flexible,
+%   basicstyle=\small\sffamily,
+% %  basewidth=0.5em,
+% %  lineskip={-2.35pt},
+% %  aboveskip=5mm,
+% %  belowskip=-5mm,
+% %  identifierstyle=\textbf,
+% %  keywordsprefix=\#,
+%   literate={->}{$\rightarrow$}2
+%            {=>}{$\Rightarrow$}2
+%            {<-}{$\leftarrow$}2
+%            {..}{$\cdots$}2
+%            {fun}{$\lambda$}1
+%            {||}{$\parallel$}1
+%            {**}{$\times$}2,
+%   escapechar=@,
+%   escapeinside={/**}{*/},
+%   numbers=left,                   % where to put the line-numbers
+%   numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+%   stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
+%                                   % will be numbered
+%   numbersep=5pt,                  % how far the line-numbers are from the code
+%   showspaces=false,               % show spaces adding particular underscores
+%   showstringspaces=false,         % underline spaces within strings
+%   numberblanklines=false,
+%   showtabs=false,
+%   frame=single,                   % adds a frame around the code
+% %  frame=lines,
+%   rulecolor=\color{gray},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+% %  tabsize=2,                      % sets default tabsize to 2 spaces
+% %  captionpos=b,                   % sets the caption-position to bottom
+% %  breaklines=false,                % sets automatic line breaking
+% %  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+% %  title=\lstname,                   % show the filename of files included with \lstinputlisting;
+% %  keywordstyle=\color{blue},          % keyword style
+% %  identifierstyle=\color{drkgreen},     
+% %  backgroundcolor=\color{lightgrey},
+%   commentstyle=\color{dkred}\itshape,       % comment style
+%   stringstyle=\color{mauve}         % string literal style
+% }
+
+
+%\lstset{emph={},emphstyle={}}%
+%\lstset{morekeywords={\!, (, \), \., \<, \>, ref, in, if,then,else,let, install, <,>},keywordstyle={\color{blue}\bfseries}}%
+
+
+
+%% Theorem stuff
+%\theoremstyle{definition}
+%\newtheorem{algorithm}{Algorithm}
+%\newtheorem{definition}{Definition}
+
+\newcommand{\aset}[1]{\{#1\}}
+\newcommand{\dom}{\mathop\textit{dom}\nolimits}
+
+%% Names of things
+\newcommand{\tvetl}{TVETL\xspace}
+
+\newcommand{\sfmt}[1]{\textsf{#1}}
+\newcommand{\sch}{\textit{ch}}
+\newcommand{\loc}{\ell}
+\newcommand{\sassign}[2]{#1 := #2}
+\newcommand{\scase}[2]{\sfmt{case}~#1~\sfmt{of}~#2}
+\newcommand{\sderef}[1]{!#1}
+\newcommand{\sfalse}{\sfmt{false}}
+\newcommand{\sif}[3]{\sfmt{if}~#1~\sfmt{then}~#2~\sfmt{else}~#3}
+\newcommand{\bdenot}[1]{\llbracket~#1\rrbracket_B}
+\newcommand{\sinl}{\sfmt{inl}}
+\newcommand{\sinr}{\sfmt{inr}}
+\newcommand{\sinstall}[2]{\sfmt{install}~#1~#2}
+\newcommand{\sdeclassify}[1]{\sfmt{declassify}~#1}
+\newcommand{\sref}[1]{\sfmt{ref}~#1}
+\newcommand{\denot}[1]{\ensuremath{\llbracket #1 \rrbacket}}
+\newcommand{\ssend}[2]{\sfmt{send}~#1~#2}
+\newcommand{\strue}{\sfmt{true}}
+\newcommand{\sunit}{\sfmt{unit}}
+\newcommand{\sreduce}{\Downarrow}
+\newcommand{\treduce}{\rightarrow}
+\newcommand{\partialfun}{\rightharpoonup}
+\newcommand{\ltrue}{\ensuremath{\top}}
+\newcommand{\lfalse}{\ensuremath{\bot}}
+\newcommand{\config}[1]{\langle{}#1\rangle{}}
+\newcommand{\program}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\sclass}[2]{\ensuremath{\lfloor#1\rfloor_{#2}}}
+\newcommand{\restr}[2]{\ensuremath{\left.#1\right|_{#2}}}
+\newcommand{\modelsrcon}{\models^{r}}
+\newcommand{\amodels}{\models^{A}}
+\newcommand{\judge}{\vdash}
+\newcommand{\xv}{p}
+\newcommand{\bexpr}{b}
+\newcommand{\filter}{\upharpoonright}
+\newcommand{\restrict}{\upharpoonright}
+\newcommand{\etlb}{ETLB\xspace}
+\newcommand{\hyperltltwo}{HyperLTL\xspace}
+
+\newcommand{\absstate}{\Sigma^s}
+\newcommand{\tvar}{x^t}
+
+\newcommand{\traces}{\textit{traces}}
+\newcommand{\tracesrename}{\textit{traces'}}
+\newcommand{\tick}[1]{#1^{+}}
+\newcommand{\atom}{A}
+\newcommand{\toolname}{AGIF\xspace}
+
+\newcommand{\tr}{t\xspace}
+\newcommand{\typ}{\tau}
+\newcommand{\tint}{\textit{int}}
+\newcommand{\tset}{\ensuremath{\mathcal{T}}\xspace}
+\newcommand{\tsets}{\ensuremath{\mathcal{T}^s}\xspace}
+\newcommand{\pset}{\ensuremath{\mathcal{P}}}
+\newcommand{\tnext}{\mathcal{X}}
+\newcommand{\talways}{\mathcal{G}}
+%\newcommand{\tfuture}{~\mathcal{F}~}
+\newcommand{\tevent}{\lozenge}
+\newcommand{\tfuture}{\mathcal{F}}
+\newcommand{\tuntil}{~\mathcal{U}~}
+\newcommand{\tsince}{~\mathcal{S}~}
+\newcommand{\tpast}{\mathcal{P}}
+\newcommand{\tknows}[1]{\mathcal{K}_{#1}}
+\newcommand{\tatmost}[1]{\mathcal{N}_{#1}}
+\newcommand{\tpossible}[1]{\mathcal{L}_{#1}}
+\newcommand{\tthen}{~\textit{then}~}
+\newcommand{\tlast}[2]{\textit{last}(#1, #2)}
+\newcommand{\limplies}{\rightarrow}
+%\newcommand{\tforall}{\hbox{forall}~}
+\newcommand{\texists}{\hbox{exists}~}
+\newcommand{\tcurrent}[1]{\hbox{current}_{#1}~}
+\newcommand{\tval}[1]{\textit{value}(#1)}
+\newcommand{\trelease}{\rhd}
+\newcommand{\evt}{\eta}
+\newcommand{\mimplies}{\Rightarrow}
+\newcommand{\with}{\&}
+\newcommand{\tlevel}[3]{\textit{level}(#1, #2, #3)}
+\newcommand{\tleveltr}[2]{\textit{level}(#1, #2)}
+%\newcommand{\tlevel}[3]{\llbracket #1 \rrbracket_{#2} [#3]}
+
+
+%% for comments
+\newcommand{\comment}[3][\color{red}]{{#1{[{#2}: {#3}]}}}
+\newcommand{\kris}[1]{\comment[\color{orange}]{kris}{#1}}
+\newcommand{\jeff}[1]{\comment[\color{green}]{JSF}{#1}}
+\newcommand{\mrc}[1]{\comment[\color{blue}]{MRC}{#1}}
+\newcommand{\jon}[1]{\comment[\color{purple}]{JFD}{#1}}
+\newcommand{\jsjeon}[1]{\comment[\color{magenta}]{JJ}{#1}}
+\newcommand{\thickhline}{\noalign{\hrule height 1pt}}
+\newcommand{\low}{\text{L}\xspace}
+\newcommand{\high}{\text{L}\xspace}
+
+\newcommand{\lang}{revea$\lambda$\xspace}
+\sloppy
+%% XXX: Not sure if I put *my* name or everyone's name
+\def\lastname{Please list Your Lastname Here}  
+
+\begin{document}
+\begin{frontmatter}
+  \title{GUI-Based Declassification Policies \\ for Mobile Apps}
+  \author{Kristopher Micinski\thanksref{ALL}\thanksref{micinski@cs.umd.edu}}
+  \address{Department of Computer Science\\ University of Maryland,
+    College Park\\
+    College Park, MD, USA} 
+
+  \author{Jon Fetter-Degges\thanksref{ALL}\thanksref{jonfd@cs.umd.edu}}
+  \address{Department of Computer Science\\ University of Maryland,
+    College Park\\
+    College Park, MD, USA} 
+
+  \author{Jinseong Jeon\thanksref{ALL}\thanksref{jsjeon@cs.umd.edu}}
+  \address{Department of Computer Science\\ University of Maryland,
+    College Park\\
+    College Park, MD, USA} 
+
+  \author{Jeffrey S Foster\thanksref{ALL}\thanksref{jfoster@cs.umd.edu}}
+  \address{Department of Computer Science\\ University of Maryland,
+    College Park\\
+    College Park, MD, USA} 
+
+  \author{Michael Clarkson\thanksref{ALL}\thanksref{clarkson@cs.cornell.edu}}
+  \address{Department of Computer Science\\ Cornell University, \\
+    Ithaca, NY, USA} 
+\begin{abstract} 
+  Mobile apps have access to a wide variety of secure information,
+  such as contacts and location. However, current mobile platforms
+  support only coarse access control mechanisms to protect such
+  data. In this paper, we introduce \emph{GUI-based declassification
+    policies}, which incorporate LTL to describe precisely what secure
+  information is allowed to be released after which series of GUI
+  events (e.g., checkbox selects, button clicks, etc). We define our
+  policies precisely using a core formalism that models key aspects of
+  Android, particularly callbacks and the message queue. Finally, we
+  describe a tool that uses symbolic execution to check GUI-based
+  declassification policies for Android, and we show that it enforces
+  policies correctly on a set of apps.
+\end{abstract}
+\begin{keyword}
+  Security, information flow, Program analysis, symbolic execution.
+\end{keyword}
+\end{frontmatter}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Android apps are incredibly popular, but they pose significant
+security concerns by simultaneously having access to both the Internet
+and private information such as contacts and location.  Android
+includes a permission system, but it only provides access control, and
+permissions are only requested at app installation time. To address
+these limitations, we wish to develop a much finer-grained security
+mechanism that reasons about information flow and that provides tight
+control of \emph{when} and \emph{what} sensitive information is
+released.
+
+In this paper, we propose \emph{GUI-based declassification policies},
+which provide a natural way to specify declassification on Android and
+similar mobile platforms. A key hypothesis behind our approach is that
+GUI interactions should control information flow
+\cite{Roesner:12,Chen:13}. For example, we support policies such as,
+``The email address should only be declassified if the send button is
+clicked.''  Our policies can also reason about when secrets are
+accessed, e.g., ``Only locations read when the \emph{map} option is
+selected are declassified.'' To achieve this expressiveness, we define
+policies extensionally in terms of app \emph{events}, where an event
+is a GUI action (e.g., a button click), a secret input (e.g., a
+location update), or an output (e.g., a send over the
+Internet). Policies use LTL formulae \cite{Pnueli:1977} to
+specify when a particular sequence of events implies that certain
+information may be declassified. (Section~\ref{sec:overview} describes
+our policies further in the context of Android apps.)
+
+We define our security policies precisely using a core formalism that
+models key components of Android. In our formalism, programs are
+comprised of handlers that react to events from a \emph{message queue}
+(mimicking Android's message queue). The operational semantics is
+stratified into a big-step semantics for handler execution and a
+small-step semantics that accesses the message queue and generates
+\emph{traces} of events. We then interpret a GUI-based
+declassification policy as determining the security level of each
+event in a trace. Finally, we define noninterference in terms of the
+traces at the resulting security levels.  (Section~\ref{sec:formalism}
+presents our formalism.)
+
+We developed a prototype symbolic execution tool \toolname{} (Android
+GUI Information Flow)
+for checking GUI-based declassification policies on
+Android apps. Our tool is built using SymDroid~\cite{Jeon:2012}, a Dalvik
+bytecode symbolic executor, and Z3~\cite{deMoura:2008}, an SMT solver. We
+symbolically execute each app using a model of the Android framework
+and using a per-app driver to systematically explore all executions up
+to a maximum number of input events. We then pair up the resulting
+traces and use Z3 to either discharge the noninterference conditions,
+or produce a counterexample showing how the security policy is
+violated.  
+We ran \toolname{} on several small Android apps, including both
+secure and insecure variants, and found it is able to enforce policies
+correctly. (Section~\ref{sec:implementation} describes our security
+policy checker for Android, and Section~\ref{sec:experiments}
+describes our experiments.)
+
+\section{Overview}
+\label{sec:overview}
+
+We begin our presentation with two example apps that illustrate
+interesting aspects GUI-based declassification policies. We use these
+apps as subject programs in Section~\ref{sec:experiments}.
+
+\subsection{Bump app}
+The boxed portion of Fig.~\ref{fig:app-bump} gives (simplified)
+source code for an Android app that releases a user's email address
+and/or phone number. This app is inspired by the Bump app, which
+let users tap phones to share selected information with each other.
+
+Each screen of an Android app is implemented using a class that
+extends \code{Activity}. When an app is launched, Android invokes the
+\code{onCreate} method for one of its activities.
+(This is part of the \emph{activity lifecycle}~\cite{AndroidLifecycle}
+which includes several methods called in a certain order. For this
+simple app, and the other apps used in this paper, we only need a
+single activity with this one lifecycle method.)
+That method retrieves
+(lines~\ref{line:bump-button}--\ref{line:bump-check}) the GUI ids of a
+button (marked ``send'') and
+two checkboxes (marked ``email'' and ``phone''). The \code{onCreate} method next
+gets an instance of the \code{TelephonyManager}, uses it
+to retrieve email and phone number information, and unchecks the two
+checkboxes. Then it creates a new callback
+(line~\ref{line:bump-cb}) to be invoked when the ``send'' button is
+clicked. When called, that callback releases the user's email address and/or
+phone number depending on the state of the checkboxes.
+
+This app is written to work with \toolname{}, a tool we built to check
+whether apps satisfy GUI-based declassification policies. As we
+discuss further in Section~\ref{sec:implementation}, our tool uses an
+executable model of Android that abstracts away some details that are
+unimportant with respect to security. While a real app would release
+information by sending it to a web server, here we instead call a
+method \code{InfoSender.sendInt}. Additionally, while a real app would
+include an XML file specifying the screen layout of buttons,
+checkboxes, and so on, \toolname{} simply creates those GUI elements
+on demand at calls to \code{findViewById} (since their screen locations are
+unimportant). Finally, we model the email address and phone number as
+integers to keep the analysis simpler.
+
+\toolname{} simulates paths through subject apps, recording a
+\emph{trace} of \emph{events}. Events mark actions that are relevant
+for security policies, which in \toolname{} are GUI inputs, secret
+inputs, and network sends.  For example, one path through this app
+generates a trace
+\begin{displaymath}
+   \code{email?42}, \code{phone?43}, \code{emailBox?true},
+    \code{sendButton?unit}, \code{netout!}\code{42}
+\end{displaymath}
+Each event begins with a \emph{channel}, which is just an
+easy-to-remember name we can refer to in security
+policies. \toolname{} includes support for marking GUI elements with
+channel names that are then used in events for those elements. For
+example, we gave (code not shown) the \code{CheckBox} stored in
+\code{emailBox} the homonymous channel name, and similarly for
+\code{sendButton}. We also specify channel names for reads from secret
+inputs, e.g., \code{email} and \code{phone}. Lastly, we use the
+channel name \code{netout} for calls to \code{InfoSender.sendInt}.
+
+In addition to a channel name, each event indicates whether it is
+a read (\code{?}) or a write (\code{!}), and carries the value read or
+written from the channel. Thus, the trace above indicates
+42 is read as the email address, 43 is read as the phone number, the
+email checkbox is selected, the send button is clicked (carrying no
+particular value, indicated by \code{unit}), and then 42 is
+sent on the network.
+
+A GUI-based declassification policy reasons about these traces to
+determine what information is allowed to be released. The policy for
+this example app is shown at the bottom of Fig.~\ref{fig:app-bump}.
+Our policies are comprised of a set of \emph{declassification
+  conditions} of the form $\phi \rhd S$, where $\phi$ is an LTL
+formula describing event traces and $S$ is a security level.  Such a
+condition is read, ``At any input event, if $\phi$ holds at that
+position of the event trace, then that input is declassified at level
+$S$.''  For this app there are two declassification conditions. The
+top condition declassifies (to \emph{Low}) an input that is a
+read of the email address at any value (indicated by $\ast$), and if
+sometime in the future (indicated by the $\tfuture$ modality) the send
+button is clicked and, when that button is clicked, the last value of
+the email checkbox was \code{true}. (Note that \emph{last} is not
+primitive, but is a macro that can be expanded into regular LTL.)  The
+second declassification condition does the analogous thing for the
+phone number.
+
+To check such a policy, \toolname{} simulates traces through the program
+execution; determines the classification level of every input; and
+then checks that every pair of traces satisfies noninterference.
+
+\begin{figure}[t]
+\centering
+\begin{subfigure}[b]{0.5\textwidth}
+  \begin{lstlisting}[name=Ex]
+    public class BumpApp extends Activity {
+      protected void onCreate(...) {
+        Button sendButton = (Button) findViewById(...); /**\label{line:bump-button}*/
+        CheckBox emailBox = (CheckBox) findViewById(...);
+        CheckBox phoneBox = (CheckBox) findViewById(...);/**\label{line:bump-check}*/
+        TelephonyManager manager = 
+        TelephonyManager.getTelephonyManager(); /**\label{line:bump-tele}*/
+        final int email = manager.getEmail(); /**\label{line:bump-email}*/
+        final int number = manager.getPhoneNumber();
+        emailBox.setChecked(false);
+        phoneBox.setChecked(false);
+        sendButton.setOnClickListener(new OnClickListener() { /**\label{line:bump-cb}*/
+          public void onClick(View v) {
+            if (emailBox.isChecked())
+            InfoSender.sendInt(email); 
+            if (phoneBox.isChecked())
+            InfoSender.sendInt(number);
+          } });
+      } }
+  \end{lstlisting}
+\end{subfigure}
+\begin{subfigure}[b]{0.5\textwidth}
+  \begin{displaymath}
+    \begin{array}{c}
+      \code{email}?\ast \wedge \big(\tfuture ( \code{sendButton?unit} \land\;
+      \tlast{\code{emailBox}}{\code{true}})\big) \rhd Low, \\
+
+      \code{phone}?\ast \wedge \big(\tfuture ( \code{sendButton?unit} \land\;
+      \tlast{\code{phoneBox}}{\code{true}})\big) \rhd Low \\
+    \end{array}
+  \end{displaymath}
+\end{subfigure}
+\caption{``Bump'' app, which shares either email or phone number.}
+\label{fig:app-bump}
+\end{figure}
+ 
+Notice that using LTL in our policies gives us a very general and
+expressive way to describe the sequences of events that imply
+declassification. For example, here we precisely capture that
+only the last value of the checkbox matters for declassification. For
+example, if a user selects the email checkbox but then unselects it
+and clicks send, the email is not allowed to be released.
+
+Also notice that this policy depends on the app reading the email
+address and phone number when the app starts. If the app instead
+waited until after the send button is clicked, it would violate this
+policy. We could address this by replacing the $\tfuture$ modality by
+$\tpast$ (past) in the policy (and we could form a disjunction of the
+two policies if we wanted to allow either).
+
+The reason our policy is sensitive to this implementation choice is
+that our framework is designed to support reasoning about secret
+values that change over time, so we can precise specify the level of a
+secret input that was read at a particular time. We will see an
+example of this next.
+
+% \begin{figure}[t!]
+% \begin{lstlisting}[name=Ex]
+% public class ShareContact extends Activity {
+%   private Contact mCurrentContact;
+%   protected void onCreate(Bundle savedInstanceState) {
+%     Spinner contactSpinner = (Spinner) findViewById(...);
+%     SpinnerAdapter adapter = 
+%       ContactAdapterFactory.makeAdapterFactory(this);
+%     contactSpinner.setAdapter(adapter);
+%     contactSpinner.setOnItemSelectedListener(
+%       new OnItemSelectedListener() {
+%         public void onItemSelected(AdapterView<?> par, 
+%           View v, int pos, long id) {
+%         mCurrentContact = 
+%           parent.getItemAtPosition(position);
+%         }
+%         public void onNothingSelected(AdapterView<?> p) {
+%           mCurrentContact = null;}
+%       });
+%     Button shareButton = (Button) findViewById(...);
+%     shareButton.setOnClickListener(new OnClickListener() {
+%       public void onClick(View v) {
+%         if (currentContact != null) 
+%           InfoSender.sendInt(mCurrentContact.getNumber());
+%     } });
+% } }
+% \end{lstlisting}
+
+% \begin{displaymath}
+%   \begin{array}{c}
+%     \code{con_1}? \land \tfuture \big( \code{send}=() \land
+%     last(\code{s})=1 \big) \rhd L \\
+%     \code{con_2}? \land \tfuture \big( \code{send}=() \land
+%     last(\code{s})=2 \big) \rhd L \\ 
+%     \code{con_3}? \land \tfuture \big( \code{send}=() \land
+%     last(\code{s})=3 \big) \rhd L \\ 
+%   \end{array}
+% \end{displaymath}
+
+% \caption{Contact picker app.}
+% \label{fig:app-contact}
+% \end{figure}
+
+\begin{figure}[t!]
+\begin{lstlisting}[name=Ex]
+public class ToggleResolution extends Activity { ...
+  LocSharer mLocSharer = new LocSharer();
+  RadioManager mRadio = new RadioManager();
+  protected void onCreate(...) {
+    ...
+  }
+  private class LocSharer implements
+    LocationListener { ... 
+    public LocSharer(RadioManager rm) {
+      lm = (LocationManager) 
+        getSystemService(Context.LOCATION_SERVICE);
+      lm.requestLocationUpdates(mCurrentProvider, 
+        SHARE_INTERVAL, distance, this);
+    }
+    public void onLocationChanged(Location l) {
+      if (mRadio.mFine) {
+        InfoSender.sendInt(l.mLatitude);
+        InfoSender.sendInt(l.mLongitude);
+      } else {
+        InfoSender.sendInt(l.mLatitude & 0xffffff00);
+        InfoSender.sendInt(l.mLongitude & 0xffffff00);
+  } } }
+  private class RadioManager implements OnClickListener {
+    public boolean mFine = false;
+    public void onClick(View v) {
+      mFine = !mFine;
+} } }
+\end{lstlisting}
+
+\begin{displaymath}
+  \begin{array}{c}
+    \code{longitude}?\ast \;\wedge\; \tlast{\code{mRadio}}{\code{"fine"}} \rhd
+    \textit{Low}, \\
+    \code{longitude}?\ast \;\wedge\; \tlast{\code{mRadio}}{\code{"coarse"}} \rhd
+    \textit{MaskLower8}
+  \end{array}
+\end{displaymath}
+\caption{Location sharing app with varying resolution.}
+\label{fig:app-loc-toggle}
+\end{figure}
+
+\subsection{Location resolution toggle app}
+
+Fig.~\ref{fig:app-loc-toggle} gives source code for an app that
+shares location information, either at full or truncated resolution
+depending on the setting of a radio button. The app's \code{onCreate}
+method displays a radio button (code not shown) and then creates and
+registers a new instance of class \code{RadioManager} to be called
+each time the radio button is changed. That
+class maintains a field \code{mFine} as \code{true} when the radio button is
+set to full resolution and false when it is set to truncated
+resolution.
+
+Separately, \code{onCreate} registers \code{LocSharer} to be called
+periodically with the current location.  It requests location updates
+by registering itself as a callback with the \code{LocationManager}
+system service.  Whenever it is called, \code{LocSharer} releases the
+current location, either at full resolution or with the lower 8 bits
+masked off, depending on the setting of \code{mFine}.
+
+The declassification policy for longitude appears below the code; the
+policy for latitude is analogous.  This policy allows the precise
+value of the longitude to be released when the last selection for
+\code{mRadio} was the fine setting, but only the lower eight bits to
+be released if \code{mRadio} was last set to coarse. Here \toolname{}
+knows that at the \textit{MaskLower8} level, it should consider
+outputs to be equivalent up to differences in the lower 8
+bits. 
+
+Finally, notice that this policy does not use the future
+modality. This is deliberate, because location may be read multiple
+times during the execution, at multiple values. Thus, we want to assign different security
+levels to different reads of location, depending on the state of the
+radio button when they were read. For example, consider a trace
+\begin{displaymath}
+   \code{mRadio?false}, \code{longitude?}v_1,
+    \code{mRadio?true},\code{longitude?}v_2\\
+\end{displaymath}
+
+The second declassification condition ($\code{longitude}?\ast \wedge
+\tlast{\code{mRadio}}{\code{false}}$) will match for $v_1$, since
+the last value on the \code{mRadio} channel was \code{false}, and
+thus $v_1$ may be declassified only to \textit{MaskLower8}. Whereas
+the first declassification condition will match for $v_2$, hence it
+may be declassified to \textit{Low}.
+
+\section{Formalizing Android}
+\label{sec:formalism}
+
+The examples in Section~\ref{sec:overview} highlighted several
+language features that are relevant to GUI-based declassification
+policies. Apps register callbacks that are invoked when a GUI element
+is clicked.  Secret information comes in either via direct calls
+(e.g., \code{manager.getEmail} in Fig.~\ref{fig:app-bump}) or
+callbacks (e.g., \code{onLocationChanged} in
+Fig.~\ref{fig:app-loc-toggle}).  Callbacks are orchestrated by a
+\emph{message queue}, which globally sequences these events.
+% The message queue is also used when one
+%\code{Activity} invokes another, which happens whenever an app
+%switches from one screen to another.  To generate new events (which
+%will be handled by registered callbacks), methods generate messages to
+%be placed on this queue (e.g., by sending an \code{Intent} object in
+%Android: a message that allows a set of actions to be taken).
+
+In this section, we present a core Android formalism that captures the
+features just mentioned and abstracts away other details that are less
+important in our setting.  Programs in our language comprise handlers
+that receive messages from the queue and optionally send new
+messages. Programs are executed by repeatedly pulling messages off the
+queue and running the corresponding handler. User and secret inputs
+and injected non-deterministically into the queue. The whole process
+generates a trace of events, which we use to define GUI-based
+declassification policies.
+
+% Then we define GUI-based declassification policies for our programs
+% using a formal grammar, and define program security in terms of the
+% output of the semantics.
+
+
+\subsection{Formal language}
+
+\begin{figure}[t!]
+  \centering
+  \begin{subfigure}{0.5\textwidth}
+    \begin{displaymath}
+      \begin{array}{lrcl}
+        \hbox{prims} & \xv & ::= & n \mid \strue \mid \sfalse \mid f(\xv_1, \ldots, \xv_i) \\
+        \hbox{values} & v & ::= & p \mid \loc \mid \lambda x.e \\
+        \hbox{exprs} & e & ::= &
+        v
+        \mid x
+        \mid e_1~e_2
+        \mid  \sref{e}
+        \mid \sassign{e_1}{e_2}
+        \mid \;\sderef{e} \\
+        && \mid & \sif{e_1}{e_2}{e_3}
+        \mid e_1 \oplus e_2 \\
+        && \mid & f(e_1, \ldots, e_n)
+        \mid f^{-n}(e) \\
+        && \mid & \sinstall{\sch}{e}
+        \mid \ssend{\sch}{e} \\
+        \hbox{ops} & \oplus & ::= &  = \mid < \mid > \mid \wedge \mid \ldots \\
+      \end{array}
+    \end{displaymath}
+  \end{subfigure}
+  \begin{subfigure}{0.5\textwidth}
+    \begin{displaymath}
+      \begin{array}{rclp{1in}}
+        \Sigma & = & (M, \sigma, H) & State \\
+        M & : & (\sch \times p) ~ \textit{list} & Message queue \\
+        \sigma & : & \loc \partialfun  v & Heap \\
+        H & : & \sch \partialfun \lambda x.e & Handler map \\
+        \evt & : & \sch ? p \mid \sch ! p \mid \tau & Event \\
+        t & : & \evt ~ \textit{list} & Trace \\
+        % S & : & \sch \partialfun n \rightarrow p & Secrets
+      \end{array}
+    \end{displaymath}
+  \end{subfigure}
+  \caption{Source language syntax and semantic definitions.}
+  \label{fig:lang}
+\end{figure}
+
+Fig.~\ref{fig:lang} presents our source language.
+\emph{Primitives}~$p$ are terms that can be sent over a channel:
+integers, booleans, and terms constructed from primitives using
+uninterpreted constructors $f$.  \emph{Values}~$v$ are fully reduced terms in
+the semantics, and may be either primitives, \emph{locations}~$\loc$
+(which never appear in the surface syntax), or functions.
+
+\emph{Expressions}~$e$ include values~$v$, variables~$x$,
+function applications~$e_1~e_2$, memory
+allocation~$\sref{e}$, assignment~$\sassign{e_1}{e_2}$, and
+dereference~$\sderef{e}$. Expressions also include a conditional form
+$\sif{e_1}{e_2}{e_3}$, binary operations $e_1\oplus e_2$, constructed
+terms $f(e_1, \ldots, e_n)$, and projection $f^{-n}(e)$ which selects the
+$n$th element of a term constructed from $f$.
+
+Expression $\sinstall{\sch}{e}$ installs $e$ (which must evaluate to a
+lambda) to receive messages on a \emph{channel} $\sch$. Channels are
+used for callbacks, network sends, and to carry secret inputs. We assume
+all channels have global scope, and channels are not first class
+(they cannot be results of expression evaluation).
+
+\paragraph*{Example insecure application}
+
+\begin{figure}[t!]
+  \lstset{language=Caml}
+  \begin{lstlisting}[name=Ex]
+(* Channels:
+   emailBox - email checkbox
+   phoneBox - phone checkbox
+   sendButton - send button
+   email - email secret input
+   phone - phone secret input
+   netout - network output *)
+
+let email_release = ref false in
+let phone_release = ref false in
+let email = ref "" in
+let phone = ref "" in
+let handle_b () = /**\label{line:handle-btn}*/
+  if !email_release send netout !phone else unit /**\label{line:mal-email}*/
+  if !phone_release send netout !email else unit /**\label{line:mal-phone}*/
+in
+let handle_c r v = r := v in
+  (* onCreate *)
+  install email (fun x -> email := x) /**\label{line:store-email}*/
+  install phone (fun x -> phone := x) /**\label{line:store-phone}*/
+  install emailBox (handle_c email_release);
+  install phoneBox (handle_c phone_release);
+  install sendButton handle_b
+\end{lstlisting}
+  \caption{An insecure variant of the bump app.}
+  \label{fig:evilappexample}
+\end{figure}
+
+Fig.~\ref{fig:evilappexample} shows a translation of the app in
+Fig.~\ref{fig:app-bump} into our formal language, but with a malicious
+twist. In this translation, we use standard OCaml \code{let} syntax,
+which can be desugared into lambdas.  The app assumes the existence of
+several channels, listed at the top of the figure, for GUI input,
+secret input, and network output. The app is written as an expression
+that is run when the application is launched. It begins by
+installing handlers to retrieve the email and phone number secrets and
+store them in references (lines~\ref{line:store-email}
+and~\ref{line:store-phone}). It then installs handlers that set flags
+\code{email_release} and \code{phone_release} according to the
+corresponding checkbox state (note here we use partial application of
+\code{handle_c} to accomplish this). Lastly, it installers
+\code{handle_b} as a callback for the send button. When the send
+button is clicked, \code{handle_b} checks to see whether the email
+address has been declassified and, if so, it releases the phone number
+(line~\ref{line:mal-email}) and vice versa
+(line~\ref{line:mal-phone}), resulting in the malicious behavior.
+
+\subsection{Operational Semantics}
+
+The bottom portion of Fig.~\ref{fig:lang} presents some other notation used
+in our semantics. A \emph{state} is a tuple
+$(M, \sigma, H)$ that includes a \emph{message
+  queue}~$M$, which is a list of pairs of a channel and a primitive; a
+\emph{heap}~$\sigma$, which maps locations to values; and a \emph{handler
+  map}~$H$, which maps channel names to functions installed to
+handle events on those channels. Each channel may have at most one handler.
+We write $\Sigma.X$ (where $X$ could be $M$,
+$\sigma$, or $H$), to mean the $X$ component of
+$\Sigma$. Similarly, we write $\Sigma[X\mapsto X']$ to mean $\Sigma$
+with the $X$ component replaced by $X'$.
+
+% I dropped ``externally observable'' because the secret inputs are
+% *not* externally observable.
+As programs execute, they produce a \emph{trace}~$\tr$ of 
+\emph{events}~$\evt$. Events are reads and writes,
+written $\sch ? p$ and $\sch ! p$, respectively, of primitive $p$
+from channel $\sch$. We also include an empty event
+$\tau$, which is the identity of trace concatenation.
+
+\begin{figure*}[!t]
+  \small
+  \begin{displaymath}
+    \begin{array}{c}
+      \multicolumn{1}{l}{
+        \framebox{$e, \Sigma_1 \sreduce v, \Sigma_2$}
+%      \qquad
+%      \hbox{\textit{In state $\Sigma_1$, expression $e$ reduces to
+%      value $v$ and new state $\Sigma_2$.}}
+      }
+      \\ \\
+
+      \infer[RVal]
+      { }
+      { v, \Sigma \sreduce v, \Sigma }
+
+      \qquad
+
+      \infer[RApp]
+      {
+        e_1, \Sigma_1 \sreduce (\lambda x.e_3), \Sigma_2 \\
+        e_2, \Sigma_2 \sreduce v_1, \Sigma_3 \\\\
+        e_3\aset{x\mapsto v_1}, \Sigma_3 \sreduce v_2, \Sigma_4
+      }
+      { e_1\;e_2, \Sigma_1 \sreduce v_2, \Sigma_4}
+
+      \qquad
+
+      \infer[RRef]
+      {e, \Sigma_1 \sreduce v, \Sigma_2 \\
+        \loc \not\in \dom(\Sigma_2.\sigma) \\\\
+        \sigma' = (\Sigma_2.\sigma)[\loc\mapsto v] 
+      }
+      {\sref e, \Sigma \sreduce \loc, \Sigma_2[\sigma \mapsto \sigma']}
+
+      \\ \\
+
+      \infer[RAssign]
+      {e_1, \Sigma_1 \sreduce \loc, \Sigma_2 \\
+        \loc \in \dom(\Sigma_2.\sigma) \\\\
+        e_2, \Sigma_2 \sreduce v, \Sigma_3 \\
+        \sigma' = (\Sigma_3.\sigma)[\loc \mapsto v]
+      }
+      {\sassign {e_1} {e_2}, \Sigma_1 \sreduce
+        v, \Sigma_3[\sigma \mapsto \sigma']}
+
+
+      \qquad
+
+      \infer[RDeref]
+      {e, \Sigma_1 \sreduce \loc, \Sigma_2 \\
+       (\Sigma_2.\sigma)(\loc) = v }
+      {\sderef e, \Sigma_1 \sreduce v, \Sigma_2 }
+
+      \\ \\
+
+      \infer[RIfTrue]
+      {e_1, \Sigma_1 \sreduce \code{true}, \Sigma_2 \\
+      e_2 , \Sigma_2 \sreduce v , \Sigma_3}
+      {\sif{e_1}{e_2}{e_3}, \Sigma_1 \sreduce v, \Sigma_3}
+      
+      \qquad
+
+      \infer[RIfFalse]
+      {e_1, \Sigma_1 \sreduce \code{false}, \Sigma_2 \\
+        e_3 , \Sigma_2 \sreduce v , \Sigma_3}
+      {\sif{e_1}{e_2}{e_3}, \Sigma_1 \sreduce v, \Sigma_3}
+      
+      \\ \\
+
+      \infer[ROp]
+      {e_1, \Sigma_1 \sreduce v_1, \Sigma_2 \\
+       e_2, \Sigma_2 \sreduce v_2, \Sigma_3}
+      {e_1 \oplus e_2, \Sigma_1 \sreduce v_1 \oplus v_2, \Sigma_3}
+
+      \qquad
+
+      \infer[RCstr]
+      {e_i, \Sigma_i \sreduce v_i, \Sigma_{i+1} \\ i\in 1..n}
+      {f(e_1, \ldots, e_n), \Sigma_1 \sreduce f(v_1, \ldots, v_n), \Sigma_{i+1}}
+
+      \qquad
+
+      \infer[RProj]
+      {e, \Sigma_1 \sreduce f(v_1, \ldots, v_n), \Sigma_2 }
+      {f^{-i}(e), \Sigma_1 \sreduce v_i, \Sigma_2}
+
+      \\ \\
+
+      \infer[RInst]
+      {
+        e_1, \Sigma_1 \sreduce (\lambda x.e_2), \Sigma_2 \\
+        H' = (\Sigma_2.H)[\sch \mapsto \lambda x.e_2]
+      }
+      {
+        \sinstall \sch {e_1}, \Sigma_1 \sreduce \sunit, \Sigma_2[H
+        \mapsto H']
+      }
+
+      \qquad
+
+      \infer[RSend]
+      { e, \Sigma_1 \sreduce \xv, \Sigma_2 \\
+        M' = (\Sigma_2.M) @ (\sch, \xv)
+      }
+      { \ssend \sch e, \Sigma_1 \sreduce \sunit, \Sigma_2[M \mapsto M']}
+      \\ \\
+
+      \\ \\ 
+
+      \multicolumn{1}{l}{
+        \framebox{$\Sigma_1 \treduce^{\evt} \Sigma_2$ \hbox{ and } 
+          $\judge e \rightsquigarrow t$}
+      }
+      \\ \\
+
+      \infer[THandle]
+      { \Sigma_1.M = (\sch, \xv) @ M' \\
+        \Sigma_1.H(\sch) = \lambda x.e \\\\
+        \Sigma' = \Sigma_1[M\mapsto M'] \\
+        e \aset{x \mapsto \xv} , \Sigma' \sreduce v, \Sigma_2 \\
+      }
+      { \Sigma_1 \treduce^{\tau} \Sigma_2}
+
+      \qquad
+
+      \infer[TInput]
+      { \Sigma' = \Sigma[M \mapsto (\Sigma.M) @ (\sch, p)] }
+      { \Sigma \treduce^{\sch?p} \Sigma' }
+
+      \\ \\ 
+
+      %% \infer[TInput]
+      %% { \Sigma' = \Sigma[M \mapsto (\Sigma.M) @ (\sch , p)] \\\\
+      %%   \sch \in \dom(\Sigma.H)
+      %% }
+      %% { \Sigma \treduce^{\sch?p@(\Sigma.\Phi)} \tick{\Sigma'} }
+
+      \infer[TOutput]
+      { \Sigma.M = (\sfmt{netout},p), M' \\\\
+        \Sigma' = \Sigma[M\mapsto M']
+      }
+      { \Sigma \treduce^{\sfmt{netout}!p} \Sigma'}
+
+      \qquad
+
+      % \infer[TLookupSecret]
+      % { \Sigma.M = (\sfmt{getsecret},\sch^s,i), M' \\\\
+      %   \Sigma' = \Sigma[M\mapsto M' @ (\sch, \Sigma.S(\sch)(\Sigma.i))]
+      % }
+      % { \Sigma \treduce^{(\sch, \Sigma.S(\sch)(\Sigma.i))} \Sigma'}
+      
+      % \\ \\ 
+
+      \infer[TProg]
+      {
+      \Sigma_0 = ([(\code{onCreate},\code{unit})]
+                  ,\emptyset
+                  ,\aset{\code{onCreate} \mapsto
+                          \lambda x . e})
+      \quad x \not\in FV(e) 
+        \\\\ 
+      \Sigma_i \treduce^{\evt_i} \Sigma_{i+1}
+      \quad i \in [0..n]
+      }
+      { \judge e \rightsquigarrow \evt_0 \cdot \evt_1 \cdots
+      \evt_n }
+    \end{array}
+  \end{displaymath}
+  \caption{Semantics for our Android subset.}
+  \label{fig:semantics}
+\end{figure*}
+
+Our semantics is stratified into two levels: a big-step semantics,
+shown at the top of Fig.~\ref{fig:semantics}, which models evaluation of code in a
+handler, and a small-step semantics, shown at the bottom of the
+figure, which models the message queue.  The semantics generates sets
+of traces containing input and output messages.
+
+% \mrc{heap update notation isn't defined}
+% I removed this comment because we noted in the previous paragraph
+% that we use the notation \Sigma[X|->X'] to mean \Sigma with X
+% component replaced by X' and we use that for heap updates as they're
+% part of the state.
+
+The big-step semantics proves judgments of the form
+$e, \Sigma_1 \sreduce v, \Sigma_2$, meaning
+evaluation of expression $e$ in state $\Sigma_1$ produces a value $v$ and
+new state $\Sigma_2$. 
+The first several rules are standard.
+\textsc{RVal} evaluates a value to itself, without changing the
+state. \textsc{RApp} evaluates $e_1$ to a lambda, evaluates $e_2$ to
+a value, and then evaluates the body of the lambda with the actual
+argument substituted for the formal variable: we use the notation
+$e\aset{x\mapsto v}$ for $e$ when unbound occurrences of $x$ in $e$
+have been syntactically replaced with $v$. 
+\textsc{RRef} evaluates $e$ to a value $v$, finds a fresh location
+$\loc$ in the heap, and then evaluates to $\loc$, returning a state
+where the heap maps $\loc$ to $v$. \textsc{RAssign} evaluates $e_1$
+to a location $\loc$ and then updates the contents of
+$\loc$. \textsc{RDeref} evaluates $e$ to a location and returns the
+contents of that location.
+
+\textsc{RIfTrue} evaluates $e_1$ to a value and if it evaluates to
+\code{true}, evaluates $e_2$. \textsc{RIfFalse} is
+analogous.
+\textsc{ROp} evaluates a binary operation by applying the designated
+operation to the values of the two subexpressions.
+%JF: I don't think we need to define this precisely.
+% using the denotation
+% function for $\oplus$ which we assume is provided. \kris{TODO: Define
+%   denotation / interpretation for $\oplus$.}
+
+\textsc{RCstr} and \textsc{RProj} construct terms and project from
+constructed terms. Finally, \textsc{RInst} evaluates $e_1$ to a lambda
+and adds it as a handler for channel $\sch$; the result value is the
+unit value $\sunit$ (a nullary constructor). \textsc{RSend} evaluates
+$e$ to a primitive $\xv$, and then adds the message $(\sch,\xv)$ to the
+end of the message queue. Here we use $@$ for concatenation. Note that \textsc{RSend} only allows
+primitives to be sent, and not locations or lambda
+expressions.
+
+The first three rules 
+in small-step semantics at the bottom of
+Fig.~\ref{fig:semantics} prove judgments of the form
+$\Sigma_1 \treduce^{\evt} \Sigma_2$, meaning the machine can take a step from state
+$\Sigma_1$ to a new state $\Sigma_2$, producing an event $\evt$.
+\textsc{THandle} consumes a message $(\sch, \xv)$ from the front of
+the message queue (recall \textsc{RSend} adds a message to the
+\emph{end}  of the message queue), looks up the handler for $\sch$,
+and then invokes the handler, passing $\xv$ as its argument. Running a
+handler is not an externally visible operation, which is indicated by an empty
+event $\tau$ on the reduction arrow. 
+
+\textsc{TInput} models an input message, which may be due to user
+input (e.g., GUI clicks) or secret input from the system (e.g.,
+a callback with updated location information). This rule
+non-deterministically picks some channel $\sch$ and an arbitrary
+primitive $p$, and then sends $p$ on that channel. 
+The input is recorded as an event on the reduction arrow.
+Notice that here we do not distinguish the security level of an input---we choose to leave that
+up to the security policy designer, who can opt to either always
+designate GUI inputs as low-security (as we do in our experiments) or
+make them high-security.
+
+\textsc{TOutput} models writes to the network, consuming a message
+from a distinguished channel \sfmt{netout}. Writing to this channel
+corresponds to the \code{InfoSender.sendInt} calls in
+Section~\ref{sec:overview}. Since these messages may be seen by the
+observer---i.e., they are ``low visible'' outputs---we record the
+write event on the reduction arrow. Note that by convention
+there is no user handler for this channel.
+
+Finally, \textsc{TProg} proves a judgment of the form
+$\judge e \rightsquigarrow t$, meaning running the program $e$ produces a
+trace $t$ of events.
+This rule creates an initial state $\Sigma_0$ in
+which $e$ is bound as a handler on a special \code{onCreate} channel,
+and the message queue contains an initial message on that channel. The
+rule then repeatedly steps to the next state $n+1$ times. It produces 
+the event trace $\eta_0\cdots\eta_n$.
+Notice that the length of the trace $n$ is nondeterministic; in general,
+since these are reactive programs, they can usually run for an any
+number of steps as long as additional input arrives.
+
+From the set of all executions of a program we can extract a set of
+traces, which we later use to define noninterference.
+\begin{definition}[Program Traces]
+  We define the set of traces of a program $e$ as
+\begin{displaymath}
+   \traces(e) = \aset{t \mid \; \judge e { \rightsquigarrow t }}
+\end{displaymath}
+\end{definition}
+
+For example, consider the app in Fig.~\ref{fig:evilappexample}. Among
+others, it generates the following two traces:
+
+\begin{displaymath}
+  \begin{array}{cl}
+    \code{email}?0, \code{phone}?0, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit}, \code{netout}!0 & (1) \\
+    \code{email}?0, \code{phone}?1, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit}, \code{netout}!1 & (2) \\
+  \end{array}
+\end{displaymath}
+\lstset{language=Java}
+In the first trace, the email address and phone number are read as 0, the
+email checkbox is selected, the button is clicked, and 0 is sent. In
+the second trace is similar, except the phone number is 1, and 1 is
+sent. Below, we will use these trace to show that this program
+violates its security policy.
+
+\subsection{GUI-based Declassification Policies}
+\label{sec:policies}
+
+% Our example policies (given in section \ref{sec:examples}) used a
+% reduced syntax for specifying declassification policies.  We now make
+% this syntax formal and demonstrate how it gives extensional gaurantees
+% about information flow properties of programs.  We state information
+% policies for programs in the logic \hyperltltwo \cite{Clarkson:2014}.
+% \hyperltltwo allows quantification over paths, and atomic predicates
+% that speak about the contents of paths.
+
+
+We can now define our policy language precisely.
+Fig.~\ref{fig:policy-temporal-logic} gives the formal syntax of
+declassification policies.  A policy $P$ is a set of
+\emph{declassification conditions} $C_i$ of the form $\phi_i\rhd S_i$,
+where $\phi_i$ is an LTL formula describing when an input is
+declassified, and $S_i$ is a \emph{security level} at which the value
+read at that input event is declassified.
+
+As is standard, security levels $S$ form a lattice. 
+For our framework, we require that this lattice be finite.
+We include
+\textit{High} and \textit{Low} security levels, and we can generalize to
+arbitrary lattices in a straightforward way. Here we include the
+\textit{MaskLower8} level from Fig.~\ref{fig:app-loc-toggle} as an
+example, where $\textit{Low} \sqsubseteq \textit{MaskLower8} \sqsubseteq \textit{High}$.
+Note that although we include \textit{High} in the language, in practice there
+is no reason to declassify something to level \textit{High}, since then it
+remains secret.
+
+The \emph{atomic predicates}~$A$ of our LTL formulae match trace read
+or write events, e.g., atomic predicate $\sch?p$ is true of an event that is a
+read of $p$ on channel $\sch$. We include $\ast$ for matches to
+arbitrary primitives. We allow the read or written values to be
+variables that are bound in an enclosing quantifier. The atomic
+predicates also include the ability to make atomic arithmetic
+statements.  We assume that the interpretation of $\oplus$ is the same
+as in the semantics of figure~\ref{fig:lang}.
+The combination of these lets us describe complex input
+events. For example, we could write
+$\exists x. \textit{spinner}?x \wedge x > 2$ to indicate an input
+event that read the \emph{spinner} channel with a value greater than
+2.
+
+Atomic predicates can be combined with the usual boolean connectives
+($\neg$, $\wedge$, $\vee$, $\rightarrow$) and existential and
+universal quantification.  Our formulae also include the standard LTL
+modalities $\tnext$ (next), $\tuntil$
+(until), $\talways$ (always), $\tfuture$ (future), $\phi \tsince \psi$
+(since), and $\tpast \phi$ (past).  We also include
+$\tlast{\code{ch}}{p}$, which is syntactic sugar for $\lnot (ch?\ast)
+\tsince \code{ch}?p$.
+
+\begin{figure}[!t]
+  \small
+  \begin{displaymath}
+    \begin{array}{rcl}
+      P & ::= & C_1, C_2, \ldots \\
+      C & ::= & \phi \rhd S\\
+      S & ::= & \textit{High} \mid \textit{Low} \mid
+      \textit{MaskLower8} \mid \ldots \\ % \mid Parity \mid ... \\
+      % \psi & ::= &       \atom
+      % \mid \neg \psi
+      % \mid \psi \wedge \psi
+      % \mid \psi \vee \psi
+      % \mid \psi \limplies \psi
+      % \mid \exists x.\psi 
+      % \mid \forall x.\psi 
+      %              \\
+      \atom & ::= & \sch?s \mid \sch!s \mid s \oplus s \\
+      s & ::= & x \mid p \mid \ast \\
+      \phi & ::= &
+      \atom
+      \mid \neg \phi
+      \mid \phi \wedge \phi
+      \mid \phi \vee \phi
+      \mid \phi \limplies \phi
+      \mid \exists x.\phi 
+      \mid \forall x.\phi \\
+      & \mid &  \tnext \phi
+      \mid \phi \tuntil \phi
+      \mid \talways \phi 
+      \mid \tfuture \phi 
+      \mid \phi \tsince \phi
+      \mid \tpast \phi
+                         \\
+    \end{array}
+  \end{displaymath}
+
+  %% \begin{displaymath}
+  %%   \begin{array}{rcl}
+  %%     \tr , i \models \sch\{!,?\}p_1 & \iff & \tr[i] = \sch\{!,?\}p_1 \\
+  %%     \tr , i \models R(p_1, \ldots , p_n) & \iff & R(p_1, \ldots , p_n) \text{~is
+  %%     valid in arithmetic} \\
+      
+  %%     \tr, i \models \neg \phi & \iff &
+  %%     \tr, i  \not \models \phi \\
+
+  %%     \tr, i  \models \phi \land \psi & \iff &
+  %%     \tr, i  \models \phi \hbox{ and } \tr, i  \models \psi \\
+
+  %%     \tr, i  \models \phi \lor \psi & \iff &
+  %%     \tr, i  \models \phi \hbox{ or } \tr, i  \models \psi \\
+
+  %%     \tr, i  \models \phi \limplies \psi & \iff &
+  %%     \tr, i  \models \psi \hbox{ or } \tr, i  \models
+  %%     \lnot \phi \\
+
+  %%     \tr, i  \models \talways \phi & \iff &
+  %%     \hbox{for all } j ~.~ j \geq i \mimplies (\tr, j  \models \phi) \\
+
+  %%     \tr, i  \models \tfuture \phi & \iff &
+  %%     \hbox{there exists } j, j \geq i \mimplies (\tr, j  \models \phi) \\
+
+  %%     \tr, i  \models \tpast \phi & \iff &
+  %%     \hbox{there exists } j, j \leq i \mimplies (\tr, j  \models \phi) \\
+
+  %%     \tr, i  \models \phi \tuntil \psi & \iff &
+  %%     \hbox{there exists } j, j \geq i \mimplies ((\tr, j  \models \psi)
+  %%     \hbox{ and } \\
+  %%     & & \hbox{for all } k, i \leq k < j \mimplies (\tr, k 
+  %%     \models \phi)) \\
+
+  %%     \tr, i  \models \phi \tsince \psi & \iff &
+  %%     \hbox{there exists } j, j \leq i \mimplies ((\tr, j  \models \psi)
+  %%     \hbox{ and } \\
+  %%     & & \hbox{for all } k, j < k \leq i \mimplies (\tr, k 
+  %%     \models \phi)) \\
+
+  %%     \tr, i  \models \forall x. \phi & \iff &
+  %%     \hbox{for all } p, (\tr, i  \models \aset{x\mapsto p} \phi) \\
+
+  %%     \tr, i  \models \exists x. \phi & \iff &
+  %%     \hbox{there exists } p, (\tr, i  \models \aset{x\mapsto p} \phi) \\
+  %%   \end{array}
+  %% \end{displaymath}
+
+  % \begin{displaymath}
+  %   \begin{array}{c}
+  %     L \sqsubseteq H \qquad \bigsqcap \{ \} = H
+  %   \end{array}
+  % \end{displaymath}
+  
+  % \begin{displaymath}
+  %   \begin{array}{c}
+  %     \llbracket \tr \rrbracket_P [i] = 
+  %     \bigsqcap 
+  %     \Big \{ S_j \Big| 
+  %     \tr , i \models \phi_j
+  %     \Big \}
+  %   \end{array}
+  % \end{displaymath}
+
+  \caption{GUI-based Declassification Policy Language.}
+  \label{fig:policy-temporal-logic}
+\end{figure}
+% As an example, the policy for the bump program is: 
+
+% \begin{displaymath}
+%   \begin{array}{c}
+%     \code{email}?v \land \big( \tfuture ( \code{button} = () \land 
+%     last(\code{email\_released})=\code{true} \big) \rhd L, \\
+
+%     \code{email}?v \land \big( \tfuture ( \code{button} = () \land 
+%     last(\code{email\_released})=\code{true} \big) \rhd L, \\
+%   \end{array}
+% \end{displaymath}
+
+% Policies associate inputs with security levels, which roughly assert
+% what an observer is allowed to learn about that input.  Our system has
+% a finite (but arbitrarily large) set of security levels (with
+% metavariable $L$ in figure~\ref{fig:policy-temporal-logic}) with at
+% least the levels $H$ (high security) and $L$ (low security).  Low
+% security inputs are public: the observer is allowed to know their
+% values.  High security inputs are private: the observer is never
+% allowed to know anything about their values.  This is subsequently
+% made formal in section~\ref{}.
+
+We assume a standard interpretation of LTL formulae over
+traces \cite{Lichtenstein:85}.
+We write $\tr, i \models \phi$ if trace $\tr$ is a model of $\phi$ at
+position $i$ in the trace.
+
+Next consider a trace $\tr$ generated by the semantics of
+Fig.~\ref{fig:semantics}. We write $\tlevel{\tr}{P}{i}$ for the
+security level that policy $P$ assigns to the event $\tr[i]$:
+
+\begin{displaymath}
+  \tlevel{\tr}{P}{i} =
+  \begin{cases}
+    \bigsqcap_{\phi_j\rhd S_j \in P} \aset{ S_j \mid \tr, i \models
+      \phi_j } & \tr[i] = \sch?p \\
+    \textit{Low} & \tr[i] = \sch!\code{netout} \\
+  \end{cases}
+\end{displaymath}
+
+In other words, for inputs, we take the greatest lower bound (the most
+declassified) of the levels from all declassification conditions that
+apply. We always consider outputs on the network output channel to be
+declassified. Notice that if no policy applies, the level is $H$ by
+definition of greatest lower bound.
+
+For example, consider trace (1) above from the app in
+Fig.~\ref{fig:evilappexample} with respect to the policy in
+Fig.~\ref{fig:app-bump}.  At position 0, the LTL formula holds because
+the email box is eventually checked and then the send button is
+clicked, so $\tlevel{(1)}{P}{0} = \textit{Low}$. On the other hand,
+$\tlevel{(1)}{P}{1} = \textit{High}$ because no declassification
+condition applies for the \code{phone} input (\code{phoneBox} is never
+checked). And $\tlevel{(1)}{P}{4} = \textit{Low}$, because that
+position is a network send.
+
+Next consider applying this definition on the GUI inputs. As written,
+we have $\tlevel{(1)}{P}{2}$ = $\tlevel{(1)}{P}{3}$ =
+\textit{High}. However, our app is designed to leak these inputs. 
+For example, an adversary will clearly learn the state of
+\code{emailBox} if they receive a message with an email address. Thus,
+for all the subject apps in this paper, we also declassify all GUI inputs as
+\textit{Low}. 
+For the example in Fig.~\ref{fig:app-bump}, this means
+adding the conditions
+$\code{emailBox?}\ast \rhd \textit{Low}$,
+$\code{phoneBox?}\ast \rhd \textit{Low}$, and
+$\code{sendButton?}\ast \rhd \textit{Low}$. In general, it is up to
+the security policy designer to decide the security level of GUI inputs.
+
+Next, we can apply \textit{level} pointwise across a trace and discard
+any trace elements that are below a given level $S$. We define
+\begin{displaymath}
+\tleveltr{\tr}{P}^S[i] =
+\begin{cases}
+\tr[i] & \tlevel{\tr}{P}{i} \sqsubseteq S \\
+\tau & \textrm{otherwise}
+\end{cases}
+\end{displaymath}
+We write $\tleveltr{\tr}{P}^{S,in}$ for the same filtering, except
+always discarding output events.
+
+Considering the traces (1) and (2) again, we have
+\begin{displaymath}
+  \begin{array}{r@{ }c@{ }l}
+    \tleveltr{(1)}{P}^\textit{Low} & = & \code{email}?0, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit}, \code{netout}!0 \\
+    \tleveltr{(2)}{P}^\textit{Low} & = & \code{email}?0, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit}, \code{netout}!1 \\
+    \tleveltr{(1)}{P}^\textit{Low,in} & = & \code{email}?0, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit} \\
+    \tleveltr{(2)}{P}^\textit{Low,in} & = & \code{email}?0, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit} \\
+  \end{array}
+\end{displaymath}
+
+Finally, we can define a program to satisfy noninterference if, for
+every pair of traces such that the inputs at level $S$ are the same,
+the outputs at level $S$ are also the same.
+
+To account for generalized lattice levels such as \textit{MaskLower8},
+we also need to treat events that are equivalent at a certain level as
+the same. For example, at \textit{MaskLower8}, outputs
+\code{0xffffffff} and \code{0xffffff00} are the same, since they do
+not differ in the upper 32 bits. Thus, we assume for each security
+level $S$ there is a appropriate equivalence relation $=_S$, e.g., for
+\textit{MaskLower8}, it compares elements ignoring their lower 8
+bits. Note that $x =_\textit{Low} y$ is simply $x = y$ and
+$x =_\textit{High} y$ is always true.
+
+\begin{definition}[Noninterference]
+  \label{defn:noninterference}
+  A program $e$ satisfies security policy $P$, if the following formula
+  holds:
+\begin{displaymath}
+  \begin{array}{c}
+    \multicolumn{1}{l}{\forall S. \forall t_1, t_2 \in
+      \traces(e)\;.} \\
+    \tleveltr{\tr_1}{P}^{S,in} =_S \tleveltr{\tr_2}{P}^{S,in}
+    \implies \\
+    ~~\tleveltr{\tr_1}{P}^S =_S \tleveltr{\tr_2}{P}^S  \\
+  \end{array}
+\end{displaymath}
+\end{definition}
+
+Looking at traces for the insecure app in Fig.~\ref{fig:evilappexample},
+we see they violate non-interference, because 
+$\tleveltr{(1)}{P}^\textit{Low,in} =
+\tleveltr{(2)}{P}^\textit{Low,in}$,
+but
+$\tleveltr{(1)}{P}^\textit{Low} \neq \tleveltr{(2)}{P}^\textit{Low}$
+(they differ in the output).  We note that our definition of
+noninterference makes it a 2-hypersafety property \cite{Clarkson:10}.
+
+  
+% \subsection{Enforcing policies using symbolic execution}
+% \label{sec:symbolic}
+
+% Our semantics for programs (presented in section~\ref{sec:formalism})
+% generates sets of symbolic traces, $\tset$.  These traces contain
+% symbolic variables on their input channels, some of which must be
+% constrained to satisfy the policy.  We now describe how to check a set
+% of symbolic traces to see that it satisfies a policy $P$.  From the
+% set $\tset$, we form a set of obligations that are sent to an SMT
+% solver.  The formulas will mention symbolic inputs and generate
+% formulas which will subsequently be checked for satisfiability.  We
+% generate our equations so that if the solver returns a satisfiable
+% solution, a counterexample can be derived, and if the equations are
+% not satisfiable, the program satisfies the policy.
+
+% Programs read inputs along their internal channels, some of which are
+% secret (as disignated by the policy $P$).  The extensional policy we
+% enforce is to show that, for (subsequences of) any two structurally
+% equivalent traces $\tr_1$ and $\tr_2$, if the low observable input is
+% the equal, then the sequences of low observable events are the same.
+% Because we are using an SMT solver, we instead check if there are any
+% traces where we might be able to find a \emph{inequivalent} sequence
+% of outputs, given our assumptions about the inputs.  For each pair of
+% symbolic traces in $\tset \times \tset$, we assemble the formula
+% $test(P,\tr_1, \tr_2')$\footnote{$\tr_2'$ is the trace with the same
+%   structure as $\tr_2$, but whose variables have all been replaced by
+%   their primed analogs}:
+
+%% \subsection{Policies for our programs in HyperLTL2}
+
+%% \jeff{Not sure what goes in this section}
+
+%% To relate our policies to more traditional information flow policies,
+%% we use the language of HyperLTL2.  HyperLTL2 is a logic for stating
+%% information flow policies for systems that allows quantification over
+%% traces and temporal logic statements about relations between traces.
+
+%% \begin{Definition}[Concretized trace sets]
+%%   From a symbolic trace set $\overrightarrow{\tr}$, we can obtain a
+%%   (potentially infinite) set of concrete traces,
+%%   $\gamma(\overrightarrow{\tr})$.  We define this set as follows: for
+%%   all traces $\tr$ containing only concrete values on its channels,
+%%   $\tr \in \gamma(\overrightarrow{\tr})$ if and only if the path
+%%   condition for $\tr$ is satisfiable when the symbolic variables are
+%%   instantiated with the concrete assignments from the corresponding
+%%   positions (via its messages) in $\tr$.
+%% \end{Definition}
+
+%% \begin{Definition}[Noninterference]
+%%   A program $e$ satisfies noninterference with respect to a policy $P$
+%%   if:
+
+%%   \forall \tr_1, \tr_2.  \tr_1 \equiv_{L,in} \tr_2 \implies \tr_1
+%%   \equiv_{L} \tr_2
+%% \end{Definition}
+
+\section{Implementation}
+\label{sec:implementation}
+
+Using the ideas from Section~\ref{sec:formalism}, we built a prototype
+tool for checking whether Android apps obey GUI-based declassification
+policies. We built our tool on top of SymDroid~\cite{Jeon:2012}, a
+symbolic executor for Dalvik bytecode, which is the bytecode format to
+which Android apps are compiled.
+
+Symbolic execution \cite{King:1976} is simliar to normal program
+execution, except a symbolic executor can compute with \emph{symbolic
+  expressions} that may contain \emph{symbolic variables} that
+represent sets of values. For example, a symbolic executor may execute
+an assignment \code{int x=new_sym()}, where the return value of
+\code{new_sym} is a fresh symbolic variable representing an arbitrary
+32-bit integer.  At conditional branches that depend on symbolic
+variables, the symbolic executor invokes an SMT solver, in our case
+Z3~\cite{deMoura:2008}, to determine whether one or both branches are
+possible. As it follows branches, it extends the current \emph{path
+  condition}, which tracks branches taken so far. For example, suppose
+the current path condition is $\Phi$, and \code{x} is assigned as
+above. Then if the symbolic executor encounters a branch \code{if
+  (x>5)...}, it checks whether $\Phi\wedge(x>5)$ is satisfiable. If it
+is, it continues execution on the true branch with that as the new
+path condition. It also checks whether $\Phi\wedge(x\leq 5)$ is
+satisfiable. If it is, it continues execution on the false branch with
+that path condition. Notice that both may be satisfiable, in which
+case the symbolic executor forks execution, taking both
+paths. More details about symbolic execution can be found in the
+survey paper by Cadar et al.~\cite{Cadar:13}.
+
+SymDroid uses the features of symbolic execution to implement the
+nondeterminism in the \textsc{TInput} rule in our operational
+semantics, up to a certain bound. Since we have symbolic variables
+available, we also use them to represent arbitrary secret inputs in a
+compact way. There are several issues that arise in applying SymDroid
+to checking our policies, as we discuss next.
+
+\subsection{Driving App Execution}
+
+Our formal model has built-in notions of callbacks, the message queue,
+and non-deterministic inputs. On Android, those features are part of
+the framework. We could try to symbolically execute
+Android framework code directly, but past experience suggests this is
+intractable, since the framework is large, extremely complicated, and
+includes native code.
+
+Instead, we created an \emph{executable model}, written in Java, that
+mimics key portions of Android needed by our subject apps. Our Android
+model includes facilities for generating clicks and
+other GUI events (such as the \code{View}, \code{Button}, and
+\code{CheckBox} classes, among others). It also includes code for
+\code{LocationManager},
+\code{TelephonyManager}, and other basic Android classes.
+
+In addition to code modeling the Android framework, the model also
+includes simplified versions of Java library functions, such as the
+\code{StringBuffer} and \code{StringBuilder} classes.  Our versions of
+these APIs implement simplified (unoptimized) versions of methods in
+Java and escape to internal SymDroid methods to handle operations that
+would be unduly complex to execute symbolically. For instance, SymDroid
+represents Java \code{String} objects with OCaml strings, instead of
+Java arrays of characters. It then models methods such as \code{String.concat}
+with internal calls to OCaml string manipulation functions. Likewise,
+reflective methods such as \code{Class.getName} are handled internally.
+
+For each app, we created a driver that uses our Android model to simulate user
+input to the GUI. The driver is specific to the app since it depends on the
+app's GUI.  The driver begins by calling the app's \code{onCreate} method. It
+then calls SymDroid internal methods to set up a map from the app's GUI
+elements to channel names. 
+% In general, the driver refers to GUI elements
+% through their text IDs, which are names used by app developers. Android maps
+% these to numeric IDs by using the text IDs as field names in a special class
+% called \code{R.id}. The driver uses reflection to retrieve the numeric IDs
+% from this class.
+%
+% Once GUI element IDs are mapped to channel names,
+Afterwards, the driver invokes special
+methods in the Android model to model GUI events. There is one such method for
+each type of GUI element, e.g., buttons, check boxes, etc. Each of these
+methods adds an appropriate entry to the trace, then calls an event handler
+for the element. The trace entry contains the channel name mapped to this
+control's ID, and a value if necessary. The value could indicate, for
+instance, which element was selected from a spinner. Event handlers are those
+that the app registered through standard Android framework mechanisms,
+typically in \code{onCreate}.
+%The driver retrieves those ids from public fields in
+%the apps, e.g., from \code{BumpApp.sendButton} for the app in
+%Fig.~\ref{fig:app-bump}. 
+%(All of our subject apps store these ids in
+%public fields initialized in \code{onCreate}.)
+
+% It then associates a set of GUI elements in the application with
+% channels, so that when clicks are made to a button, a click event
+% can be recorded in the trace corresponding to the corresponding
+% channel.  Each driver program associates GUI elements with channels:
+% for example, in the bump app, the \code{sendBox} button is
+% associated with the \code{sendButton} channel, so that whenever that
+% button is clicked a \code{unit} value is sent along the
+% \code{sendBox} channel.  This will subsequently be used to check the
+% policy for the bump app.
+
+Let $m$ be the total number of possible GUI events.  To simulate one
+arbitrary GUI event, the driver includes a block that branches $m$
+ways on a fresh symbolic variable, performing a different GUI action
+in each branch.  Typical Android apps have an unbounded number of
+possible input sequences, since they never exit unless the framework
+kills them. Thus, we cannot actually explore all possible program
+traces. Instead, the user specifies an \emph{input depth}~$n$, and the
+driver runs the GUI event block $n$ times (branching on a fresh
+symbolic variable each time). In total, then, the driver will execute
+$m^n$ paths.
+
+\subsection{Generating Traces}
+\label{sec:symbolic-traces}
+
+For each path SymDroid explores, it also maintains a trace of input
+and output events, corresponding to the traces from
+Section~\ref{sec:formalism}. Internally, the Android model calls various
+specially recognized methods to emit events. For example,
+\code{Trace.addClick(id)} generates a click event for the given
+\code{id}, and similarly for other kinds of events.
+%[2/11/15, 5:12:56 PM] Kristopher Micinski: Trace.addToggle(b.getId(), !b.isChecked());
+%[2/11/15, 5:13:03 PM] Kristopher Micinski:       Trace.addChoose(spinner.getId(), pos, adapter.getItem(pos));
+When SymDroid sees such a call, it adds the event to the current trace
+for the current program path.
+
+% When the driver for each program sets up the program state, it
+% associates certain GUI elements with channel names by calling into
+% SymDroid with a button ID, where it is stored in a map from IDs to
+% channel names.  When SymDroid sees the entry of a method corresponding
+% to a GUI event (such as a button click or checkbox toggle), it loooks
+% up the identifier of the GUI element in the map set up by the driver,
+% and appends an event in the trace it records in the path's trace.
+
+In addition to GUI inputs, apps also use secret inputs. We could use
+SymDroid to generate concrete secret inputs, but instead we opt to use
+a fresh symbolic variable for each secret input. For example, the call
+to \code{manager.getEmail} in Fig.~\ref{fig:app-bump} returns a
+symbolic variable, and the same for the call to
+\code{manager.getPhoneNumber}. This choice makes checking policies
+using symbolic execution a bit more powerful, since, e.g., a symbolic
+integer variable represents an arbitrary 32-bit integer. In \toolname,
+generating a symbolic variable for a secret input also emits a trace
+event.
+
+Recall that secret inputs may appear in traces, and thus traces now
+may contain symbolic variables. For example, using $\alpha_i$'s as
+symbolic variables for the secret email and phone number inputs, the
+traces (1) and (2) become
+\begin{displaymath}
+  \begin{array}{cl}
+    \code{email}?\alpha_1, \code{phone}?\alpha_2, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit}, \code{netout}!\alpha_2 & (1') \\
+    \code{email}?\alpha_1, \code{phone}?\alpha_2, \code{emailBox}?\code{true},
+    \code{sendButton}?\code{unit}, \code{netout}!\alpha_2 & (2') \\
+  \end{array}
+\end{displaymath}
+%(Note that the concrete traces (1) and (2) can be retrieved from
+%these traces by instantiating the $\alpha_i$.)
+
+Note we must take care when using symbolic variables in traces.
+Recall that the \textit{level} function checks $t,i \models \phi$ and
+then assigns a security level to position $i$. If whether $\phi$ holds
+depends on symbolic variables in $t$, then we might not be able to
+decide this. For example, if the third element in (1') was
+$\code{emailBox}?\alpha_3$, then rather than
+$\tlevel{\tr}{P}{0} =\textit{Low}$, we would need to reason with
+conditional security levels such as
+$\tlevel{\tr}{P}{0} =\textsf{\textbf{if }} \alpha_3 \textsf{\textbf{ then }} \textit{Low}
+\textsf{\textbf{ else }} \textit{High}$. We
+avoid the need for such reasoning by only using symbolic variables for
+secret inputs, and by ensuring the level assigned by a policy does not
+depend on the value of a secret input. We leave supporting such
+reasoning to future work.
+
+% In our implementation, SymDroid represents all secret inputs
+% by symbolic variables, but simulates concrete GUI inputs: this is
+% because we require that whether a given declassification condition
+% $\phi$ holds at an index $i$ in a (symbolic) trace must be decidable.
+% This is not the case in general, because if our GUI inputs
+% were symbolic, it would be impossible to decide whether
+% $\tlast{\code{emailBox}}{\code{true}}$ held for the above example
+% trace for the evil app.  We note, however, that all of our policies
+% rely only on the GUI inputs: and these have small domains (compared
+% with the secret inputs).  Because of this, we concretize the GUI
+% inputs in our implementation, so that the $level$ function is
+% definable on symbolic traces.
+
+% To create a secret input, we call a Java method \code{new\_sym}, which
+% takes a parameter \code{channel}.  This is intercepted and handled
+% within SymDroid, generating a new message on the designated channel.
+
+% SymDroid produces a \emph{finite} set of symbolic traces, which we
+% represent with the metavariable $\tset$.
+
+% \begin{figure}
+%   \begin{displaymath}
+%     \begin{array}{rclp{1in}}
+%       \evt & : & \sch ? \{p,\alpha\} \mid \sch ! \{p,\alpha\} &
+%       Symbolic event \\
+%       t^s & : & \evt ~ \textit{list} , \Phi & Symbolic trace \\
+%     \end{array}
+%   \end{displaymath}
+%   \caption{Symbolic traces.}
+%   \label{fig:symbolic-traces}
+% \end{figure}
+
+\subsection{Checking Policies with Z3}
+
+Given a set of traces for the program (for inputs sequences up to some
+fixed depth), \toolname{} can check noninterference using Z3.
+
+\lstset{language=Caml} 
+\begin{figure}
+  \begin{lstlisting}
+  And ((ReadOnChannel "longitude"), 
+          Past(Until(Not(LiteralEvent (`PClick "coarse")),
+                       LiteralEvent (`PClick "fine")))), 
+  MaskLower8
+  \end{lstlisting}
+  \caption{Example AST encoding policy for the location toggle
+    example.\kris{can't figure out how to center this}}
+  \label{fig:ltl-ast}
+\end{figure}
+
+SymDroid is implemented in OCaml, and we write our policies as OCaml
+lists of declassification conditions, which
+are pairs of LTL formulae and security levels. Fig.~\ref{fig:ltl-ast}
+gives an example declassification condition for the location toggle
+app from Fig.~\ref{fig:app-loc-toggle}. The \code{ReadOnChannel ``longitude''}
+construct expresses the $\code{longitude}?\ast$ predicate,
+while \code{LiteralEvent} expresses that there was a
+click on the designated channel with the specified value.
+% The channel
+%\code{longitude} comes from the longitude input as a result of
+%creating a new secret \code{Location} object, and the \code{coarse} and
+%\code{fine} channels are connected to the corresponding buttons in the app via
+%the driver.
+
+Given a policy, we implement \emph{level} using standard LTL checking
+techniques. We then use Z3 to check whether a
+given set of traces satisfies the policy. In
+Section~\ref{sec:formalism}, each path produced just a trace, but in
+the symbolic executor, paths also include path conditions that may
+constraint the symbolic variables in the trace. For example, this
+would occur if the code contains a branch on a secret input. Thus,
+\toolname{} actually generates a set of trace, path condition
+pairs. 
+
+We now describe how to use an SMT solver to check whether a given set
+of symbolic traces $\tset$ satisfies the policy $P$. Recall that
+Definition~\ref{defn:noninterference} assumes for each $S$ there is an
+$=_S$ relation on traces. We use the same relation below, encoding it
+as an SMT formula. For our example lattice, $=_\textit{High}$ produces
+\code{true}, $=_\textit{Low}$ produces a conjunction of equality tests
+among corresponding trace elements, and $=_\textit{MaskLower8}$
+produces the conjunction of equality tests of the bitwise and of every
+element with 0xffffff00.
+
+Given a trace
+$t$, let $t'$ be $t$ with its symbolic variables primed, so that the
+symbolic variables of $t$ and $t'$ are disjoint. Given a path
+condition $\Phi$, define $\Phi'$ similarly.
+
+\begin{algorithm}
+  Let $\tset$ be the set of trace, path condition pairs generated for
+  an app, and let $P$ be its security policy. Apply \emph{level}
+  across each trace to obtain the level of each event.  For each
+  $(t_1, \Phi_1)$ and $(t_2, \Phi_2)$ in $\tset\times\tset$, and for
+  each $S$, ask Z3 whether the following formula (the negation of
+  Definition~\ref{defn:noninterference}) is unsatisfiable:
+  \begin{displaymath}
+    \begin{array}{c}
+      \tleveltr{\tr_1}{P}^{S,in} =_S \tleveltr{\tr_2'}{P}^{S,in} \land \\
+      \tleveltr{\tr_1}{P}^S \neq_S \tleveltr{\tr_2'}{P}^S \land \\
+      \Phi_1 \land \Phi_2'
+    \end{array}
+  \end{displaymath}
+  If no such formula is unsatisfiable, then the program satisfies noninterference.
+\end{algorithm}
+We need to include $\Phi_1$ and $\Phi'_2$ in the formula because they
+constrain the symbolic variables in the trace. More precisely, trace
+$\tr_1$ represents a set of concrete traces in which its symbolic
+variables are instantiated in all possible ways that satisfy $\Phi_1$,
+and analogously for $\tr'_2$.
+
+Note that our goal is to prove that the noninterference formula from
+Definition~\ref{defn:noninterference} is always true. Hence in the
+algorithm we negative it and check satisfiability. If the negation is
+satisfiable, then noninterference formula does not hold.
+If any formula is satisfiable, then Z3 returns a counterexample, which
+Symdroid uses to generate a pair of traces (whose input has been
+concretized) as a counterexample.
+
+For example, consider the traces (1') and (2') above, and prime
+symbolic variables in (2'). Those traces have the trivial path
+condition \sfmt{true}, since neither branches on a symbolic
+input. Thus, the formula passed to Z3 will be:
+
+\begin{displaymath}
+  \begin{array}{c}
+    \alpha_1 = \alpha'_1 \land \code{true} = \code{true} \land \code{()} = \code{()}
+    \land \\
+    (\alpha_1 \neq \alpha'_1 \vee \code{true} \neq \code{true} \vee
+    \code{()} \neq \code{()} \vee \alpha_2 \neq \alpha'_2)
+  \end{array}
+\end{displaymath}
+where the first line is from the equality in the definition and the
+second is from the disequality. Thus we can see a satisfying
+assignment with $\alpha_1 = \alpha'_1$ and $\alpha_2 \neq \alpha'_2$,
+hence noninterference is violated. Had this been the correct
+implementation of the app, the last clause of the disjunction would
+have been $\alpha_1 \neq \alpha'_1$, and then the formula would have
+been unsatisfiable.
+
+
+% A satisfying assignment is any two values of $v_2$ which are not equal
+% (Note that $\alpha_1$ and $\alpha_2'$ are not equated because it is
+% assigned level $H$ by the policy).  Note that in the benign variant of
+% the app (where $\alpha_1$, the email, is sent), the resulting formula
+% would be unsatisfiable, because the output would be $v_1$, resulting
+% in the formula:
+
+% \begin{displaymath}
+%   \begin{array}{c}
+%     \alpha_1 = \alpha_1' \land \code{true} = \code{true} \land () = () \land \alpha_1
+%     \neq \alpha_1' 
+%   \end{array}
+% \end{displaymath}
+
+% This formula has no solutions because of the conflict between the
+% equality and inequality for $v_1$ and $v_1'$, induced because the
+% $level$ assigned the \code{email} input level $L$.
+
+%% \paragraph*{Generating Traces}
+
+%% For each path SymDroid explores, it also maintains a trace of input
+%% and output events, corresponding to the traces from
+%% Section~\ref{sec:formalism}.
+
+%% In the formalism, messages are either input or output events.  When
+%% the driver for each program sets up the program state, it associates
+%% certain GUI elements with channel names by calling into SymDroid with
+%% a button ID, where it is stored in a map from IDs to channel names.
+%% The driver program explores input events nondeterministically by
+%% calling methods that mimic these events and generate the corresponding
+%% sequence of method calls in Java.  When SymDroid sees the entry of a
+%% method corresponding to a GUI event (such as a button click or
+%% checkbox toggle), it loooks up the identifier of the GUI element in
+%% the map set up by the driver, and appends an event in the trace it
+%% records in the path's trace.  In our case, all secret inputs come from
+%% classes in Android's framework (such as the \code{Location} class).
+%% To generate secret inputs, we modify our model code to generate
+%% symbolic variables for fields of these classes, associating them with
+%% a designated channel (e.g., the \sfmt{loc} channel).  Then, whenever
+%% one of these objects is created, a secret input is recorded in the
+%% path's trace.
+
+% When the app instantiates an object or calls a method, SymDroid checks
+% to see whether the model contains an implementation for the relevant
+% class or method. If it does, SymDroid uses the model version
+% instead. For some methods, such as those that affect the visual state
+% of controls, the model contains no implementation; in these cases,
+% SymDroid treats the method invocation as a no-op.
+
+% Although applications are linked with Android
+% runtime library, some library methods (such as those that call out to
+% native code in Android) cannot be implemented purely in Java.  These
+% calls are intercepted by SymDroid and implemented in OCaml code to
+% accurately model their behavior.  As an optmimization, SymDroid also
+% models certain methods (such as those that modify GUI buttons) for
+% efficiency reasons.
+
+%Our formalism and policies use traces of messages (and LTL formulas
+%about them) to define security for applications.  By contrast, Java
+%uses callbacks and variables to designate inputs and constructs
+%objects and sends them using APIs (e.g., to interact with the
+%network).  
+
+% To model input events, the driver designates a certain set of
+% callbacks that can be nondeterministically chosen in a toplevel event
+% loop.  The app responds to these callbacks by updating the store,
+% installing more callbacks, and sending output messages in a way
+% similar to our core formalism in section~\ref{sec:formalism}.  Because
+% symbolic execution explores only finite unrollings of potentially
+% infinite paths, our symbolic execution is parameterized on the number
+% of input events to explore.  SymDroid then executes sets of paths up
+% to this event bound, and then uses this path set of in its subsequent
+% analysis.  Because each event jumps to a set of $k$ handlers (for the
+% number of potential events in a given program), the set of paths grows
+% exponentially large in the number of events executed.
+
+\subsection{Minimizing Calls to Z3}
+
+A naive implementation of the noninterference check generates $n^2$
+equations (where $n$ is the number of traces produced by the semantics)
+to be checked by Z3. However, we observed that many of these equations
+correspond to pairs of traces with different sequences of GUI
+events. Since GUI events are low inputs in all our policies, these
+pairs trivially satisfy noninterference. Thus, we need not send those
+equations to Z3 for an (expensive) noninterference check.
+
+We exploit this observation by organizing SymDroid's output traces
+into a tree, where each node represents an event, with
+the initial state at the root, and traces with common prefixes share the
+same ancestor traces in the tree. We systematically traverse this tree
+using a cursor $t_1$, starting from the root. When $t_1$ reaches a new
+input event, we then traverse the tree using another cursor $t_2$,
+also starting from the root. As $t_2$ visits the tree, we do not
+invoke Z3 on any traces with fewer input events than $t_1$ (since they
+are not low-equivalent to $t_1$). We also skip any subtrees for
+which the root input event differs from the corresponding event in
+$t_1$---the trace represented by the root is low-inequivalent to $t_1$,
+and extending that trace cannot make it low-equivalent to $t_1$.
+
+% To optimize the number of equations sent to the solver, we represent
+% traces as trees of events.  Each node in the trace tree is an event
+% and a path condition that holds at the time of that event, along with
+% pointers to a set of children nodes.  We must associate events with
+% their path conditions because we are representing a set of extended
+% traces by the parent relation of the tree \kris{worded badly}.
+
+% To run our analysis, we traverse pairs of paths in this tree starting
+% at two nodes $t_1$ and $t_2$ (initially both $t_1$ and $t_2$ are the
+% root of the trace tree). If one $t_1$ contains the
+% n\textsuperscript{th} output event, we look back in the other path
+% $t_2$ to find the n\textsuperscript{th} event.  \kris{If the
+%   n\textsuperscript{th} event has not occured we wait until it has.}
+% We then form the necessary output inequality, along with a set of
+% equations asserting low equality along the paths up to that point
+% (obtained by following each node up to the root of the tree).  If the
+% paths $t_1$ and $t_2$ cannot be low equal (because, for example, they
+% contain a different set of low events up to the n\textsuperscript{th}
+% output), we stop traversal and prune this path.  This is sound because
+% once two paths are low inequivalent (the antecedent of our
+% noninterference definition), no extensions will be low equivalent
+% (note that events only move down in the lattice).  Otherwise, we
+% assert the equation to the SMT solver and check if the last outputs
+% could have been different.  If so, we report the counterexample
+% generated.  We then recursively traverse each pair of children from
+% $t_1$ and $t_2$.
+
+\section{Experiments}
+\label{sec:experiments}
+
+\begin{figure*}
+\small
+\centering
+\begin{tabular}{ | l | r | r || r | r | r | r | r | r |}
+  \hline
+  &&&&& Mem &\multicolumn{3}{c|}{Time (s)} \\ \cline{6-8}
+  App & Evts & Nec Evts & Paths & Queries &
+  (MB) & Explor. & Analysis & Total \\
+  \hline
+  Bump & 10 & 3 & 59,049 & 29,514 & 1,848 & 486 & 125 & 612 \\
+  Bump (insecure 1) & 10 & 5 & 59,049 & 46,722 & 2,125 & 519 & 212 & 731 \\
+  Bump (insecure 2) & 10 & 4 & 59,049 & 24,002 & 2,125 & 506 & 101 & 608 \\
+  Location toggle & 7 & 2 & 2,187 & 1,086 & 197 & 14 & 441 & 455 \\
+  Location toggle (insecure 1) & 7 & 2  & 2,187 & 127 & 197 & 16 & 22 & 39 \\
+  Location toggle (insecure 2) & 7 & 3 & 2,187 & 659 & 197 & 16 & 341 & 357 \\
+  Contact picker & 8 & 2 & 65,536 & 5,406 & 4,915 & 832 & 64 & 965 \\
+  Contact picker (insecure 1) & 8 & 2 & 236,156 & 34,282 & 17,293 & 5,891 & 475 & 6,364  \\
+  Contact picker (insecure 2) & 8 & 2 & 65,536 & 5,406 & 4,915 & 1,270 & 93 & 1,363 \\
+  \hline
+\end{tabular}
+\caption{Results for our test apps}
+\label{fig:results}
+\end{figure*}
+
+We ran our prototype tool on several subject apps to confirm that our
+analysis works in practice.
+
+\subsection{Subject Programs} We ran on three apps, including the two
+described in Section~\ref{sec:overview}. We also developed two
+insecure variants of each app that violate the
+desired security policy in various ways. The apps and their variants
+are as follows:
+
+\begin{itemize}
+\item \textit{Bump.} The (secure) bump app and its policy appear in
+  Fig.~\ref{fig:app-bump}. The first insecure variant counts the number of
+  times the send button has been clicked, and sends the value of the
+  email after three clicks, regardless of the state of the email
+  checkbox. The second swaps the released information---if the email
+  box is checked, it releases the phone number, and vice-versa.
+
+\item \textit{Location toggle.} The (secure) location toggle app and
+  its policy appear in Fig.~\ref{fig:app-loc-toggle}. The first insecure
+  variant always shares fine-grained location information, regardless
+  of the radio button setting. The second checks if coarse-grain
+  information is selected. If so, it stores the fine-grained location
+  (but does not send it yet).  If later the fine-grained radio button
+  is selected, it sends the stored location. Recall this is forbidden
+  by the app's security policy, which allows the release only of locations
+  received while the fine-grained option is set.
+
+\item \textit{Contact picker.} We also developed a contact picker app
+  that asks the user to select a contact from a spinner and then
+  click a send button to release the contact information over the
+  network. The security policy for this app requires that no contact
+  information leaks unless it is the last contact selected before the
+  button click. (For example, if the user selects contact 1,
+  selects contact 2, and then clicks the button, only contact 2 may be
+  released.) Note that since an arbitrarily sized list of contacts
+  would be difficult for symbolic execution (since then there would be
+  an unbounded number of ways to select a contact), we limit the app
+  to a fixed set of three contacts.
+  The first insecure variant of this app scans the set of contacts for a
+  specific one. If found, it sends a message revealing that contact
+  exists before sending the actual selected contact. The second insecure
+  variant sends a different contact than was selected.
+%The second insecure variant selects the subsequent contact in
+%the list (rather than the selected contact) and sends it to the
+%network.
+\end{itemize}
+
+% We model the $i$th contact as $con_i$,
+% and the spinner channel as \code{s}:
+
+% \begin{displaymath}
+%   \begin{array}{c}
+%     \code{con_i}? \land \tfuture \big( \code{send}?() \land
+%     last(\code{s})=i \big) \rhd L \\
+%   \end{array}
+% \end{displaymath}
+
+
+
+\subsection{Results}
+
+We ran each subject app and variants 10 times on a MacBook Pro with
+8GB ram and a 2.9 GHz Intel i7 processor. We
+confirmed that our tool correctly reports the benign app variants as
+secure and the insecure app variants as insecure.
+
+Fig.~\ref{fig:results} provides quantitative statics about our
+apps.  Recall that our analysis is parametrized by the maximum number
+of input events, and the possible number of input sequences
+is exponential in this length.  The second column of the figure lists
+how many events we used for that app. We used up to 10 events
+for each app, or the maximum number of events that would keep the
+running time below 20 minutes for the benign variants of the apps.
+
+We verified that the event depths explored for our test apps were
+sufficient to discover any violation of the policies.  We did this by
+manually generating an automaton for each app where the edges were
+messages, and states were an configurations of the app.  We then used
+each app's automaton to calculate a minimum number of events required
+to generate a counterexample.  These numbers are presented in column
+three.
+
+%(note that the first insecure contact picker variant generates a larger
+%set of symbolic traces and thererfore takes much longer to analyze).
+%For all of our subject apps, the
+%number of events exercised were large enough to find all possible
+%smallest counterexamples.
+
+The remaining columns summarize data about the runs. The fourth column
+lists the number of paths explored by the symbolic
+executor. For bump and location toggle, the number of symbolic traces
+does not change for the insecure variants. This is because those apps
+never branch based on symbolic inputs, and the sets of input sequences
+are the same for all variants. On the other hand, the first insecure
+contact picker variant generates a larger set of paths, because it
+branches on the contact list, a secret input.
+The fifth column  lists the number of queries made to the solver. 
+The sixth column lists the maximum memory
+size. We note that the much larger number of paths in the first insecure
+contact picker variant results in much greater memory requirements.
+
+%  We note that maximum memory size does not change accross runs
+% for an individual app. \jeff{I don't see that---it looks like it does
+%   vary between apps and variants?}
+%  This is because SymDroid's memory is dominated
+% by exploring feasible symbolic traces.
+% The only exception is in the case of the second contact
+% picker, which creates a large amount of extra flows and requires a
+% much larger heap size to represent the program graph.  
+
+The last three columns show the average running times, broken
+down by the exploration phase (where SymDroid generates the set
+of symbolic traces) and the analysis phase (where SymDroid forms
+equations about this set and checks them using Z3). We see that for bump and contact picker,
+the exploration phase dominates the running time, while for the
+location toggle app the analysis phase dominates the running time.
+Looking into this difference further, we found it is due to amount of
+secret data read. Bump and the contact picker both read secret data
+just once, while the location toggle app reads secret data multiple
+times. Thus, for the latter, some equations passed to the solver
+contain many more symbolic variables than for the other apps.
+
+\section{Related Work}
+\label{sec:related-work}
+
+Hyperproperties (Clarkson et al., \cite{Clarkson:10}) are statements
+about system that allow quantification over multiple executions
+simultaneously.  Our definition of noninterference is a 2-hypersafety
+property because it quantifies over prefixes of trace pairs.  Recently
+HyperLTL\textsubscript{2} (\cite{Clarkson:2014}) has presented a logic
+stating temporal properties about trace sets.  We suspect that our
+work could be stated as a HyperLTL\textsubscript{2} property, but use
+a symbolic executor (rather than a model checker) allowing us to scale
+to Android apps.
+
+One core feature of our work is using an SMT solver to check
+information flow properties of a program.  This has been addressed in
+the work of Rastogi et. al \cite{Rastogi:13} in the context of
+optimizing secure multi-party computation (SMC) by ascertaining what
+knowledge was necessarily leaked by a computation.  Our work also uses
+an SMT solver to check properties about knowledge, but addresses it in
+the context of Android applications: which are trace based rather than
+batch oriented (as in their framework).
+
+O'Neill et al.~\cite{O'Neill:06} present information flow for
+interactive programs using strategies. In our semantics, we do not
+assume that the observer has control over the sequence of selections:
+our semantics simply assumes that user input is given in a
+nondeterministic way.  Thus, we do not consider strategies.  Follow-up
+work by Clark and Hunt~\cite{Clark:09} shows that for deterministic
+programs a less general approach based on streams suffices.  Our
+semantics can be viewed as assuming a total input stream, but we focus
+on Android applications and declassification (rather than transition
+systems as in that work). The recent work of 
+Rafnsson et al.~\cite{Rafnsson:12} focuses on defining security
+properties for a wide range of interactive programs 
+based on partial input streams.  This is
+an orthogonal direction to our work, in the sense that we consider
+total streams (i.e., secrets are modeled as total functions on time)
+and also programs that are deterministic for a fixed user input
+sequence. 
+
+Integrating declassification into usable information flow systems has
+a long history in the literature, Sabelfeld and Sands survey this work
+in \cite{Sabelfeld:05}.  The most closely related system is SIF
+(Servlet Information Flow), which focuses on providing language
+features for developing web apps.  SIF is based on Jif \cite{Myers:1999} (an information
+flow language variant of Java).  While SIF provides language based
+abstraction mechanisms for building web applications, the policies are
+checked using the JIF type system, which does not offer an extensional
+guarantee about program security.  Vaughan et al~\cite{Vaughan:2011}
+define expressive declassification policies for Java: policies that
+allow functions of secret information to be released after some
+occurs in their semantics.  They define a grammar for events and then
+extend the Jif compiler to infer events.  Our policies are focused on
+relating declassification to user input, and We leave policy inference as
+future work.
+
+
+% Sabelfeld and Myers~%\cite{Sabelfeld:04}: \emph{delimited release} (*
+% MRC: which iirc eventually led to robustness *), which says the
+% attacker can't exploit declassification to learn more information than
+% is intended.
+% Sabelfeld and Sands~%\cite{Sabelfeld:05} present a survey of
+% declassification that provided axies and terminology for classifying
+% information release.  Our work is most inspired by Li and
+% Zdancewic~\cite{Li:05}: \emph{relaxed noninterference}, which
+% essentially allows declassification through function application.
+% Halpern and O'Neill~\cite{Halpern:08}: semantic characterizations of
+% secrecy with epistemic temporal logic.
+
+There is a large body of work that focuses on practical security or
+information flow for Android.  Notably, Enck et al.~\cite{Enck:10}
+present TaintDroid, a run-time taint mechanism tracking for Android.
+TaintDroid, however, tracks only direct flows and does not track
+information.
+Jia et al.~\cite{Jia:13} presents run-time enforcement of
+information flow policies on Android, backed by a process calculus
+formalization, but focuses on flows between apps, rather than data
+coming from within apps and being sent to the network.
+Chen et al. \cite{Chen:13} present Pegasus, a system for inferring
+what privileged operations happen as a result of various user inputs.
+Pegasus is similar to our work in that it uses a temporal logic to
+express conditions under which information can be accessed, but
+because Pegasus tracks access control, it cannot speak about how
+information is released.  Note that all of our examples require access
+to the secret data, but release only a portion of it, and only under
+the conditions specified by the policy.  Last, Roesner et
+al.~\cite{Roesner:12} define access control gadgets: UI elements that
+are used to effect access control policies, and implemented in Android.
+ To our knowledge, we are the
+first to present and enforce extensional declassification policies and
+apply them to Android applications.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We introduced GUI-based declassification policies, which describe
+\emph{what} and \emph{when} information can flow. Policies are defined
+using LTL formulae describing event traces, where events include GUI
+actions, secret inputs, and network sends. We formalized our policies
+using a small core language that models Android's message queue and
+event handling. Finally, we described \toolname{}, which uses symbolic
+execution to check GUI-based declassification policies on Android, and
+showed that \toolname{} correctly enforces policies on on three apps,
+with one secure and two insecure variants each.
+
+\section*{Acknowledgments}
+
+This research was supported in part by NSF CNS-1064997 and the
+partnership between UMIACS and the Laboratory for Telecommunication
+Sciences.
+
+\bibliographystyle{IEEEtran}
+\bibliography{paper}
+
+\end{document}

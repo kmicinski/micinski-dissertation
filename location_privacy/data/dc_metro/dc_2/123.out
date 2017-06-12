@@ -1,0 +1,51 @@
+android.widget.FrameLayout@406279e0
+android.widget.TabHost@4063a0f0
+android.widget.LinearLayout@40595e08
+android.widget.LinearLayout@405961e0
+android.widget.LinearLayout@40613408
+android.widget.ImageView@40613890
+android.widget.ImageButton@4062a3a0
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40606830
+android.widget.ProgressBar@4062fa80
+android.widget.ImageButton@40630250
+android.widget.TabWidget@4057b478
+android.widget.LinearLayout@4057e9f8
+android.widget.ImageView@40620278
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4050d080
+android.widget.ImageView@4050d618
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4063c5c0
+android.view.View@40605d38
+android.widget.ImageView@4063c870
+android.widget.TextView: Approx Address (within 0.0 meters)
+Varnum St NE
+Washington, District of Columbia 20017
+android.widget.ImageView@40610370
+com.jazzmoonstudio.android.common.view.CustomViewPager@40607bf8
+android.support.v4.app.y@40581c90
+android.widget.LinearLayout@40591828
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40592d50
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40598f78
+android.widget.ImageView@405934b0
+android.widget.ImageView@40576fb8
+android.widget.ImageView@40579348
+android.widget.TextView: Brookland-CUA
+android.widget.TextView: Approx: 0.70 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40514f38
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40514718
+android.widget.ImageView@4050f9e8
+android.widget.TextView: Fort Totten
+android.widget.TextView: Approx: 0.81 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4067b5c0
+android.widget.ImageView@4067a948
+android.widget.ImageView@40554de0
+android.support.v4.app.y@406078e0
+android.widget.LinearLayout@405921a8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054d2c8
+android.widget.FrameLayout@40515750
+com.millennialmedia.android.MMAdView@4056be98
+android.webkit.WebView@4058c528

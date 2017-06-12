@@ -1,0 +1,92 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{List of Abbreviations}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Binary Rewriting for Enhanced Security on Android}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Interaction-Based Declassification Policies}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{User Interactions and Permission Use on Android}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Permission-Use Provenance in Android Using Sparse Dynamic Analysis}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Binary Rewriting for Android Apps}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Redexer}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Parsing Android Bytecode}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Linking}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.3}{Modification}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.4}{Visitor API and extensions}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.5}{Logging}{section.2.1}% 14
+\BOOKMARK [1][-]{section.2.2}{An Emperical Study of Location Truncation on Android}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.1}{How Apps Use Location}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{Implementation}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.3}{Experimental Design}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.4}{Metrics used for evaluation}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.5}{Results}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Related Work}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.4}{Conclusion}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Checking Interaction-Based Declassification Policies \040for Android Using Symbolic Execution}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Example Apps and Policies}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Program Traces and Security Definition}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Program Traces}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Interaction-based Declassification Policies}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Implementation}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.4.1}{Driving App Execution}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.2}{Symbolic Variables in Traces}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.3}{Checking Policies with Z3}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.4}{Minimizing Calls to Z3}{section.3.4}% 33
+\BOOKMARK [1][-]{section.3.5}{Experiments}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.6}{Limitations and Future Work}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.7}{Related Work}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.8}{Conclusion}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{User Interactions and Permission Use on Android}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{App Measurement Survey Methodology}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{Binary Rewriting and Execution Logging}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.2}{Log Visualization}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.3}{Resource Uses}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.4}{Coding Apps and Resolving Differences}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.5}{App Selection}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.6}{Limitations}{section.4.2}% 46
+\BOOKMARK [1][-]{section.4.3}{App Measurement Survey Results}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.3.1}{Resource Usage Across Apps}{section.4.3}% 48
+\BOOKMARK [2][-]{subsection.4.3.2}{Discussion}{section.4.3}% 49
+\BOOKMARK [1][-]{section.4.4}{User Expectations Study Methodology}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.1}{Study Overview}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.2}{Conditions}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.3}{Statistical Analysis}{section.4.4}% 53
+\BOOKMARK [2][-]{subsection.4.4.4}{Ecological Validity and Limitations}{section.4.4}% 54
+\BOOKMARK [1][-]{section.4.5}{User Expectations Study Results}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.5.1}{Demographics}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.2}{H1 \205 Interactivity v. Expectation}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.3}{H2 \205 Real-World Frequency v. Expectation}{section.4.5}% 58
+\BOOKMARK [2][-]{subsection.4.5.4}{H3 \205 Effect of Previously Seen Accesses}{section.4.5}% 59
+\BOOKMARK [2][-]{subsection.4.5.5}{App v. Expectation}{section.4.5}% 60
+\BOOKMARK [1][-]{section.4.6}{Conclusions and Design Recommendations}{chapter.4}% 61
+\BOOKMARK [2][-]{subsection.4.6.1}{Access Resources As Interactively As Possible}{section.4.6}% 62
+\BOOKMARK [2][-]{subsection.4.6.2}{Use Interactions to Grant Authorization}{section.4.6}% 63
+\BOOKMARK [2][-]{subsection.4.6.3}{Handle background authorization separately}{section.4.6}% 64
+\BOOKMARK [0][-]{chapter.5}{Permission-Use Provenance in Android Using Sparse Dynamic Analysis}{}% 65
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.2}{Overview}{chapter.5}% 67
+\BOOKMARK [2][-]{subsection.5.2.1}{Running Example}{section.5.2}% 68
+\BOOKMARK [2][-]{subsection.5.2.2}{Bytecode Instrumentation and Trace Generation}{section.5.2}% 69
+\BOOKMARK [2][-]{subsection.5.2.3}{Sparse Trace Interpolation}{section.5.2}% 70
+\BOOKMARK [2][-]{subsection.5.2.4}{Inter-callback Graphs and Summarization}{section.5.2}% 71
+\BOOKMARK [1][-]{section.5.3}{Provenance Inference}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.3.1}{Sparse Trace Generation}{section.5.3}% 73
+\BOOKMARK [2][-]{subsection.5.3.2}{Sparse Trace Interpolation}{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.3}{Inter-callback Graphs and Summarization}{section.5.3}% 75
+\BOOKMARK [1][-]{section.5.4}{Implementation}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.4.1}{Logging instrumentation.}{section.5.4}% 77
+\BOOKMARK [2][-]{subsection.5.4.2}{Sparse Trace Interpolation.}{section.5.4}% 78
+\BOOKMARK [1][-]{section.5.5}{Evaluation}{chapter.5}% 79
+\BOOKMARK [2][-]{subsection.5.5.1}{Camera2Evil}{section.5.5}% 80
+\BOOKMARK [2][-]{subsection.5.5.2}{Call Recorder}{section.5.5}% 81
+\BOOKMARK [2][-]{subsection.5.5.3}{Misbothering}{section.5.5}% 82
+\BOOKMARK [2][-]{subsection.5.5.4}{Contact Merger}{section.5.5}% 83
+\BOOKMARK [2][-]{subsection.5.5.5}{Smart Studio Proxy}{section.5.5}% 84
+\BOOKMARK [1][-]{section.5.6}{Related Work}{chapter.5}% 85
+\BOOKMARK [1][-]{section.5.7}{Conclusion}{chapter.5}% 86
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Directions}{}% 87
+\BOOKMARK [1][-]{section.6.1}{Binary Rewriting for Android Apps}{chapter.6}% 88
+\BOOKMARK [1][-]{section.6.2}{Checking Interaction-Based Declassification Policies for Android Using Symbolic Execution}{chapter.6}% 89
+\BOOKMARK [1][-]{section.6.3}{User Interactions and Permission Use on Android}{chapter.6}% 90
+\BOOKMARK [1][-]{section.6.4}{Permission-Use Provenance in Android Using Sparse Dynamic Analysis}{chapter.6}% 91
+\BOOKMARK [0][-]{chapter*.37}{Bibliography}{}% 92

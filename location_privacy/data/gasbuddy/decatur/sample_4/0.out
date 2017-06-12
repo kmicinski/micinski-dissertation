@@ -1,0 +1,1349 @@
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.RelativeLayout@405e06d8
+com.google.ads.AdView@405f6800
+android.gesture.GestureOverlayView@406c6020
+android.widget.FrameLayout@405977e0
+com.google.ads.internal.AdWebView@40558448
+android.widget.TableLayout@40726408
+android.widget.TableRow@407269d8
+android.widget.RelativeLayout@40727038
+android.widget.RelativeLayout@40729938
+android.widget.TextView: 3.25
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406fdb40
+android.widget.ImageView@406fdf00
+android.widget.TextView: Shell
+android.widget.TextView: 1306 E US-380 Bus & FM-51
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 0.74 mi
+android.widget.TableLayout@4070b398
+android.widget.TableRow@4070b8e0
+android.widget.RelativeLayout@4070bfa0
+android.widget.RelativeLayout@4070c378
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 4:51 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40712318
+android.widget.ImageView@407126f0
+android.widget.TextView: Alon
+android.widget.TextView: 201 N Cates St & E Walnut St
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.18 mi
+android.widget.TableLayout@406ec6f0
+android.widget.TableRow@406eeed0
+android.widget.RelativeLayout@406ef590
+android.widget.RelativeLayout@406ef968
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: Mon 4:51 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406f63d8
+android.widget.ImageView@406f67b0
+android.widget.TextView: Shell
+android.widget.TextView: 2105 S College Ave & US-287
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.66 mi
+android.widget.TableLayout@406d1720
+android.widget.TableRow@406d4700
+android.widget.RelativeLayout@406d5528
+android.widget.RelativeLayout@406d7f40
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406dbb58
+android.widget.ImageView@406dbf78
+android.widget.TextView: Alon
+android.widget.TextView: 1305 S US-287  & S Trenchard St
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.71 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@406d1720
+android.widget.TableRow@406d4700
+android.widget.RelativeLayout@406d5528
+android.widget.RelativeLayout@406d7f40
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406dbb58
+android.widget.ImageView@406dbf78
+android.widget.TextView: Alon
+android.widget.TextView: 1305 S US-287  & S Trenchard St
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.71 mi
+android.widget.TableLayout@407962a8
+android.widget.TableRow@40796878
+android.widget.RelativeLayout@40796f38
+android.widget.RelativeLayout@40797310
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40798b20
+android.widget.ImageView@40798ef8
+android.widget.TextView: Exxon
+android.widget.TextView: 1105 S FM-51 & US-287
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.82 mi
+android.widget.TableLayout@407a6688
+android.widget.TableRow@407a6c58
+android.widget.RelativeLayout@407a7318
+android.widget.RelativeLayout@407a76f0
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a8f00
+android.widget.ImageView@407a92d8
+android.widget.TextView: Murphy USA
+android.widget.TextView: 806 S US-287 & FM-51
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.85 mi
+android.widget.TableLayout@4057e518
+android.widget.TableRow@4057d838
+android.widget.RelativeLayout@40581a28
+android.widget.RelativeLayout@405a3750
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406075c0
+android.widget.ImageView@405a3b98
+android.widget.TextView: Unbranded
+android.widget.TextView: 1210 S FM-51 & W Reeves Ave
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.87 mi
+android.widget.TableLayout@4057f200
+android.widget.TableRow@405eded0
+android.widget.RelativeLayout@40624a98
+android.widget.RelativeLayout@40631500
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406381b0
+android.widget.ImageView@405b3e90
+android.widget.TextView: Chevron
+android.widget.TextView: 114 US-287 N  & W Walnut St
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.91 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@4057f200
+android.widget.TableRow@405eded0
+android.widget.RelativeLayout@40624a98
+android.widget.RelativeLayout@40631500
+android.widget.TextView: 3.14
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406381b0
+android.widget.ImageView@405b3e90
+android.widget.TextView: Chevron
+android.widget.TextView: 114 US-287 N  & W Walnut St
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.91 mi
+android.widget.TableLayout@405fe3d0
+android.widget.TableRow@4066e290
+android.widget.RelativeLayout@40697650
+android.widget.RelativeLayout@406cf018
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406d76e8
+android.widget.ImageView@40618c88
+android.widget.TextView: Shell
+android.widget.TextView: 200 US-287 N  & W Walnut St
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 1.92 mi
+android.widget.TableLayout@40600f88
+android.widget.TableRow@40676258
+android.widget.RelativeLayout@406d7b90
+android.widget.RelativeLayout@406db030
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406dc9d0
+android.widget.ImageView@4063a970
+android.widget.TextView: Texaco
+android.widget.TextView: 1105 N US-287 & FM-1810
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 2.49 mi
+android.widget.TableLayout@40603bc0
+android.widget.TableRow@407030b0
+android.widget.RelativeLayout@406de478
+android.widget.RelativeLayout@406dfb20
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406dfe60
+android.widget.ImageView@40651b20
+android.widget.TextView: Oliver Creek Store
+android.widget.TextView: 4880 FM-2264 & CR-4421
+android.widget.TextView: Decatur, TX
+android.widget.TextView: 8.85 mi
+android.widget.TableLayout@406067e0
+android.widget.TableRow@40705840
+android.widget.RelativeLayout@406e1918
+android.widget.RelativeLayout@406e3300
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406e4e50
+android.widget.ImageView@4069e4f0
+android.widget.TextView: Texaco
+android.widget.TextView: 101 FM-407 & US-287
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 10.57 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@406067e0
+android.widget.TableRow@40705840
+android.widget.RelativeLayout@406e1918
+android.widget.RelativeLayout@406e3300
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406e4e50
+android.widget.ImageView@4069e4f0
+android.widget.TextView: Texaco
+android.widget.TextView: 101 FM-407 & US-287
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 10.57 mi
+android.widget.TableLayout@406f0030
+android.widget.TableRow@40605ce0
+android.widget.RelativeLayout@40636788
+android.widget.RelativeLayout@4064b480
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a22e0
+android.widget.ImageView@406b7ee0
+android.widget.TextView: Phillips 66
+android.widget.TextView: 217 E Rock Island Ave & Hitt St
+android.widget.TextView: Boyd, TX
+android.widget.TextView: 10.59 mi
+android.widget.TableLayout@405587b8
+android.widget.TableRow@406b8cc0
+android.widget.RelativeLayout@406c68b0
+android.widget.RelativeLayout@406dc528
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405b4d70
+android.widget.ImageView@406b9660
+android.widget.TextView: Conoco
+android.widget.TextView: 400 E Rock Island Ave & SH-114
+android.widget.TextView: Boyd, TX
+android.widget.TextView: 10.64 mi
+android.widget.TableLayout@4071eb40
+android.widget.TableRow@40547308
+android.widget.RelativeLayout@405e51f8
+android.widget.RelativeLayout@406e4c60
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40772038
+android.widget.ImageView@40648ad0
+android.widget.TextView: Valero
+android.widget.TextView: 108 S Allen St & Rock Island Ave
+android.widget.TextView: Boyd, TX
+android.widget.TextView: 10.64 mi
+android.widget.TableLayout@4066f0b0
+android.widget.TableRow@4067cc00
+android.widget.RelativeLayout@40685fc8
+android.widget.RelativeLayout@4068efb8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a2538
+android.widget.ImageView@406bfa98
+android.widget.TextView: Exxon
+android.widget.TextView: 490 W Rock Island  & Knox Ave
+android.widget.TextView: Boyd, TX
+android.widget.TextView: 10.8 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@4066f0b0
+android.widget.TableRow@4067cc00
+android.widget.RelativeLayout@40685fc8
+android.widget.RelativeLayout@4068efb8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a2538
+android.widget.ImageView@406bfa98
+android.widget.TextView: Exxon
+android.widget.TextView: 490 W Rock Island  & Knox Ave
+android.widget.TextView: Boyd, TX
+android.widget.TextView: 10.8 mi
+android.widget.TableLayout@405dae48
+android.widget.TableRow@40668198
+android.widget.RelativeLayout@4057b600
+android.widget.RelativeLayout@406e6f20
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40718528
+android.widget.ImageView@40722500
+android.widget.TextView: Phillips 66
+android.widget.TextView: 1605 16th St & Thompson St
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 10.96 mi
+android.widget.TableLayout@4057e518
+android.widget.TableRow@40581a28
+android.widget.RelativeLayout@4057c810
+android.widget.RelativeLayout@405a3750
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405ff448
+android.widget.ImageView@405b3e90
+android.widget.TextView: Brookshire's
+android.widget.TextView: 1203 US-380 & SH-101
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 11.1 mi
+android.widget.TableLayout@4057f200
+android.widget.TableRow@405fe580
+android.widget.RelativeLayout@406075c0
+android.widget.RelativeLayout@40624a98
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4063a5e0
+android.widget.ImageView@4063a970
+android.widget.TextView: Mobil
+android.widget.TextView: 806 13th St & Cobb St
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 11.23 mi
+android.widget.TableLayout@405fe3d0
+android.widget.TableRow@40616780
+android.widget.RelativeLayout@40649318
+android.widget.RelativeLayout@4066db70
+android.widget.TextView: 3.27
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40697650
+android.widget.ImageView@40686888
+android.widget.TextView: Shell
+android.widget.TextView: 806 W State St & US-287
+android.widget.TextView: Alvord, TX
+android.widget.TextView: 11.86 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@406318e0
+android.widget.TableRow@4065d8d8
+android.widget.RelativeLayout@406205c0
+android.widget.RelativeLayout@40620770
+android.widget.TextView: 3.36
+android.widget.TextView: 9
+android.widget.TextView: 7 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40629498
+android.widget.ImageView@4062c108
+android.widget.TextView: Phillips 66
+android.widget.TextView: 206 Cates St & 2nd St
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 11.89 mi
+android.widget.TableLayout@40624528
+android.widget.TableRow@4064c0d0
+android.widget.RelativeLayout@40603d78
+android.widget.RelativeLayout@40613968
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40613b28
+android.widget.ImageView@4061d9f0
+android.widget.TextView: Conoco
+android.widget.TextView: 1701 Chico Hwy & Lake Rd  
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 11.89 mi
+android.widget.TableLayout@40603bc0
+android.widget.TableRow@406346b8
+android.widget.RelativeLayout@406dfb20
+android.widget.RelativeLayout@40768db0
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405a5070
+android.widget.ImageView@40707b78
+android.widget.TextView: Valero
+android.widget.TextView: 101 W US-380 & SH-101
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 11.93 mi
+android.widget.TableLayout@40600f88
+android.widget.TableRow@406274e0
+android.widget.RelativeLayout@40697d40
+android.widget.RelativeLayout@406a0198
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406a5c68
+android.widget.ImageView@406e67a0
+android.widget.TextView: Exxon
+android.widget.TextView: 99 US-380 & SH-101
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 11.98 mi
+android.widget.TableLayout@405fe3d0
+android.widget.TableRow@40616780
+android.widget.RelativeLayout@40649318
+android.widget.RelativeLayout@4066db70
+android.widget.TextView: 3.10
+android.widget.TextView: 9
+android.widget.TextView: Mon 7:49 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40697650
+android.widget.ImageView@40686888
+android.widget.TextView: JJ Truck stop
+android.widget.TextView: 17997 US-380 W & FM-2622
+android.widget.TextView: Ponder, TX
+android.widget.TextView: 12.06 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@405fe3d0
+android.widget.TableRow@40616780
+android.widget.RelativeLayout@40649318
+android.widget.RelativeLayout@4066db70
+android.widget.TextView: 3.10
+android.widget.TextView: 9
+android.widget.TextView: Mon 7:49 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@40697650
+android.widget.ImageView@40686888
+android.widget.TextView: JJ Truck stop
+android.widget.TextView: 17997 US-380 W & FM-2622
+android.widget.TextView: Ponder, TX
+android.widget.TextView: 12.06 mi
+android.widget.TableLayout@40634508
+android.widget.TableRow@40676258
+android.widget.RelativeLayout@4062c2b8
+android.widget.RelativeLayout@4062ed18
+android.widget.TextView: 3.17
+android.widget.TextView: 9
+android.widget.TextView: Mon 10:27 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@406494c8
+android.widget.ImageView@4064bf20
+android.widget.TextView: Phillips 66
+android.widget.TextView: 17605 US-380 W  & County Line Rd
+android.widget.TextView: Ponder, TX
+android.widget.TextView: 12.47 mi
+android.widget.TableLayout@4057e518
+android.widget.TableRow@4057f3b0
+android.widget.RelativeLayout@405a3750
+android.widget.RelativeLayout@405b2a30
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405b4d70
+android.widget.ImageView@405b3e90
+android.widget.TextView: Valero
+android.widget.TextView: 2000 Illinois St & Rhome To Justin Rd
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 12.8 mi
+android.widget.TableLayout@4057f200
+android.widget.TableRow@405dfae0
+android.widget.RelativeLayout@406075c0
+android.widget.RelativeLayout@40624a98
+android.widget.TextView: 3.15
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@4068efb8
+android.widget.ImageView@405eade8
+android.widget.TextView: Love's
+android.widget.TextView: 4800 E SH-114 & US-287
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 12.94 mi
+android.widget.TableLayout@405ce2b8
+android.widget.TableRow@40601138
+android.widget.RelativeLayout@406d5528
+android.widget.RelativeLayout@406e1918
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 21 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405b42a0
+android.widget.ImageView@40627350
+android.widget.TextView: Exxon
+android.widget.TextView: 405 W BC Rhome Ave & US-287  
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 13.16 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@405ce2b8
+android.widget.TableRow@40601138
+android.widget.RelativeLayout@406d5528
+android.widget.RelativeLayout@406e1918
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 21 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@405b42a0
+android.widget.ImageView@40627350
+android.widget.TextView: Exxon
+android.widget.TextView: 405 W BC Rhome Ave & US-287  
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 13.16 mi
+android.widget.TableLayout@40600f88
+android.widget.TableRow@406274e0
+android.widget.RelativeLayout@40697d40
+android.widget.RelativeLayout@406a0198
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406a5c68
+android.widget.ImageView@406e67a0
+android.widget.TextView: Phillips 66
+android.widget.TextView: 100 N Main St & E 1st St
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 13.41 mi
+android.widget.TableLayout@406b8738
+android.widget.TableRow@405b9d20
+android.widget.RelativeLayout@406174f0
+android.widget.RelativeLayout@407186b8
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@406c7d60
+android.widget.ImageView@406c7ef8
+android.widget.TextView: Shell
+android.widget.TextView: 700 South Main & Hwy 287
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 13.82 mi
+android.widget.TableLayout@40727a90
+android.widget.TableRow@40656528
+android.widget.RelativeLayout@40641fe8
+android.widget.RelativeLayout@406bd800
+android.widget.TextView: 3.39
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40644df0
+android.widget.ImageView@406e8448
+android.widget.TextView: Phillips 66
+android.widget.TextView: 303 E Sherman & SH-101
+android.widget.TextView: Chico, TX
+android.widget.TextView: 13.99 mi
+android.widget.TableLayout@4057b2c0
+android.widget.TableRow@406509a0
+android.widget.RelativeLayout@406dbc08
+android.widget.RelativeLayout@40641c10
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40655b90
+android.widget.ImageView@4073d9e0
+android.widget.TextView: Mobil
+android.widget.TextView: 10326 S US-287 & FM-3433
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 13.99 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@4057b2c0
+android.widget.TableRow@406509a0
+android.widget.RelativeLayout@406dbc08
+android.widget.RelativeLayout@40641c10
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40655b90
+android.widget.ImageView@4073d9e0
+android.widget.TextView: Mobil
+android.widget.TextView: 10326 S US-287 & FM-3433
+android.widget.TextView: Rhome, TX
+android.widget.TextView: 13.99 mi
+android.widget.TableLayout@4057f200
+android.widget.TableRow@405dfae0
+android.widget.RelativeLayout@406075c0
+android.widget.RelativeLayout@40624a98
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4068efb8
+android.widget.ImageView@405eade8
+android.widget.TextView: Shamrock
+android.widget.TextView: FM-2123 & Draco Rd
+android.widget.TextView: Paradise, TX
+android.widget.TextView: 14.03 mi
+android.widget.TableLayout@40757ec0
+android.widget.TableRow@406c4180
+android.widget.RelativeLayout@4066e0c0
+android.widget.RelativeLayout@407a6930
+android.widget.TextView: 3.29
+android.widget.TextView: 9
+android.widget.TextView: 8 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40696fb8
+android.widget.ImageView@406766f8
+android.widget.TextView: Alon
+android.widget.TextView: 106 S SH-101 & Decatur
+android.widget.TextView: Chico, TX
+android.widget.TextView: 14.04 mi
+android.widget.TableLayout@406eba00
+android.widget.TableRow@407026f0
+android.widget.RelativeLayout@40702d28
+android.widget.RelativeLayout@40660fd0
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@407139e0
+android.widget.ImageView@40713db8
+android.widget.TextView: Exxon
+android.widget.TextView: 8417  N US-287 & Pvt Rd 1613
+android.widget.TextView: Alvord, TX
+android.widget.TextView: 15.9 mi
+android.widget.TableLayout@406d6428
+android.widget.TableRow@406dccc0
+android.widget.RelativeLayout@406ed1f8
+android.widget.RelativeLayout@406ed4f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4075b638
+android.widget.ImageView@4075b9f0
+android.widget.TextView: Quick Stop
+android.widget.TextView: 510 FM-718 & Central Ave
+android.widget.TextView: Newark, TX
+android.widget.TextView: 16.17 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@40767af8
+android.widget.TableRow@40767f88
+android.widget.RelativeLayout@40768608
+android.widget.RelativeLayout@4069e898
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40698d78
+android.widget.ImageView@40699040
+android.widget.TextView: Quick Stop
+android.widget.TextView: 510 FM-718 & Central Ave
+android.widget.TextView: Newark, TX
+android.widget.TextView: 16.17 mi
+android.widget.TableLayout@40774388
+android.widget.TableRow@40696018
+android.widget.RelativeLayout@40696660
+android.widget.RelativeLayout@4066e408
+android.widget.TextView: 3.07
+android.widget.TextView: 9
+android.widget.TextView: Mon 5:32 PM
+android.widget.TextView: Update
+android.widget.RelativeLayout@407a6018
+android.widget.ImageView@4071f820
+android.widget.TextView: Valero
+android.widget.TextView: 1003 N FM-156 & King George Rd
+android.widget.TextView: Ponder, TX
+android.widget.TextView: 16.28 mi
+android.widget.TableLayout@406d2b38
+android.widget.TableRow@40796058
+android.widget.RelativeLayout@40796608
+android.widget.RelativeLayout@407969e0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40582db0
+android.widget.ImageView@40583150
+android.widget.TextView: Conoco
+android.widget.TextView: 902 Seven Hills Rd & FM-718
+android.widget.TextView: Newark, TX
+android.widget.TextView: 16.37 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@40727a90
+android.widget.TableRow@40656528
+android.widget.RelativeLayout@40641fe8
+android.widget.RelativeLayout@406bd800
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: Mon 5:32 PM
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40644df0
+android.widget.ImageView@406e8448
+android.widget.TextView: Shell
+android.widget.TextView: 250 US-380 & Runway Bay Dr
+android.widget.TextView: Bridgeport, TX
+android.widget.TextView: 17.78 mi
+android.widget.TableLayout@406d6428
+android.widget.TableRow@406dccc0
+android.widget.RelativeLayout@406ed1f8
+android.widget.RelativeLayout@406ed4f0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@4075b638
+android.widget.ImageView@4075b9f0
+android.widget.TextView: 1 Stop
+android.widget.TextView: 598 US-380 & Runaway Bay Dr
+android.widget.TextView: Runaway Bay, TX
+android.widget.TextView: 17.94 mi
+android.widget.TableLayout@406eba00
+android.widget.TableRow@407026f0
+android.widget.RelativeLayout@40702d28
+android.widget.RelativeLayout@40660fd0
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@407139e0
+android.widget.ImageView@40713db8
+android.widget.TextView: Super Save
+android.widget.TextView: 904 W 1st  St & Leuty Ave
+android.widget.TextView: Justin, TX
+android.widget.TextView: 18.01 mi
+android.widget.TableLayout@4057e518
+android.widget.TableRow@40616780
+android.widget.RelativeLayout@405a3750
+android.widget.RelativeLayout@405b2a30
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@40683cc0
+android.widget.ImageView@405b3e90
+android.widget.TextView: Henderson Oil and Propane
+android.widget.TextView: 401 N FM-156 & W 4th St
+android.widget.TextView: Justin, TX
+android.widget.TextView: 18.43 mi
+android.widget.TableLayout@405ce2b8
+android.widget.TableRow@406222e8
+android.widget.RelativeLayout@40697650
+android.widget.RelativeLayout@406a5c68
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406c7260
+android.widget.ImageView@4061d9f0
+android.widget.TextView: Valero
+android.widget.TextView: 303 N FM-156 & W 3rd St
+android.widget.TextView: Justin, TX
+android.widget.TextView: 18.46 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@405ce2b8
+android.widget.TableRow@406222e8
+android.widget.RelativeLayout@40697650
+android.widget.RelativeLayout@406a5c68
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@406c7260
+android.widget.ImageView@4061d9f0
+android.widget.TextView: Valero
+android.widget.TextView: 303 N FM-156 & W 3rd St
+android.widget.TextView: Justin, TX
+android.widget.TextView: 18.46 mi
+android.widget.TableLayout@406d2b38
+android.widget.TableRow@40796058
+android.widget.RelativeLayout@40796608
+android.widget.RelativeLayout@407969e0
+android.widget.TextView: 3.19
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40582db0
+android.widget.ImageView@40583150
+android.widget.TextView: Texaco
+android.widget.TextView: 24 S FM-156  & Barrett Dr
+android.widget.TextView: Justin, TX
+android.widget.TextView: 18.58 mi
+android.widget.TableLayout@405f3878
+android.widget.TableRow@40626a48
+android.widget.RelativeLayout@406dfb20
+android.widget.RelativeLayout@40703ab8
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: Mon 5:14 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070fc90
+android.widget.ImageView@40625370
+android.widget.TextView: Chevron
+android.widget.TextView: 210 W McCart St & FM-156
+android.widget.TextView: Krum, TX
+android.widget.TextView: 18.89 mi
+android.widget.TableLayout@405fe3d0
+android.widget.TableRow@406274e0
+android.widget.RelativeLayout@40766858
+android.widget.RelativeLayout@405a5070
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405b42a0
+android.widget.ImageView@4062c108
+android.widget.TextView: Fuel 4 Texas
+android.widget.TextView: 100 S 1st St & FM-1173
+android.widget.TextView: Krum, TX
+android.widget.TextView: 18.9 mi
+android.widget.TableLayout@40600f88
+android.widget.TableRow@4062d2a0
+android.widget.RelativeLayout@40602bc8
+android.widget.RelativeLayout@40613968
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40613b28
+android.widget.ImageView@4064bf20
+android.widget.TextView: Fina
+android.widget.TextView: 952 S FM-156 & John Wiley  Rd
+android.widget.TextView: Justin, TX
+android.widget.TextView: 19.11 mi
+android.widget.RelativeLayout@4055d128
+android.widget.FrameLayout@405e1078
+android.widget.RelativeLayout@40656c18
+android.widget.LinearLayout@406b7308
+android.view.View@40711a60
+android.widget.RelativeLayout@40729018
+android.widget.TextView: Regular
+android.view.View@406ac418
+android.view.View@407116a0
+android.widget.RelativeLayout@406ac5e8
+android.widget.TextView: Midgrade
+android.view.View@40676458
+android.view.View@40711800
+android.widget.RelativeLayout@40558028
+android.widget.TextView: Premium
+android.view.View@406bbf98
+android.view.View@40711930
+android.widget.RelativeLayout@406e1348
+android.widget.TextView: Diesel
+android.view.View@406ee748
+android.view.View@4071ba98
+android.view.View@406bae40
+android.widget.LinearLayout@40585e08
+android.widget.RelativeLayout@40651ca0
+android.widget.ImageView@405dc1a0
+android.widget.TextView: Reload
+android.widget.RelativeLayout@406c4918
+android.widget.ImageView@406cb758
+android.widget.TextView: Sort By Price
+android.widget.RelativeLayout@406d2548
+android.widget.ImageView@406dc7a0
+android.widget.TextView: Map View
+android.view.View@406e9a08
+gbis.gbandroid.views.layouts.CustomListView@40680800
+android.widget.TableLayout@405f3878
+android.widget.TableRow@40626a48
+android.widget.RelativeLayout@406dfb20
+android.widget.RelativeLayout@40703ab8
+android.widget.TextView: 3.79
+android.widget.TextView: 9
+android.widget.TextView: Mon 5:14 AM
+android.widget.TextView: Update
+android.widget.RelativeLayout@4070fc90
+android.widget.ImageView@40625370
+android.widget.TextView: Chevron
+android.widget.TextView: 210 W McCart St & FM-156
+android.widget.TextView: Krum, TX
+android.widget.TextView: 18.89 mi
+android.widget.TableLayout@405fe3d0
+android.widget.TableRow@406274e0
+android.widget.RelativeLayout@40766858
+android.widget.RelativeLayout@405a5070
+android.widget.TextView: --
+android.widget.TextView: 9
+android.widget.TextView: time
+android.widget.TextView: Report Price
+android.widget.RelativeLayout@405b42a0
+android.widget.ImageView@4062c108
+android.widget.TextView: Fuel 4 Texas
+android.widget.TextView: 100 S 1st St & FM-1173
+android.widget.TextView: Krum, TX
+android.widget.TextView: 18.9 mi
+android.widget.TableLayout@40600f88
+android.widget.TableRow@4062d2a0
+android.widget.RelativeLayout@40602bc8
+android.widget.RelativeLayout@40613968
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 6 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40613b28
+android.widget.ImageView@4064bf20
+android.widget.TextView: Fina
+android.widget.TextView: 952 S FM-156 & John Wiley  Rd
+android.widget.TextView: Justin, TX
+android.widget.TextView: 19.11 mi
+android.widget.TableLayout@4057e518
+android.widget.TableRow@40616780
+android.widget.RelativeLayout@405a3750
+android.widget.RelativeLayout@405b2a30
+android.widget.TextView: 3.49
+android.widget.TextView: 9
+android.widget.TextView: 11 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40683cc0
+android.widget.ImageView@405b3e90
+android.widget.TextView: Phillips 66
+android.widget.TextView: 1110 US-287 & Campbell Ln
+android.widget.TextView: Sunset, TX
+android.widget.TextView: 19.36 mi
+android.widget.TableLayout@40645f40
+android.widget.TableRow@406ec128
+android.widget.RelativeLayout@40694590
+android.widget.RelativeLayout@4074aa80
+android.widget.TextView: 3.09
+android.widget.TextView: 9
+android.widget.TextView: 5 hours ago
+android.widget.TextView: Update
+android.widget.RelativeLayout@40583ef8
+android.widget.ImageView@40613468
+android.widget.TextView: Quick Track
+android.widget.TextView: 920 E McCart St & Evans Rd
+android.widget.TextView: Krum, TX
+android.widget.TextView: 19.62 mi
+android.widget.RelativeLayout@4055d128

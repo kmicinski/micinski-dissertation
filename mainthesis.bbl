@@ -1,0 +1,903 @@
+\begin{thebibliography}{100}
+
+\bibitem{pewmobile}
+Pew~Research Center, January 2017.
+\newblock \url{http://www.pewresearch.org/about/use-policy/} (Accessed
+  5-23-17).
+
+\bibitem{vincent_2017}
+James Vincent.
+\newblock 99.6 percent of new smartphones run android or ios, Feb 2017.
+
+\bibitem{Nissenbaum:2004}
+Helen Nissenbaum.
+\newblock {Privacy as Contextual Integrity}.
+\newblock {\em Washington Law Review}, 79:119--157, 2004.
+
+\bibitem{King:2012}
+Jennifer King.
+\newblock "how come i'm allowing strangers to go through my phone?":
+  Smartphones and privacy expectations.
+\newblock In {\em Proceedings of the Ninth Symposium on Usable Privacy and
+  Security}, SOUPS '12, Washington, DC, USA, 2012. USENIX.
+
+\bibitem{Balebako:2013}
+Rebecca Balebako, Jaeyeon Jung, Wei Lu, Lorrie~Faith Cranor, and Carolyn
+  Nguyen.
+\newblock "little brothers watching you": Raising awareness of data leaks on
+  smartphones.
+\newblock In {\em Proceedings of the Ninth Symposium on Usable Privacy and
+  Security}, SOUPS '13, pages 12:1--12:11, New York, NY, USA, 2013. ACM.
+
+\bibitem{Fu:2014}
+Huiqing Fu, Yulong Yang, Nileema Shingte, Janne Lindqvist, and Marco Gruteser.
+\newblock A field study of run-time location access disclosures on android
+  smartphones.
+\newblock In {\em Workshop on Usable Security (USEC)}, San Diego, California,
+  USA, 2014. Internet Society.
+
+\bibitem{Wijesekera:2015}
+Primal Wijesekera, Arjun Baokar, Ashkan Hosseini, Serge Egelman, David Wagner,
+  and Konstantin Beznosov.
+\newblock Android permissions remystified: A field study on contextual
+  integrity.
+\newblock In {\em Proceedings of the 24th USENIX Security Symposium (USENIX
+  Security '15)}, pages 499--514, Washington, D.C., August 2015. USENIX
+  Association.
+
+\bibitem{Felt:2012soups}
+Adrienne~Porter Felt, Elizabeth Ha, Serge Egelman, Ariel Haney, Erika Chin, and
+  David Wagner.
+\newblock Android permissions: User attention, comprehension, and behavior.
+\newblock In {\em Proceedings of the Eighth Symposium on Usable Privacy and
+  Security}, SOUPS '12, pages 3:1--3:14, New York, NY, USA, 2012. ACM.
+
+\bibitem{micinski:15}
+Kristopher Micinski, Jonathan Fetter-Degges, Jinseong Jeon, Jeffrey~S. Foster,
+  and Michael~R. Clarkson.
+\newblock {Checking Interaction-Based Declassification Policies for Android
+  Using Symbolic Execution}.
+\newblock In {\em European Symposium on Research in Computer Security
+  (ESORICS)}, volume 9327 of {\em Lecture Notes in Computer Science}, pages
+  520--538, Vienna, Austria, September 2015.
+
+\bibitem{jsjeon:spsm12}
+Jinseong Jeon, Kristopher~K. Micinski, Jeffrey~A. Vaughan, Ari Fogel, Nikhilesh
+  Reddy, Jeffrey~S. Foster, and Todd Millstein.
+\newblock {Dr. Android and Mr. Hide: Fine-grained Permissions in Android
+  Applications}.
+\newblock In {\em ACM CCS Workshop on Security and Privacy in Smartphones and
+  Mobile Devices (SPSM)}, pages 3--14, 2012.
+
+\bibitem{micinski:most13}
+Kristopher Micinski, Philip Phelps, and Jeffrey~S. Foster.
+\newblock {An Empirical Study of Location Truncation on Android}.
+\newblock In {\em Mobile Security Technologies (MoST)}, San Francisco, CA, May
+  2013.
+
+\bibitem{Denning:1975}
+Dorothy Elizabeth~Robling Denning.
+\newblock {\em Secure Information Flow in Computer Systems.}
+\newblock PhD thesis, West Lafayette, IN, USA, 1975.
+\newblock AAI7600514.
+
+\bibitem{Sabelfeld:2009}
+Andrei Sabelfeld and David Sands.
+\newblock Declassification: Dimensions and principles.
+\newblock {\em J. Comput. Secur.}, 17(5):517--548, October 2009.
+
+\bibitem{Askarov:2007}
+Aslan Askarov and Andrei Sabelfeld.
+\newblock Gradual release: Unifying declassification, encryption and key
+  release policies.
+\newblock In {\em Proceedings of the 2007 IEEE Symposium on Security and
+  Privacy}, SP '07, pages 207--221, Washington, DC, USA, 2007. IEEE Computer
+  Society.
+
+\bibitem{Chong:04}
+Stephen Chong and Andrew~C. Myers.
+\newblock Security policies for downgrading.
+\newblock In {\em Proceedings of the 11th {ACM} Conference on Computer and
+  Communications Security}, pages 189--209, October 2004.
+
+\bibitem{Walker:00}
+David Walker.
+\newblock A type system for expressive security policies.
+\newblock In {\em Proceedings of the 27th ACM SIGPLAN-SIGACT symposium on
+  Principles of programming languages}, POPL '00, pages 254--267, New York, NY,
+  USA, 2000. ACM.
+
+\bibitem{Li:05}
+Peng Li and Steve Zdancewic.
+\newblock Downgrading policies and relaxed noninterference.
+\newblock In {\em Proceedings of the 32Nd ACM SIGPLAN-SIGACT Symposium on
+  Principles of Programming Languages}, POPL '05, pages 158--170, New York, NY,
+  USA, 2005. ACM.
+
+\bibitem{Sabelfeld:05}
+A.~Sabelfeld and D.~Sands.
+\newblock Dimensions and principles of declassification.
+\newblock In {\em Computer Security Foundations, 2005. CSFW-18 2005. 18th IEEE
+  Workshop}, pages 255--269, June 2005.
+
+\bibitem{O'Neill:2006}
+Kevin~R. O'Neill, Michael~R. Clarkson, and Stephen Chong.
+\newblock Information-flow security for interactive programs.
+\newblock In {\em Proceedings of the 19th IEEE Workshop on Computer Security
+  Foundations}, CSFW '06, pages 190--201, Washington, DC, USA, 2006. IEEE
+  Computer Society.
+
+\bibitem{Dimitrova:12}
+Rayna Dimitrova, Bernd Finkbeiner, M\'{a}t{\'e} Kov\'{a}cs, Markus~N. Rabe, and
+  Helmut Seidl.
+\newblock Model checking information flow in reactive systems.
+\newblock In {\em Proceedings of the 13th International Conference on
+  Verification, Model Checking, and Abstract Interpretation}, VMCAI'12, pages
+  169--185, Berlin, Heidelberg, 2012. Springer-Verlag.
+
+\bibitem{Jeon:2012}
+Jinseong Jeon, Kristopher~K. Micinski, and Jeffrey~S. Foster.
+\newblock {SymDroid: Symbolic Execution for Dalvik Bytecode}.
+\newblock Technical Report CS-TR-5022, Department of Computer Science,
+  University of Maryland, College Park, July 2012.
+
+\bibitem{micinski2017user}
+Kristopher Micinski, Daniel Votipka, Rock Stevens, Nikolaos Kofinas, Michelle~L
+  Mazurek, and Jeffrey~S Foster.
+\newblock User interactions and permission use on android.
+\newblock In {\em Proceedings of the 2017 CHI Conference on Human Factors in
+  Computing Systems}, pages 362--373. ACM, 2017.
+
+\bibitem{micinski2017}
+Kristopher Micinski, Daniel Votipka, Rock Stevens, Nikolaos Kofinas, Michelle~L
+  Mazurek, and Jeffrey~S Foster.
+\newblock User interactions and permission use on android.
+\newblock In {\em Proceedings of the 2017 CHI Conference on Human Factors in
+  Computing Systems}, pages 362--373. ACM, 2017.
+
+\bibitem{apktool}
+Connor Tumbleson and Ryszard Wi{\'s}niewski.
+\newblock {\em Apktool - A tool for reverse engineering Android apk files}.
+\newblock Google, 2016.
+
+\bibitem{canthrowtable}
+The Android Open~Source Project.
+\newblock Bytecode definition file.
+\newblock
+  \url{https://android.googlesource.com/platform/dalvik/+/kitkat-release/opcode-gen/bytecode.txt}
+  (Accessed 5-24-17).
+
+\bibitem{Michael:1995}
+Maged~M. Michael and Michael~L. Scott.
+\newblock Simple, fast, and practical non-blocking and blocking concurrent
+  queue algorithms.
+\newblock Technical report, Rochester, NY, USA, 1995.
+
+\bibitem{Beresford:2004}
+Alastair~R. Beresford and Frank Stajano.
+\newblock Mix zones: User privacy in location-aware services.
+\newblock In {\em IEEE Conference on Pervasive Computing and Communications
+  Workshops (PERCOMW)}, pages 127--, 2004.
+
+\bibitem{Shokri:2011}
+Reza Shokri, George Theodorakopoulos, Jean-Yves Le~Boudec, and Jean-Pierre
+  Hubaux.
+\newblock Quantifying location privacy.
+\newblock In {\em IEEE Symposium on Security and Privacy (SP)}, pages 247--262,
+  2011.
+
+\bibitem{Shokri:2012}
+Reza Shokri, George Theodorakopoulos, Carmela Troncoso, Jean-Pierre Hubaux, and
+  Jean-Yves Le~Boudec.
+\newblock Protecting location privacy: optimal strategy against localization
+  attacks.
+\newblock In {\em 2012 ACM conference on Computer and Communications Security
+  (CCS)}, pages 617--627, 2012.
+
+\bibitem{Bettini:2005}
+Claudio Bettini, X.~Sean Wang, and Sushil Jajodia.
+\newblock Protecting privacy against location-based personal identification.
+\newblock In {\em VDLB International Conference on Secure Data Management
+  (SDM)}, pages 185--199, 2005.
+
+\bibitem{Hoh:2005}
+Baik Hoh and M.~Gruteser.
+\newblock Protecting location privacy through path confusion.
+\newblock In {\em Security and Privacy for Emerging Areas in Communications
+  Networks}, pages 194--205, 2005.
+
+\bibitem{Gruteser:2003}
+Marco Gruteser and Dirk Grunwald.
+\newblock Anonymous usage of location-based services through spatial and
+  temporal cloaking.
+\newblock In {\em International Conference on Mobile Systems, Applications and
+  Services (MobiSys)}, pages 31--42, 2003.
+
+\bibitem{Brush:2010}
+A.J.~Bernheim Brush, John Krumm, and James Scott.
+\newblock Exploring end user preferences for location obfuscation,
+  location-based services, and the value of location.
+\newblock In {\em ACM International Conference on Ubiquitous Computing
+  (Ubicomp)}, pages 95--104, 2010.
+
+\bibitem{Krumm:2009}
+John Krumm.
+\newblock A survey of computational location privacy.
+\newblock {\em Personal Ubiquitous Comput.}, 13(6):391--399, August 2009.
+
+\bibitem{Gruteser:2005}
+Marco Gruteser and Baik Hoh.
+\newblock On the anonymity of periodic location samples.
+\newblock In {\em International Conference on Security in Pervasive Computing
+  (SPC)}, pages 179--192, 2005.
+
+\bibitem{Krumm:2007}
+John Krumm.
+\newblock Inference attacks on location tracks.
+\newblock In {\em International Conference on Pervasive Computing (PERVASIVE)},
+  pages 127--143, 2007.
+
+\bibitem{latitude-calculator}
+{National Geospatial-Intelligence Agency}.
+\newblock Length of degree calculator, February 2013.
+
+\bibitem{rapp:geometric}
+Richard~H Rapp.
+\newblock Geometric geodesy: Part i.
+\newblock {\em Lecture Notes}, 1991.
+
+\bibitem{levenshtein:1966}
+VI~Levenshtein.
+\newblock {Binary Codes Capable of Correcting Deletions, Insertions and
+  Reversals}.
+\newblock {\em Soviet Physics Doklady}, 10:707, 1966.
+
+\bibitem{jsjeon:troyd}
+Jinseong Jeon and Jeffrey~S. Foster.
+\newblock {Troyd: Integration Testing for Android}.
+\newblock Technical Report CS-TR-5013, Department of Computer Science,
+  University of Maryland, College Park, August 2012.
+
+\bibitem{mockdroid}
+Alastair~R. Beresford, Andrew Rice, Nicholas Skehin, and Ripduman Sohan.
+\newblock {MockDroid: trading privacy for application functionality on
+  smartphones}.
+\newblock In {\em HotMobile}, 2011.
+
+\bibitem{apex}
+Mohammad Nauman, Sohail Khan, and Xinwen Zhang.
+\newblock Apex: extending android permission model and enforcement with
+  user-defined runtime constraints.
+\newblock In {\em ASIACCS}, pages 328--332, 2010.
+
+\bibitem{zhou2011taming}
+Y.~Zhou, X.~Zhang, X.~Jiang, and V.~Freeh.
+\newblock Taming information-stealing smartphone applications (on android).
+\newblock {\em Trust and Trustworthy Computing}, pages 93--107, 2011.
+
+\bibitem{Hornyack:2011}
+Peter Hornyack, Seungyeop Han, Jaeyeon Jung, Stuart Schechter, and David
+  Wetherall.
+\newblock These aren't the droids you're looking for: retrofitting android to
+  protect data from imperious applications.
+\newblock In {\em ACM Conference on Computer and Communications Security
+  (CCS)}, pages 639--652, 2011.
+
+\bibitem{enck2009lightweight}
+W.~Enck, M.~Ongtang, and P.~McDaniel.
+\newblock {On lightweight mobile phone application certification}.
+\newblock In {\em CCS}, pages 235--245, 2009.
+
+\bibitem{ongtang2009semantically}
+M.~Ongtang, S.~McLaughlin, W.~Enck, and P.~McDaniel.
+\newblock {Semantically rich application-centric security in android}.
+\newblock In {\em ACSAC}, pages 340--349, 2009.
+
+\bibitem{barrera2010methodology}
+D.~Barrera, H.G. Kayacik, P.C. van Oorschot, and A.~Somayaji.
+\newblock {A methodology for empirical analysis of permission-based security
+  models and its application to android}.
+\newblock In {\em CCS}, pages 73--84, 2010.
+
+\bibitem{vidas:w2sp11}
+Timothy Vidas, Nicolas Christin, and Lorrie~Faith Cranor.
+\newblock {Curbing Android Permission Creep}.
+\newblock In {\em W2SP}, 2011.
+
+\bibitem{Felt:2011}
+Adrienne~Porter Felt, Erika Chin, Steve Hanna, Dawn Song, and David Wagner.
+\newblock Android permissions demystified.
+\newblock In {\em Proceedings of the 18th ACM Conference on Computer and
+  Communications Security}, CCS '11, pages 627--638, New York, NY, USA, 2011.
+  ACM.
+
+\bibitem{taintdroid}
+William Enck, Peter Gilbert, Byung-Gon Chun, Landon~P. Cox, Jaeyeon Jung,
+  Patrick McDaniel, and Anmol~N.t Sheth.
+\newblock {TaintDroid: an information-flow tracking system for realtime privacy
+  monitoring on smartphones}.
+\newblock In {\em OSDI}, 2010.
+
+\bibitem{ded}
+William Enck, Damien Octeau, Patrick McDaniel, and Swarat Chaudhuri.
+\newblock {A Study of Android Application Security}.
+\newblock In {\em USENIX Security}, 2011.
+
+\bibitem{chin11:mobisys}
+Erika Chin, Adrienne~Porter Felt, Kate Greenwood, and David Wagner.
+\newblock {Analyzing Inter-Application Communication in Android}.
+\newblock In {\em MobiSys}, 2011.
+
+\bibitem{felt2011permission}
+A.P. Felt, H.~Wang, A.~Moshchuk, S.~Hanna, and E.~Chin.
+\newblock {Permission re-delegation: Attacks and defenses}.
+\newblock In {\em USENIX Security}, 2011.
+
+\bibitem{grace:ndss12}
+Michael Grace, Yajin Zhou, Zhi Wang, and Xuxian Jiang.
+\newblock {Systematic Detection of Capability Leaks in Stock Android
+  Smartphones}.
+\newblock In {\em NDSS}, 2012.
+\newblock To appear.
+
+\bibitem{Amini:2010}
+Shahriyar Amini, Janne Lindqvist, Jason~I. Hong, Maladau Mou, Rahul Raheja,
+  Jialiu Lin, Norman Sadeh, and Eran Tochb.
+\newblock Cach\'{e} caching location-enhanced content to improve user privacy.
+\newblock {\em SIGMOBILE Mob. Comput. Commun. Rev.}, 14(3):19--21, December
+  2010.
+
+\bibitem{Golle:2009}
+Philippe Golle and Kurt Partridge.
+\newblock On the anonymity of home/work location pairs.
+\newblock In {\em International Conference on Pervasive Computing (PERVASIVE)},
+  pages 390--397, 2009.
+
+\bibitem{Pnueli:1977}
+Amir Pnueli.
+\newblock The temporal logic of programs.
+\newblock In {\em Proceedings of the 18th Annual Symposium on Foundations of
+  Computer Science}, SFCS '77, pages 46--57, Washington, DC, USA, 1977. IEEE
+  Computer Society.
+
+\bibitem{Zdancewic:03}
+S.~Zdancewic and A.C. Myers.
+\newblock Observational determinism for concurrent program security.
+\newblock In {\em Computer Security Foundations Workshop, 2003. Proceedings.
+  16th IEEE}, pages 29--43, 2003.
+
+\bibitem{deMoura:2008}
+Leonardo de~Moura and Nikolaj Bjørner.
+\newblock Z3: An efficient {SMT} solver.
+\newblock In C.R. Ramakrishnan and Jakob Rehof, editors, {\em Tools and
+  Algorithms for the Construction and Analysis of Systems}, volume 4963 of {\em
+  Lecture Notes in Computer Science}, pages 337--340. Springer Berlin
+  Heidelberg, 2008.
+
+\bibitem{Android:15}
+Google.
+\newblock {Managing the Activity Lifecycle}, 2015.
+
+\bibitem{Micinski:2015}
+Kristopher Micinski, Jonathan Fetter-Degges, Jinseong Jeon, Jeffrey~S. Foster,
+  and Michael~R. Clarkson.
+\newblock {\em Checking Interaction-Based Declassification Policies for Android
+  Using Symbolic Execution}, pages 520--538.
+\newblock Springer International Publishing, Vienna, Austria, 2015.
+
+\bibitem{Lichtenstein:85}
+Orna Lichtenstein, Amir Pnueli, and Lenore Zuck.
+\newblock The glory of the past.
+\newblock In Rohit Parikh, editor, {\em Logics of Programs}, volume 193 of {\em
+  Lecture Notes in Computer Science}, pages 196--218. Springer Berlin
+  Heidelberg, 1985.
+
+\bibitem{Clarkson:10}
+Michael~R. Clarkson and Fred~B. Schneider.
+\newblock Hyperproperties.
+\newblock {\em J. Comput. Secur.}, 18(6):1157--1210, September 2010.
+
+\bibitem{Clarkson:2014}
+Michael~R. Clarkson, Bernd Finkbeiner, Masoud Koleini, Kristopher~K. Micinski,
+  Markus~N. Rabe, and César Sánchez.
+\newblock Temporal logics for hyperproperties.
+\newblock In Martín Abadi and Steve Kremer, editors, {\em Principles of
+  Security and Trust}, volume 8414 of {\em Lecture Notes in Computer Science},
+  pages 265--284. Springer Berlin Heidelberg, 2014.
+
+\bibitem{Cadar:13}
+Cristian Cadar and Koushik Sen.
+\newblock Symbolic execution for software testing: Three decades later.
+\newblock {\em Commun. ACM}, 56(2):82--90, February 2013.
+
+\bibitem{Ma:2011}
+Kin-Keung Ma, Khoo~Yit Phang, Jeffrey~S. Foster, and Michael Hicks.
+\newblock Directed symbolic execution.
+\newblock In {\em Proceedings of the 18th International Conference on Static
+  Analysis}, SAS'11, pages 95--111, Berlin, Heidelberg, 2011. Springer-Verlag.
+
+\bibitem{Roesner:12}
+Franziska Roesner, Tadayoshi Kohno, Alexander Moshchuk, Bryan Parno, Helen~J.
+  Wang, and Crispin Cowan.
+\newblock User-driven access control: Rethinking permission granting in modern
+  operating systems.
+\newblock In {\em Proceedings of the 2012 IEEE Symposium on Security and
+  Privacy}, SP '12, pages 224--238, Washington, DC, USA, 2012. IEEE Computer
+  Society.
+
+\bibitem{Yee:04}
+Ka-Ping Yee.
+\newblock Aligning security and usability.
+\newblock {\em Security Privacy, IEEE}, 2(5):48--55, Sept 2004.
+
+\bibitem{Enck:10}
+William Enck, Peter Gilbert, Byung-Gon Chun, Landon~P. Cox, Jaeyeon Jung,
+  Patrick McDaniel, and Anmol~N. Sheth.
+\newblock Taintdroid: An information-flow tracking system for realtime privacy
+  monitoring on smartphones.
+\newblock In {\em Proceedings of the 9th USENIX Conference on Operating Systems
+  Design and Implementation}, OSDI'10, pages 1--6, Berkeley, CA, USA, 2010.
+  USENIX Association.
+
+\bibitem{Yang:2013}
+Zhemin Yang, Min Yang, Yuan Zhang, Guofei Gu, Peng Ning, and X.~Sean Wang.
+\newblock Appintent: analyzing sensitive data transmission in {Android} for
+  privacy leakage detection.
+\newblock In {\em Proceedings of the 2013 ACM SIGSAC conference on Computer
+  \&\#38; communications security}, CCS '13, pages 1043--1054, New York, NY,
+  USA, 2013. ACM.
+
+\bibitem{Chen:13}
+Kevin~Zhijie Chen, Noah~M. Johnson, Vijay D'Silva, Shuaifu Dai, Kyle MacNamara,
+  Tom Magrino, Edward~XueJun Wu, Martin Rinard, and Dawn~Xiaodong Song.
+\newblock Contextual policy enforcement in {Android} applications with
+  permission event graphs.
+\newblock In {\em NDSS}. The Internet Society, 2013.
+
+\bibitem{Jia:13}
+Limin Jia, Jassim Aljuraidan, Elli Fragkaki, Lujo Bauer, Michael Stroucken,
+  Kazuhide Fukushima, Shinsaku Kiyomoto, and Yutaka Miyake.
+\newblock Run-time enforcement of information-flow properties on {Android}.
+\newblock In Jason Crampton, Sushil Jajodia, and Keith Mayes, editors, {\em
+  Computer Security – ESORICS 2013}, volume 8134 of {\em Lecture Notes in
+  Computer Science}, pages 775--792. Springer Berlin Heidelberg, 2013.
+
+\bibitem{Krohn:2007}
+Maxwell Krohn, Alexander Yip, Micah Brodsky, Natan Cliffer, M.~Frans Kaashoek,
+  Eddie Kohler, and Robert Morris.
+\newblock Information flow control for standard {OS} abstractions.
+\newblock In {\em Proceedings of Twenty-first ACM SIGOPS Symposium on Operating
+  Systems Principles}, SOSP '07, pages 321--334, New York, NY, USA, 2007. ACM.
+
+\bibitem{Volpano:1996}
+Dennis Volpano, Cynthia Irvine, and Geoffrey Smith.
+\newblock A sound type system for secure flow analysis.
+\newblock {\em J. Comput. Secur.}, 4(2-3):167--187, January 1996.
+
+\bibitem{Clark:09}
+David Clark and Sebastian Hunt.
+\newblock Non-interference for deterministic interactive programs.
+\newblock In Pierpaolo Degano, Joshua Guttman, and Fabio Martinelli, editors,
+  {\em Proc. Formal Aspects in Security and Trust}, pages 50--66.
+  Springer-Verlag, Berlin, Heidelberg, 2009.
+
+\bibitem{Chong:07}
+Stephen Chong, K.~Vikram, and Andrew~C. Myers.
+\newblock {SIF}: Enforcing confidentiality and integrity in web applications.
+\newblock In {\em Proceedings of 16th USENIX Security Symposium on USENIX
+  Security Symposium}, SS'07, pages 1:1--1:16, Berkeley, CA, USA, 2007. USENIX
+  Association.
+
+\bibitem{Myers:1999}
+Andrew~C. Myers.
+\newblock Jflow: Practical mostly-static information flow control.
+\newblock In {\em Proceedings of the 26th ACM SIGPLAN-SIGACT Symposium on
+  Principles of Programming Languages}, POPL '99, pages 228--241, New York, NY,
+  USA, 1999. ACM.
+
+\bibitem{Vaughan:2011}
+Jeffrey~A. Vaughan and Stephen Chong.
+\newblock Inference of expressive declassification policies.
+\newblock In {\em Proceedings of the 2011 IEEE Symposium on Security and
+  Privacy}, SP '11, pages 180--195, Washington, DC, USA, 2011. IEEE Computer
+  Society.
+
+\bibitem{Rafnsson:12}
+Willard Rafnsson, Daniel Hedin, and Andrei Sabelfeld.
+\newblock Securing interactive programs.
+\newblock In {\em Proceedings of the 2012 IEEE 25th Computer Security
+  Foundations Symposium}, CSF '12, pages 293--307, Washington, DC, USA, 2012.
+  IEEE Computer Society.
+
+\bibitem{Roesner:2012}
+Franziska Roesner, Tadayoshi Kohno, Alexander Moshchuk, Bryan Parno, Helen~J.
+  Wang, and Crispin Cowan.
+\newblock User-driven access control: Rethinking permission granting in modern
+  operating systems.
+\newblock In {\em Proceedings of the 2012 IEEE Symposium on Security and
+  Privacy}, SP '12, pages 224--238, Washington, DC, USA, 2012. IEEE Computer
+  Society.
+
+\bibitem{AndroidMPermissions}
+Google.
+\newblock {\em Requesting Permissions at Run Time}, 2016.
+
+\bibitem{Bugiel:2013}
+Sven Bugiel, Stephen Heuser, and Ahmad-Reza Sadeghi.
+\newblock Flexible and fine-grained mandatory access control on android for
+  diverse security and privacy policies.
+\newblock In {\em Proceedings of the 22nd USENIX Security Symposium (USENIX
+  Security '13)}, pages 131--146, Washington, D.C., 2013. USENIX.
+
+\bibitem{Felt:2012spsm}
+Adrienne~Porter Felt, Serge Egelman, and David Wagner.
+\newblock I've got 99 problems, but vibration ain't one: A survey of smartphone
+  users' concerns.
+\newblock In {\em Proceedings of the Second ACM Workshop on Security and
+  Privacy in Smartphones and Mobile Devices}, SPSM '12, pages 33--44, New York,
+  NY, USA, 2012. ACM.
+
+\bibitem{Almuhimedi:2015}
+Hazim Almuhimedi, Florian Schaub, Norman Sadeh, Idris Adjerid, Alessandro
+  Acquisti, Joshua Gluck, Lorrie~Faith Cranor, and Yuvraj Agarwal.
+\newblock Your location has been shared 5,398 times!: A field study on mobile
+  app privacy nudging.
+\newblock In {\em Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, CHI '15, pages 787--796, New York, NY, USA,
+  2015. ACM.
+
+\bibitem{Felt:2012hotsec}
+How to ask for permission.
+\newblock In {\em Presented as part of the 7th USENIX Workshop on Hot Topics in
+  Security}, Berkeley, CA, 2012. USENIX.
+
+\bibitem{capdesk}
+Marc Stiegler and Mark~S. Miller.
+\newblock A capability-based client: The darpabrowser.
+\newblock Technical Report Technical Report, Focused Research Topic 5, Combex
+  Inc, Meadowbrook, PA, June 2002.
+
+\bibitem{Stiegler:2006}
+Marc Stiegler, Alan~H. Karp, Ka-Ping Yee, Tyler Close, and Mark~S. Miller.
+\newblock Polaris: Virus-safe computing for windows xp.
+\newblock {\em Commun. ACM}, 49(9):83--88, September 2006.
+
+\bibitem{Roesner:2013}
+Franziska Roesner and Tadayoshi Kohno.
+\newblock Securing embedded user interfaces: Android and beyond.
+\newblock In {\em Proceedings of the 22nd USENIX Security Symposium (USENIX
+  Security '13)}, pages 97--112, Washington, D.C., 2013. USENIX.
+
+\bibitem{Ringer:2016}
+Talia Ringer, Dan Grossman, and Franziska Roesner.
+\newblock Audacious: User-driven access control with unmodified operating
+  systems.
+\newblock In {\em Proceedings of the 23rd ACM Conference on Computer and
+  Communications Security}, Vienna, Austria, oct 2016. ACM.
+
+\bibitem{Au:2012}
+Kathy Wain~Yee Au, Yi~Fan Zhou, Zhen Huang, and David Lie.
+\newblock Pscout: Analyzing the android permission specification.
+\newblock In {\em Proceedings of the 2012 ACM Conference on Computer and
+  Communications Security}, CCS '12, pages 217--228, New York, NY, USA, 2012.
+  ACM.
+
+\bibitem{permissiongroups}
+Android~Developers Reference.
+\newblock Manifest.permission\_group, 2016.
+\newblock (Accessed 9-16-2016).
+
+\bibitem{kripalpha}
+Andrew~F Hayes and Klaus Krippendorff.
+\newblock Answering the call for a standard reliability measure for coding
+  data.
+\newblock {\em Communication methods and measures}, 1(1):77--89, 2007.
+
+\bibitem{Sunshine:2009tn}
+Joshua Sunshine, Serge Egelman, Hazim Almuhimedi, Neha Atri, and Lorrie~Faith
+  Cranor.
+\newblock {Crying Wolf - An Empirical Study of SSL Warning Effectiveness.}
+\newblock In {\em Proceedings of the 18th USENIX Security Symposium}, 2009.
+
+\bibitem{Schechter:2007bj}
+Stuart~E Schechter, Rachna Dhamija, Andy Ozment, and Ian Fischer.
+\newblock {The Emperor's New Security Indicators}.
+\newblock In {\em {}Proceedings of the 2007 IEEE Symposium on Security and
+  Privacy}.
+
+\bibitem{hedeker2008}
+Donald Hedeker.
+\newblock Multilevel models for ordinal and nominal variables.
+\newblock In {\em Handbook of multilevel analysis}, pages 237--274. Springer,
+  2008.
+
+\bibitem{akaike1974}
+Hirotugu Akaike.
+\newblock {A new look at the statistical model identification}.
+\newblock {\em Automatic Control, IEEE Transactions on}, 19(6):716--723,
+  December 1974.
+
+\bibitem{Rao:2016}
+Ashwini Rao, Florian Schaub, Norman Sadeh, Alessandro Acquisti, and Ruogu Kang.
+\newblock Expecting the unexpected: Understanding mismatched privacy
+  expectations online.
+\newblock In {\em Twelfth Symposium on Usable Privacy and Security (SOUPS
+  2016)}, pages 77--96, Denver, CO, June 2016. USENIX Association.
+
+\bibitem{Buhrmester2011}
+Michael Buhrmester, Tracy Kwang, and Samuel~D. Gosling.
+\newblock Amazon's mechanical turk: A new source of inexpensive, yet
+  high-quality, data?
+\newblock {\em Perspectives on Psychological Science}, 6(1):3--5, 2011.
+
+\bibitem{Kittur2008}
+Aniket Kittur, Ed~H. Chi, and Bongwon Suh.
+\newblock Crowdsourcing user studies with mechanical turk.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '08, pages 453--456, New York, NY, USA, 2008. ACM.
+
+\bibitem{Downs2010}
+Julie~S. Downs, Mandy~B. Holbrook, Steve Sheng, and Lorrie~Faith Cranor.
+\newblock Are your participants gaming the system?: Screening mechanical turk
+  workers.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '10, pages 2399--2402, New York, NY, USA, 2010. ACM.
+
+\bibitem{Toomim2011}
+Michael Toomim, Travis Kriplean, Claus P\"{o}rtner, and James Landay.
+\newblock Utility of human-computer interactions: Toward a science of
+  preference measurement.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '11, pages 2275--2284, New York, NY, USA, 2011. ACM.
+
+\bibitem{Kang2014}
+Ruogu Kang, Stephanie Brown, Laura Dabbish, and Sara Kiesler.
+\newblock Privacy attitudes of mechanical turk workers and the u.s. public.
+\newblock In {\em Proceedings of the 23rd USENIX Security Symposium (USENIX
+  Security '14)}, pages 37--49, San Diego, California, USA, 2014. USENIX
+  Association.
+
+\bibitem{WijesekeraBTREW17}
+Primal Wijesekera, Arjun Baokar, Lynn Tsai, Joel Reardon, Serge Egelman, David
+  Wagner, and Konstantin Beznosov.
+\newblock The feasibility of dynamically granted permissions: Aligning mobile
+  privacy with user preferences.
+\newblock {\em CoRR}, abs/1703.02090, 2017.
+
+\bibitem{olejnik2017}
+Katarzyna Olejnik, Italo Dacosta, Joana Soares~Machado, K{\'e}vin Huguenin,
+  Mohammad~Emtiyaz Khan, and Jean-Pierre Hubaux.
+\newblock {SmarPer: Context-Aware and Automatic Runtime-Permissions for Mobile
+  Devices}.
+\newblock In {\em {38th IEEE Symposium on Security and Privacy (S\&P)}}, San
+  Jose, CA, United States, May 2017. {IEEE}.
+
+\bibitem{Arzt2014}
+Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden, Alexandre
+  Bartel, Jacques Klein, Yves Le~Traon, Damien Octeau, and Patrick McDaniel.
+\newblock Flowdroid: Precise context, flow, field, object-sensitive and
+  lifecycle-aware taint analysis for android apps.
+\newblock In {\em Proceedings of the 35th ACM SIGPLAN Conference on Programming
+  Language Design and Implementation}, PLDI '14, pages 259--269, New York, NY,
+  USA, 2014. ACM.
+
+\bibitem{Enck2010}
+William Enck, Peter Gilbert, Byung-Gon Chun, Landon~P. Cox, Jaeyeon Jung,
+  Patrick McDaniel, and Anmol~N. Sheth.
+\newblock Taintdroid: An information-flow tracking system for realtime privacy
+  monitoring on smartphones.
+\newblock In {\em Proceedings of the 9th USENIX Conference on Operating Systems
+  Design and Implementation}, OSDI'10, pages 393--407, Berkeley, CA, USA, 2010.
+  USENIX Association.
+
+\bibitem{Yang2013}
+Zhemin Yang, Min Yang, Yuan Zhang, Guofei Gu, Peng Ning, and X.~Sean Wang.
+\newblock Appintent: analyzing sensitive data transmission in android for
+  privacy leakage detection.
+\newblock In {\em Proceedings of the 2013 ACM SIGSAC conference on Computer
+  \&\#38; communications security}, CCS '13, pages 1043--1054, New York, NY,
+  USA, 2013. ACM.
+
+\bibitem{Bell2014}
+Jonathan Bell and Gail Kaiser.
+\newblock Phosphor: Illuminating dynamic data flow in commodity jvms.
+\newblock In {\em Proceedings of the 2014 ACM International Conference on
+  Object Oriented Programming Systems Languages \& Applications}, OOPSLA '14,
+  pages 83--101, New York, NY, USA, 2014. ACM.
+
+\bibitem{AppContext}
+Kangjie Lu, Zhichun Li, Vasileios~P. Kemerlis, Zhenyu Wu, Long Lu, Cong Zheng,
+  Zhiyun Qian, Wenke Lee, and Guofei Jiang.
+\newblock Checking more and alerting less: Detecting privacy leakages via
+  enhanced data-flow analysis and peer voting.
+\newblock In {\em 22nd Annual Network and Distributed System Security
+  Symposium, {NDSS} 2015, San Diego, California, USA, February 8-11, 2015},
+  2015.
+
+\bibitem{Fratantonio2016}
+Y.~Fratantonio, A.~Bianchi, W.~Robertson, E.~Kirda, C.~Kruegel, and G.~Vigna.
+\newblock Triggerscope: Towards detecting logic bombs in android applications.
+\newblock In {\em 2016 IEEE Symposium on Security and Privacy (SP)}, pages
+  377--396, May 2016.
+
+\bibitem{Yang2015}
+Shengqian Yang, Dacong Yan, Haowei Wu, Yan Wang, and Atanas Rountev.
+\newblock Static control-flow analysis of user-driven callbacks in android
+  applications.
+\newblock In {\em Proceedings of the 37th International Conference on Software
+  Engineering - Volume 1}, ICSE '15, pages 89--99, Piscataway, NJ, USA, 2015.
+  IEEE Press.
+
+\bibitem{chen2013}
+Kevin~Zhijie Chen, Noah~M Johnson, Vijay D'Silva, Shuaifu Dai, Kyle MacNamara,
+  Thomas~R Magrino, Edward~XueJun Wu, Martin Rinard, and Dawn~Xiaodong Song.
+\newblock Contextual policy enforcement in android applications with permission
+  event graphs.
+\newblock In {\em NDSS}, page 234, 2013.
+
+\bibitem{wong2016intellidroid}
+Michelle~Y Wong and David Lie.
+\newblock Intellidroid: A targeted input generator for the dynamic analysis of
+  android malware.
+\newblock In {\em Proceedings of the Annual Symposium on Network and
+  Distributed System Security (NDSS)}, 2016.
+
+\bibitem{Feng2014}
+Yu~Feng, Saswat Anand, Isil Dillig, and Alex Aiken.
+\newblock Apposcopy: Semantics-based detection of android malware through
+  static analysis.
+\newblock In {\em Proceedings of the 22Nd ACM SIGSOFT International Symposium
+  on Foundations of Software Engineering}, FSE 2014, pages 576--587, New York,
+  NY, USA, 2014. ACM.
+
+\bibitem{jeon:2012:symdroid}
+Jinseong Jeon, Kristopher~K Micinski, and Jeffrey~S Foster.
+\newblock Symbolic execution for dalvik bytecode, 2012.
+\newblock (Tech Report, CS-TR-5022).
+
+\bibitem{fdroid}
+F-Droid Limited.
+\newblock F-droid - free and open source android repository, 2017.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{contagio}
+Mila Parkour.
+\newblock Contagio mobile, 2017.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{dendroid}
+Marc Rogers.
+\newblock Dendroid malware can take over your camera, record audio, and sneak
+  into google play, 2014.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{camera2basic}
+Google{, }inc.
+\newblock Camera2basic android sample app, 2017.
+
+\bibitem{jeb}
+Jeb decompiler, 2017.
+\newblock (Accessed 5-19-2017).
+
+\bibitem{cousot:1977:unifiedlatticemodel}
+Patrick Cousot and Radhia Cousot.
+\newblock Abstract interpretation: a unified lattice model for static analysis
+  of programs by construction or approximation of fixpoints.
+\newblock In {\em Proceedings of the Symposium on Principles of Programming
+  Languages}, pages 238--252, Los Angeles, CA, 1977. ACM Press, New York.
+
+\bibitem{cousot:1979:systematicdesign}
+Patrick Cousot and Radhia Cousot.
+\newblock Systematic design of program analysis frameworks.
+\newblock In {\em Proceedings of the Symposium on Principles of Programming
+  Languages}, pages 269--282, San Antonio, TX, 1979. ACM Press, New York.
+
+\bibitem{Cadar:2006:EXE}
+Cristian Cadar, Vijay Ganesh, Peter~M. Pawlowski, David~L. Dill, and Dawson~R.
+  Engler.
+\newblock {EXE}: Automatically generating inputs of death.
+\newblock In {\em Proceedings of the 13th ACM Conference on Computer and
+  Communications Security}. ACM, 2006.
+
+\bibitem{Cadar:2008:klee}
+Cristian Cadar, Daniel Dunbar, and Dawson Engler.
+\newblock {KLEE}: Unassisted and automatic generation of high-coverage tests
+  for complex systems programs.
+\newblock In {\em Proceedings of the 8th USENIX Conference on Operating Systems
+  Design and Implementation}. USENIX Association, 2008.
+
+\bibitem{cao:2015:edgeminer}
+Yinzhi Cao, Yanick Fratantonio, Antonio Bianchi, Manuel Egele, Christopher
+  Kruegel, Giovanni Vigna, and Yan Chen.
+\newblock Edgeminer: Automatically detecting implicit control flow transitions
+  through the android framework.
+\newblock In {\em NDSS}, 2015.
+
+\bibitem{callrecorder}
+F-Droid Limited.
+\newblock Call recorder for android, 2014.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{broadcast}
+Google Inc. and the Open Handset~Alliance.
+\newblock Android documentation: Broadcasts, 2017.
+\newblock (Accessed 5-17-2017).
+
+\bibitem{misbothering}
+Amir Yalon.
+\newblock Misbothering sms receiver, 2015.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{contactmerger}
+Rene Treffer.
+\newblock Contact merger, 2014.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{trojanspy}
+Lukas Stefanko.
+\newblock Android trojan spy goes 2 year undetected, 2015.
+\newblock (Accessed 4-11-2017).
+
+\bibitem{Yang2015b}
+W.~Yang, X.~Xiao, B.~Andow, S.~Li, T.~Xie, and W.~Enck.
+\newblock Appcontext: Differentiating malicious and benign mobile app behaviors
+  using context.
+\newblock In {\em 2015 IEEE/ACM 37th IEEE International Conference on Software
+  Engineering}, volume~1, pages 303--313, May 2015.
+
+\bibitem{rasthofer2017making}
+Siegfried Rasthofer, Steven Arzt, Stefan Triller, and Michael Pradel.
+\newblock Making malory behave maliciously: Targeted fuzzing of android
+  execution environments.
+\newblock In {\em Proceedings of the 39th International Conference on So ware
+  Engineering. ACM. To appear}, 2017.
+
+\bibitem{elish2012}
+Karim~O Elish, Danfeng Yao, and Barbara~G Ryder.
+\newblock User-centric dependence analysis for identifying malicious mobile
+  apps.
+\newblock In {\em Workshop on Mobile Security Technologies}, 2012.
+
+\bibitem{Godefroid:2005:DDA:1065010.1065036}
+Patrice Godefroid, Nils Klarlund, and Koushik Sen.
+\newblock Dart: Directed automated random testing.
+\newblock In {\em Proceedings of the 2005 ACM SIGPLAN Conference on Programming
+  Language Design and Implementation}, PLDI '05, pages 213--223, New York, NY,
+  USA, 2005. ACM.
+
+\bibitem{Sen:2005:CCU:1081706.1081750}
+Koushik Sen, Darko Marinov, and Gul Agha.
+\newblock Cute: A concolic unit testing engine for c.
+\newblock In {\em Proceedings of the 10th European Software Engineering
+  Conference Held Jointly with 13th ACM SIGSOFT International Symposium on
+  Foundations of Software Engineering}, ESEC/FSE-13, pages 263--272, New York,
+  NY, USA, 2005. ACM.
+
+\bibitem{avdiienkodetecting}
+Vitalii Avdiienko, Konstantin Kuznetsov, Isabelle Rommelfanger, Andreas Rau,
+  Alessandra Gorla, and Andreas Zeller.
+\newblock Detecting behavior anomalies in graphical user interfaces.
+
+\bibitem{Huang2014}
+Jianjun Huang, Xiangyu Zhang, Lin Tan, Peng Wang, and Bin Liang.
+\newblock Asdroid: Detecting stealthy behaviors in android applications by user
+  interface and program behavior contradiction.
+\newblock In {\em Proceedings of the 36th International Conference on Software
+  Engineering}, ICSE 2014, pages 1036--1046, New York, NY, USA, 2014. ACM.
+
+\bibitem{slavin2016toward}
+Rocky Slavin, Xiaoyin Wang, Mitra~Bokaei Hosseini, James Hester, Ram Krishnan,
+  Jaspreet Bhatia, Travis~D Breaux, and Jianwei Niu.
+\newblock Toward a framework for detecting privacy policy violations in android
+  application code.
+\newblock In {\em Proceedings of the 38th International Conference on Software
+  Engineering}, pages 25--36. ACM, 2016.
+
+\bibitem{yu2016revisiting}
+Le~Yu, Xiapu Luo, Chenxiong Qian, and Shuai Wang.
+\newblock Revisiting the description-to-behavior fidelity in android
+  applications.
+\newblock In {\em Software Analysis, Evolution, and Reengineering (SANER), 2016
+  IEEE 23rd International Conference on}, volume~1, pages 415--426. IEEE, 2016.
+
+\end{thebibliography}

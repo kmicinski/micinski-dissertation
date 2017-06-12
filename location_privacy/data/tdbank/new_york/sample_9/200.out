@@ -1,0 +1,348 @@
+android.widget.FrameLayout@405855e0
+android.widget.LinearLayout@405860b0
+android.widget.FrameLayout@40586360
+android.widget.ImageView@40586610
+android.widget.RelativeLayout@40586aa8
+android.widget.ImageButton@405870b8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058a768
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cb78
+android.widget.LinearLayout@4058cf20
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058e718
+android.widget.LinearLayout@405108d0
+android.widget.TextView: Locations
+android.widget.ScrollView@4054b678
+android.widget.TableLayout@4050d238
+android.widget.TableRow@40623a38
+android.widget.ImageView@40615430
+android.widget.TextView: 516 E Central Avenue
+android.widget.TextView: 6.77 mi
+android.widget.TableRow@4060b8b0
+android.widget.ImageView@40580b80
+android.widget.TextView: 490 Rockaway Turnpike
+android.widget.TextView: 6.79 mi
+android.widget.TableRow@406388a0
+android.widget.ImageView@40638d10
+android.widget.TextView: 516 E Central Avenue
+android.widget.TextView: 7.07 mi
+android.widget.TableRow@4062e2e0
+android.widget.ImageView@4060f910
+android.widget.TextView: 162-02 Cross Bay Boulevard
+android.widget.TextView: 7.49 mi
+android.widget.TableRow@40617b78
+android.widget.ImageView@40631c50
+android.widget.TextView: 162-02 Cross Bay Boulevard
+android.widget.TextView: 7.49 mi
+android.widget.TableRow@40639f88
+android.widget.ImageView@40630818
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@406135a0
+android.widget.ImageView@406062b8
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@4054dbc8
+android.widget.ImageView@4062f490
+android.widget.TextView: 550 Long Beach Boulevard
+android.widget.TextView: 8.34 mi
+android.widget.TableRow@4061afa0
+android.widget.ImageView@4061b448
+android.widget.TextView: 550 Long Beach Boulevard
+android.widget.TextView: 8.37 mi
+android.widget.TableRow@40572138
+android.widget.ImageView@405725e0
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 8.66 mi
+android.widget.TableRow@40607358
+android.widget.ImageView@406076c8
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 8.66 mi
+android.widget.TableRow@4060c9f8
+android.widget.ImageView@4060cea0
+android.widget.TextView: 455 E Bay Drive (Long Beach Hospital)
+android.widget.TextView: 8.68 mi
+android.widget.TableRow@4062d148
+android.widget.ImageView@40608808
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 8.70 mi
+android.widget.TableRow@4060ec58
+android.widget.ImageView@4060f100
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 8.70 mi
+android.widget.TableRow@4061e2f8
+android.widget.ImageView@4061e7a0
+android.widget.TextView: 3201 Kings Highway (Beth Israel Hospital)
+android.widget.TextView: 8.75 mi
+android.widget.TableRow@4060e030
+android.widget.ImageView@40652b70
+android.widget.TextView: 1485 Dumont Avenue (Brooklyn United Methodist Church Home)
+android.widget.TextView: 9.10 mi
+android.widget.TableRow@40653b78
+android.widget.ImageView@40550978
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 9.21 mi
+android.widget.TableRow@405527e0
+android.widget.ImageView@40552c88
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 9.21 mi
+android.widget.TableRow@40635d90
+android.widget.ImageView@40636238
+android.widget.TextView: 1623 Flatbush Avenue
+android.widget.TextView: 9.37 mi
+android.widget.TableRow@4062a150
+android.widget.ImageView@4062a5f8
+android.widget.TextView: 1623 Flatbush Avenue
+android.widget.TextView: 9.37 mi
+android.widget.FrameLayout@40571570
+android.widget.ImageView@405568a0
+android.widget.Button: Filter
+android.widget.LinearLayout@4055e988
+android.widget.FrameLayout@40581f88
+android.widget.ImageView@40583d38
+android.widget.Button: Filter
+android.widget.FrameLayout@40583450
+android.widget.Button: Done
+android.widget.FrameLayout@406168d8
+android.widget.ImageView@40612c00
+android.widget.TextView: Stores
+android.widget.ImageView@40614760
+android.widget.FrameLayout@40617460
+android.widget.ImageView@40625dd0
+android.widget.TextView: ATMs
+android.widget.ImageView@40629210
+android.widget.FrameLayout@405855e0
+android.widget.LinearLayout@405860b0
+android.widget.FrameLayout@40586360
+android.widget.ImageView@40586610
+android.widget.RelativeLayout@40586aa8
+android.widget.ImageButton@405870b8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058a768
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cb78
+android.widget.LinearLayout@4058cf20
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058e718
+android.widget.LinearLayout@405108d0
+android.widget.TextView: Locations
+android.widget.ScrollView@4054b678
+android.widget.TableLayout@4050d238
+android.widget.TableRow@40623a38
+android.widget.ImageView@40615430
+android.widget.TextView: 516 E Central Avenue
+android.widget.TextView: 6.77 mi
+android.widget.TableRow@4060b8b0
+android.widget.ImageView@40580b80
+android.widget.TextView: 490 Rockaway Turnpike
+android.widget.TextView: 6.79 mi
+android.widget.TableRow@406388a0
+android.widget.ImageView@40638d10
+android.widget.TextView: 516 E Central Avenue
+android.widget.TextView: 7.07 mi
+android.widget.TableRow@4062e2e0
+android.widget.ImageView@4060f910
+android.widget.TextView: 162-02 Cross Bay Boulevard
+android.widget.TextView: 7.49 mi
+android.widget.TableRow@40617b78
+android.widget.ImageView@40631c50
+android.widget.TextView: 162-02 Cross Bay Boulevard
+android.widget.TextView: 7.49 mi
+android.widget.TableRow@40639f88
+android.widget.ImageView@40630818
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@406135a0
+android.widget.ImageView@406062b8
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@4054dbc8
+android.widget.ImageView@4062f490
+android.widget.TextView: 550 Long Beach Boulevard
+android.widget.TextView: 8.34 mi
+android.widget.TableRow@4061afa0
+android.widget.ImageView@4061b448
+android.widget.TextView: 550 Long Beach Boulevard
+android.widget.TextView: 8.37 mi
+android.widget.TableRow@40572138
+android.widget.ImageView@405725e0
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 8.66 mi
+android.widget.TableRow@40607358
+android.widget.ImageView@406076c8
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 8.66 mi
+android.widget.TableRow@4060c9f8
+android.widget.ImageView@4060cea0
+android.widget.TextView: 455 E Bay Drive (Long Beach Hospital)
+android.widget.TextView: 8.68 mi
+android.widget.TableRow@4062d148
+android.widget.ImageView@40608808
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 8.70 mi
+android.widget.TableRow@4060ec58
+android.widget.ImageView@4060f100
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 8.70 mi
+android.widget.TableRow@4061e2f8
+android.widget.ImageView@4061e7a0
+android.widget.TextView: 3201 Kings Highway (Beth Israel Hospital)
+android.widget.TextView: 8.75 mi
+android.widget.TableRow@4060e030
+android.widget.ImageView@40652b70
+android.widget.TextView: 1485 Dumont Avenue (Brooklyn United Methodist Church Home)
+android.widget.TextView: 9.10 mi
+android.widget.TableRow@40653b78
+android.widget.ImageView@40550978
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 9.21 mi
+android.widget.TableRow@405527e0
+android.widget.ImageView@40552c88
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 9.21 mi
+android.widget.TableRow@40635d90
+android.widget.ImageView@40636238
+android.widget.TextView: 1623 Flatbush Avenue
+android.widget.TextView: 9.37 mi
+android.widget.TableRow@4062a150
+android.widget.ImageView@4062a5f8
+android.widget.TextView: 1623 Flatbush Avenue
+android.widget.TextView: 9.37 mi
+android.widget.FrameLayout@40571570
+android.widget.ImageView@405568a0
+android.widget.Button: Filter
+android.widget.LinearLayout@4055e988
+android.widget.FrameLayout@40581f88
+android.widget.ImageView@40583d38
+android.widget.Button: Filter
+android.widget.FrameLayout@40583450
+android.widget.Button: Done
+android.widget.FrameLayout@406168d8
+android.widget.ImageView@40612c00
+android.widget.TextView: Stores
+android.widget.ImageView@40614760
+android.widget.FrameLayout@40617460
+android.widget.ImageView@40625dd0
+android.widget.TextView: ATMs
+android.widget.ImageView@40629210
+android.widget.FrameLayout@405855e0
+android.widget.LinearLayout@405860b0
+android.widget.FrameLayout@40586360
+android.widget.ImageView@40586610
+android.widget.RelativeLayout@40586aa8
+android.widget.ImageButton@405870b8
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058a768
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058cb78
+android.widget.LinearLayout@4058cf20
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058e718
+android.widget.LinearLayout@405108d0
+android.widget.TextView: Locations
+android.widget.ScrollView@4054b678
+android.widget.TableLayout@4050d238
+android.widget.TableRow@40623a38
+android.widget.ImageView@40615430
+android.widget.TextView: 516 E Central Avenue
+android.widget.TextView: 6.77 mi
+android.widget.TableRow@4060b8b0
+android.widget.ImageView@40580b80
+android.widget.TextView: 490 Rockaway Turnpike
+android.widget.TextView: 6.79 mi
+android.widget.TableRow@406388a0
+android.widget.ImageView@40638d10
+android.widget.TextView: 516 E Central Avenue
+android.widget.TextView: 7.07 mi
+android.widget.TableRow@4062e2e0
+android.widget.ImageView@4060f910
+android.widget.TextView: 162-02 Cross Bay Boulevard
+android.widget.TextView: 7.49 mi
+android.widget.TableRow@40617b78
+android.widget.ImageView@40631c50
+android.widget.TextView: 162-02 Cross Bay Boulevard
+android.widget.TextView: 7.49 mi
+android.widget.TableRow@40639f88
+android.widget.ImageView@40630818
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@406135a0
+android.widget.ImageView@406062b8
+android.widget.TextView: 2944 Gravesend Neck Road
+android.widget.TextView: 8.04 mi
+android.widget.TableRow@4054dbc8
+android.widget.ImageView@4062f490
+android.widget.TextView: 550 Long Beach Boulevard
+android.widget.TextView: 8.34 mi
+android.widget.TableRow@4061afa0
+android.widget.ImageView@4061b448
+android.widget.TextView: 550 Long Beach Boulevard
+android.widget.TextView: 8.37 mi
+android.widget.TableRow@40572138
+android.widget.ImageView@405725e0
+android.widget.TextView: 1602-1606 Avenue U
+android.widget.TextView: 8.66 mi
+android.widget.TableRow@40607358
+android.widget.ImageView@406076c8
+android.widget.TextView: 1602 Avenue U
+android.widget.TextView: 8.66 mi
+android.widget.TableRow@4060c9f8
+android.widget.ImageView@4060cea0
+android.widget.TextView: 455 E Bay Drive (Long Beach Hospital)
+android.widget.TextView: 8.68 mi
+android.widget.TableRow@4062d148
+android.widget.ImageView@40608808
+android.widget.TextView: 2700 Coney Island Avenue
+android.widget.TextView: 8.70 mi
+android.widget.TableRow@4060ec58
+android.widget.ImageView@4060f100
+android.widget.TextView: 2700 Coney Island Avenue (Sheepshead Bay)
+android.widget.TextView: 8.70 mi
+android.widget.TableRow@4061e2f8
+android.widget.ImageView@4061e7a0
+android.widget.TextView: 3201 Kings Highway (Beth Israel Hospital)
+android.widget.TextView: 8.75 mi
+android.widget.TableRow@4060e030
+android.widget.ImageView@40652b70
+android.widget.TextView: 1485 Dumont Avenue (Brooklyn United Methodist Church Home)
+android.widget.TextView: 9.10 mi
+android.widget.TableRow@40653b78
+android.widget.ImageView@40550978
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 9.21 mi
+android.widget.TableRow@405527e0
+android.widget.ImageView@40552c88
+android.widget.TextView: 1122-1126 Kings Highway
+android.widget.TextView: 9.21 mi
+android.widget.TableRow@40635d90
+android.widget.ImageView@40636238
+android.widget.TextView: 1623 Flatbush Avenue
+android.widget.TextView: 9.37 mi
+android.widget.TableRow@4062a150
+android.widget.ImageView@4062a5f8
+android.widget.TextView: 1623 Flatbush Avenue
+android.widget.TextView: 9.37 mi
+android.widget.FrameLayout@40571570
+android.widget.ImageView@405568a0
+android.widget.Button: Filter
+android.widget.LinearLayout@4055e988
+android.widget.FrameLayout@40581f88
+android.widget.ImageView@40583d38
+android.widget.Button: Filter
+android.widget.FrameLayout@40583450
+android.widget.Button: Done
+android.widget.FrameLayout@406168d8
+android.widget.ImageView@40612c00
+android.widget.TextView: Stores
+android.widget.ImageView@40614760
+android.widget.FrameLayout@40617460
+android.widget.ImageView@40625dd0
+android.widget.TextView: ATMs
+android.widget.ImageView@40629210

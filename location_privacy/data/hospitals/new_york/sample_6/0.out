@@ -1,0 +1,573 @@
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@405ad000
+android.widget.ImageView@405ad478
+android.widget.TextView: 1.4 mi
+android.widget.TableLayout@405ae0b0
+android.widget.TableRow@405ca4c8
+android.widget.TextView: Trinitas Hospital-Williamson Street Campus
+android.widget.TableRow@405caf60
+android.widget.TextView: Address , City
+android.widget.TableRow@405ce380
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405cf570
+android.widget.ImageView@405cf788
+android.widget.TextView: 2.0 mi
+android.widget.TableLayout@405e5fa0
+android.widget.TableRow@405e6458
+android.widget.TextView: Newark Beth Israel Medical Center
+android.widget.TableRow@405e6c48
+android.widget.TextView: Address , City
+android.widget.TableRow@405ebad8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405eca88
+android.widget.ImageView@405ecca0
+android.widget.TextView: 3.0 mi
+android.widget.TableLayout@405f1c20
+android.widget.TableRow@405f20f8
+android.widget.TextView: Irvington General Hospital
+android.widget.TableRow@405f28e8
+android.widget.TextView: Address , City
+android.widget.TableRow@405d53e8
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@406729b8
+android.widget.ImageView@40672bd0
+android.widget.TextView: 4.5 mi
+android.widget.TableLayout@40668ea0
+android.widget.TableRow@40669378
+android.widget.TextView: Mt. Carmel Behavioral Healthcare System
+android.widget.TableRow@40669b68
+android.widget.TextView: Address , City
+android.widget.TableRow@4066a358
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405d3748
+android.widget.ImageView@405d3960
+android.widget.TextView: 4.8 mi
+android.widget.TableLayout@405d4020
+android.widget.TableRow@405d44f8
+android.widget.TextView: Saint Michael's Medical Center
+android.widget.TableRow@405d4ce8
+android.widget.TextView: Address , City
+android.widget.TableRow@4058e198
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4058f130
+android.widget.ImageView@4058f348
+android.widget.TextView: 4.8 mi
+android.widget.TableLayout@4058fa08
+android.widget.TableRow@4058fee0
+android.widget.TextView: Seton Hall University Infirmary
+android.widget.TableRow@405957d0
+android.widget.TextView: Address , City
+android.widget.TableRow@40595fc0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@40596f78
+android.widget.ImageView@40597190
+android.widget.TextView: 5.0 mi
+android.widget.TableLayout@40599018
+android.widget.TableRow@40599398
+android.widget.TextView: United Healthcare System
+android.widget.TableRow@40599b88
+android.widget.TextView: Address , City
+android.widget.TableRow@4059a378
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059b358
+android.widget.ImageView@40559140
+android.widget.TextView: 5.0 mi
+android.widget.TableLayout@40559738
+android.widget.TableRow@40559c10
+android.widget.TextView: United Hospitals Medical Center
+android.widget.TableRow@4055a400
+android.widget.TextView: Address , City
+android.widget.TableRow@4055abf0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059d1d8
+android.widget.ImageView@4059d3f0
+android.widget.TextView: 5.1 mi
+android.widget.TableLayout@4059dab0
+android.widget.TableRow@4059df88
+android.widget.TextView: East Orange General Hospital
+android.widget.TableRow@4059e778
+android.widget.TextView: Address , City
+android.widget.TableRow@4059ef68
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@405d3748
+android.widget.ImageView@405d3960
+android.widget.TextView: 4.8 mi
+android.widget.TableLayout@405d4020
+android.widget.TableRow@405d44f8
+android.widget.TextView: Saint Michael's Medical Center
+android.widget.TableRow@405d4ce8
+android.widget.TextView: Address , City
+android.widget.TableRow@4058e198
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4058f130
+android.widget.ImageView@4058f348
+android.widget.TextView: 4.8 mi
+android.widget.TableLayout@4058fa08
+android.widget.TableRow@4058fee0
+android.widget.TextView: Seton Hall University Infirmary
+android.widget.TableRow@405957d0
+android.widget.TextView: Address , City
+android.widget.TableRow@40595fc0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@40596f78
+android.widget.ImageView@40597190
+android.widget.TextView: 5.0 mi
+android.widget.TableLayout@40599018
+android.widget.TableRow@40599398
+android.widget.TextView: United Healthcare System
+android.widget.TableRow@40599b88
+android.widget.TextView: Address , City
+android.widget.TableRow@4059a378
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059b358
+android.widget.ImageView@40559140
+android.widget.TextView: 5.0 mi
+android.widget.TableLayout@40559738
+android.widget.TableRow@40559c10
+android.widget.TextView: United Hospitals Medical Center
+android.widget.TableRow@4055a400
+android.widget.TextView: Address , City
+android.widget.TableRow@4055abf0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059d1d8
+android.widget.ImageView@4059d3f0
+android.widget.TextView: 5.1 mi
+android.widget.TableLayout@4059dab0
+android.widget.TableRow@4059df88
+android.widget.TextView: East Orange General Hospital
+android.widget.TableRow@4059e778
+android.widget.TextView: Address , City
+android.widget.TableRow@4059ef68
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405ad000
+android.widget.ImageView@405ad478
+android.widget.TextView: 5.2 mi
+android.widget.TableLayout@405ae0b0
+android.widget.TableRow@405ca4c8
+android.widget.TextView: Veterans Affairs New Jersey Health Care System
+android.widget.TableRow@405caf60
+android.widget.TextView: Address , City
+android.widget.TableRow@405ce380
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@405ad000
+android.widget.ImageView@405ad478
+android.widget.TextView: 5.2 mi
+android.widget.TableLayout@405ae0b0
+android.widget.TableRow@405ca4c8
+android.widget.TextView: Veterans Affairs New Jersey Health Care System
+android.widget.TableRow@405caf60
+android.widget.TextView: Address , City
+android.widget.TableRow@405ce380
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@406729b8
+android.widget.ImageView@40672bd0
+android.widget.TextView: 5.4 mi
+android.widget.TableLayout@40668ea0
+android.widget.TableRow@40669378
+android.widget.TextView: Bayonne Medical Center
+android.widget.TableRow@40669b68
+android.widget.TextView: Address , City
+android.widget.TableRow@4066a358
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405cf570
+android.widget.ImageView@405cf788
+android.widget.TextView: 5.6 mi
+android.widget.TableLayout@405e5fa0
+android.widget.TableRow@405e6458
+android.widget.TextView: United Hospitals Orthopedic Center
+android.widget.TableRow@405e6c48
+android.widget.TextView: Address , City
+android.widget.TableRow@405ebad8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405eca88
+android.widget.ImageView@405ecca0
+android.widget.TextView: 6.2 mi
+android.widget.TableLayout@405f1c20
+android.widget.TableRow@405f20f8
+android.widget.TextView: Hospital Center at Orange
+android.widget.TableRow@405f28e8
+android.widget.TextView: Address , City
+android.widget.TableRow@405d53e8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405d6428
+android.widget.ImageView@4066fbf0
+android.widget.TextView: 6.2 mi
+android.widget.TableLayout@40670190
+android.widget.TableRow@40670668
+android.widget.TextView: Kindred Hospital New Jersey - Rahway
+android.widget.TableRow@40670e58
+android.widget.TextView: Address , City
+android.widget.TableRow@406893d0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4068a470
+android.widget.ImageView@4068a688
+android.widget.TextView: 6.2 mi
+android.widget.TableLayout@4068ae28
+android.widget.TableRow@4068b300
+android.widget.TextView: Robert Wood Johnson University Hospital at Rahway
+android.widget.TableRow@4068baf0
+android.widget.TextView: Address , City
+android.widget.TableRow@406718f8
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@4068a470
+android.widget.ImageView@4068a688
+android.widget.TextView: 6.2 mi
+android.widget.TableLayout@4068ae28
+android.widget.TableRow@4068b300
+android.widget.TextView: Robert Wood Johnson University Hospital at Rahway
+android.widget.TableRow@4068baf0
+android.widget.TextView: Address , City
+android.widget.TableRow@406718f8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405d3748
+android.widget.ImageView@405d3960
+android.widget.TextView: 6.4 mi
+android.widget.TableLayout@405d4020
+android.widget.TableRow@405d44f8
+android.widget.TextView: West Hudson Hospital
+android.widget.TableRow@405d4ce8
+android.widget.TextView: Address , City
+android.widget.TableRow@4058e198
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4058f130
+android.widget.ImageView@4058f348
+android.widget.TextView: 6.4 mi
+android.widget.TableLayout@4058fa08
+android.widget.TableRow@4058fee0
+android.widget.TextView: Richmond University Medical Center
+android.widget.TableRow@405957d0
+android.widget.TextView: Address , City
+android.widget.TableRow@40595fc0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@40596f78
+android.widget.ImageView@40597190
+android.widget.TextView: 6.6 mi
+android.widget.TableLayout@40599018
+android.widget.TableRow@40599398
+android.widget.TextView: LibertyHealth-Greenville Hospital
+android.widget.TableRow@40599b88
+android.widget.TextView: Address , City
+android.widget.TableRow@4059a378
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059b358
+android.widget.ImageView@40559140
+android.widget.TextView: 7.0 mi
+android.widget.TableLayout@40559738
+android.widget.TableRow@40559c10
+android.widget.TextView: Salvation Army Home and Hospital
+android.widget.TableRow@4055a400
+android.widget.TextView: Address , City
+android.widget.TableRow@4055abf0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059d1d8
+android.widget.ImageView@4059d3f0
+android.widget.TextView: 7.1 mi
+android.widget.TableLayout@4059dab0
+android.widget.TableRow@4059df88
+android.widget.TextView: American Legion Tri-County Memorial Hospital
+android.widget.TableRow@4059e778
+android.widget.TextView: Address , City
+android.widget.TableRow@4059ef68
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@4059d1d8
+android.widget.ImageView@4059d3f0
+android.widget.TextView: 7.1 mi
+android.widget.TableLayout@4059dab0
+android.widget.TableRow@4059df88
+android.widget.TextView: American Legion Tri-County Memorial Hospital
+android.widget.TableRow@4059e778
+android.widget.TextView: Address , City
+android.widget.TableRow@4059ef68
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405ad000
+android.widget.ImageView@405ad478
+android.widget.TextView: 7.4 mi
+android.widget.TableLayout@405ae0b0
+android.widget.TableRow@405ca4c8
+android.widget.TextView: Saint Barnabas Medical Center
+android.widget.TableRow@405caf60
+android.widget.TextView: Address , City
+android.widget.TableRow@405ce380
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@406729b8
+android.widget.ImageView@40672bd0
+android.widget.TextView: 7.4 mi
+android.widget.TableLayout@40668ea0
+android.widget.TableRow@40669378
+android.widget.TextView: Clara Maass Medical Center
+android.widget.TableRow@40669b68
+android.widget.TextView: Address , City
+android.widget.TableRow@4066a358
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405cf570
+android.widget.ImageView@405cf788
+android.widget.TextView: 7.7 mi
+android.widget.TableLayout@405e5fa0
+android.widget.TableRow@405e6458
+android.widget.TextView: Overlook Hospital
+android.widget.TableRow@405e6c48
+android.widget.TextView: Address , City
+android.widget.TableRow@405ebad8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405eca88
+android.widget.ImageView@405ecca0
+android.widget.TextView: 8.0 mi
+android.widget.TableLayout@405f1c20
+android.widget.TableRow@405f20f8
+android.widget.TextView: Kessler Institute for Rehabilitation
+android.widget.TableRow@405f28e8
+android.widget.TextView: Address , City
+android.widget.TableRow@405d53e8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405d6428
+android.widget.ImageView@4066fbf0
+android.widget.TextView: 8.1 mi
+android.widget.TableLayout@40670190
+android.widget.TableRow@40670668
+android.widget.TextView: Summit Oaks Hospital
+android.widget.TableRow@40670e58
+android.widget.TextView: Address , City
+android.widget.TableRow@406893d0
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@406729b8
+android.widget.ImageView@40672bd0
+android.widget.TextView: 7.4 mi
+android.widget.TableLayout@40668ea0
+android.widget.TableRow@40669378
+android.widget.TextView: Clara Maass Medical Center
+android.widget.TableRow@40669b68
+android.widget.TextView: Address , City
+android.widget.TableRow@4066a358
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405cf570
+android.widget.ImageView@405cf788
+android.widget.TextView: 7.7 mi
+android.widget.TableLayout@405e5fa0
+android.widget.TableRow@405e6458
+android.widget.TextView: Overlook Hospital
+android.widget.TableRow@405e6c48
+android.widget.TextView: Address , City
+android.widget.TableRow@405ebad8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405eca88
+android.widget.ImageView@405ecca0
+android.widget.TextView: 8.0 mi
+android.widget.TableLayout@405f1c20
+android.widget.TableRow@405f20f8
+android.widget.TextView: Kessler Institute for Rehabilitation
+android.widget.TableRow@405f28e8
+android.widget.TextView: Address , City
+android.widget.TableRow@405d53e8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405d6428
+android.widget.ImageView@4066fbf0
+android.widget.TextView: 8.1 mi
+android.widget.TableLayout@40670190
+android.widget.TableRow@40670668
+android.widget.TextView: Summit Oaks Hospital
+android.widget.TableRow@40670e58
+android.widget.TextView: Address , City
+android.widget.TableRow@406893d0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4068a470
+android.widget.ImageView@4068a688
+android.widget.TextView: 8.4 mi
+android.widget.TableLayout@4068ae28
+android.widget.TableRow@4068b300
+android.widget.TextView: Staten Island University Hospital-Concord
+android.widget.TableRow@4068baf0
+android.widget.TextView: Address , City
+android.widget.TableRow@406718f8
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405d3748
+android.widget.ImageView@405d3960
+android.widget.TextView: 8.8 mi
+android.widget.TableLayout@405d4020
+android.widget.TableRow@405d44f8
+android.widget.TextView: St. Vincent's Hospital
+android.widget.TableRow@405d4ce8
+android.widget.TextView: Address , City
+android.widget.TableRow@4058e198
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@405d3748
+android.widget.ImageView@405d3960
+android.widget.TextView: 8.8 mi
+android.widget.TableLayout@405d4020
+android.widget.TableRow@405d44f8
+android.widget.TextView: St. Vincent's Hospital
+android.widget.TableRow@405d4ce8
+android.widget.TextView: Address , City
+android.widget.TableRow@4058e198
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059d1d8
+android.widget.ImageView@4059d3f0
+android.widget.TextView: 8.9 mi
+android.widget.TableLayout@4059dab0
+android.widget.TableRow@4059df88
+android.widget.TextView: LibertyHealth-Jersey City Medical Center
+android.widget.TableRow@4059e778
+android.widget.TextView: Address , City
+android.widget.TableRow@4059ef68
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405ad000
+android.widget.ImageView@405ad478
+android.widget.TextView: 9.1 mi
+android.widget.TableLayout@405ae0b0
+android.widget.TableRow@405ca4c8
+android.widget.TextView: Mountainside Hospital
+android.widget.TableRow@405caf60
+android.widget.TextView: Address , City
+android.widget.TableRow@405ce380
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4058f130
+android.widget.ImageView@4058f348
+android.widget.TextView: 9.2 mi
+android.widget.TableLayout@4058fa08
+android.widget.TableRow@4058fee0
+android.widget.TextView: Woodbridge Development Center
+android.widget.TableRow@405957d0
+android.widget.TextView: Address , City
+android.widget.TableRow@40595fc0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@40596f78
+android.widget.ImageView@40597190
+android.widget.TextView: 9.4 mi
+android.widget.TableLayout@40599018
+android.widget.TableRow@40599398
+android.widget.TextView: Christ Hospital
+android.widget.TableRow@40599b88
+android.widget.TextView: Address , City
+android.widget.TableRow@4059a378
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059b358
+android.widget.ImageView@40559140
+android.widget.TextView: 9.5 mi
+android.widget.TableLayout@40559738
+android.widget.TableRow@40559c10
+android.widget.TextView: Staten Island University Hospital
+android.widget.TableRow@4055a400
+android.widget.TextView: Address , City
+android.widget.TableRow@4055abf0
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data
+android.widget.LinearLayout@40690228
+android.widget.FrameLayout@40690a10
+android.widget.TextView: Hospitals Near Me FREE
+android.widget.FrameLayout@4055fc28
+android.widget.LinearLayout@40561490
+android.widget.ListView@4056fb08
+android.widget.LinearLayout@405ad000
+android.widget.ImageView@405ad478
+android.widget.TextView: 9.1 mi
+android.widget.TableLayout@405ae0b0
+android.widget.TableRow@405ca4c8
+android.widget.TextView: Mountainside Hospital
+android.widget.TableRow@405caf60
+android.widget.TextView: Address , City
+android.widget.TableRow@405ce380
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4058f130
+android.widget.ImageView@4058f348
+android.widget.TextView: 9.2 mi
+android.widget.TableLayout@4058fa08
+android.widget.TableRow@4058fee0
+android.widget.TextView: Woodbridge Development Center
+android.widget.TableRow@405957d0
+android.widget.TextView: Address , City
+android.widget.TableRow@40595fc0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@40596f78
+android.widget.ImageView@40597190
+android.widget.TextView: 9.4 mi
+android.widget.TableLayout@40599018
+android.widget.TableRow@40599398
+android.widget.TextView: Christ Hospital
+android.widget.TableRow@40599b88
+android.widget.TextView: Address , City
+android.widget.TableRow@4059a378
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@4059b358
+android.widget.ImageView@40559140
+android.widget.TextView: 9.5 mi
+android.widget.TableLayout@40559738
+android.widget.TableRow@40559c10
+android.widget.TextView: Staten Island University Hospital
+android.widget.TableRow@4055a400
+android.widget.TextView: Address , City
+android.widget.TableRow@4055abf0
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@406729b8
+android.widget.ImageView@40672bd0
+android.widget.TextView: 9.7 mi
+android.widget.TableLayout@40668ea0
+android.widget.TableRow@40669378
+android.widget.TextView: Livingston Community Hospital
+android.widget.TableRow@40669b68
+android.widget.TextView: Address , City
+android.widget.TableRow@4066a358
+android.widget.TextView: Phone Number
+android.widget.LinearLayout@405cf570
+android.widget.ImageView@405cf788
+android.widget.TextView: 9.9 mi
+android.widget.TableLayout@405e5fa0
+android.widget.TableRow@405e6458
+android.widget.TextView: South Beach Psychiatric Center
+android.widget.TableRow@405e6c48
+android.widget.TextView: Address , City
+android.widget.TableRow@405ebad8
+android.widget.TextView: Phone Number
+android.widget.TextView: Loading data

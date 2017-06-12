@@ -1,0 +1,129 @@
+Symbolic execution formulas
+
+# Generating symbolic paths
+
+Our symbolic analysis outputs a set of symbolic paths.  This set of
+paths includes a bunch of final states, a picture of a single trace
+after it has been run for some set of input events.  A trace is a set
+of events, where events are messages in our formalism:
+
+  ch ? v | ch ! v
+
+Two major points differ from our formalism:
+
+  - Java code doesn't have write and read commands explicitly.
+  Instead, we mark (via hooks in the symbolic executor) which actions
+  in Java code generate what events.  As an example, the creation of a
+  symbolic variable is a channel read event.  There are explicit
+  annotations in the code that specifies where input is coming from.
+  As an example, we have a method create_symbolic_int that has as a
+  parameteer a channel, so that if we want to create location data we
+  can pass it the "location" argument, and this event (loc?v) is
+  recorded as an element of the trace.
+  
+  Output events work similarly.  In most situations I've been thinking
+  about, these would be writes to the network.  Our code really has a
+  class that sends data, which is really just a mock object that is
+  serving the place of internet sends.  It's annotated with hooks
+  similarly so that when data is sent out of it, an event is recorded.
+
+  - The values sent out are not "primitives" as in our formalism.
+  Instead, they are symbolic variables or expressions.  The variable
+  is only made concrete by instantiating it with any element
+  satisfying the proper path condition of the state.
+
+Becuase of this, a symbolic state represents a trace:
+
+  ev1 , ev2 , ..., evn
+
+Such that the free variables in the path condition can be
+satisfied. Thus, we have a function concretize(s), which maps a
+symbolic state to a set of concrete traces:
+
+  ev1 , ev2 , ..., evn
+
+In other words, a set of symbolic paths is a finite set of objects
+that have this type:
+
+  ev1, ev2 , ..., evn | phi
+
+where phi is the path condition containing symbolic variables, and the
+concretization function (not explicitly implemented) maps this set of
+paths to concrete traces.
+
+As a technicality, a symbolic trace at the end of execution contains a
+trace and a path condition, but it also includes each prefix.  Instead
+of representing a "final" state of the analysis like the above type,
+we represent it like this:
+
+  ev1 |phi1 , ev2|phi2 , ..., evn | phin
+
+The reason why we do this is so that we can concretize each prefix of
+the trace.  Using the path condition phi, we would only be able to
+concretize the trace ev1, ..., evn.  Because we need to represent
+prefixes, we need to maintain these prefix constraints.  The reason is
+that the policies we're using say that things must be kept secret
+until some time, after which point they can be released.
+
+# Writing formulas about symbolic paths
+
+Noninterference says that for any path where I had some series of
+inputs and outputs, I could have choosen any input, and I would have
+gotten the same output.
+
+An equalivalent way to state this is to say, if I have any symbolic
+path:
+
+  ev1 , ev2, ..., evn
+
+I need to be able to take the inputs and make them any possible value.
+For example, looking at this path:
+
+  ch ? v1 , o ! 1 , ch ? v2 , ..., evn
+    ^^                ^^  
+
+I need to be able to take these events and vary their inputs.  I
+should see the same exact low observable output stream no matter what
+inputs I put in there.
+
+As an example, consider this program:
+
+read(x). if (x = 0) out(1) else out(0)
+
+It generates two symbolic paths:
+
+  ch?v1 . out!1 | v1 = 0
+  ch?v1 . out!0 | v1 <> 0
+
+We can find v1 and v1' such that the first output is not the same,
+simply consider v1 = 0 and v1' = 1. We let Z3 find solutions to
+equations of this from for us.
+
+To find otu whether information is potentially leaked, our system
+takes any two paths that are of this same form:
+
+  ev1 , ..., evn
+
+We then look for places where the low input is equal, and the high
+output might be different.  If we can find an instance where this is
+the case, we've found two concrete inputs that *should* be secret (and
+thus not influence the output of the trace), and yet they do.
+
+Algorithm(noninterference)
+
+Input: a set of symbolic traces (traces along with their path
+conditions) T.
+
+for each symbolic traces t and t' in T x T:
+  for each finite subsequence of t, t1
+  and each finite subsequence of t, t2
+  Ask the solver, is it possible that
+    low_inputs_equal(t1,t2) /\ high_outputs_inequal(t1,t2)
+  If the solver finds a solution, it is an assignment to the secret
+  inputs in t1 and t2 that generate different outputs.  This is a
+  counterexample to report.
+
+# Declassifying information
+
+To be written...
+

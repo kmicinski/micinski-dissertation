@@ -1,0 +1,44 @@
+android.widget.FrameLayout@4063be90
+android.widget.TabHost@4060fe60
+android.widget.LinearLayout@40610170
+android.widget.LinearLayout@40639e30
+android.widget.LinearLayout@40594000
+android.widget.ImageView@40596500
+android.widget.ImageButton@40596728
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4060cfe0
+android.widget.ProgressBar@4060dda8
+android.widget.ImageButton@4060e578
+android.widget.TabWidget@4063a2f0
+android.widget.LinearLayout@4057da68
+android.widget.ImageView@405792f8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40600a48
+android.widget.ImageView@40612bb8
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4056c098
+android.view.View@40613f28
+android.widget.ImageView@4056c348
+android.widget.TextView: Approx Address (within 0.0 meters)
+823 Delafield St NE
+Washington, District of Columbia 20017
+android.widget.ImageView@4057c1f8
+com.jazzmoonstudio.android.common.view.CustomViewPager@405663b8
+android.support.v4.app.y@4054ffd0
+android.widget.LinearLayout@405908e8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@405913e8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4054b760
+android.widget.ImageView@4058f7a0
+android.widget.ImageView@4067b2a8
+android.widget.ImageView@4050c9e0
+android.widget.TextView: Fort Totten
+android.widget.TextView: Approx: 0.47 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405a4f18
+android.support.v4.app.y@40571700
+android.widget.LinearLayout@40556098
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40581558
+android.widget.FrameLayout@40583538
+com.millennialmedia.android.MMAdView@405837f8
+android.webkit.WebView@4058b690

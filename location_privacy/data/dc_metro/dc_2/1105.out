@@ -1,0 +1,44 @@
+android.widget.FrameLayout@40638050
+android.widget.TabHost@4063c048
+android.widget.LinearLayout@4063c358
+android.widget.LinearLayout@405156c8
+android.widget.LinearLayout@40620008
+android.widget.ImageView@40620490
+android.widget.ImageButton@406206b8
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4058ffe8
+android.widget.ProgressBar@40590db0
+android.widget.ImageButton@4062efd0
+android.widget.TabWidget@40515b88
+android.widget.LinearLayout@40513f30
+android.widget.ImageView@4057d2f8
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@4062a0f8
+android.widget.ImageView@4062a6f8
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4056e8f0
+android.view.View@40606610
+android.widget.ImageView@4056eba0
+android.widget.TextView: Approx Address (within 0.0 meters)
+Emerson St NE
+Washington, District of Columbia 20017
+android.widget.ImageView@40607930
+com.jazzmoonstudio.android.common.view.CustomViewPager@4057ee98
+android.support.v4.app.y@4055e7d0
+android.widget.LinearLayout@4061a948
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4061b848
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40591a58
+android.widget.ImageView@40591bc8
+android.widget.ImageView@40567278
+android.widget.ImageView@4057e5e8
+android.widget.TextView: Fort Totten
+android.widget.TextView: Approx: 0.60 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4061b4f0
+android.support.v4.app.y@40571008
+android.widget.LinearLayout@4055ccb8
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4056c088
+android.widget.FrameLayout@405881d8
+com.millennialmedia.android.MMAdView@40612a98
+android.webkit.WebView@406301e0

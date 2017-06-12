@@ -1,0 +1,128 @@
+android.widget.FrameLayout@40515cc8
+android.widget.TabHost@4061fb20
+android.widget.LinearLayout@4061fe30
+android.widget.LinearLayout@40596df8
+android.widget.LinearLayout@4063b7a0
+android.widget.ImageView@4063bc08
+android.widget.ImageButton@4063be30
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40590a38
+android.widget.ProgressBar@40591798
+android.widget.ImageButton@40579400
+android.widget.TabWidget@405971a8
+android.widget.LinearLayout@406081b0
+android.widget.ImageView@4061e520
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40569e90
+android.widget.ImageView@4057d168
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40575760
+android.view.View@4060f590
+android.widget.ImageView@40575a10
+android.widget.TextView: Approx Address (within 0.0 meters)
+3555 Springland Ln NW
+Washington, District of Columbia 20008
+android.widget.ImageView@4057c0a8
+com.jazzmoonstudio.android.common.view.CustomViewPager@4063d5f0
+android.support.v4.app.y@405908e0
+android.widget.LinearLayout@40623470
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40623f70
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40588e08
+android.widget.ImageView@40588f78
+android.widget.TextView: Van Ness-UDC
+android.widget.TextView: Approx: 0.47 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4056edd0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4056a848
+android.widget.ImageView@4056aa00
+android.widget.TextView: Tenleytown-AU
+android.widget.TextView: Approx: 0.70 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40622ab8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@40563c48
+android.widget.ImageView@40563db8
+android.widget.TextView: Cleveland Park
+android.widget.TextView: Approx: 0.79 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@40622400
+android.support.v4.app.y@40584d48
+android.widget.LinearLayout@40550670
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054c088
+android.widget.FrameLayout@40514028
+com.millennialmedia.android.MMAdView@405142e8
+android.webkit.WebView@40605918
+android.widget.FrameLayout@40515cc8
+android.widget.TabHost@4061fb20
+android.widget.LinearLayout@4061fe30
+android.widget.LinearLayout@40596df8
+android.widget.LinearLayout@4063b7a0
+android.widget.ImageView@4063bc08
+android.widget.ImageButton@4063be30
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40590a38
+android.widget.ProgressBar@40591798
+android.widget.ImageButton@40579400
+android.widget.TabWidget@405971a8
+android.widget.LinearLayout@406081b0
+android.widget.ImageView@4061e520
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40569e90
+android.widget.ImageView@4057d168
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40575760
+android.view.View@4060f590
+android.widget.ImageView@40575a10
+android.widget.TextView: Approx Address (within 0.0 meters)
+3555 Springland Ln NW
+Washington, District of Columbia 20008
+android.widget.ImageView@4057c0a8
+com.jazzmoonstudio.android.common.view.CustomViewPager@4063d5f0
+android.support.v4.app.y@405908e0
+android.widget.LinearLayout@40623470
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40623f70
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405d9d28
+android.widget.ImageView@405d9f38
+android.widget.TextView: Van Ness-UDC
+android.widget.TextView: Approx: 0.47 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405db990
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405dbfb0
+android.widget.ImageView@405dc1c0
+android.widget.TextView: Tenleytown-AU
+android.widget.TextView: Approx: 0.70 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405dcf20
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405dd540
+android.widget.ImageView@405dd750
+android.widget.TextView: Cleveland Park
+android.widget.TextView: Approx: 0.79 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405de4b0
+android.support.v4.app.y@40584d48
+android.widget.LinearLayout@40550670
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4054c088
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405df170
+android.widget.TextView: PORTER ST + IDAHO AVE
+android.widget.TextView: Approx: 0.33 mi.
+android.widget.TextView: Stop ID: 1002245
+Lines: H3,H4,H4vS
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405e08d8
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405e1200
+android.widget.TextView: VAN NESS ST + RENO RD
+android.widget.TextView: Approx: 0.33 mi.
+android.widget.TextView: Stop ID: 1002378
+Lines: H2
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405e2508
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405e2e30
+android.widget.TextView: PORTER ST + 37TH ST
+android.widget.TextView: Approx: 0.36 mi.
+android.widget.TextView: Stop ID: 1002253
+Lines: D32,H3,H4,W47
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405e4150
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405e4a78
+android.widget.TextView: VAN NESS ST + RENO RD
+android.widget.TextView: Approx: 0.36 mi.
+android.widget.TextView: Stop ID: 1003731
+Lines: H2
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405e5da0
+android.widget.FrameLayout@40514028
+com.millennialmedia.android.MMAdView@405142e8
+android.webkit.WebView@40605918

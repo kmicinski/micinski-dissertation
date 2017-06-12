@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mainthesis.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Titlepage.aux
+A level-1 auxiliary file: Copyright.aux
+A level-1 auxiliary file: Dedication.aux
+A level-1 auxiliary file: Acknowledgements.aux
+A level-1 auxiliary file: Abbreviations.aux
+A level-1 auxiliary file: Chapter1.aux
+A level-1 auxiliary file: Chapter2.aux
+A level-1 auxiliary file: Chapter3.aux
+A level-1 auxiliary file: Chapter4.aux
+A level-1 auxiliary file: Chapter5.aux
+A level-1 auxiliary file: Chapter6.aux
+A level-1 auxiliary file: supertabular.aux
+The style file: unsrt.bst
+Database file #1: dissertation.bib
+Warning--entry type for "latitude-calculator" isn't style-file defined
+--line 230 of file dissertation.bib
+Warning--entry type for "camera2basic" isn't style-file defined
+--line 2272 of file dissertation.bib
+Warning--empty school in Denning:1975
+Warning--empty institution in Michael:1995
+Warning--empty author in Felt:2012hotsec
+Warning--empty year in Schechter:2007bj
+Warning--empty journal in avdiienkodetecting
+Warning--empty year in avdiienkodetecting
+You've used 139 entries,
+            1791 wiz_defined-function locations,
+            1272 strings with 30846 characters,
+and the built_in function-call counts, 41314 in all, are:
+= -- 3856
+> -- 1745
+< -- 86
++ -- 635
+- -- 496
+* -- 2499
+:= -- 5874
+add.period$ -- 469
+call.type$ -- 139
+change.case$ -- 135
+chr.to.int$ -- 0
+cite$ -- 145
+duplicate$ -- 2124
+empty$ -- 4053
+format.name$ -- 496
+if$ -- 9889
+int.to.chr$ -- 0
+int.to.str$ -- 139
+missing$ -- 116
+newline$ -- 691
+num.names$ -- 146
+pop$ -- 648
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1302
+stack$ -- 0
+substring$ -- 2545
+swap$ -- 849
+text.length$ -- 86
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 380
+width$ -- 142
+write$ -- 1622
+(There were 8 warnings)

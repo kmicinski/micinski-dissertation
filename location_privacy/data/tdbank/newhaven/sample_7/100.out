@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40585aa0
+android.widget.LinearLayout@40586550
+android.widget.FrameLayout@40586800
+android.widget.ImageView@40586ab0
+android.widget.RelativeLayout@40586f48
+android.widget.ImageButton@40587558
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ac08
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058d018
+android.widget.LinearLayout@4058d3c0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058ebb8
+android.widget.LinearLayout@405386b8
+android.widget.TextView: Locations
+android.widget.ScrollView@40573e18
+android.widget.TableLayout@4053dfe8
+android.widget.TableRow@4062c390
+android.widget.ImageView@40630bb8
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@40536528
+android.widget.ImageView@405369d0
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 2.32 mi
+android.widget.TableRow@40614380
+android.widget.ImageView@40614828
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@406080b0
+android.widget.ImageView@40578dc0
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4061e278
+android.widget.ImageView@4061e720
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 2.62 mi
+android.widget.TableRow@40615a10
+android.widget.ImageView@40636d70
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 2.62 mi
+android.widget.TableRow@4061a118
+android.widget.ImageView@4061a5c0
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@405747c0
+android.widget.ImageView@40574c68
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@40578358
+android.widget.ImageView@40578800
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@4062ff40
+android.widget.ImageView@406303e8
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.20 mi
+android.widget.TableRow@40616bb8
+android.widget.ImageView@40617060
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.95 mi
+android.widget.TableRow@406239f0
+android.widget.ImageView@40623e98
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.95 mi
+android.widget.TableRow@4057d6f0
+android.widget.ImageView@4057db98
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 6.93 mi
+android.widget.TableRow@40620348
+android.widget.ImageView@406207f0
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 6.93 mi
+android.widget.TableRow@4057a470
+android.widget.ImageView@4057a918
+android.widget.TextView: 828 Bridgeport Avenue
+android.widget.TextView: 7.90 mi
+android.widget.TableRow@4054da10
+android.widget.ImageView@4054deb8
+android.widget.TextView: 820 Bridgeport Avenue
+android.widget.TextView: 7.93 mi
+android.widget.TableRow@40610638
+android.widget.ImageView@40610ae0
+android.widget.TextView: 971 W Main Street
+android.widget.TextView: 8.05 mi
+android.widget.TableRow@40611aa8
+android.widget.ImageView@4060b0a8
+android.widget.TextView: 249 Bank Street
+android.widget.TextView: 8.15 mi
+android.widget.TableRow@4060c070
+android.widget.ImageView@4060c518
+android.widget.TextView: 1003 W Main Street
+android.widget.TextView: 8.16 mi
+android.widget.TableRow@40575df0
+android.widget.ImageView@40576298
+android.widget.TextView: Bank Street At Klarides Village
+android.widget.TextView: 8.19 mi
+android.widget.FrameLayout@406124e0
+android.widget.ImageView@4053a858
+android.widget.Button: Filter
+android.widget.LinearLayout@4054cd30
+android.widget.FrameLayout@40613068
+android.widget.ImageView@4054d358
+android.widget.Button: Filter
+android.widget.FrameLayout@406197e8
+android.widget.Button: Done
+android.widget.FrameLayout@40621c68
+android.widget.ImageView@40579b20
+android.widget.TextView: Stores
+android.widget.ImageView@40582b58
+android.widget.FrameLayout@40629b70
+android.widget.ImageView@40583168
+android.widget.TextView: ATMs
+android.widget.ImageView@40583490
+android.widget.FrameLayout@40585aa0
+android.widget.LinearLayout@40586550
+android.widget.FrameLayout@40586800
+android.widget.ImageView@40586ab0
+android.widget.RelativeLayout@40586f48
+android.widget.ImageButton@40587558
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ac08
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058d018
+android.widget.LinearLayout@4058d3c0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058ebb8
+android.widget.LinearLayout@405386b8
+android.widget.TextView: Locations
+android.widget.ScrollView@40573e18
+android.widget.TableLayout@4053dfe8
+android.widget.TableRow@4062c390
+android.widget.ImageView@40630bb8
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@40536528
+android.widget.ImageView@405369d0
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 2.32 mi
+android.widget.TableRow@40614380
+android.widget.ImageView@40614828
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@406080b0
+android.widget.ImageView@40578dc0
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4061e278
+android.widget.ImageView@4061e720
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 2.62 mi
+android.widget.TableRow@40615a10
+android.widget.ImageView@40636d70
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 2.62 mi
+android.widget.TableRow@4061a118
+android.widget.ImageView@4061a5c0
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@405747c0
+android.widget.ImageView@40574c68
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@40578358
+android.widget.ImageView@40578800
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@4062ff40
+android.widget.ImageView@406303e8
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.20 mi
+android.widget.TableRow@40616bb8
+android.widget.ImageView@40617060
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.95 mi
+android.widget.TableRow@406239f0
+android.widget.ImageView@40623e98
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.95 mi
+android.widget.TableRow@4057d6f0
+android.widget.ImageView@4057db98
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 6.93 mi
+android.widget.TableRow@40620348
+android.widget.ImageView@406207f0
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 6.93 mi
+android.widget.TableRow@4057a470
+android.widget.ImageView@4057a918
+android.widget.TextView: 828 Bridgeport Avenue
+android.widget.TextView: 7.90 mi
+android.widget.TableRow@4054da10
+android.widget.ImageView@4054deb8
+android.widget.TextView: 820 Bridgeport Avenue
+android.widget.TextView: 7.93 mi
+android.widget.TableRow@40610638
+android.widget.ImageView@40610ae0
+android.widget.TextView: 971 W Main Street
+android.widget.TextView: 8.05 mi
+android.widget.TableRow@40611aa8
+android.widget.ImageView@4060b0a8
+android.widget.TextView: 249 Bank Street
+android.widget.TextView: 8.15 mi
+android.widget.TableRow@4060c070
+android.widget.ImageView@4060c518
+android.widget.TextView: 1003 W Main Street
+android.widget.TextView: 8.16 mi
+android.widget.TableRow@40575df0
+android.widget.ImageView@40576298
+android.widget.TextView: Bank Street At Klarides Village
+android.widget.TextView: 8.19 mi
+android.widget.FrameLayout@406124e0
+android.widget.ImageView@4053a858
+android.widget.Button: Filter
+android.widget.LinearLayout@4054cd30
+android.widget.FrameLayout@40613068
+android.widget.ImageView@4054d358
+android.widget.Button: Filter
+android.widget.FrameLayout@406197e8
+android.widget.Button: Done
+android.widget.FrameLayout@40621c68
+android.widget.ImageView@40579b20
+android.widget.TextView: Stores
+android.widget.ImageView@40582b58
+android.widget.FrameLayout@40629b70
+android.widget.ImageView@40583168
+android.widget.TextView: ATMs
+android.widget.ImageView@40583490
+android.widget.FrameLayout@40585aa0
+android.widget.LinearLayout@40586550
+android.widget.FrameLayout@40586800
+android.widget.ImageView@40586ab0
+android.widget.RelativeLayout@40586f48
+android.widget.ImageButton@40587558
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@4058ac08
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058d018
+android.widget.LinearLayout@4058d3c0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058ebb8
+android.widget.LinearLayout@405386b8
+android.widget.TextView: Locations
+android.widget.ScrollView@40573e18
+android.widget.TableLayout@4053dfe8
+android.widget.TableRow@4062c390
+android.widget.ImageView@40630bb8
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 2.31 mi
+android.widget.TableRow@40536528
+android.widget.ImageView@405369d0
+android.widget.TextView: 175 Boston Post Road
+android.widget.TextView: 2.32 mi
+android.widget.TableRow@40614380
+android.widget.ImageView@40614828
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@406080b0
+android.widget.ImageView@40578dc0
+android.widget.TextView: 128 Amity Road
+android.widget.TextView: 2.35 mi
+android.widget.TableRow@4061e278
+android.widget.ImageView@4061e720
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 2.62 mi
+android.widget.TableRow@40615a10
+android.widget.ImageView@40636d70
+android.widget.TextView: 636 Campbell Avenue
+android.widget.TextView: 2.62 mi
+android.widget.TableRow@4061a118
+android.widget.ImageView@4061a5c0
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@405747c0
+android.widget.ImageView@40574c68
+android.widget.TextView: 994 Chapel Street
+android.widget.TextView: 2.88 mi
+android.widget.TableRow@40578358
+android.widget.ImageView@40578800
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.19 mi
+android.widget.TableRow@4062ff40
+android.widget.ImageView@406303e8
+android.widget.TextView: 1361 Boston Post Road
+android.widget.TextView: 5.20 mi
+android.widget.TableRow@40616bb8
+android.widget.ImageView@40617060
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.95 mi
+android.widget.TableRow@406239f0
+android.widget.ImageView@40623e98
+android.widget.TextView: 466 Foxon Boulevard
+android.widget.TextView: 5.95 mi
+android.widget.TableRow@4057d6f0
+android.widget.ImageView@4057db98
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 6.93 mi
+android.widget.TableRow@40620348
+android.widget.ImageView@406207f0
+android.widget.TextView: 2992 Dixwell Avenue
+android.widget.TextView: 6.93 mi
+android.widget.TableRow@4057a470
+android.widget.ImageView@4057a918
+android.widget.TextView: 828 Bridgeport Avenue
+android.widget.TextView: 7.90 mi
+android.widget.TableRow@4054da10
+android.widget.ImageView@4054deb8
+android.widget.TextView: 820 Bridgeport Avenue
+android.widget.TextView: 7.93 mi
+android.widget.TableRow@40610638
+android.widget.ImageView@40610ae0
+android.widget.TextView: 971 W Main Street
+android.widget.TextView: 8.05 mi
+android.widget.TableRow@40611aa8
+android.widget.ImageView@4060b0a8
+android.widget.TextView: 249 Bank Street
+android.widget.TextView: 8.15 mi
+android.widget.TableRow@4060c070
+android.widget.ImageView@4060c518
+android.widget.TextView: 1003 W Main Street
+android.widget.TextView: 8.16 mi
+android.widget.TableRow@40575df0
+android.widget.ImageView@40576298
+android.widget.TextView: Bank Street At Klarides Village
+android.widget.TextView: 8.19 mi
+android.widget.FrameLayout@406124e0
+android.widget.ImageView@4053a858
+android.widget.Button: Filter
+android.widget.LinearLayout@4054cd30
+android.widget.FrameLayout@40613068
+android.widget.ImageView@4054d358
+android.widget.Button: Filter
+android.widget.FrameLayout@406197e8
+android.widget.Button: Done
+android.widget.FrameLayout@40621c68
+android.widget.ImageView@40579b20
+android.widget.TextView: Stores
+android.widget.ImageView@40582b58
+android.widget.FrameLayout@40629b70
+android.widget.ImageView@40583168
+android.widget.TextView: ATMs
+android.widget.ImageView@40583490

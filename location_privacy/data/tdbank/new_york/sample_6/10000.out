@@ -1,0 +1,348 @@
+android.widget.FrameLayout@40582fc0
+android.widget.LinearLayout@40583a70
+android.widget.FrameLayout@40583d20
+android.widget.ImageView@40583fd0
+android.widget.RelativeLayout@40584468
+android.widget.ImageButton@40584a78
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40588128
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058a538
+android.widget.LinearLayout@4058a8e0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058c0d8
+android.widget.LinearLayout@40539d60
+android.widget.TextView: Locations
+android.widget.ScrollView@4054e600
+android.widget.TableLayout@40552520
+android.widget.TableRow@40619098
+android.widget.ImageView@40635d88
+android.widget.TextView: 37 Saint Georges Avenue
+android.widget.TextView: 2.19 mi
+android.widget.TableRow@4053bfe0
+android.widget.ImageView@40615ac0
+android.widget.TextView: 37 Saint Georges Avenue
+android.widget.TextView: 2.19 mi
+android.widget.TableRow@405542e0
+android.widget.ImageView@40554788
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 3.48 mi
+android.widget.TableRow@4061f598
+android.widget.ImageView@4061f9b8
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 3.48 mi
+android.widget.TableRow@4061be28
+android.widget.ImageView@4061c2d0
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 3.62 mi
+android.widget.TableRow@40634300
+android.widget.ImageView@406346d8
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 3.62 mi
+android.widget.TableRow@4060c3b8
+android.widget.ImageView@4060c860
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@40611e38
+android.widget.ImageView@40637130
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@4061cf20
+android.widget.ImageView@4061d3c8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 4.36 mi
+android.widget.TableRow@4061a818
+android.widget.ImageView@4061acc0
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 4.36 mi
+android.widget.TableRow@4054d110
+android.widget.ImageView@4054d5b8
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 4.37 mi
+android.widget.TableRow@40630340
+android.widget.ImageView@406307e8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 4.41 mi
+android.widget.TableRow@405759f8
+android.widget.ImageView@40575ea0
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 4.74 mi
+android.widget.TableRow@405721e0
+android.widget.ImageView@4062c358
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@4062d340
+android.widget.ImageView@40613de0
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 4.80 mi
+android.widget.TableRow@40614dc8
+android.widget.ImageView@40615270
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@405730a0
+android.widget.ImageView@40573548
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 5.17 mi
+android.widget.TableRow@40579658
+android.widget.ImageView@40579b00
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 5.18 mi
+android.widget.TableRow@4057aad8
+android.widget.ImageView@4057af80
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 5.37 mi
+android.widget.TableRow@4054f5b8
+android.widget.ImageView@4054fa60
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 5.37 mi
+android.widget.FrameLayout@40617ec8
+android.widget.ImageView@4057cc00
+android.widget.Button: Filter
+android.widget.LinearLayout@4057e3b0
+android.widget.FrameLayout@4061a160
+android.widget.ImageView@4057f880
+android.widget.Button: Filter
+android.widget.FrameLayout@406243f8
+android.widget.Button: Done
+android.widget.FrameLayout@40625748
+android.widget.ImageView@40580288
+android.widget.TextView: Stores
+android.widget.ImageView@405a7d98
+android.widget.FrameLayout@40633748
+android.widget.ImageView@4061ccf8
+android.widget.TextView: ATMs
+android.widget.ImageView@40621d10
+android.widget.FrameLayout@40582fc0
+android.widget.LinearLayout@40583a70
+android.widget.FrameLayout@40583d20
+android.widget.ImageView@40583fd0
+android.widget.RelativeLayout@40584468
+android.widget.ImageButton@40584a78
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40588128
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058a538
+android.widget.LinearLayout@4058a8e0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058c0d8
+android.widget.LinearLayout@40539d60
+android.widget.TextView: Locations
+android.widget.ScrollView@4054e600
+android.widget.TableLayout@40552520
+android.widget.TableRow@40619098
+android.widget.ImageView@40635d88
+android.widget.TextView: 37 Saint Georges Avenue
+android.widget.TextView: 2.19 mi
+android.widget.TableRow@4053bfe0
+android.widget.ImageView@40615ac0
+android.widget.TextView: 37 Saint Georges Avenue
+android.widget.TextView: 2.19 mi
+android.widget.TableRow@405542e0
+android.widget.ImageView@40554788
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 3.48 mi
+android.widget.TableRow@4061f598
+android.widget.ImageView@4061f9b8
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 3.48 mi
+android.widget.TableRow@4061be28
+android.widget.ImageView@4061c2d0
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 3.62 mi
+android.widget.TableRow@40634300
+android.widget.ImageView@406346d8
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 3.62 mi
+android.widget.TableRow@4060c3b8
+android.widget.ImageView@4060c860
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@40611e38
+android.widget.ImageView@40637130
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@4061cf20
+android.widget.ImageView@4061d3c8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 4.36 mi
+android.widget.TableRow@4061a818
+android.widget.ImageView@4061acc0
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 4.36 mi
+android.widget.TableRow@4054d110
+android.widget.ImageView@4054d5b8
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 4.37 mi
+android.widget.TableRow@40630340
+android.widget.ImageView@406307e8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 4.41 mi
+android.widget.TableRow@405759f8
+android.widget.ImageView@40575ea0
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 4.74 mi
+android.widget.TableRow@405721e0
+android.widget.ImageView@4062c358
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@4062d340
+android.widget.ImageView@40613de0
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 4.80 mi
+android.widget.TableRow@40614dc8
+android.widget.ImageView@40615270
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@405730a0
+android.widget.ImageView@40573548
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 5.17 mi
+android.widget.TableRow@40579658
+android.widget.ImageView@40579b00
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 5.18 mi
+android.widget.TableRow@4057aad8
+android.widget.ImageView@4057af80
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 5.37 mi
+android.widget.TableRow@4054f5b8
+android.widget.ImageView@4054fa60
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 5.37 mi
+android.widget.FrameLayout@40617ec8
+android.widget.ImageView@4057cc00
+android.widget.Button: Filter
+android.widget.LinearLayout@4057e3b0
+android.widget.FrameLayout@4061a160
+android.widget.ImageView@4057f880
+android.widget.Button: Filter
+android.widget.FrameLayout@406243f8
+android.widget.Button: Done
+android.widget.FrameLayout@40625748
+android.widget.ImageView@40580288
+android.widget.TextView: Stores
+android.widget.ImageView@405a7d98
+android.widget.FrameLayout@40633748
+android.widget.ImageView@4061ccf8
+android.widget.TextView: ATMs
+android.widget.ImageView@40621d10
+android.widget.FrameLayout@40582fc0
+android.widget.LinearLayout@40583a70
+android.widget.FrameLayout@40583d20
+android.widget.ImageView@40583fd0
+android.widget.RelativeLayout@40584468
+android.widget.ImageButton@40584a78
+android.widget.EditText: 
+android.widget.Button: Map
+android.widget.RelativeLayout@40588128
+android.widget.EditText: 
+android.widget.Button: Cancel
+android.widget.RelativeLayout@4058a538
+android.widget.LinearLayout@4058a8e0
+android.widget.TextView: Locations
+com.google.android.maps.MapView@4058c0d8
+android.widget.LinearLayout@40539d60
+android.widget.TextView: Locations
+android.widget.ScrollView@4054e600
+android.widget.TableLayout@40552520
+android.widget.TableRow@40619098
+android.widget.ImageView@40635d88
+android.widget.TextView: 37 Saint Georges Avenue
+android.widget.TextView: 2.19 mi
+android.widget.TableRow@4053bfe0
+android.widget.ImageView@40615ac0
+android.widget.TextView: 37 Saint Georges Avenue
+android.widget.TextView: 2.19 mi
+android.widget.TableRow@405542e0
+android.widget.ImageView@40554788
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 3.48 mi
+android.widget.TableRow@4061f598
+android.widget.ImageView@4061f9b8
+android.widget.TextView: 1071 Saint Georges Avenue
+android.widget.TextView: 3.48 mi
+android.widget.TableRow@4061be28
+android.widget.ImageView@4061c2d0
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 3.62 mi
+android.widget.TableRow@40634300
+android.widget.ImageView@406346d8
+android.widget.TextView: 1837 Richmond Avenue
+android.widget.TextView: 3.62 mi
+android.widget.TableRow@4060c3b8
+android.widget.ImageView@4060c860
+android.widget.TextView: 995 Morris Avenue (Kean University)
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@40611e38
+android.widget.ImageView@40637130
+android.widget.TextView: 995 Morris Avenue
+android.widget.TextView: 3.95 mi
+android.widget.TableRow@4061cf20
+android.widget.ImageView@4061d3c8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 4.36 mi
+android.widget.TableRow@4061a818
+android.widget.ImageView@4061acc0
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 4.36 mi
+android.widget.TableRow@4054d110
+android.widget.ImageView@4054d5b8
+android.widget.TextView: 1600 Forest Avenue
+android.widget.TextView: 4.37 mi
+android.widget.TableRow@40630340
+android.widget.ImageView@406307e8
+android.widget.TextView: 465 S Avenue
+android.widget.TextView: 4.41 mi
+android.widget.TableRow@405759f8
+android.widget.ImageView@40575ea0
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 4.74 mi
+android.widget.TableRow@405721e0
+android.widget.ImageView@4062c358
+android.widget.TextView: 570 Chestnut Street
+android.widget.TextView: 4.75 mi
+android.widget.TableRow@4062d340
+android.widget.ImageView@40613de0
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 4.80 mi
+android.widget.TableRow@40614dc8
+android.widget.ImageView@40615270
+android.widget.TextView: 1010 Raritan Road
+android.widget.TextView: 4.82 mi
+android.widget.TableRow@405730a0
+android.widget.ImageView@40573548
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 5.17 mi
+android.widget.TableRow@40579658
+android.widget.ImageView@40579b00
+android.widget.TextView: 900 Saint George Avenue
+android.widget.TextView: 5.18 mi
+android.widget.TableRow@4057aad8
+android.widget.ImageView@4057af80
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 5.37 mi
+android.widget.TableRow@4054f5b8
+android.widget.ImageView@4054fa60
+android.widget.TextView: 1818 Victory Boulevard
+android.widget.TextView: 5.37 mi
+android.widget.FrameLayout@40617ec8
+android.widget.ImageView@4057cc00
+android.widget.Button: Filter
+android.widget.LinearLayout@4057e3b0
+android.widget.FrameLayout@4061a160
+android.widget.ImageView@4057f880
+android.widget.Button: Filter
+android.widget.FrameLayout@406243f8
+android.widget.Button: Done
+android.widget.FrameLayout@40625748
+android.widget.ImageView@40580288
+android.widget.TextView: Stores
+android.widget.ImageView@405a7d98
+android.widget.FrameLayout@40633748
+android.widget.ImageView@4061ccf8
+android.widget.TextView: ATMs
+android.widget.ImageView@40621d10

@@ -1,0 +1,44 @@
+android.widget.FrameLayout@406077c8
+android.widget.TabHost@40638588
+android.widget.LinearLayout@4063bf18
+android.widget.LinearLayout@4063c2f0
+android.widget.LinearLayout@40595ad8
+android.widget.ImageView@40595f60
+android.widget.ImageButton@40596188
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@40596eb8
+android.widget.ProgressBar@40597c80
+android.widget.ImageButton@40598450
+android.widget.TabWidget@4063c7b0
+android.widget.LinearLayout@40514b48
+android.widget.ImageView@4056a180
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40619e08
+android.widget.ImageView@4061a408
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@4056fa28
+android.view.View@4060b778
+android.widget.ImageView@4063a068
+android.widget.TextView: Approx Address (within 0.0 meters)
+4944 South Dakota Ave NE
+Washington, District of Columbia 20017
+android.widget.ImageView@4063a978
+com.jazzmoonstudio.android.common.view.CustomViewPager@40569160
+android.support.v4.app.y@4056d240
+android.widget.LinearLayout@40669cf0
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4066a7f0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@4067cfe0
+android.widget.ImageView@405467b0
+android.widget.ImageView@40554148
+android.widget.ImageView@405bb540
+android.widget.TextView: Fort Totten
+android.widget.TextView: Approx: 0.52 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@4057e270
+android.support.v4.app.y@405bf6c8
+android.widget.LinearLayout@4055da38
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@40572098
+android.widget.FrameLayout@40586ca8
+com.millennialmedia.android.MMAdView@40586e00
+android.webkit.WebView@40593190

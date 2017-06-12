@@ -1,0 +1,54 @@
+android.widget.FrameLayout@4056a738
+android.widget.TabHost@40568768
+android.widget.LinearLayout@40568a78
+android.widget.LinearLayout@4057e4b8
+android.widget.LinearLayout@4058a5e8
+android.widget.ImageView@405705d8
+android.widget.ImageButton@40570800
+android.widget.TextView: Nearest Stations
+android.widget.ImageButton@4056c530
+android.widget.ProgressBar@40585e28
+android.widget.ImageButton@405865f8
+android.widget.TabWidget@4057e978
+android.widget.LinearLayout@40599da8
+android.widget.ImageView@40511260
+android.widget.TextView: METRO RAIL
+android.widget.LinearLayout@40580020
+android.widget.ImageView@40580620
+android.widget.TextView: METRO BUS
+android.widget.FrameLayout@40602430
+android.view.View@40596338
+android.widget.ImageView@406026e0
+android.widget.TextView: Approx Address (within 0.0 meters)
+4300 Knox Rd
+College Park, Maryland 20740
+android.widget.ImageView@40638088
+com.jazzmoonstudio.android.common.view.CustomViewPager@406390f8
+android.support.v4.app.y@40561ff8
+android.widget.LinearLayout@4062ec90
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@4062f790
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405a1158
+android.widget.ImageView@405a1368
+android.widget.TextView: College Park-U of MD
+android.widget.TextView: Approx: 0.78 mi
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405a20c8
+android.support.v4.app.y@40577b28
+android.widget.LinearLayout@4055f638
+android.widget.TextView: Your search turned up no results. Either you're too far away or your GPS isn't reporting propertly. Try adjusting the distance setting by pressing menu->settings.
+android.widget.ListView@406078f0
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405a2820
+android.widget.TextView: BALTIMORE AVE + REGENTS DR
+android.widget.TextView: Approx: 0.35 mi.
+android.widget.TextView: Stop ID: 3002115
+Lines: 81,83,86
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405a3f88
+com.jazzmoonstudio.android.common.view.MetroStationListItemView@405a4b40
+android.widget.TextView: BALTIMORE AVE + KNOX RD
+android.widget.TextView: Approx: 0.37 mi.
+android.widget.TextView: Stop ID: 3002099
+Lines: 81,83,86,86v2
+com.jazzmoonstudio.android.common.view.DontPressWithParentImageView@405d7518
+android.widget.FrameLayout@4063c5c8
+com.millennialmedia.android.MMAdView@4060f830
+android.webkit.WebView@40629a38
